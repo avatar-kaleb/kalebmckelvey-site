@@ -36,8 +36,6 @@ export default class MainLayout extends React.Component {
       title = "Contact Me";
     } else if (currentPath === "observations") {
       title = "Observations";
-    } else if (currentPath.includes("posts")) {
-      title = "Article";
     } else if (currentPath.includes("tags")) {
       const tag = currentPath
         .replace("tags", "")
@@ -50,6 +48,8 @@ export default class MainLayout extends React.Component {
         .replace("/", "")
         .replace("-", " ");
       title = `${capitalize(category)}`;
+    } else {
+      title = "Article";
     }
     return title;
   }
