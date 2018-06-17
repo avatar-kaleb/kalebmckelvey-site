@@ -4,6 +4,12 @@ import Portfolio from "../../components/Portfolio/Portfolio";
 import config from "../../../data/SiteConfig";
 
 class PortfolioPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { data: props.data };
+    console.log(this.state.data);
+  }
+
   render() {
     return (
       <div className="">
@@ -14,10 +20,27 @@ class PortfolioPage extends Component {
             href={`${config.siteUrl}/professional/portfolio/`}
           />
         </Helmet>
-        <Portfolio />
+        <Portfolio images={this.state.data.allImageSharp.edges} />
       </div>
     );
   }
 }
 
 export default PortfolioPage;
+
+/* eslint no-undef: "off" */
+export const portfolioImagesQuery = graphql`
+  query portfolioImagesQuery {
+    allImageSharp {
+      edges {
+        node {
+          ... on ImageSharp {
+            sizes(maxWidth: 800) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+      }
+    }
+  }
+`;

@@ -43,12 +43,6 @@ function GetNavList(config) {
         activeClassName: "md-text-active--theme-primary"
       },
       {
-        primaryText: "Resume",
-        leftIcon: <FontIcon>file_copy</FontIcon>,
-        component: Link,
-        to: "/professional/resume/"
-      },
-      {
         primaryText: "Services",
         leftIcon: <FontIcon>work</FontIcon>,
         component: Link,
@@ -64,6 +58,7 @@ function GetNavList(config) {
   NavList.push({
     primaryText: "Journey to Achieve",
     expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+    nestedListClassName: "drawer-nav-nested-list-item",
     nestedItems: [
       {
         primaryText: "About the Journey",
@@ -77,12 +72,12 @@ function GetNavList(config) {
         component: Link,
         to: "/journey-to-achieve/core-fundamentals/"
       },
-      {
-        primaryText: "Scholarship",
-        leftIcon: <FontIcon>school</FontIcon>,
-        component: Link,
-        to: "/journey-to-achieve/scholarship/"
-      },
+      // {
+      //   primaryText: "Scholarship",
+      //   leftIcon: <FontIcon>school</FontIcon>,
+      //   component: Link,
+      //   to: "/journey-to-achieve/scholarship/"
+      // },
       {
         divider: true
       }
@@ -92,25 +87,25 @@ function GetNavList(config) {
   // Resources
   NavList.push({
     primaryText: "Resources",
-    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedItems: [
-      {
-        primaryText: "Development",
-        leftIcon: <FontIcon>developer_mode</FontIcon>,
-        component: Link,
-        to: "/resources/development"
-      },
-      {
-        primaryText: "Life",
-        leftIcon: <FontIcon>notes</FontIcon>,
-        component: Link,
-        to: "/resources/life"
-      },
-      {
-        divider: true
-      }
-    ]
+    component: Link,
+    to: "/resources"
   });
+  // expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+  // nestedListClassName: "drawer-nav-nested-list-item",
+  // nestedItems: [
+  // {
+  //   primaryText: "Development",
+  //   leftIcon: <FontIcon>developer_mode</FontIcon>,
+  //   component: Link,
+  //   to: "/resources/development"
+  // },
+  // {
+  //   primaryText: "Life",
+  //   leftIcon: <FontIcon>notes</FontIcon>,
+  //   component: Link,
+  //   to: "/resources/life"
+  // },
+  // ]);
 
   // contact and observations
   NavList.push(

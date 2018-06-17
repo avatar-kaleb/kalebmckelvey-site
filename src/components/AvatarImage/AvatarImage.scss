@@ -1,0 +1,11 @@
+.avatarImage-wrapper {
+  @import "../../../node_modules/animate.css/animate.min.css";
+
+  img {
+    padding: 1em;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 90%;
+  }
+}

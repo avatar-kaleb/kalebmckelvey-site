@@ -1,0 +1,17 @@
+// get main colors
+@import "../../layouts/theme.scss";
+
+.signupForm-wrapper {
+  .signupForm-form--border {
+    border: 1px solid $md-grey-400;
+    border-radius: 5px;
+  }
+
+  .signupForm--button--mt {
+    margin-top: 15px;
+  }
+
+  .signupForm-p--mb {
+    margin-bottom: 0px;
+  }
+}

@@ -1,7 +1,12 @@
 @import "~react-md/src/scss/react-md";
 $md-primary-color: $md-blue-900;
+$md-primary-color-light: #5471d2;
+$md-primary-color-dark: #002071;
 $md-secondary-color: $md-amber-900;
+$md-secondary-color-light: #ff9d3f;
+$md-secondary-color-dark: #b53d00;
 $md-tertiary-color: $md-grey-300;
+$md-light-grey: $md-grey-100;
 
 .main-container,
 .darker-background {
