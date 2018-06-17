@@ -59,7 +59,7 @@ class SignupForm extends Component {
       });
   };
 
-  _handleFormSubmit = async e => {
+  _handleFormSubmit = e => {
     e.preventDefault();
     e.stopPropagation();
 
