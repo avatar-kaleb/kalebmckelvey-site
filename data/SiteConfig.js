@@ -8,31 +8,36 @@ module.exports = {
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
+  siteFBAppID: "", // FB Application ID for using app insights
+  siteGATrackingID: "UA-87265682-1", // Tracking code ID for google analytics.
+  disqusShortname: "https-kalebmckelvey-xyz", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Kaleb McKelvey", // Username to display in the author segment.
   userTwitter: "KalebMckelvey", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Greater Milwaukee Area", // User location to display in the author segment.
   userAvatar: "../src/images/Contact-Headshot.jpg", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
-      iconClassName: "fa fa-github"
+      label: "Bitbucket",
+      url: "https://bitbucket.org/avatar-kaleb/",
+      iconClassName: "fa fa-bitbucket"
+    },
+    {
+      label: "Instagram",
+      url: "https://instagram.com/on_the_journey3",
+      iconClassName: "fa fa-instagram"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/KalebMcKelvey",
       iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:kalebmckelvey3@gmail.com",
       iconClassName: "fa fa-envelope"
     }
   ],

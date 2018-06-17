@@ -20,12 +20,22 @@ export default class MainLayout extends React.Component {
     let title = "";
     if (currentPath === "") {
       title = "Home";
-    } else if (currentPath === "tags") {
-      title = "Tags";
     } else if (currentPath === "categories") {
       title = "Categories";
-    } else if (currentPath === "about") {
-      title = "About";
+    } else if (currentPath === "about-me") {
+      title = "About Me";
+    } else if (currentPath === "professionalportfolio") {
+      title = "My Portfolio";
+    } else if (currentPath === "journey-to-achieveabout-the-journey") {
+      title = "About the Journey";
+    } else if (currentPath === "journey-to-achievecore-fundamentals") {
+      title = "Core Fundamentals";
+    } else if (currentPath === "resources") {
+      title = "Resources";
+    } else if (currentPath === "contact-me") {
+      title = "Contact Me";
+    } else if (currentPath === "observations") {
+      title = "Observations";
     } else if (currentPath.includes("posts")) {
       title = "Article";
     } else if (currentPath.includes("tags")) {
@@ -49,7 +59,11 @@ export default class MainLayout extends React.Component {
       <Navigation config={config} LocalTitle={this.getLocalTitle()}>
         <div>
           <Helmet>
-            <meta htmlAttributes="{ lang: 'en', class: 'custom-theme'}" name="description" content={config.siteDescription} />
+            <meta
+              htmlAttributes="{ lang: 'en', class: 'custom-theme'}"
+              name="description"
+              content={config.siteDescription}
+            />
           </Helmet>
           {children()}
         </div>
