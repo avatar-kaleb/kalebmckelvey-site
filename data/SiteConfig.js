@@ -15,7 +15,7 @@ module.exports = {
   userName: "Kaleb McKelvey", // Username to display in the author segment.
   userTwitter: "KalebMckelvey", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Greater Milwaukee Area", // User location to display in the author segment.
-  userAvatar: "../src/images/Contact-Headshot.jpg", // User avatar to display in the author segment.
+  userAvatar: "/Contact-Headshot.jpg", // User avatar to display in the author segment.
   userDescription:
     "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.

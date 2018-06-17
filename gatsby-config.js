@@ -59,7 +59,7 @@ module.exports = {
         color: "#c62828"
       }
     },
-    `gatsby-plugin-sharp`,
+    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
