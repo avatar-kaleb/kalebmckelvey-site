@@ -107,7 +107,7 @@ class Portfolio extends Component {
     });
     return (
       <div>
-        <GridList className="portfolio-container" size={6}>
+        <GridList className="portfolio-container" desktopSize={6} tabletSize={8} position="center" align="center">
           {rows}
         </GridList>
       </div>

@@ -60,8 +60,8 @@ class Observations extends Component {
               We will quickly call a company after their product breaks before
               the guarantee, but what do you do when you break your own
               warranties?
-              <hr />
             </p>
+            <hr />
             <p>
               #3{" "}
               <a
@@ -75,8 +75,8 @@ class Observations extends Component {
             <p>
               This article has changed my perspective on the world - what an
               incredible view and honest article.
-              <hr />
             </p>
+            <hr />
             <p>
               {" "}
               #4{" "}

@@ -33,8 +33,11 @@ class ContactMe extends Component {
               </a>!
             </p>
             <p>Looking forward to hearing from you - best wishes!</p>
+
+            <div className="hide-on-mobile">
             <br /> <hr /> <br />
-            <SignupForm />
+              <SignupForm />
+            </div>
           </section>
         </Paper>
       </div>

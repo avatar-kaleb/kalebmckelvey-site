@@ -9,7 +9,10 @@
 
   .contactMe-img {
     border-radius: 5px;
-    margin-left: 1em;
+
+    @media (min-width: 768px) {
+      margin-left: 1em;
+    }
 
     @media (max-width: 360px - 1px) {
       padding: 20px;
@@ -22,6 +25,12 @@
 
     @media (max-width: 360px - 1px) {
       margin: 5px 0 !important;
+    }
+  }
+
+  .hide-on-mobile {
+    @media (max-width: 800px) and (min-width: 415px) {
+        display: none;
     }
   }
 }

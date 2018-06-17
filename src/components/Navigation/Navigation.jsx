@@ -11,14 +11,14 @@ class Navigation extends Component {
     const footerLinks = LocalTitle !== "About";
     return (
       <NavigationDrawer
-        drawerTitle={config.siteTitle}
-        toolbarTitle={LocalTitle}
         contentClassName="main-content"
-        navItems={GetNavList(config)}
-        mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
+        drawerTitle={config.siteTitle}
+        mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
+        navItems={GetNavList(config)}
+        tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         toolbarActions={<ToolbarActions config={config} />}
+        toolbarTitle={LocalTitle}
       >
         <div className="main-container">{children}</div>
         <Footer userLinks={footerLinks} />

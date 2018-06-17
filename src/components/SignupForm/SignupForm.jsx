@@ -8,8 +8,8 @@ import debounce from "lodash/debounce";
 import "./SignupForm.scss";
 
 class SignupForm extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       firstName: ``,
       lastName: "",

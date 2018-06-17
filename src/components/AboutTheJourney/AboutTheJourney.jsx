@@ -25,7 +25,7 @@ class AboutTheJourney extends Component {
               alt="A white male with a black tuxedo on in a nature setting."
             />
             <MediaOverlay>
-              <CardTitle subtitle="This image and site is not endorsed by Kappa Alpha Psi Fraternity in any way." />
+              <CardTitle title="Kappa Knight" subtitle="This image and site is not endorsed by Kappa Alpha Psi Fraternity in any way." />
             </MediaOverlay>
           </Media>
           <CardText>

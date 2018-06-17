@@ -7,7 +7,6 @@ class PortfolioPage extends Component {
   constructor(props) {
     super(props);
     this.state = { data: props.data };
-    console.log(this.state.data);
   }
 
   render() {

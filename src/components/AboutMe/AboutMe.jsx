@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
-// import UserLinks from "../UserLinks/UserLinks";
 import kalebWelcomeImage from "../../images/AboutMe-WeddingPic.jpg";
 import "./AboutMe.scss";
 
