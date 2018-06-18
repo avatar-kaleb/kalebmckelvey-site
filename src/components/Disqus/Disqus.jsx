@@ -33,7 +33,9 @@ class Disqus extends Component {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = config.siteUrl + config.pathPrefix + postNode.fields.slug;
+    const url = `${config.siteUrl}${
+      config.pathPrefix !== "/" ? config.pathPrefix : ""
+    }${postNode.fields.slug}`;
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
