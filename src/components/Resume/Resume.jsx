@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
-// import { Document } from "react-pdf";
-// import CardText from "react-md/lib/Cards/CardText";
-// import UserLinks from "../UserLinks/UserLinks";
-// import config from "../../../data/SiteConfig";
-import resumePdf from "../../documents/KalebMcKelveyResume.pdf";
 import "./Resume.scss";
 
 class Resume extends Component {
