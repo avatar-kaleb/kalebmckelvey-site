@@ -51,6 +51,12 @@ class Home extends Component {
             <p>
               <strong>Join me</strong> on the road to achievement as we make a
               positive impact on the world together!!
+              <br />
+              <br />
+              <em>
+                The site is still in transition phase, please excuse any links I
+                missed. More updates coming soon!
+              </em>
             </p>
           </Cell>
         </Paper>
