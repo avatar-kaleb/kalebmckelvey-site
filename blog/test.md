@@ -8,3 +8,5 @@ tags:
   - test2
 ---
 test
+
+![test](/post-images/observations-austriapic.jpg)
