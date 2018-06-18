@@ -10,7 +10,7 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-87265682-1", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
+  disqusShortname: "kalebmckelvey-com", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Kaleb McKelvey", // Username to display in the author segment.
   userTwitter: "KalebMckelvey", // Optionally renders "Follow Me" in the UserInfo segment.
