@@ -5,5 +5,6 @@ title: test
 category: test
 tags:
   - test
+  - test2
 ---
 test
