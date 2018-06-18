@@ -11,7 +11,7 @@ tags:
 
 # Welcome!
 
-Hi there - welcome to my new personal site. It is super fast, offers offline viewing, includes updates from my Software Engineering journey and life!
+Hi there - welcome to my new personal site. It is super fast, offers offline viewing, and includes updates from my Software Engineering journey and life!
 
 Enjoy!
 
@@ -25,13 +25,15 @@ Here are a few other reasons why I decided to change up my platform.
 
 My old site design was created using WordPress, and on the first load of the home page, readers were required to wait 12 seconds. That just didn't do for me.
 
-I went with a static site generator to change that, with load times under 3 seconds at a max.
+I went with a static site generator to change that, with load times under 3 seconds with my testing so far.
+
+Over the next few weeks as I learn even more about Gatsby, this will continue to improve!
 
 ### React & Gatsby
 
-We currently use Polymer as our javascript library of choice with Predix at work, with some teams using VueJs as well. With a desire to keep my skillset growing, React with a static site generator made sense.
+We currently use Polymer as our javascript library of choice with Predix at work, while some teams use VueJs instead. With a desire to keep my skillset growing, React with a static site generator made sense as my intro into the most popular library to date.
 
-This will give me experience with Markdown, React, and the generator - three important skillsets with a web dev career at the moment.
+This site will give me experience with Markdown, React, and static site generators - three important skillsets with a web dev career at the moment.
 
 [Gatsby](https://www.gatsbyjs.org/) has many quick and easy starter packers, and for a small blog / portfolio site like mine the limitations it has won't bother me.
 
@@ -49,6 +51,10 @@ Well not anymore! Thanks to being a little tech savvy, I won't be needing the Wo
 
 Gatsby and [Netlify](https://netlify.com) offer generous free tiers, and my site will be ran for free from now on 🚀.
 
+### Markdown and Netlify CMS
+
+I plan on integrating the site with the open source Netlify CMS in the future, letting me post easier (or thats the plan anyways 😃).
+
 ## What's next?
 
 We're only at the beginning!
@@ -58,6 +64,8 @@ We're only at the beginning!
 For my initial migration and site launch, I decided to start with the main content and pages, then move on to blog posts.
 
 I only have ~30 posts from the past, so I'll gradually be moving them over one at a time.
+
+This will require some tinkering with Gatsby and Netlify CMS (or Contentful), so more to come here!
 
 ### New Pages
 
