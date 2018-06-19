@@ -11,7 +11,7 @@ class DevelopmentResources extends Component {
   render() {
     return (
       <div className="developmentResources-container md-grid mobile-fix">
-        <Card className="md-cell md-cell--7 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--7 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               src={codeImage}

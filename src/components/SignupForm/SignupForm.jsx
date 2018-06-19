@@ -84,7 +84,7 @@ class SignupForm extends Component {
             Success! Thank you for signing up!
           </p>
         ) : (
-          <div>
+          <div className="animated fadeInRight">
             <p className="signupForm-p--mb">
               Want to stay updated on new posts? Subscribe below!
             </p>

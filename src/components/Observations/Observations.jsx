@@ -14,7 +14,7 @@ class Observations extends Component {
   render() {
     return (
       <div className="observations-container md-grid mobile-fix">
-        <Card className="md-cell md-cell--8 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               src={inspirationalImage}

@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: kmckelvey3/kalebmckelvey-dev
+
+media_folder: static/post-images
+public_folder: post-images
+
+display_url: https://ecstatic-carson-9a7173.netlify.com
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: cover, label: "Cover Image", widget: image }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: category, label: Category }
+      - { name: tags, label: Tags, widget: list }
+      - { name: body, label: Body, widget: markdown }

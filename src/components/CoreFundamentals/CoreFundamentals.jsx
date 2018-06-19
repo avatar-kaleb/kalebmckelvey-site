@@ -12,7 +12,7 @@ class CoreFundamentals extends Component {
   render() {
     return (
       <div className="coreFundamentals-wrapper md-grid mobile-fix">
-        <Card className="md-cell md-cell--8 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               src={inspirationalImage}
@@ -25,11 +25,11 @@ class CoreFundamentals extends Component {
               journey towards achieving anything we want in life! Learn about
               where these fundamentals will take you by checking out{" "}
               <a
-                href="https://kalebmckelvey.xyz/journey-to-achieve/"
+                href="https://kalebmckelvey.com/journey-to-achieve/about-the-journey/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The Journey to Achieve page
+                About the Journey
               </a>.
             </p>
             <p>
@@ -38,18 +38,12 @@ class CoreFundamentals extends Component {
                 are developed and each will be written about in the future.
               </em>
             </p>
-            <h1>
-              The 6 Core{" "}
-              <a href="https://www.kalebmckelvey.xyz/tag/fundamental/">
-                Fundamentals
-              </a>{" "}
-              of Achievement
-            </h1>
+            <h1>The 6 Core Fundamentals of Achievement</h1>
             <h3>1. Character Traits</h3>
             <ul>
               <li>
                 <a
-                  href="https://kalebmckelvey.xyz/tag/integrity/"
+                  href="https://kalebmckelvey.com/tags/integrity/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -67,7 +61,7 @@ class CoreFundamentals extends Component {
             <h3>2. Independent Thinking</h3>
             <ul>
               <li>
-                <a href="https://kalebmckelvey.xyz/tag/mental-models/">
+                <a href="https://kalebmckelvey.com/tags/mental-models/">
                   Mental models
                 </a>
               </li>
@@ -88,7 +82,7 @@ class CoreFundamentals extends Component {
                 <ul>
                   <li>
                     <a
-                      href="https://kalebmckelvey.xyz/journey_to_achieve/how-bad-do-you-want-to-achieve/"
+                      href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve/"
                       target="_blank"
                       rel="noopener"
                     >
@@ -97,7 +91,7 @@ class CoreFundamentals extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://kalebmckelvey.xyz/journey_to_achieve/live-each-day-with-purpose/"
+                      href="https://kalebmckelvey.com/live-each-day-with-purpose/"
                       target="_blank"
                       rel="noopener"
                     >
@@ -117,7 +111,7 @@ class CoreFundamentals extends Component {
             <ul>
               <li>
                 <a
-                  href="https://kalebmckelvey.xyz/tag/friendship/"
+                  href="https://kalebmckelvey.com/tags/friendship/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -128,12 +122,6 @@ class CoreFundamentals extends Component {
             </ul>
             <hr />
             <p>Thank you for checking out the core fundamentals!</p>
-            <p>
-              <em>
-                If you're interested in getting these post into your inbox,
-                subscribe on the right!
-              </em>
-            </p>
           </CardText>
         </Card>
       </div>

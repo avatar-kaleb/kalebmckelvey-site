@@ -34,7 +34,7 @@ export const portfolioImagesQuery = graphql`
       edges {
         node {
           ... on ImageSharp {
-            sizes(maxWidth: 800) {
+            sizes(maxWidth: 800, maxHeight: 400) {
               ...GatsbyImageSharpSizes
             }
           }

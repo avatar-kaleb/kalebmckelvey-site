@@ -12,7 +12,7 @@ class LifeResources extends Component {
   render() {
     return (
       <div className="lifeResources-container md-grid mobile-fix">
-        <Card className="md-cell md-cell--8 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               src={chalkboardImage}
@@ -439,7 +439,7 @@ class LifeResources extends Component {
                 </a>
                 <ul>
                   <li>
-                    <a href="https://kalebmckelvey.xyz/journey_to_achieve/insights-from-joshua-kennons-blog/">
+                    <a href="https://kalebmckelvey.com/insights-from-joshua-kennons-blog/">
                       Insights From Reading 769+ Joshua Kennon Blog Posts!
                     </a>
                   </li>

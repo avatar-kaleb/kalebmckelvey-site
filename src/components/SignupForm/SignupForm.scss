@@ -1,7 +1,6 @@
-// get main colors
-@import "../../layouts/theme.scss";
-
 .signupForm-wrapper {
+  @import "../../layouts/theme.scss";
+  @import "../../../node_modules/animate.css/animate.min.css";
   .signupForm-form--border {
     border: 1px solid $md-grey-400;
     border-radius: 5px;

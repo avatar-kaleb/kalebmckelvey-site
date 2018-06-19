@@ -18,14 +18,17 @@ class AboutTheJourney extends Component {
   render() {
     return (
       <div className="aboutTheJourney-wrapper md-grid mobile-fix">
-        <Card className="md-cell md-cell--8 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               src={kappaKnightImage}
               alt="A white male with a black tuxedo on in a nature setting."
             />
             <MediaOverlay>
-              <CardTitle title="Kappa Knight" subtitle="This image and site is not endorsed by Kappa Alpha Psi Fraternity in any way." />
+              <CardTitle
+                title="Kappa Knight"
+                subtitle="This image and site is not endorsed by Kappa Alpha Psi Fraternity in any way."
+              />
             </MediaOverlay>
           </Media>
           <CardText>
@@ -101,7 +104,7 @@ class AboutTheJourney extends Component {
             <p>
               <strong>First</strong> -&gt; check out the{" "}
               <a
-                href="https://kalebmckelvey.xyz/journey-to-achieve/core-fundamentals/"
+                href="https://kalebmckelvey.com/journey-to-achieve/core-fundamentals/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,7 +115,7 @@ class AboutTheJourney extends Component {
               <br />
               <strong>Second</strong> -&gt; head over to{" "}
               <a
-                href="https://kalebmckelvey.xyz/category/journey_to_achieve/"
+                href="https://kalebmckelvey.com/tags/journey-to-achieve/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -123,11 +126,11 @@ class AboutTheJourney extends Component {
               <br />
               <strong>Third </strong>-&gt; begin utilizing the tools in{" "}
               <a
-                href="https://kalebmckelvey.xyz/journey-to-achieve/toolbox/"
+                href="https://kalebmckelvey.com/resources"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The Journey to Achieve Toolbox
+                Life Resources Page
               </a>
             </p>
             <hr />

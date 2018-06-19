@@ -13,7 +13,7 @@ class Services extends Component {
   render() {
     return (
       <div className="services-container md-grid mobile-fix">
-        <Card className="md-grid md-cell--8" title="WordPress">
+        <Card raise className="md-grid md-cell--8" title="WordPress">
           <CardTitle
             title="Service Offerings"
             subtitle="Clean, modern, responsive"

@@ -106,11 +106,14 @@ class Portfolio extends Component {
       );
     });
     return (
-      <div>
-        <GridList className="portfolio-container" desktopSize={6} tabletSize={8} position="center" align="middle">
-          {rows}
-        </GridList>
-      </div>
+      <GridList
+        className="portfolio-container"
+        desktopSize={6}
+        tabletSize={8}
+        position="center"
+      >
+        {rows}
+      </GridList>
     );
   }
 }

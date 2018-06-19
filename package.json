@@ -1,5 +1,5 @@
 {
-  "name": "KalebMcKelvey",
+  "name": "kaleb-mckelvey-site",
   "description": "GatsbyJS Material Blog theme.",
   "version": "1.1.0",
   "author": "Kaleb McKelvey",
@@ -15,6 +15,7 @@
     "gatsby-plugin-google-analytics": "^1.0.14",
     "gatsby-plugin-mailchimp": "^2.2.3",
     "gatsby-plugin-manifest": "^1.0.12",
+    "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-nprogress": "^1.0.9",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-react-helmet": "^2.0.3",
