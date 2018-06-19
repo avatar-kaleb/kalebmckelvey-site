@@ -46,7 +46,8 @@ It is the little things that make us that much better in our life. Make it a goa
 
 ### Use Mantras
 
-Background information:** <http://www.theyogasanctuary.net/tips-mantras.html>** 
+Background information:
+<http://www.theyogasanctuary.net/tips-mantras.html>
 
 Mantras are simple and powerful statements used for daily renewal of one’s character and goals. 
 
