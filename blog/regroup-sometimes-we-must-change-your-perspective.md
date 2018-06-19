@@ -1,6 +1,6 @@
 ---
 cover: /post-images/regrouping-is-hard-1024x683.jpeg
-date: '2018-06-19'
+date: '2015-09-19'
 title: Regroup - Sometimes We Must - Change Your Perspective!
 category: Mindset
 tags:
