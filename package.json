@@ -6,6 +6,7 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "babel-plugin-lodash": "^3.3.2",
+    "disqus-react": "^1.0.5",
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.149",
     "gatsby-image": "^1.0.53",
@@ -61,7 +62,9 @@
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -78,6 +81,8 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }

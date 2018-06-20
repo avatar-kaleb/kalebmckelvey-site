@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import ReactDisqusComments from "react-disqus-comments";
+// import ReactDisqusComments from "react-disqus-comments";
+import { DiscussionEmbed } from "disqus-react";
+
 import Card from "react-md/lib/Cards/Card";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import CardText from "react-md/lib/Cards/CardText";
@@ -28,6 +30,8 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
+    console.log("tes");
+    console.log("config", config);
     const { postNode, expanded } = this.props;
     if (!config.disqusShortname) {
       return null;
@@ -36,6 +40,12 @@ class Disqus extends Component {
     const url = `${config.siteUrl}${
       config.pathPrefix !== "/" ? config.pathPrefix : ""
     }${postNode.fields.slug}`;
+
+    const disqusConfig = {
+      identifier: post.id,
+      title: post.git title
+    };
+
     return (
       <Card className="md-grid md-cell md-cell--12">
         <CardTitle
@@ -44,14 +54,19 @@ class Disqus extends Component {
           expander={!expanded}
         />
         <CardText expandable={!expanded}>
-          <ReactDisqusComments
+          <DiscussionEmbed
+            shortname={config.disqusShortname}
+            config={disqusConfig}
+          />
+
+          {/* <ReactDisqusComments
             shortname={config.disqusShortname}
             identifier={post.title}
             title={post.title}
             url={url}
             category_id={post.category_id}
             onNewComment={this.notifyAboutComment}
-          />
+          /> */}
         </CardText>
         <Snackbar
           toasts={this.state.toasts}
