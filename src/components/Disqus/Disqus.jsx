@@ -43,7 +43,7 @@ class Disqus extends Component {
 
     const disqusConfig = {
       identifier: post.id,
-      title: post.git title
+      title: post.title
     };
 
     return (
