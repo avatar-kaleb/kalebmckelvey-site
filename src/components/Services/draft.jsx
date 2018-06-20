@@ -1,12 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from "../../../node_modules/@types/react/index";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import ExpansionPanel from "react-md/lib/ExpansionPanels/ExpansionPanel";
 import ExpansionList from "react-md/lib/ExpansionPanels/ExpansionList";
-// import CardText from "react-md/lib/Cards/CardText";
-// import UserLinks from "../UserLinks/UserLinks";
-// import config from "../../../data/SiteConfig";
 import "./Services.scss";
 
 class Services extends Component {

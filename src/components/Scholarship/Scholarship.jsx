@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
-
-// import CardText from "react-md/lib/Cards/CardText";
-// import config from "../../../data/SiteConfig";
 import "./Scholarship.scss";
 
 class Scholarship extends Component {

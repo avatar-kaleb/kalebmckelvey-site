@@ -4,8 +4,6 @@ import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
 import chalkboardImage from "../../images/LifeResources - Chalkboard.jpeg";
 
-// import CardText from "react-md/lib/Cards/CardText";
-// import config from "../../../data/SiteConfig";
 import "./LifeResources.scss";
 
 class LifeResources extends Component {

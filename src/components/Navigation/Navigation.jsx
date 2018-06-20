@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavigationDrawer from "react-md/lib/NavigationDrawers";
+import NavigationDrawer from "react-md/lib/NavigationDrawers/NavigationDrawer";
 import ToolbarActions from "../ToolbarActions/ToolbarActions";
 import Footer from "../Footer/Footer";
 import GetNavList from "./NavList";
