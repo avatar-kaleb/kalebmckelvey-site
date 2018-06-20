@@ -37,7 +37,6 @@
     "marked": "^0.4.0",
     "netlify-cms": "^1.9.2",
     "react": "^16.3.1",
-    "react-disqus-comments": "^1.1.1",
     "react-dom": "^16.3.1",
     "react-helmet": "^5.2.0",
     "react-md": "^1.2.9",
@@ -62,9 +61,7 @@
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -81,8 +78,6 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-recommended"
-    ]
+    "plugins": ["remark-preset-lint-recommended"]
   }
 }
