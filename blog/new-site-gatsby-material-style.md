@@ -52,7 +52,9 @@ Gatsby and [Netlify](https://netlify.com) offer generous free tiers, and my site
 
 ### Markdown and Netlify CMS
 
-I plan on integrating the site with the open source Netlify CMS in the future, letting me post easier (or thats the plan anyways 😃).
+I will be writing blog posts utilizing the Netlify CMS that easily integrates with Gatsby, while utilizing Markdown for new articles!
+
+It all just works!!
 
 ## What's next?
 
