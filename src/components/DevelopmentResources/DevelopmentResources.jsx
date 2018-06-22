@@ -3,8 +3,9 @@ import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
 import codeImage from "../../images/DevResources-Code.jpeg";
-// import CardText from "react-md/lib/Cards/CardText";
-// import config from "../../../data/SiteConfig";
+import ResourcesData from "../../../data/ResourceData";
+import ResourcesList from "../ResourcesList/ResourcesList";
+
 import "./DevelopmentResources.scss";
 
 class DevelopmentResources extends Component {
@@ -25,7 +26,8 @@ class DevelopmentResources extends Component {
                 process.
               </em>
             </p>
-            <p>I will be adding progressively as time allows.</p>
+            {/* <ResourcesList resources={ResourcesData} type="dev" /> */}
+            <p>I will be adding progressively as time allows - stay tuned!</p>
           </CardText>
         </Card>
       </div>
