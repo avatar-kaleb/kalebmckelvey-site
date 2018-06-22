@@ -1,35 +1,36 @@
-@import '../../layouts/theme.scss';
+@import "../../layouts/theme.scss";
 
 .post-suggestions {
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+
+  .hide-on-mobile {
+    @media (max-width: 360px - 1px) {
+      display: none;
+    }
+  }
+
+  .post-suggestion {
     display: flex;
-    flex-wrap: nowrap !important;
-    justify-content: space-between;
-    background-color: darken($md-tertiary-color, 5%);
+    align-items: center;
+    margin: 0 0px;
+    color: $md-secondary-color !important;
 
-    .hide-on-mobile {
-        @media (max-width: 360px - 1px) {
-            display: none;
-        }
+    .headline-container {
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 1em;
     }
 
-    .post-suggestion {
-        display: flex;
-        align-items: center;
-        margin: 0 0px;
-        color: $md-secondary-color !important;
-
-        .headline-container {
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-top: 1em;
-        }
-
-        .arrow-nav {
-            // margin-top: 15px;
-        }
+    .arrow-nav {
+      // margin-top: 15px;
     }
+  }
 
-    .secondary-color {
-        color: $md-secondary-color !important;
-    }
+  .secondary-color {
+    color: $md-secondary-color !important;
+  }
 }
