@@ -4,17 +4,24 @@ import PostPreview from "../PostPreview/PostPreview";
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
-    this.props.postEdges.forEach(postEdge => {
+    // this.props.postEdges.forEach((postEdge, index) => {
+    for (let index = 0; index < this.props.postEdges.length; index++) {
+      const element = this.props.postEdges[index];
       postList.push({
-        path: postEdge.node.fields.slug,
-        tags: postEdge.node.frontmatter.tags,
-        cover: postEdge.node.frontmatter.cover,
-        title: postEdge.node.frontmatter.title,
-        date: postEdge.node.frontmatter.date,
-        excerpt: postEdge.node.excerpt,
-        timeToRead: postEdge.node.timeToRead
+        path: element.node.fields.slug,
+        tags: element.node.frontmatter.tags,
+        cover: element.node.frontmatter.cover,
+        title: element.node.frontmatter.title,
+        date: element.node.frontmatter.date,
+        excerpt: element.node.excerpt,
+        timeToRead: element.node.timeToRead
       });
-    });
+
+      if (index > 10) {
+        console.log("breaking");
+        break;
+      }
+    }
     return postList;
   }
   render() {
