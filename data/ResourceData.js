@@ -16,7 +16,7 @@ module.exports = {
               link:
                 "https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2",
               description: "Developed by Wes Bos"
-            }
+            },
           ]
         }
       ]
@@ -173,7 +173,7 @@ module.exports = {
             {
               name: "The Millionaire Next Door",
               link:
-                "https://dukeofdollars.com/building-wealth/millionaire-next-door-review/"
+                "https://www.dukeofdollars.com/building-wealth/millionaire-next-door-review/"
             },
             {
               name: "Unshakeable",

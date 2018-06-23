@@ -9,6 +9,7 @@ const ResourcesList = ({ resources, type }) => (
       <div key={resource.category}>
         <CategoryTitle category={resource.category} />
         <SubcategoryList subcategories={resource.subcategories} />
+        <br />
       </div>
     ))}
   </div>

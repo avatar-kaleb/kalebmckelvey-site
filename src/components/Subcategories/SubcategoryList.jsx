@@ -1,21 +1,23 @@
 import React from "react";
 
+import { ExpansionList, ExpansionPanel } from "react-md";
+
 import SubcategoryResourceList from "./SubcategoryResourceList";
 import SubcategoryTitle from "./SubcategoryTitle";
 
 const SubcategoryList = ({ subcategories }) => (
-  <div>
+  <ExpansionList>
     {subcategories.map((subcategory, index) => (
       <div key={index}>
-        <SubcategoryTitle subcategoryTitle={subcategory.name} />
-        <SubcategoryResourceList
-          label={subcategory.name}
-          resources={subcategory.resources}
-        />
-        <hr />
+        <ExpansionPanel label={subcategory.name} footer={null}>
+          <SubcategoryResourceList
+            label={subcategory.name}
+            resources={subcategory.resources}
+          />
+        </ExpansionPanel>
       </div>
     ))}
-  </div>
+  </ExpansionList>
 );
 
 export default SubcategoryList;

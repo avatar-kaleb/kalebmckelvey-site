@@ -26,7 +26,6 @@ class CoreFundamentals extends Component {
               where these fundamentals will take you by checking out{" "}
               <a
                 href="https://kalebmckelvey.com/journey-to-achieve/about-the-journey/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 About the Journey
@@ -44,7 +43,6 @@ class CoreFundamentals extends Component {
               <li>
                 <a
                   href="https://kalebmckelvey.com/tags/integrity/"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Integrity
@@ -83,7 +81,6 @@ class CoreFundamentals extends Component {
                   <li>
                     <a
                       href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve/"
-                      target="_blank"
                       rel="noopener"
                     >
                       How Bad Do You Want to Achieve?
@@ -92,7 +89,6 @@ class CoreFundamentals extends Component {
                   <li>
                     <a
                       href="https://kalebmckelvey.com/live-each-day-with-purpose/"
-                      target="_blank"
                       rel="noopener"
                     >
                       Make Each Day Matter
@@ -112,7 +108,6 @@ class CoreFundamentals extends Component {
               <li>
                 <a
                   href="https://kalebmckelvey.com/tags/friendship/"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Friendships
