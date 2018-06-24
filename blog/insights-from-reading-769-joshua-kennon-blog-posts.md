@@ -27,7 +27,7 @@ I look forward to new posts that Mr. Kennon or his husband write, in the mean ti
 *   **Case studies**
     *   Who would have though that [Dolly Parton demonstrates many key values of a successful investor](https://www.joshuakennon.com/dolly-parton/)? Joshua has case studies on investors like Charlie Munger or Peter Lynch. Histories of businesses like Johnson and Johnson or Colgate-Palmolive. Even on working citizens [leaving behind 8 million dollars ](https://www.joshuakennon.com/janitor-ronald-read-leaves-behind-8000000-secret-fortune/)
 *   **Learn from mistakes**
-    *   [GT Advanced Technologies went bankrupt](https://www.joshuakennon.com/gt-advanced-technologies-bankruptcy/) \- causing many to lose their entire net worth. Lessons from those who lived and learned; teaching us in the process. Mistakes happen, it is part of life. [Warren Buffet sold Disney shares and lost upwards of 12 billion dollars](https://www.joshuakennon.com/warren-buffetts-12-billion-disney-mistake/) of opportunity for Berkshire. He didn't give up or quit, instead [learn from mistakes](https://kalebmckelvey.xyz/journey_to_achieve/moving-is-an-adventure/) to grow a little wiser and move an inch closer to your purpose each day.
+    *   [GT Advanced Technologies went bankrupt](https://www.joshuakennon.com/gt-advanced-technologies-bankruptcy/) \- causing many to lose their entire net worth. Lessons from those who lived and learned; teaching us in the process. Mistakes happen, it is part of life. [Warren Buffet sold Disney shares and lost upwards of 12 billion dollars](https://www.joshuakennon.com/warren-buffetts-12-billion-disney-mistake/) of opportunity for Berkshire. He didn't give up or quit, instead [learn from mistakes](https://www.kalebmckelvey.com/moving-is-an-adventure-one-full-of-mistakes-and-growth) to grow a little wiser and move an inch closer to your purpose each day.
 *   **Role Models**
     *   Idolizing the character values and perspectives from the right people leads to better results in your life. Imitating Johnny Depp's wealth management strategies will lead you to pennies, but Warren Buffet may teach you a thing or two.
 *   **Thought Experiment**
@@ -39,7 +39,7 @@ Be the executive of your life
 -----------------------------
 
 *   **Purpose / Goals / Priorities / Time**
-    *   [Checkout my post on this if interested!](https://kalebmckelvey.xyz/journey_to_achieve/live-each-day-with-purpose/)
+    *   [Checkout my post on this if interested!](https://kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose)
 
 *   **Decisions**
     *   Where you are today results from the sum of all previous decisions in life. Define where you want to go and start making the decisions to get there. Life is fine with letting you do nothing - it is on you to become the person you want to be! You're the driver who inputs the destination; start your car and get there!
