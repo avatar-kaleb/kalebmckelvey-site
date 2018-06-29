@@ -2,16 +2,13 @@ import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import CardTitle from "react-md/lib/Cards/CardTitle";
-
 import Media from "react-md/lib/Media/Media";
 import MediaOverlay from "react-md/lib/Media/MediaOverlay";
+
+// images
 import kappaKnightImage from "../../images/AboutTheJourney-KappaKnight.jpg";
 
-// import { Card, CardText, Media } from "react-md";
-
-// import CardText from "react-md/lib/Cards/CardText";
-// import UserLinks from "../UserLinks/UserLinks";
-// import config from "../../../data/SiteConfig";
+// sass
 import "./AboutTheJourney.scss";
 
 class AboutTheJourney extends Component {
@@ -21,6 +18,7 @@ class AboutTheJourney extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated slideInLeft"
               src={kappaKnightImage}
               alt="A white male with a black tuxedo on in a nature setting."
             />
@@ -31,7 +29,7 @@ class AboutTheJourney extends Component {
               />
             </MediaOverlay>
           </Media>
-          <CardText>
+          <CardText className="animated slideInRight">
             <h2>Knighthood</h2>
             <p>
               In the medieval days, knighthood was the noble honor to serve

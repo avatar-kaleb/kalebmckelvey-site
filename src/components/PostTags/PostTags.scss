@@ -1,11 +1,12 @@
 .post-preview-tags {
-    margin: 5px 2px 0;
+  margin: 5px 2px 0;
+  cursor: pointer;
 }
 
 .post-tag-container {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }

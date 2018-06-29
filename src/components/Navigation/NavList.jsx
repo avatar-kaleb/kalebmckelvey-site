@@ -2,22 +2,13 @@ import React from "react";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 
-function GetNavList(config) {
-  const NavList = [
-    // {
-    //   primaryText: "Home",
-    //   leftIcon: <FontIcon>home</FontIcon>,
-    //   component: Link,
-    //   to: "/"
-    // },
-    // {
-    //   divider: true
-    // }
-  ];
+function GetNavList() {
+  const NavList = [];
 
-  // About
+  // Home / About
   NavList.push(
     {
+      key: "home",
       primaryText: "Home",
       component: Link,
       to: "/"
@@ -40,7 +31,7 @@ function GetNavList(config) {
         leftIcon: <FontIcon>zoom_in</FontIcon>,
         component: Link,
         to: "/professional/portfolio/",
-        activeClassName: "md-text-active--theme-primary"
+        activeClassName: "md-text--theme-primary"
       },
       {
         primaryText: "Services",
@@ -85,27 +76,29 @@ function GetNavList(config) {
   });
 
   // Resources
+  // Journey to Achieve
   NavList.push({
     primaryText: "Resources",
-    component: Link,
-    to: "/resources"
+    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+    nestedListClassName: "drawer-nav-nested-list-item",
+    nestedItems: [
+      {
+        primaryText: "Life",
+        leftIcon: <FontIcon>local_library</FontIcon>,
+        component: Link,
+        to: "/resources/life/"
+      },
+      {
+        primaryText: "Development",
+        leftIcon: <FontIcon>desktop_mac</FontIcon>,
+        component: Link,
+        to: "/resources/development"
+      },
+      {
+        divider: true
+      }
+    ]
   });
-  // expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-  // nestedListClassName: "drawer-nav-nested-list-item",
-  // nestedItems: [
-  // {
-  //   primaryText: "Development",
-  //   leftIcon: <FontIcon>developer_mode</FontIcon>,
-  //   component: Link,
-  //   to: "/resources/development"
-  // },
-  // {
-  //   primaryText: "Life",
-  //   leftIcon: <FontIcon>notes</FontIcon>,
-  //   component: Link,
-  //   to: "/resources/life"
-  // },
-  // ]);
 
   // contact and observations
   NavList.push(

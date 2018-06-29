@@ -6,6 +6,15 @@ import GetNavList from "./NavList";
 import "./Navigation.scss";
 
 class Navigation extends Component {
+  componentDidMount() {
+    //  * set default visible on page load to prevent weird animations
+    if (NavigationDrawer.getCurrentMedia().mobile) {
+      NavigationDrawer.defaultVisible = "false";
+    } else {
+      NavigationDrawer.defaultVisible = "true";
+    }
+  }
+
   render() {
     const { children, config, LocalTitle } = this.props;
     const footerLinks = LocalTitle !== "About";
@@ -15,7 +24,7 @@ class Navigation extends Component {
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
         drawerTitle={config.siteTitle}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        navItems={GetNavList(config)}
+        navItems={GetNavList()}
         tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         toolbarActions={<ToolbarActions config={config} />}
         toolbarTitle={LocalTitle}

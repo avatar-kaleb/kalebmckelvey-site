@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
+import Link from "gatsby-link";
 import Media from "react-md/lib/Media/Media";
 import codeImage from "../../images/DevResources-Code.jpeg";
 import ResourcesData from "../../../data/ResourceData";
@@ -12,22 +13,26 @@ class DevelopmentResources extends Component {
   render() {
     return (
       <div className="developmentResources-container md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--7 md-cell--10-tablet">
+        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated slideInDown"
               src={codeImage}
               alt="Computer sitting on a table with code displaying on the screen."
             />
           </Media>
-          <CardText>
+          <CardText className="animated slideInUp">
             <p>
               <em>
                 Below will be a lists of tools I use during my development
-                process.
+                process. I will be adding progressively as time allows - stay
+                tuned!
               </em>
             </p>
-            {/* <ResourcesList resources={ResourcesData} type="dev" /> */}
-            <p>I will be adding progressively as time allows - stay tuned!</p>
+            <p>
+              Have a suggestion? {<Link to="/contact-me/">Let me know!</Link>}
+            </p>
+            <ResourcesList resources={ResourcesData} type="dev" />
           </CardText>
         </Card>
       </div>

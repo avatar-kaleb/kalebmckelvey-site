@@ -12,11 +12,12 @@ class AboutMe extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated zoomIn"
               src={kalebWelcomeImage}
               alt="A white male with a black tuxedo on in a nature setting."
             />
           </Media>
-          <CardText>
+          <CardText className="animated zoomIn">
             <h1>My Story</h1>
             <p>
               I&apos;m a young professional with aspirations to inspire, grow,

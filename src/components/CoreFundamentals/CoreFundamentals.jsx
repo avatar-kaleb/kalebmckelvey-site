@@ -3,9 +3,6 @@ import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
 import inspirationalImage from "../../images/Fundamentals-ArmsOpen.jpeg";
-
-// import CardText from "react-md/lib/Cards/CardText";
-// import config from "../../../data/SiteConfig";
 import "./CoreFundamentals.scss";
 
 class CoreFundamentals extends Component {
@@ -15,11 +12,12 @@ class CoreFundamentals extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated slideInRight"
               src={inspirationalImage}
               alt="A shadow of a male with his arms held straight out from his sides, while looking out into the open scene"
             />
           </Media>
-          <CardText>
+          <CardText className="animated slideInLeft">
             <p>
               Below are the core foundations I believe in that will assist our
               journey towards achieving anything we want in life! Learn about

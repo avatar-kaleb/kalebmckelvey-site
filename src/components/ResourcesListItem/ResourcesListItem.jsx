@@ -1,6 +1,5 @@
 import React from "react";
 
-const SubcategoryTitle = props => <h2>props.subcategory</h2>;
 const SubcategoresUnorderedList = props => (
   <ul>
     {props.resources.map((resource, index) => (

@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://kaleb-mckelvey.netlify.com/sitemap.xml
+sitemap: https://kalebmckelvey.com/sitemap.xml

@@ -7,6 +7,7 @@ $md-secondary-color-light: #ff9d3f;
 $md-secondary-color-dark: #b53d00;
 $md-tertiary-color: $md-grey-300;
 $md-light-grey: $md-grey-100;
+$md-text---theme-primary: $md-blue-900;
 
 .main-container,
 .darker-background {
@@ -16,6 +17,11 @@ $md-light-grey: $md-grey-100;
 a:link {
   color: $md-secondary-color;
   text-decoration: none;
+}
+
+.drawer-nav-nested-list-item > li > a {
+  color: $md-secondary-color;
+  padding-left: 3em !important;
 }
 
 .drawer-nav-nested-list-item > li > a {

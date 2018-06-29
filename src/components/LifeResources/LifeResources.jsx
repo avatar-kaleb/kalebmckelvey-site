@@ -15,11 +15,12 @@ class LifeResources extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated slideInDown"
               src={chalkboardImage}
               alt="A white male with a black tuxedo on in a nature setting."
             />
           </Media>
-          <CardText>
+          <CardText className="animated slideInUp">
             <p>
               <em>
                 Below are lists of tools I find useful on my own journey to

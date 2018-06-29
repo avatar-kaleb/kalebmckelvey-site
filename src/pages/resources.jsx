@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import { TabsContainer, Tabs, Tab } from "react-md/lib/Tabs";
+import Tab from "react-md/lib/Tabs/Tab";
+import Tabs from "react-md/lib/Tabs/Tabs";
+import TabsContainer from "react-md/lib/Tabs/TabsContainer";
 
 import DevelopmentResources from "../../src/components/DevelopmentResources/DevelopmentResources";
 import LifeResources from "../../src/components/LifeResources/LifeResources";

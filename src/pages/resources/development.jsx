@@ -11,7 +11,7 @@ class DevelopmentResourcesPage extends Component {
           <title>{`Development Resources | ${config.siteTitle}`}</title>
           <link
             rel="canonical"
-            href={`${config.siteUrl}/professional/development/`}
+            href={`${config.siteUrl}/resources/development/`}
           />
         </Helmet>
         <DevelopmentResources />

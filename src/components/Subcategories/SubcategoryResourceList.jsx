@@ -4,9 +4,14 @@ const SubcategoryResourceList = ({ resources }) => (
   <ul>
     {resources.map((resource, index) => (
       <li key={resource.name}>
-        <a href={resource.link} target="_blank" rel="noopener noreferrer">
-          {resource.name}
-        </a>
+        <p>
+          <a href={resource.link} target="_blank" rel="noopener noreferrer">
+            {resource.name}
+          </a>{" "}
+          {resource.description ? `- ${resource.description}` : ""}
+          <br />
+          <br />
+        </p>
       </li>
     ))}
   </ul>

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Media from "react-md/lib/Media/Media";
 import Paper from "react-md/lib/Papers/Paper";
 import SignupForm from "../SignupForm/SignupForm";
-// import UserLinks from "../UserLinks/UserLinks";
 import headShotImage from "../../../src/images/Contact-Headshot.jpg";
 import "./ContactMe.scss";
 

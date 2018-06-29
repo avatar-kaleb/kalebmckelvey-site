@@ -18,11 +18,13 @@ class Observations extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
+              className="animated pulse"
               src={inspirationalImage}
               alt="A male with a black tuxedo on in a nature setting."
             />
           </Media>
-          <CardText>
+
+          <CardText className="animated zoomInUp">
             <p>
               Below are a list of random thoughts, inspirations, and
               observations recorded through my journey to become an achiever.

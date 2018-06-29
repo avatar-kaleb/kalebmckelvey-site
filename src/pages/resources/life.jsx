@@ -9,7 +9,7 @@ class LifeResourcesPage extends Component {
       <div className="">
         <Helmet>
           <title>{`Life Resources | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/professional/life/`} />
+          <link rel="canonical" href={`${config.siteUrl}/resources/life/`} />
         </Helmet>
         <LifeResources />
       </div>

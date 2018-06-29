@@ -1,7 +1,91 @@
 module.exports = {
+  // need to add rocket, figma, computer, trello, and other productivity flows
+  // books/podcasts
   dev: [
     {
       category: "Web Development",
+      subcategories: [
+        {
+          name: "Javascript Frameworks/Libraries",
+          resources: [
+            {
+              name: "React",
+              link: "https://reactjs.org/",
+              description: "Facebook's library to build user interfaces."
+            },
+            {
+              name: "Lodash",
+              link: "https://lodash.com/docs/",
+              description: "Performant, re-usable utility library."
+            },
+            {
+              name: "MomentJS",
+              link: "https://momentjs.com/",
+              description: "Makes dates, time, and durations a breeze."
+            },
+            {
+              name: "Redux",
+              link: "https://redux.js.org/",
+              description: "Manage your application state in one place."
+            }
+          ]
+        },
+        {
+          name: "CSS Libraries",
+          resources: [
+            {
+              name: "Bootstrap",
+              link: "https://getbootstrap.com/",
+              description: "Toolkit to make your front-ends responsive."
+            },
+            {
+              name: "Bulma",
+              link: "https://bulma.io/",
+              description:
+                "CSS framework based on flexbox to make responsive layouts easy"
+            },
+            {
+              name: "Sass",
+              link: "https://sass-lang.com/",
+              description: "Extends CSS with synatic sugar that makes sense."
+            },
+            {
+              name: "Animate",
+              link: "https://daneden.github.io/animate.css/",
+              description: "Add easy animations via class names."
+            },
+            {
+              name: "Lottie",
+              link: "https://airbnb.design/lottie/",
+              description: "AirBnb's library to make animations easy."
+            }
+          ]
+        },
+        {
+          name: "Bundlers / Package Managers",
+          resources: [
+            {
+              name: "Yarn",
+              link: "https://yarnpkg.com/lang/en/",
+              description: "Ultra fast, secure node package manager."
+            },
+            {
+              name: "Webpack",
+              link: "https://webpack.js.org/",
+              description: "Static module bundler for modern JS."
+            },
+            {
+              name: "Parcel",
+              link: "https://parceljs.org/",
+              description:
+                "New competitor for asset bundling - boasts zero config with great bench marks!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      category: "Productivity Tools",
       subcategories: [
         {
           name: "Editor",
@@ -12,11 +96,46 @@ module.exports = {
               description: "Microsoft's Electron based text editor."
             },
             {
-              name: "Cobalt 2 Theme",
+              name: "Visual Studio Code - Settings Sync",
               link:
-                "https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2",
-              description: "Developed by Wes Bos"
+                "https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync",
+              description:
+                "Easily download/upload to share settings by following the Settings Sync walk through. If interested, use my public gist (baad940d8ae370312e4a748cc3cdc8d6) to stay updated with my recommended theme, settings, extensions! Utilizing Visual Studio Code, you can increase your productivity as a developer!"
+            }
+          ]
+        },
+        {
+          name: "Terminal",
+          resources: [
+            {
+              name: "ITerm2",
+              link: "https://www.iterm2.com/",
+              description:
+                "Increase your productivity in the terminal with the little things."
             },
+            {
+              name: "Oh My Zsh",
+              link: "https://ohmyz.sh/",
+              description:
+                "Framework for manaing your zsh configuration, letting you easily install plugins and themes."
+            }
+          ]
+        },
+        {
+          name: "Mac",
+          resources: [
+            {
+              name: "Alfred 3",
+              link: "https://www.alfredapp.com/",
+              description:
+                "Boost your productivity with hotkeys, text expansion, workflows, and search."
+            },
+            {
+              name: "BetterTouchTool",
+              link: "https://folivora.ai/",
+              description:
+                "Customize your mac's gestures, hotkeys, and other. Use this with Karabiner-Elements to map your caps lock to unique key combinations to create your own productivity enhancers!."
+            }
           ]
         }
       ]
