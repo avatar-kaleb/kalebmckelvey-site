@@ -23,6 +23,10 @@ module.exports = {
     name: "Ionic Framework (2)",
     link: "https://ionicframework.com/"
   },
+  html: {
+    name: "HTML5",
+    link: "https://www.w3.org/html/"
+  },
   material: {
     name: "Material Design",
     link: "https://material.io"

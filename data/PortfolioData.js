@@ -2,9 +2,22 @@ import Tech from "./TechData";
 
 module.exports = [
   {
+    id: "allAboutUs",
+    category: "Personal",
+    company: "",
+    images: [],
+    subtitle: "Our digital scrapbook",
+    summary: `
+    <p>Creating a real scrap book, or making anything artsy for my girlfriend would have resulted in a subpar gift.</p>
+    <p>Instead, for our anniversary I created a PWA with Polymer and Firebase to create a personal app for us instead. The app tracks moments we want to capture (and not forget), facts about each other, and even a checklist to follow when we have a disagreement.</p>
+    <p>This gift that keeps giving will be updated and changed as the main product owner prioritizes them for me.`,
+    tech: [Tech.css, Tech.html, Tech.material, Tech.polymerTwo, Tech.firebase],
+    title: "All About Us",
+    url: ""
+  },
+  {
     id: "dukeOfDollars",
     category: "Personal",
-    cardImage: "",
     company: "",
     images: [],
     subtitle: "Building Your Financial Kingdom",
@@ -12,14 +25,13 @@ module.exports = [
     <p> A site that has the following goals: "learn how to build wealth, how to invest your capital, how to use accumulated assets to best accomplish your goals, and most importantly: how to live a fulfilling lifestyle in accordance with sound personal monetary policy." </p>
 
     <p>My client wanted a site to help drive the metaphor home to help change the lives of their users as they provide a roadmap to build your financial kingdom.</p>`,
-    tech: [Tech.css, Tech.wordpress],
+    tech: [Tech.css, Tech.html, Tech.wordpress],
     title: "Duke of Dollars",
     url: "https://www.dukeofdollars.com"
   },
   {
     id: "eandon",
     category: "Work",
-    cardImage: "",
     company: "GE",
     images: [],
     subtitle: "Alerting the right people at the right time",
@@ -29,7 +41,14 @@ module.exports = [
     <p>Alerts can be triggered by users manually using the web or mobile apps, RESTful APIs, or integrated with GE's Historian time series data.</p>
 
     <p>This solution is either piloted or implemented in each of GE’s tier one industrial businesses and has 1500+ users.</p>`,
-    tech: [Tech.angularOne, Tech.css, Tech.node, Tech.polymerOne, Tech.predix],
+    tech: [
+      Tech.angularOne,
+      Tech.css,
+      Tech.html,
+      Tech.node,
+      Tech.polymerOne,
+      Tech.predix
+    ],
     title: "eAndon",
     url: ""
   },
@@ -44,14 +63,20 @@ module.exports = [
     <p>Factory360 allows users to create a single dashboard using multiple source types, like Tableau, eAndon, Spotfire, or Box, enabling them display essential reports on shop floor monitors.</p>
 
     <p>The reports displayed in the dashboard are refreshed periodically, ensuring users have updated information to base decisions on.<p>`,
-    tech: [Tech.material, Tech.node, Tech.polymerOne, Tech.predix, Tech.sass],
+    tech: [
+      Tech.html,
+      Tech.material,
+      Tech.node,
+      Tech.polymerOne,
+      Tech.predix,
+      Tech.sass
+    ],
     title: "Factory 360",
     url: ""
   },
   {
     id: "historianWdc",
     category: "Work",
-    cardImage: "",
     company: "GE",
     images: [],
     subtitle: "See your timeseries data in Tableau",
@@ -66,7 +91,6 @@ module.exports = [
   {
     id: "inspireMe",
     category: "Personal",
-    cardImage: "",
     company: "GE",
     images: [],
     summary: `
@@ -83,7 +107,6 @@ module.exports = [
   {
     id: "mentalModelDictionary",
     category: "Personal",
-    cardImage: "",
     company: "",
     images: [],
     subtitle: "Make rational decisions faster and easier",
@@ -100,7 +123,6 @@ module.exports = [
   {
     id: "plantPulseOptimizer",
     category: "Work",
-    cardImage: "",
     company: "GE",
     images: [],
     subtitle: "Pulsing your plant progression in real time",
@@ -116,7 +138,6 @@ module.exports = [
   {
     id: "takt",
     category: "Work",
-    cardImage: "",
     company: "GE",
     images: [],
     subtitle: "Standardizing your manufacturing metrics",
