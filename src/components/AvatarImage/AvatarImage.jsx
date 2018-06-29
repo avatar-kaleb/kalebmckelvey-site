@@ -6,7 +6,7 @@ export default class AvatarImage extends Component {
     const { alt, src } = this.props;
     return (
       <div className="avatarImage-wrapper">
-        <img className="animated pulse" src={src} alt={alt} />
+        <img className="animated bounce" src={src} alt={alt} />
       </div>
     );
   }

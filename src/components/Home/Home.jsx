@@ -33,7 +33,7 @@ class Home extends Component {
           </Cell>
           <Cell
             align="middle"
-            className="animated jackInTheBox"
+            className="animated bounce"
             desktopOffset={1}
             desktopSize={6}
             tabletSize={5}
