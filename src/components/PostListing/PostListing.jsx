@@ -4,8 +4,7 @@ import PostPreview from "../PostPreview/PostPreview";
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
-    const postEdges = this.props.postEdges;
-    // let count = 0;
+    const { postEdges } = this.props;
     for (let idx = 0; idx < 10; idx++) {
       postList.push({
         path: postEdges[idx].node.fields.slug,
