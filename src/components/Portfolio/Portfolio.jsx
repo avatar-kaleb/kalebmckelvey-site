@@ -81,8 +81,9 @@ class Portfolio extends Component {
         <Card raise key={portfolioItem.id}>
           <Media>
             <Img
+              className="animated pulse"
               sizes={this.getImageSizesById(portfolioItem.id) || ""}
-              alt="Nature from lorempixel"
+              alt="Nature from lorempixel" // TODO update alts in data
             />
             <MediaOverlay>
               <CardTitle

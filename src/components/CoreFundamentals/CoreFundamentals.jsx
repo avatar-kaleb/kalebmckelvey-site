@@ -12,12 +12,12 @@ class CoreFundamentals extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
-              className="animated slideInRight"
+              className="animated pulse"
               src={inspirationalImage}
               alt="A shadow of a male with his arms held straight out from his sides, while looking out into the open scene"
             />
           </Media>
-          <CardText className="animated slideInLeft">
+          <CardText className="animated zoomInUp">
             <p>
               Below are the core foundations I believe in that will assist our
               journey towards achieving anything we want in life! Learn about

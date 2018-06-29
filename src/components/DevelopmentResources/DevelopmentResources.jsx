@@ -16,12 +16,12 @@ class DevelopmentResources extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
-              className="animated slideInDown"
+              className="animated pulse"
               src={codeImage}
               alt="Computer sitting on a table with code displaying on the screen."
             />
           </Media>
-          <CardText className="animated slideInUp">
+          <CardText className="animated zoomInUp">
             <p>
               <em>
                 Below will be a lists of tools I use during my development

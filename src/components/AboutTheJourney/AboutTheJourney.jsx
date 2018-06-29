@@ -18,7 +18,7 @@ class AboutTheJourney extends Component {
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
-              className="animated slideInLeft"
+              className="animated pulse"
               src={kappaKnightImage}
               alt="A white male with a black tuxedo on in a nature setting."
             />
@@ -29,7 +29,7 @@ class AboutTheJourney extends Component {
               />
             </MediaOverlay>
           </Media>
-          <CardText className="animated slideInRight">
+          <CardText className="animated zoomInUp">
             <h2>Knighthood</h2>
             <p>
               In the medieval days, knighthood was the noble honor to serve
