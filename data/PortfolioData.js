@@ -9,7 +9,9 @@ module.exports = [
     subtitle: "Our digital scrapbook",
     summary: `
     <p>Creating a real scrap book, or making anything artsy for my girlfriend would have resulted in a subpar gift.</p>
+
     <p>Instead, for our anniversary I created a PWA with Polymer and Firebase to create a personal app for us instead. The app tracks moments we want to capture (and not forget), facts about each other, and even a checklist to follow when we have a disagreement.</p>
+
     <p>This gift that keeps giving will be updated and changed as the main product owner prioritizes them for me.`,
     tech: [Tech.css, Tech.html, Tech.material, Tech.polymerTwo, Tech.firebase],
     title: "All About Us",
