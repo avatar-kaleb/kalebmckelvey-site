@@ -19,45 +19,18 @@ module.exports = {
     }
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
+    "gatsby-plugin-catch-links",
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-sass",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
         path: `${__dirname}/${config.blogPostDir}`
-      }
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1200
-            }
-          },
-          {
-            resolve: "gatsby-remark-responsive-iframe"
-          },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
-        ]
-      }
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.siteGATrackingID
-      }
-    },
-    {
-      resolve: "gatsby-plugin-nprogress",
-      options: {
-        color: "#c62828"
       }
     },
     {
@@ -67,43 +40,10 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: "gatsby-plugin-google-analytics",
       options: {
-        endpoint:
-          "https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6" // see instructions section below
-      }
-    },
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        output: "/sitemap.xml",
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-
-            allSitePage(
-              filter: {
-                path: {
-                  regex: "${regexExcludeRobots}"
-                }
-              }
-            ) {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-        }`
+        trackingId: config.siteGATrackingID
       }
     },
     {
@@ -128,6 +68,12 @@ module.exports = {
             type: "image/png"
           }
         ]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-nprogress",
+      options: {
+        color: "#c62828"
       }
     },
     "gatsby-plugin-offline",
@@ -199,6 +145,62 @@ module.exports = {
             output: config.siteRss
           }
         ]
+      }
+    }
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/sitemap.xml",
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage(
+              filter: {
+                path: {
+                  regex: "${regexExcludeRobots}"
+                }
+              }
+            ) {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1200
+            }
+          },
+          {
+            resolve: "gatsby-remark-responsive-iframe"
+          },
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-autolink-headers"
+        ]
+      }
+    },
+
+    "gatsby-plugin-twitter",
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6" // see instructions section below
       }
     }
   ]
