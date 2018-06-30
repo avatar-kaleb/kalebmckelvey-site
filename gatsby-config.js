@@ -54,7 +54,7 @@ module.exports = {
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: "#e0e0e0",
-        theme_color: "#c62828",
+        theme_color: "#0D47A1",
         display: "minimal-ui",
         icons: [
           {
@@ -73,7 +73,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
-        color: "#c62828"
+        color: "#0D47A1"
       }
     },
     "gatsby-plugin-offline",
@@ -195,7 +195,7 @@ module.exports = {
       }
     },
 
-    "gatsby-plugin-twitter",
+    // "gatsby-plugin-twitter",
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
