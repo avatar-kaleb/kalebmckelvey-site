@@ -5,8 +5,9 @@ import Button from "react-md/lib/Buttons";
 import Avatar from "react-md/lib/Avatars";
 import CardText from "react-md/lib/Cards/CardText";
 import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import { navigateTo } from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
+import ParticleEffectButton from "react-particle-effect-button";
 import PostTags from "../PostTags/PostTags";
 import "./PostPreview.scss";
 
@@ -14,9 +15,12 @@ class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true
+      mobile: true,
+      hidden: false
     };
-    this.handleResize = this.handleResize.bind(this);
+
+    this.setHidden = this.setHidden.bind(this);
+    this.navToPostOnComplete = this.navToPostOnComplete.bind(this);
   }
   componentDidMount() {
     this.handleResize();
@@ -33,7 +37,18 @@ class PostPreview extends Component {
     } else {
       this.setState({ mobile: true });
     }
+
+    this.setHidden = this.setHidden.bind(this);
   }
+
+  setHidden(e) {
+    this.setState((prevState) => ({ hidden: !prevState.hidden }));
+  }
+
+  navToPostOnComplete(path, e) {
+    navigateTo(path);
+  }
+
   render() {
     const { postInfo } = this.props;
     const { mobile } = this.state;
@@ -46,23 +61,32 @@ class PostPreview extends Component {
     const coverHeight = mobile ? 162 : 225;
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
-        <Link style={{ textDecoration: "none" }} to={postInfo.path}>
-          <Media
-            style={{
-              backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`
-            }}
-            className="post-preview-cover"
-          >
-            <MediaOverlay>
-              <CardTitle title={postInfo.title}>
-                <Button raised secondary className="md-cell--right">
+        <Media
+          onClick={this.setHidden}
+          style={{
+            backgroundImage: `url(${cover})`,
+            height: `${coverHeight}px`
+          }}
+          className="post-preview-cover"
+        >
+          <MediaOverlay>
+            <CardTitle title={postInfo.title}>
+              <ParticleEffectButton
+                className="md-cell--right"
+                color="#ff6f00"
+                duration={300}
+                hidden={this.state.hidden}
+                onComplete={e => this.navToPostOnComplete(postInfo.path, e)}
+                oscillationCoefficient={30}
+                particlesAmountCoefficient={5}
+              >
+                <Button raised secondary>
                   Read
                 </Button>
-              </CardTitle>
-            </MediaOverlay>
-          </Media>
-        </Link>
+              </ParticleEffectButton>
+            </CardTitle>
+          </MediaOverlay>
+        </Media>
         <CardTitle
           expander={expand}
           avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}

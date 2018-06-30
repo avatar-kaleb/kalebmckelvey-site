@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Button from "react-md/lib/Buttons/Button";
-import Grid from "react-md/lib/Grids/Grid";
-import Cell from "react-md/lib/Grids/Cell";
-import TextField from "react-md/lib/TextFields/TextField";
 import addToMailchimp from "gatsby-plugin-mailchimp";
+import Button from "react-md/lib/Buttons/Button";
+import Cell from "react-md/lib/Grids/Cell";
 import debounce from "lodash/debounce";
+import Grid from "react-md/lib/Grids/Grid";
+import ParticleEffectButton from "react-particle-effect-button";
+import TextField from "react-md/lib/TextFields/TextField";
 import "./SignupForm.scss";
 
 class SignupForm extends Component {
@@ -15,7 +16,8 @@ class SignupForm extends Component {
       lastName: "",
       email: "",
       status: "",
-      msg: ""
+      msg: "",
+      hidden: false
     };
   }
 
@@ -66,7 +68,8 @@ class SignupForm extends Component {
     this.setState(
       {
         status: `sending`,
-        msg: null
+        msg: null,
+        hidden: true
       },
       // setState callback (subscribe email to MC)
       this._postEmailToMailchimp(this.state.email, {
@@ -122,14 +125,23 @@ class SignupForm extends Component {
                   />
                 </Cell>
                 <Cell size={12} position="right">
-                  <Button
-                    className="signupForm--button--mt"
-                    raised
-                    secondary
-                    onClick={this._handleFormSubmit}
+                  <ParticleEffectButton
+                    className="md-cell--right"
+                    color="#ff6f00"
+                    duration={300}
+                    hidden={this.state.hidden}
+                    oscillationCoefficient={30}
+                    particlesAmountCoefficient={5}
                   >
-                    Subscribe!
-                  </Button>
+                    <Button
+                      className="signupForm--button--mt"
+                      raised
+                      secondary
+                      onClick={this._handleFormSubmit}
+                    >
+                      Subscribe!
+                    </Button>
+                  </ParticleEffectButton>
                 </Cell>
               </Grid>
             </form>
