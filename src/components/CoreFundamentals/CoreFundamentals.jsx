@@ -57,7 +57,7 @@ class CoreFundamentals extends Component {
             <h3>2. Independent Thinking</h3>
             <ul>
               <li>
-                <a href="https://kalebmckelvey.com/tags/mental-models/">
+                <a href="https://kalebmckelvey.com/categories/mental-models/">
                   Mental models
                 </a>
               </li>
@@ -78,7 +78,7 @@ class CoreFundamentals extends Component {
                 <ul>
                   <li>
                     <a
-                      href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve/"
+                      href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/"
                       rel="noopener"
                     >
                       How Bad Do You Want to Achieve?
@@ -86,7 +86,7 @@ class CoreFundamentals extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://kalebmckelvey.com/live-each-day-with-purpose/"
+                      href="https://kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose/"
                       rel="noopener"
                     >
                       Make Each Day Matter
