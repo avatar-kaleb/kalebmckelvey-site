@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import _ from "lodash";
+import find from "lodash/find";
 import Button from "react-md/lib/Buttons/Button";
 import Card from "react-md/lib/Cards/Card";
 import CardActions from "react-md/lib/Cards/CardActions";
@@ -24,7 +24,7 @@ class ServiceCard extends Component {
   }
 
   setPackageOnSliderChange(value) {
-    const selectedPackage = _.find(this.state.packageOptions, [
+    const selectedPackage = find(this.state.packageOptions, [
       "totalPrice",
       value
     ]);
@@ -36,22 +36,35 @@ class ServiceCard extends Component {
 
   render() {
     return (
-      <Card raise className="serviceCard--mb md-cell--6 md-cell--center">
+      <Card
+        raise
+        className="serviceCard--mb md-cell--6 md-cell--center md-cell--top"
+      >
         <CardTitle title={this.state.title} subtitle={this.state.subtitle} />
 
         <CardText>
           <div dangerouslySetInnerHTML={{ __html: this.state.description }} />
           <br />
+
+          <p>
+            <em>
+              Prices are estimates and will vary based on project requirements.
+              To truly estimate a price and dev time, user stories should be
+              created and estimated together.
+            </em>
+          </p>
           <Slider
             discrete
-            discreteTicks={this.state.sliderOptions.discreteTickets}
+            discreteTicks={this.state.sliderOptions.discreteTicks}
             id={`${this.state.title}-slider`}
             label={this.state.sliderOptions.label}
             max={this.state.sliderOptions.max}
             min={this.state.sliderOptions.min}
             onChange={this.setPackageOnSliderChange}
             step={this.state.sliderOptions.step}
+            valuePrecision={1}
           />
+
           <h2>{this.state.selectedPackage.title}</h2>
           <ExpansionList className="md-cell md-cell--12">
             {this.state.selectedPackage.options.map(option => (
@@ -67,7 +80,7 @@ class ServiceCard extends Component {
           </ExpansionList>
         </CardText>
 
-        <CardActions className="md-divider-border md-divider-border--top md-text--theme-primary">
+        <CardActions className="md-divider-border md-divider-border--top md-text--theme-primary serviceCard-action--alignleft">
           <Button flat secondary onClick={this.navigateToContactPage}>
             Contact Kaleb
           </Button>
