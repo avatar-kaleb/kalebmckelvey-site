@@ -1,9 +1,8 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
-import "./ServiceList.scss";
+import ServiceCard from "../ServiceCard/ServiceCard";
 
 const ServicesList = ({ services }) => (
-  <div className="serviceList-wrapper md-grid">
+  <div className="md-grid">
     {services.map(service => (
       <ServiceCard
         key={service.title}

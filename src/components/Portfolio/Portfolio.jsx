@@ -1,19 +1,15 @@
 // absolute paths
 import React, { Component } from "react";
-import Img from "gatsby-image";
-
-// react md
 import Button from "react-md/lib/Buttons/Button";
 import Card from "react-md/lib/Cards/Card";
 import CardActions from "react-md/lib/Cards/CardActions";
 import CardText from "react-md/lib/Cards/CardText";
 import CardTitle from "react-md/lib/Cards/CardTitle";
+import Find from "lodash/find";
 import GridList from "react-md/lib/Grids/GridList";
+import Img from "gatsby-image";
 import Media from "react-md/lib/Media/Media";
 import MediaOverlay from "react-md/lib/Media/MediaOverlay";
-
-// Other libraries
-import _ from "lodash";
 
 // Data
 import PortfolioData from "../../../data/PortfolioData";
@@ -28,7 +24,7 @@ class Portfolio extends Component {
   }
 
   getImageSizesById(id) {
-    const foundNode = _.find(this.state.images, image =>
+    const foundNode = Find(this.state.images, image =>
       image.node.sizes.src.includes(id)
     );
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import find from "lodash/find";
+
 import Button from "react-md/lib/Buttons/Button";
 import Card from "react-md/lib/Cards/Card";
 import CardActions from "react-md/lib/Cards/CardActions";
@@ -13,16 +14,21 @@ import "./ServiceCard.scss";
 class ServiceCard extends Component {
   constructor(props) {
     super(props);
-    this.state = { ...props, selectedPackage: props.packageOptions[0] };
+    this.state = {
+      ...props,
+      selectedPackage: props.packageOptions[0],
+      contactPath: "/contact-me"
+    };
 
     // event binding to access this
     this.setPackageOnSliderChange = this.setPackageOnSliderChange.bind(this);
   }
 
-  navigateToContactPage() {
-    navigateTo("/contact-me");
-  }
-
+  /**
+   * When the slider changes, this function will find the package within the
+   * package options that match the given price and set it to selectedPackage.
+   * @param {Number} value The value of the slider on change
+   */
   setPackageOnSliderChange(value) {
     const selectedPackage = find(this.state.packageOptions, [
       "totalPrice",
@@ -32,6 +38,13 @@ class ServiceCard extends Component {
     this.setState({
       selectedPackage
     });
+  }
+
+  /**
+   * Navigates to the contact me page - used for card actions
+   */
+  navigateToContactPage() {
+    navigateTo(this.state.contactPath);
   }
 
   render() {

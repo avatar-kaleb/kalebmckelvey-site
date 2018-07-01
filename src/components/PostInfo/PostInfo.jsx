@@ -3,7 +3,7 @@ import CardTitle from "react-md/lib/Cards/CardTitle";
 import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
-import _ from "lodash";
+import KebabCase from "lodash/kebabCase";
 import "./PostInfo.scss";
 
 class PostInfo extends Component {
@@ -19,7 +19,7 @@ class PostInfo extends Component {
         />
         <Link
           className="category-link"
-          to={`/categories/${_.kebabCase(post.category)}`}
+          to={`/categories/${KebabCase(post.category)}`}
         >
           <CardTitle
             avatar={

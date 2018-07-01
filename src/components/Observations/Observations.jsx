@@ -1,13 +1,15 @@
+// absolute
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
-import InspirationData from "../../../data/InspirationData";
-import InspirationList from "../InspirationList/InspirationList";
 import Media from "react-md/lib/Media/Media";
+
+// relative
+import InspirationData from "../../../data/InspirationData";
+import InspirationalImage from "../../images/Observations-AustriaPic.jpg";
+import InspirationList from "../InspirationList/InspirationList";
 import ObservationData from "../../../data/ObservationData";
 import ObservationList from "../ObservationList/ObservationList";
-
-import inspirationalImage from "../../images/Observations-AustriaPic.jpg";
 
 import "./Observations.scss";
 
@@ -19,7 +21,7 @@ class Observations extends Component {
           <Media aspectRatio="4-3">
             <img
               className="animated pulse"
-              src={inspirationalImage}
+              src={InspirationalImage}
               alt="A male with a black tuxedo on in a nature setting."
             />
           </Media>

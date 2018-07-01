@@ -1,8 +1,11 @@
+// absolute
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
-import chalkboardImage from "../../images/LifeResources - Chalkboard.jpeg";
 import Media from "react-md/lib/Media/Media";
+
+// relative
+import chalkboardImage from "../../images/LifeResources - Chalkboard.jpeg";
 import ResourcesData from "../../../data/ResourceData";
 import ResourcesList from "../ResourcesList/ResourcesList";
 

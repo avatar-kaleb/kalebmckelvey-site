@@ -1,13 +1,13 @@
 // absolute
 import React, { Component } from "react";
+import Typed from "typed.js";
 import Cell from "react-md/lib/Grids/Cell";
 import Paper from "react-md/lib/Papers/Paper";
 
 // relative
 import AvatarImage from "../../components/AvatarImage/AvatarImage";
-import PostListing from "../../components/PostListing/PostListing";
 import kalebWelcomeImage from "../../images/Home-KalebWelcomePic.jpg";
-import Typed from "typed.js";
+import PostListing from "../../components/PostListing/PostListing";
 
 // CSS
 import "./Home.scss";
