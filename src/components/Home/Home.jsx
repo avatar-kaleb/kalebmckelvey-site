@@ -15,6 +15,7 @@ import "./Home.scss";
 class Home extends Component {
   componentDidMount() {
     this.typed = new Typed("#typed", {
+      startDelay: 500,
       stringsElement: "#typed-strings",
       typeSpeed: 15
     });
