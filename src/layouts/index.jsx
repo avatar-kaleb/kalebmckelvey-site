@@ -36,9 +36,9 @@ export default class MainLayout extends React.Component {
       title = "Development Resources";
     } else if (currentPath === "contact-me") {
       title = "Contact Me";
-    } else if (currentPath === "observations") {
+    } else if (currentPath === "journey-to-achieveobservations") {
       title = "Observations";
-    } else if (currentPath === "professionalservices") {
+    } else if (currentPath === "services") {
       title = "Services";
     } else if (currentPath.includes("tags")) {
       const tag = currentPath

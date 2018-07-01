@@ -107,6 +107,20 @@ module.exports = [
       "https://play.google.com/store/apps/details?id=kaleb.mckelvey.Inspir3Me"
   },
   {
+    id: "kalebMckelveyWordPress",
+    category: "Personal",
+    company: "",
+    images: [],
+    subtitle: "Growing through experience",
+    summary: `
+    <p> Before migrating to GatsbyJS and utilizing Netlify CMS, my first portfolio / blog was hosted on WordPress.</p>
+
+    <p>This was where it all started :)</p>`,
+    tech: [Tech.css, Tech.html, Tech.wordpress],
+    title: "Kaleb McKelvey WordPress",
+    url: ""
+  },
+  {
     id: "mentalModelDictionary",
     category: "Personal",
     company: "",

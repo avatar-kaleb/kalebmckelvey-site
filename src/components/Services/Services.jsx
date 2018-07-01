@@ -1,30 +1,18 @@
 import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
+
+// my components
+import ServiceList from "./ServiceList";
+
+// Data
+import ServicesData from "../../../data/ServicesData";
+// styling
 import "./Services.scss";
 
 class Services extends Component {
   render() {
     return (
-      <div className="services-container md-grid mobile-fix">
-        <Card raise className="md-grid md-cell--8" title="WordPress">
-          <CardTitle
-            title="Service Offerings"
-            subtitle="Clean, modern, responsive"
-          />
-          <CardText>
-            <p>My services page will be coming soon!</p>
-            <p>
-              If you have an idea and want to chat about options, send over an
-              e-mail at:{" "}
-              <a href="mailto:kalebmckelvey3@gmail.com">
-                {" "}
-                KalebMcKelvey3@gmail.com
-              </a>!
-            </p>
-          </CardText>
-        </Card>
+      <div className="mobile-fix">
+        <ServiceList className="" services={ServicesData} />
       </div>
     );
   }

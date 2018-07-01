@@ -7,15 +7,29 @@ import Paper from "react-md/lib/Papers/Paper";
 import AvatarImage from "../../components/AvatarImage/AvatarImage";
 import PostListing from "../../components/PostListing/PostListing";
 import kalebWelcomeImage from "../../images/Home-KalebWelcomePic.jpg";
+import Typed from "typed.js";
 
 // CSS
 import "./Home.scss";
 
 class Home extends Component {
+  componentDidMount() {
+    this.typed = new Typed("#typed", {
+      stringsElement: "#typed-strings",
+      typeSpeed: 15
+    });
+  }
+
+  componentWillUnmount() {
+    // Make sure to destroy Typed instance on unmounting
+    // to prevent memory leaks
+    this.typed.destroy();
+  }
+
   render() {
     const { postEdges } = this.props;
     return (
-      <div className="home-wrapper mobile-fix">
+      <div id="particles-js" className="home-wrapper mobile-fix">
         <Paper
           className="md-grid paper-background--white"
           zDepth={0}
@@ -29,11 +43,13 @@ class Home extends Component {
             phoneSize={4}
             position="center"
           >
-            <AvatarImage src={kalebWelcomeImage} alt="test" />
+            <AvatarImage
+              src={kalebWelcomeImage}
+              alt="Kaleb with a blue shirt on with arms wide open smiling!"
+            />
           </Cell>
           <Cell
             align="middle"
-            className="animated bounce"
             desktopOffset={1}
             desktopSize={6}
             tabletSize={5}
@@ -41,10 +57,15 @@ class Home extends Component {
             position="center"
           >
             <h3>Welcome to the Site!</h3>
-            <p>
-              Hola - I&apos;m Kaleb, a Staff Software Engineer striving to make
-              my dreams into reality!
-            </p>
+            <div id="typed-strings">
+              <p>
+                Hola - I&apos;m Kaleb, a Staff Software Engineer striving to
+                make my dreams into reality!
+              </p>
+            </div>
+            <span id="typed" />
+            <br />
+            <br />
             <p>
               On my blog, I&apos;ll be sharing my principles, recommendations,
               adventures, and web development tips on my journey to achieve.

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Observations from "../components/Observations/Observations";
-import config from "../../data/SiteConfig";
+import Observations from "../../components/Observations/Observations";
+import config from "../../../data/SiteConfig";
 
 class ObservationsPage extends Component {
   render() {
@@ -9,7 +9,10 @@ class ObservationsPage extends Component {
       <div className="about-container">
         <Helmet>
           <title>{`Observations | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/observations/`} />
+          <link
+            rel="canonical"
+            href={`${config.siteUrl}/journey-to-achieve/observations/`}
+          />
         </Helmet>
         <Observations />
       </div>

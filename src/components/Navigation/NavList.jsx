@@ -5,7 +5,7 @@ import Link from "gatsby-link";
 function GetNavList() {
   const NavList = [];
 
-  // Home / About
+  // Home / Services
   NavList.push(
     {
       key: "home",
@@ -14,9 +14,9 @@ function GetNavList() {
       to: "/"
     },
     {
-      primaryText: "About Me",
+      primaryText: "Services",
       component: Link,
-      to: "/about-me/"
+      to: "/services/"
     }
   );
 
@@ -27,17 +27,17 @@ function GetNavList() {
     nestedListClassName: "drawer-nav-nested-list-item",
     nestedItems: [
       {
+        primaryText: "About Me",
+        leftIcon: <FontIcon>person_pin</FontIcon>,
+        component: Link,
+        to: "/about-me/"
+      },
+      {
         primaryText: "Portfolio",
         leftIcon: <FontIcon>zoom_in</FontIcon>,
         component: Link,
         to: "/professional/portfolio/",
         activeClassName: "md-text--theme-primary"
-      },
-      {
-        primaryText: "Services",
-        leftIcon: <FontIcon>work</FontIcon>,
-        component: Link,
-        to: "/professional/services/"
       },
       {
         divider: true
@@ -70,13 +70,18 @@ function GetNavList() {
       //   to: "/journey-to-achieve/scholarship/"
       // },
       {
+        primaryText: "Observations",
+        leftIcon: <FontIcon>language</FontIcon>,
+        component: Link,
+        to: "/journey-to-achieve/observations/"
+      },
+      {
         divider: true
       }
     ]
   });
 
   // Resources
-  // Journey to Achieve
   NavList.push({
     primaryText: "Resources",
     expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
@@ -100,17 +105,12 @@ function GetNavList() {
     ]
   });
 
-  // contact and observations
+  // Contact
   NavList.push(
     {
       primaryText: "Contact Me",
       component: Link,
       to: "/contact-me/"
-    },
-    {
-      primaryText: "Observations",
-      component: Link,
-      to: "/observations/"
     },
     {
       divider: true

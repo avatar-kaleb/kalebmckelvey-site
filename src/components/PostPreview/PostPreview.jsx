@@ -21,6 +21,7 @@ class PostPreview extends Component {
 
     this.setHidden = this.setHidden.bind(this);
     this.navToPostOnComplete = this.navToPostOnComplete.bind(this);
+    this.handleResize = this.handleResize.bind(this);
   }
   componentDidMount() {
     this.handleResize();
@@ -42,7 +43,7 @@ class PostPreview extends Component {
   }
 
   setHidden(e) {
-    this.setState((prevState) => ({ hidden: !prevState.hidden }));
+    this.setState(prevState => ({ hidden: !prevState.hidden }));
   }
 
   navToPostOnComplete(path, e) {
