@@ -23,9 +23,13 @@ class ServiceCard extends Component {
     navigateTo("/contact-me");
   }
 
-  setPackageOnSliderChange(value, e) {
+  setPackageOnSliderChange(value) {
+    const selectedPackage = _.find(this.state.packageOptions, [
+      "totalPrice",
+      value
+    ]);
     this.setState({
-      selectedPackage: _.find(this.state.packageOptions, ["totalPrice", value])
+      selectedPackage
     });
   }
 

@@ -1,6 +1,6 @@
 import ServiceOptions from "./ServiceOptionsData";
 
-const { general, security, wordpress } = ServiceOptions;
+const { general, wordpress } = ServiceOptions;
 
 // lowest package total price option should match min slider option, because this
 // is how I am determining which package to show based on slider option picked
