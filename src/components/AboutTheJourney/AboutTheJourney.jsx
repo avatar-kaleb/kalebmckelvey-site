@@ -103,7 +103,6 @@ class AboutTheJourney extends Component {
               <strong>First</strong> -&gt; check out the{" "}
               <a
                 href="https://kalebmckelvey.com/journey-to-achieve/core-fundamentals/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 Core Fundamentals
@@ -114,7 +113,6 @@ class AboutTheJourney extends Component {
               <strong>Second</strong> -&gt; head over to{" "}
               <a
                 href="https://kalebmckelvey.com/tags/journey-to-achieve/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 The Journey to Achieve Blogroll
@@ -124,8 +122,7 @@ class AboutTheJourney extends Component {
               <br />
               <strong>Third </strong>-&gt; begin utilizing the tools in{" "}
               <a
-                href="https://kalebmckelvey.com/resources"
-                target="_blank"
+                href="https://kalebmckelvey.com/resources/life"
                 rel="noopener noreferrer"
               >
                 Life Resources Page
