@@ -28,6 +28,7 @@ class ServiceCard extends Component {
       "totalPrice",
       value
     ]);
+
     this.setState({
       selectedPackage
     });
