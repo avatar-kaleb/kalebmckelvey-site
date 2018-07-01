@@ -8,7 +8,7 @@ import "./Services.scss";
 class Services extends Component {
   render() {
     return (
-      <div className="mobile-fix">
+      <div className="services-wrapper mobile-fix">
         <ServiceList services={ServicesData} />
       </div>
     );
