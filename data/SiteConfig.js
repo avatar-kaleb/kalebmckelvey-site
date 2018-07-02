@@ -42,5 +42,5 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2018 Kaleb McKelvey" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2016 Kaleb McKelvey" // Copyright string for the footer of the website and RSS feed.
 };

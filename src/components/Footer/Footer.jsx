@@ -28,10 +28,10 @@ class Footer extends Component {
               </Button>
             </Link>
           </div>
-          <div className="based-on">
-            <Link to="/services">
-              <Button flat secondary iconClassName="fa fa-briefcase">
-                Work With Me
+          <div className="legal">
+            <Link to="/legal">
+              <Button flat secondary>
+                Legal Pages
               </Button>
             </Link>
           </div>

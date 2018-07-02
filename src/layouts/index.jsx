@@ -18,6 +18,8 @@ export default class MainLayout extends React.Component {
       .split("/")
       .join("");
     let title = "";
+
+    // TODO - order these and change to switch statement
     if (currentPath === "") {
       title = "Home";
     } else if (currentPath === "categories") {
@@ -40,6 +42,8 @@ export default class MainLayout extends React.Component {
       title = "Observations";
     } else if (currentPath === "services") {
       title = "Services";
+    } else if (currentPath === "legal") {
+      title = "Legal Information";
     } else if (currentPath.includes("tags")) {
       const tag = currentPath
         .replace("tags", "")
