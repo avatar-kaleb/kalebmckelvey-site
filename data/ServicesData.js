@@ -123,5 +123,10 @@ module.exports = [
         ]
       }
     ]
+  },
+  {
+    title: "AX Dynamics Part-time Contracting",
+    subtitle: "Helping you hit deadlines",
+    description: `<p>With over 3 years of experience working with AX 2012 R2, I am here to help with tasks that`
   }
 ];
