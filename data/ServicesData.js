@@ -82,9 +82,7 @@ module.exports = [
   {
     title: "Custom Web Application",
     subtitle: "Customized web applications for your business",
-    description: `<p>Have a new business idea that requires user management, custom APIs, and great user experience?<strong> I'm here to help</strong></p>
-
-    <p>I follow best practices, design patterns, and linting rules to develop cleanly authored custom solutions that meet your needs. Testing can be included if you prefer (I do), but does mean more development time.`,
+    description: `<p>Have a new business idea that requires custom development?  I follow best practices to develop clean solutions that meet your needs. Testing can be included if you prefer (I do), but does mean more development time.`,
     sliderOptions: {
       showSlider: true,
       label: "Budget",
@@ -130,18 +128,18 @@ module.exports = [
     ]
   },
   {
-    title: "Web Development Hourly PT Contracting",
+    title: "Web Development PT Contracting",
     subtitle: "Developing features to impact your users!",
     description: `<p>Need extra help on your business's website or web application? I implement features to spec by following team standards, workflow, and branching strategies.</p>
 
-    <p>I have experience in React, Polymer, Node, Springboot, Sass, and other modern web technologies. Checkout my <a href="https://www.kalebmckelvey.com/professional/portfolio/>Portfolio</a> to see my previous work.`,
+    <p>I have experience in React, Polymer, Node, Springboot, Sass, and other modern web technologies.`,
     sliderOptions: {
       showSlider: false
     },
     packageOptions: []
   },
   {
-    title: "AX Dynamics Hourly PT Contracting",
+    title: "AX Dynamics PT Contracting",
     subtitle: "Helping you hit project deadlines!",
     description: `<p>With over 3 years of experience working with AX 2012 R2, I am here to help with tasks that help improve user workflows through customizations, or help with data migrations and upgrades.</p><p>Have a task? I am here to help!</p>`,
     sliderOptions: {
