@@ -24,7 +24,7 @@ module.exports = [
     images: [],
     subtitle: "The one stop shop for Brilliant Factory",
     summary: `
-    <p>Users in the manufacturing shops were e-mailing, messages, and box foldering there way to documents required to use our team apps, which make their job easir.</p><p>I took on the side project for creating a WordPress site that met the design from our UX team to give users one place for the information they need!`,
+    <p>Users in the manufacturing shops were e-mailing, messaging, and box foldering their way to documents required to use our team apps, which make their job easir.</p><p>I took on the side project for creating a WordPress site that met the design from our UX team to give users one place for the information they need!`,
     tech: [Tech.css, Tech.html, Tech.wordpress],
     title: "Brilliant Factory Portal",
     url: ""
