@@ -22,6 +22,7 @@ class ServiceCard extends Component {
 
     // event binding to access this
     this.setPackageOnSliderChange = this.setPackageOnSliderChange.bind(this);
+    this.navigateToContactPage = this.navigateToContactPage.bind(this);
   }
 
   /**
@@ -58,39 +59,45 @@ class ServiceCard extends Component {
         <CardText>
           <div dangerouslySetInnerHTML={{ __html: this.state.description }} />
           <br />
-
-          <p>
-            <em>
-              Prices are estimates and will vary based on project requirements.
-              To truly estimate a price and dev time, user stories should be
-              created and estimated together.
-            </em>
-          </p>
-          <Slider
-            discrete
-            discreteTicks={this.state.sliderOptions.discreteTicks}
-            id={`${this.state.title}-slider`}
-            label={this.state.sliderOptions.label}
-            max={this.state.sliderOptions.max}
-            min={this.state.sliderOptions.min}
-            onChange={this.setPackageOnSliderChange}
-            step={this.state.sliderOptions.step}
-            valuePrecision={1}
-          />
-
-          <h2>{this.state.selectedPackage.title}</h2>
-          <ExpansionList className="md-cell md-cell--12">
-            {this.state.selectedPackage.options.map(option => (
-              <ExpansionPanel
-                key={option.name}
-                label={option.name}
-                secondaryLabel={option.price}
-                footer={null}
-              >
-                <div dangerouslySetInnerHTML={{ __html: option.description }} />
-              </ExpansionPanel>
-            ))}
-          </ExpansionList>
+          {this.state.sliderOptions.showSlider ? (
+            <div>
+              <p>
+                <em>
+                  Prices are estimates and will vary based on project
+                  requirements. To truly estimate a price and dev time, user
+                  stories should be created and estimated together.
+                </em>
+              </p>
+              <Slider
+                discrete
+                discreteTicks={this.state.sliderOptions.discreteTicks}
+                id={`${this.state.title}-slider`}
+                label={this.state.sliderOptions.label}
+                max={this.state.sliderOptions.max}
+                min={this.state.sliderOptions.min}
+                onChange={this.setPackageOnSliderChange}
+                step={this.state.sliderOptions.step}
+                valuePrecision={1}
+              />
+              <h2>{this.state.selectedPackage.title}</h2>
+              <ExpansionList className="md-cell md-cell--12">
+                {this.state.selectedPackage.options.map(option => (
+                  <ExpansionPanel
+                    key={option.name}
+                    label={option.name}
+                    secondaryLabel={option.price}
+                    footer={null}
+                  >
+                    <div
+                      dangerouslySetInnerHTML={{ __html: option.description }}
+                    />
+                  </ExpansionPanel>
+                ))}
+              </ExpansionList>
+            </div>
+          ) : (
+            <div />
+          )}
         </CardText>
 
         <CardActions className="md-divider-border md-divider-border--top md-text--theme-primary serviceCard-action--alignleft">

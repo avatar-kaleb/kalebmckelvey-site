@@ -10,6 +10,7 @@ module.exports = [
     subtitle: "User friendly, professional blog or website!",
     description: `<p>The WordPress content management system makes it easy for users to update content, write new blog posts, and manage SEO. Depending on budget, I offer a few different packages that will<strong> take your career or business to the next level!</strong></p>`,
     sliderOptions: {
+      showSlider: true,
       label: "Budget",
       min: 500,
       max: 800,
@@ -85,6 +86,7 @@ module.exports = [
 
     <p>I follow best practices, design patterns, and linting rules to develop cleanly authored custom solutions that meet your needs. Testing can be included if you prefer (I do), but does mean more development time.`,
     sliderOptions: {
+      showSlider: true,
       label: "Budget",
       min: 1500,
       max: 4500,
@@ -99,7 +101,8 @@ module.exports = [
           general.domain.all,
           webApp.design.mockUp,
           webApp.development.basic,
-          webApp.userManagement.basic
+          webApp.userManagement.basic,
+          wordpress.SEO.basic
         ]
       },
       {
@@ -109,7 +112,8 @@ module.exports = [
           general.domain.all,
           webApp.design.mockUp,
           webApp.development.intermediate,
-          webApp.userManagement.intermediate
+          webApp.userManagement.intermediate,
+          wordpress.SEO.basic
         ]
       },
       {
@@ -119,14 +123,30 @@ module.exports = [
           general.domain.all,
           webApp.design.prototype,
           webApp.development.complex,
-          webApp.userManagement.complex
+          webApp.userManagement.complex,
+          wordpress.SEO.basic
         ]
       }
     ]
   },
   {
-    title: "AX Dynamics Part-time Contracting",
-    subtitle: "Helping you hit deadlines",
-    description: `<p>With over 3 years of experience working with AX 2012 R2, I am here to help with tasks that`
+    title: "Web Development Hourly PT Contracting",
+    subtitle: "Developing features to impact your users!",
+    description: `<p>Need extra help on your business's website or web application? I implement features to spec by following team standards, workflow, and branching strategies.</p>
+
+    <p>I have experience in React, Polymer, Node, Springboot, Sass, and other modern web technologies. Checkout my <a href="https://www.kalebmckelvey.com/professional/portfolio/>Portfolio</a> to see my previous work.`,
+    sliderOptions: {
+      showSlider: false
+    },
+    packageOptions: []
+  },
+  {
+    title: "AX Dynamics Hourly PT Contracting",
+    subtitle: "Helping you hit project deadlines!",
+    description: `<p>With over 3 years of experience working with AX 2012 R2, I am here to help with tasks that help improve user workflows through customizations, or help with data migrations and upgrades.</p><p>Have a task? I am here to help!</p>`,
+    sliderOptions: {
+      showSlider: false
+    },
+    packageOptions: []
   }
 ];
