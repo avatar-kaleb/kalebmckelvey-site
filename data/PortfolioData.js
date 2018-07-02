@@ -18,6 +18,18 @@ module.exports = [
     url: ""
   },
   {
+    id: "brilliantPortalWordPress",
+    category: "Work",
+    company: "",
+    images: [],
+    subtitle: "The one stop shop for Brilliant Factory",
+    summary: `
+    <p>Users in the manufacturing shops were e-mailing, messages, and box foldering there way to documents required to use our team apps, which make their job easir.</p><p>I took on the side project for creating a WordPress site that met the design from our UX team to give users one place for the information they need!`,
+    tech: [Tech.css, Tech.html, Tech.wordpress],
+    title: "Brilliant Factory Portal",
+    url: ""
+  },
+  {
     id: "dukeOfDollars",
     category: "Personal",
     company: "",
@@ -149,6 +161,18 @@ module.exports = [
     </p>`,
     tech: [Tech.node, Tech.polymerOne, Tech.predix, Tech.sass],
     title: "Plant Pulse Optimizer",
+    url: ""
+  },
+  {
+    id: "softwareEngineeringWordPress",
+    category: "Work",
+    company: "",
+    images: [],
+    subtitle: "Learn who we are and what we do",
+    summary: `
+    <p>Created a team portal to show the services we offer, team members with their avatars, and the products we work on.</p><p>This side project was so much fun, allowing the business a place to contact us and learn how we operate!`,
+    tech: [Tech.css, Tech.html, Tech.wordpress],
+    title: "Software Engineering Portal",
     url: ""
   },
   {
