@@ -6,6 +6,14 @@ import GetNavList from "./NavList";
 import "./Navigation.scss";
 
 class Navigation extends Component {
+  componentDidMount() {
+    if (NavigationDrawer.getCurrentMedia().desktop) {
+      NavigationDrawer.defaultVisible = true;
+    } else {
+      NavigationDrawer.defaultVisible = false;
+    }
+  }
+
   render() {
     const { children, config, LocalTitle } = this.props;
     const footerLinks = LocalTitle !== "About";
