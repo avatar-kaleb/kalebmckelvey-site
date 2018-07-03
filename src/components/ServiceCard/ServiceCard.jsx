@@ -15,7 +15,6 @@ class ServiceCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      ...props,
       selectedPackage: props.packageOptions[0],
       contactPath: "/contact-me"
     };
@@ -31,7 +30,7 @@ class ServiceCard extends Component {
    * @param {Number} value The value of the slider on change
    */
   setPackageOnSliderChange(value) {
-    const selectedPackage = find(this.state.packageOptions, [
+    const selectedPackage = find(this.props.packageOptions, [
       "totalPrice",
       value
     ]);
@@ -54,12 +53,12 @@ class ServiceCard extends Component {
         raise
         className="serviceCard--mb md-cell--6 md-cell--center md-cell--top"
       >
-        <CardTitle title={this.state.title} subtitle={this.state.subtitle} />
+        <CardTitle title={this.props.title} subtitle={this.props.subtitle} />
 
         <CardText>
-          <div dangerouslySetInnerHTML={{ __html: this.state.description }} />
+          <div dangerouslySetInnerHTML={{ __html: this.props.description }} />
           <br />
-          {this.state.sliderOptions.showSlider ? (
+          {this.props.sliderOptions.showSlider ? (
             <div>
               <p>
                 <em>
@@ -70,13 +69,13 @@ class ServiceCard extends Component {
               </p>
               <Slider
                 discrete
-                discreteTicks={this.state.sliderOptions.discreteTicks}
-                id={`${this.state.title}-slider`}
-                label={this.state.sliderOptions.label}
-                max={this.state.sliderOptions.max}
-                min={this.state.sliderOptions.min}
+                discreteTicks={this.props.sliderOptions.discreteTicks}
+                id={`${this.props.title}-slider`}
+                label={this.props.sliderOptions.label}
+                max={this.props.sliderOptions.max}
+                min={this.props.sliderOptions.min}
                 onChange={this.setPackageOnSliderChange}
-                step={this.state.sliderOptions.step}
+                step={this.props.sliderOptions.step}
                 valuePrecision={1}
               />
               <h2>{this.state.selectedPackage.title}</h2>
