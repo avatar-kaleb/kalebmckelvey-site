@@ -13,7 +13,6 @@ class Navigation extends Component {
       <NavigationDrawer
         includeDrawerHeader
         contentClassName="main-content"
-        defaultVisible={!!NavigationDrawer.getCurrentMedia().desktop}
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
         drawerTitle={config.siteTitle}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
