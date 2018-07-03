@@ -6,14 +6,6 @@ import GetNavList from "./NavList";
 import "./Navigation.scss";
 
 class Navigation extends Component {
-  componentDidMount() {
-    if (NavigationDrawer.getCurrentMedia().desktop) {
-      NavigationDrawer.defaultVisible = true;
-    } else {
-      NavigationDrawer.defaultVisible = false;
-    }
-  }
-
   render() {
     const { children, config, LocalTitle } = this.props;
     const footerLinks = LocalTitle !== "About";
@@ -21,6 +13,7 @@ class Navigation extends Component {
       <NavigationDrawer
         includeDrawerHeader
         contentClassName="main-content"
+        defaultVisible={!!NavigationDrawer.getCurrentMedia().desktop}
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
         drawerTitle={config.siteTitle}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
