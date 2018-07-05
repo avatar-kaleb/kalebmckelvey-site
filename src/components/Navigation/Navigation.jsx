@@ -9,6 +9,13 @@ class Navigation extends Component {
   render() {
     const { children, config, LocalTitle } = this.props;
     const footerLinks = LocalTitle !== "About";
+    const title = (
+      <div>
+        <h2>{config.siteTitle}</h2>
+        <p>Growing through experience</p>
+      </div>
+    );
+
     return (
       <NavigationDrawer
         contentClassName="main-content"
