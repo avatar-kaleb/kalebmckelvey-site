@@ -11,7 +11,6 @@ class Navigation extends Component {
     const footerLinks = LocalTitle !== "About";
     return (
       <NavigationDrawer
-        includeDrawerHeader
         contentClassName="main-content"
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
         drawerTitle={config.siteTitle}
