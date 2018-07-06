@@ -1,6 +1,7 @@
 module.exports = {
   blogPostDir: "blog", // The name of directory that contains your posts.
   siteTitle: "Kaleb McKelvey", // Site title.
+  siteTagline: "Growing through experience", // Site title.
   siteTitleAlt: "Kaleb McKelvey", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://kalebmckelvey.com", // Domain of your website without pathPrefix.

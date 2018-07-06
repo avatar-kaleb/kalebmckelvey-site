@@ -12,7 +12,7 @@ class Navigation extends Component {
     const title = (
       <div>
         <h2>{config.siteTitle}</h2>
-        <p>Growing through experience</p>
+        <p>{config.siteTagline}</p>
       </div>
     );
 
@@ -20,7 +20,7 @@ class Navigation extends Component {
       <NavigationDrawer
         contentClassName="main-content"
         desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
-        drawerTitle={config.siteTitle}
+        drawerTitle={title}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         navItems={GetNavList()}
         tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}

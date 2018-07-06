@@ -14,7 +14,21 @@
   }
 }
 
-nav > header > h2:first-of-type {
+nav > header > div {
+  align-content: center;
+}
+
+// style for drawer title and tag line
+nav > header > div > h2:first-of-type {
   font-family: "Dancing Script", cursive;
-  font-size: 2em;
+  font-size: 1.5em;
+  border-bottom: solid 1px;
+  margin-bottom: 0;
+}
+
+// height is a bit too close to top for me on large screens
+@media screen and (min-width: 768px) {
+  nav > header > div > h2:first-of-type {
+    margin-top: 0.1em;
+  }
 }
