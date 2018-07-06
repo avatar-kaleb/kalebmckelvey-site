@@ -1,4 +1,5 @@
 const config = require("./data/SiteConfig");
+
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
@@ -39,18 +40,18 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.siteGATrackingID,
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true
-      }
-    },
+    // {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //   options: {
+    //     trackingId: config.siteGATrackingID,
+    //     // Puts tracking script in the head instead of the body
+    //     head: false,
+    //     // Setting this parameter is optional
+    //     anonymize: true,
+    //     // Setting this parameter is also optional
+    //     respectDNT: true
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
