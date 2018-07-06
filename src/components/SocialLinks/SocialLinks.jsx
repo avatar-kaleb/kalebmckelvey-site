@@ -4,7 +4,6 @@ import {
   GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  TelegramShareButton,
   RedditShareButton,
   FacebookShareCount,
   GooglePlusShareCount,
@@ -29,41 +28,41 @@ class SocialLinks extends Component {
     const filter = count => (count > 0 ? count : "");
 
     return (
-      <div className="social-links">
-        <RedditShareButton url={url} title={post.title}>
-          <RedditIcon round size={iconSize} />
-          <RedditShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </RedditShareCount>
-        </RedditShareButton>
-        <TwitterShareButton url={url} title={post.title}>
-          <TwitterIcon round size={iconSize} />
-        </TwitterShareButton>
-        <GooglePlusShareButton url={url}>
-          <GooglePlusIcon round size={iconSize} />
-          <GooglePlusShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </GooglePlusShareCount>
-        </GooglePlusShareButton>
-        <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FacebookIcon round size={iconSize} />
-          <FacebookShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </FacebookShareCount>
-        </FacebookShareButton>
-        <LinkedinShareButton
-          url={url}
-          title={post.title}
-          description={postNode.excerpt}
-        >
-          <LinkedinIcon round size={iconSize} />
-          <LinkedinShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </LinkedinShareCount>
-        </LinkedinShareButton>
-        <TelegramShareButton url={url}>
-          <TelegramIcon round size={iconSize} />
-        </TelegramShareButton>
+      <div>
+        <div className="social-links">
+          <RedditShareButton url={url} title={post.title}>
+            <RedditIcon round size={iconSize} />
+            <RedditShareCount url={url}>
+              {count => <div className="share-count">{filter(count)}</div>}
+            </RedditShareCount>
+          </RedditShareButton>
+          <TwitterShareButton url={url} title={post.title}>
+            <TwitterIcon round size={iconSize} />
+          </TwitterShareButton>
+          <GooglePlusShareButton url={url}>
+            <GooglePlusIcon round size={iconSize} />
+            <GooglePlusShareCount url={url}>
+              {count => <div className="share-count">{filter(count)}</div>}
+            </GooglePlusShareCount>
+          </GooglePlusShareButton>
+          <FacebookShareButton url={url} quote={postNode.excerpt}>
+            <FacebookIcon round size={iconSize} />
+            <FacebookShareCount url={url}>
+              {count => <div className="share-count">{filter(count)}</div>}
+            </FacebookShareCount>
+          </FacebookShareButton>
+          <LinkedinShareButton
+            url={url}
+            title={post.title}
+            description={postNode.excerpt}
+          >
+            <LinkedinIcon round size={iconSize} />
+            <LinkedinShareCount url={url}>
+              {count => <div className="share-count">{filter(count)}</div>}
+            </LinkedinShareCount>
+          </LinkedinShareButton>
+        </div>
+        <h6 className="social-links">Share this post!</h6>
       </div>
     );
   }

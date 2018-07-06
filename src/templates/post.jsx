@@ -76,6 +76,7 @@ export default class PostTemplate extends React.Component {
                 postNode={postNode}
                 mobile={this.state.mobile}
               />
+              <PostSuggestions postNode={postNode} />
             </div>
           </Card>
           <UserInfo
@@ -85,8 +86,6 @@ export default class PostTemplate extends React.Component {
           />
           <Disqus postNode={postNode} expanded={expanded} />
         </div>
-
-        <PostSuggestions postNode={postNode} />
       </div>
     );
   }
