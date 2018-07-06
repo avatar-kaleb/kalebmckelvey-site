@@ -18,17 +18,18 @@ nav > header > div {
   align-content: center;
 }
 
-// style for drawer title and tag line
+// style for drawer title and
 nav > header > div > h2:first-of-type {
   font-family: "Dancing Script", cursive;
   font-size: 1.5em;
   border-bottom: solid 1px;
   margin-bottom: 0;
+  margin-top: 1.5px;
 }
 
 // height is a bit too close to top for me on large screens
 @media screen and (min-width: 768px) {
   nav > header > div > h2:first-of-type {
-    margin-top: 0.1em;
+    margin-top: 3px;
   }
 }
