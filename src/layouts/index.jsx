@@ -21,7 +21,7 @@ export default class MainLayout extends React.Component {
 
     // TODO - order these and change to switch statement
     if (currentPath === "") {
-      title = "Home";
+      title = "Blog";
     } else if (currentPath === "categories") {
       title = "Categories";
     } else if (currentPath === "about-me") {
@@ -40,7 +40,7 @@ export default class MainLayout extends React.Component {
       title = "Contact Me";
     } else if (currentPath === "journey-to-achieveobservations") {
       title = "Observations";
-    } else if (currentPath === "services") {
+    } else if (currentPath === "professionalservices") {
       title = "Services";
     } else if (currentPath === "legal") {
       title = "Legal Information";
