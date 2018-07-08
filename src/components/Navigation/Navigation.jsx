@@ -32,8 +32,6 @@ class Navigation extends Component {
         onClick: () => this.setPage(item.key)
       };
     });
-
-    console.log(this.navItems);
   }
 
   setPage = key => {
