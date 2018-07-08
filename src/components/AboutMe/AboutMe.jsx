@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
-import kalebWelcomeImage from "../../images/AboutMe-WeddingPic.jpg";
+import kalebWelcomeImage from "../../images/AboutMe-Santorini.jpg";
 import "./AboutMe.scss";
 
 class AboutMe extends Component {
@@ -14,7 +14,7 @@ class AboutMe extends Component {
             <img
               className="animated slideInDown"
               src={kalebWelcomeImage}
-              alt="A male with a black tuxedo on in a nature setting."
+              alt="A black silhouette of an male's head looking out towards a beautiful sunset."
             />
           </Media>
           <CardText className="animated slideInUp">
