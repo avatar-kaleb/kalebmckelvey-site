@@ -11,7 +11,7 @@ module.exports = [
     description: `<p>The WordPress content management system makes it easy for users to update content, write new blog posts, and manage SEO. Depending on budget, I offer a few different packages that will<strong> take your career or business to the next level!</strong></p>`,
     sliderOptions: {
       showSlider: true,
-      label: "Budget",
+      label: "Slide to adjust your budget",
       min: 500,
       max: 800,
       step: 100,
@@ -85,7 +85,7 @@ module.exports = [
     description: `<p>Have a new business idea that requires custom development?  I follow best practices to develop clean solutions that meet your needs. Testing can be included if you prefer (I do), but does mean more development time.`,
     sliderOptions: {
       showSlider: true,
-      label: "Budget",
+      label: "Slide to adjust your budget",
       min: 1500,
       max: 4500,
       step: 1500,
