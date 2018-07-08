@@ -22,11 +22,11 @@ module.exports = {
     "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
-    // {
-    //   label: "Bitbucket",
-    //   url: "https://bitbucket.org/avatar-kaleb/",
-    //   iconClassName: "fa fa-bitbucket"
-    // },
+    {
+      label: "Github",
+      url: "https://github.com/avatar-kaleb",
+      iconClassName: "fa fa-github"
+    },
     {
       label: "Instagram",
       url: "https://instagram.com/on_the_journey3",
