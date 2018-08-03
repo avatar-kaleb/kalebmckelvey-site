@@ -27,7 +27,7 @@ Lately I've been watching Charlie Munger speeches on YouTube again, and it felt 
 
 Click the image below to watch Charlie Munger's USC Commencement Speech.
 
-[![Charlie Munger](http://img.youtube.com/vi/5U0TE4oqj24/0.jpg)](https://www.youtube.com/watch?v=5U0TE4oqj24 "Charlie Munger")
+[![Charlie Munger](https://img.youtube.com/vi/5U0TE4oqj24/0.jpg)](https://www.youtube.com/watch?v=5U0TE4oqj24 "Charlie Munger")
 
 _Does the name ring a bell? I wrote about Charlie's advice on [keeping friends in the past](https://www.kalebmckelvey.com/would-you-fill-up-your-friends-gas-tank/)!_
 
