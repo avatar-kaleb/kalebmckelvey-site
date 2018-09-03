@@ -25,3 +25,7 @@ It's like Hitch said on his first date with Sarah - "you can't really know where
 [The Constitution](https://www.archives.gov/founding-docs/constitution)
 
 [Bill of Rights](https://www.archives.gov/founding-docs/bill-of-rights)
+
+___I added this into the mindset category. Why? When asked questions in life, the best source can be the original documents This mindset of diving into and making your own decisions is important for achieving!___
+
+Thanks for reading!
