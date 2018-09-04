@@ -8,7 +8,7 @@ tags:
   - recommended
   - writing
 ---
-There are there documents that I believe every American should read at least once as an adult. The Declaration of Independence, the Constitution of the United States, and the Bill of Rights. Both available for free!
+There are three documents that I believe every American should read at least once as an adult. The Declaration of Independence, the Constitution of the United States, and the Bill of Rights. Both available for free!
 
 Recently, my girlfriend and I visited Philly to check out if the Cheese Steaks met the expectations set from Fresh Prince of Bel Air. Although the grease wasn't on the bag when we ordered them, they were not bad for our break from seeing the sites.
 
