@@ -11,17 +11,19 @@ tags:
 Lately I've been working to refresh and grow in my skills from Computer Science because just how fascinating it really can be. 
 
 ## Algorithms are everywhere!
-If computers and software didn't take time to analyze and optimize the algorithms that run our daily lives, we might never actually get those directions we asked for from Google Maps, Mint might never actually refresh our account categorization, or Twitter wouldn't show the next big POTUS tweet.
+An algorithm is defined a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 
-Algorithms are in the cars we drive, the TVs we watch, and buildings we enter. UPS literally updates you on package progress through the delivery cycle, and Netflix takes over the Internet bandwidth (36%) of the US during peak viewing hours.
+If computers and software didn't take time to analyze and optimize the algorithms that run our daily lives, we might never actually get those directions we asked for from Google Maps, Mint might not actually refresh our account categorization, or Twitter wouldn't show the next big POTUS tweet.
 
-These little things called algorithms are EVERYWHERE, constantly making our lives easier, faster, and convenient.
+Algorithms are in the cars we drive, the TVs we watch, and buildings we enter. They are used in medical equipment and food production. UPS literally updates you on package progress throughout the delivery cycle, and Netflix takes over the US Internet bandwidth (36%) during peak viewing hours.
+
+These little things called algorithms are EVERYWHERE, constantly making our lives easier, faster, and more convenient.
 
 ## Why Algorithms Matter to Me
 
 I decided to turn to *The Algorithm Design Manual * to refresh on the proper ways to analyze and design algorithms. Because as our team helps make GE produce products faster through web applications, the small performance gains can make a huge difference.
 
-My goal is first refresh on the best practices to analyze our applications, then start driving those improvements with the help of the team - it should be pretty exciting! We've been fortunate that most of our data sets are in the lower range, but still, improvements can be found :).
+My goal is first refresh on the best practices to analyze our applications, then start driving those improvements with the help of the team - it should be pretty exciting! We've been fortunate that most of our data sets are in the lower range, but still, improvements can and will be found :).
 
 ## Rule of Thumb for Software Engineers for Big OH
 
