@@ -60,9 +60,7 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <PostCover postNode={postNode} mobile={mobile} />
-        <div
-          className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
-        >
+        <div className={`md-grid md-cell--8 post-page-contents mobile-fix ${postOverlapClass}`}>
           <Card className="md-grid md-cell md-cell--12 post">
             <CardText className="post-body">
               <h1 className="md-display-2 post-header">{post.title}</h1>
@@ -71,19 +69,11 @@ export default class PostTemplate extends React.Component {
             </CardText>
             <div className="post-meta">
               <PostTags tags={post.tags} />
-              <SocialLinks
-                postPath={slug}
-                postNode={postNode}
-                mobile={this.state.mobile}
-              />
+              <SocialLinks postPath={slug} postNode={postNode} mobile={this.state.mobile} />
               <PostSuggestions postNode={postNode} />
             </div>
           </Card>
-          <UserInfo
-            className="md-grid md-cell md-cell--12"
-            config={config}
-            expanded={expanded}
-          />
+          <UserInfo className="md-grid md-cell md-cell--12" config={config} expanded={expanded} />
           <Disqus postNode={postNode} expanded={expanded} />
         </div>
       </div>

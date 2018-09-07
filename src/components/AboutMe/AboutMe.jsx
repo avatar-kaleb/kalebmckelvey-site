@@ -20,58 +20,42 @@ class AboutMe extends Component {
           <CardText className="animated slideInUp">
             <h1>My Story</h1>
             <p>
-              I&apos;m a young professional with aspirations to inspire, grow,
-              and achieve in various areas of my life.
+              I&apos;m a young professional with aspirations to inspire, grow, and achieve in various areas of my life.
             </p>
             <h2>Small town life</h2>
+            <p>Growing up in a small town built the foundation of who I am today in a few ways.</p>
             <p>
-              Growing up in a small town built the foundation of who I am today
-              in a few ways.
-            </p>
-            <p>
-              First, and most important, my family instilled in me the values of
-              responsibility, character, and integrity.  Second, my coaches and
-              teachers taught me the values of work ethic and accountability.
-              Lastly, it gave me the opportunity to understand that boredom can
-              be replaced with canoe trips down the river, swimming in the
-              quarry, and learning new technologies!
+              First, and most important, my family instilled in me the values of responsibility, character, and
+              integrity.  Second, my coaches and teachers taught me the values of work ethic and accountability. Lastly,
+              it gave me the opportunity to understand that boredom can be replaced with canoe trips down the river,
+              swimming in the quarry, and learning new technologies!
             </p>
 
             <h2>College Years</h2>
+            <p>Technology for me began with video games, leading to a desire for becoming a developer.</p>
             <p>
-              Technology for me began with video games, leading to a desire for
-              becoming a developer.
+              It was this desire that my college journey began, a journey that changed my perspective by opening my mind
+              and meeting great people with unique stories. A place to learn how to program from experts and the skill
+              of time management through balance.
             </p>
             <p>
-              It was this desire that my college journey began, a journey that
-              changed my perspective by opening my mind and meeting great people
-              with unique stories. A place to learn how to program from experts
-              and the skill of time management through balance.
+              By graduation, I completed my dream of learning to develop and became a member of the greatest fraternity
+              in the world, Kappa Alpha Psi.
             </p>
             <p>
-              By graduation, I completed my dream of learning to develop and
-              became a member of the greatest fraternity in the world, Kappa
-              Alpha Psi.
-            </p>
-            <p>
-              My family, fraternity brothers, and colleagues guided me to a new
-              vision on life, one that looks at the future as much as the
-              present.
+              My family, fraternity brothers, and colleagues guided me to a new vision on life, one that looks at the
+              future as much as the present.
             </p>
             <h2>Becoming a Software Engineer!</h2>
             <p>
-              Since then, I began working at GE in their Digital Technology
-              Leadership Program. Two years later, February 2017, I achieved my
-              dream of becoming a software engineer! GE is a company that
-              focuses on the development of both technical and leadership
-              skill-sets. Because of this, I have grown in both my professional
-              and personal worlds thanks to the fabulous people I&apos;ve met on
-              the way.
+              Since then, I began working at GE in their Digital Technology Leadership Program. Two years later,
+              February 2017, I achieved my dream of becoming a software engineer! GE is a company that focuses on the
+              development of both technical and leadership skill-sets. Because of this, I have grown in both my
+              professional and personal worlds thanks to the fabulous people I&apos;ve met on the way.
             </p>
             <p>
-              With that all being said, I hope to influence your journey towards
-              achieving anything you want. I truly believe you are the executive
-              of your life.
+              With that all being said, I hope to influence your journey towards achieving anything you want. I truly
+              believe you are the executive of your life.
             </p>
 
             <hr />
@@ -79,47 +63,39 @@ class AboutMe extends Component {
             <h1>My Skills:</h1>
 
             <p>
-              In the last few years I have been offered the opportunities to
-              learn expertise in various areas:
+              In the last few years I have been offered the opportunities to learn expertise in various areas:
               <br />
               <br />
               <strong>Modern Web Development:</strong>
               <br />
-              UX, MEAN stack, Javascript, HTML5, CSS, Polymer, Bootstrap, and
-              other libraries. I feel that every new project leads to learning
-              new areas within this field
+              UX, MEAN stack, Javascript, HTML5, CSS, Polymer, Bootstrap, and other libraries. I feel that every new
+              project leads to learning new areas within this field
               <br />
               <br />
               <strong>Predix:</strong>
               <br />
-              The Industrial Internet of Things platform. In February 2017, I
-              became a Predix Certified Developer
+              The Industrial Internet of Things platform. In February 2017, I became a Predix Certified Developer
               <br />
               <br />
               <strong>AX Dynamics:</strong>
-              <br /> 4+ years of development experience designing custom
-              solutions to meet user needs, providing business value
+              <br /> 4+ years of development experience designing custom solutions to meet user needs, providing
+              business value
               <br />
               <br />
               <strong>Leadership:</strong>
-              <br />I graduated from GE&apos;s Digital Technology Leadership
-              Program in February 2017. From this, I led through experience and
-              learned from many top IT professionals in GEHC
+              <br />I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
+              through experience and learned from many top IT professionals in GEHC
             </p>
 
             <hr />
             <br />
 
             <p>
-              Overall I am excited to grow through new experiences! My passion
-              for technology and desire to make the world a better place drives
-              me to continue learning. Life is a feeling process and a journey
-              to achieve all that you want on the way!
+              Overall I am excited to grow through new experiences! My passion for technology and desire to make the
+              world a better place drives me to continue learning. Life is a feeling process and a journey to achieve
+              all that you want on the way!
             </p>
-            <p>
-              With that being said, I look forward to hearing from you -
-              comment, subscribe, and enjoy!
-            </p>
+            <p>With that being said, I look forward to hearing from you - comment, subscribe, and enjoy!</p>
             <p>
               Best wishes,
               <br />

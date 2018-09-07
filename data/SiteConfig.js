@@ -7,8 +7,7 @@ module.exports = {
   siteUrl: "https://kalebmckelvey.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription:
-    "Kaleb McKelvey's blog and web development services in material design form!", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Kaleb McKelvey's blog and web development services in material design form!", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   siteGATrackingID: "UA-87265682-1", // Tracking code ID for google analytics.
@@ -19,8 +18,7 @@ module.exports = {
   userLocation: "Greater Milwaukee Area", // User location to display in the author segment.
   userAvatar: "/Contact-Headshot.jpg", // User avatar to display in the author segment.
   userDescription:
-    "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!", // User description to display in the author segment.
-  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+    "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!",
   userLinks: [
     {
       label: "Github",
@@ -43,5 +41,5 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2016 Kaleb McKelvey" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Kaleb McKelvey Dev. Services LLC" // Copyright string for the footer of the website and RSS feed.
 };
