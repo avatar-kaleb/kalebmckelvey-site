@@ -16,8 +16,8 @@ class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true,
-      buttonHidden: false
+      buttonHidden: false,
+      mobile: true
     };
 
     this.setButtonHidden = this.setButtonHidden.bind(this);
@@ -83,8 +83,8 @@ class PostPreview extends Component {
 
         <CardActions>
           <ParticleEffectButton
-            color="#ff6f00"
-            duration={250}
+            color={this.state.buttonColor}
+            duration={275}
             hidden={this.state.buttonHidden}
             onComplete={e => this.navToPostOnClick(postInfo.path, e)}
             oscillationCoefficient={30}

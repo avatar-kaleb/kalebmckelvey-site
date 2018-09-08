@@ -110,7 +110,7 @@ class Navigation extends Component {
     const { children, config, LocalTitle } = this.props;
     const title = (
       <div>
-        <h2>{config.siteTitle}</h2>
+        <h2 className="drawer-title--color">{config.siteTitle}</h2>
         <p>{config.siteTagline}</p>
       </div>
     );
@@ -125,9 +125,12 @@ class Navigation extends Component {
         tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         toolbarActions={<ToolbarActions config={config} />}
         toolbarTitle={LocalTitle}
+        toolbarTitleStyle={{
+          color: "#ff6f00"
+        }}
       >
         <div className="main-container">{children}</div>
-        <Footer />
+        <Footer className="footer" />
       </NavigationDrawer>
     );
   }

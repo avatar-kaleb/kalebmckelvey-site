@@ -1,4 +1,8 @@
-.main-content {
+@import "../../layouts/theme.scss";
+
+// increased specificty for this because flex was getting
+// overridden somewhere
+#main-content {
   display: flex;
   flex-direction: column;
 
@@ -11,6 +15,8 @@
     .main-content {
       flex: 1;
     }
+  }
+  .footer {
   }
 }
 
@@ -36,4 +42,8 @@ nav > header > div > h2:first-of-type {
 
 .md-text--theme-primary {
   font-weight: bold;
+}
+
+.drawer-title--color {
+  color: $md-primary-color;
 }
