@@ -17,8 +17,7 @@ class PostPreview extends Component {
     super(props);
     this.state = {
       mobile: true,
-      buttonHidden: false,
-      titleHidden: false
+      buttonHidden: false
     };
 
     this.setButtonHidden = this.setButtonHidden.bind(this);
