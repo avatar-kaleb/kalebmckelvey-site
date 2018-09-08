@@ -83,7 +83,6 @@ class PostPreview extends Component {
 
         <CardActions>
           <ParticleEffectButton
-            className="md-cell--right"
             color="#ff6f00"
             duration={250}
             hidden={this.state.buttonHidden}

@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
