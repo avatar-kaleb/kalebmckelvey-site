@@ -22,8 +22,6 @@ class PostPreview extends Component {
     };
 
     this.setButtonHidden = this.setButtonHidden.bind(this);
-    this.setTitleHidden = this.setTitleHidden.bind(this);
-    this.navToPostOnComplete = this.navToPostOnComplete.bind(this);
     this.handleResize = this.handleResize.bind(this);
   }
   componentDidMount() {
@@ -47,11 +45,7 @@ class PostPreview extends Component {
     this.setState(prevState => ({ buttonHidden: !prevState.buttonHidden }));
   }
 
-  setTitleHidden(e) {
-    this.setState(prevState => ({ titleHidden: !prevState.titleHidden }));
-  }
-
-  navToPostOnComplete(path, e) {
+  navToPostOnClick(path, e) {
     navigateTo(path);
   }
 
@@ -71,20 +65,10 @@ class PostPreview extends Component {
             height: `${coverHeight}px`
           }}
           className="post-preview-cover"
+          onClick={e => this.navToPostOnClick(postInfo.path, e)}
         >
           <MediaOverlay>
-            <ParticleEffectButton
-              className="md-cell--right"
-              color="#fff"
-              duration={300}
-              speed={1}
-              hidden={this.state.titleHidden}
-              onComplete={e => this.navToPostOnComplete(postInfo.path, e)}
-              oscillationCoefficient={30}
-              particlesAmountCoefficient={20}
-            >
-              <CardTitle title={postInfo.title} onClick={this.setTitleHidden} />
-            </ParticleEffectButton>
+            <CardTitle title={postInfo.title} onClick={e => this.navToPostOnClick(postInfo.path, e)} />
           </MediaOverlay>
         </Media>
         <CardTitle
@@ -104,7 +88,7 @@ class PostPreview extends Component {
             color="#ff6f00"
             duration={250}
             hidden={this.state.buttonHidden}
-            onComplete={e => this.navToPostOnComplete(postInfo.path, e)}
+            onComplete={e => this.navToPostOnClick(postInfo.path, e)}
             oscillationCoefficient={30}
             particlesAmountCoefficient={5}
           >
