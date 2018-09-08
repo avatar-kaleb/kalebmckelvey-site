@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Card from "react-md/lib/Cards";
 import CardText from "react-md/lib/Cards/CardText";
+import CardTitle from "react-md/lib/Cards/CardTitle";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -63,7 +64,7 @@ export default class PostTemplate extends React.Component {
         <div className={`md-grid md-cell--8 post-page-contents mobile-fix ${postOverlapClass}`}>
           <Card className="md-grid md-cell md-cell--12 post">
             <CardText className="post-body">
-              <h1 className="md-display-2 post-header">{post.title}</h1>
+              <h1 className="md-display-1 post-header">{post.title}</h1>
               <PostInfo postNode={postNode} />
               <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             </CardText>

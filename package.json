@@ -41,7 +41,7 @@
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-helmet": "^5.2.0",
-    "react-md": "^1.4.2",
+    "react-md": "^1.5.0",
     "react-particle-effect-button": "^1.0.0",
     "react-pdf-js": "^4.0.0-alpha.4",
     "react-share": "^2.1.0",
@@ -65,9 +65,7 @@
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -84,8 +82,6 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-recommended"
-    ]
+    "plugins": ["remark-preset-lint-recommended"]
   }
 }
