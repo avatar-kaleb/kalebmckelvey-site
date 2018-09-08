@@ -81,7 +81,7 @@ class PostPreview extends Component {
           <PostTags tags={postInfo.tags} />
         </CardText>
 
-        <CardActions>
+        <CardActions className="md-divider-border md-divider-border--top">
           <ParticleEffectButton
             color={this.state.buttonColor}
             duration={275}
@@ -92,7 +92,7 @@ class PostPreview extends Component {
           >
             {/* Raised looked better, outside of MD spec though */}
             <Button raised secondary onClick={this.setButtonHidden}>
-              Read
+              Read more!
             </Button>
           </ParticleEffectButton>
         </CardActions>
