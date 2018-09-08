@@ -30,56 +30,34 @@ class Home extends Component {
   render() {
     const { postEdges } = this.props;
     return (
-      <div id="particles-js" className="home-wrapper mobile-fix">
-        <Paper
-          className="md-grid paper-background--white"
-          zDepth={0}
-          raiseOnHover
-        >
-          <Cell
-            align="middle"
-            desktopOffset={1}
-            desktopSize={3}
-            tabletSize={3}
-            phoneSize={4}
-            position="center"
-          >
-            <AvatarImage
-              src={kalebWelcomeImage}
-              alt="Kaleb with a blue shirt on with arms wide open smiling!"
-            />
+      <section className="home-wrapper mobile-fix">
+        <Paper className="md-grid paper-background--white" zDepth={0}>
+          <Cell align="middle" desktopOffset={1} desktopSize={3} tabletSize={3} phoneSize={4} position="center">
+            <AvatarImage src={kalebWelcomeImage} alt="Kaleb with a blue shirt on with arms wide open smiling!" />
           </Cell>
-          <Cell
-            align="middle"
-            desktopOffset={1}
-            desktopSize={6}
-            tabletSize={5}
-            phoneSize={4}
-            position="center"
-          >
+          <Cell align="middle" desktopOffset={1} desktopSize={6} tabletSize={5} phoneSize={4} position="center">
             <h3>Welcome to the Site!</h3>
-            <div id="typed-strings">
-              <p>
-                Hola - I&apos;m Kaleb, a Staff Software Engineer striving to
-                make my dreams into reality!
+            <section id="typed-strings">
+              <p className="md-body-2">
+                Hi there - I&apos;m Kaleb, a Staff Software Engineer striving to make my dreams into reality!
               </p>
-            </div>
+            </section>
             <span id="typed" />
             <br />
-            <br />
-            <p>
-              On my blog, I&apos;ll be sharing my principles, recommendations,
-              adventures, and web development tips on my journey to achieve.
-            </p>
-            <p>
-              <strong>Join me</strong> on the road to achievement as we make a
-              positive impact on the world together!!
-            </p>
+            <section>
+              <p className="md-body-1 p-margin--top">
+                On my blog, I&apos;ll be sharing my principles, recommendations, adventures, and web development tips on
+                my journey to achieve.
+              </p>
+              <p className="md-body-1">
+                <strong>Join me</strong> on the road to achievement as we make a positive impact on the world together!!
+              </p>
+            </section>
           </Cell>
         </Paper>
 
         <PostListing postEdges={postEdges} />
-      </div>
+      </section>
     );
   }
 }
