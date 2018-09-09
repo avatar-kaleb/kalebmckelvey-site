@@ -18,6 +18,7 @@ class AboutMe extends Component {
             />
           </Media>
           <CardText className="animated slideInUp cardText-text">
+            <p>Hola. I'm Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire, nature walker, and reddit lurker. Thanks for stopping by!</p>
             <h1>What I Do:</h1>
             <p>
               <strong>I help solve business problems through modern custom web applications.</strong>
