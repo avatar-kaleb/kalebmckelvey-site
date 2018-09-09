@@ -11,7 +11,6 @@ import {
   RedditShareCount,
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
   GooglePlusIcon,
   LinkedinIcon,
   RedditIcon

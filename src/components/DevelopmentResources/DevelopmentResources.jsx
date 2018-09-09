@@ -7,12 +7,10 @@ import codeImage from "../../images/DevResources-Code.jpeg";
 import ResourcesData from "../../../data/ResourceData";
 import ResourcesList from "../ResourcesList/ResourcesList";
 
-import "./DevelopmentResources.scss";
-
 class DevelopmentResources extends Component {
   render() {
     return (
-      <div className="developmentResources-container md-grid mobile-fix">
+      <div className="developmentResources-wrapper wrapper-flex-column--center md-grid mobile-fix">
         <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
@@ -21,17 +19,14 @@ class DevelopmentResources extends Component {
               alt="Computer sitting on a table with code displaying on the screen."
             />
           </Media>
-          <CardText className="animated zoomInUp">
+          <CardText className="animated zoomInUp cardText-text">
             <p>
               <em>
-                Below will be a lists of tools I use during my development
-                process. I will be adding progressively as time allows - stay
-                tuned!
+                Below will be a lists of tools I use during my development process. I will be adding progressively as
+                time allows - stay tuned!
               </em>
             </p>
-            <p>
-              Have a suggestion? {<Link to="/contact-me/">Let me know!</Link>}
-            </p>
+            <p>Have a suggestion? {<Link to="/contact-me/">Let me know!</Link>}</p>
             <ResourcesList resources={ResourcesData} type="dev" />
           </CardText>
         </Card>

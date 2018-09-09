@@ -3,13 +3,12 @@ import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
 import kalebWelcomeImage from "../../images/AboutMe-Santorini.jpg";
-import "./AboutMe.scss";
 
 class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutMe-wrapper md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
+      <div className="wrapper-flex-column--center md-grid mobile-fix">
+        <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               className="animated slideInDown"
@@ -17,7 +16,7 @@ class AboutMe extends Component {
               alt="A black silhouette of an male's head looking out towards a beautiful sunset."
             />
           </Media>
-          <CardText className="animated slideInUp">
+          <CardText className="animated slideInUp cardText-text">
             <h1>My Story</h1>
             <p>
               I&apos;m a young professional with aspirations to inspire, grow, and achieve in various areas of my life.

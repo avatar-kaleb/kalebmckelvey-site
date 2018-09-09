@@ -2,7 +2,7 @@ import React from "react";
 
 const SubcategoryResourceList = ({ resources }) => (
   <ul>
-    {resources.map((resource, index) => (
+    {resources.map(resource => (
       <li key={resource.name}>
         <p>
           <a href={resource.link} target="_blank" rel="noopener noreferrer">

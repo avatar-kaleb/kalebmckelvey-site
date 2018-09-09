@@ -14,9 +14,6 @@ import MediaOverlay from "react-md/lib/Media/MediaOverlay";
 // Data
 import PortfolioData from "../../../data/PortfolioData";
 
-// Styling
-import "./Portfolio.scss";
-
 class Portfolio extends Component {
   constructor(props) {
     super(props);
@@ -24,9 +21,7 @@ class Portfolio extends Component {
   }
 
   getImageSizesById(id) {
-    const foundNode = Find(this.state.images, image =>
-      image.node.sizes.src.includes(id)
-    );
+    const foundNode = Find(this.state.images, image => image.node.sizes.src.includes(id));
 
     if (foundNode) {
       return foundNode.node.sizes;
@@ -74,12 +69,12 @@ class Portfolio extends Component {
       }
       // create cards
       rows.push(
-        <Card raise key={portfolioItem.id}>
+        <Card key={portfolioItem.id}>
           <Media>
             <Img
               className="animated pulse"
               sizes={this.getImageSizesById(portfolioItem.id) || ""}
-              alt="Nature from lorempixel" // TODO update alts in data
+              alt="" // TODO update alts in data
             />
             <MediaOverlay>
               <CardTitle
@@ -103,12 +98,7 @@ class Portfolio extends Component {
       );
     });
     return (
-      <GridList
-        className="portfolio-container"
-        desktopSize={6}
-        tabletSize={8}
-        position="center"
-      >
+      <GridList className="portfolio-container" desktopSize={6} tabletSize={8} position="center">
         {rows}
       </GridList>
     );

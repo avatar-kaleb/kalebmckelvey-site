@@ -11,13 +11,11 @@ import InspirationList from "../InspirationList/InspirationList";
 import ObservationData from "../../../data/ObservationData";
 import ObservationList from "../ObservationList/ObservationList";
 
-import "./Observations.scss";
-
 class Observations extends Component {
   render() {
     return (
-      <div className="observations-container md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
+      <div className="observations-wrapper wrapper-flex-column--center md-grid mobile-fix">
+        <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               className="animated pulse"
@@ -26,12 +24,10 @@ class Observations extends Component {
             />
           </Media>
 
-          <CardText className="animated zoomInUp">
+          <CardText className="animated zoomInUp cardText-text">
             <p>
-              Below are a list of random thoughts, inspirations, and
-              observations recorded through my journey to become an achiever.
-              This will be one easy place to track them all, letting me revisit
-              them as needed.
+              Below are a list of random thoughts, inspirations, and observations recorded through my journey to become
+              an achiever. This will be one easy place to track them all, letting me revisit them as needed.
             </p>
 
             <h1>Inspirations</h1>

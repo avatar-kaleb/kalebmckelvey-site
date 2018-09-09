@@ -125,9 +125,6 @@ class Navigation extends Component {
         tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         toolbarActions={<ToolbarActions config={config} />}
         toolbarTitle={LocalTitle}
-        toolbarTitleStyle={{
-          color: "#ff6f00"
-        }}
       >
         <div className="main-container">{children}</div>
         <Footer className="footer" />
