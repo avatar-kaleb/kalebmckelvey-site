@@ -24,7 +24,7 @@ class Observations extends Component {
             />
           </Media>
 
-          <CardText className="animated zoomInUp cardText-text">
+          <CardText className="animated zoomInUp">
             <p>
               Below are a list of random thoughts, inspirations, and observations recorded through my journey to become
               an achiever. This will be one easy place to track them all, letting me revisit them as needed.
