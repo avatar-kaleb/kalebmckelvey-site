@@ -123,7 +123,7 @@ class AboutMe extends Component {
             <br />
             <h2>Leadership:</h2>
             <p>I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
-            through experience and learned from many top IT professionals in GE. Since then, as a senior member of our development team I have mentored junior members, led initiatives in the team, and help architect designs to meet requirements from our Product Owners.</p>
+            through experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I mentor junior members, lead initiatives in the team, improve our code base with every new feature, and help architect designs to meet requirements from our Product Owners.</p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
