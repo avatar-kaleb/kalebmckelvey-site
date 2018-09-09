@@ -9,12 +9,12 @@ import "./Scholarship.scss";
 class Scholarship extends Component {
   render() {
     return (
-      <div className="scholarship-wrapper md-grid mobile-fix">
+      <div className="scholarship-wrapper wrapper-flex-column--center md-grid mobile-fix">
         <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
-            <img className="animated pulse" src={universityImage} alt="A university building depicting college." />
+            <img className="animated pulse scholarship-img--border" src={universityImage} alt="A university building depicting college." />
           </Media>
-          <CardText>
+          <CardText className="animated zoomInUp cardText-text">
             <h1>The Journey to Achieve Scholarship</h1>
             <p>
               Since 2015, every year the Nu Lambda chapter of Kappa Alpha Psi Fraternity Inc. supports a senior
