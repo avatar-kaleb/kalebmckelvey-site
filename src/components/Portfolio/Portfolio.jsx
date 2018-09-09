@@ -62,7 +62,7 @@ class Portfolio extends Component {
         action = (
           <CardActions className="md-divider-border md-divider-border--bottom">
             <Button flat secondary href={portfolioItem.url}>
-              View Project
+              View Live Project
             </Button>
           </CardActions>
         );
