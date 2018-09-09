@@ -25,7 +25,7 @@ class AboutMe extends Component {
             <p>
               Combining leadership and technical skills, I collaborate with our team to design and develop solutions on
               tough requirements from our manufacturing shops. By doing so, we help improve the processes and analytics
-              that drive producitivity to meet custom demand!
+              that drive producitivity to meet customer demand!
             </p>
             <p>
               Further, I explore new technologies and focus on improving our code base as I learn from mistakes, grow
@@ -123,7 +123,7 @@ class AboutMe extends Component {
             <br />
             <h2>Leadership:</h2>
             <p>I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
-            through experience and learned from many top IT professionals in GE.</p>
+            through experience and learned from many top IT professionals in GE. Since then, as a senior member of our development team I have mentored junior members, led initiatives in the team, and help architect designs to meet requirements from our Product Owners.</p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
