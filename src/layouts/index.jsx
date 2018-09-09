@@ -22,6 +22,8 @@ export default class MainLayout extends React.Component {
     // TODO - order these and change to switch statement
     if (currentPath === "") {
       title = "Blog";
+    } else if (currentPath === "blogarchives") {
+      title = "Archives";
     } else if (currentPath === "categories") {
       title = "Categories";
     } else if (currentPath === "about-me") {

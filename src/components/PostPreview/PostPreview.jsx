@@ -16,6 +16,7 @@ class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      buttonColor: "#ff6f00",
       buttonHidden: false,
       mobile: true
     };

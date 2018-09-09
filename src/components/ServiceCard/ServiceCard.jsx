@@ -30,10 +30,7 @@ class ServiceCard extends Component {
    * @param {Number} value The value of the slider on change
    */
   setPackageOnSliderChange(value) {
-    const selectedPackage = find(this.props.packageOptions, [
-      "totalPrice",
-      value
-    ]);
+    const selectedPackage = find(this.props.packageOptions, ["totalPrice", value]);
 
     this.setState({
       selectedPackage
@@ -49,10 +46,7 @@ class ServiceCard extends Component {
 
   render() {
     return (
-      <Card
-        raise
-        className="serviceCard--mb md-cell--6 md-cell--center md-cell--top"
-      >
+      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top">
         <CardTitle title={this.props.title} subtitle={this.props.subtitle} />
 
         <CardText>
@@ -62,9 +56,8 @@ class ServiceCard extends Component {
             <div>
               <p>
                 <em>
-                  Prices are estimates and will vary based on project
-                  requirements. To truly estimate a price and dev time, user
-                  stories should be created and estimated together.
+                  Prices are estimates and will vary based on project requirements. To truly estimate a price and dev
+                  time, user stories should be created and estimated together.
                 </em>
               </p>
               <Slider
@@ -81,15 +74,8 @@ class ServiceCard extends Component {
               <h2>{this.state.selectedPackage.title}</h2>
               <ExpansionList className="md-cell md-cell--12">
                 {this.state.selectedPackage.options.map(option => (
-                  <ExpansionPanel
-                    key={option.name}
-                    label={option.name}
-                    secondaryLabel={option.price}
-                    footer={null}
-                  >
-                    <div
-                      dangerouslySetInnerHTML={{ __html: option.description }}
-                    />
+                  <ExpansionPanel key={option.name} label={option.name} secondaryLabel={option.price} footer={null}>
+                    <div dangerouslySetInnerHTML={{ __html: option.description }} />
                   </ExpansionPanel>
                 ))}
               </ExpansionList>

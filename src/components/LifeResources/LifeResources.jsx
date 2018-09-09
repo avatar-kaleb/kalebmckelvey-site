@@ -13,7 +13,7 @@ class LifeResources extends Component {
   render() {
     return (
       <div className="wrapper-flex-column--center md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
+        <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               className="animated pulse"
