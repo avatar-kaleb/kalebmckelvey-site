@@ -1,32 +1,32 @@
 import React from "react";
 import Helmet from "react-helmet";
 import SEO from "../components/SEO/SEO";
-import Home from "../components/Home/Home";
+import Archives from "../components/Archives/Archives";
 
 import config from "../../data/SiteConfig";
 
-class Index extends React.Component {
+class ArchivesPage extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
         <Helmet>
           <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}`} />
+          <link rel="canonical" href={`${config.siteUrl}/archives/`} />
         </Helmet>
         <SEO postEdges={postEdges} />
-        <Home postEdges={postEdges} />
+        <Archives postEdges={postEdges} />
       </div>
     );
   }
 }
 
-export default Index;
+export default ArchivesPage;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(limit: 10, sort: { fields: [frontmatter___date], order: DESC }) {
+  query ArchivesQuery {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           fields {

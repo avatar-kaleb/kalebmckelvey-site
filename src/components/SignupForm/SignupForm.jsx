@@ -83,14 +83,10 @@ class SignupForm extends Component {
     return (
       <div className="signupForm-wrapper">
         {this.state.status === "success" ? (
-          <p className="signUpForm-text--secondary">
-            Success! Thank you for signing up!
-          </p>
+          <p className="signUpForm-text--secondary">Success! Thank you for signing up!</p>
         ) : (
           <div className="animated fadeInRight">
-            <p className="signupForm-p--mb">
-              Want to stay updated on new posts? Subscribe below!
-            </p>
+            <p className="signupForm-p--mb">Want to stay updated on new posts? Subscribe below!</p>
             <br />
             <form id="email-capture" method="post">
               <Grid className="signupForm-form--border">
@@ -133,12 +129,7 @@ class SignupForm extends Component {
                     oscillationCoefficient={30}
                     particlesAmountCoefficient={5}
                   >
-                    <Button
-                      className="signupForm--button--mt"
-                      raised
-                      secondary
-                      onClick={this._handleFormSubmit}
-                    >
+                    <Button className="signupForm--button--mt" raised secondary onClick={this._handleFormSubmit}>
                       Subscribe!
                     </Button>
                   </ParticleEffectButton>

@@ -11,7 +11,6 @@ import {
   RedditShareCount,
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
   GooglePlusIcon,
   LinkedinIcon,
   RedditIcon
@@ -30,34 +29,35 @@ class SocialLinks extends Component {
     return (
       <div>
         <div className="social-links">
-          <RedditShareButton url={url} title={post.title}>
+          <RedditShareButton className="shareButton--cursor" url={url} title={post.title}>
             <RedditIcon round size={iconSize} />
-            <RedditShareCount url={url}>
+            <RedditShareCount className="shareButton--cursor" url={url}>
               {count => <div className="share-count">{filter(count)}</div>}
             </RedditShareCount>
           </RedditShareButton>
-          <TwitterShareButton url={url} title={post.title}>
+          <TwitterShareButton className="shareButton--cursor" url={url} title={post.title}>
             <TwitterIcon round size={iconSize} />
           </TwitterShareButton>
-          <GooglePlusShareButton url={url}>
+          <GooglePlusShareButton className="shareButton--cursor" url={url}>
             <GooglePlusIcon round size={iconSize} />
             <GooglePlusShareCount url={url}>
               {count => <div className="share-count">{filter(count)}</div>}
             </GooglePlusShareCount>
           </GooglePlusShareButton>
-          <FacebookShareButton url={url} quote={postNode.excerpt}>
+          <FacebookShareButton className="shareButton--cursor" url={url} quote={postNode.excerpt}>
             <FacebookIcon round size={iconSize} />
             <FacebookShareCount url={url}>
               {count => <div className="share-count">{filter(count)}</div>}
             </FacebookShareCount>
           </FacebookShareButton>
           <LinkedinShareButton
+            className="shareButton--cursor"
             url={url}
             title={post.title}
             description={postNode.excerpt}
           >
             <LinkedinIcon round size={iconSize} />
-            <LinkedinShareCount url={url}>
+            <LinkedinShareCount className="shareButton--cursor" url={url}>
               {count => <div className="share-count">{filter(count)}</div>}
             </LinkedinShareCount>
           </LinkedinShareButton>

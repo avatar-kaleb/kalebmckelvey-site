@@ -26,5 +26,11 @@ module.exports = [
     link: "https://www.youtube.com/watch?v=5U0TE4oqj24",
     title: "Charlie Munger USC Commencement Speech",
     value: `A video of one of the greatest thinkers giving keys to a good life.`
+  },
+  {
+    id: 5,
+    link: "https://www.youtube.com/watch?v=pxBQLFLei70",
+    title: "University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven",
+    "value": `Make your bed. Don't ever, ever ring the bell!`
   }
 ];

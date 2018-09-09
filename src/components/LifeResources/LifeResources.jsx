@@ -9,13 +9,11 @@ import chalkboardImage from "../../images/LifeResources - Chalkboard.jpeg";
 import ResourcesData from "../../../data/ResourceData";
 import ResourcesList from "../ResourcesList/ResourcesList";
 
-import "./LifeResources.scss";
-
 class LifeResources extends Component {
   render() {
     return (
-      <div className="lifeResources-container md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
+      <div className="wrapper-flex-column--center md-grid mobile-fix">
+        <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               className="animated pulse"
@@ -23,12 +21,11 @@ class LifeResources extends Component {
               alt="A white male with a black tuxedo on in a nature setting."
             />
           </Media>
-          <CardText className="animated zoomInUp">
+          <CardText className="animated zoomInUp cardText-text">
             <p>
               <em>
-                Below are lists of tools I find useful on my own journey to
-                achieve. Currently, these are non affiliate links. Feel free to
-                use them on your journey as well!
+                Below are lists of tools I find useful on my own journey to achieve. Currently, these are non affiliate
+                links. Feel free to use them on your journey as well!
               </em>
             </p>
             <ResourcesList resources={ResourcesData} type="life" />

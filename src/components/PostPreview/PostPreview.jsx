@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
+import CardActions from "react-md/lib/Cards/CardActions";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import Button from "react-md/lib/Buttons";
 import Avatar from "react-md/lib/Avatars";
@@ -15,12 +16,12 @@ class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true,
-      hidden: false
+      buttonColor: "#ff6f00",
+      buttonHidden: false,
+      mobile: true
     };
 
-    this.setHidden = this.setHidden.bind(this);
-    this.navToPostOnComplete = this.navToPostOnComplete.bind(this);
+    this.setButtonHidden = this.setButtonHidden.bind(this);
     this.handleResize = this.handleResize.bind(this);
   }
   componentDidMount() {
@@ -38,15 +39,13 @@ class PostPreview extends Component {
     } else {
       this.setState({ mobile: true });
     }
-
-    this.setHidden = this.setHidden.bind(this);
   }
 
-  setHidden(e) {
-    this.setState(prevState => ({ hidden: !prevState.hidden }));
+  setButtonHidden(e) {
+    this.setState(prevState => ({ buttonHidden: !prevState.buttonHidden }));
   }
 
-  navToPostOnComplete(path, e) {
+  navToPostOnClick(path, e) {
     navigateTo(path);
   }
 
@@ -55,37 +54,21 @@ class PostPreview extends Component {
     const { mobile } = this.state;
     const expand = mobile;
     /* eslint no-undef: "off" */
-    const cover =
-      postInfo.cover.substring(0, 1) === "/"
-        ? __PATH_PREFIX__ + postInfo.cover
-        : postInfo.cover;
+    const cover = postInfo.cover.substring(0, 1) === "/" ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
     const coverHeight = mobile ? 162 : 225;
+
     return (
       <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Media
-          onClick={this.setHidden}
           style={{
             backgroundImage: `url(${cover})`,
             height: `${coverHeight}px`
           }}
           className="post-preview-cover"
+          onClick={e => this.navToPostOnClick(postInfo.path, e)}
         >
           <MediaOverlay>
-            <CardTitle title={postInfo.title}>
-              <ParticleEffectButton
-                className="md-cell--right"
-                color="#ff6f00"
-                duration={300}
-                hidden={this.state.hidden}
-                onComplete={e => this.navToPostOnComplete(postInfo.path, e)}
-                oscillationCoefficient={30}
-                particlesAmountCoefficient={5}
-              >
-                <Button raised secondary>
-                  Read
-                </Button>
-              </ParticleEffectButton>
-            </CardTitle>
+            <CardTitle title={postInfo.title} onClick={e => this.navToPostOnClick(postInfo.path, e)} />
           </MediaOverlay>
         </Media>
         <CardTitle
@@ -94,11 +77,26 @@ class PostPreview extends Component {
           title={`Published on ${postInfo.date}`}
           subtitle={`${postInfo.timeToRead} min read`}
         />
-
         <CardText expandable={expand}>
           {postInfo.excerpt}
           <PostTags tags={postInfo.tags} />
         </CardText>
+
+        <CardActions className="md-divider-border md-divider-border--top">
+          <ParticleEffectButton
+            color={this.state.buttonColor}
+            duration={275}
+            hidden={this.state.buttonHidden}
+            onComplete={e => this.navToPostOnClick(postInfo.path, e)}
+            oscillationCoefficient={30}
+            particlesAmountCoefficient={5}
+          >
+            {/* Raised looked better, outside of MD spec though */}
+            <Button raised secondary onClick={this.setButtonHidden}>
+              Read more!
+            </Button>
+          </ParticleEffectButton>
+        </CardActions>
       </Card>
     );
   }

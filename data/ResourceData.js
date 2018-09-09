@@ -27,6 +27,16 @@ module.exports = {
               name: "Redux",
               link: "https://redux.js.org/",
               description: "Manage your application state in one place."
+            },
+            {
+              name: "Gatsby",
+              link: "https://gatsby.org",
+              description: "React / GraphQL static site generator."
+            },
+            {
+              name: "React MD",
+              link: "https://react-md.mlaursen.com/",
+              description: "React Material Design Components"
             }
           ]
         },

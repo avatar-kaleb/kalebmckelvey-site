@@ -1,13 +1,16 @@
-.toolbar-actions {
-    height: 100%;
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: flex-end;
-    align-items: center;
+@import "../../layouts/theme.scss";
 
-    .userlinks-container {
-        @media (max-width: 640px - 1) {
-            display: none;
-        }
+.toolbar-actions {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  align-items: center;
+  color: $md-secondary-color;
+
+  .userlinks-container {
+    @media (max-width: 640px - 1) {
+      display: none;
     }
+  }
 }

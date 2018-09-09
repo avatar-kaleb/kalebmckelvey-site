@@ -3,13 +3,12 @@ import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import Media from "react-md/lib/Media/Media";
 import inspirationalImage from "../../images/Fundamentals-ArmsOpen.jpeg";
-import "./CoreFundamentals.scss";
 
 class CoreFundamentals extends Component {
   render() {
     return (
-      <div className="coreFundamentals-wrapper md-grid mobile-fix">
-        <Card raise className="md-cell md-cell--8 md-cell--10-tablet">
+      <div className="wrapper-flex-column--center md-grid mobile-fix">
+        <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
               className="animated pulse"
@@ -17,32 +16,25 @@ class CoreFundamentals extends Component {
               alt="A shadow of a male with his arms held straight out from his sides, while looking out into the open scene"
             />
           </Media>
-          <CardText className="animated zoomInUp">
+          <CardText className="animated zoomInUp cardText-text">
+            <h1>The 6 Core Fundamentals of Achievement</h1>
             <p>
-              Below are the core foundations I believe in that will assist our
-              journey towards achieving anything we want in life! Learn about
-              where these fundamentals will take you by checking out{" "}
-              <a
-                href="https://kalebmckelvey.com/journey-to-achieve/about-the-journey/"
-                rel="noopener noreferrer"
-              >
+              Below are the core foundations I believe in that will assist our journey towards achieving anything we
+              want in life! Learn about where these fundamentals will take you by checking out{" "}
+              <a href="https://kalebmckelvey.com/journey-to-achieve/about-the-journey/" rel="noopener noreferrer">
                 About the Journey
               </a>.
             </p>
             <p>
               <em>
-                These fundamentals will be continuously improved when new ideas
-                are developed and each will be written about in the future.
+                These fundamentals will be continuously improved when new ideas are developed and each will be written
+                about in the future.
               </em>
             </p>
-            <h1>The 6 Core Fundamentals of Achievement</h1>
             <h3>1. Character Traits</h3>
             <ul>
               <li>
-                <a
-                  href="https://kalebmckelvey.com/tags/integrity/"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://kalebmckelvey.com/tags/integrity/" rel="noopener noreferrer">
                   Integrity
                 </a>
               </li>
@@ -57,9 +49,7 @@ class CoreFundamentals extends Component {
             <h3>2. Independent Thinking</h3>
             <ul>
               <li>
-                <a href="https://kalebmckelvey.com/categories/mental-models/">
-                  Mental models
-                </a>
+                <a href="https://kalebmckelvey.com/categories/mental-models/">Mental models</a>
               </li>
               <li>Checklists</li>
               <li>Logic techniques</li>
@@ -73,14 +63,10 @@ class CoreFundamentals extends Component {
             <h3>4. Plan and Purpose</h3>
             <ul>
               <li>
-                How do you want to be remembered? What are you doing to be
-                remembered in that way?
+                How do you want to be remembered? What are you doing to be remembered in that way?
                 <ul>
                   <li>
-                    <a
-                      href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/"
-                      rel="noopener"
-                    >
+                    <a href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/" rel="noopener">
                       How Bad Do You Want to Achieve?
                     </a>
                   </li>
@@ -104,10 +90,7 @@ class CoreFundamentals extends Component {
             <h3>6. Strong Relationships</h3>
             <ul>
               <li>
-                <a
-                  href="https://kalebmckelvey.com/tags/friendship/"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://kalebmckelvey.com/tags/friendship/" rel="noopener noreferrer">
                   Friendships
                 </a>
               </li>

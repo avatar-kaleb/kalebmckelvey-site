@@ -1,9 +1,10 @@
 .home-wrapper {
-  @import "../../../node_modules/animate.css/animate.min.css";
-
   margin: 1em;
-
   .paper-background--white {
     background-color: #ffffff;
+  }
+
+  .p-margin--top {
+    margin-top: 1em;
   }
 }

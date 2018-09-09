@@ -69,12 +69,12 @@ function GetNavList() {
         component: Link,
         to: "/journey-to-achieve/core-fundamentals/"
       },
-      // {
-      //   primaryText: "Scholarship",
-      //   leftIcon: <FontIcon>school</FontIcon>,
-      //   component: Link,
-      //   to: "/journey-to-achieve/scholarship/"
-      // },
+      {
+        primaryText: "Scholarship",
+        leftIcon: <FontIcon>school</FontIcon>,
+        component: Link,
+        to: "/journey-to-achieve/scholarship/"
+      },
       {
         key: "observations",
         primaryText: "Observations",
@@ -115,7 +115,7 @@ function GetNavList() {
     ]
   });
 
-  // Contact
+  // Contact and archives
   NavList.push(
     {
       key: "contact-me",
@@ -124,10 +124,15 @@ function GetNavList() {
       to: "/contact-me/"
     },
     {
+      key: "archives",
+      primaryText: "Archives",
+      component: Link,
+      to: "/archives"
+    },
+    {
       divider: true
     }
   );
-
   return NavList;
 }
 export default GetNavList;

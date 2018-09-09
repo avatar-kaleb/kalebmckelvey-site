@@ -64,7 +64,7 @@ class Navigation extends Component {
    * @returns {Boolean}
    */
   _isNavItemActive(key) {
-    if (window && window.location) {
+    if (typeof window !== `undefined` && window.location) {
       const { location: { pathname } } = window;
       return pathname.includes(key) || (key === "blog" && pathname === "/");
     }
@@ -110,7 +110,7 @@ class Navigation extends Component {
     const { children, config, LocalTitle } = this.props;
     const title = (
       <div>
-        <h2>{config.siteTitle}</h2>
+        <h2 className="drawer-title--color">{config.siteTitle}</h2>
         <p>{config.siteTagline}</p>
       </div>
     );
@@ -127,7 +127,7 @@ class Navigation extends Component {
         toolbarTitle={LocalTitle}
       >
         <div className="main-container">{children}</div>
-        <Footer />
+        <Footer className="footer" />
       </NavigationDrawer>
     );
   }
