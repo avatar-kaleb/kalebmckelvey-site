@@ -25,7 +25,7 @@ class AboutMe extends Component {
             <p>
               Combining leadership and technical skills, I collaborate with our team to design and develop solutions on
               tough requirements from our manufacturing shops. By doing so, we help improve the processes and analytics
-              that drive producitivity to meet customer demand!
+              that drive productivity to meet customer demand!
             </p>
             <p>
               Further, I explore new technologies and focus on improving our code base as I learn from mistakes, grow
