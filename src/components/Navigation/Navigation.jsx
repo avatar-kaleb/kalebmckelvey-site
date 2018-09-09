@@ -64,7 +64,7 @@ class Navigation extends Component {
    * @returns {Boolean}
    */
   _isNavItemActive(key) {
-    if (window && window.location) {
+    if (typeof window !== `undefined` && window.location) {
       const { location: { pathname } } = window;
       return pathname.includes(key) || (key === "blog" && pathname === "/");
     }
