@@ -12,13 +12,16 @@ class AboutMe extends Component {
         <Card className="md-cell md-cell--8 md-cell--10-tablet">
           <Media aspectRatio="4-3">
             <img
-              className="animated slideInDown"
+              className="animated fadeInDown"
               src={kalebWelcomeImage}
               alt="A black silhouette of an male's head looking out towards a beautiful sunset."
             />
           </Media>
           <CardText className="animated slideInUp cardText-text">
-            <p>Hola. I'm Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire, nature walker, and reddit lurker. Thanks for stopping by!</p>
+            <p>
+              Hola. I'm Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire,
+              nature walker, and reddit lurker. Thanks for stopping by!
+            </p>
             <h1>What I Do:</h1>
             <p>
               <strong>I help solve business problems through modern custom web applications.</strong>
@@ -37,7 +40,10 @@ class AboutMe extends Component {
               In the last few years I've been offered the opportunities to learn and grow through various experiences.
             </p>
             <h2>Modern Web Development:</h2>
-            <p>We use micro-service architecture on the Predix Platform with various tech stacks. Check out my skills below!</p>
+            <p>
+              We use micro-service architecture on the Predix Platform with various tech stacks. Check out my skills
+              below!
+            </p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
@@ -93,8 +99,10 @@ class AboutMe extends Component {
 
             <br />
             <h2>AX Dynamics:</h2>
-            <p>4+ years of development experience designing custom solutions to meet user needs, providing business
-            value.</p>
+            <p>
+              4+ years of development experience designing custom solutions to meet user needs, providing business
+              value.
+            </p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
@@ -123,8 +131,12 @@ class AboutMe extends Component {
 
             <br />
             <h2>Leadership:</h2>
-            <p>I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
-            through experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I mentor junior members, lead initiatives in the team, improve our code base with every new feature, and help architect designs to meet requirements from our Product Owners.</p>
+            <p>
+              I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
+              through experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I
+              mentor junior members, lead initiatives in the team, improve our code base with every new feature, and
+              help architect designs to meet requirements from our Product Owners.
+            </p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
@@ -160,7 +172,10 @@ class AboutMe extends Component {
             <br />
             {/* Story! */}
             <h1>My Story</h1>
-            <p>I believe everyone has a wonderful story to explain how in the world they got to the current moment we call now. Here's a bit of mine!</p>
+            <p>
+              I believe everyone has a wonderful story to explain how in the world they got to the current moment we
+              call now. Here's a bit of mine!
+            </p>
             <h2>TLDR:</h2>
             <p>
               I&apos;m Kaleb McKelvey, a small town raised young professional who focuses on exhibiting high character

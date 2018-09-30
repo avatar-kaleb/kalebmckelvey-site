@@ -20,19 +20,8 @@ class Portfolio extends Component {
     this.state = { images: [...props.images] };
   }
 
-  getImageSizesById(id) {
-    const foundNode = Find(this.state.images, image => image.node.sizes.src.includes(id));
-
-    if (foundNode) {
-      return foundNode.node.sizes;
-    }
-    return {};
-  }
-
-  render() {
-    const rows = [];
-
-    // sort portfolio items
+  componentDidMount() {
+    // sort by category
     PortfolioData.sort((a, b) => {
       const aCategory = a.category.toUpperCase();
       const bCategory = b.category.toUpperCase();
@@ -46,6 +35,34 @@ class Portfolio extends Component {
 
       return 0;
     });
+  }
+
+  getImageSizesById(id) {
+    const foundNode = Find(this.state.images, image => image.node.sizes.src.includes(id));
+
+    if (foundNode) {
+      return foundNode.node.sizes;
+    }
+    return {};
+  }
+
+  render() {
+    const rows = [];
+
+    // sort portfolio items
+    // PortfolioData.sort((a, b) => {
+    //   const aCategory = a.category.toUpperCase();
+    //   const bCategory = b.category.toUpperCase();
+    //   if (aCategory < bCategory) {
+    //     return -1;
+    //   }
+
+    //   if (aCategory > bCategory) {
+    //     return 1;
+    //   }
+
+    //   return 0;
+    // });
 
     // loop through portfolio data
     PortfolioData.forEach(portfolioItem => {
