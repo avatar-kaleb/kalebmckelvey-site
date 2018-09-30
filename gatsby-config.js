@@ -27,6 +27,12 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-transformer-sharp",
     {
+      resolve: "gatsby-plugin-page-transitions",
+      options: {
+        transitionTime: 500
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "posts",
@@ -205,8 +211,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint:
-          "https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6" // see instructions section below
+        endpoint: "https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6" // see instructions section below
       }
     }
   ]

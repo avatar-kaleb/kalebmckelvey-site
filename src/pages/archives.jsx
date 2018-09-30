@@ -1,5 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
+import PageTransition from "gatsby-plugin-page-transitions";
+
 import SEO from "../components/SEO/SEO";
 import Archives from "../components/Archives/Archives";
 
@@ -9,14 +11,16 @@ class ArchivesPage extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="index-container">
-        <Helmet>
-          <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}/archives/`} />
-        </Helmet>
-        <SEO postEdges={postEdges} />
-        <Archives postEdges={postEdges} />
-      </div>
+      <PageTransition>
+        <div>
+          <Helmet>
+            <title>{config.siteTitle}</title>
+            <link rel="canonical" href={`${config.siteUrl}/archives/`} />
+          </Helmet>
+          <SEO postEdges={postEdges} />
+          <Archives postEdges={postEdges} />
+        </div>
+      </PageTransition>
     );
   }
 }
