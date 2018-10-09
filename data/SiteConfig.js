@@ -18,7 +18,7 @@ module.exports = {
   userLocation: "Greater Milwaukee Area", // User location to display in the author segment.
   userAvatar: "/Contact-Headshot.jpg", // User avatar to display in the author segment.
   userDescription:
-    "Hi there, I'm Kaleb!. A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!",
+    "Hi there, I'm Kaleb! A young professional excited to grow through new experiences! My passion for technology and desire to make the world a better place drives me to continue learning. Life is a feeling process with a journey to achieve all that you want along the way!",
   userLinks: [
     {
       label: "Github",
