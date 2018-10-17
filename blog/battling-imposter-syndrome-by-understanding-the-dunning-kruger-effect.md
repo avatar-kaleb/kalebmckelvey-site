@@ -70,7 +70,7 @@ Do you see how this can cause an imposter syndrome dimensions to creep up?
 
 By understanding this effect in addition to being aware of imposter syndrome, we are one step closer to handling it properly! Positivity has became a topic of discussion in the Web Dev community, especially after Wes B and Scott T talked about it on [Syntax](https://syntax.fm/show/077/hasty-treat-positivity-and-web-development)!
 
-_SN - I've added this to _[_my mental model dictionary_](https://mentalmodeldictionary.com/)_._
+SN - I've added this to [my mental model dictionary](https://mentalmodeldictionary.com/).
 
 ## Managing Imposter Syndrome
 
