@@ -24,7 +24,7 @@ With that being said, last week began a new journey for me, _starting a new job 
 
 ### 1. People are awesome - Talk to Them!!
 
-Thanks to my three rotations in GE Healthcare and one in GE Aviation, the amount of people I connected with was incredible. Working with people from all over the world like India, Budapest, Mexico, France, Poland, and China - especially in the countries I was able to visit (or when people visited the US) - changed my perspective what life really was like.
+Thanks to my three rotations in GE Healthcare and one in GE Aviation, the number of people I connected with was incredible. Working with people from all over the world like India, Budapest, Mexico, France, Poland, and China - especially in the countries I was able to visit (or when people visited the US) - changed my perspective what life really was like.
 
 We had a lot of fun teaching each other about cultural traditions, favorite foods to try, Milwaukee Craft Beer, Espresso, or history.
 
@@ -36,7 +36,7 @@ _SN: Check out my [Instagram](https://www.instagram.com/on_the_journey3/) for pi
 
 ## 2. Learn from others
 
-It wasn't until after my first rotation, around 2-3 months into my first job after college, that I recognized my inability to take a deep breath, think on a bigger picture, and have courage to ask for help from those with similar experiences I struggled with.
+It wasn't until after my first rotation, around 2-3 months into my first job after college, that I recognized my inability to take a deep breath, think on a bigger picture, and have the courage to ask for help from those with similar experiences I struggled with.
 
 In other words, why waste time fighting through situations others have been in that are willing to help you through them?
 
@@ -48,7 +48,7 @@ For my first year, there wasn't a month that Susan didn't make suggestions as sh
 
 My first assignment leader, Julia, taught me the ropes of knowing the people you work with as a project manager. In my second rotation, Aarthi transformed me into someone who could take presentations head on while I developed my first NodeJS app. 
 
-At Cincinnati, in rotation 3, I was part of a mission based team who took on ingesting data through a process we defined, 6 billion rows later we considered it a success. My last rotation introduced me to agile web development utilizing the Polymer library, and led to becoming a Software Engineer after graduating the program (my other experiences with development at GE were more side projects).
+At Cincinnati, in rotation 3, I was part of a mission-based team who took on ingesting data through a process we defined, 6 billion rows later we considered it a success. My last rotation introduced me to agile web development utilizing the Polymer library and led to becoming a Software Engineer after graduating from the program (my other experiences with development at GE were more side projects).
 
 It was there that our team debated, fought for, and iteratively improved the mechanisms we used in our development lifecycle. That's when I made the decision to learn more about Web Development and Javascript, becoming a tech lead and mentor along the way.
 
@@ -56,13 +56,13 @@ I mention all of this to demonstrate the power of being part of a team - none of
 
 ## 3. Life-long learning through uncomfortable opportunities
 
-I was once asked "What has been your biggest challenge in your life" in an interview.
+I was once asked "What has been the biggest challenge in your life" in an interview.
 
-I responded easily: "Moving away from my family, my friends, my life in the valley to take on a new city as a country boy that had -20 degree wind chills at GE."
+I responded easily: "Moving away from my family, my friends, my life in the valley to take on a new city as a country boy that had -20-degree wind chills at GE."
 
 Then he asked, "What has been your biggest accomplishment so far?"
 
-I thought for a second...hmm..."Moving away from my family, my friends, my life in the valley to take on a new city as a country boy that had -20 degree wind chills at GE."
+I thought for a second...hmm..."Moving away from my family, my friends, my life in the valley to take on a new city as a country boy that had -20-degree wind chills at GE."
 
 He laughed: "You would be absolutely stunned how many times that happens when I ask these two questions, usually someone's biggest challenge leads to their biggest accomplishment."
 
