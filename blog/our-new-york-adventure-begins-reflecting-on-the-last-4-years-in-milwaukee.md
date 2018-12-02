@@ -32,7 +32,7 @@ The most important lesson from all of the Hackathon events, happy hours, team di
 
 [I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds true today.
 
-_SN: Check out my [Instagram](https://www.instagram.com/on\_the\_journey3/) for pictures from the last few years!_
+SN: Check out my [Instagram](https://www.instagram.com/on\_the\_journey3/) for pictures from the last few years!
 
 ## 2. Learn from others
 
