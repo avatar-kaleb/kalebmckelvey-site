@@ -22,7 +22,7 @@ With that being said, last week began a new journey for me, _starting a new job 
 
 ## Top 3 Lessons from the Last 4 Years
 
-### 1. People are awesome - Talk to Them!!
+### 1. People are awesome!
 
 Thanks to my three rotations in GE Healthcare and one in GE Aviation, the number of people I connected with was incredible. Working with people from all over the world like India, Budapest, Mexico, France, Poland, and China - especially in the countries I was able to visit (or when people visited the US) - changed my perspective what life really was like.
 
@@ -32,7 +32,7 @@ The most important lesson from all of the Hackathon events, happy hours, team di
 
 [I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds true today.
 
-_SN: Check out my [Instagram](https://www.instagram.com/on_the_journey3/) for pictures from the last few years!_
+_SN: Check out my [Instagram](https://www.instagram.com/on\_the\_journey3/) for pictures from the last few years!_
 
 ## 2. Learn from others
 
