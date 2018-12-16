@@ -1,6 +1,6 @@
 import Tech from './TechData';
 
-module.exports = [
+export default [
   {
     id: 'allAboutUs',
     category: 'Personal',

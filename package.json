@@ -6,6 +6,7 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "babel-plugin-lodash": "^3.3.2",
+    "core-js": "^2.6.0",
     "disqus-react": "^1.0.5",
     "font-awesome": "^4.7.0",
     "gatsby": "2.0.40",
@@ -20,6 +21,7 @@
     "gatsby-plugin-netlify-cms": "3.0.6",
     "gatsby-plugin-nprogress": "2.0.6",
     "gatsby-plugin-offline": "2.0.12",
+    "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-react-helmet": "3.0.1",
     "gatsby-plugin-sass": "2.0.3",
     "gatsby-plugin-sharp": "2.0.12",
@@ -68,7 +70,9 @@
     "stylelint-config-standard": "^18.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -85,6 +89,8 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }

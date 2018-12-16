@@ -26,12 +26,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
     'gatsby-transformer-sharp',
-    // {
-    //   resolve: 'gatsby-plugin-page-transitions',
-    //   options: {
-    //     transitionTime: 500
-    //   }
-    // },
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
