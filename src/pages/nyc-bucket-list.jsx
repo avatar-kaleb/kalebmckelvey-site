@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import PageTransition from 'gatsby-plugin-page-transitions';
-import AboutMe from '../components/AboutMe/AboutMe';
-import config from '../../data/SiteConfig';
-import Layout from '../layout';
 
-class AboutMePage extends Component {
+import NycBucketList from '../components/NycBucketList/NycBucketList';
+import config from '../../data/SiteConfig';
+
+class NewYorkBucketListPage extends Component {
   render() {
     return (
       <PageTransition>
         <div className="about-container">
           <Helmet>
-            <title>{`About Me | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/about-me/`} />
+            <title>{`Contact Me | ${config.siteTitle}`}</title>
+            <link rel="canonical" href={`${config.siteUrl}/nyc-bucket-list/`} />
           </Helmet>
-          <AboutMe />
+          <NycBucketList />
         </div>
       </PageTransition>
     );
   }
 }
 
-export default AboutMePage;
+export default NewYorkBucketListPage;

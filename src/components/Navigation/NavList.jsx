@@ -1,6 +1,6 @@
-import React from "react";
-import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import React from 'react';
+import FontIcon from 'react-md/lib/FontIcons';
+import Link from 'gatsby-link';
 
 function GetNavList() {
   const NavList = [];
@@ -8,39 +8,39 @@ function GetNavList() {
   // Home / About me
   NavList.push(
     {
-      key: "blog",
-      primaryText: "Blog",
+      key: 'blog',
+      primaryText: 'Blog',
       component: Link,
-      to: "/"
+      to: '/'
     },
     {
-      key: "about-me",
-      primaryText: "About Me",
+      key: 'about-me',
+      primaryText: 'About Me',
       component: Link,
-      to: "/about-me/"
+      to: '/about-me/'
     }
   );
 
   // Professional
   NavList.push({
-    key: "professional-header",
-    primaryText: "Professional",
+    key: 'professional-header',
+    primaryText: 'Professional',
     expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedListClassName: "drawer-nav-nested-list-item",
+    nestedListClassName: 'drawer-nav-nested-list-item',
     nestedItems: [
       {
-        key: "portfolio",
-        primaryText: "Portfolio",
+        key: 'portfolio',
+        primaryText: 'Portfolio',
         leftIcon: <FontIcon>zoom_in</FontIcon>,
         component: Link,
-        to: "/professional/portfolio/"
+        to: '/professional/portfolio/'
       },
       {
-        key: "services",
-        primaryText: "Services",
+        key: 'services',
+        primaryText: 'Services',
         leftIcon: <FontIcon>business_center</FontIcon>,
         component: Link,
-        to: "/professional/services/"
+        to: '/professional/services/'
       },
       {
         divider: true
@@ -50,37 +50,37 @@ function GetNavList() {
 
   // Journey to Achieve
   NavList.push({
-    key: "journey-to-achieve-header",
-    primaryText: "Journey to Achieve",
+    key: 'journey-to-achieve-header',
+    primaryText: 'Journey to Achieve',
     expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedListClassName: "drawer-nav-nested-list-item",
+    nestedListClassName: 'drawer-nav-nested-list-item',
     nestedItems: [
       {
-        key: "about-the-journey",
-        primaryText: "About the Journey",
+        key: 'about-the-journey',
+        primaryText: 'About the Journey',
         leftIcon: <FontIcon>info</FontIcon>,
         component: Link,
-        to: "/journey-to-achieve/about-the-journey/"
+        to: '/journey-to-achieve/about-the-journey/'
       },
       {
-        key: "core-fundamentals",
-        primaryText: "Core Fundamentals",
+        key: 'core-fundamentals',
+        primaryText: 'Core Fundamentals',
         leftIcon: <FontIcon>fitness_center</FontIcon>,
         component: Link,
-        to: "/journey-to-achieve/core-fundamentals/"
+        to: '/journey-to-achieve/core-fundamentals/'
       },
       {
-        primaryText: "Scholarship",
+        primaryText: 'Scholarship',
         leftIcon: <FontIcon>school</FontIcon>,
         component: Link,
-        to: "/journey-to-achieve/scholarship/"
+        to: '/journey-to-achieve/scholarship/'
       },
       {
-        key: "observations",
-        primaryText: "Observations",
+        key: 'observations',
+        primaryText: 'Observations',
         leftIcon: <FontIcon>language</FontIcon>,
         component: Link,
-        to: "/journey-to-achieve/observations/"
+        to: '/journey-to-achieve/observations/'
       },
       {
         divider: true
@@ -90,24 +90,24 @@ function GetNavList() {
 
   // Resources
   NavList.push({
-    key: "resources-header",
-    primaryText: "Resources",
+    key: 'resources-header',
+    primaryText: 'Resources',
     expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedListClassName: "drawer-nav-nested-list-item",
+    nestedListClassName: 'drawer-nav-nested-list-item',
     nestedItems: [
       {
-        key: "life-resources",
-        primaryText: "Life",
+        key: 'life-resources',
+        primaryText: 'Life',
         leftIcon: <FontIcon>local_library</FontIcon>,
         component: Link,
-        to: "/resources/life/"
+        to: '/resources/life/'
       },
       {
-        key: "dev-resources",
-        primaryText: "Development",
+        key: 'dev-resources',
+        primaryText: 'Development',
         leftIcon: <FontIcon>desktop_mac</FontIcon>,
         component: Link,
-        to: "/resources/development"
+        to: '/resources/development'
       },
       {
         divider: true
@@ -118,16 +118,22 @@ function GetNavList() {
   // Contact and archives
   NavList.push(
     {
-      key: "contact-me",
-      primaryText: "Contact Me",
+      key: 'nyc-bucket-list',
+      primaryText: 'NYC Bucket List',
       component: Link,
-      to: "/contact-me/"
+      to: '/nyc-bucket-list/'
     },
     {
-      key: "archives",
-      primaryText: "Archives",
+      key: 'contact-me',
+      primaryText: 'Contact Me',
       component: Link,
-      to: "/archives"
+      to: '/contact-me/'
+    },
+    {
+      key: 'archives',
+      primaryText: 'Archives',
+      component: Link,
+      to: '/archives'
     },
     {
       divider: true

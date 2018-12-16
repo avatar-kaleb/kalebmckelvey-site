@@ -1,11 +1,11 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PageTransition from "gatsby-plugin-page-transitions";
+import React from 'react';
+import Helmet from 'react-helmet';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
-import SEO from "../components/SEO/SEO";
-import Home from "../components/Home/Home";
+import SEO from '../components/SEO/SEO';
+import Home from '../components/Home/Home';
 
-import config from "../../data/SiteConfig";
+import config from '../../data/SiteConfig';
 
 class Index extends React.Component {
   render() {
