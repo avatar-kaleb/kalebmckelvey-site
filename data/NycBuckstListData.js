@@ -11,6 +11,7 @@ export default [
     tags: ['food', 'brooklyn'],
     place: 'test',
     realRating: 3,
+    status: 'Not Started',
     title: 'test',
     youtubeVideoLink: 'https://www.youtube.com/watch?v=_MMI1hEScO8&index=6&list=PL7CEEEFB5A30F0575'
   },
@@ -26,6 +27,7 @@ export default [
     tags: ['history', 'manhattan'],
     place: 'test',
     realRating: 3,
+    status: 'Not Started',
     title: 'test',
     youtubeVideoLink: 'https://www.youtube.com/watch?v=_MMI1hEScO8&index=6&list=PL7CEEEFB5A30F0575'
   },
@@ -41,6 +43,7 @@ export default [
     tags: ['scenery', 'date'],
     place: 'test',
     realRating: 3,
+    status: 'Not Started',
     title: 'test',
     youtubeVideoLink: 'https://www.youtube.com/watch?v=_MMI1hEScO8&index=6&list=PL7CEEEFB5A30F0575'
   },
@@ -56,6 +59,7 @@ export default [
     tags: ['food', 'brooklyn'],
     place: 'test',
     realRating: 3,
+    status: 'Not Started',
     title: 'test',
     youtubeVideoLink: 'https://www.youtube.com/watch?v=_MMI1hEScO8&index=6&list=PL7CEEEFB5A30F0575'
   }
