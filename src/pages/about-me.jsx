@@ -8,15 +8,17 @@ import Layout from '../layout';
 class AboutMePage extends Component {
   render() {
     return (
-      <PageTransition>
-        <div className="about-container">
-          <Helmet>
-            <title>{`About Me | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/about-me/`} />
-          </Helmet>
-          <AboutMe />
-        </div>
-      </PageTransition>
+      <Layout location={this.props.location} title="About Me">
+        <PageTransition>
+          <div className="about-container">
+            <Helmet>
+              <title>{`About Me | ${config.siteTitle}`}</title>
+              <link rel="canonical" href={`${config.siteUrl}/about-me/`} />
+            </Helmet>
+            <AboutMe />
+          </div>
+        </PageTransition>
+      </Layout>
     );
   }
 }

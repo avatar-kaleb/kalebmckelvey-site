@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import Media from "react-md/lib/Media/Media";
 import codeImage from "../../images/DevResources-Code.jpeg";
 import ResourcesData from "../../../data/ResourceData";
