@@ -13,6 +13,19 @@ import PostListing from '../../components/PostListing/PostListing';
 import './Home.scss';
 
 class Home extends Component {
+  componentDidMount() {
+    this.typed = new Typed("#typed", {
+      startDelay: 1000,
+      stringsElement: "#typed-strings",
+      typeSpeed: 15
+    });
+  }
+   componentWillUnmount() {
+    // Make sure to destroy Typed instance on unmounting
+    // to prevent memory leaks
+    this.typed.destroy();
+  }
+
   render() {
     const { postEdges } = this.props;
     return (
