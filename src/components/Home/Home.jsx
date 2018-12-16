@@ -38,7 +38,7 @@ class Home extends Component {
             <h3>Welcome to the Site!</h3>
             <section id="typed-strings">
               <p className="md-body-2">
-                Hi there - I&apos;m Kaleb, a Staff Software Engineer striving to make my dreams into reality!
+                Hi there - I&apos;m Kaleb, a Sr Software Engineer striving to make my dreams into reality!
               </p>
             </section>
             <span id="typed" />
