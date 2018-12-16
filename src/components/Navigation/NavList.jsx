@@ -1,6 +1,6 @@
 import React from 'react';
 import FontIcon from 'react-md/lib/FontIcons';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 function GetNavList() {
   const NavList = [];
@@ -117,12 +117,12 @@ function GetNavList() {
 
   // Contact and archives
   NavList.push(
-    {
-      key: 'nyc-bucket-list',
-      primaryText: 'NYC Bucket List',
-      component: Link,
-      to: '/nyc-bucket-list/'
-    },
+    // {
+    //   key: 'nyc-bucket-list',
+    //   primaryText: 'NYC Bucket List',
+    //   component: Link,
+    //   to: '/nyc-bucket-list/'
+    // },
     {
       key: 'contact-me',
       primaryText: 'Contact Me',

@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import NavigationDrawer from "react-md/lib/NavigationDrawers/NavigationDrawer";
-import ToolbarActions from "../ToolbarActions/ToolbarActions";
-import Footer from "../Footer/Footer";
-import GetNavList from "./NavList";
-import "./Navigation.scss";
+import React, { Component } from 'react';
+import NavigationDrawer from 'react-md/lib/NavigationDrawers/NavigationDrawer';
+import ToolbarActions from '../ToolbarActions/ToolbarActions';
+import Footer from '../Footer/Footer';
+import GetNavList from './NavList';
+import './Navigation.scss';
 
 class Navigation extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     // Update the items so they have an onClick handler to change the current page
     this.navItems = this._createNavItems();
@@ -66,7 +66,7 @@ class Navigation extends Component {
   _isNavItemActive(key) {
     if (typeof window !== `undefined` && window.location) {
       const { location: { pathname } } = window;
-      return pathname.includes(key) || (key === "blog" && pathname === "/");
+      return pathname.includes(key) || (key === 'blog' && pathname === '/');
     }
 
     return false;
@@ -108,6 +108,7 @@ class Navigation extends Component {
    */
   render() {
     const { children, config, LocalTitle } = this.props;
+
     const title = (
       <div>
         <h2 className="drawer-title--color">{config.siteTitle}</h2>

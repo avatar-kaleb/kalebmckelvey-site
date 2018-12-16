@@ -46,7 +46,7 @@ class ServiceCard extends Component {
 
   render() {
     return (
-      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top">
+      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top animated fadeIn">
         <CardTitle title={this.props.title} subtitle={this.props.subtitle} />
 
         <CardText>

@@ -20,18 +20,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-catch-links',
     `gatsby-plugin-lodash`,
-    // `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 500
-      }
-    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -44,6 +38,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/layouts/`)
       }
     },
     {

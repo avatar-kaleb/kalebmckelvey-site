@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import PageTransition from "gatsby-plugin-page-transitions";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
-import Portfolio from "../../components/Portfolio/Portfolio";
-import config from "../../../data/SiteConfig";
+import Portfolio from '../../components/Portfolio/Portfolio';
+import config from '../../../data/SiteConfig';
 
 class PortfolioPage extends Component {
   constructor(props) {
@@ -13,15 +13,13 @@ class PortfolioPage extends Component {
 
   render() {
     return (
-      <PageTransition>
-        <div>
-          <Helmet>
-            <title>{`Portfolio | ${config.siteTitle}`}</title>
-            <link rel="canonical" href={`${config.siteUrl}/professional/portfolio/`} />
-          </Helmet>
-          <Portfolio images={this.state.data.allImageSharp.edges} />
-        </div>
-      </PageTransition>
+      <div>
+        <Helmet>
+          <title>{`Portfolio | ${config.siteTitle}`}</title>
+          <link rel="canonical" href={`${config.siteUrl}/professional/portfolio/`} />
+        </Helmet>
+        <Portfolio images={this.state.data.allImageSharp.edges} />
+      </div>
     );
   }
 }
