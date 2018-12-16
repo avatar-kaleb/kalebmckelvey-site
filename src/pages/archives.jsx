@@ -1,26 +1,24 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PageTransition from "gatsby-plugin-page-transitions";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
-import SEO from "../components/SEO/SEO";
-import Archives from "../components/Archives/Archives";
+import SEO from '../components/SEO/SEO';
+import Archives from '../components/Archives/Archives';
 
-import config from "../../data/SiteConfig";
+import config from '../../data/SiteConfig';
 
 class ArchivesPage extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <PageTransition>
-        <div>
-          <Helmet>
-            <title>{config.siteTitle}</title>
-            <link rel="canonical" href={`${config.siteUrl}/archives/`} />
-          </Helmet>
-          <SEO postEdges={postEdges} />
-          <Archives postEdges={postEdges} />
-        </div>
-      </PageTransition>
+      <div>
+        <Helmet>
+          <title>{config.siteTitle}</title>
+          <link rel="canonical" href={`${config.siteUrl}/archives/`} />
+        </Helmet>
+        <SEO postEdges={postEdges} />
+        <Archives postEdges={postEdges} />
+      </div>
     );
   }
 }

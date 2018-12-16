@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import find from "lodash/find";
+import React, { Component } from 'react';
+import find from 'lodash/find';
 
-import Button from "react-md/lib/Buttons/Button";
-import Card from "react-md/lib/Cards/Card";
-import CardActions from "react-md/lib/Cards/CardActions";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import { ExpansionList, ExpansionPanel, Slider } from "react-md";
-import { navigateTo } from "gatsby-link";
+import Button from 'react-md/lib/Buttons/Button';
+import Card from 'react-md/lib/Cards/Card';
+import CardActions from 'react-md/lib/Cards/CardActions';
+import CardText from 'react-md/lib/Cards/CardText';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import { ExpansionList, ExpansionPanel, Slider } from 'react-md';
+import { navigate } from 'gatsby-link';
 
-import "./ServiceCard.scss";
+import './ServiceCard.scss';
 
 class ServiceCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       selectedPackage: props.packageOptions[0],
-      contactPath: "/contact-me"
+      contactPath: '/contact-me'
     };
 
     // event binding to access this
@@ -30,7 +30,7 @@ class ServiceCard extends Component {
    * @param {Number} value The value of the slider on change
    */
   setPackageOnSliderChange(value) {
-    const selectedPackage = find(this.props.packageOptions, ["totalPrice", value]);
+    const selectedPackage = find(this.props.packageOptions, ['totalPrice', value]);
 
     this.setState({
       selectedPackage
@@ -41,12 +41,12 @@ class ServiceCard extends Component {
    * Navigates to the contact me page - used for card actions
    */
   navigateToContactPage() {
-    navigateTo(this.state.contactPath);
+    navigate(this.state.contactPath);
   }
 
   render() {
     return (
-      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top">
+      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top animated fadeIn">
         <CardTitle title={this.props.title} subtitle={this.props.subtitle} />
 
         <CardText>

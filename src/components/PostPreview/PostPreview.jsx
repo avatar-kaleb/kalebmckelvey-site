@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardActions from "react-md/lib/Cards/CardActions";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Button from "react-md/lib/Buttons";
-import Avatar from "react-md/lib/Avatars";
-import CardText from "react-md/lib/Cards/CardText";
-import FontIcon from "react-md/lib/FontIcons";
-import { navigateTo } from "gatsby-link";
-import Media, { MediaOverlay } from "react-md/lib/Media";
-import ParticleEffectButton from "react-particle-effect-button";
-import PostTags from "../PostTags/PostTags";
-import "./PostPreview.scss";
+import React, { Component } from 'react';
+import Card from 'react-md/lib/Cards/Card';
+import CardActions from 'react-md/lib/Cards/CardActions';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import Button from 'react-md/lib/Buttons';
+import Avatar from 'react-md/lib/Avatars';
+import CardText from 'react-md/lib/Cards/CardText';
+import FontIcon from 'react-md/lib/FontIcons';
+import { navigate } from 'gatsby-link';
+import Media, { MediaOverlay } from 'react-md/lib/Media';
+import ParticleEffectButton from 'react-particle-effect-button';
+import PostTags from '../PostTags/PostTags';
+import './PostPreview.scss';
 
 class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      buttonColor: "#ff6f00",
+      buttonColor: '#ff6f00',
       buttonHidden: false,
       mobile: true
     };
@@ -26,11 +26,11 @@ class PostPreview extends Component {
   }
   componentDidMount() {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener('resize', this.handleResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+    window.removeEventListener('resize', this.handleResize);
   }
 
   handleResize() {
@@ -46,7 +46,7 @@ class PostPreview extends Component {
   }
 
   navToPostOnClick(path, e) {
-    navigateTo(path);
+    navigate(path);
   }
 
   render() {
@@ -54,7 +54,7 @@ class PostPreview extends Component {
     const { mobile } = this.state;
     const expand = mobile;
     /* eslint no-undef: "off" */
-    const cover = postInfo.cover.substring(0, 1) === "/" ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
+    const cover = postInfo.cover.substring(0, 1) === '/' ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
     const coverHeight = mobile ? 162 : 225;
 
     return (

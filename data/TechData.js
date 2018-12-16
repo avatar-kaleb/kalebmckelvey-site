@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   angularOne: {
     name: 'Angular 1',
     link: 'https://angular.io'

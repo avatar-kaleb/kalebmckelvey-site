@@ -1,32 +1,18 @@
 // absolute
-import React, { Component } from "react";
-import Typed from "typed.js";
-import Cell from "react-md/lib/Grids/Cell";
-import Paper from "react-md/lib/Papers/Paper";
+import React, { Component } from 'react';
+import Typed from 'typed.js';
+import Cell from 'react-md/lib/Grids/Cell';
+import Paper from 'react-md/lib/Papers/Paper';
 
 // relative
-import AvatarImage from "../../components/AvatarImage/AvatarImage";
-import kalebWelcomeImage from "../../images/Home-KalebWelcomePic.jpg";
-import PostListing from "../../components/PostListing/PostListing";
+import AvatarImage from '../../components/AvatarImage/AvatarImage';
+import kalebWelcomeImage from '../../images/Home-KalebWelcomePic.jpg';
+import PostListing from '../../components/PostListing/PostListing';
 
 // CSS
-import "./Home.scss";
+import './Home.scss';
 
 class Home extends Component {
-  componentDidMount() {
-    this.typed = new Typed("#typed", {
-      startDelay: 1000,
-      stringsElement: "#typed-strings",
-      typeSpeed: 15
-    });
-  }
-
-  componentWillUnmount() {
-    // Make sure to destroy Typed instance on unmounting
-    // to prevent memory leaks
-    this.typed.destroy();
-  }
-
   render() {
     const { postEdges } = this.props;
     return (
@@ -50,7 +36,7 @@ class Home extends Component {
                 my journey to achieve.
               </p>
               <p className="md-body-1">
-                <strong>Join me</strong> on the road to achievement as we make a positive impact on the world together!!
+                <strong>Join me</strong> {' '}on the road to achievement as we make a positive impact on the world together!!
               </p>
             </section>
           </Cell>

@@ -1,18 +1,20 @@
-import React from "react";
-import Helmet from "react-helmet";
-import Card from "react-md/lib/Cards";
-import CardText from "react-md/lib/Cards/CardText";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
-import PostCover from "../components/PostCover/PostCover";
-import PostInfo from "../components/PostInfo/PostInfo";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import PostSuggestions from "../components/PostSuggestions/PostSuggestions";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
-import "./post.scss";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+
+import Card from 'react-md/lib/Cards';
+import CardText from 'react-md/lib/Cards/CardText';
+import UserInfo from '../components/UserInfo/UserInfo';
+import Disqus from '../components/Disqus/Disqus';
+import PostTags from '../components/PostTags/PostTags';
+import PostCover from '../components/PostCover/PostCover';
+import PostInfo from '../components/PostInfo/PostInfo';
+import SocialLinks from '../components/SocialLinks/SocialLinks';
+import PostSuggestions from '../components/PostSuggestions/PostSuggestions';
+import SEO from '../components/SEO/SEO';
+import config from '../../data/SiteConfig';
+import './b16-tomorrow-dark.css';
+import './post.scss';
 
 export default class PostTemplate extends React.Component {
   constructor(props) {
@@ -22,13 +24,14 @@ export default class PostTemplate extends React.Component {
     };
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount() {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    window.addEventListener('resize', this.handleResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+    window.removeEventListener('resize', this.handleResize);
   }
 
   handleResize() {
@@ -43,7 +46,7 @@ export default class PostTemplate extends React.Component {
     const { mobile } = this.state;
     const { slug } = this.props.pathContext;
     const expanded = !mobile;
-    const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
+    const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.id) {

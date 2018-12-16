@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Avatar from "react-md/lib/Avatars";
 import CardTitle from "react-md/lib/Cards/CardTitle";
 import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import KebabCase from "lodash/kebabCase";
 import "./PostInfo.scss";
 
