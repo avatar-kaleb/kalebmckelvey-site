@@ -5,11 +5,11 @@ import { Link } from 'gatsby';
 function GetNavList() {
   const NavList = [];
 
-  // Home / About me
+  // Home / About me / Bucketlist
   NavList.push(
     {
-      key: 'blog',
-      primaryText: 'Blog',
+      key: 'home',
+      primaryText: 'Home',
       component: Link,
       to: '/'
     },
@@ -18,35 +18,14 @@ function GetNavList() {
       primaryText: 'About Me',
       component: Link,
       to: '/about-me/'
+    },
+    {
+      key: 'nyc-bucket-list',
+      primaryText: 'NYC Bucket List',
+      component: Link,
+      to: '/nyc-bucket-list/'
     }
   );
-
-  // Professional
-  NavList.push({
-    key: 'professional-header',
-    primaryText: 'Professional',
-    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedListClassName: 'drawer-nav-nested-list-item',
-    nestedItems: [
-      {
-        key: 'portfolio',
-        primaryText: 'Portfolio',
-        leftIcon: <FontIcon>zoom_in</FontIcon>,
-        component: Link,
-        to: '/professional/portfolio/'
-      },
-      {
-        key: 'services',
-        primaryText: 'Services',
-        leftIcon: <FontIcon>business_center</FontIcon>,
-        component: Link,
-        to: '/professional/services/'
-      },
-      {
-        divider: true
-      }
-    ]
-  });
 
   // Journey to Achieve
   NavList.push({
@@ -81,6 +60,33 @@ function GetNavList() {
         leftIcon: <FontIcon>language</FontIcon>,
         component: Link,
         to: '/journey-to-achieve/observations/'
+      },
+      {
+        divider: true
+      }
+    ]
+  });
+
+  // Professional
+  NavList.push({
+    key: 'professional-header',
+    primaryText: 'Professional',
+    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+    nestedListClassName: 'drawer-nav-nested-list-item',
+    nestedItems: [
+      {
+        key: 'portfolio',
+        primaryText: 'Portfolio',
+        leftIcon: <FontIcon>zoom_in</FontIcon>,
+        component: Link,
+        to: '/professional/portfolio/'
+      },
+      {
+        key: 'services',
+        primaryText: 'Services',
+        leftIcon: <FontIcon>business_center</FontIcon>,
+        component: Link,
+        to: '/professional/services/'
       },
       {
         divider: true

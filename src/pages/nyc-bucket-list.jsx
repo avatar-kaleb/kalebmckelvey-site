@@ -9,7 +9,7 @@ class NewYorkBucketListPage extends Component {
     return (
       <div className="nyc-bucketlist-container">
         <Helmet>
-          <title>{`Contact Me | ${config.siteTitle}`}</title>
+          <title>{`NYC Bucketlist | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/nyc-bucket-list/`} />
         </Helmet>
         <NycBucketList />

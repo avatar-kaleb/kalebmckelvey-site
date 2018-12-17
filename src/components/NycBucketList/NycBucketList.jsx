@@ -5,7 +5,7 @@ import CardText from 'react-md/lib/Cards/CardText';
 import Media from 'react-md/lib/Media/Media';
 
 // relative
-import NycBucketListData from '../../../data/NycBuckstListData';
+import NycBucketListData from '../../../data/NycBucketListData';
 import BucketListCardList from '../BucketListCardList/BucketListCardList';
 
 class NycBucketList extends Component {

@@ -12,8 +12,8 @@ class FourOhFourPage extends Component {
     return (
       <div className="about-container">
         <Helmet>
-          <title>{`About Me | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/about-me/`} />
+          <title>{`404 | ${config.siteTitle}`}</title>
+          <link rel="canonical" href={`${config.siteUrl}/404`} />
         </Helmet>
         <FourOhFour postEdges={postEdges} />
       </div>

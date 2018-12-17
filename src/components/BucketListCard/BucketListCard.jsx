@@ -8,23 +8,27 @@ import Media from 'react-md/lib/Media/Media';
 import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 
 const BucketListCard = ({ bucketListItem }) => (
-  <Card className="md-block-centered md-cell">
+  <Card className="bucketlist-wrapper md-block-centered md-cell">
     <Media>
-      <img src={`/post-images/${bucketListItem.featuredImageUrl}`} alt="Nature from lorempixel" />
+      <img src={`/bucket-list-images/${bucketListItem.featuredImageUrl}`} alt="" />
       <MediaOverlay>
-        <CardTitle title={bucketListItem.title} subtitle={bucketListItem.tagline} />
+        <CardTitle title={bucketListItem.title} subtitle={bucketListItem.status} />
       </MediaOverlay>
     </Media>
 
-    <CardText>
+    <CardText
+      style={{
+        minHeight: '100px'
+      }}
+    >
       <p>{bucketListItem.description}</p>
     </CardText>
     <CardActions>
-      <Button flat primary>
+      <Button flat primary disabled={bucketListItem.blogPostLink.length === 0}>
         Blogpost
       </Button>
-      <Button flat primary>
-        Youtube Video
+      <Button flat primary disabled={bucketListItem.youtubeVideoLink.length === 0}>
+        Youtube
       </Button>
     </CardActions>
   </Card>
