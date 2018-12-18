@@ -6,6 +6,6 @@ I took advantage of [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-m
 
 ## Tech Stack
 
-* [GatbyJS V1](https://www.gatsbyjs.org/) - Static site generation with GraphQL queries to retrieve data nodes. Blazing fast!!
+* [GatbyJS V2](https://www.gatsbyjs.org/) - Static site generation with GraphQL queries to retrieve data nodes. Blazing fast!!
 * [React-Md](https://react-md.mlaursen.com/) - React Material Design components to enable quick and easy re-use of material design apps
 
