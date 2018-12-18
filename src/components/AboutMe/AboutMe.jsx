@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
-import Media from "react-md/lib/Media/Media";
-import { DataTable, TableHeader, TableBody, TableRow, TableColumn } from "react-md";
-import kalebWelcomeImage from "../../images/AboutMe-Santorini.jpg";
+import React, { Component } from 'react';
+import Card from 'react-md/lib/Cards/Card';
+import CardText from 'react-md/lib/Cards/CardText';
+import Media from 'react-md/lib/Media/Media';
+import { DataTable, TableHeader, TableBody, TableRow, TableColumn } from 'react-md';
+import kalebWelcomeImage from '../../images/AboutMe-Santorini.jpg';
 
 class AboutMe extends Component {
   render() {
@@ -19,8 +19,8 @@ class AboutMe extends Component {
           </Media>
           <CardText className="animated slideInUp cardText-text">
             <p>
-              Hola. I'm Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire,
-              nature walker, and reddit lurker. Thanks for stopping by!
+              Hola. I&#39;m Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model
+              extraordinaire, nature walker, and reddit lurker. Thanks for stopping by!
             </p>
             <h1>What I Do:</h1>
             <p>
@@ -28,22 +28,24 @@ class AboutMe extends Component {
             </p>
             <p>
               Combining leadership and technical skills, I collaborate with our team to design and develop solutions on
-              tough requirements from our manufacturing shops. By doing so, we help improve the processes and analytics
-              that drive productivity to meet customer demand!
+              tough requirements.
             </p>
             <p>
-              Further, I explore new technologies and focus on improving our code base as I learn from mistakes, grow
-              through experience, and heed the advice from top developers on the web!
+              In the past my focus was doing this for GE Healthcare manufacturing shops. Recently, I changed to a new
+              industry, city, and role - Sr Software Engineer (Front End) in New York at Northwestern Mutual!
+            </p>
+            <p>
+              In addition to solving business problems, I continuously explore new technologies and focus on improving
+              code bases as I learn from mistakes, grow through experience, and heed the advice from top developers on
+              the web!
             </p>
             <h1>My Skills:</h1>
             <p>
-              In the last few years I've been offered the opportunities to learn and grow through various experiences.
+              In the last few years I&#39;ve been offered the opportunities to learn and grow through various
+              experiences.
             </p>
             <h2>Modern Web Development:</h2>
-            <p>
-              We use micro-service architecture on the Predix Platform with various tech stacks. Check out my skills
-              below!
-            </p>
+            <p>I&#39;ve worked on multiple projects utilizing various technologies, check out the table for details!</p>
             <DataTable plain>
               <TableHeader>
                 <TableRow>
@@ -91,7 +93,48 @@ class AboutMe extends Component {
                 <TableRow key={8}>
                   <TableColumn>Postgres</TableColumn>
                   <TableColumn>Gatsby</TableColumn>
-                  <TableColumn>Predix-UI</TableColumn>
+                  <TableColumn>Unit/E2E Testing</TableColumn>
+                </TableRow>
+              </TableBody>
+            </DataTable>
+            <hr />
+
+            <br />
+            <h2>Leadership:</h2>
+            <p>
+              I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
+              through experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I
+              mentor junior members, lead initiatives in the team, improve our code base with every new feature, and
+              help architect designs to meet requirements from our Product Owners.
+            </p>
+            <DataTable plain>
+              <TableHeader>
+                <TableRow>
+                  <TableColumn>Communication</TableColumn>
+                  <TableColumn>Relationship</TableColumn>
+                  <TableColumn>Responsibility</TableColumn>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow key={1}>
+                  <TableColumn>Public Speaking</TableColumn>
+                  <TableColumn>Collaboration & Peer Programming</TableColumn>
+                  <TableColumn>Rational Thinker</TableColumn>
+                </TableRow>
+                <TableRow key={2}>
+                  <TableColumn>Business Story Telling</TableColumn>
+                  <TableColumn>Respectful and Encouraging</TableColumn>
+                  <TableColumn>Acknowledging Mistakes</TableColumn>
+                </TableRow>
+                <TableRow key={3}>
+                  <TableColumn>Active Listening</TableColumn>
+                  <TableColumn>Mentorship and Guidance</TableColumn>
+                  <TableColumn>Transparency & Openness</TableColumn>
+                </TableRow>
+                <TableRow key={4}>
+                  <TableColumn>Written Communication</TableColumn>
+                  <TableColumn>Teaching</TableColumn>
+                  <TableColumn>Time Management</TableColumn>
                 </TableRow>
               </TableBody>
             </DataTable>
@@ -130,58 +173,19 @@ class AboutMe extends Component {
             <hr />
 
             <br />
-            <h2>Leadership:</h2>
-            <p>
-              I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led
-              through experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I
-              mentor junior members, lead initiatives in the team, improve our code base with every new feature, and
-              help architect designs to meet requirements from our Product Owners.
-            </p>
-            <DataTable plain>
-              <TableHeader>
-                <TableRow>
-                  <TableColumn>Communication</TableColumn>
-                  <TableColumn>Relationship</TableColumn>
-                  <TableColumn>Responsibility</TableColumn>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                <TableRow key={1}>
-                  <TableColumn>Public Speaking</TableColumn>
-                  <TableColumn>Collaboration & Peer Programming</TableColumn>
-                  <TableColumn>Rational Thinkier</TableColumn>
-                </TableRow>
-                <TableRow key={2}>
-                  <TableColumn>Business Story Telling</TableColumn>
-                  <TableColumn>Respectful and Encouraging</TableColumn>
-                  <TableColumn>Acknowledging Mistakes</TableColumn>
-                </TableRow>
-                <TableRow key={3}>
-                  <TableColumn>Active Listening</TableColumn>
-                  <TableColumn>Mentorship and Guidance</TableColumn>
-                  <TableColumn>Transparent & Open</TableColumn>
-                </TableRow>
-                <TableRow key={4}>
-                  <TableColumn>Written Communication</TableColumn>
-                  <TableColumn>Teaching</TableColumn>
-                  <TableColumn>Time Management</TableColumn>
-                </TableRow>
-              </TableBody>
-            </DataTable>
-            <hr />
-            <br />
             {/* Story! */}
             <h1>My Story</h1>
             <p>
               I believe everyone has a wonderful story to explain how in the world they got to the current moment we
-              call now. Here's a bit of mine!
+              call now. Here&#39;s a bit of mine!
             </p>
             <h2>TLDR:</h2>
             <p>
               I&apos;m Kaleb McKelvey, a small town raised young professional who focuses on exhibiting high character
-              combined with strong ambition to continously grow a little bit each day.<br />
+              combined with strong ambition to continously grow a little bit wiser each day.
               <br />
-              I&apos;ve been working at General Electric for ~4 years with experiences in both leadership and technical
+              <br />
+              I started my career at a small company called Shentel, followed by transit working at General Electric for ~4 years with experiences in both leadership and technical
               depth, molding me into a well rounded Software Engineer who has a true passion for technology!
             </p>
             <h2>Long Version</h2>
@@ -200,7 +204,7 @@ class AboutMe extends Component {
             <p>Technology for me began with video games, leading to a desire for becoming a developer.</p>
             <p>
               It was this desire that my college journey began, a journey that changed my perspective by opening my mind
-              and meeting great people with unique stories. A place to learn how to program from experts and the skill
+              and meeting great people with unique stories. A place to learn how to develop software from experts and the skill
               of time management through balance.
             </p>
             <p>
@@ -214,9 +218,15 @@ class AboutMe extends Component {
             <h3>Becoming a Software Engineer!</h3>
             <p>
               Since then, I began working at GE in their Digital Technology Leadership Program. Two years later,
-              February 2017, I achieved my dream of becoming a software engineer! GE is a company that focuses on the
+              February 2017, I achieved my dream of becoming a Software Engineer! GE is a company that focuses on the
               development of both technical and leadership skill-sets. Because of this, I have grown in both my
               professional and personal worlds thanks to the fabulous people I&apos;ve met on the way.
+            </p>
+            <p>
+              Now today, I work at Northwestern Mutual - an company that has more than a century under its belt - as
+              it adventures through a digital transformation. Personal finance has long been a passion of mine, so
+              getting an opportunity to spend 40+ hours a week developing software to help people with that area of their Life
+              has been great!
             </p>
             <h3>Concluding Thoughts</h3>
             <p>

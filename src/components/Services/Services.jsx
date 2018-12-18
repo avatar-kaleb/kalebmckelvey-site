@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import ServicesData from "../../../data/ServicesData";
-import ServiceList from "../ServiceList/ServiceList";
+import React, { Component } from 'react';
+import ServicesData from '../../../data/ServicesData';
+import ServiceList from '../ServiceList/ServiceList';
 
 // styling
-import "./Services.scss";
+import './Services.scss';
 
 class Services extends Component {
   render() {
     return (
-      <div className="services-wrapper wrapper-flex-column--center  mobile-fix">
+      <div className="services-wrapper wrapper-flex-column--center mobile-fix animated fadeIn slow">
         <ServiceList services={ServicesData} />
       </div>
     );

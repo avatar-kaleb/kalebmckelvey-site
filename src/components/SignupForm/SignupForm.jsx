@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import addToMailchimp from "gatsby-plugin-mailchimp";
-import Button from "react-md/lib/Buttons/Button";
-import Cell from "react-md/lib/Grids/Cell";
-import debounce from "lodash/debounce";
-import Grid from "react-md/lib/Grids/Grid";
-import ParticleEffectButton from "react-particle-effect-button";
-import TextField from "react-md/lib/TextFields/TextField";
-import "./SignupForm.scss";
+import React, { Component } from 'react';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
+import Button from 'react-md/lib/Buttons/Button';
+import Cell from 'react-md/lib/Grids/Cell';
+import debounce from 'lodash/debounce';
+import Grid from 'react-md/lib/Grids/Grid';
+import ParticleEffectButton from 'react-particle-effect-button';
+import TextField from 'react-md/lib/TextFields/TextField';
+import './SignupForm.scss';
 
 class SignupForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
       firstName: ``,
-      lastName: "",
-      email: "",
-      status: "",
-      msg: "",
+      lastName: '',
+      email: '',
+      status: '',
+      msg: '',
       hidden: false
     };
   }
@@ -82,7 +82,7 @@ class SignupForm extends Component {
   render() {
     return (
       <div className="signupForm-wrapper">
-        {this.state.status === "success" ? (
+        {this.state.status === 'success' ? (
           <p className="signUpForm-text--secondary">Success! Thank you for signing up!</p>
         ) : (
           <div className="animated fadeInRight">
@@ -129,7 +129,7 @@ class SignupForm extends Component {
                     oscillationCoefficient={30}
                     particlesAmountCoefficient={5}
                   >
-                    <Button className="signupForm--button--mt" raised secondary onClick={this._handleFormSubmit}>
+                    <Button className="signupForm--button--mt" raised primary onClick={this._handleFormSubmit}>
                       Subscribe!
                     </Button>
                   </ParticleEffectButton>
