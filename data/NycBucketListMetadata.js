@@ -1,8 +1,8 @@
-export const Boroughs = {
+export const Locations = {
   Brooklyn: 'Brooklyn',
   Bronx: 'Bronx',
   Manhattan: 'Manhattan',
-  Other: 'Other',
+  Hamptons: 'Hamptons',
   Queens: 'Queens',
   SI: 'Staten Island'
 };
@@ -16,8 +16,10 @@ export const Categories = {
   LocalsSpot: 'Locals Spot',
   Museum: 'Museum',
   Music: 'Music',
+  MustSee: 'Must See',
   NightLife: 'NightLife',
   Outdoors: 'Outdoors',
+  Scenery: 'Scenery',
   Sports: 'Sports'
 };
 

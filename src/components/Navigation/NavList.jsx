@@ -67,33 +67,6 @@ function GetNavList() {
     ]
   });
 
-  // Professional
-  NavList.push({
-    key: 'professional-header',
-    primaryText: 'Professional',
-    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
-    nestedListClassName: 'drawer-nav-nested-list-item',
-    nestedItems: [
-      {
-        key: 'portfolio',
-        primaryText: 'Portfolio',
-        leftIcon: <FontIcon>zoom_in</FontIcon>,
-        component: Link,
-        to: '/professional/portfolio/'
-      },
-      {
-        key: 'services',
-        primaryText: 'Services',
-        leftIcon: <FontIcon>business_center</FontIcon>,
-        component: Link,
-        to: '/professional/services/'
-      },
-      {
-        divider: true
-      }
-    ]
-  });
-
   // Resources
   NavList.push({
     key: 'resources-header',
@@ -114,6 +87,33 @@ function GetNavList() {
         leftIcon: <FontIcon>desktop_mac</FontIcon>,
         component: Link,
         to: '/resources/development'
+      },
+      {
+        divider: true
+      }
+    ]
+  });
+
+  // Professional
+  NavList.push({
+    key: 'professional-header',
+    primaryText: 'Professional',
+    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+    nestedListClassName: 'drawer-nav-nested-list-item',
+    nestedItems: [
+      {
+        key: 'portfolio',
+        primaryText: 'Portfolio',
+        leftIcon: <FontIcon>zoom_in</FontIcon>,
+        component: Link,
+        to: '/professional/portfolio/'
+      },
+      {
+        key: 'services',
+        primaryText: 'Services',
+        leftIcon: <FontIcon>business_center</FontIcon>,
+        component: Link,
+        to: '/professional/services/'
       },
       {
         divider: true

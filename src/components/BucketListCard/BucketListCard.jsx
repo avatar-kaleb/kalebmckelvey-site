@@ -22,7 +22,7 @@ const BucketListCard = ({ bucketListItem }) => (
 
     <CardText className="metadata-wrapper">
       <section className="borough-cost-wrapper">
-        <p>{bucketListItem.borough}</p>
+        <p>{bucketListItem.location}</p>
         <p className="cost-level-text">{bucketListItem.costLevel}</p>
       </section>
       <p>{bucketListItem.description}</p>

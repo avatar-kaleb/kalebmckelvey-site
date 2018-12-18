@@ -1,16 +1,15 @@
-import { Boroughs, Categories, CostLevels, Ratings, Seasons, Statuses, Tags } from './NycBucketListMetadata';
+import { Locations, Categories, CostLevels, Ratings, Seasons, Statuses, Tags } from './NycBucketListMetadata';
 
 export default [
   {
     blogPostLink: '',
-    borough: Boroughs.Manhattan,
     costLevel: CostLevels.Three,
     categories: [Categories.Music, Categories.NightLife],
     description: 'See a live show at the legendary historical Radio City Music Hall.',
     expectedRating: Ratings.Four,
     featuredImageUrl: 'radio-city-music-hall.jpg',
     id: 'radioCityHall',
-    location: '',
+    location: Locations.Manhattan,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Any,
@@ -20,14 +19,13 @@ export default [
   },
   {
     blogPostLink: '',
-    borough: Boroughs.Manhattan,
     costLevel: CostLevels.Two,
     categories: [Categories.Music, Categories.NightLife],
     description: "We're going to a new cocktail at Gunbae then sing a song at Karoke!!",
     expectedRating: Ratings.Four,
     featuredImageUrl: 'Gunbae-tribeca.jpeg',
     id: 'karokeGunbaeTribeca',
-    location: '',
+    location: Locations.Manhattan,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Any,
@@ -37,7 +35,6 @@ export default [
   },
   {
     blogPostLink: '',
-    borough: Boroughs.Other,
     costLevel: CostLevels.Five,
     categories: [Categories.Outdoors, Categories.Beach],
     description:
@@ -45,7 +42,7 @@ export default [
     expectedRating: Ratings.five,
     featuredImageUrl: 'theHamptonsBeach.jpg',
     id: 'weekendHamptonsTrip',
-    location: '',
+    location: Locations.Hamptons,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Summer,
@@ -55,14 +52,13 @@ export default [
   },
   {
     blogPostLink: '',
-    borough: Boroughs.Bronx,
     costLevel: CostLevels.Two,
     categories: [Categories.Outdoors, Categories.Sports],
     description: 'Buy cheap tickets, enjoy some Cracker Jacks, and cheer on the Yankees live!',
     expectedRating: Ratings.Three,
     featuredImageUrl: 'yankeeStadium.jpg',
     id: 'yankeesGame',
-    location: '',
+    location: Locations.Bronx,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Summer,
@@ -72,19 +68,34 @@ export default [
   },
   {
     blogPostLink: '',
-    borough: Boroughs.Queens,
     costLevel: CostLevels.Two,
     categories: [Categories.Outdoors, Categories.Sports],
     description: 'Buy cheap seats, enjoy some Cracker Jacks, and cheer on the Mets live!',
     expectedRating: Ratings.three,
     featuredImageUrl: 'metsStadium.jpg',
     id: 'metsGame',
-    location: '',
+    location: Locations.Queens,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Summer,
     status: Statuses.ReadyToLaunch,
     title: 'Mets Game',
+    youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.Three,
+    categories: [Categories.HistoricSite, Categories.Scenery, Categories.MustSee],
+    description: 'Take a picture with the Rockefeller Christmas tree and go in the observatory!!',
+    expectedRating: Ratings.five,
+    featuredImageUrl: 'rockefellerCenter.jpg',
+    id: 'rockefellerCenter',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.TBD,
+    season: Seasons.Winter,
+    status: Statuses.Complete,
+    title: 'Rockefeller Center',
     youtubeVideoLink: ''
   }
 ];
