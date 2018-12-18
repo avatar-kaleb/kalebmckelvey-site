@@ -30,7 +30,7 @@ class Home extends Component {
   render() {
     const { postEdges } = this.props;
     return (
-      <section className="home-wrapper mobile-fix">
+      <section className="home-wrapper mobile-fix animated fadeIn slow">
         <Paper className="md-grid paper-background--white" zDepth={0}>
           <Cell align="middle" desktopOffset={1} desktopSize={3} tabletSize={3} phoneSize={4} position="center">
             <AvatarImage src={kalebWelcomeImage} alt="Kaleb with a blue shirt on with arms wide open smiling!" />

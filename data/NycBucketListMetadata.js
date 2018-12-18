@@ -22,24 +22,24 @@ export const Categories = {
 };
 
 export const CostLevels = {
-  one: '$',
-  two: '$$',
-  three: '$$$',
-  four: '$$$$',
-  five: '$$$$$'
+  One: '$',
+  Two: '$$',
+  Three: '$$$',
+  Four: '$$$$',
+  Five: '$$$$$'
 };
 
 export const Ratings = {
-  one: '1 Ehhh',
-  two: '2 Not bad',
-  three: '3 Decent',
-  four: '4 Worth it!',
-  five: 'Must Do!!!',
+  One: '1 Ehhh',
+  Two: '2 Not bad',
+  Three: '3 Decent',
+  Four: '4 Worth it!',
+  Five: 'Must Do!!!',
   TBD: 'TBD'
 };
 
 export const Seasons = {
-  any: 'any',
+  Any: 'any',
   Fall: 'Fall',
   Spring: 'Spring',
   Summer: 'Summer',

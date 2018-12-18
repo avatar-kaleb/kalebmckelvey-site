@@ -24,6 +24,7 @@ class PostPreview extends Component {
     this.setButtonHidden = this.setButtonHidden.bind(this);
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount() {
     this.handleResize();
     window.addEventListener('resize', this.handleResize);
@@ -41,7 +42,7 @@ class PostPreview extends Component {
     }
   }
 
-  setButtonHidden(e) {
+  setButtonHidden() {
     this.setState(prevState => ({ buttonHidden: !prevState.buttonHidden }));
   }
 
@@ -92,7 +93,7 @@ class PostPreview extends Component {
             particlesAmountCoefficient={5}
           >
             {/* Raised looked better, outside of MD spec though */}
-            <Button raised secondary onClick={this.setButtonHidden}>
+            <Button raised primary onClick={this.setButtonHidden}>
               Read more!
             </Button>
           </ParticleEffectButton>

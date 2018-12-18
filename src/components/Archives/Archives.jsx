@@ -5,7 +5,7 @@ export default class Archives extends Component {
   render() {
     const { postEdges } = this.props;
     return (
-      <div className="animated zoomInUp slow">
+      <div className="animated fadeIn slow">
         <PostListing postEdges={postEdges} />
       </div>
     );

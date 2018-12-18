@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Media from "react-md/lib/Media/Media";
-import MediaOverlay from "react-md/lib/Media/MediaOverlay";
+import React, { Component } from 'react';
+import Card from 'react-md/lib/Cards/Card';
+import CardText from 'react-md/lib/Cards/CardText';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import Media from 'react-md/lib/Media/Media';
+import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 
 // images
-import kappaKnightImage from "../../images/AboutTheJourney-KappaKnight.jpg";
+import kappaKnightImage from '../../images/AboutTheJourney-KappaKnight.jpg';
 
 class AboutTheJourney extends Component {
   render() {
@@ -42,7 +42,8 @@ class AboutTheJourney extends Component {
             <p>
               Fast forward to 2017, although feudalism has died off (good riddance), the values we uphold greatly
               impacts our future. The character traits we choose to uphold into our value system holds more weight than
-              how people perceive us. Character is more important than image in the perspective of achievement, because{" "}
+              how people perceive us. Character is more important than image in the perspective of achievement, because
+              {' '}
               <strong>it is who you are, not who people think you are, which grants opportunities in your life.</strong>
             </p>
 
@@ -77,21 +78,31 @@ class AboutTheJourney extends Component {
             </p>
             <h2>Where to start?</h2>
             <p>
-              <strong>First</strong> -&gt; check out the{" "}
+              <strong>First</strong>
+              {' '}
+-&gt; check out the
+              {' '}
               <a href="https://kalebmckelvey.com/journey-to-achieve/core-fundamentals/" rel="noopener noreferrer">
                 Core Fundamentals
-              </a>{" "}
+              </a>
+              {' '}
               to incorporate as you begin changing the trajectory of your life
               <br />
               <br />
-              <strong>Second</strong> -&gt; head over to{" "}
+              <strong>Second</strong>
+              {' '}
+-&gt; head over to
+              {' '}
               <a href="https://kalebmckelvey.com/tags/journey-to-achieve/" rel="noopener noreferrer">
                 The Journey to Achieve Blogroll
-              </a>{" "}
+              </a>
+              {' '}
               to catch up on the latest journey to achieve articles
               <br />
               <br />
-              <strong>Third </strong>-&gt; begin utilizing the tools in{" "}
+              <strong>Third </strong>
+              -&gt; begin utilizing the tools in
+              {' '}
               <a href="https://kalebmckelvey.com/resources/life" rel="noopener noreferrer">
                 Life Resources Page
               </a>

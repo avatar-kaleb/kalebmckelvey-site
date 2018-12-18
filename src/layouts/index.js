@@ -26,6 +26,8 @@ export default class Layout extends React.Component {
       title = 'Archives';
     } else if (currentPath === 'categories') {
       title = 'Categories';
+    } else if (currentPath === 'nyc-bucket-list') {
+      title = 'New York Bucket List';
     } else if (currentPath === 'about-me') {
       title = 'About Me';
     } else if (currentPath === 'professionalportfolio') {
