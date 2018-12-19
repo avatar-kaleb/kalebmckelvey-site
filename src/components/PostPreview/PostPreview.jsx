@@ -16,7 +16,7 @@ class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      buttonColor: '#ff6f00',
+      buttonColor: '#ff7043',
       buttonHidden: false,
       mobile: true
     };
@@ -93,7 +93,14 @@ class PostPreview extends Component {
             particlesAmountCoefficient={5}
           >
             {/* Raised looked better, outside of MD spec though */}
-            <Button raised primary onClick={this.setButtonHidden}>
+            <Button
+              style={{
+                color: 'black'
+              }}
+              raised
+              secondary
+              onClick={this.setButtonHidden}
+            >
               Read more!
             </Button>
           </ParticleEffectButton>
