@@ -12,7 +12,7 @@ import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 import './BucketListCard.scss';
 
 const BucketListCard = ({ bucketListItem }) => (
-  <Card className="bucketlist-wrapper md-block-centered md-cell">
+  <Card className="bucketlist-card md-block-centered md-cell">
     <Media>
       <img src={`/bucket-list-images/${bucketListItem.featuredImageUrl}`} alt={bucketListItem.featuredImageAlt} />
       <MediaOverlay>
