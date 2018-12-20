@@ -6,11 +6,15 @@ import Button from 'react-md/lib/Buttons';
 import Avatar from 'react-md/lib/Avatars';
 import CardText from 'react-md/lib/Cards/CardText';
 import FontIcon from 'react-md/lib/FontIcons';
-import { navigate } from 'gatsby';
+
+// relative
 import Media, { MediaOverlay } from 'react-md/lib/Media';
+import { navigate } from 'gatsby';
 import ParticleEffectButton from 'react-particle-effect-button';
 import { particleConfig, screenWidths } from '../../constants/config';
 import PostTags from '../PostTags/PostTags';
+
+// styles
 import './PostPreview.scss';
 
 const navToPostOnClick = (path, e) => navigate(path);
@@ -61,46 +65,48 @@ class PostPreview extends Component {
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
-        <Media
-          style={{
-            backgroundImage: `url(${cover})`,
-            height: `${coverHeight}px`
-          }}
-          className="post-preview-cover"
-          onClick={e => navToPostOnClick(postInfo.path, e)}
-        >
-          <MediaOverlay>
-            <CardTitle title={postInfo.title} onClick={e => navToPostOnClick(postInfo.path, e)} />
-          </MediaOverlay>
-        </Media>
-        <CardTitle
-          expander={isMobile}
-          avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-          title={`Published on ${postInfo.date}`}
-          subtitle={`${postInfo.timeToRead} min read`}
-        />
-        <CardText expandable={isMobile}>
-          {postInfo.excerpt}
-          <PostTags tags={postInfo.tags} />
-        </CardText>
-
-        <CardActions className="md-divider-border md-divider-border--top">
-          <ParticleEffectButton
-            color={particleConfig.buttonColor}
-            duration={particleConfig.duration}
-            hidden={buttonHidden}
-            onComplete={e => navToPostOnClick(postInfo.path, e)}
-            oscillationCoefficient={particleConfig.oscillationCoefficient}
-            particlesAmountCoefficient={particleConfig.particlesAmountCoefficient}
+      <div className="postPreview">
+        <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
+          <Media
+            style={{
+              backgroundImage: `url(${cover})`,
+              height: `${coverHeight}px`
+            }}
+            className="post-preview-cover"
+            onClick={e => navToPostOnClick(postInfo.path, e)}
           >
-            {/* Raised looked better, outside of MD spec though */}
-            <Button raised primary onClick={this.setButtonHidden}>
-              Read more!
-            </Button>
-          </ParticleEffectButton>
-        </CardActions>
-      </Card>
+            <MediaOverlay>
+              <CardTitle title={postInfo.title} onClick={e => navToPostOnClick(postInfo.path, e)} />
+            </MediaOverlay>
+          </Media>
+          <CardTitle
+            expander={isMobile}
+            avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
+            title={`Published on ${postInfo.date}`}
+            subtitle={`${postInfo.timeToRead} min read`}
+          />
+          <CardText expandable={isMobile}>
+            {postInfo.excerpt}
+            <PostTags tags={postInfo.tags} />
+          </CardText>
+
+          <CardActions className="md-divider-border md-divider-border--top">
+            <ParticleEffectButton
+              color={particleConfig.buttonColor}
+              duration={particleConfig.duration}
+              hidden={buttonHidden}
+              onComplete={e => navToPostOnClick(postInfo.path, e)}
+              oscillationCoefficient={particleConfig.oscillationCoefficient}
+              particlesAmountCoefficient={particleConfig.particlesAmountCoefficient}
+            >
+              {/* Raised looked better, outside of MD spec though */}
+              <Button raised primary onClick={this.setButtonHidden}>
+                Read more!
+              </Button>
+            </ParticleEffectButton>
+          </CardActions>
+        </Card>
+      </div>
     );
   }
 }
