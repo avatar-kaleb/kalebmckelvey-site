@@ -37,7 +37,7 @@ class AboutTheJourney extends Component {
             <p>
               This romanticized code came late into the history of knights, requiring them to demonstrate  respect for
               the honor of women, defending those of less status, and working for the welfare of others. Overall, they
-              were expected to live up to their entitled "Sir" title.
+              were expected to live up to their entitled &quot;Sir&quot; title.
             </p>
             <p>
               Fast forward to 2017, although feudalism has died off (good riddance), the values we uphold greatly
@@ -79,30 +79,23 @@ class AboutTheJourney extends Component {
             <h2>Where to start?</h2>
             <p>
               <strong>First</strong>
-              {' '}
--&gt; check out the
-              {' '}
+              &nbsp;-&gt; check out the&nbsp;
               <a href="https://kalebmckelvey.com/journey-to-achieve/core-fundamentals/" rel="noopener noreferrer">
-                Core Fundamentals
+                Core Fundamentals&nbsp;
               </a>
-              {' '}
               to incorporate as you begin changing the trajectory of your life
               <br />
               <br />
               <strong>Second</strong>
-              {' '}
--&gt; head over to
-              {' '}
+              &nbsp;-&gt; head over to&nbsp;
               <a href="https://kalebmckelvey.com/tags/journey-to-achieve/" rel="noopener noreferrer">
                 The Journey to Achieve Blogroll
               </a>
-              {' '}
-              to catch up on the latest journey to achieve articles
+              &nbsp;to catch up on the latest journey to achieve articles
               <br />
               <br />
               <strong>Third </strong>
-              -&gt; begin utilizing the tools in
-              {' '}
+              -&gt; begin utilizing the tools in&nbsp;
               <a href="https://kalebmckelvey.com/resources/life" rel="noopener noreferrer">
                 Life Resources Page
               </a>
