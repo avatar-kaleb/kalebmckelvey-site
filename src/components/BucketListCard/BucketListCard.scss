@@ -1,7 +1,7 @@
 @import '../../layouts/theme.scss';
 
 .bucketlist-wrapper {
-    .borough-cost-wrapper {
+    .borough-cost-flex {
         display: flex;
         justify-content: space-between;
         margin-bottom: 1em;
@@ -11,7 +11,7 @@
         margin-right: 0.5em;
     }
 
-    .category-wrapper {
+    .category-flex {
         display: flex;
         justify-content: center;
         margin-top: 1em;
@@ -21,7 +21,7 @@
         color: $md-secondary-color-dark;
     }
 
-    .metadata-wrapper {
+    .metadata-flex {
         display: flex;
         flex-direction: column;
         justify-content: space-between;

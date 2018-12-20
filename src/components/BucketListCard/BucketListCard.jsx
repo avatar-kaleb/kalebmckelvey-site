@@ -5,9 +5,9 @@ import CardActions from 'react-md/lib/Cards/CardActions';
 import CardTitle from 'react-md/lib/Cards/CardTitle';
 import CardText from 'react-md/lib/Cards/CardText';
 import Chip from 'react-md/lib/Chips/Chip';
-// import _ from 'lodash';
 import Media from 'react-md/lib/Media/Media';
 import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
+
 // CSS
 import './BucketListCard.scss';
 
@@ -20,13 +20,13 @@ const BucketListCard = ({ bucketListItem }) => (
       </MediaOverlay>
     </Media>
 
-    <CardText className="metadata-wrapper">
-      <section className="borough-cost-wrapper">
+    <CardText className="metadata-flex">
+      <section className="borough-cost-flex">
         <p>{bucketListItem.location}</p>
         <p className="cost-level-text">{bucketListItem.costLevel}</p>
       </section>
       <p>{bucketListItem.description}</p>
-      <section className="category-wrapper">
+      <section className="category-flex">
         {bucketListItem.categories.map(category => (
           <Chip className="category-chip" label={category} />
         ))}
