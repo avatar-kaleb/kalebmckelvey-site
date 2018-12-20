@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 import Media from 'react-md/lib/Media/Media';
-import { DataTable, TableHeader, TableBody, TableRow, TableColumn } from 'react-md';
+import DataTable from 'react-md/lib/DataTables/DataTable';
+import TableHeader from 'react-md/lib/DataTables/TableHeader';
+import TableBody from 'react-md/lib/DataTables/TableBody';
+import TableRow from 'react-md/lib/DataTables/TableRow';
+import TableColumn from 'react-md/lib/DataTables/TableColumn';
+
+// media
 import kalebWelcomeImage from '../../images/AboutMe-Santorini.jpg';
 
 class AboutMe extends Component {
@@ -185,8 +191,9 @@ class AboutMe extends Component {
               combined with strong ambition to continously grow a little bit wiser each day.
               <br />
               <br />
-              I started my career at a small company called Shentel, followed by transit working at General Electric for ~4 years with experiences in both leadership and technical
-              depth, molding me into a well rounded Software Engineer who has a true passion for technology!
+I started my career at a small company called Shentel, followed by transit working at General
+              Electric for ~4 years with experiences in both leadership and technical depth, molding me into a well
+              rounded Software Engineer who has a true passion for technology!
             </p>
             <h2>Long Version</h2>
             <p>
@@ -204,8 +211,8 @@ class AboutMe extends Component {
             <p>Technology for me began with video games, leading to a desire for becoming a developer.</p>
             <p>
               It was this desire that my college journey began, a journey that changed my perspective by opening my mind
-              and meeting great people with unique stories. A place to learn how to develop software from experts and the skill
-              of time management through balance.
+              and meeting great people with unique stories. A place to learn how to develop software from experts and
+              the skill of time management through balance.
             </p>
             <p>
               By graduation, I completed my dream of learning to develop and became a member of the greatest fraternity
@@ -217,15 +224,15 @@ class AboutMe extends Component {
             </p>
             <h3>Becoming a Software Engineer!</h3>
             <p>
-              Since then, I began working at GE in their Digital Technology Leadership Program. Two years later,
-              February 2017, I achieved my dream of becoming a Software Engineer! GE is a company that focuses on the
-              development of both technical and leadership skill-sets. Because of this, I have grown in both my
-              professional and personal worlds thanks to the fabulous people I&apos;ve met on the way.
+              Since then, I began working at GE in their Digital Technology Leadership Program followed achieving my
+              dream of becoming a Software Engineer! GE is a company that focuses on the development of both technical
+              and leadership skill-sets. Because of this, I have grown in both my professional and personal worlds
+              thanks to the fabulous people I&apos;ve met on the way.
             </p>
             <p>
-              Now today, I work at Northwestern Mutual - an company that has more than a century under its belt - as
-              it adventures through a digital transformation. Personal finance has long been a passion of mine, so
-              getting an opportunity to spend 40+ hours a week developing software to help people with that area of their Life
+              Fast forward today, I work at Northwestern Mutual - a company that has more than a century under its belt - as it
+              adventures through a digital transformation. Personal finance has long been a passion of mine, so getting
+              an opportunity to spend 40+ hours a week developing software to help people with that area of their Life
               has been great!
             </p>
             <h3>Concluding Thoughts</h3>
