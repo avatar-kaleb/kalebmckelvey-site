@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const InspirationListItem = ({ inspiration }) => (
-  <div>
+  <div className="inspiration-list-item">
     <h4>
-      #{inspiration.id} -{" "}
-      <a href={inspiration.link} target="_blank" rel="noopener">
+      #
+      {inspiration.id}
+      &nbsp;-&nbsp;
+      <a href={inspiration.link} target="_blank" rel="noopener noreferrer">
         {inspiration.title}
       </a>
     </h4>

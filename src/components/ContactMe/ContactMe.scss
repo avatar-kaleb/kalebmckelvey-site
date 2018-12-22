@@ -1,17 +1,17 @@
-.contactMe-wrapper {
-  .contactMe-paper--white {
-    background-color: #ffffff;
-  }
-
-  .contactMe-img {
-    border-radius: 5px;
-
-    @media (min-width: 768px) {
-      margin-left: 1em;
+.contact-me {
+    .paper--white {
+        background-color: #fff;
     }
 
-    @media (max-width: 360px - 1px) {
-      padding: 20px;
+    img {
+        border-radius: 5px;
+
+        @media (min-width: 768px) {
+            margin-left: 1em;
+        }
+
+        @media (max-width: 360px - 1px) {
+            padding: 20px;
+        }
     }
-  }
 }

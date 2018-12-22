@@ -1,18 +1,18 @@
 // absolute paths
-import React, { Component } from "react";
-import Button from "react-md/lib/Buttons/Button";
-import Card from "react-md/lib/Cards/Card";
-import CardActions from "react-md/lib/Cards/CardActions";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Find from "lodash/find";
-import GridList from "react-md/lib/Grids/GridList";
-import Img from "gatsby-image";
-import Media from "react-md/lib/Media/Media";
-import MediaOverlay from "react-md/lib/Media/MediaOverlay";
+import React, { Component } from 'react';
+import Button from 'react-md/lib/Buttons/Button';
+import Card from 'react-md/lib/Cards/Card';
+import CardActions from 'react-md/lib/Cards/CardActions';
+import CardText from 'react-md/lib/Cards/CardText';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import Find from 'lodash/find';
+import GridList from 'react-md/lib/Grids/GridList';
+import Img from 'gatsby-image';
+import Media from 'react-md/lib/Media/Media';
+import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 
 // Data
-import PortfolioData from "../../../data/PortfolioData";
+import PortfolioData from '../../../data/PortfolioData';
 
 class Portfolio extends Component {
   constructor(props) {
@@ -38,43 +38,29 @@ class Portfolio extends Component {
   }
 
   getImageSizesById(id) {
-    const foundNode = Find(this.state.images, image => image.node.sizes.src.includes(id));
+    const { images } = this.state;
+    const foundNode = Find(images, image => image.node.sizes.src.includes(id));
 
     if (foundNode) {
       return foundNode.node.sizes;
     }
+
     return {};
   }
 
   render() {
     const rows = [];
-
-    // sort portfolio items
-    // PortfolioData.sort((a, b) => {
-    //   const aCategory = a.category.toUpperCase();
-    //   const bCategory = b.category.toUpperCase();
-    //   if (aCategory < bCategory) {
-    //     return -1;
-    //   }
-
-    //   if (aCategory > bCategory) {
-    //     return 1;
-    //   }
-
-    //   return 0;
-    // });
-
     // loop through portfolio data
     PortfolioData.forEach(portfolioItem => {
       // create tech items
-      let tech = "";
+      let tech = '';
       portfolioItem.tech.forEach(techItem => {
         tech += `<li key=${techItem.name}><a href="${techItem.link}">
           ${techItem.name}
           </a></li>`;
       });
 
-      let action = "";
+      let action = '';
       if (portfolioItem.url.length > 0) {
         action = (
           <CardActions className="md-divider-border md-divider-border--bottom">
@@ -90,7 +76,7 @@ class Portfolio extends Component {
           <Media>
             <Img
               className="animated pulse"
-              sizes={this.getImageSizesById(portfolioItem.id) || ""}
+              sizes={this.getImageSizesById(portfolioItem.id) || ''}
               alt="" // TODO update alts in data
             />
             <MediaOverlay>

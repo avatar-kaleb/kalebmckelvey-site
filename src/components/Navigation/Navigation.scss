@@ -1,49 +1,47 @@
-@import "../../layouts/theme.scss";
+@import '../../layouts/theme.scss';
 
 // increased specificty for this because flex was getting
 // overridden somewhere
 #main-content {
-  display: flex;
-  flex-direction: column;
-
-  .main-container {
     display: flex;
-    min-height: 100%;
     flex-direction: column;
-    flex: 1;
 
-    .main-content {
-      flex: 1;
+    .main-container {
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
+        flex: 1;
+
+        .main-content {
+            flex: 1;
+        }
     }
-  }
-  .footer {
-  }
 }
 
 nav > header > div {
-  align-content: center;
+    align-content: center;
 }
 
-// style for drawer title and
+// style for drawer title
 nav > header > div > h2:first-of-type {
-  border-bottom: solid 1px;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.5em;
-  margin-bottom: 0;
-  margin-top: 1.5px;
+    border-bottom: solid 1px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 1.5px;
 }
 
 // height is a bit too close to top for me on large screens
 @media screen and (min-width: 768px) {
-  nav > header > div > h2:first-of-type {
-    margin-top: 3px;
-  }
+    nav > header > div > h2:first-of-type {
+        margin-top: 3px;
+    }
 }
 
 .md-text--theme-primary {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .drawer-title--color {
-  color: $md-primary-color;
+    color: $md-primary-color;
 }

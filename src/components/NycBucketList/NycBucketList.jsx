@@ -1,21 +1,14 @@
 // absolute
-import React, { Component } from 'react';
-import Card from 'react-md/lib/Cards/Card';
-import CardText from 'react-md/lib/Cards/CardText';
-import Media from 'react-md/lib/Media/Media';
+import React from 'react';
 
 // relative
 import NycBucketListData from '../../../data/NycBucketListData';
 import BucketListCardList from '../BucketListCardList/BucketListCardList';
 
-class NycBucketList extends Component {
-  render() {
-    return (
-      <div className="nyc-bucketlist-wrapper animated fadeIn slow md-grid mobile-fix">
-        <BucketListCardList bucketListItems={NycBucketListData} />
-      </div>
-    );
-  }
-}
+const NycBucketList = () => (
+  <div className="nyc-bucketlist animated fadeIn slow md-grid mobile-fix">
+    <BucketListCardList bucketListItems={NycBucketListData} />
+  </div>
+);
 
 export default NycBucketList;

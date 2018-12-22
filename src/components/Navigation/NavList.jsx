@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 function GetNavList() {
   const NavList = [];
 
-  // Home / About me / Bucketlist
+  // home / about me / bucket list
   NavList.push(
     {
       key: 'home',
@@ -123,12 +123,6 @@ function GetNavList() {
 
   // Contact and archives
   NavList.push(
-    // {
-    //   key: 'nyc-bucket-list',
-    //   primaryText: 'NYC Bucket List',
-    //   component: Link,
-    //   to: '/nyc-bucket-list/'
-    // },
     {
       key: 'contact-me',
       primaryText: 'Contact Me',

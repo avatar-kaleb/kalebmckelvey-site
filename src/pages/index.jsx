@@ -7,22 +7,20 @@ import Home from '../components/Home/Home';
 
 import config from '../../data/SiteConfig';
 
-class Index extends React.Component {
-  render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-
-    return (
-      <div className="index-container">
-        <Helmet>
-          <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}`} />
-        </Helmet>
-        <SEO postEdges={postEdges} />
-        <Home postEdges={postEdges} />
-      </div>
-    );
+const Index = ({
+  data: {
+    allMarkdownRemark: { edges: postEdges }
   }
-}
+}) => (
+  <div className="index-container">
+    <Helmet>
+      <title>{config.siteTitle}</title>
+      <link rel="canonical" href={`${config.siteUrl}`} />
+    </Helmet>
+    <SEO postEdges={postEdges} />
+    <Home postEdges={postEdges} />
+  </div>
+);
 
 export default Index;
 
