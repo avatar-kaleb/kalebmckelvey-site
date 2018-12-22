@@ -17,7 +17,7 @@ const FourOhFourPage = ({
     </Helmet>
     <FourOhFour postEdges={postEdges} />
   </div>
-  );
+);
 
 export default FourOhFourPage;
 

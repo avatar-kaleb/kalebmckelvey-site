@@ -8,6 +8,11 @@ import './global.scss';
 import 'font-awesome/scss/font-awesome.scss';
 
 function getLocalTitle(pathname) {
+  // fix gatsby build -- window won't be available during build
+  if (typeof window === 'undefined') {
+    return '';
+  }
+
   // this takes the last part of the path by splittng with /, then removes the
   // blank strings from the array, and transforms the last element to start case
   let title = _.startCase(_.last(_.compact(_.split(pathname, '/'))));
