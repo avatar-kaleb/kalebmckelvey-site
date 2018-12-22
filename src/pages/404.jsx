@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 
 import FourOhFour from '../components/FourOhFour/FourOhFour';
 import config from '../../data/SiteConfig';
 
-class FourOhFourPage extends Component {
-  render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-
-    return (
-      <div className="about-container">
-        <Helmet>
-          <title>{`404 | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/404`} />
-        </Helmet>
-        <FourOhFour postEdges={postEdges} />
-      </div>
-    );
+const FourOhFourPage = ({
+  data: {
+    allMarkdownRemark: { edges: postEdges }
   }
-}
+}) => (
+  <div className="about-container">
+    <Helmet>
+      <title>{`404 | ${config.siteTitle}`}</title>
+      <link rel="canonical" href={`${config.siteUrl}/404`} />
+    </Helmet>
+    <FourOhFour postEdges={postEdges} />
+  </div>
+  );
 
 export default FourOhFourPage;
 

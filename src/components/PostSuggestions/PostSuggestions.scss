@@ -1,36 +1,36 @@
-@import "../../layouts/theme.scss";
+@import '../../layouts/theme.scss';
 
 .post-suggestions {
-  display: flex;
-  flex-wrap: nowrap !important;
-  justify-content: space-between;
-  background-color: #fff;
-  width: 100%;
-
-  .post-suggestion {
     display: flex;
-    align-items: center;
-    margin: 0 0px;
-    color: $md-secondary-color !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
 
-    // large screens
-    @media (min-width: 360px - 1px) {
-      .headline-container {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 1em;
-      }
+    .post-suggestion {
+        display: flex;
+        align-items: center;
+        margin: 0 0;
+        color: $md-secondary-color !important;
+
+        // large screens
+        @media (min-width: 360px - 1px) {
+            .headline-container {
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 1em;
+            }
+        }
+
+        .secondary-color {
+            color: $md-secondary-color;
+        }
     }
 
-    .secondary-color {
-      color: $md-secondary-color;
+    // mobile styles
+    @media (max-width: 360px - 1px) {
+        .hide-on-mobile {
+            display: none;
+        }
     }
-  }
-
-  // mobile styles
-  @media (max-width: 360px - 1px) {
-    .hide-on-mobile {
-      display: none;
-    }
-  }
 }

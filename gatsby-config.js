@@ -43,7 +43,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-layout`,
       options: {
-        component: require.resolve(`./src/layouts/`)
+        component: require.resolve(`./src/layouts/index.jsx`)
+      }
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `#ff7043`,
+        // Disable the loading spinner.
+        showSpinner: false
       }
     },
     {

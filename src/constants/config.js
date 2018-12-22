@@ -1,6 +1,6 @@
 export const particleConfig = {
-  color: '#ff6f00',
-  duration: 275,
+  color: '#134A9E',
+  duration: 300,
   oscillationCoefficient: 30,
   particlesAmountCoefficient: 5
 };

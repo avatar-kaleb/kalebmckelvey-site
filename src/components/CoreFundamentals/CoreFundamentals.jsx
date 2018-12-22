@@ -5,7 +5,7 @@ import Media from 'react-md/lib/Media/Media';
 import inspirationalImage from '../../images/Fundamentals-ArmsOpen.jpeg';
 
 const CoreFundamentals = () => (
-  <div className="wrapper-flex-column--center md-grid mobile-fix">
+  <div className="core-fundamentals wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">
       <Media aspectRatio="4-3">
         <img

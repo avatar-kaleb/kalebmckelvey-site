@@ -65,7 +65,7 @@ class PostPreview extends Component {
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <div className="postPreview">
+      <div className="post-preview">
         <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
           <Media
             style={{
@@ -92,7 +92,7 @@ class PostPreview extends Component {
 
           <CardActions className="md-divider-border md-divider-border--top">
             <ParticleEffectButton
-              color={particleConfig.buttonColor}
+              color={particleConfig.color}
               duration={particleConfig.duration}
               hidden={buttonHidden}
               onComplete={e => navToPostOnClick(postInfo.path, e)}

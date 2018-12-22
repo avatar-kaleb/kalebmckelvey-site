@@ -6,7 +6,7 @@ import headShotImage from '../../images/Contact-Headshot.jpg';
 import './ContactMe.scss';
 
 const ContactMe = () => (
-  <div className="contactMe wrapper-flex-column--center md-grid mobile-fix">
+  <div className="contact-me wrapper-flex-column--center md-grid mobile-fix">
     <Paper className="md-cell md-cell--12 md-grid paper--white" zDepth={0}>
       <section className="md-cell md-cell--middle md-cell--4-desktop md-cell--3-tablet ">
         <Media aspectRatio="1-1">

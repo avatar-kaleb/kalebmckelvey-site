@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const SubcategoryResourceList = ({ resources }) => (
   <ul>
@@ -7,8 +7,9 @@ const SubcategoryResourceList = ({ resources }) => (
         <p>
           <a href={resource.link} target="_blank" rel="noopener noreferrer">
             {resource.name}
-          </a>{" "}
-          {resource.description ? `- ${resource.description}` : ""}
+          </a>
+          &nbsp;
+          {resource.description ? `- ${resource.description}` : ''}
           <br />
           <br />
         </p>

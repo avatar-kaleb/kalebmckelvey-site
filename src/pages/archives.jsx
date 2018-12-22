@@ -7,21 +7,20 @@ import Archives from '../components/Archives/Archives';
 
 import config from '../../data/SiteConfig';
 
-class ArchivesPage extends React.Component {
-  render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-    return (
-      <div>
-        <Helmet>
-          <title>{config.siteTitle}</title>
-          <link rel="canonical" href={`${config.siteUrl}/archives/`} />
-        </Helmet>
-        <SEO postEdges={postEdges} />
-        <Archives postEdges={postEdges} />
-      </div>
-    );
+const ArchivesPage = ({
+  data: {
+    allMarkdownRemark: { edges: postEdges }
   }
-}
+}) => (
+  <div>
+    <Helmet>
+      <title>{config.siteTitle}</title>
+      <link rel="canonical" href={`${config.siteUrl}/archives/`} />
+    </Helmet>
+    <SEO postEdges={postEdges} />
+    <Archives postEdges={postEdges} />
+  </div>
+);
 
 export default ArchivesPage;
 

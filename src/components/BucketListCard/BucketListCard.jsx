@@ -28,7 +28,7 @@ const BucketListCard = ({ bucketListItem }) => (
       <p>{bucketListItem.description}</p>
       <section className="category-flex">
         {bucketListItem.categories.map(category => (
-          <Chip className="category-chip" label={category} />
+          <Chip key={`chip-${category}`} className="category-chip" label={category} />
         ))}
       </section>
     </CardText>
