@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import LogRocket from 'logrocket';
+import setupLogRocketReact from 'logrocket-react';
 import NavigationDrawer from 'react-md/lib/NavigationDrawers/NavigationDrawer';
 import ToolbarActions from '../ToolbarActions/ToolbarActions';
 import Footer from '../Footer/Footer';
@@ -11,6 +13,9 @@ class Navigation extends Component {
 
     // Update the items so they have an onClick handler to change the current page
     this.navItems = this._createNavItems();
+
+    LogRocket.init('0my3ji/kaleb-mckelvey-site');
+    setupLogRocketReact(LogRocket);
   }
 
   /**

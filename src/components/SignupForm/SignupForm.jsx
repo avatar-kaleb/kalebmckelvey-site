@@ -6,12 +6,12 @@ import debounce from 'lodash/debounce';
 import Grid from 'react-md/lib/Grids/Grid';
 import ParticleEffectButton from 'react-particle-effect-button';
 import TextField from 'react-md/lib/TextFields/TextField';
+import { Snackbar } from 'react-md';
 
 import { particleConfig } from '../../constants/config';
 import './SignupForm.scss';
 
 // TODO user toast for subscription
-// TODO form validation
 class SignupForm extends Component {
   _handleFirstNameChange = debounce(e => {
     this.setState({ firstName: e });
@@ -32,9 +32,14 @@ class SignupForm extends Component {
       lastName: '',
       email: '',
       status: '',
-      hidden: false
+      hidden: false,
+      toasts: []
     };
   }
+
+  _dismissToasts = () => {
+    this.setState({ toasts: [] });
+  };
 
   // taken from Gatsby Mail Form repo
   _postEmailToMailchimp = (email, attributes) => {
@@ -45,7 +50,8 @@ class SignupForm extends Component {
         if (result.result !== `success`) {
           this.setState({
             status: `error`,
-            hidden: false
+            hidden: false,
+            toasts: [{ text: 'There was an error subscribing - please retry!' }]
           });
         } else {
           // Email address succesfully subcribed to Mailchimp
@@ -58,7 +64,8 @@ class SignupForm extends Component {
         // Network failures, timeouts, etc
         this.setState({
           status: `error`,
-          hidden: false
+          hidden: false,
+          toasts: [{ text: 'There was an error subscribing - please retry!' }]
         });
       });
   };
@@ -85,11 +92,18 @@ class SignupForm extends Component {
   };
 
   render() {
-    const { hidden, status } = this.state;
+    const { hidden, status, toasts } = this.state;
     return (
       <div className="signup-form">
+        <Snackbar id="example-snackbar" toasts={toasts} autohide onDismiss={this._dismissToasts} />
         {status === 'success' ? (
-          <p>Success! Thank you for signing up!</p>
+          <p className="animated lightSpeedIn">
+            Success! Thank you for joining - may the
+            {' '}
+            <em>achievement</em>
+            {' '}
+force be with you!
+          </p>
         ) : (
           <div className="animated fadeInRight">
             <p className="form-p--mb">Want to stay updated on new posts? Subscribe below!</p>
