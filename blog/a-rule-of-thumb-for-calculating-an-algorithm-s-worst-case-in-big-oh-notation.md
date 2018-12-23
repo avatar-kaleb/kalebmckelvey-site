@@ -2,7 +2,7 @@
 cover: /post-images/ruleof-thumb-for-big-oh.jpg
 date: '2018-09-06'
 title: A Rule of Thumb for Calculating an Algorithm's Worst Case in Big Oh Notation
-category: Computer Science
+category: Tech
 tags:
   - big oh
   - algorithm design
