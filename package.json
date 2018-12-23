@@ -5,8 +5,6 @@
   "author": "Kaleb McKelvey",
   "dependencies": {
     "animate.css": "^3.6.1",
-    "babel-plugin-add-react-displayname": "0.0.5",
-    "babel-plugin-lodash": "^3.3.2",
     "core-js": "^2.6.0",
     "disqus-react": "^1.0.5",
     "font-awesome": "^4.7.0",
@@ -57,6 +55,9 @@
     "url-join": "^4.0.0"
   },
   "devDependencies": {
+    "babel-plugin-add-react-displayname": "0.0.5",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-gatsby": "^0.1.6",
     "cli-glob": "^0.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.1.0",
