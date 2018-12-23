@@ -2,7 +2,7 @@
 cover: /post-images/charlie-munger-commencement-speech-cover.jpeg
 date: '2018-08-02'
 title: Two Things To Avoid in Life From Charlie Munger's USC Commencement Speech
-category: Mindset
+category: Life
 tags:
   - leadership
   - family
@@ -13,7 +13,7 @@ My family has always known a simple fact about me from my childhood, one which m
 
 Whether it was having 6 Eggo Waffles for breakfast every morning that one high school year or the few months that I just had to have bagel bites after sports practice, the fads came and went. It wasn't limited only to food though, because back then learning all of the character frame rates on Diablo II  or memorizing Fresh Prince of Bel Air episodes were kicks too; but, to her it was just something that made me, well, me.
 
-These new interests still happen to me today. Even now I'm on my third week in a row of making no bake cookies as a snack, while reading through [Joshua Kennon's blog articles](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts/) again! This tendency actually has been advantageous in some regards: 
+These new interests still happen to me today. Even now I'm on my third week in a row of making no bake cookies as a snack, while reading through [Joshua Kennon's blog articles](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts/) again! This tendency actually has been advantageous in some regards:
 
 **Number one** - Coach Proctor and Coach Smooth used to say - "If it a'int broke don't fix it!"
 
@@ -32,7 +32,7 @@ Click the image below to watch Charlie Munger's USC Commencement Speech.
 _Does the name ring a bell? I wrote about Charlie's advice on [keeping friends in the past](https://www.kalebmckelvey.com/would-you-fill-up-your-friends-gas-tank/)!_
 
 
-## From Charlie: Two Things to Avoid in Life 
+## From Charlie: Two Things to Avoid in Life
 
 > "What do you want to avoid? Such an easy answer: sloth and unreliability. If you're unreliable, it doesn't matter what your virtues are. You're going to crater immediately. Doing what you have faithfully engaged to do should be an automatic part of your conduct. You want to avoid sloth and unreliability."
 

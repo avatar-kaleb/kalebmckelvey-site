@@ -2,13 +2,14 @@
 cover: /post-images/would-your-friend-fill-up-the-gas-tank.jpg
 date: '2017-08-09'
 title: Would You Fill Up Your Friend's Gas Tank?
-category: Other
+category: Life
 tags:
   - friendship
   - charlie munger
   - reflection
 ---
-During my [no TV challenge](https://kalebmckelvey.xyz/challenges/tv-challenge/) (ending tomorrow!!), I began reading and finished _Poor Charlie's Almanack, the Wit and Wisdom of Charles T. Munger_. On page 39, there is an excerpt from his son, Charles T. Munger, Junior. I've typed it out for you below! 
+
+During my [no TV challenge](https://kalebmckelvey.xyz/challenges/tv-challenge/) (ending tomorrow!!), I began reading and finished _Poor Charlie's Almanack, the Wit and Wisdom of Charles T. Munger_. On page 39, there is an excerpt from his son, Charles T. Munger, Junior. I've typed it out for you below!
 
 ## Story from the book
 
@@ -16,7 +17,7 @@ During my [no TV challenge](https://kalebmckelvey.xyz/challenges/tv-challenge/) 
 
 ## Reflection
 
-Friends are people in our lives we choose to build, grow, and trust. Charlie Munger has a famous quote: "to get what you want, you have to deserve it." It's fascinating the idea propagates into relationships. If you borrowed your best friend's truck today, would you fill it up before returning it? It's like paying for dinner even when you know your friend can afford it. Paying isn't about money, it's about the gesture to show your friends that you care. One of my friends once drove all the way from Miami to see me near Ft. Lauderdale, in a rental car, when we were vacationing in FLA at the same time. That is what friendship represents to me. A friend is someone you call late at night with something on your mind, who wakes up yawning, half asleep, and listens to you because you need them to. People you can be honest and real with. Friendship should be a relationship of two people building each other up to grow into stronger people. Like I've said before, it is the people in your life that make your life worth living! 
+Friends are people in our lives we choose to build, grow, and trust. Charlie Munger has a famous quote: "to get what you want, you have to deserve it." It's fascinating the idea propagates into relationships. If you borrowed your best friend's truck today, would you fill it up before returning it? It's like paying for dinner even when you know your friend can afford it. Paying isn't about money, it's about the gesture to show your friends that you care. One of my friends once drove all the way from Miami to see me near Ft. Lauderdale, in a rental car, when we were vacationing in FLA at the same time. That is what friendship represents to me. A friend is someone you call late at night with something on your mind, who wakes up yawning, half asleep, and listens to you because you need them to. People you can be honest and real with. Friendship should be a relationship of two people building each other up to grow into stronger people. Like I've said before, it is the people in your life that make your life worth living!
 
 The toughest operand in the friendship equation is finding that other operand. The world has 6 billion people, finding people organically that bring positive vibes in your life can be tough. I guess reflecting on today (instead of doing some of the tasks on my to do list), I realized just how important it is to be grateful for the great friends and family in your life. I appreciate each and every one of them.
 

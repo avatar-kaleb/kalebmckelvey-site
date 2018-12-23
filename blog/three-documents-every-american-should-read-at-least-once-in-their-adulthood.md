@@ -2,7 +2,7 @@
 cover: /post-images/declaration-of-indep-cover.jpeg
 date: '2018-09-03'
 title: Three Documents Every American Should Read At Least Once in Their Adulthood
-category: Mindset
+category: Life
 tags:
   - history
   - recommended

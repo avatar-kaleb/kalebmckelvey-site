@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: avatar-kaleb/kalebmckelvey-site
+  branch: master
 
 media_folder: static/post-images
 public_folder: post-images
