@@ -1,28 +1,28 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+import PostListing from '../components/PostListing/PostListing';
+import config from '../../data/SiteConfig';
 
-export default class CategoryTemplate extends React.Component {
-  render() {
-    const { category } = this.props.pathContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-    return (
-      <div className="category-container">
-        <Helmet>
-          <title>
-            {`Posts in category "${category}" | ${config.siteTitle}`}
-          </title>
-          <link
-            rel="canonical"
-            href={`${config.siteUrl}/categories/${category}`}
-          />
-        </Helmet>
-        <PostListing postEdges={postEdges} />
-      </div>
-    );
-  }
-}
+const CategoryTemplate = props => {
+  const {
+    data: {
+      allMarkdownRemark: { edges: postEdges }
+    },
+    pathContext: { category }
+  } = props;
+  return (
+    <div className="category-container animated fadeIn">
+      <Helmet>
+        <title>{`Posts in category "${category}" | ${config.siteTitle}`}</title>
+        <link rel="canonical" href={`${config.siteUrl}/categories/${category}`} />
+      </Helmet>
+      <PostListing postEdges={postEdges} />
+    </div>
+  );
+};
+
+export default CategoryTemplate;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

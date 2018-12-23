@@ -1,10 +1,10 @@
-import React from "react";
-import SubcategoryList from "../Subcategories/SubcategoryList";
+import React from 'react';
+import SubcategoryList from '../Subcategories/SubcategoryList';
 
-const CategoryTitle = props => <h1>{props.category}</h1>;
+const CategoryTitle = ({ category }) => <h1>{category}</h1>;
 
 const ResourcesList = ({ resources, type }) => (
-  <div>
+  <div className="resources-list">
     {resources[type].map(resource => (
       <div key={resource.category}>
         <CategoryTitle category={resource.category} />

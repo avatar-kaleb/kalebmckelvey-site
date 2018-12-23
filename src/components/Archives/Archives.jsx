@@ -1,13 +1,10 @@
-import React, { Component } from "react";
-import PostListing from "../../components/PostListing/PostListing";
+import React from 'react';
+import PostListing from '../PostListing/PostListing';
 
-export default class Archives extends Component {
-  render() {
-    const { postEdges } = this.props;
-    return (
-      <div>
-        <PostListing postEdges={postEdges} />
-      </div>
-    );
-  }
-}
+const Archives = ({ postEdges }) => (
+  <div className="archives animated fadeIn slow">
+    <PostListing postEdges={postEdges} />
+  </div>
+);
+
+export default Archives;

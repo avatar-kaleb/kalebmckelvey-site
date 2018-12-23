@@ -1,23 +1,30 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import React from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
-export default class TagTemplate extends React.Component {
-  render() {
-    const { tag } = this.props.pathContext;
-    const postEdges = this.props.data.allMarkdownRemark.edges;
-    return (
-      <div className="tag-container">
-        <Helmet>
-          <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
-        </Helmet>
-        <PostListing postEdges={postEdges} />
-      </div>
-    );
-  }
-}
+import PostListing from '../components/PostListing/PostListing';
+import config from '../../data/SiteConfig';
+
+const TagTemplate = props => {
+  const {
+    data: {
+      allMarkdownRemark: { edges: postEdges }
+    },
+    pathContext: { tag }
+  } = props;
+
+  return (
+    <div className="tag-container animated fadeIn">
+      <Helmet>
+        <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
+        <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
+      </Helmet>
+      <PostListing postEdges={postEdges} />
+    </div>
+  );
+};
+
+export default TagTemplate;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`

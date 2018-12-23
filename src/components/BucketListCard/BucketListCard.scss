@@ -1,0 +1,30 @@
+@import '../../layouts/theme.scss';
+
+.bucketlist-card {
+    .borough-cost-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1em;
+    }
+
+    .category-chip {
+        margin-right: 0.5em;
+    }
+
+    .category-flex {
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .cost-level-text {
+        color: $md-secondary-color-dark;
+    }
+
+    .metadata-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+    }
+}

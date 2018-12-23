@@ -1,27 +1,26 @@
-import React, { Component } from "react";
-import find from "lodash/find";
+import React, { Component } from 'react';
+import find from 'lodash/find';
+import Button from 'react-md/lib/Buttons/Button';
+import Card from 'react-md/lib/Cards/Card';
+import CardActions from 'react-md/lib/Cards/CardActions';
+import CardText from 'react-md/lib/Cards/CardText';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
+import { navigate } from 'gatsby';
+import { ExpansionList, ExpansionPanel, Slider } from 'react-md';
 
-import Button from "react-md/lib/Buttons/Button";
-import Card from "react-md/lib/Cards/Card";
-import CardActions from "react-md/lib/Cards/CardActions";
-import CardText from "react-md/lib/Cards/CardText";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import { ExpansionList, ExpansionPanel, Slider } from "react-md";
-import { navigateTo } from "gatsby-link";
+import './ServiceCard.scss';
 
-import "./ServiceCard.scss";
+/**
+ * Navigates to the contact me page - used for card actions
+ */
+const navigateToContactPage = () => navigate('/contact-me');
 
 class ServiceCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedPackage: props.packageOptions[0],
-      contactPath: "/contact-me"
+      selectedPackage: props.packageOptions[0]
     };
-
-    // event binding to access this
-    this.setPackageOnSliderChange = this.setPackageOnSliderChange.bind(this);
-    this.navigateToContactPage = this.navigateToContactPage.bind(this);
   }
 
   /**
@@ -29,30 +28,27 @@ class ServiceCard extends Component {
    * package options that match the given price and set it to selectedPackage.
    * @param {Number} value The value of the slider on change
    */
-  setPackageOnSliderChange(value) {
-    const selectedPackage = find(this.props.packageOptions, ["totalPrice", value]);
+  setPackageOnSliderChange = value => {
+    const { packageOptions } = this.props;
+    const selectedPackage = find(packageOptions, ['totalPrice', value]);
 
     this.setState({
       selectedPackage
     });
-  }
-
-  /**
-   * Navigates to the contact me page - used for card actions
-   */
-  navigateToContactPage() {
-    navigateTo(this.state.contactPath);
-  }
+  };
 
   render() {
+    const { selectedPackage } = this.state;
+    const { description, sliderOptions, subtitle, title } = this.props;
+
     return (
       <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top">
-        <CardTitle title={this.props.title} subtitle={this.props.subtitle} />
+        <CardTitle title={title} subtitle={subtitle} />
 
         <CardText>
-          <div dangerouslySetInnerHTML={{ __html: this.props.description }} />
+          <div dangerouslySetInnerHTML={{ __html: description }} />
           <br />
-          {this.props.sliderOptions.showSlider ? (
+          {sliderOptions.showSlider && (
             <div>
               <p>
                 <em>
@@ -62,31 +58,29 @@ class ServiceCard extends Component {
               </p>
               <Slider
                 discrete
-                discreteTicks={this.props.sliderOptions.discreteTicks}
-                id={`${this.props.title}-slider`}
-                label={this.props.sliderOptions.label}
-                max={this.props.sliderOptions.max}
-                min={this.props.sliderOptions.min}
+                discreteTicks={sliderOptions.discreteTicks}
+                id={`${title}-slider`}
+                label={sliderOptions.label}
+                max={sliderOptions.max}
+                min={sliderOptions.min}
                 onChange={this.setPackageOnSliderChange}
-                step={this.props.sliderOptions.step}
+                step={sliderOptions.step}
                 valuePrecision={1}
               />
-              <h2>{this.state.selectedPackage.title}</h2>
+              <h2>{selectedPackage.title}</h2>
               <ExpansionList className="md-cell md-cell--12">
-                {this.state.selectedPackage.options.map(option => (
+                {selectedPackage.options.map(option => (
                   <ExpansionPanel key={option.name} label={option.name} secondaryLabel={option.price} footer={null}>
                     <div dangerouslySetInnerHTML={{ __html: option.description }} />
                   </ExpansionPanel>
                 ))}
               </ExpansionList>
             </div>
-          ) : (
-            <div />
           )}
         </CardText>
 
         <CardActions className="md-divider-border md-divider-border--top md-text--theme-primary serviceCard-action--alignleft">
-          <Button flat secondary onClick={this.navigateToContactPage}>
+          <Button flat secondary onClick={navigateToContactPage}>
             Contact Kaleb
           </Button>
         </CardActions>

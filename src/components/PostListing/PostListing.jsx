@@ -1,10 +1,11 @@
-import React from "react";
-import PostPreview from "../PostPreview/PostPreview";
+import React from 'react';
+import PostPreview from '../PostPreview/PostPreview';
 
 class PostListing extends React.Component {
   getPostList() {
+    const { postEdges } = this.props;
     const postList = [];
-    this.props.postEdges.forEach(postEdge => {
+    postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
@@ -17,6 +18,7 @@ class PostListing extends React.Component {
     });
     return postList;
   }
+
   render() {
     const postList = this.getPostList();
     return (
