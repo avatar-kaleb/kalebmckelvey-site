@@ -2,17 +2,18 @@
 cover: /post-images/predix-cert-cover.jpg
 date: '2017-02-08'
 title: How Can You Pass the Predix Certified Developer Exam?
-category: Predix
+category: Tech
 tags:
   - certification
   - tutorials
   - training
 ---
-Today is my third day of being an official Sr Software developer at GE Healthcare with a primary focus on Predix development. 
 
-As I grow my knowledge of the platform and modern web development, I hope to help others as well by posting our team's adventures going forward. Here's my guide to **pass the Predix Certified Developer Exam.** 
+Today is my third day of being an official Sr Software developer at GE Healthcare with a primary focus on Predix development.
 
-Let's begin with the first question. 
+As I grow my knowledge of the platform and modern web development, I hope to help others as well by posting our team's adventures going forward. Here's my guide to **pass the Predix Certified Developer Exam.**
+
+Let's begin with the first question.
 
 ## What is Predix?
 
@@ -30,16 +31,16 @@ The Predix Certification Exam is a comprehensive 120-question online assessment 
 
 The exam covers the following topics:
 
-* Data Management
-* Predix Analytics
-* Predix Architecture
-* Predix Asset
-* Predix Cloud
-* Predix DevOps
-* Predix Machine
-* Predix Security
-* Predix Services
-* Predix UI
+- Data Management
+- Predix Analytics
+- Predix Architecture
+- Predix Asset
+- Predix Cloud
+- Predix DevOps
+- Predix Machine
+- Predix Security
+- Predix Services
+- Predix UI
 
 Below are the steps I recommend for preparing to take the exam and passing on attempt numero uno.
 
@@ -55,7 +56,7 @@ _Two options:_
 
 ![Two Predix training courses, in person and online with prices.](/post-images/predix-cert-training-options-1.png)
 
-The $3,000 course is in person. I recommend this option for training as it helps to really escape from distractions, allowing your focus to truly get your money’s worth. It also helps with solving any environment set up challenges quickly.
+The \$3,000 course is in person. I recommend this option for training as it helps to really escape from distractions, allowing your focus to truly get your money’s worth. It also helps with solving any environment set up challenges quickly.
 
 Both courses are great options to learn from experts of the Predix platform.
 
@@ -81,19 +82,19 @@ All Predix Certified Developer Exam answers can be found within the documentatio
 
 I found that taking notes in a notebook forced me to summarize, which really helped me to fully comprehend the concepts for the exam.
 
-If you complete the training and plan to take on the guides, it may not be helpful to read the how-to use services. You will learn them in training.  
+If you complete the training and plan to take on the guides, it may not be helpful to read the how-to use services. You will learn them in training.
 
 It is very helpful to read information that gives more in depth details of each service: for example, size limits or languages accepted for analytics are found in the documentation. Use your own judgement on how to best utilize your time.
 
 ### Step 4: Completing Predix guides (tutorials)
 
-The Predix team provides tutorials and guides for developers looking to refresh and gain knowledge about the platform here: [Predix Guides](https://www.predix.io/resources/tutorials). 
+The Predix team provides tutorials and guides for developers looking to refresh and gain knowledge about the platform here: [Predix Guides](https://www.predix.io/resources/tutorials).
 
 These range from describing the basics, like setting up your environment. To more advanced tutorials, such as using Predix services or connecting a Raspberry Pi to the cloud.
 
 I approached these as ways to drive points home from the documentation read in step 3. It also provided an unforced (easy) way to head back over to the docs when I didn’t fully understand what was going on.
 
-One side note that I didn’t do, but should have is working with the Predix Machine samples: [Getting Started with Predix Machine](https://www.predix.io/docs/?r=265661#oB3jZDiD). 
+One side note that I didn’t do, but should have is working with the Predix Machine samples: [Getting Started with Predix Machine](https://www.predix.io/docs/?r=265661#oB3jZDiD).
 
 After taking a look, I feel this would have really helped me solidify the concepts of the machine SDKs. I read through these, and am working through the samples now.
 
@@ -111,10 +112,10 @@ Review your notes and complete the [Predix Certification Study Guide](https://1d
 
 If you have never taken a remote exam before (like me), here are a few tips:
 
-* Find a quiet place as you will not be allowed any headphones during the exam
-* Clear your desk of any personal/private info
-  * my proctor asked me to show the area around my desk. If you like keeping your motivation/goals in front of your desk for inspiration, this can be awkward (I know from experience LOL).
-* Clear the area of any documents or electronics that could be used for cheating
+- Find a quiet place as you will not be allowed any headphones during the exam
+- Clear your desk of any personal/private info
+  - my proctor asked me to show the area around my desk. If you like keeping your motivation/goals in front of your desk for inspiration, this can be awkward (I know from experience LOL).
+- Clear the area of any documents or electronics that could be used for cheating
 
 #### It's your time to shine!!
 
@@ -126,8 +127,8 @@ Now celebrate....then maybe head over to the [community page](https://www.predix
 
 <iframe src="https://www.youtube.com/embed/CbSbB4Z7rwI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-- - -
+---
 
-I hope this blog inspired you to dive into the new platform and give some insight on studying for the exam. 
+I hope this blog inspired you to dive into the new platform and give some insight on studying for the exam.
 
 If so, please let me know by leaving a comment!
