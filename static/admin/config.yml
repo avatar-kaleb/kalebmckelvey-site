@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: kmckelvey3/kalebmckelvey-dev
+  name: git-gateway
+  repo: avatar-kaleb/kalebmckelvey-site
 
 media_folder: static/post-images
 public_folder: post-images
@@ -13,7 +13,7 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: cover, label: "Cover Image", widget: image }
+      - { name: cover, label: 'Cover Image', widget: image }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: category, label: Category }
