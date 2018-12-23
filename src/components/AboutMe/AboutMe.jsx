@@ -19,7 +19,7 @@ class AboutMe extends Component {
           </Media>
           <CardText className="animated slideInUp cardText-text">
             <p>
-              Hola. I'm Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire,
+              Hola. I&apos;m Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire,
               nature walker, and reddit lurker. Thanks for stopping by!
             </p>
             <h1>What I Do:</h1>
@@ -37,12 +37,12 @@ class AboutMe extends Component {
             </p>
             <h1>My Skills:</h1>
             <p>
-              In the last few years I've been offered the opportunities to learn and grow through various experiences.
+              In the last few years I&apos;ve been offered the opportunities to learn and grow through various experiences.
             </p>
             <h2>Modern Web Development:</h2>
             <p>
-              We use micro-service architecture on the Predix Platform with various tech stacks. Check out my skills
-              below!
+             I have experience working with Cloud Foundry, Firebase, and currently working to grow in AWS! Check out my
+             &nspb;skills below!
             </p>
             <DataTable plain>
               <TableHeader>
@@ -174,15 +174,17 @@ class AboutMe extends Component {
             <h1>My Story</h1>
             <p>
               I believe everyone has a wonderful story to explain how in the world they got to the current moment we
-              call now. Here's a bit of mine!
+              call now. Here&apos;s a bit of mine!
             </p>
             <h2>TLDR:</h2>
             <p>
-              I&apos;m Kaleb McKelvey, a small town raised young professional who focuses on exhibiting high character
-              combined with strong ambition to continously grow a little bit each day.<br />
+              I&apos;m Kaleb McKelvey, a small town raised young professional, who focuses on exhibiting high character
+              combined with strong ambition to continously grow a little bit each day.
               <br />
-              I&apos;ve been working at General Electric for ~4 years with experiences in both leadership and technical
-              depth, molding me into a well rounded Software Engineer who has a true passion for technology!
+              <br />
+              I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to a leadership program at GE Healthcare which led to becoming a Staff Software Engineer; Since then, I made the move to a new industry and city - New York - to close the distance with my girlfriend and take on a new role!
+              <br /><br />
+              My experiences in leadership and technical depth, has molded me into a well rounded Software Engineer who has a true passion for technology!
             </p>
             <h2>Long Version</h2>
             <p>
