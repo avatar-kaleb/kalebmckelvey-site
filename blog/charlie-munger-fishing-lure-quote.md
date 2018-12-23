@@ -2,7 +2,7 @@
 cover: /post-images/charlie-munger-quoute-1-fishing-lure.jpeg
 date: '2017-05-17'
 title: Charlie Munger Fishing Lure Quote
-category: Other
+category: Life
 tags:
   - quotes
   - ''
