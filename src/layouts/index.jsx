@@ -34,7 +34,7 @@ function getLocalTitle(pathname) {
     });
   }
 
-  return title || 'Blog'; // if title is blank, means we are at / path
+  return title || 'Home'; // if title is blank, means we are at / path
 }
 
 const Layout = ({ children, location, ...props }) => (

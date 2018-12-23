@@ -68,17 +68,20 @@ class SignupForm extends Component {
     e.stopPropagation();
 
     const { email, firstName, lastName } = this.state;
-    this.setState(
-      {
-        status: `sending`,
-        hidden: true
-      },
-      // setState callback (subscribe email to MC)
-      this._postEmailToMailchimp(email, {
-        FNAME: firstName,
-        LNAME: lastName
-      })
-    );
+
+    if (email && firstName) {
+      this.setState(
+        {
+          status: `sending`,
+          hidden: true
+        },
+        // setState callback (subscribe email to MC)
+        this._postEmailToMailchimp(email, {
+          FNAME: firstName,
+          LNAME: lastName
+        })
+      );
+    }
   };
 
   render() {
@@ -96,6 +99,7 @@ class SignupForm extends Component {
                 <Cell size={4}>
                   <TextField
                     id="floating-center-title"
+                    errorText="This field is required."
                     label="First Name"
                     lineDirection="center"
                     placeholder="George"
@@ -110,12 +114,12 @@ class SignupForm extends Component {
                     lineDirection="center"
                     placeholder="Castanza"
                     onChange={this._handleLastNameChange}
-                    required
                   />
                 </Cell>
                 <Cell size={4}>
                   <TextField
                     id="floating-center-title"
+                    errorText="This field is required."
                     label="Email Address"
                     lineDirection="center"
                     placeholder="George@test.com"

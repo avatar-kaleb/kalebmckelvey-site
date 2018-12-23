@@ -39,7 +39,7 @@ const AboutMe = () => (
         </p>
         <p>
           In the past my focus was doing this for GE Healthcare manufacturing shops. Recently, I changed to a new
-          industry, city, and role - Sr Software Engineer (Front End) in New York at Northwestern Mutual!
+          industry, city, and role - Sr Software Engineer in New York at Northwestern Mutual!
         </p>
         <p>
           In addition to solving business problems, I continuously explore new technologies and focus on improving code
@@ -51,6 +51,7 @@ const AboutMe = () => (
         </p>
         <h2>Modern Web Development:</h2>
         <p>I&#39;ve worked on multiple projects utilizing various technologies, check out the table for details!</p>
+        <br />
         <DataTable plain>
           <TableHeader>
             <TableRow>
@@ -108,10 +109,14 @@ const AboutMe = () => (
         <h2>Leadership:</h2>
         <p>
           I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led through
-          experience and learned from many top IT professionals in GE. Now as a Staff Software Engineer, I mentor junior
-          members, lead initiatives in the team, improve our code base with every new feature, and help architect
-          designs to meet requirements from our Product Owners.
+          experience and learned from many top IT professionals in GE. Becoming a tech lead on our Milwaukee Software
+          team, I mentored junior team members, lead initiatives, improveed our code base with every new feature, and
+          helped architect designs to meet requirements from our Product Owners.
+          <br />
+          <br />
+I look forward to continuing using this experience in my new role!
         </p>
+        <br />
         <DataTable plain>
           <TableHeader>
             <TableRow>
@@ -185,13 +190,17 @@ const AboutMe = () => (
         </p>
         <h2>TLDR:</h2>
         <p>
-          I&apos;m Kaleb McKelvey, a small town raised young professional who focuses on exhibiting high character
-          combined with strong ambition to continously grow a little bit wiser each day.
+          I&apos;m Kaleb McKelvey, a small town raised young professional, who focuses on exhibiting high character
+          combined with strong ambition to continously grow a little bit each day.
           <br />
           <br />
-I started my career at a small company called Shentel, followed by transit working at General Electric
-          for ~4 years with experiences in both leadership and technical depth, molding me into a well rounded Software
-          Engineer who has a true passion for technology!
+          I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to a leadership program at GE
+          Healthcare which led to becoming a Staff Software Engineer; Since then, I made the move to a new industry and
+          city - New York - to close the distance with my girlfriend and take on a new role!
+          <br />
+          <br />
+          My experiences in leadership and technical depth, has molded me into a well rounded Software Engineer who has
+          a true passion for technology!
         </p>
         <h2>Long Version</h2>
         <p>I&apos;m a young professional with aspirations to inspire, grow, and achieve in various areas of my life.</p>
@@ -226,10 +235,14 @@ I started my career at a small company called Shentel, followed by transit worki
           fabulous people I&apos;ve met on the way.
         </p>
         <p>
-          Fast forward today, I work at Northwestern Mutual - a company that has more than a century under its belt - as
-          it adventures through a digital transformation. Personal finance has long been a passion of mine, so getting
-          an opportunity to spend 40+ hours a week developing software to help people with that area of their Life has
-          been great!
+          Fast forward today, I work at Northwestern Mutual - a company that has more than a century under its belt
+          -&nbsp; adventuring through a digital transformation. Personal finance has long been a passion of mine, so
+          getting an opportunity to spend 40+ hours a week developing software to help people with that area of their
+          life has been great!
+        </p>
+        <p>
+          Not only do I get to do this while taking on the new experiences NYC has to offer, but I get to do it with my
+          best friend supporting me through the journey!
         </p>
         <h3>Concluding Thoughts</h3>
         <p>

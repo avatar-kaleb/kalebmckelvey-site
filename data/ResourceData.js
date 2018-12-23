@@ -3,73 +3,185 @@ export default {
   // books/podcasts
   dev: [
     {
-      category: 'Web Development',
+      category: 'Books',
       subcategories: [
         {
-          name: 'Javascript Frameworks/Libraries',
+          name: 'General Programming',
           resources: [
             {
-              name: 'React',
-              link: 'https://reactjs.org/',
-              description: "Facebook's library to build user interfaces."
+              name: 'Code Complete',
+              link:
+                'https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126829&amp;sr=1-1&amp;keywords=clean+code+2'
             },
             {
-              name: 'Lodash',
-              link: 'https://lodash.com/docs/',
-              description: 'Performant, re-usable utility library.'
-            },
-            {
-              name: 'MomentJS',
-              link: 'https://momentjs.com/',
-              description: 'Makes dates, time, and durations a breeze.'
-            },
-            {
-              name: 'Redux',
-              link: 'https://redux.js.org/',
-              description: 'Manage your application state in one place.'
-            },
-            {
-              name: 'Gatsby',
-              link: 'https://gatsby.org',
-              description: 'React / GraphQL static site generator.'
-            },
-            {
-              name: 'React MD',
-              link: 'https://react-md.mlaursen.com/',
-              description: 'React Material Design Components'
+              name: 'Pragmatic Programmer',
+              link:
+                'https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126792&amp;sr=1-1&amp;keywords=pragmatic+programmer'
             }
           ]
         },
         {
-          name: 'CSS Libraries',
+          name: 'Javascript',
           resources: [
             {
-              name: 'Bootstrap',
-              link: 'https://getbootstrap.com/',
-              description: 'Toolkit to make your front-ends responsive.'
+              name: "You Don't Know JS Series",
+              link: 'https://github.com/getify/You-Dont-Know-JS'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      category: 'Blogs / Newsletters',
+      subcategories: [
+        {
+          name: 'CSS / HTML',
+          resources: [
+            {
+              name: 'CSS Tricks',
+              link: 'https://css-tricks.com/'
             },
             {
-              name: 'Bulma',
-              link: 'https://bulma.io/',
-              description: 'CSS framework based on flexbox to make responsive layouts easy'
+              name: 'CSS Weekly',
+              link: 'https://css-weekly.com/'
             },
             {
-              name: 'Sass',
-              link: 'https://sass-lang.com/',
-              description: 'Extends CSS with synatic sugar that makes sense.'
+              name: 'Frontend Focus',
+              link: 'https://frontendfoc.us/'
             },
             {
-              name: 'Animate',
-              link: 'https://daneden.github.io/animate.css/',
-              description: 'Add easy animations via class names.'
-            },
-            {
-              name: 'Lottie',
-              link: 'https://airbnb.design/lottie/',
-              description: "AirBnb's library to make animations easy."
+              name: 'Responsive Design Weekly',
+              link: 'http://responsivedesignweekly.com/'
             }
           ]
         },
+        {
+          name: 'JavaScript',
+          resources: [
+            {
+              name: 'JavaScript Weekly',
+              link: 'https://javascriptweekly.com/'
+            },
+            {
+              name: 'Overreacted',
+              linked: 'https://overreacted.io/'
+            },
+            {
+              name: 'React Status',
+              link: 'https://react.statuscode.com/'
+            },
+            {
+              name: 'Wes Bos Blog',
+              link: 'https://wesbos.com/blog'
+            }
+          ]
+        },
+        {
+          name: 'Tech News',
+          resources: [
+            {
+              name: 'Engadget',
+              link: 'https://engadget.com'
+            },
+            {
+              name: 'Wired',
+              link: 'https://wired.com'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      category: 'Podcasts',
+      subcategories: [
+        {
+          name: 'Security',
+          resources: [
+            {
+              name: 'Security Now',
+              link: 'https://www.grc.com/securitynow.htm'
+            }
+          ]
+        },
+        {
+          name: 'Web Development',
+          resources: [
+            {
+              name: 'Syntax',
+              link: 'https://syntax.fm/'
+            },
+            {
+              name: 'Developer Tea',
+              link: 'https://spec.fm/podcasts/developer-tea'
+            },
+            {
+              name: 'JS Party',
+              link: 'https://changelog.com/jsparty'
+            },
+            {
+              name: 'The Web Platform Podcast',
+              link: 'https://thewebplatformpodcast.com/'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      category: 'Tools',
+      subcategories: [
+        {
+          name: 'Editor',
+          resources: [
+            {
+              name: "Visual Studio Code - Insider's Edition",
+              link: 'https://code.visualstudio.com/insiders/',
+              description: "Microsoft's Electron based text editor."
+            },
+            {
+              name: 'Visual Studio Code - Settings Sync',
+              link: 'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync',
+              description:
+                'Easily download/upload to share settings by following the Settings Sync walk through. If interested, use my public gist (baad940d8ae370312e4a748cc3cdc8d6) to stay updated with my recommended theme, settings, extensions! Utilizing Visual Studio Code, you can increase your productivity as a developer!'
+            }
+          ]
+        },
+        {
+          name: 'Mac',
+          resources: [
+            {
+              name: 'Alfred 3',
+              link: 'https://www.alfredapp.com/',
+              description: 'Boost your productivity with hotkeys, text expansion, workflows, and search.'
+            },
+            {
+              name: 'BetterTouchTool',
+              link: 'https://folivora.ai/',
+              description:
+                "Customize your mac's gestures, hotkeys, and other. Use this with Karabiner-Elements to map your caps lock to unique key combinations to create your own productivity enhancers!."
+            }
+          ]
+        },
+        {
+          name: 'Terminal',
+          resources: [
+            {
+              name: 'ITerm2',
+              link: 'https://www.iterm2.com/',
+              description: 'Increase your productivity in the terminal with the little things.'
+            },
+            {
+              name: 'Oh My Zsh',
+              link: 'https://ohmyz.sh/',
+              description:
+                'Framework for manaing your zsh configuration, letting you easily install plugins and themes.'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      category: 'Web Dev Libraries',
+      subcategories: [
         {
           name: 'Bundlers / Package Managers',
           resources: [
@@ -89,57 +201,64 @@ export default {
               description: 'New competitor for asset bundling - boasts zero config with great bench marks!'
             }
           ]
-        }
-      ]
-    },
-    {
-      category: 'Productivity Tools',
-      subcategories: [
+        },
         {
-          name: 'Editor',
+          name: 'Javascript Frameworks / Libraries',
           resources: [
             {
-              name: "Visual Studio Code - Insider's Edition",
-              link: 'https://code.visualstudio.com/insiders/',
-              description: "Microsoft's Electron based text editor."
+              name: 'React',
+              link: 'https://reactjs.org/',
+              description: "Facebook's library to build user interfaces."
             },
             {
-              name: 'Visual Studio Code - Settings Sync',
-              link: 'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync',
-              description:
-                'Easily download/upload to share settings by following the Settings Sync walk through. If interested, use my public gist (baad940d8ae370312e4a748cc3cdc8d6) to stay updated with my recommended theme, settings, extensions! Utilizing Visual Studio Code, you can increase your productivity as a developer!'
+              name: 'Lodash',
+              link: 'https://lodash.com/docs/',
+              description: 'Performant, re-usable utility library.'
+            },
+            {
+              name: 'MomentJS',
+              link: 'https://momentjs.com/',
+              description: 'Makes dates, time, and durations a breeze. Caution: Large sized lib!'
+            },
+            {
+              name: 'Redux',
+              link: 'https://redux.js.org/',
+              description: 'Manage your application state in one place.'
+            },
+            {
+              name: 'Gatsby',
+              link: 'https://gatsby.org',
+              description: 'React / GraphQL static site generator.'
             }
           ]
         },
         {
-          name: 'Terminal',
+          name: 'SCSS / CSS Libraries',
           resources: [
             {
-              name: 'ITerm2',
-              link: 'https://www.iterm2.com/',
-              description: 'Increase your productivity in the terminal with the little things.'
+              name: 'React MD',
+              link: 'https://react-md.mlaursen.com/',
+              description: 'React Material Design Components'
             },
             {
-              name: 'Oh My Zsh',
-              link: 'https://ohmyz.sh/',
-              description:
-                'Framework for manaing your zsh configuration, letting you easily install plugins and themes.'
-            }
-          ]
-        },
-        {
-          name: 'Mac',
-          resources: [
-            {
-              name: 'Alfred 3',
-              link: 'https://www.alfredapp.com/',
-              description: 'Boost your productivity with hotkeys, text expansion, workflows, and search.'
+              name: 'Bootstrap',
+              link: 'https://getbootstrap.com/',
+              description: 'Toolkit to make your front-ends responsive.'
             },
             {
-              name: 'BetterTouchTool',
-              link: 'https://folivora.ai/',
-              description:
-                "Customize your mac's gestures, hotkeys, and other. Use this with Karabiner-Elements to map your caps lock to unique key combinations to create your own productivity enhancers!."
+              name: 'Bulma',
+              link: 'https://bulma.io/',
+              description: 'CSS framework based on flexbox to make responsive layouts easy'
+            },
+            {
+              name: 'Animate',
+              link: 'https://daneden.github.io/animate.css/',
+              description: 'Add easy animations via class names.'
+            },
+            {
+              name: 'Lottie',
+              link: 'https://airbnb.design/lottie/',
+              description: "AirBnb's library to make animations easy."
             }
           ]
         }
@@ -179,9 +298,8 @@ export default {
               description: 'Note taking with cloud'
             },
             {
-              name: 'Podbean',
-              link:
-                'http://www.podbean.com/start-podcast?sourceid=goog_66&amp;gclid=Cj0KEQjw6LXIBRCUqIjXmdKBxZUBEiQA_f50Plfbdw8ODcy0AAy7tbnT89Br32zmF8wSpqjYXeSGpoAaAgAs8P8HAQ',
+              name: 'Pocket Casts',
+              link: 'https://www.pocketcasts.com/',
               description: 'Podcasts app for Android'
             },
             {
@@ -230,6 +348,10 @@ export default {
             {
               name: "The Ranger's Apprentice",
               link: 'https://www.amazon.com/Rangers-Apprentice-Complete-Book-Set/dp/B00PHO4HZ8'
+            },
+            {
+              name: 'The Stormlight Archives',
+              link: 'https://brandonsanderson.com/books/the-stormlight-archive/"'
             }
           ]
         },
@@ -300,21 +422,11 @@ export default {
               name: 'Your Life or Your Money',
               link:
                 'https://www.amazon.com/Your-Money-Life-Transforming-Relationship/dp/0143115766/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126565&amp;sr=1-1&amp;keywords=your+life+or+your+money'
-            }
-          ]
-        },
-        {
-          name: 'Programming',
-          resources: [
-            {
-              name: 'Code Complete',
-              link:
-                'https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126829&amp;sr=1-1&amp;keywords=clean+code+2'
             },
             {
-              name: 'Pragmatic Programmer',
+              name: 'The Richest Man in Babylon',
               link:
-                'https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126792&amp;sr=1-1&amp;keywords=pragmatic+programmer'
+                'https://www.amazon.com/Richest-Man-Babylon-George-Clason-ebook/dp/B07H7HN6DN/ref=mt_kindle?_encoding=UTF8&me=&qid='
             }
           ]
         }
@@ -324,6 +436,46 @@ export default {
       category: 'Podcasts',
       subcategories: [
         {
+          name: 'General Knowledge / Thought Provoking',
+          resources: [
+            {
+              name: 'Stuff You Should Know',
+              link: 'https://www.stuffyoushouldknow.com/'
+            },
+            {
+              name: 'Hidden Brain',
+              link:
+                'https://www.npr.org/podcasts/510308/hidden-brain?gclid=CjwKCAiA3vfgBRB9EiwAkfpd3LRtntr3ihGHCc8dKOxL7cOThGcDqsU0uIZnMAn3tXIgOK2wrwtoOhoCNLQQAvD_BwE'
+            },
+            {
+              name: 'The End of the World',
+              link: 'https://www.theendwithjosh.com/podcasts'
+            }
+          ]
+        },
+        {
+          name: 'Money / Business',
+          resources: [
+            {
+              name: 'Planet Money',
+              link:
+                'https://www.npr.org/podcasts/510289/planet-money/?gclid=CjwKCAiA3vfgBRB9EiwAkfpd3HGUUWzFM0Ln8QHBGMLDmcQ07ljA3DvQLmd8JbZGycsjNPOE7YsMRhoCWHkQAvD_BwE'
+            },
+            {
+              name: 'MarketPlace',
+              link: 'https://www.marketplace.org/popoutplayer'
+            },
+            {
+              name: 'The Investors Podcast',
+              link: 'https://www.theinvestorspodcast.com/'
+            },
+            {
+              name: 'The Indicator',
+              link: 'https://www.npr.org/sections/money/567724614/the-indicator'
+            }
+          ]
+        },
+        {
           name: 'Personal Development',
           resources: [
             {
@@ -331,21 +483,8 @@ export default {
               link: 'https://etinspires.com/blog'
             },
             {
-              name: 'Good Life Project',
-              link: 'http://www.goodlifeproject.com/radio/'
-            },
-            {
               name: 'Tony Robbins Podcast',
               link: 'https://www.tonyrobbins.com/podcast/'
-            }
-          ]
-        },
-        {
-          name: 'Technology',
-          resources: [
-            {
-              name: 'Coding Blocks',
-              link: 'http://kaleb.mckelvey@ge.com'
             }
           ]
         }
@@ -355,15 +494,6 @@ export default {
       category: 'Sites/Blogs',
       subcategories: [
         {
-          name: 'Personal Development',
-          resources: [
-            {
-              name: 'Project Life Mastery',
-              link: 'http://projectlifemastery.com/'
-            }
-          ]
-        },
-        {
           name: 'Personal Finance',
           resources: [
             {
@@ -371,29 +501,16 @@ export default {
               link: 'https://dukeofdollars.com'
             },
             {
-              name: 'Mr. Money Mustache',
-              link: 'https://www.mrmoneymustache.com/'
-            },
-            {
               name: 'Reddit Personal Finance',
               link: 'https://www.reddit.com/r/personalfinance/'
             },
             {
-              name: 'The Green Swan',
-              link: 'http://www.thegreenswan.org'
-            }
-          ]
-        },
-        {
-          name: 'Technology',
-          resources: [
-            {
-              name: 'Engadget',
-              link: 'https://engadget.com'
+              name: 'Joshua Kennon',
+              link: 'https://joshuakennon.com'
             },
             {
-              name: 'Wired',
-              link: 'https://wired.com'
+              name: 'The Conservative Income Investor',
+              link: 'https://theconservativeincomeinvestor.com/'
             }
           ]
         },
@@ -403,10 +520,6 @@ export default {
             {
               name: 'Bad A** of the Week',
               link: 'http://badassoftheweek.com'
-            },
-            {
-              name: 'Joshua Kennon',
-              link: 'https://joshuakennon.com'
             },
             {
               name: 'Lifehacker',

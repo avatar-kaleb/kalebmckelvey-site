@@ -61,5 +61,11 @@ export default [
     title: 'A Key to a Good Life is Avoiding Big Mistakes',
     value:
       'Mistakes are going to happen in your life, there is no mistaking that. Decide where you want to be at the end of your life and start using inversion to see which actions take you there. For each action, ask yourself – what would be detrimintal to reaching these goals….avoid them like the plague, or bitcoin.'
+  },
+  {
+    id: 10,
+    title: 'Experiences > Materials - Spend Wisely',
+    value:
+      'During the most memorable experiences in your life, no one remembers what you were wearing, what size watch you were wearing, or what brand of shoes you have on. They remember how they felt, who they were with, and the new experience they never had before!'
   }
 ];
