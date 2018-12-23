@@ -2,7 +2,7 @@
 cover: /post-images/positive-thinking-journey-1024x683.jpeg
 date: '2018-05-09'
 title: A motivational quote for Sunday
-category: Other
+category: Life
 tags:
   - quotes
   - inspirational
