@@ -2,7 +2,7 @@
 cover: /post-images/fabulousroutines-cofee-and-tablet.jpeg
 date: '2016-11-07'
 title: Start Your Fabolous Routines Today!
-category: Life
+category: Journey to Achieve
 tags:
   - habits
   - journey to achieve

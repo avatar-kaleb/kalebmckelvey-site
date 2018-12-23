@@ -2,7 +2,7 @@
 cover: /post-images/community-service-cover.jpeg
 date: '2016-08-25'
 title: Community Service Day - Making a difference in MKE
-category: Life
+category: Journey to Achieve
 tags:
   - Journey to Achieve
   - Inspirational

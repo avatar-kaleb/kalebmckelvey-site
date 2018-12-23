@@ -2,7 +2,7 @@
 cover: /post-images/inheritance-cycle.png
 date: '2016-01-05'
 title: Is the Inheritance Cycle Relevant to the 2016 New Year?
-category: Life
+category: Journey to Achieve
 tags:
   - goals
   - book review

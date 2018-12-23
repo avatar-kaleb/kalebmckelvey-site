@@ -2,7 +2,7 @@
 cover: /post-images/five-min-journal-cover.jpeg
 date: '2016-12-07'
 title: Five Minute Journal + OneNote -> Practicing Gratitude Every Morning
-category: Life
+category: Journey to Achieve
 tags:
   - gratitude
   - journey to achieve

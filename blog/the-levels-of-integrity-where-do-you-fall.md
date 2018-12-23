@@ -2,7 +2,7 @@
 cover: /post-images/levels-of-integrity-1024x683.jpeg
 date: '2017-04-02'
 title: The Levels of Integrity - Where do you fall?
-category: Life
+category: Journey to Achieve
 tags:
   - character
   - integrity

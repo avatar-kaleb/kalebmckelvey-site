@@ -2,7 +2,7 @@
 cover: /post-images/life-throws-curveballs-min.jpeg
 date: '2016-09-23'
 title: 'Life Throws Curve-balls, hit Home Runs! Positively Adapt for a Happier Life!'
-category: Life
+category: Journey to Achieve
 tags:
   - positive thinking
   - journey to achieve

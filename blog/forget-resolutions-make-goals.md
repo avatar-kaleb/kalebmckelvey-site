@@ -2,7 +2,7 @@
 cover: /post-images/forget-resolutions-make-goals-path-1024x683.jpg
 date: '2016-02-18'
 title: ' Forget Resolutions, Make Goals!!'
-category: Life
+category: Journey to Achieve
 tags:
   - goals
   - journey to achieve

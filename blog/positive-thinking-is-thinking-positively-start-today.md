@@ -2,7 +2,7 @@
 cover: /post-images/start-thinking-positively-1024x683.jpeg
 date: '2015-09-17'
 title: Positive Thinking is Thinking Positively - Start Today!
-category: Life
+category: Journey to Achieve
 tags:
   - inspiring
   - journey to achieve

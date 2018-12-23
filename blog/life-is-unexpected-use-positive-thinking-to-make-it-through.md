@@ -2,7 +2,7 @@
 cover: /post-images/life-is-unexpected-cover.jpeg
 date: '2015-10-14'
 title: Life is Unexpected - Use Positive Thinking to Make it Through!
-category: Life
+category: Journey to Achieve
 tags:
   - positive thinking
   - reflection

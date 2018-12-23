@@ -2,7 +2,7 @@
 cover: /post-images/purpose-and-time-clock.jpg
 date: '2017-06-25'
 title: Each day in our lives matter - live them with purpose!
-category: Life
+category: Journey to Achieve
 tags:
   - purpose
   - journey to achieve
