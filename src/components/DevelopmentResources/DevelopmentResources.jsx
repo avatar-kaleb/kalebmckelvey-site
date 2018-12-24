@@ -8,6 +8,9 @@ import codeImage from '../../images/DevResources-Code.jpeg';
 import ResourcesData from '../../../data/ResourceData';
 import ResourcesList from '../ResourcesList/ResourcesList';
 
+/**
+ * Development Resources Page Component
+ */
 const DevelopmentResources = () => (
   <div className="developmentResources wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

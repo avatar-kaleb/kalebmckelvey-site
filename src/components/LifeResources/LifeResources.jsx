@@ -1,5 +1,5 @@
 // absolute
-import React, { Component } from 'react';
+import React from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 import Media from 'react-md/lib/Media/Media';
@@ -9,6 +9,9 @@ import chalkboardImage from '../../images/LifeResources - Chalkboard.jpeg';
 import ResourcesData from '../../../data/ResourceData';
 import ResourcesList from '../ResourcesList/ResourcesList';
 
+/**
+ * Life Resources Page Component
+ */
 const LifeResources = () => (
   <div className="life-resources wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'gatsby';
 import LogRocket from 'logrocket';
 import NavigationDrawer from 'react-md/lib/NavigationDrawers/NavigationDrawer';
 import ToolbarActions from '../ToolbarActions/ToolbarActions';
 import Footer from '../Footer/Footer';
 import GetNavList from './NavList';
 import './Navigation.scss';
-
-import { Link } from 'gatsby';
 
 /**
  * Determines whether the nav item should be active based on two conditions
@@ -26,6 +25,9 @@ function _isNavItemActive(key) {
   return false;
 }
 
+/**
+ * Navigation Component that also initialized Log Rocket
+ */
 class Navigation extends Component {
   constructor(props) {
     super(props);

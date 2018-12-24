@@ -501,16 +501,16 @@ export default {
               link: 'https://dukeofdollars.com'
             },
             {
-              name: 'Reddit Personal Finance',
-              link: 'https://www.reddit.com/r/personalfinance/'
-            },
-            {
               name: 'Joshua Kennon',
               link: 'https://joshuakennon.com'
             },
             {
               name: 'The Conservative Income Investor',
               link: 'https://theconservativeincomeinvestor.com/'
+            },
+            {
+              name: 'Financial Samurai',
+              link: 'https://www.financialsamurai.com/'
             }
           ]
         },

@@ -11,6 +11,10 @@ import PostListing from '../PostListing/PostListing';
 // CSS
 import './FourOhFour.scss';
 
+/**
+ * 404 page that has recent posts listed
+ * @param {Array} postEdges - list of recent posts from GQL
+ */
 const FourOhFour = ({ postEdges }) => (
   <section className="fourOhFour mobile-fix">
     <Paper className="md-grid paper-background--white" zDepth={0}>

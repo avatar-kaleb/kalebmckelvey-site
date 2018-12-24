@@ -2,6 +2,9 @@ import React from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 
+/**
+ * Copyright Notice Page Component
+ */
 const CopyrightNotice = () => (
   <div className="copyright-notice wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--10 md-cell--10-tablet" title="Copyright Notice">

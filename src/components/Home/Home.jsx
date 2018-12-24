@@ -12,6 +12,9 @@ import PostListing from '../PostListing/PostListing';
 // CSS
 import './Home.scss';
 
+/**
+ * Home Page Component
+ */
 class Home extends Component {
   componentDidMount() {
     this.typed = new Typed('#typed', {

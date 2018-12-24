@@ -8,6 +8,9 @@ import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 // images
 import kappaKnightImage from '../../images/AboutTheJourney-KappaKnight.jpg';
 
+/**
+ * About the Journey Page Component
+ */
 const AboutTheJourney = () => (
   <div className="about-the-journey wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

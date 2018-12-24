@@ -8,6 +8,10 @@ import FontIcon from 'react-md/lib/FontIcons';
 import Snackbar from 'react-md/lib/Snackbars';
 import config from '../../../data/SiteConfig';
 
+/**
+ * Discus Component for comments
+ * This came with the Material Design Starter
+ */
 class Disqus extends Component {
   constructor(props) {
     super(props);

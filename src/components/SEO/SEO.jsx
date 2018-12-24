@@ -2,6 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../../data/SiteConfig';
 
+/**
+ * Gatsby recommended way for SEO - unchanged from Material Design Starter
+ */
 const SEO = ({ postNode, postPath, postSEO }) => {
   let title;
   let description;

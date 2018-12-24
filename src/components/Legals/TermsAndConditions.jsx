@@ -2,6 +2,9 @@ import React from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 
+/**
+ * Terms and Conditions Page Component
+ */
 const TermsAndConditions = () => (
   <div className="terms-and-conditions wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet" title="Terms and Conditions">

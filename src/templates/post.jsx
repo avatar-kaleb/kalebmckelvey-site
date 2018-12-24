@@ -20,7 +20,7 @@ export default class PostTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true
+      isMobile: true
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -36,21 +36,21 @@ export default class PostTemplate extends React.Component {
 
   handleResize() {
     if (window.innerWidth >= 640) {
-      this.setState({ mobile: false });
+      this.setState({ isMobile: false });
     } else {
-      this.setState({ mobile: true });
+      this.setState({ isMobile: true });
     }
   }
 
   render() {
-    const { mobile } = this.state;
+    const { isMobile } = this.state;
     const {
       data: { markdownRemark: postNode },
       pathContext: { slug }
     } = this.props;
-    const expanded = !mobile;
+    const expanded = !isMobile;
     const post = postNode.frontmatter;
-    const postOverlapClass = mobile ? 'post-overlap-mobile' : 'post-overlap';
+    const postOverlapClass = isMobile ? 'post-overlap-mobile' : 'post-overlap';
 
     if (!post.id) {
       post.id = slug;
@@ -65,7 +65,7 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <PostCover postNode={postNode} mobile={mobile} />
+        <PostCover postNode={postNode} isMobile={isMobile} />
         <div className={`md-grid md-cell--8 post-page-contents mobile-fix ${postOverlapClass}`}>
           <Card className="md-grid md-cell md-cell--12 post">
             <CardText className="post-body">
@@ -75,7 +75,7 @@ export default class PostTemplate extends React.Component {
             </CardText>
             <div className="post-meta">
               <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={postNode} mobile={mobile} />
+              <SocialLinks postPath={slug} postNode={postNode} isMobile={isMobile} />
               <PostSuggestions postNode={postNode} />
             </div>
           </Card>

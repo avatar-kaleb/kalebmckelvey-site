@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Displays a list of resources for a subcategory
+ * @param {Array} resources - list of resources to show for a subcategory
+ */
 const SubcategoryResourceList = ({ resources }) => (
   <ul>
     {resources.map(resource => (

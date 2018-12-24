@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   FacebookShareButton,
   GooglePlusShareButton,
@@ -18,10 +18,16 @@ import {
 import config from '../../../data/SiteConfig';
 import './SocialLinks.scss';
 
-const SocialLinks = ({ postNode, postPath, mobile }) => {
+/**
+ * Display the sharing social links
+ * @param {Object} postNode - the post
+ * @param {String} postPath - url of post
+ * @param {Boolean} isMobile - mobile page width?
+ */
+const SocialLinks = ({ postNode, postPath, isMobile }) => {
   const post = postNode.frontmatter;
   const url = config.siteUrl + config.pathPrefix + postPath;
-  const iconSize = mobile ? 36 : 48;
+  const iconSize = isMobile ? 36 : 48;
   const filter = count => (count > 0 ? count : '');
 
   return (

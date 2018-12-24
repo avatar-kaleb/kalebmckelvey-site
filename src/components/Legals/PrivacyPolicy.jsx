@@ -1,7 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 
+/**
+ * Privacy Policy Page Component
+ */
 const PrivacyPolicy = () => (
   <div className="privacy-policy wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet" title="Privacy Policy">

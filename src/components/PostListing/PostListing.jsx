@@ -7,6 +7,10 @@ import PostPreview from '../PostPreview/PostPreview';
 function filterPosts(allPosts, autocompleteText) {
   return _.filter(allPosts, post => post.title.includes(autocompleteText));
 }
+
+/**
+ * A list of posts with a search field option
+ */
 class PostListing extends React.Component {
   constructor(props) {
     super(props);
@@ -19,6 +23,9 @@ class PostListing extends React.Component {
     };
   }
 
+  /**
+   * Get a list of post data we want to display from a list of post edges
+   */
   getPostList() {
     const { postEdges } = this.props;
 
@@ -33,11 +40,17 @@ class PostListing extends React.Component {
     }));
   }
 
+  /**
+   * Get a list of post titles for the autocomplete search
+   */
   getPostTitles() {
     const { postEdges } = this.props;
     return postEdges.map(postEdge => postEdge.node.frontmatter.title);
   }
 
+  /**
+   * React render function
+   */
   render() {
     const { allPostTitles, postList, filteredPosts } = this.state;
     const { withSearch } = this.props;

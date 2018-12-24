@@ -9,6 +9,11 @@ import { Follow } from 'react-twitter-widgets';
 import UserLinks from '../UserLinks/UserLinks';
 import './UserInfo.scss';
 
+/**
+ * Shows user info at the bottom of a page before the comments
+ * @param {Object} config - site config with user info data
+ * @param {Boolean} expanded - is the text expanded?
+ */
 const UserInfo = ({ config, expanded }) => {
   const { userAvatar, userName, userLocation, userDescription, userLinks, userTwitter } = config;
   const userLinksElement = <UserLinks config={config} labeled={expanded} />;

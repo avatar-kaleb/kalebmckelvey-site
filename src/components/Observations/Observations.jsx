@@ -11,6 +11,9 @@ import InspirationList from '../InspirationList/InspirationList';
 import ObservationData from '../../../data/ObservationData';
 import ObservationList from '../ObservationList/ObservationList';
 
+/**
+ * Observations Page Component
+ */
 const Observations = () => (
   <div className="observations wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

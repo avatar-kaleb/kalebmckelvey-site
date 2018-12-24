@@ -15,6 +15,9 @@ import './ServiceCard.scss';
  */
 const navigateToContactPage = () => navigate('/contact-me');
 
+/**
+ * Card to display different services with their package options
+ */
 class ServiceCard extends Component {
   constructor(props) {
     super(props);
@@ -37,6 +40,9 @@ class ServiceCard extends Component {
     });
   };
 
+  /**
+   * React render function
+   */
   render() {
     const { selectedPackage } = this.state;
     const { description, sliderOptions, subtitle, title } = this.props;

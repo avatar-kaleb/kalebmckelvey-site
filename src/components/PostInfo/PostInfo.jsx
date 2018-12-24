@@ -6,6 +6,10 @@ import { Link } from 'gatsby';
 import KebabCase from 'lodash/kebabCase';
 import './PostInfo.scss';
 
+/**
+ * Post Info component to display in a card
+ * @param {Object} postNode - data for a post
+ */
 const PostInfo = ({ postNode }) => {
   const post = postNode.frontmatter;
 

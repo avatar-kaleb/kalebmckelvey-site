@@ -4,6 +4,10 @@ import { Link } from 'gatsby';
 import Chip from 'react-md/lib/Chips';
 import './PostTags.scss';
 
+/**
+ * Displays Material Design chips for each tags
+ * @param {Array} tags - list of tags for a post
+ */
 const PostTags = ({ tags }) => (
   <div className="post-tag">
     {tags &&

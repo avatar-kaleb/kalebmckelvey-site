@@ -2,6 +2,9 @@ import React from 'react';
 import Card from 'react-md/lib/Cards/Card';
 import CardText from 'react-md/lib/Cards/CardText';
 
+/**
+ * Disclaimer Page Component
+ */
 const Disclaimer = () => (
   <div className="disclaimer wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet" title="Disclaimer">

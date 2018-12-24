@@ -4,6 +4,9 @@ import CardText from 'react-md/lib/Cards/CardText';
 import Media from 'react-md/lib/Media/Media';
 import inspirationalImage from '../../images/Fundamentals-ArmsOpen.jpeg';
 
+/**
+ * Core Fundamental Page Component
+ */
 const CoreFundamentals = () => (
   <div className="core-fundamentals wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

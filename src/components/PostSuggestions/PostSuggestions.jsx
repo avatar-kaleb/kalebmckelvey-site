@@ -3,6 +3,11 @@ import FontIcon from 'react-md/lib/FontIcons';
 import { Link } from 'gatsby';
 import './PostSuggestions.scss';
 
+/**
+ * Post suggestions are used at the bottom of each post to show previous and next arrows
+ * to users
+ * @param {Object} postNode - used to get post fields
+ */
 const PostSuggestions = ({ postNode: { fields: postFields } }) => {
   const iconSize = 32;
 

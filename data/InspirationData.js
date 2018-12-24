@@ -31,5 +31,11 @@ export default [
     link: 'https://www.youtube.com/watch?v=pxBQLFLei70',
     title: 'University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven',
     value: `Make your bed. Don't ever, ever ring the bell!`
+  },
+  {
+    id: 6,
+    link: 'https://www.youtube.com/watch?v=pqzcCfUglws',
+    title: 'The Psychology of Human Misjudgement',
+    value: 'This video introduced the world to mental models, cognitive bias, and showed their usefulness!'
   }
 ];

@@ -4,6 +4,9 @@ import { Link } from 'gatsby';
 import config from '../../../data/SiteConfig';
 import './Footer.scss';
 
+/**
+ * Functonal component to wrap the footer
+ */
 const Footer = () => {
   const url = config.siteRss;
   const { copyright, fixedFooter } = config;

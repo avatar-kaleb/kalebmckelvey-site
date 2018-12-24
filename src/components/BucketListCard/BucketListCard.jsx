@@ -11,6 +11,11 @@ import MediaOverlay from 'react-md/lib/Media/MediaOverlay';
 // CSS
 import './BucketListCard.scss';
 
+/**
+ * This component displays a summary card with title, category, cost level, description, and
+ * links to the blog posts / youtube posts from the data
+ * @param {Object} bucketListItem -The bucket list data to show in card form
+ */
 const BucketListCard = ({ bucketListItem }) => (
   <Card className="bucketlist-card md-block-centered md-cell">
     <Media>

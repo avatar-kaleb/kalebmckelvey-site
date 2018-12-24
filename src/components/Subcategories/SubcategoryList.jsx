@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+import { ExpansionList, ExpansionPanel } from 'react-md';
+import SubcategoryResourceList from './SubcategoryResourceList';
 
-import { ExpansionList, ExpansionPanel } from "react-md";
-
-import SubcategoryResourceList from "./SubcategoryResourceList";
-
+/**
+ * Renders a subcategroy from a resource list
+ * @param {Array} subcategories - list of subcategories to render
+ */
 const SubcategoryList = ({ subcategories }) => (
   <ExpansionList>
     {subcategories.map(subcategory => (

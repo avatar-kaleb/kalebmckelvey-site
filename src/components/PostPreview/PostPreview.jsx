@@ -17,8 +17,17 @@ import PostTags from '../PostTags/PostTags';
 // styles
 import './PostPreview.scss';
 
+/**
+ * Given a path, this function uses Gatsby navigate function to get to another page
+ * @param {String} path - path to link to
+ * @param {Object} e - click event
+ */
 const navToPostOnClick = (path, e) => navigate(path);
 
+/**
+ * Post Preview is used to show summary of posts on a post listening to give a quick glimpse
+ * of what the post is about
+ */
 class PostPreview extends Component {
   constructor(props) {
     super(props);
@@ -45,10 +54,17 @@ class PostPreview extends Component {
     window.removeEventListener('resize', this.handleResize);
   }
 
+  /**
+   * Ths sets the button for this post preview to show or hide
+   * We need this to use with particle effect button
+   */
   setButtonHidden() {
     this.setState(prevState => ({ buttonHidden: !prevState.buttonHidden }));
   }
 
+  /**
+   * Set mobile state based on size changes
+   */
   handleResize() {
     if (window.innerWidth >= screenWidths.maxMobile) {
       this.setState({ isMobile: false });

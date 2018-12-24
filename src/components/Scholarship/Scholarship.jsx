@@ -6,6 +6,9 @@ import Media from 'react-md/lib/Media/Media';
 import universityImage from '../../images/university-picture-for-scholarship-page.jpeg';
 import './Scholarship.scss';
 
+/**
+ * Scholarship pae wrapper
+ */
 const Scholarship = () => (
   <div className="scholarship wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

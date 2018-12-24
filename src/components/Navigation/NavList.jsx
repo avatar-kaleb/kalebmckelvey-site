@@ -2,6 +2,9 @@ import React from 'react';
 import FontIcon from 'react-md/lib/FontIcons';
 import { Link } from 'gatsby';
 
+/**
+ * Builds the Nav List by created List Item Components as Links!
+ */
 function GetNavList() {
   const NavList = [];
 

@@ -5,7 +5,7 @@ import Card from 'react-md/lib/Cards/Card';
 import CardActions from 'react-md/lib/Cards/CardActions';
 import CardText from 'react-md/lib/Cards/CardText';
 import CardTitle from 'react-md/lib/Cards/CardTitle';
-import Find from 'lodash/find';
+import find from 'lodash/find';
 import GridList from 'react-md/lib/Grids/GridList';
 import Img from 'gatsby-image';
 import Media from 'react-md/lib/Media/Media';
@@ -39,7 +39,7 @@ class Portfolio extends Component {
 
   getImageSizesById(id) {
     const { images } = this.state;
-    const foundNode = Find(images, image => image.node.sizes.src.includes(id));
+    const foundNode = find(images, image => image.node.sizes.src.includes(id));
 
     if (foundNode) {
       return foundNode.node.sizes;

@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Functional component to display an inspiration item
+ * @param {Object} inspiration - the inspiration item to list
+ */
 const InspirationListItem = ({ inspiration }) => (
   <div className="inspiration-list-item">
     <h4>

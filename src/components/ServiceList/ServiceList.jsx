@@ -1,6 +1,10 @@
-import React from "react";
-import ServiceCard from "../ServiceCard/ServiceCard";
+import React from 'react';
+import ServiceCard from '../ServiceCard/ServiceCard';
 
+/**
+ * Displays a list of service cards
+ * @param {Array} services - list of services from service data
+ */
 const ServicesList = ({ services }) => (
   <div className="md-grid">
     {services.map(service => (

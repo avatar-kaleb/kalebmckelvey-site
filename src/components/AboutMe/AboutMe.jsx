@@ -11,6 +11,9 @@ import TableColumn from 'react-md/lib/DataTables/TableColumn';
 // media
 import kalebWelcomeImage from '../../images/AboutMe-Santorini.jpg';
 
+/**
+ * About Me Page Component
+ */
 const AboutMe = () => (
   <div className="about-me wrapper-flex-column--center md-grid mobile-fix">
     <Card className="md-cell md-cell--8 md-cell--10-tablet">

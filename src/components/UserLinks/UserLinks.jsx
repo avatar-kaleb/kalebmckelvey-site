@@ -1,7 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Button from 'react-md/lib/Buttons';
 import './UserLinks.scss';
 
+/**
+ * User links for users to follow me from
+ *
+ * @param {Array} userLinks
+ * @param {Boolean} labeled
+ * @returns
+ */
 function getLinkElements(userLinks, labeled) {
   return userLinks.map(link => (
     <Button

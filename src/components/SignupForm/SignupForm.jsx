@@ -11,7 +11,9 @@ import { Snackbar } from 'react-md';
 import { particleConfig } from '../../constants/config';
 import './SignupForm.scss';
 
-// TODO user toast for subscription
+/**
+ * Sign up form to subscribe users to mail chimp list
+ */
 class SignupForm extends Component {
   _handleFirstNameChange = debounce(e => {
     this.setState({ firstName: e });
