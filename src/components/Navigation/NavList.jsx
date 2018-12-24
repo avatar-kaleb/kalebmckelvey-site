@@ -5,14 +5,57 @@ import { Link } from 'gatsby';
 function GetNavList() {
   const NavList = [];
 
-  // home / about me / bucket list
+  // home
+  NavList.push({
+    key: 'home',
+    primaryText: 'Home',
+    component: Link,
+    to: '/'
+  });
+
+  // Blog
+  NavList.push({
+    key: 'blog-header',
+    primaryText: 'Blog',
+    expanderIcon: <FontIcon>arrow_drop_down</FontIcon>,
+    nestedListClassName: 'drawer-nav-nested-list-item',
+    nestedItems: [
+      {
+        key: 'journey-to-achieve-category',
+        primaryText: 'Journey to Achieve',
+        leftIcon: <FontIcon>flight_takeoff</FontIcon>,
+        component: Link,
+        to: '/categories/journey-to-achieve/'
+      },
+      {
+        key: 'new-york-city-category',
+        primaryText: 'New York City',
+        leftIcon: <FontIcon>location_city</FontIcon>,
+        component: Link,
+        to: '/categories/new-york-city/'
+      },
+      {
+        key: 'tech-category',
+        primaryText: 'Tech',
+        leftIcon: <FontIcon>computer</FontIcon>,
+        component: Link,
+        to: '/categories/tech/'
+      },
+      {
+        key: 'archives',
+        primaryText: 'Archives',
+        leftIcon: <FontIcon>folder</FontIcon>,
+        component: Link,
+        to: '/archives'
+      },
+      {
+        divider: true
+      }
+    ]
+  });
+
+  // about me / bucket list
   NavList.push(
-    {
-      key: 'home',
-      primaryText: 'Home',
-      component: Link,
-      to: '/'
-    },
     {
       key: 'about-me',
       primaryText: 'About Me',
@@ -121,19 +164,13 @@ function GetNavList() {
     ]
   });
 
-  // Contact and archives
+  // Contact
   NavList.push(
     {
       key: 'contact-me',
       primaryText: 'Contact Me',
       component: Link,
       to: '/contact-me/'
-    },
-    {
-      key: 'archives',
-      primaryText: 'Archives',
-      component: Link,
-      to: '/archives'
     },
     {
       divider: true

@@ -6,6 +6,24 @@ import Footer from '../Footer/Footer';
 import GetNavList from './NavList';
 import './Navigation.scss';
 
+/**
+ * Determines whether the nav item should be active based on two conditions
+ * 1. If the key is included in the path name
+ * 2. if the key is blog, and pathname is, which handles page load on homepage
+ * @param {Object} key - key from nav item
+ * @returns {Boolean}
+ */
+function _isNavItemActive(key) {
+  if (typeof window !== `undefined` && window.location) {
+    const {
+      location: { pathname }
+    } = window;
+    return pathname.includes(key) || (key === 'blog' && pathname === '/');
+  }
+
+  return false;
+}
+
 class Navigation extends Component {
   constructor(props) {
     super(props);
@@ -17,67 +35,6 @@ class Navigation extends Component {
     if (process.env.NODE_ENV === 'production') {
       LogRocket.init('0my3ji/kaleb-mckelvey-site');
     }
-  }
-
-  /**
-   * on first load of the site, decorate the nav items with two things:
-   * active property - Determined by current active url location for nav item
-   * onClick - set to custom event handler to set primary text color / styling properly
-   * @returns {Array}
-   */
-  _createNavItems() {
-    return GetNavList().map(item => {
-      if (item.divider) {
-        return item;
-      }
-
-      // handle active class on page load
-      item.active = this._isNavItemActive(item.key);
-
-      let hasFoundActive = false; // prevent looking for active once found
-      if (item.nestedItems && item.nestedItems.length) {
-        item.nestedItems = item.nestedItems.map(nestedItem => {
-          if (nestedItem.divider) {
-            return nestedItem;
-          }
-
-          // handle active class for sub nav on page load
-          if (hasFoundActive === false && this._isNavItemActive(nestedItem.key)) {
-            nestedItem.active = true;
-            item.defaultVisible = true;
-            hasFoundActive = true;
-          }
-
-          return {
-            ...nestedItem,
-            onClick: () => this._setPage(nestedItem.key)
-          };
-        });
-      }
-
-      return {
-        ...item,
-        onClick: () => this._setPage(item.key)
-      };
-    });
-  }
-
-  /**
-   * Determines whether the nav item should be active based on two conditions
-   * 1. If the key is included in the path name
-   * 2. if the key is blog, and pathname is, which handles page load on homepage
-   * @param {Object} key - key from nav item
-   * @returns {Boolean}
-   */
-  _isNavItemActive(key) {
-    if (typeof window !== `undefined` && window.location) {
-      const {
-        location: { pathname }
-      } = window;
-      return pathname.includes(key) || (key === 'blog' && pathname === '/');
-    }
-
-    return false;
   }
 
   /**
@@ -110,6 +67,51 @@ class Navigation extends Component {
       return { ...item, active: item.key === key };
     });
   };
+
+  /**
+   * on first load of the site, decorate the nav items with two things:
+   * active property - Determined by current active url location for nav item
+   * onClick - set to custom event handler to set primary text color / styling properly
+   * @returns {Array}
+   */
+  _createNavItems() {
+    return GetNavList().map(item => {
+      if (item.divider) {
+        return item;
+      }
+
+      // handle active class on page load
+      const newItem = { ...item };
+      newItem.active = _isNavItemActive(newItem.key);
+
+      let hasFoundActive = false; // prevent looking for active once found
+      if (newItem.nestedItems && newItem.nestedItems.length) {
+        newItem.nestedItems = newItem.nestedItems.map(nestedItem => {
+          if (nestedItem.divider) {
+            return nestedItem;
+          }
+
+          const newNestedItem = { ...nestedItem };
+          // handle active class for sub nav on page load
+          if (hasFoundActive === false && _isNavItemActive(newNestedItem.key)) {
+            newNestedItem.active = true;
+            newItem.defaultVisible = true;
+            hasFoundActive = true;
+          }
+
+          return {
+            ...newNestedItem,
+            onClick: () => this._setPage(newNestedItem.key)
+          };
+        });
+      }
+
+      return {
+        ...newItem,
+        onClick: () => this._setPage(newItem.key)
+      };
+    });
+  }
 
   /**
    * React component method
