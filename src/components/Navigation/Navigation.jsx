@@ -18,7 +18,7 @@ function _isNavItemActive(key) {
     const {
       location: { pathname }
     } = window;
-    return pathname.includes(key) || (key === 'blog' && pathname === '/');
+    return pathname.includes(key) || (key === 'home' && pathname === '/');
   }
 
   return false;
@@ -51,8 +51,9 @@ class Navigation extends Component {
         return item;
       }
 
-      if (item.nestedItems && item.nestedItems.length) {
-        item.nestedItems = item.nestedItems.map(nestedItem => {
+      const newItem = { ...item };
+      if (newItem.nestedItems && newItem.nestedItems.length) {
+        newItem.nestedItems = newItem.nestedItems.map(nestedItem => {
           if (nestedItem.divider) {
             return nestedItem;
           }
@@ -64,7 +65,7 @@ class Navigation extends Component {
         });
       }
 
-      return { ...item, active: item.key === key };
+      return { ...newItem, active: newItem.key === key };
     });
   };
 
