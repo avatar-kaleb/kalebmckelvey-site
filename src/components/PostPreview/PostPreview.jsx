@@ -81,8 +81,8 @@ class PostPreview extends Component {
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <div className="post-preview">
-        <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
+      <div className="md-cell md-cell--1-desktop-offset md-cell--0-phone-offset md-cell--10 md-cell--center post-preview margin-bottom--small">
+        <Card key={postInfo.path} raise className="">
           <Media
             style={{
               backgroundImage: `url(${cover})`,
