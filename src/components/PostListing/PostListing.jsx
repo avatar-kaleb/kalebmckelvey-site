@@ -7,7 +7,6 @@ import PostPreview from '../PostPreview/PostPreview';
 function filterPosts(allPosts, autocompleteText) {
   return _.filter(allPosts, post => post.title.includes(autocompleteText));
 }
-
 class PostListing extends React.Component {
   constructor(props) {
     super(props);
