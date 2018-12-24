@@ -5,14 +5,6 @@ import { Link } from 'gatsby';
 function GetNavList() {
   const NavList = [];
 
-  // home
-  NavList.push({
-    key: 'home',
-    primaryText: 'Home',
-    component: Link,
-    to: '/'
-  });
-
   // Blog
   NavList.push({
     key: 'blog-header',

@@ -6,6 +6,8 @@ import Footer from '../Footer/Footer';
 import GetNavList from './NavList';
 import './Navigation.scss';
 
+import { Link } from 'gatsby';
+
 /**
  * Determines whether the nav item should be active based on two conditions
  * 1. If the key is included in the path name
@@ -122,7 +124,11 @@ class Navigation extends Component {
 
     const title = (
       <div>
-        <h2 className="drawer-title--color">{config.siteTitle}</h2>
+        <h2>
+          <Link className="drawer-title--color" to="/" onClick={() => this._setPage('home')}>
+            {config.siteTitle}
+          </Link>
+        </h2>
         <p>{config.siteTagline}</p>
       </div>
     );
