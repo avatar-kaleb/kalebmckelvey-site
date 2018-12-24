@@ -19,7 +19,7 @@ const TagTemplate = props => {
         <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
         <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
       </Helmet>
-      <PostListing postEdges={postEdges} />
+      <PostListing postEdges={postEdges} withSearch />
     </div>
   );
 };

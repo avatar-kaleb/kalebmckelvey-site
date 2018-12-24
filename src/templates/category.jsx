@@ -17,7 +17,7 @@ const CategoryTemplate = props => {
         <title>{`Posts in category "${category}" | ${config.siteTitle}`}</title>
         <link rel="canonical" href={`${config.siteUrl}/categories/${category}`} />
       </Helmet>
-      <PostListing postEdges={postEdges} />
+      <PostListing postEdges={postEdges} withSearch />
     </div>
   );
 };
