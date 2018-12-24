@@ -5,6 +5,13 @@ import { Link } from 'gatsby';
 function GetNavList() {
   const NavList = [];
 
+  NavList.push({
+    key: 'about-me',
+    primaryText: 'About Me',
+    component: Link,
+    to: '/about-me/'
+  });
+
   // Blog
   NavList.push({
     key: 'blog-header',
@@ -45,22 +52,6 @@ function GetNavList() {
       }
     ]
   });
-
-  // about me / bucket list
-  NavList.push(
-    {
-      key: 'about-me',
-      primaryText: 'About Me',
-      component: Link,
-      to: '/about-me/'
-    },
-    {
-      key: 'nyc-bucket-list',
-      primaryText: 'NYC Bucket List',
-      component: Link,
-      to: '/nyc-bucket-list/'
-    }
-  );
 
   // Journey to Achieve
   NavList.push({
@@ -151,18 +142,25 @@ function GetNavList() {
         to: '/professional/services/'
       },
       {
+        key: 'contact-me',
+        primaryText: 'Contact Me',
+        leftIcon: <FontIcon>business_center</FontIcon>,
+        component: Link,
+        to: '/contact-me/'
+      },
+      {
         divider: true
       }
     ]
   });
 
-  // Contact
+  // NYC Bucket List
   NavList.push(
     {
-      key: 'contact-me',
-      primaryText: 'Contact Me',
+      key: 'nyc-bucket-list',
+      primaryText: 'NYC Bucket List',
       component: Link,
-      to: '/contact-me/'
+      to: '/nyc-bucket-list/'
     },
     {
       divider: true
