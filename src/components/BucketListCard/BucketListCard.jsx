@@ -25,13 +25,13 @@ const BucketListCard = ({ bucketListItem }) => (
       </MediaOverlay>
     </Media>
 
-    <CardText className="metadata-flex">
-      <section className="borough-cost-flex">
+    <CardText className="card-text">
+      <section className="borough-and-cost">
         <p>{bucketListItem.location}</p>
         <p className="cost-level-text">{bucketListItem.costLevel}</p>
       </section>
       <p>{bucketListItem.description}</p>
-      <section className="category-flex">
+      <section className="categories">
         {bucketListItem.categories.map(category => (
           <Chip key={`chip-${category}`} className="category-chip" label={category} />
         ))}

@@ -48,7 +48,7 @@ class ServiceCard extends Component {
     const { description, sliderOptions, subtitle, title } = this.props;
 
     return (
-      <Card raise className="serviceCard--mb md-cell--6 md-cell--center md-cell--top">
+      <Card raise className="service-card md-cell--6 md-cell--center md-cell--top">
         <CardTitle title={title} subtitle={subtitle} />
 
         <CardText>
