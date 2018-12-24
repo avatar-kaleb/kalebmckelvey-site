@@ -27,6 +27,13 @@ function GetNavList() {
         to: '/categories/journey-to-achieve/'
       },
       {
+        key: 'mental-models-category',
+        primaryText: 'Mental Models',
+        leftIcon: <FontIcon>whatshot</FontIcon>,
+        component: Link,
+        to: '/categories/mental-model/'
+      },
+      {
         key: 'new-york-city-category',
         primaryText: 'New York City',
         leftIcon: <FontIcon>location_city</FontIcon>,
@@ -144,7 +151,7 @@ function GetNavList() {
       {
         key: 'contact-me',
         primaryText: 'Contact Me',
-        leftIcon: <FontIcon>business_center</FontIcon>,
+        leftIcon: <FontIcon>mood</FontIcon>,
         component: Link,
         to: '/contact-me/'
       },
