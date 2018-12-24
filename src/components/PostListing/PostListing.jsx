@@ -1,11 +1,13 @@
 import React from 'react';
 import Paper from 'react-md/lib/Papers/Paper';
-import _ from 'lodash';
+import debounce from 'lodash/debounce';
+import filter from 'lodash/filter';
+import toLower from 'lodash/toLower';
 import PostAutocomplete from '../PostAutocomplete/PostAutocomplete';
 import PostPreview from '../PostPreview/PostPreview';
 
 function filterPosts(allPosts, autocompleteText) {
-  return _.filter(allPosts, post => post.title.includes(autocompleteText));
+  return filter(allPosts, post => toLower(post.title).includes(toLower(autocompleteText)));
 }
 
 /**
@@ -60,11 +62,11 @@ class PostListing extends React.Component {
           <Paper className="md-grid md-cell--11 mobile-fix paper-background--white  margin-bottom--small" zDepth={2}>
             <PostAutocomplete
               allPostTitles={allPostTitles}
-              filterPosts={_.debounce(event => {
+              filterPosts={debounce(event => {
                 this.setState({
                   filteredPosts: filterPosts(postList, event)
                 });
-              }, 500)}
+              }, 350)}
             />
           </Paper>
         )}

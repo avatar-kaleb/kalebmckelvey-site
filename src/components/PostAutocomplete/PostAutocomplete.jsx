@@ -8,6 +8,7 @@ import Autocomplete from 'react-md/lib/Autocompletes/Autocomplete';
 const PostAutocomplete = ({ allPostTitles = [], filterPosts, placeholder = '' }) => (
   <Autocomplete
     id="post-autocomplete"
+    filter={Autocomplete.caseInsensitiveFilter}
     label="Search posts"
     onAutocomplete={filterPosts}
     onChange={filterPosts}
