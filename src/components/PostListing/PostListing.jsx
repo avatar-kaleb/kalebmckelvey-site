@@ -70,7 +70,7 @@ class PostListing extends React.Component {
             />
           </Paper>
         )}
-        <div className="md-grid mobile-fix">
+        <div className="mobile-fix">
           {filteredPosts.map(post => (
             <PostPreview key={post.title} postInfo={post} />
           ))}
