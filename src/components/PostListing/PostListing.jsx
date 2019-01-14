@@ -57,7 +57,7 @@ class PostListing extends React.Component {
     const { allPostTitles, postList, filteredPosts } = this.state;
     const { withSearch } = this.props;
     return (
-      <div className="md-grid md-grid--no-spacing md-cell--middle">
+      <div className="">
         {withSearch && (
           <Paper className="md-grid md-cell--11 mobile-fix paper-background--white  margin-bottom--small" zDepth={2}>
             <PostAutocomplete
@@ -70,7 +70,7 @@ class PostListing extends React.Component {
             />
           </Paper>
         )}
-        <div className="mobile-fix">
+        <div className="md-grid md-cell--middle mobile-fix">
           {filteredPosts.map(post => (
             <PostPreview key={post.title} postInfo={post} />
           ))}
