@@ -97,5 +97,21 @@ export default [
     status: Statuses.Complete,
     title: 'Rockefeller Center',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.Three,
+    categories: [Categories.Broadway, Categories.MustSee],
+    description: 'See the amazing costumes and listen to Timon and Pumbaa sing Hakuna Matat at a broadway classic!',
+    expectedRating: Ratings.five,
+    featuredImageUrl: 'lionKingBroadway.jpg',
+    id: 'lionKingOnBroadway',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.TBD,
+    season: Seasons.Any,
+    status: Statuses.Complete,
+    title: 'Lion King on Broadway',
+    youtubeVideoLink: ''
   }
 ];
