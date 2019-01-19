@@ -11,6 +11,7 @@ export const Categories = {
   Bar: 'Bar',
   Beach: 'Beach',
   Broadway: 'Broadway',
+  Comedy: 'Comedy',
   Food: 'Food',
   HistoricSite: 'Historical Site',
   LocalsSpot: 'Locals Spot',

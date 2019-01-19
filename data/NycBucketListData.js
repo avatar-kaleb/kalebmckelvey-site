@@ -113,5 +113,21 @@ export default [
     status: Statuses.Complete,
     title: 'Lion King on Broadway',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.One,
+    categories: [Categories.Comedy, Categories.NightLife],
+    description: 'See a comedy show at the New York Comedy Club',
+    expectedRating: Ratings.four,
+    featuredImageUrl: 'comedyShowNycComedyClub.jpg',
+    id: 'comedyShowNycComedyClub',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.TBD,
+    season: Seasons.Any,
+    status: Statuses.ReadyToLaunch,
+    title: 'Comedy at NYC Comedy Club',
+    youtubeVideoLink: ''
   }
 ];
