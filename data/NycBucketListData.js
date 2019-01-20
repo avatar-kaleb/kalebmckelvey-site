@@ -126,7 +126,7 @@ export default [
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Any,
-    status: Statuses.ReadyToLaunch,
+    status: Statuses.Complete,
     title: 'Comedy at NYC Comedy Club',
     youtubeVideoLink: ''
   }
