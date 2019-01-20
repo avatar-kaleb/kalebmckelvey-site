@@ -50,10 +50,10 @@ export const Seasons = {
 };
 
 export const Statuses = {
-  Complete: 'Mission Complete 👾',
-  NeedMoreInfo: 'needMoreInfo',
+  Complete: 'Mission Complete ✅',
+  NeedMoreInfo: 'Need More Info ❓',
   ReadyToLaunch: 'Ready to Launch 🚀',
-  Scheduled: 'Scheduled for Launch 👨‍🚀'
+  Scheduled: 'Scheduled for Launch ⏰'
 };
 
 export const Tags = {};
