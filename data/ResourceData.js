@@ -151,7 +151,8 @@ export default {
             {
               name: 'Alfred 3',
               link: 'https://www.alfredapp.com/',
-              description: 'Boost your productivity with hotkeys, text expansion, workflows, and search.'
+              description:
+                'Boost your productivity with hotkeys, text expansion, workflows, and search.'
             },
             {
               name: 'BetterTouchTool',
@@ -198,7 +199,8 @@ export default {
             {
               name: 'Parcel',
               link: 'https://parceljs.org/',
-              description: 'New competitor for asset bundling - boasts zero config with great bench marks!'
+              description:
+                'New competitor for asset bundling - boasts zero config with great bench marks!'
             }
           ]
         },
@@ -379,7 +381,8 @@ export default {
             },
             {
               name: 'Leading with Heart',
-              link: 'https://www.amazon.com/Leading-Heart-Successful-Strategies-Basketball/dp/0446676780'
+              link:
+                'https://www.amazon.com/Leading-Heart-Successful-Strategies-Basketball/dp/0446676780'
             },
             {
               name: 'Subtle Art of Not Giving a F***',
@@ -427,6 +430,10 @@ export default {
               name: 'The Richest Man in Babylon',
               link:
                 'https://www.amazon.com/Richest-Man-Babylon-George-Clason-ebook/dp/B07H7HN6DN/ref=mt_kindle?_encoding=UTF8&me=&qid='
+            },
+            {
+              name: 'A Random Walk Down Wall Street',
+              link: 'https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338'
             }
           ]
         }
