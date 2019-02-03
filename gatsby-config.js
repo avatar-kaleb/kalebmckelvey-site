@@ -50,7 +50,7 @@ module.exports = {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
-        color: `#ff7043`,
+        color: `#ff6f00`,
         // Disable the loading spinner.
         showSpinner: false
       }
@@ -224,7 +224,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6' // see instructions section below
+        endpoint:
+          'https://xyz.us17.list-manage.com/subscribe/post?u=c1e374334a38b5db71a06f28d&amp;id=40119fb0a6' // see instructions section below
       }
     }
   ]
