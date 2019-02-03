@@ -14,7 +14,8 @@ No matter the genre of choice you choose, I truly believe that reading fictional
 
 _SN - if you're interested in the advantages you can give yourself in life through reading, check out [Josh's article](https://www.joshuakennon.com/the-biggest-advantage-you-can-give-yourself-in-life-is-reading/)!_
 
----
+- - -
+
 ## I Finishing Oathbringer - Finally!
 
 This weekend, I finally finished the third book of the Stormlight Archives, Oathbringer. It was a whopping **1,248 pages, chocked full of 450,000 words!!**.
@@ -53,7 +54,7 @@ _Oathbringer_ at times could be a challenge to follow, because the story is told
 
 Over 20...How could you not learn from a few?
 
-***Dalinar***
+_**Dalinar**_
 
 The honerable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
 
@@ -65,7 +66,7 @@ It's difficult to truly believe that Dalinar should be role modeled, even though
 
 I truly loved the fact he was able to move past in his own journey to become the man he did!
 
-***Jasnah***
+_**Jasnah**_
 
 One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding as a true scholar. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
 
@@ -73,13 +74,19 @@ I believe Jasnah has characteristics we all strive for, but few actually achieve
 
 She's a definite force to be reckoned with, and if there was one thing I take away from her intelligence, it's the way she uses words in her writings and conversations. I look forward to taking on that challenge in my future.
 
-***Adolin***
+Here's a quote from her I added to my OneNote:
+
+“They will try,” Jasnah said, “to define you by something you are not. Don’t let them. I can be a scholar, a woman, a historian, a Radiant. People will still try to classify me by the thing that makes me an outsider. They want, ironically, the thing I don’t do or believe to be the prime marker of my identity. I have always rejected that, and will continue to do so.” She reached over and put her freehand on his arm. 
+
+“You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.” 
+
+_**Adolin**_
 
 Born to a high prince and fulfilling his role as such, his character was known as the son who met his father's expectations as a warrior. He was well liked by all, dressed professionally, and trained to become one of the best swordsman in the book.
 
 I really enjoy his character because of his willingness to be vulnerable. He admitted when he was frightened, or didn't know what to do. He was great at giving Shallan advice or accepting her for who she was. Lastly, he was willing to joke around but was serious when the time was right!
 
-***Kaladin***
+_**Kaladin**_
 
 Being born into a family that demands you to follow the path they pave can be a tough burden. Kaladin from a young age decided he wouldn't follow the surgeon path his father wanted of him, instead he joined the military to fight for glory.
 
@@ -87,7 +94,7 @@ The character of this young gentleman was one who cares deeply for those around 
 
 A natural leader others look up to, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
 
-***Overall***
+_**Overall**_
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
 
@@ -96,7 +103,6 @@ I'm absolutely impressed by the character development and the varying personalit
 There were many quotes throughout the book that I'd love to list, so instead I've decided to do two things.
 
 1. A link to the [Goodreads quotes page](https://www.goodreads.com/work/quotes/23840254-oathbringer).
-
 2. A letter Dalinar wrote at the end of the book
 
 “The most important words a man can say are, “I will do better.” These are not the most important words any man can say. I am a man, and they are what I needed to say.
@@ -109,7 +115,8 @@ I’m certain some will feel threatened by this record. Some few may feel libera
 
 ― Brandon Sanderson, Oathbringer
 
----
+- - -
+
 ## Wrapping Up
 
 I do truly believe that reading both fiction and non-fiction books lead to personal growth. Fantasy happens to be my genre of choice, but I support you in your favorite.
@@ -121,6 +128,5 @@ What a wonderful quote for those on our [Journey to Achieve](https://www.kalebmc
 Thanks for Reading and One Love,
 
 Kaleb McKelvey
-
 
 _Featured image from [Fandom](https://stormlightarchive.fandom.com/wiki/Roshar)_
