@@ -48,7 +48,7 @@ An author doesn't just specialize in the English (which is challenging enough!) 
 
 In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. 
 
-#### You Can Relate to Your Favorite Characters
+#### You Can Relate to Characters
 
 _Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were small excerpts from the main character views - but still.
 
@@ -60,7 +60,7 @@ The honorable code following Shardbearer who treated all with respect, dignity, 
 
 Or so we though.
 
-The third book of the series dived into Dalinar's path of a terrorizer on the battle field, demonized by something referred to as the thrill that fed his on-going bloodthirst - leading to him burning ~10K people after a betrayal, which also led to the death of his wife.
+The third book of the series dived into Dalinar's path of a terrorizer on the battle field, demonized by something referred to as the thrill that fed his on-going blood-thirst - leading to him burning ~10K people after a betrayal, which also led to the death of his wife.
 
 It's difficult to truly believe that Dalinar should be role modeled, even though he has made amends and changed his ways - was his past too tough to look past? A decision you will have to make on your own!
 
@@ -113,7 +113,7 @@ But if we stop, if we accept the person we are when we fall, the journey ends. T
 
 I’m certain some will feel threatened by this record. Some few may feel liberated. Most will simply feel that it should not exist. I needed to write it anyway.” 
 
-― Brandon Sanderson, Oathbringer
+― Brandon Sanderson, _Oathbringer_
 
 - - -
 
