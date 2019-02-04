@@ -20,9 +20,9 @@ _SN - if you're interested in the advantages you can give yourself in life throu
 
 This weekend, I finally finished the third book of the Stormlight Archive, \_Oathbringer\_. It was a whopping **1,248 pages, full of 450,000 words!!**
 
-#### Waittttt How long does it take to read Something Like That?
+#### Waittttt How long does it take to read that many words?
 
-If you are an average speed adult reader, you can digest around ~250 words a minute. That means it would take 1,800 minutes, or **30 hours of reading time** to finish reading one of these bad boys.
+If you are an average speed adult reader, you can digest around ~250 words per minute. That means it would take 1,800 minutes, or **30 hours of reading time** to finish reading one of these bad boys.
 
 I didn't quite time myself or even know my reading speed, but can safely say it took me over 2.5 weeks of putting other things off to finish it up.
 
@@ -34,23 +34,23 @@ Let's take a few minutes to think on what makes imaginative worlds so amazing.
 
 #### Authors Create a new Universe
 
-Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 for the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
+Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 in the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
 
 _Interested in seeing the world? Check out the [fandom wiki](https://stormlightarchive.fandom.com/wiki/Cosmere)._
 
-On the world of Roshar, there are 13 Nations/Regions. It has its own politics, leaders, and characters intertwined in a world that introduced new concepts of magic, fabrials, stormlight, high storms, everstorms, and spren. It has new terms like Parshmen and Voidbringers. The series demonstrates power through material items such as Shardplate and Shardblades demonstrate, and social hierarchy in not only light eyes versus dark eyes in the Alethi nation, but even nahns that give additional rank within those hierarchies.
+On the world of Roshar, there are 13 Nations/Regions. It has its own politics, leaders, and characters intertwined in a world that introduces new concepts of magic, fabrials, stormlight, high storms, everstorms, and spren. It has new terms like Parshmen and Voidbringers. The series demonstrates power through material items such as Shardplate and Shardblades, and social hierarchy in not only light eyes versus dark eyes in the Alethi nation, but even nahns that give additional rank within those hierarchies.
 
-All 13 nations are connected into a spider web of story lines that connects a reader into the emotions, thoughts, and battles through bits and pieces that continuously build characters into people we imagine, envision, and agree or disagree with. Sanderson exhibits character development utilizing both flashbacks and present story lines that create a lallapolooza throughout the series. Each person reading along generates their own version of this wonderful creation described with descriptive visual aids.
+All 13 nations are connected into a spider web of story lines that connects a reader into the emotions, thoughts, and battles through bits and pieces of storylines that continuously build characters into people we imagine and agree or disagree with. Sanderson exhibits character development utilizing both flashbacks and present activities that create a lollapolooza effect of emotions throughout the series. Each person reading along generates their own version of this wonderful creation described with descriptive visual aids.
 
 OK I know that was a lot...a lot of words for those who haven't read the book that mean nothing, but before clicking the x in your favorite browser - take a second to realize what this truly means.
 
-An author doesn't just specialize in the English (which is challenging enough!) to write professionally, but they must create a new world full of new terms, physics, gravity rules, people, and then write in a way to explain for readers to understand it all. Phew.
+An author doesn't just specialize in the English language (which is challenging enough!) to write professionally, but they must create a new world full of new terms, physics, gravity rules, people, and then write in a way to explain for readers to understand it all. Phew.
 
-In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. 
+In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. #respect
 
 #### You Can Relate to Characters
 
-_Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were small excerpts from the main character views - but still.
+_Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were excerpts from the main character views - but still.
 
 Over 20...How could you not learn from a few?
 
@@ -62,13 +62,13 @@ Or so we though.
 
 The third book of the series dived into Dalinar's path of a terrorizer on the battle field, demonized by something referred to as the thrill that fed his on-going blood-thirst - leading to him burning ~10K people after a betrayal, which also led to the death of his wife.
 
-It's difficult to truly believe that Dalinar should be role modeled, even though he has made amends and changed his ways - was his past too tough to look past? A decision you will have to make on your own!
+It's difficult to truly believe that Dalinar should be role modeled, even though he has made amends and changed his ways - was his past too tough to disregard? A decision you will have to make on your own!
 
 I truly loved the fact he was able to move past in his own journey to become the man he did!
 
 **_Jasnah_**
 
-One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding as a true scholar. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
+One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding for the world. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
 
 I believe Jasnah has characteristics we all strive for, but few actually achieve. Why? We relax a little, enjoy life, instead of studying every minute we can.
 
@@ -92,11 +92,11 @@ Being born into a family that demands you to follow the path they pave can be a 
 
 The character of this young gentleman was one who cares deeply for those around him. He put others first and drove himself crazy at times doing so, because sometimes his efforts to protect others failed. 
 
-A natural leader others look up to, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
+A natural leader others look up too, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
 
 **_Overall_**
 
-I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
+I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections for you :D.
 
 #### Quotes
 
