@@ -16,11 +16,11 @@ _SN - if you're interested in the advantages you can give yourself in life throu
 
 ---
 
-## I Finishing Oathbringer - Finally!
+### I Finishing Oathbringer - Finally!
 
 This weekend, I finally finished the third book of the Stormlight Archive, \_Oathbringer\_. It was a whopping **1,248 pages, full of 450,000 words!!**
 
-### Waittttt How long does it take to read Something Like That?
+#### Waittttt How long does it take to read Something Like That?
 
 If you are an average speed adult reader, you can digest around ~250 words a minute. That means it would take 1,800 minutes, or **30 hours of reading time** to finish reading one of these bad boys.
 
@@ -28,11 +28,11 @@ I didn't quite time myself or even know my reading speed, but can safely say it 
 
 The good news? WORTH IT!
 
-## Why I Love Fantasy Books
+### Why I Love Fantasy Books
 
 Let's take a few minutes to think on what makes imaginative worlds so amazing.
 
-### Authors Create a new Universe
+#### Authors Create a new Universe
 
 Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 for the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
 
@@ -48,7 +48,7 @@ An author doesn't just specialize in the English (which is challenging enough!) 
 
 In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. 
 
-### You Can Relate to Your Favorite Characters
+#### You Can Relate to Your Favorite Characters
 
 _Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were small excerpts from the main character views - but still.
 
@@ -56,7 +56,7 @@ Over 20...How could you not learn from a few?
 
 **_Dalinar_**
 
-The honerable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
+The honorable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
 
 Or so we though.
 
@@ -98,7 +98,7 @@ A natural leader others look up to, Kaladin shows the importance of being gentle
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
 
-### Quotes
+#### Quotes
 
 There were many quotes throughout every book you read that inspire you. I'd love to list all of them, so instead I've decided to do two things.
 
@@ -117,7 +117,7 @@ I’m certain some will feel threatened by this record. Some few may feel libera
 
 - - -
 
-## Wrapping Up
+### Wrapping Up
 
 I do truly believe that reading both fiction and non-fiction books lead to personal growth. Fantasy happens to be my genre of choice, but I support you in your favorite.
 
