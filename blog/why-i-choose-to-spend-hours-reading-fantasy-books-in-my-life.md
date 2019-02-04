@@ -32,7 +32,7 @@ The good news? WORTH IT!
 
 Let's take a few minutes to think on what makes imaginative worlds so amazing.
 
-### 1. Authors Create a new Universe
+### Authors Create a new Universe
 
 Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 for the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
 
@@ -48,13 +48,13 @@ An author doesn't just specialize in the English (which is challenging enough!) 
 
 In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. 
 
-### 2. You Can Relate to Your Favorite Characters
+### You Can Relate to Your Favorite Characters
 
 _Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were small excerpts from the main character views - but still.
 
 Over 20...How could you not learn from a few?
 
-**_Dalinar_**
+_**Dalinar**_
 
 The honerable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
 
@@ -66,7 +66,7 @@ It's difficult to truly believe that Dalinar should be role modeled, even though
 
 I truly loved the fact he was able to move past in his own journey to become the man he did!
 
-**_Jasnah_**
+_**Jasnah**_
 
 One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding as a true scholar. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
 
@@ -80,13 +80,13 @@ Here's a quote from her I added to my OneNote:
 
 “You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.” 
 
-**_Adolin_**
+_**Adolin**_
 
 Born to a high prince and fulfilling his role as such, his character was known as the son who met his father's expectations as a warrior. He was well liked by all, dressed professionally, and trained to become one of the best swordsman in the book.
 
 I really enjoy his character because of his willingness to be vulnerable. He admitted when he was frightened, or didn't know what to do. He was great at giving Shallan advice or accepting her for who she was. Lastly, he was willing to joke around but was serious when the time was right!
 
-**_Kaladin_**
+_**Kaladin**_
 
 Being born into a family that demands you to follow the path they pave can be a tough burden. Kaladin from a young age decided he wouldn't follow the surgeon path his father wanted of him, instead he joined the military to fight for glory.
 
@@ -94,7 +94,7 @@ The character of this young gentleman was one who cares deeply for those around 
 
 A natural leader others look up to, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
 
-**_Overall_**
+_**Overall**_
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
 
