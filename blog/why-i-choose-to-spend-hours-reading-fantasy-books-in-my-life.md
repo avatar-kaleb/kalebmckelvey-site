@@ -8,9 +8,9 @@ tags:
   - Life
   - Growth
 ---
-For those who enjoy a great book, we all have our favorite types of stories. From mystery thrillers, to romantic tear jerkers, or non-fiction biographies on our favorite people - there is just something about escaping the world for hours from a new perspective, all the while imagining how the characters look and voices sound.
+For those who enjoy a great book, we all have our favorite types of stories. From mystery thrillers, to romantic tear jerkers, or non-fiction biographies on our favorite people, to written letters on an anonymous advice column - there is just something about escaping the world for hours from a new perspective, all the while imagining how the characters look and voices sound.
 
-No matter the genre of choice you choose, I truly believe that reading fictional books leads to new ideas on how to best live your own life.
+No matter the genre of choice you choose, I truly believe that reading both non-fiction and fictional books introduces new ideas on how to best live your own life - depending on the book of course.
 
 _SN - if you're interested in the advantages you can give yourself in life through reading, check out [Josh's article](https://www.joshuakennon.com/the-biggest-advantage-you-can-give-yourself-in-life-is-reading/)!_
 
@@ -18,43 +18,43 @@ _SN - if you're interested in the advantages you can give yourself in life throu
 
 ## I Finishing Oathbringer - Finally!
 
-This weekend, I finally finished the third book of the Stormlight Archives, Oathbringer. It was a whopping **1,248 pages, chocked full of 450,000 words!!**.
+This weekend, I finally finished the third book of the Stormlight Archive, \_Oathbringer\_. It was a whopping **1,248 pages, full of 450,000 words!!**
 
-### How long does it take to read this thing?
+### Waittttt How long does it take to read Something Like That?
 
-If you are an average speed adult reader, you can digest around ~250 words a minute. That means it would take 1,800 minutes, or **30 hours of reading time** to finish reading this bad boy.
+If you are an average speed adult reader, you can digest around ~250 words a minute. That means it would take 1,800 minutes, or **30 hours of reading time** to finish reading one of these bad boys.
 
 I didn't quite time myself or even know my reading speed, but can safely say it took me over 2.5 weeks of putting other things off to finish it up.
 
-WORTH IT!
+The good news? WORTH IT!
 
 ## Why I Love Fantasy Books
 
-Let's take a few minutes to think on what makes fictional books in imaginative worlds so amazing.
+Let's take a few minutes to think on what makes imaginative worlds so amazing.
 
-### Creating a new Universe
+### 1. Authors Create a new Universe
 
-Not only does Brandon Sanderson have to write a story throughout 10 different books (This was 3 of 10 for the Stormlight Archives) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in a universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
+Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 for the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
 
-_Interested in seeing the world, check out the [fandom wiki](https://stormlightarchive.fandom.com/wiki/Cosmere)._
+_Interested in seeing the world? Check out the [fandom wiki](https://stormlightarchive.fandom.com/wiki/Cosmere)._
 
-Just on Roshar, there are 13 Nations/Regions. There are new politics, leaders, and characters intertwined in a world that introduced new concepts of magic, Fabrials, Stormlight, High Storms, Everstorms, Spren, and Shadesmar. Parshmen and Voidbringers, Shardplate and Shardblades demonstrate power of few, and light eyes versus dark eyes in the Alethi nation create social hierachy with nahns giving society ranking in each.
+On the world of Roshar, there are 13 Nations/Regions. It has its own politics, leaders, and characters intertwined in a world that introduced new concepts of magic, fabrials, stormlight, high storms, everstorms, and spren. It has new terms like Parshmen and Voidbringers. The series demonstrates power through material items such as Shardplate and Shardblades demonstrate, and social hierarchy in not only light eyes versus dark eyes in the Alethi nation, but even nahns that give additional rank within those hierarchies.
 
-These nations are connected into a spider web of story lines that connects a reader into the emotions, thoughts, and battles as bits and pieces continuously build characters into people we imagine. Character development from flashbacks to present actions all create a different world for each person reading along thanks to the wonderful visual aids authors (especially Brandon Sanderson) give us through words.
+All 13 nations are connected into a spider web of story lines that connects a reader into the emotions, thoughts, and battles through bits and pieces that continuously build characters into people we imagine, envision, and agree or disagree with. Sanderson exhibits character development utilizing both flashbacks and present story lines that create a lallapolooza throughout the series. Each person reading along generates their own version of this wonderful creation described with descriptive visual aids.
 
 OK I know that was a lot...a lot of words for those who haven't read the book that mean nothing, but before clicking the x in your favorite browser - take a second to realize what this truly means.
 
-An author doesn't just specialize in the English (which is challenging enough!) to write professionally, but they must create a new world full of new terms, physics, gravity rules, people, and write in a way to explain for readers to understand it all. Phew. 
+An author doesn't just specialize in the English (which is challenging enough!) to write professionally, but they must create a new world full of new terms, physics, gravity rules, people, and then write in a way to explain for readers to understand it all. Phew.
 
-In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre.
+In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. 
 
-### You Can Relate to Your Favorite Characters
+### 2. You Can Relate to Your Favorite Characters
 
 _Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were small excerpts from the main character views - but still.
 
 Over 20...How could you not learn from a few?
 
-_**Dalinar**_
+**_Dalinar_**
 
 The honerable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
 
@@ -66,7 +66,7 @@ It's difficult to truly believe that Dalinar should be role modeled, even though
 
 I truly loved the fact he was able to move past in his own journey to become the man he did!
 
-_**Jasnah**_
+**_Jasnah_**
 
 One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding as a true scholar. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
 
@@ -80,13 +80,13 @@ Here's a quote from her I added to my OneNote:
 
 “You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.” 
 
-_**Adolin**_
+**_Adolin_**
 
 Born to a high prince and fulfilling his role as such, his character was known as the son who met his father's expectations as a warrior. He was well liked by all, dressed professionally, and trained to become one of the best swordsman in the book.
 
 I really enjoy his character because of his willingness to be vulnerable. He admitted when he was frightened, or didn't know what to do. He was great at giving Shallan advice or accepting her for who she was. Lastly, he was willing to joke around but was serious when the time was right!
 
-_**Kaladin**_
+**_Kaladin_**
 
 Being born into a family that demands you to follow the path they pave can be a tough burden. Kaladin from a young age decided he wouldn't follow the surgeon path his father wanted of him, instead he joined the military to fight for glory.
 
@@ -94,16 +94,16 @@ The character of this young gentleman was one who cares deeply for those around 
 
 A natural leader others look up to, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
 
-_**Overall**_
+**_Overall_**
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
 
-### Quotes
+### 3. Quotes
 
-There were many quotes throughout the book that I'd love to list, so instead I've decided to do two things.
+There were many quotes throughout every book you read that inspire you. I'd love to list all of them, so instead I've decided to do two things.
 
 1. A link to the [Goodreads quotes page](https://www.goodreads.com/work/quotes/23840254-oathbringer).
-2. A letter Dalinar wrote at the end of the book
+2. A letter Dalinar wrote at the end of the book elow.
 
 “The most important words a man can say are, “I will do better.” These are not the most important words any man can say. I am a man, and they are what I needed to say.
 
@@ -121,7 +121,7 @@ I’m certain some will feel threatened by this record. Some few may feel libera
 
 I do truly believe that reading both fiction and non-fiction books lead to personal growth. Fantasy happens to be my genre of choice, but I support you in your favorite.
 
-The most important thing to remember from the Knights Radiant: "journey before destination"
+The most important thing to remember from the Knights Radiant: "journey before destination." 
 
 What a wonderful quote for those on our [Journey to Achieve](https://www.kalebmckelvey.com/journey-to-achieve/about-the-journey/)
 
