@@ -14,7 +14,7 @@ No matter the genre of choice you choose, I truly believe that reading both non-
 
 _SN - if you're interested in the advantages you can give yourself in life through reading, check out [Josh's article](https://www.joshuakennon.com/the-biggest-advantage-you-can-give-yourself-in-life-is-reading/)!_
 
-- - -
+---
 
 ## I Finishing Oathbringer - Finally!
 
@@ -54,7 +54,7 @@ _Oathbringer_ at times could be a challenge to follow, because the story is told
 
 Over 20...How could you not learn from a few?
 
-_**Dalinar**_
+**_Dalinar_**
 
 The honerable code following Shardbearer who treated all with respect, dignity, and integrity. The wise and battle-worn veteran leader that would lead the world from destruction as he united the nations against the income evils.
 
@@ -66,7 +66,7 @@ It's difficult to truly believe that Dalinar should be role modeled, even though
 
 I truly loved the fact he was able to move past in his own journey to become the man he did!
 
-_**Jasnah**_
+**_Jasnah_**
 
 One of the strongest, most intelligent, and uptight characters in the book. She was a devoted scholar, took details very seriously, and documented every finding as a true scholar. She believed in herself, in her research, and did what was logical and necessary for the good of her nation.
 
@@ -80,13 +80,13 @@ Here's a quote from her I added to my OneNote:
 
 “You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.” 
 
-_**Adolin**_
+**_Adolin_**
 
 Born to a high prince and fulfilling his role as such, his character was known as the son who met his father's expectations as a warrior. He was well liked by all, dressed professionally, and trained to become one of the best swordsman in the book.
 
 I really enjoy his character because of his willingness to be vulnerable. He admitted when he was frightened, or didn't know what to do. He was great at giving Shallan advice or accepting her for who she was. Lastly, he was willing to joke around but was serious when the time was right!
 
-_**Kaladin**_
+**_Kaladin_**
 
 Being born into a family that demands you to follow the path they pave can be a tough burden. Kaladin from a young age decided he wouldn't follow the surgeon path his father wanted of him, instead he joined the military to fight for glory.
 
@@ -94,11 +94,11 @@ The character of this young gentleman was one who cares deeply for those around 
 
 A natural leader others look up to, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
 
-_**Overall**_
+**_Overall_**
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections from you :D.
 
-### 3. Quotes
+### Quotes
 
 There were many quotes throughout every book you read that inspire you. I'd love to list all of them, so instead I've decided to do two things.
 
