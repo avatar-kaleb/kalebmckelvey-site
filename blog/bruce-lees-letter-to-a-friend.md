@@ -1,6 +1,6 @@
 ---
 cover: /post-images/bruce-lee-poem-featured-image.jpeg
-date: 2019-01-13T14:45:23.863Z
+date: 2019-01-13
 title: Bruce Lee's Letter to a Friend
 category: Journey to Achieve
 tags:
@@ -8,6 +8,7 @@ tags:
   - growth
   - positive thinking
 ---
+
 I recently took a bit of time to read an interesting book called **Bruce Lee, Letters of the Dragon**. The book was a collection of letters to friends, business partners, and family throughout his journey to America, sets of films he was recording, and experiences as he mentored, kept up with, and expressed his love to the important people in his life.
 
 I felt the letter below was worth sharing as it encapsulated the type of person Bruce Lee was!
@@ -54,7 +55,7 @@ Who clumsily blocks his own way?
 
 Am I the self-assured gentleman
 
-With a winning style, The natural born leader 
+With a winning style, The natural born leader
 
 Who makes friends instantly,
 
@@ -165,4 +166,5 @@ Just as the maintaining of good health may req the taking of unpleasant medicine
 You have what it takes, I know you will win out one way or the other. So damn the torpedo, full speed ahead! Remember what this Chinaman says, "Circumstances? Hell, I make circumstances!"
 
 ---
+
 I still believe that this mentality, and philosophy is helpful in life!!

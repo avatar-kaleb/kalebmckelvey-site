@@ -14,7 +14,7 @@ collections:
     create: true
     fields:
       - { name: cover, label: 'Cover Image', widget: image }
-      - { name: date, label: Date, widget: date }
+      - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
       - { name: title, label: Title }
       - { name: category, label: Category }
       - { name: tags, label: Tags, widget: list }

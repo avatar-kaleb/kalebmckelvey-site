@@ -1,6 +1,6 @@
 ---
 cover: /post-images/map_roshar.jpg
-date: 2019-02-03T19:37:11.841Z
+date: 2019-02-03
 title: Why I Choose to Spend Hours Reading Fantasy Books in My Life
 category: Journey to Achieve
 tags:
@@ -8,6 +8,7 @@ tags:
   - Life
   - Growth
 ---
+
 For those who enjoy a great book, we all have our favorite types of stories. From mystery thrillers, to romantic tear jerkers, or non-fiction biographies on our favorite people, to written letters on an anonymous advice column - there is just something about escaping the world for hours from a new perspective, all the while imagining how the characters look and voices sound.
 
 No matter the genre of choice you choose, I truly believe that reading both non-fiction and fictional books introduces new ideas on how to best live your own life - depending on the book of course.
@@ -76,9 +77,9 @@ She's a definite force to be reckoned with, and if there was one thing I take aw
 
 Here's a quote from her I added to my OneNote:
 
-“They will try,” Jasnah said, “to define you by something you are not. Don’t let them. I can be a scholar, a woman, a historian, a Radiant. People will still try to classify me by the thing that makes me an outsider. They want, ironically, the thing I don’t do or believe to be the prime marker of my identity. I have always rejected that, and will continue to do so.” She reached over and put her freehand on his arm. 
+“They will try,” Jasnah said, “to define you by something you are not. Don’t let them. I can be a scholar, a woman, a historian, a Radiant. People will still try to classify me by the thing that makes me an outsider. They want, ironically, the thing I don’t do or believe to be the prime marker of my identity. I have always rejected that, and will continue to do so.” She reached over and put her freehand on his arm.
 
-“You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.” 
+“You are not a heretic, Dalinar Kholin. You are a king, a Radiant, and a father. You are a man with complicated beliefs, who does not accept everything you are told. You decide how you are defined. Don’t surrender that to them. They will gleefully take the chance to define you, if you allow it.”
 
 **_Adolin_**
 
@@ -90,9 +91,9 @@ I really enjoy his character because of his willingness to be vulnerable. He adm
 
 Being born into a family that demands you to follow the path they pave can be a tough burden. Kaladin from a young age decided he wouldn't follow the surgeon path his father wanted of him, instead he joined the military to fight for glory.
 
-The character of this young gentleman was one who cares deeply for those around him. He put others first and drove himself crazy at times doing so, because sometimes his efforts to protect others failed. 
+The character of this young gentleman was one who cares deeply for those around him. He put others first and drove himself crazy at times doing so, because sometimes his efforts to protect others failed.
 
-A natural leader others look up too, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you. 
+A natural leader others look up too, Kaladin shows the importance of being gentle and tough as you take on the world that can sometimes feel against you.
 
 **_Overall_**
 
@@ -111,17 +112,17 @@ The ancient code of the Knights Radiant says “journey before destination.” S
 
 But if we stop, if we accept the person we are when we fall, the journey ends. That failure becomes our destination. To love the journey is to accept no such end. I have found, through painful experience, that the most important step a person can take is always the next one.
 
-I’m certain some will feel threatened by this record. Some few may feel liberated. Most will simply feel that it should not exist. I needed to write it anyway.” 
+I’m certain some will feel threatened by this record. Some few may feel liberated. Most will simply feel that it should not exist. I needed to write it anyway.”
 
 ― Brandon Sanderson, _Oathbringer_
 
-- - -
+---
 
 ### Wrapping Up
 
 I do truly believe that reading both fiction and non-fiction books lead to personal growth. Fantasy happens to be my genre of choice, but I support you in your favorite.
 
-The most important thing to remember from the Knights Radiant: "journey before destination." 
+The most important thing to remember from the Knights Radiant: "journey before destination."
 
 What a wonderful quote for those on our [Journey to Achieve](https://www.kalebmckelvey.com/journey-to-achieve/about-the-journey/)
 
