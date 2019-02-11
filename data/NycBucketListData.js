@@ -129,5 +129,21 @@ export default [
     status: Statuses.Complete,
     title: 'Comedy at NYC Comedy Club',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.Four,
+    categories: [Categories.Broadway, Categories.NightLife],
+    description: 'Enjoy the longest running broadway show at the Majestic Theatre!',
+    expectedRating: Ratings.four,
+    featuredImageUrl: 'phantomOfTheOpera.jpg',
+    id: 'phantomOfTheOpera',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.Four,
+    season: Seasons.Winter,
+    status: Statuses.Complete,
+    title: 'See Phantom of the Opera',
+    youtubeVideoLink: ''
   }
 ];
