@@ -235,7 +235,7 @@ export default {
           ]
         },
         {
-          name: 'SCSS / CSS Libraries',
+          name: 'CSS Libraries / Resources',
           resources: [
             {
               name: 'React MD',
@@ -261,6 +261,11 @@ export default {
               name: 'Lottie',
               link: 'https://airbnb.design/lottie/',
               description: "AirBnb's library to make animations easy."
+            },
+            {
+             name: 'CSS Houdini',
+             link: 'https://houdini.glitch.me/',
+             description: 'Keep up with the state and status of Houdini'
             }
           ]
         }
