@@ -38,9 +38,9 @@ SN: Check out my [Instagram](https://www.instagram.com/on\_the\_journey3/) for p
 
 It wasn't until after my first rotation, around 2-3 months into my first job after college, that I recognized my inability to take a deep breath, think on a bigger picture, and have the courage to ask for help from those with similar experiences I struggled with.
 
-In other words, why waste time fighting through situations others have been in that are willing to help you through them?
+In other words, why waste time fighting through situations others have been in - especially when they are willing to help you through them?
 
-The people who took time from their schedules to sit down with me over coffee or coffee, conference rooms or offices, I'm grateful.
+The people who took time from their schedules to sit down with me over coffee or lunch, conference rooms or offices, I'm grateful.
 
 Time and feedback, two very important gifts one must be willing to give and receive on their [journey to achieve](https://www.kalebmckelvey.com/journey-to-achieve/about-the-journey/).
 

@@ -33,7 +33,7 @@ The good news? WORTH IT!
 
 Let's take a few minutes to think on what makes imaginative worlds so amazing.
 
-#### Authors Create a new Universe
+#### **Authors Create a new Universe**
 
 Not only does Brandon Sanderson have to write a story throughout 10 different books (This was book 3 of 10 in the Stormlight Archive) for the world of Roshar, but his fantasy works expand even further. He's created a universe of different worlds in one universe called the Cosmere. Each series has different characters, with one who appears in all of books so far called Hoid.
 
@@ -49,7 +49,7 @@ An author doesn't just specialize in the English language (which is challenging 
 
 In other words, the paragraph full of Stormlight Archive terms that non-readers see as gibberish gives proof in the skill required to write a book in this genre. #respect
 
-#### You Can Relate to Characters
+#### **You Can Relate to Characters**
 
 _Oathbringer_ at times could be a challenge to follow, because the story is told from over 20 perspectives throughout the book - most were excerpts from the main character views - but still.
 
@@ -99,7 +99,7 @@ A natural leader others look up too, Kaladin shows the importance of being gentl
 
 I'm absolutely impressed by the character development and the varying personalities that Brandon Sanderson gives us to relate to. There are many more I enjoyed learning about, like Lift, Szeth, and Renarin, but I'll spare those reflections for you :D.
 
-#### Quotes
+#### **Quotes**
 
 There were many quotes throughout every book you read that inspire you. I'd love to list all of them, so instead I've decided to do two things.
 
