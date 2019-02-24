@@ -59,27 +59,27 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
     return (
-      <div className="post-page md-grid md-grid--no-spacing animated fadeIn">
+      <div className='post-page md-grid md-grid--no-spacing animated fadeIn slow'>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
+          <link rel='canonical' href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <PostCover postNode={postNode} isMobile={isMobile} />
         <div className={`md-grid md-cell--8 post-page-contents mobile-fix ${postOverlapClass}`}>
-          <Card className="md-grid md-cell md-cell--12 post">
-            <CardText className="post-body">
-              <h1 className="md-display-1 post-header">{post.title}</h1>
+          <Card className='md-grid md-cell md-cell--12 post'>
+            <CardText className='post-body'>
+              <h1 className='md-display-1 post-header'>{post.title}</h1>
               <PostInfo postNode={postNode} />
               <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             </CardText>
-            <div className="post-meta">
+            <div className='post-meta'>
               <PostTags tags={post.tags} />
               <SocialLinks postPath={slug} postNode={postNode} isMobile={isMobile} />
               <PostSuggestions postNode={postNode} />
             </div>
           </Card>
-          <UserInfo className="md-grid md-cell md-cell--12" config={config} expanded={expanded} />
+          <UserInfo className='md-grid md-cell md-cell--12' config={config} expanded={expanded} />
           <Disqus postNode={postNode} expanded={expanded} />
         </div>
       </div>

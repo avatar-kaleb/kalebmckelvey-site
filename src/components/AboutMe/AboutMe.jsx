@@ -15,19 +15,19 @@ import kalebWelcomeImage from '../../images/AboutMe-Santorini.jpg';
  * About Me Page Component
  */
 const AboutMe = () => (
-  <div className="about-me wrapper-flex-column--center md-grid mobile-fix">
-    <Card className="md-cell md-cell--8 md-cell--10-tablet">
-      <Media aspectRatio="4-3">
+  <div className='about-me wrapper-flex-column--center md-grid mobile-fix'>
+    <Card className='md-cell md-cell--8 md-cell--10-tablet'>
+      <Media aspectRatio='4-3'>
         <img
-          className="animated fadeInDown"
+          className='animated fadeInDown slow'
           src={kalebWelcomeImage}
           alt="A black silhouette of an male's head looking out towards a beautiful sunset."
         />
       </Media>
-      <CardText className="animated slideInUp cardText-text">
+      <CardText className='animated slideInUp slow cardText-text'>
         <p>
-          Hola. I&#39;m Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental model extraordinaire,
-          nature walker, and reddit lurker.
+          Hola. I&#39;m Kaleb - a coffee connoisseur, frequent traveler, health enthusiast, mental
+          model extraordinaire, nature walker, and reddit lurker.
           <br />
           <br />
           Thanks for stopping by!
@@ -37,23 +37,29 @@ const AboutMe = () => (
           <strong>I help solve business problems through modern custom web applications.</strong>
         </p>
         <p>
-          Combining leadership and technical skills, I collaborate with our team to design and develop solutions on
-          tough requirements.
+          Combining leadership and technical skills, I collaborate with our team to design and
+          develop solutions on tough requirements.
         </p>
         <p>
-          In the past my focus was doing this for GE Healthcare manufacturing shops. Recently, I changed to a new
-          industry, city, and role - Sr Software Engineer in New York at Northwestern Mutual!
+          In the past my focus was doing this for GE Healthcare manufacturing shops. Recently, I
+          changed to a new industry, city, and role - Sr Software Engineer in New York at
+          Northwestern Mutual!
         </p>
         <p>
-          In addition to solving business problems, I continuously explore new technologies and focus on improving code
-          bases as I learn from mistakes, grow through experience, and heed the advice from top developers on the web!
+          In addition to solving business problems, I continuously explore new technologies and
+          focus on improving code bases as I learn from mistakes, grow through experience, and heed
+          the advice from top developers on the web!
         </p>
         <h1>My Skills:</h1>
         <p>
-          In the last few years I&#39;ve been offered the opportunities to learn and grow through various experiences.
+          In the last few years I&#39;ve been offered the opportunities to learn and grow through
+          various experiences.
         </p>
         <h2>Modern Web Development:</h2>
-        <p>I&#39;ve worked on multiple projects utilizing various technologies, check out the table for details!</p>
+        <p>
+          I&#39;ve worked on multiple projects utilizing various technologies, check out the table
+          for details!
+        </p>
         <br />
         <DataTable plain>
           <TableHeader>
@@ -111,13 +117,13 @@ const AboutMe = () => (
         <br />
         <h2>Leadership:</h2>
         <p>
-          I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From this, I led through
-          experience and learned from many top IT professionals in GE. Becoming a tech lead on our Milwaukee Software
-          team, I mentored junior team members, lead initiatives, improveed our code base with every new feature, and
-          helped architect designs to meet requirements from our Product Owners.
+          I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From
+          this, I led through experience and learned from many top IT professionals in GE. Becoming
+          a tech lead on our Milwaukee Software team, I mentored junior team members, lead
+          initiatives, improveed our code base with every new feature, and helped architect designs
+          to meet requirements from our Product Owners.
           <br />
-          <br />
-I look forward to continuing using this experience in my new role!
+          <br />I look forward to continuing using this experience in my new role!
         </p>
         <br />
         <DataTable plain>
@@ -156,7 +162,8 @@ I look forward to continuing using this experience in my new role!
         <br />
         <h2>AX Dynamics:</h2>
         <p>
-          4+ years of development experience designing custom solutions to meet user needs, providing business value.
+          4+ years of development experience designing custom solutions to meet user needs,
+          providing business value.
         </p>
         <DataTable plain>
           <TableHeader>
@@ -188,76 +195,87 @@ I look forward to continuing using this experience in my new role!
         {/* Story! */}
         <h1>My Story</h1>
         <p>
-          I believe everyone has a wonderful story to explain how in the world they got to the current moment we call
-          now. Here&#39;s a bit of mine!
+          I believe everyone has a wonderful story to explain how in the world they got to the
+          current moment we call now. Here&#39;s a bit of mine!
         </p>
         <h2>TLDR:</h2>
         <p>
-          I&apos;m Kaleb McKelvey, a small town raised young professional, who focuses on exhibiting high character
-          combined with strong ambition to continously grow a little bit each day.
+          I&apos;m Kaleb McKelvey, a small town raised young professional, who focuses on exhibiting
+          high character combined with strong ambition to continously grow a little bit each day.
           <br />
           <br />
-          I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to a leadership program at GE
-          Healthcare which led to becoming a Staff Software Engineer; Since then, I made the move to a new industry and
-          city - New York - to close the distance with my girlfriend and take on a new role!
+          I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to a
+          leadership program at GE Healthcare which led to becoming a Staff Software Engineer; Since
+          then, I made the move to a new industry and city - New York - to close the distance with
+          my girlfriend and take on a new role!
           <br />
           <br />
-          My experiences in leadership and technical depth, has molded me into a well rounded Software Engineer who has
-          a true passion for technology!
+          My experiences in leadership and technical depth, has molded me into a well rounded
+          Software Engineer who has a true passion for technology!
         </p>
         <h2>Long Version</h2>
-        <p>I&apos;m a young professional with aspirations to inspire, grow, and achieve in various areas of my life.</p>
+        <p>
+          I&apos;m a young professional with aspirations to inspire, grow, and achieve in various
+          areas of my life.
+        </p>
         <h3>Small town life</h3>
         <p>Growing up in a small town built the foundation of who I am today in a few ways.</p>
         <p>
-          First, and most important, my family instilled in me the values of responsibility, character, and integrity. 
-          Second, my coaches and teachers taught me the values of work ethic and accountability. Lastly, it gave me the
-          opportunity to understand that boredom can be replaced with canoe trips down the river, swimming in the
-          quarry, and learning new technologies!
+          First, and most important, my family instilled in me the values of responsibility,
+          character, and integrity.  Second, my coaches and teachers taught me the values of work
+          ethic and accountability. Lastly, it gave me the opportunity to understand that boredom
+          can be replaced with canoe trips down the river, swimming in the quarry, and learning new
+          technologies!
         </p>
         <h3>College Years</h3>
-        <p>Technology for me began with video games, leading to a desire for becoming a developer.</p>
         <p>
-          It was this desire that my college journey began, a journey that changed my perspective by opening my mind and
-          meeting great people with unique stories. A place to learn how to develop software from experts and the skill
-          of time management through balance.
+          Technology for me began with video games, leading to a desire for becoming a developer.
         </p>
         <p>
-          By graduation, I completed my dream of learning to develop and became a member of the greatest fraternity in
-          the world, Kappa Alpha Psi.
+          It was this desire that my college journey began, a journey that changed my perspective by
+          opening my mind and meeting great people with unique stories. A place to learn how to
+          develop software from experts and the skill of time management through balance.
         </p>
         <p>
-          My family, fraternity brothers, and colleagues guided me to a new vision on life, one that looks at the future
-          as much as the present.
+          By graduation, I completed my dream of learning to develop and became a member of the
+          greatest fraternity in the world, Kappa Alpha Psi.
+        </p>
+        <p>
+          My family, fraternity brothers, and colleagues guided me to a new vision on life, one that
+          looks at the future as much as the present.
         </p>
         <h3>Becoming a Software Engineer!</h3>
         <p>
-          Since then, I began working at GE in their Digital Technology Leadership Program followed achieving my dream
-          of becoming a Software Engineer! GE is a company that focuses on the development of both technical and
-          leadership skill-sets. Because of this, I have grown in both my professional and personal worlds thanks to the
-          fabulous people I&apos;ve met on the way.
+          Since then, I began working at GE in their Digital Technology Leadership Program followed
+          achieving my dream of becoming a Software Engineer! GE is a company that focuses on the
+          development of both technical and leadership skill-sets. Because of this, I have grown in
+          both my professional and personal worlds thanks to the fabulous people I&apos;ve met on
+          the way.
         </p>
         <p>
-          Fast forward today, I work at Northwestern Mutual - a company that has more than a century under its belt
-          -&nbsp; adventuring through a digital transformation. Personal finance has long been a passion of mine, so
-          getting an opportunity to spend 40+ hours a week developing software to help people with that area of their
-          life has been great!
+          Fast forward today, I work at Northwestern Mutual - a company that has more than a century
+          under its belt -&nbsp; adventuring through a digital transformation. Personal finance has
+          long been a passion of mine, so getting an opportunity to spend 40+ hours a week
+          developing software to help people with that area of their life has been great!
         </p>
         <p>
-          Not only do I get to do this while taking on the new experiences NYC has to offer, but I get to do it with my
-          best friend supporting me through the journey!
+          Not only do I get to do this while taking on the new experiences NYC has to offer, but I
+          get to do it with my best friend supporting me through the journey!
         </p>
         <h3>Concluding Thoughts</h3>
         <p>
-          Overall I am excited to grow through new experiences! My passion for technology and desire to make the world a
-          better place drives me to continue learning. Life is a feeling process and a journey to achieve all that you
-          want on the way!
+          Overall I am excited to grow through new experiences! My passion for technology and desire
+          to make the world a better place drives me to continue learning. Life is a feeling process
+          and a journey to achieve all that you want on the way!
         </p>
         <p>
-          I hope to influence your journey towards achieving anything you want. I truly believe you are the executive of
-          your life.
+          I hope to influence your journey towards achieving anything you want. I truly believe you
+          are the executive of your life.
         </p>
-        <p>With all that being said, I look forward to hearing from you - comment, subscribe, and enjoy!</p>
+        <p>
+          With all that being said, I look forward to hearing from you - comment, subscribe, and
+          enjoy!
+        </p>
         <p>
           Best wishes,
           <br />

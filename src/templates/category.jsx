@@ -12,10 +12,10 @@ const CategoryTemplate = props => {
     pathContext: { category }
   } = props;
   return (
-    <div className="category-container animated fadeIn">
+    <div className='category-container animated fadeIn slow'>
       <Helmet>
         <title>{`Posts in category "${category}" | ${config.siteTitle}`}</title>
-        <link rel="canonical" href={`${config.siteUrl}/categories/${category}`} />
+        <link rel='canonical' href={`${config.siteUrl}/categories/${category}`} />
       </Helmet>
       <PostListing postEdges={postEdges} withSearch />
     </div>
