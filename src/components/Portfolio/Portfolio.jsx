@@ -63,7 +63,7 @@ class Portfolio extends Component {
       let action = '';
       if (portfolioItem.url.length > 0) {
         action = (
-          <CardActions className="md-divider-border md-divider-border--bottom">
+          <CardActions className='md-divider-border md-divider-border--bottom'>
             <Button flat secondary href={portfolioItem.url}>
               View Live Project
             </Button>
@@ -75,9 +75,8 @@ class Portfolio extends Component {
         <Card key={portfolioItem.id}>
           <Media>
             <Img
-              className="animated pulse"
               sizes={this.getImageSizesById(portfolioItem.id) || ''}
-              alt="" // TODO update alts in data
+              alt='' // TODO update alts in data
             />
             <MediaOverlay>
               <CardTitle
@@ -101,7 +100,12 @@ class Portfolio extends Component {
       );
     });
     return (
-      <GridList className="portfolio-container" desktopSize={6} tabletSize={8} position="center">
+      <GridList
+        className='portfolio-container animated fadeIn slow'
+        desktopSize={6}
+        tabletSize={8}
+        position='center'
+      >
         {rows}
       </GridList>
     );

@@ -9,7 +9,7 @@ import BucketListCardList from '../BucketListCardList/BucketListCardList';
  * NYC Bucket List Page Component
  */
 const NycBucketList = () => (
-  <div className="nyc-bucketlist animated fadeIn slow md-grid mobile-fix">
+  <div className='nyc-bucketlist animated fadeInUp md-grid mobile-fix'>
     <BucketListCardList bucketListItems={NycBucketListData} />
   </div>
 );

@@ -13,23 +13,23 @@ import ResourcesList from '../ResourcesList/ResourcesList';
  * Life Resources Page Component
  */
 const LifeResources = () => (
-  <div className="life-resources wrapper-flex-column--center md-grid mobile-fix">
-    <Card className="md-cell md-cell--8 md-cell--10-tablet">
-      <Media aspectRatio="4-3">
+  <div className='life-resources wrapper-flex-column--center md-grid mobile-fix'>
+    <Card className='md-cell md-cell--8 md-cell--10-tablet'>
+      <Media aspectRatio='4-3'>
         <img
-          className="animated pulse"
+          className='animated pulse'
           src={chalkboardImage}
-          alt="A white male with a black tuxedo on in a nature setting."
+          alt='A white male with a black tuxedo on in a nature setting.'
         />
       </Media>
-      <CardText className="animated zoomInUp cardText-text">
+      <CardText className='animated zoomInUp cardText-text'>
         <p>
           <em>
-            Below are lists of tools I find useful on my own journey to achieve. Currently, these are non affiliate
-            links. Feel free to use them on your journey as well!
+            Below are lists of tools I find useful on my own journey to achieve. Currently, these
+            are non affiliate links. Feel free to use them on your journey as well!
           </em>
         </p>
-        <ResourcesList resources={ResourcesData} type="life" />
+        <ResourcesList resources={ResourcesData} type='life' />
       </CardText>
     </Card>
   </div>
