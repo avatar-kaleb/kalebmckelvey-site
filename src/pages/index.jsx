@@ -7,20 +7,16 @@ import Home from '../components/Home/Home';
 
 import config from '../../data/SiteConfig';
 
-const Index = ({
-  data: {
-    allMarkdownRemark: { edges: postEdges }
-  }
-}) => (
-  <div className="index-container">
+const Index = React.memo(({ data: { allMarkdownRemark: { edges: postEdges } } }) => (
+  <div className='index-container'>
     <Helmet>
       <title>{config.siteTitle}</title>
-      <link rel="canonical" href={`${config.siteUrl}`} />
+      <link rel='canonical' href={`${config.siteUrl}`} />
     </Helmet>
     <SEO postEdges={postEdges} />
     <Home postEdges={postEdges} />
   </div>
-);
+));
 
 export default Index;
 

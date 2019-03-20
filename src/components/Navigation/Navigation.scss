@@ -22,6 +22,11 @@ nav > header > div {
     align-content: center;
 }
 
+h2.md-title.md-title--toolbar {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 // style for drawer title
 nav > header > div > h2:first-of-type {
     border-bottom: solid 1px;

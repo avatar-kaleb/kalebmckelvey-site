@@ -10,6 +10,14 @@ $md-tertiary-color: $md-grey-300;
 $md-light-grey: $md-grey-100;
 $md-text---theme-primary: $md-blue-900;
 
+h2,
+h3,
+h4,
+.md-display-3,
+.md-display-4 {
+    white-space: normal;
+}
+
 .main-container,
 .darker-background {
     background-color: $md-tertiary-color;

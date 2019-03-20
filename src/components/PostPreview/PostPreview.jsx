@@ -47,12 +47,13 @@ class PostPreview extends Component {
 
   componentDidMount() {
     this.handleResize();
-    window.addEventListener('resize', this.handleResize);
+    // window.addEventListener('resize', this.handleResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleResize);
+    // window.removeEventListener('resize', this.handleResize);
   }
+
 
   /**
    * Ths sets the button for this post preview to show or hide
@@ -67,11 +68,16 @@ class PostPreview extends Component {
    */
   handleResize() {
     if (window.innerWidth >= screenWidths.maxMobile) {
+      if (this.state.isMobile) {
       this.setState({ isMobile: false });
+      }
     } else {
-      this.setState({ isMobile: true });
+      if (!this.state.isMobile) {
+        this.setState({ isMobile: true });
+      }
     }
   }
+
 
   render() {
     const { buttonHidden, isMobile } = this.state;
@@ -82,7 +88,7 @@ class PostPreview extends Component {
 
     return (
       <div className="md-cell md-cell--1-desktop-offset md-cell--0-phone-offset md-cell--10 md-cell--center post-preview margin-bottom--small">
-        <Card key={postInfo.path} raise className="">
+        <Card key={postInfo.path} animate={false} className="">
           <Media
             style={{
               backgroundImage: `url(${cover})`,
