@@ -5,7 +5,7 @@ date: '2019-06-09'
 title: >-
   To Get What You Want - Ask For It! Meeting Joshua Kennon and his Husband Aaron
   in LA!
-category: journey to achieve
+category: Journey to Achieve
 tags:
   - random
   - adventure
