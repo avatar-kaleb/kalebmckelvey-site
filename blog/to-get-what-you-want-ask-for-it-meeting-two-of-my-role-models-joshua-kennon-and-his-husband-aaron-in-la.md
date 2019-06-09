@@ -1,5 +1,5 @@
 ---
-cover: /post-images/hanging-with-joshua-kennon-starbucks-newport.jpg
+cover: /post-images/hanging-with-joshua-kennon-starbucks-1-.jpg
 date: '2019-06-09'
 title: >-
   To Get What You Want - Ask For It! Meeting Joshua Kennon and his Husband Aaron
