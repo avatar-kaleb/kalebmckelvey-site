@@ -1,9 +1,9 @@
 ---
-cover: /post-images/meeting-joshua-kennong.jpg
+cover: /post-images/hanging-with-joshua-kennon-starbucks-1-.jpg
 date: '2019-06-09'
 title: >-
-  To Get What You Want - Ask For It! Meeting Two of my Role Models - Joshua
-  Kennon and his Husband Aaron in LA!
+  To Get What You Want - Ask For It! Meeting Joshua Kennon and his Husband Aaron
+  in LA!
 category: journey to achieve
 tags:
   - random
