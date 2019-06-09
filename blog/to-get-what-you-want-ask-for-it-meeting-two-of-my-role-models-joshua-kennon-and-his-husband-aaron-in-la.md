@@ -20,7 +20,7 @@ It was in my fourth rotation, the last one of my two-year program at GE Healthca
 
 ### Asking For What You Want
 
-It was the first week of the new rotation, and I learned that a two week app-studio happening in Detroit where they were kicking off the new app development. Seeing I wasn't yet on the team when everything was originally scheduled, I wasn't on the team roster.
+It was the first week of the new rotation, and I learned that a two week app-studio was happening in Detroit where they were kicking off the new app development. Seeing I wasn't yet on the team when everything was originally scheduled, I wasn't on the team roster.
 
 I remember vividly meeting with Joe, one of the leaders of the team that rotation and quietly asking him about the app-studio. 
 
