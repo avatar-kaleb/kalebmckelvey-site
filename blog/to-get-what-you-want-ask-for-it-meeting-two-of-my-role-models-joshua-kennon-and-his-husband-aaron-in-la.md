@@ -26,7 +26,7 @@ I remember vividly meeting with Joe, one of the leaders of the team that rotatio
 
 "I'll be working on PPO and helping with the development, and heard there was an app-studio happening to kick it off. Do you think this is something I should be going to?"
 
-Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should be for a successful rotation?"
+Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should be to start off a successful rotation?"
 
 I quickly let him know that I would like to go and felt it made sense to.
 
