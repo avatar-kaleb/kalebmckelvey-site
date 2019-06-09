@@ -36,7 +36,7 @@ _One of Charlie Munger's favorite quotes: "To get what you want, you must deserv
 
 It goes to show why Joe continued to be a mentor throughout my time in Milwaukee because 3-4 hours later I was booking my travel to Detroit for the app-studio (s/o to Andrew and Brian for the support)!
 
-### You Are the Sum of Your Decisions 
+### You Are the Sum of Your Decisions
 
 Just like deciding to join Kappa Alpha Psi Fraternity led me to a weeklong leadership institute sponsored by GE, which turned into an interview for their Information Technology Leadership Program, the moment described above actually has taken me to the place I am today!
 
@@ -93,31 +93,30 @@ Unfortunately, detailing out the full conversation would be a very long read for
 
 ### Biggest Takeaways
 
-**- Everyone has their own story and way of becoming financially independent**
+**\- Everyone has their own story and way of becoming financially independent**
 
 As asset managers, it was really interesting to hear the different types of clients they had. From real estate investors to business owners, high-earner careers, or just long-time workers who made good decisions with their finances - each had their own way of filling their coffers each year.
 
 I love this about the opportunities within the U.S - people can truly find ways to make a living with their passions.
 
-**- Defense Mechanisms are huge motivators (for myself and for Josh/Aaron)**
+**\- Defense Mechanisms are huge motivators (for myself and for Josh/Aaron)**
 
 We all have internal motivators that trigger us into action. These can come from traumatic experiences growing up or living through tough times in adulthood (Charlie Munger comes to mind). These moments change how we view the world and define how we plan on preventing them from happening in the future.
 
-**- The three questions one should ponder on regularly**
+**\- The three questions one should ponder on regularly**
 
 As we get into our daily habits, commuting and going to work. One must take time to just think - and Josh gave us a few questions that they ask themselves regularly to make sure their current path is the right one.
 
 1. If I was doing the same things today in 15 years, would I be happy?
-1. If I fast forward 15 years and look back, what would I change?
-1. If I was 15 years in my ideal future, what intelligent thing could I do today to make that happen?
+2. If I fast forward 15 years and look back, what would I change?
+3. If I was 15 years in my ideal future, what intelligent thing could I do today to make that happen?
 
 _Note: These are from memory and subject to change if I misremembered them._
 
-**- People are awesome!!!**
+**\- Meeting New People and Giving Them Your Time is Awesome!!!**
 
 Giving back to the world, whether with your time or your knowledge (or both) is an under-appreciated activity in my humble opinion. I'm SO THANKFUL that not only did we have the opportunity to meet these two incredible gentlemen, but thanks to both of them all of the readers can enjoy the lessons taught whenever they want!
 
 ## Concluding Thoughts
 
 LA and Southern California was a beautiful place to vacation - traffic wasn't the most fun, but we really enjoyed the week from life in the big apple. But as our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! It was nice to be home :).
-
