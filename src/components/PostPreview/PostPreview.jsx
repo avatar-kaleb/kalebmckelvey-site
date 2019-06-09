@@ -86,7 +86,7 @@ class PostPreview extends Component {
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <div className='md-cell md-cell--1-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small'>
+      <div className='md-cell md-cell--0-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small'>
         <Card key={postInfo.path} animate={false} className=''>
           <Media
             style={{
