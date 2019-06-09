@@ -119,4 +119,6 @@ Giving back to the world, whether with your time or your knowledge (or both) is 
 
 ## Concluding Thoughts
 
-LA and Southern California was a beautiful place to vacation - traffic wasn't the most fun, but we really enjoyed the week from life in the big apple. But as our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! It was nice to be home :).
+LA and Southern California was a beautiful place to vacation - we really enjoyed the week from busy life in the big apple. 
+
+As our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! It was nice to be home :).
