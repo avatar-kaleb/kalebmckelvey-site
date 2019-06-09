@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/moving-is-an-adventure.jpeg
 date: '2015-09-19'
 title: Moving is an Adventure - One full of mistakes and growth!

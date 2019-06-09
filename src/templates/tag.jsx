@@ -14,10 +14,10 @@ const TagTemplate = props => {
   } = props;
 
   return (
-    <div className="tag-container animated fadeIn">
+    <div className='tag-container animated fadeIn'>
       <Helmet>
         <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-        <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
+        <link rel='canonical' href={`${config.siteUrl}/tags/${tag}`} />
       </Helmet>
       <PostListing postEdges={postEdges} withSearch />
     </div>
@@ -32,7 +32,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { tags: { in: [$tag] }, published: { eq: true } } }
     ) {
       totalCount
       edges {
@@ -43,6 +43,7 @@ export const pageQuery = graphql`
           excerpt
           timeToRead
           frontmatter {
+            published
             title
             tags
             cover

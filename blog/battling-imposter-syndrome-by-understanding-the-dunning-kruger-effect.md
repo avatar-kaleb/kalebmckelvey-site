@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/imposter-syndrome-cover.jpeg
 date: '2018-10-06'
 title: Battling Imposter Syndrome By Understanding the Dunning Kruger Effect
@@ -7,7 +8,7 @@ tags:
   - mental models
   - mental health
 ---
-The tech industry, and more specifically the web development niche, lives up to the Heraclitus quote: "the only thing that is constant is change." 
+The tech industry, and more specifically the web development niche, lives up to the Heraclitus quote: "the only thing that is constant is change."
 
 New libraries, new versions of popular libraries, language updates, spec changes, and new techniques or strategies that may or may not stick. Not only do are they rapid fire, web developers must keep up while evaluating which make sense in their current projects.
 
@@ -27,7 +28,7 @@ The imposter syndrome "was introduced in 1978 in the article "The Impostor Pheno
 
 They interviewed 150 high achieving women who had been recognized in their field by peers.
 
-After the initial research was completed, the two doctors continued to study this syndrome, leading to the discovery of it not only affecting high-achieving women, but many others as well! 
+After the initial research was completed, the two doctors continued to study this syndrome, leading to the discovery of it not only affecting high-achieving women, but many others as well!
 
 ### 6 Dimensions
 
@@ -54,17 +55,17 @@ The study found that those who are incompetent tend to overestimate their abilit
 
 WAIT WHAT? Read that sentence again!
 
-Sounds paradoxical right? 
+Sounds paradoxical right?
 
-The easiest example for me to wrap my head around it was grammar. 
+The easiest example for me to wrap my head around it was grammar.
 
-Comparing two individuals: one individual who isn't considered competent in a language's grammar and another who is. They read the same paper to grade for a student. Due to the lack of knowledge of the grammar, it would be much harder to find all grammatical errors, and at the same time difficult to know you can't. 
+Comparing two individuals: one individual who isn't considered competent in a language's grammar and another who is. They read the same paper to grade for a student. Due to the lack of knowledge of the grammar, it would be much harder to find all grammatical errors, and at the same time difficult to know you can't.
 
 What does that sentence actually mean? It means that without a competent understanding of the language you can't catch all of the grammar mistakes, your knowledge isn't there to do so. They don't know enough to even understand that they don't know!
 
-The Dunning Kruger Effect comes into play because between the two individuals, the one who is incompetent will overstate their abilities to catch all the errors, while the other who understands just how many different types of grammatical errors there can be, will underestimate it. 
+The Dunning Kruger Effect comes into play because between the two individuals, the one who is incompetent will overstate their abilities to catch all the errors, while the other who understands just how many different types of grammatical errors there can be, will underestimate it.
 
-For us web developers, it follows that the more we learn about how the browser event loop works, the way React actually finds the differences to render in the DOM, or even that moment Kyle Simpson proves to us lexical scope exists in JS, so it is indeed compiled before interpreted, and many other technical pieces we are responsible to know, it starts to feel like we actually can't keep up. It feels like the more we learn, the more we uncover how much more there is to learn. 
+For us web developers, it follows that the more we learn about how the browser event loop works, the way React actually finds the differences to render in the DOM, or even that moment Kyle Simpson proves to us lexical scope exists in JS, so it is indeed compiled before interpreted, and many other technical pieces we are responsible to know, it starts to feel like we actually can't keep up. It feels like the more we learn, the more we uncover how much more there is to learn.
 
 Do you see how this can cause an imposter syndrome dimensions to creep up?
 
@@ -81,9 +82,9 @@ In general I believe the following are helpful with handling imposter syndrome w
 3. Put it in perspective - my father used to tell me that everyone has different skills in their life. I always wanted to be able to sing, he told me others want to be able to play sports like I do, in other words we all have gifts - so make sure you appreciate yours :)
 4. Understand the bell curve - bell curves show that most of us are indeed average, so by learning a bit more each day - you gradually move yourself farther and farther to the right!
 
-Outside of these three, I believe the most important part in preventing or battling imposter syndrome comes from focusing to be a life-long learner. Take some time to yourself each day to read on new developments in your field, train on a technology you haven't yet used, all in an effort to continuously grow. 
+Outside of these three, I believe the most important part in preventing or battling imposter syndrome comes from focusing to be a life-long learner. Take some time to yourself each day to read on new developments in your field, train on a technology you haven't yet used, all in an effort to continuously grow.
 
-The Dunning Kruger Effect shows that the more you know, the more you feel like you don't - accept and thrive from this. It means progress. It means growth. It means you still have areas to grow in! For most of us, especially for me in web development, that means my passion can continue as my peak has yet to come! 
+The Dunning Kruger Effect shows that the more you know, the more you feel like you don't - accept and thrive from this. It means progress. It means growth. It means you still have areas to grow in! For most of us, especially for me in web development, that means my passion can continue as my peak has yet to come!
 
 Thanks for reading!
 

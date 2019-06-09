@@ -144,6 +144,13 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [frontmatter___date] },
+                filter: {
+                  frontmatter: {
+                    published: {
+                      eq: true
+                    }
+                  }
+                }
               ) {
                 edges {
                   node {
@@ -152,6 +159,7 @@ module.exports = {
                     timeToRead
                     fields { slug }
                     frontmatter {
+                      published
                       title
                       cover
                       date

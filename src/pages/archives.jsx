@@ -15,7 +15,7 @@ const ArchivesPage = ({
   <div>
     <Helmet>
       <title>{config.siteTitle}</title>
-      <link rel="canonical" href={`${config.siteUrl}/archives/`} />
+      <link rel='canonical' href={`${config.siteUrl}/archives/`} />
     </Helmet>
     <SEO postEdges={postEdges} />
     <Archives postEdges={postEdges} />
@@ -27,7 +27,10 @@ export default ArchivesPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query ArchivesQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { published: { eq: true } } }
+    ) {
       edges {
         node {
           fields {
@@ -36,6 +39,7 @@ export const pageQuery = graphql`
           excerpt
           timeToRead
           frontmatter {
+            published
             title
             tags
             cover

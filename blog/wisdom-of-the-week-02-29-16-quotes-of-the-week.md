@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/wisdomoftheweek-2-29-library.jpeg
 date: '2016-02-29'
 title: Wisdom of the Week - 02-29-16 - Quotes of the Week

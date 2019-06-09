@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/fabulousroutines-cofee-and-tablet.jpeg
 date: '2016-11-07'
 title: Start Your Fabolous Routines Today!

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/amsterdam-info-asymm.jpg
 date: '2017-10-30'
 title: Mental Model Dictionary + Information Asymmetry

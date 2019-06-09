@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/ruleof-thumb-for-big-oh.jpg
 date: '2018-09-06'
 title: A Rule of Thumb for Calculating an Algorithm's Worst Case in Big Oh Notation
@@ -8,7 +9,7 @@ tags:
   - algorithm design
   - algorithm analysis
 ---
-Lately I've been working to refresh and grow in my skills from Computer Science because just how fascinating it really can be. 
+Lately I've been working to refresh and grow in my skills from Computer Science because just how fascinating it really can be.
 
 ## Algorithms are everywhere!
 An algorithm is defined a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
@@ -57,5 +58,5 @@ We assume that the inner while loop always runs i times, which is n times, since
 Algorithm analysis can be fun if we remember the reason we're doing it - to make our apps faster, usable, and productive!
 
 Thanks for reading!
- 
+
 

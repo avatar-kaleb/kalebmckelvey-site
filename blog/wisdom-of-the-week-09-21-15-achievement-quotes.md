@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/wisdomoftheweek-9-21.jpeg
 date: '2015-09-21'
 title: Wisdom of the Week - 09-21-15 - Achievement Quotes

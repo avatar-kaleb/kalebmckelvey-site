@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/map_roshar.jpg
 date: '2019-02-03'
 title: Why I Choose to Spend Hours Reading Fantasy Books in My Life

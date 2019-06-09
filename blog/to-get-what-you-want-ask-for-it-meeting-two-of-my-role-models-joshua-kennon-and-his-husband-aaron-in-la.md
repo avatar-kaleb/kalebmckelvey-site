@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/hanging-with-joshua-kennon-starbucks-1-.jpg
 date: '2019-06-09'
 title: >-
@@ -22,7 +23,7 @@ It was in my fourth rotation, the last one of my two-year program at GE Healthca
 
 It was the first week of the new rotation, and I learned that a two week app-studio was happening in Detroit where they were kicking off the new app development. Seeing I wasn't yet on the team when everything was originally scheduled, I wasn't on the team roster.
 
-I remember vividly meeting with Joe, one of the leaders of the team that rotation and quietly asking him about the app-studio. 
+I remember vividly meeting with Joe, one of the leaders of the team that rotation and quietly asking him about the app-studio.
 
 "I'll be working on PPO and helping with the development, and heard there was an app-studio happening to kick it off. Do you think this is something I should be going to?"
 
@@ -66,7 +67,7 @@ _She knew I was excited because this would be like meeting your favorite celebri
 
 Thursday had finally arrived!
 
-Making the drive from LA down to Newport Beach could take 1 hour or 3 depending on the traffic that day. We were leaving before rush hour but I was certainly nervous about being late - not to mention it was a work day for them - and we only had the time that they offered to us. Frankie wasn't fond of waking up early on our vacation, but I refused to be late. 
+Making the drive from LA down to Newport Beach could take 1 hour or 3 depending on the traffic that day. We were leaving before rush hour but I was certainly nervous about being late - not to mention it was a work day for them - and we only had the time that they offered to us. Frankie wasn't fond of waking up early on our vacation, but I refused to be late.
 
 _Plus, for anyone who has worked for Susan, we all know how important being on-time is so we didn't get the - "you're four minutes late, where have you been" once you finally joined the Skype call lol. Typically this only happens once :)_.
 
@@ -76,18 +77,18 @@ Finally, the time was upon us to head over to Starbucks and find a table.
 
 ### Conversing with Josh and Aaron
 
-After a quick intro went meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered their drinks), the moment had arrived! 
+After a quick intro went meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered their drinks), the moment had arrived!
 
 I had a list of questions to ask in my head and felt like we probably wouldn't get through all of them. These were two brilliant guys who run an asset firm, there's no way we have more than an hour right?
 
 **WRONG!**
 There was no rush!
 
-All of us shared our stories and how we got where we were today. They shared stories about their family life growing up, living in NYC for a few years, working for a music firm, starting their own business, and singing in top-notch music circles. 
+All of us shared our stories and how we got where we were today. They shared stories about their family life growing up, living in NYC for a few years, working for a music firm, starting their own business, and singing in top-notch music circles.
 
-Frankie and I talked about growing up in VA, city and country life respectively. We discussed wealth building and living in Newport. Aaron and Josh didn't rush us away as we all sat there with empty coffee cups for two of the three hours hanging out. 
+Frankie and I talked about growing up in VA, city and country life respectively. We discussed wealth building and living in Newport. Aaron and Josh didn't rush us away as we all sat there with empty coffee cups for two of the three hours hanging out.
 
-We all had a blast!! 
+We all had a blast!!
 
 Unfortunately, detailing out the full conversation would be a very long read for you all. Fortunately, I decided to summarize it instead!
 
@@ -119,6 +120,6 @@ Giving back to the world, whether with your time or your knowledge (or both) is 
 
 ## Concluding Thoughts
 
-LA and Southern California was a beautiful place to vacation - we really enjoyed the week from busy life in the big apple. 
+LA and Southern California was a beautiful place to vacation - we really enjoyed the week from busy life in the big apple.
 
 As our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! It was nice to be home :).

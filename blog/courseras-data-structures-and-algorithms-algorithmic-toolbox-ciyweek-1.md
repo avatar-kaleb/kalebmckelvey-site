@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/blackboard-chalk-chalkboard-21696-1-.jpg
 date: '2019-06-07'
 title: Coursera's Data Structures and Algorithms - Algorithmic Toolbox Week 1
@@ -13,7 +14,7 @@ As Charlie Munger has famously said:
 
 One must be a life-long learner and acquirer of wisdom by taking just a bit of time each day (most days at least) to grow their knowledge.
 
-When I was looking to make a career and city change - [Reflecting on my time in MKE](https://www.kalebmckelvey.com/our-new-york-adventure-begins-reflecting-on-the-last-4-years-in-milwaukee) - I realized that it had been quite a while since taking my algorithms class in college. In fact, it had been ~6 years! 
+When I was looking to make a career and city change - [Reflecting on my time in MKE](https://www.kalebmckelvey.com/our-new-york-adventure-begins-reflecting-on-the-last-4-years-in-milwaukee) - I realized that it had been quite a while since taking my algorithms class in college. In fact, it had been ~6 years!
 
 Although most of my roles within GE were on the tech side, the big focus on leadership did mean that as far as Software Engineer skills went - web dev didn't always require the need for creating efficient algorithms or using Big O since we weren't using huge data sets. One rotation we did deal with big data, but with Talend, a lot of heavy lifting was taken care of for us.
 
@@ -57,7 +58,7 @@ The general approach to solving algorithm questions is as follows:
 1. Compare the two algorithms via Big O/Big Theta/Big Omega notations
 1. Stress Test - one of my new favorite parts of the course!
 
-That's it :). Sounds easy right? 
+That's it :). Sounds easy right?
 
 I'll be going into more details of how I solve various programming challenges in the weeks to come because the first week walked through the solution for its first assignment.
 
@@ -69,4 +70,4 @@ I'm thankful Coursera exists for those wanting to refresh but not take college c
 
 Lastly, thanks for reading! I look forward to sharing more from future weeks - even diving into code examples with how I implemented different algorithms.
 
-For now, take care! 
+For now, take care!

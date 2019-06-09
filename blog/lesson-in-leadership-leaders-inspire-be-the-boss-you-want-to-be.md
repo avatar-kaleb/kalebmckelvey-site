@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/leadership-boats-following-a-leader-boat.jpeg
 date: '2015-09-18'
 title: Lesson in leadership - Leaders inspire - Be the boss you want to be!

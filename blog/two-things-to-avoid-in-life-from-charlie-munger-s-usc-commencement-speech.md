@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/charlie-munger-commencement-speech-cover.jpeg
 date: '2018-08-02'
 title: Two Things To Avoid in Life From Charlie Munger's USC Commencement Speech

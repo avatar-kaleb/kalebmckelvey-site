@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/cincinnati-adventure-cover.jpg
 date: '2016-03-21'
 title: 'Take an adventure, be inspired!'

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/joshs-insights-coffee-tablet-and-notepad.jpeg
 date: '2017-07-10'
 title: Insights From Reading 769+ Joshua Kennon Blog Posts!

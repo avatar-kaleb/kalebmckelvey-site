@@ -23,7 +23,11 @@ export default Index;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(limit: 10, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 10
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { published: { eq: true } } }
+    ) {
       edges {
         node {
           fields {
@@ -32,6 +36,7 @@ export const pageQuery = graphql`
           excerpt
           timeToRead
           frontmatter {
+            published
             title
             tags
             cover

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/thanksgiving-hackathon-1024x683.jpeg
 date: '2016-11-27'
 title: Kaleb's Thanksgiving Hackathon Part 2
@@ -8,16 +9,16 @@ tags:
   - hackathon
   - ionic
 ---
-Hard to believe it is already Sunday. I'm pretty excited to get back to Predix and Historian tomorrow, although it has been a great few days of Thanksgiving break. Two days ago, I began [my own Thanksgiving Hackathon](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1) to progress on my InspireMe app. Today I want to show it went! First and foremost, please understand that I will be working to make the theming of the app better in the upcoming weeks. I focused on functionality for this weekend. 
+Hard to believe it is already Sunday. I'm pretty excited to get back to Predix and Historian tomorrow, although it has been a great few days of Thanksgiving break. Two days ago, I began [my own Thanksgiving Hackathon](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1) to progress on my InspireMe app. Today I want to show it went! First and foremost, please understand that I will be working to make the theming of the app better in the upcoming weeks. I focused on functionality for this weekend.
 
 ## Accomplishments of my Thanksgiving Hackathon:
 
-  * Quotes page - discover segment loads list of random quotes FROM SQLite (not stubbed!!!) that can be favorited 
+  * Quotes page - discover segment loads list of random quotes FROM SQLite (not stubbed!!!) that can be favorited
     * favorite => add to favorite
     * dismiss => remove from the list, when list reaches 0, load more to Discover
   * Quotes page - favorite segment loads favorited quotes from the user
   * Quotes page - submit segment lets you submit a favorite quote via email
-  * Schedule page - Quote can be scheduled 
+  * Schedule page - Quote can be scheduled
     * disclaimer - default configuration is used, not from the form in the screenshots (next step for sure)
   * Schedule page - notifications -> Local notifications are working and are using a quote from the database
   * Schedule page - scheduled notifications show as a list of cards, even if the formatting / user experience is terrible at the moment
@@ -47,10 +48,10 @@ I uploaded the screenshots into my portfolio, check out Inspir3Me here:
 
 ### Final thoughts:
 
-My Thanksgiving Hackathon was a blast and for me considered a success!!  
+My Thanksgiving Hackathon was a blast and for me considered a success!! 
 
-I will definitely be looking to optimize the code a bit as the language becomes more familiar. Snacks, totally gone. I will never forget bagel bites again. 
+I will definitely be looking to optimize the code a bit as the language becomes more familiar. Snacks, totally gone. I will never forget bagel bites again.
 
-Lastly, thanks to everyone who gave me some quotes to use on Facebook, all of them were included in the prototype. 
+Lastly, thanks to everyone who gave me some quotes to use on Facebook, all of them were included in the prototype.
 
-Have a great Sunday!! 
+Have a great Sunday!!

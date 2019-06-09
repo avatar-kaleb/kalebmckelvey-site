@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/five-min-journal-cover.jpeg
 date: '2016-12-07'
 title: Five Minute Journal + OneNote -> Practicing Gratitude Every Morning

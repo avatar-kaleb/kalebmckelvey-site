@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/predix-cert-cover.jpg
 date: '2017-02-08'
 title: How Can You Pass the Predix Certified Developer Exam?

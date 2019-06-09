@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/site-update-cover-photo.jpeg
 date: '2018-09-10'
 title: Version 1.0 of the Site Officially Completed!
@@ -26,7 +27,7 @@ Today I officially release the completed version 1 of my Gatsby site. In [June](
 
 At this point, I consider the site in a good state for release #1. Design wise it's clean and modern, performance wise it's blazing fast. I'll be consistently updating it, adding some Kaleb style flare, and releasing articles as inspiration to write comes to me.
 
-Let me know if you have any topics you'd be interested in, any suggestions on design, or find any links that don't work! 
+Let me know if you have any topics you'd be interested in, any suggestions on design, or find any links that don't work!
 
 Have a great week!!
 

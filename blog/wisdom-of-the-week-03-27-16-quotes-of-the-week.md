@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/wisdom-of-the-week-3-27-friends.jpg
 date: '2016-03-27'
 title: Wisdom of the Week - 03-27-16 - Quotes of the week!

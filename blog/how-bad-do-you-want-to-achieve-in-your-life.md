@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/how-bad-do-you-want-it-fi-standing-in-water.jpeg
 date: '2017-05-17'
 title: How Bad Do You Want to Achieve in Your Life?

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/wisdom-of-the-week-family-10-14-1024x683.jpeg
 date: '2015-10-14'
 title: Wisdom of the Week -10-04-15 - Quotes of the Week

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/now-tell-me-why-you-dont-sell-cocaine-cover.jpeg
 date: '2017-12-03'
 title: >-

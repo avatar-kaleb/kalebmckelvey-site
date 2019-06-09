@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/regrouping-is-hard-1024x683.jpeg
 date: '2015-09-19'
 title: Regroup - Sometimes We Must - Change Your Perspective!

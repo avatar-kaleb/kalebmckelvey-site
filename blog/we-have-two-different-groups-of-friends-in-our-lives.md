@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/two-different-friends-1024x683.jpg
 date: '2017-03-20'
 title: We Have Two Different Groups of Friends in Our Lives

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/eslint-code-background.jpeg
 date: '2019-03-05'
 title: Is ESLint Worth Your time?
@@ -20,7 +21,7 @@ Linting is simply the static analysis of code against a set of rules to determin
 
 It's a Javascript linter!! ESLint is an open source project that was founded in 2013 by C. Zakas.
 
-The main reason behind its creation was to give developers power in developing their own rules that could be linted against, especially for rules that are considered best practices. 
+The main reason behind its creation was to give developers power in developing their own rules that could be linted against, especially for rules that are considered best practices.
 
 You can learn more about the mission and philosophy of the project on its [About Page](https://eslint.org/docs/about/).
 
@@ -62,7 +63,7 @@ const pikachu = {
 
 Opinions and discussions on these lines of code during the review process can extend the amount of time both developers should actually be writing code.
 
-ESLint removes the dynamic by enforcing those rules without the need of discussion, ego, or potential arguments. 
+ESLint removes the dynamic by enforcing those rules without the need of discussion, ego, or potential arguments.
 
 For the particular example above, here's the rule: [Comma Dangle](https://eslint.org/docs/rules/comma-dangle)
 
@@ -107,5 +108,5 @@ As developers it's our responsibility to do our best writing high quality code i
 
 Why not make it a bit easier for yourself and also for your team to make impact, while saving time and enforcing higher quality code bases?
 
-Thank you for reading!! 
+Thank you for reading!!
 

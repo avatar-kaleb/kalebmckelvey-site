@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/scholarship-logo.png
 date: '2017-06-02'
 title: Our 2017 Journey to Achieve Annual Scholarship Winner was Announced Today!!

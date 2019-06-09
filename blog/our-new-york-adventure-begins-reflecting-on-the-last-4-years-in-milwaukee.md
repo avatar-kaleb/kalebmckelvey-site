@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/new-york-city-at-night-walking-home.jpg
 date: '2018-12-02'
 title: Our New York Adventure Begins - Reflecting on the Last 4 Years in Milwaukee
@@ -46,7 +47,7 @@ Time and feedback, two very important gifts one must be willing to give and rece
 
 For my first year, there wasn't a month that Susan didn't make suggestions as she pushed me to become a better leader, young professional, and person.
 
-My first assignment leader, Julia, taught me the ropes of knowing the people you work with as a project manager. In my second rotation, Aarthi transformed me into someone who could take presentations head on while I developed my first NodeJS app. 
+My first assignment leader, Julia, taught me the ropes of knowing the people you work with as a project manager. In my second rotation, Aarthi transformed me into someone who could take presentations head on while I developed my first NodeJS app.
 
 At Cincinnati, in rotation 3, I was part of a mission-based team who took on ingesting data through a process we defined, 6 billion rows later we considered it a success. My last rotation introduced me to agile web development utilizing the Polymer library and led to becoming a Software Engineer after graduating from the program (my other experiences with development at GE were more side projects).
 

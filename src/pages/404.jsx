@@ -10,10 +10,10 @@ const FourOhFourPage = ({
     allMarkdownRemark: { edges: postEdges }
   }
 }) => (
-  <div className="about-container">
+  <div className='about-container'>
     <Helmet>
       <title>{`404 | ${config.siteTitle}`}</title>
-      <link rel="canonical" href={`${config.siteUrl}/404`} />
+      <link rel='canonical' href={`${config.siteUrl}/404`} />
     </Helmet>
     <FourOhFour postEdges={postEdges} />
   </div>
@@ -24,7 +24,11 @@ export default FourOhFourPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query FourOhFourQuery {
-    allMarkdownRemark(limit: 10, sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 10
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { published: { eq: true } } }
+    ) {
       edges {
         node {
           fields {
@@ -33,6 +37,7 @@ export const pageQuery = graphql`
           excerpt
           timeToRead
           frontmatter {
+            published
             title
             tags
             cover

@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/purpose-and-time-clock.jpg
 date: '2017-06-25'
 title: Each day in our lives matter - live them with purpose!

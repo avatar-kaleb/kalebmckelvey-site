@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/newsite-macwithbook.jpeg
 date: '2018-06-18'
 title: New Site - Gatsby Material Style!!

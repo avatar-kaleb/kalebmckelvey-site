@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/managing-finances-as-a-dev.jpg
 date: '2019-04-14'
 title: Managing Your Personal Finances as a Dev - While Loop Style
@@ -7,9 +8,9 @@ tags:
   - money
   - loops
 ---
-## Personal finance, ohhhh personal finance. 
+## Personal finance, ohhhh personal finance.
 
-The dreaded, taboo topic that we're never taught in school, yet it's required if you want to be prepared for emergencies and retirement alike. 
+The dreaded, taboo topic that we're never taught in school, yet it's required if you want to be prepared for emergencies and retirement alike.
 
 Today I offer you some advice, based on my own personal opinions and research after devouring the classic personal finance books and reading many of the top articles from the personal finance community.
 
@@ -55,7 +56,7 @@ With that being said, we move on to income.
 
 ## Median US Income vs. Average Developer Income in the US
 
-When comparing gross income across the country (US or your own), one must look at median values instead of averages - why? When including the salary of those in the top 1%, the results get skewed....very very skewed. 
+When comparing gross income across the country (US or your own), one must look at median values instead of averages - why? When including the salary of those in the top 1%, the results get skewed....very very skewed.
 
 ### Median Household Income in the US
 
@@ -81,9 +82,9 @@ while (financiallyStable) {
 }
 ```
 
-We are in a marathon folks, not a sprint, so give yourself time and have patience on your [journey to achieve](https://www.kalebmckelvey.com/journey-to-achieve/about-the-journey/) in your finances! 
+We are in a marathon folks, not a sprint, so give yourself time and have patience on your [journey to achieve](https://www.kalebmckelvey.com/journey-to-achieve/about-the-journey/) in your finances!
 
-### Determining Your Current Ticket Status? 
+### Determining Your Current Ticket Status?
 
 1. Check your income based on data above
 1. [Check median income by age](https://www.bankrate.com/personal-finance/median-salary-by-age/)
@@ -103,13 +104,13 @@ The basics are activities that can be used for managing your finances for both r
 
 #### Obtaining Resources - Career & Income
 
-The bread and butter of your financial life. 
+The bread and butter of your financial life.
 
 How much money is flowing into your coffers each month? What percentage are you saving? Investing?
 
 Are you working towards your next career goal today? Do you know what that goal is?
 
-There are two main levers we can use when managing our finances. 
+There are two main levers we can use when managing our finances.
 1. Money going into our accounts
 2. Money going out of our accounts
 
@@ -122,7 +123,7 @@ while (financiallyStable && age < retirementAge) {
     moneyGoingIntoAccountsFromFtJob++;
     moneySaved++;
     enjoyLifeExperiencesWithOutStress++;
-    
+
     if (interestedInRetiringEarly) {
         retirementAge--
     }
@@ -136,7 +137,7 @@ ___Resource: [Career Articles from ESIMoney](https://esimoney.com/category/caree
 
 Budgets are like specs for your money. It changes the game when you tell your money where to go, knowing you can achieve your goals, enjoy life, and donate to charity all while paying the bills.
 
-Further as time goes on, monitoring your budget over time can help you see potential places to cut costs or save for that new monitor you want! 
+Further as time goes on, monitoring your budget over time can help you see potential places to cut costs or save for that new monitor you want!
 
 *Budgets are like New Relic for your cash flow!*
 
@@ -187,7 +188,7 @@ ___Resource: [Duke of Dollars Emergency Fund](https://www.dukeofdollars.com/buil
 
 ### Paying Down Debt
 
-Depending on the type of debt to your name, it may make sense to pay it down before investing in a 401(k) or IRA. 
+Depending on the type of debt to your name, it may make sense to pay it down before investing in a 401(k) or IRA.
 
 You may want to start with a smaller emergency fund (1K) and pay off debts from there. Making a decision on this can be as easy as asking yourself this question: *is the debt you have higher than 6% interest rates?*
 
@@ -220,7 +221,7 @@ Before diving into how you can get free money over time and why you should do so
 
 #### 401(k) basics
 
-401(k)s replaced pensions as employers decided to put retirement into their employees hands. They are our biggest weapons to yield overtime to save pre-tax (save more, pay less taxes) money over time. Company's will pay a company to manage their plans, allowing employees to pick funds that suit them best. 
+401(k)s replaced pensions as employers decided to put retirement into their employees hands. They are our biggest weapons to yield overtime to save pre-tax (save more, pay less taxes) money over time. Company's will pay a company to manage their plans, allowing employees to pick funds that suit them best.
 
 Eventually you do have to pay taxes upon withdrawal, but the key is you will most likely be in a lower tax bracket at that time.
 
@@ -236,9 +237,9 @@ while(age < retirementAge && haveMatchingContributions) {
 
 ___Resource: [Duke of Dollars 401(k) Series](https://www.dukeofdollars.com/building-wealth/401k-deciphered/)___
 
-#### How you get free money 
+#### How you get free money
 
-Let's say you make 100K per year for ease of numbers sake. 
+Let's say you make 100K per year for ease of numbers sake.
 
 Your company says they will contribute 4% to the dollar if you contribute 8%.
 
@@ -261,17 +262,17 @@ IRAs are like those 20% side projects that help your career or introduce improve
 Individual Retirement Accounts are an additional tax-advantaged account in your toolbox. I recommend choosing Roth IRAs to balance out the pre-tax 401k.
 
 Roth IRAs (funded through post-tax dough) are beneficial for two main reasons:
-1. Earnings / dividends / withdrawals are tax free. 
+1. Earnings / dividends / withdrawals are tax free.
 2. You can withdraw your contributions in the event of a true emergency tax free
 
 These wonderful accounts add a second income source in retirement without the tax bill to boot.
 
 ```javascript
 while (age < retirementAge) {
-    if (userHasHandledAllOtherFinancialObligations && 
-        userWantsToRetireWithMoreMula && 
+    if (userHasHandledAllOtherFinancialObligations &&
+        userWantsToRetireWithMoreMula &&
         userWantsTaxAdvantages) {
-        
+
         // assuming we're tracking it all in one place :)
         retirementAccountBalance += iraContribution;
     }
@@ -290,11 +291,11 @@ Challenges to personal finance or saving for the future commonly used to the arg
 
 I say here here!!
 
-I'm not here to convince you to take risks or think of your future because I too am not a fortune teller. The stock market might not have strong returns in the future. Banks could collapse. The economy we know today could disappear as robots take over and we live like the people in Wall-e. 
+I'm not here to convince you to take risks or think of your future because I too am not a fortune teller. The stock market might not have strong returns in the future. Banks could collapse. The economy we know today could disappear as robots take over and we live like the people in Wall-e.
 
-The best we can is making decisions based on the knowledge and data you currently have, and like all plans, they can be subject to change. Additionally, if you think to your future self, you're 65 and ready to retire, would the risk of having no money saved be worth saying yolo now? 
+The best we can is making decisions based on the knowledge and data you currently have, and like all plans, they can be subject to change. Additionally, if you think to your future self, you're 65 and ready to retire, would the risk of having no money saved be worth saying yolo now?
 
-My personal policy is balance. Live for experiences and enjoy life to the fullest while using your budget to save in accordance to your current situation. 
+My personal policy is balance. Live for experiences and enjoy life to the fullest while using your budget to save in accordance to your current situation.
 
 You are the CEO, the executive, and the head honcho of your life. Run it wisely!
 

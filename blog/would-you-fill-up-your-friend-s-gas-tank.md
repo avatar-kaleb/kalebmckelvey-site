@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/would-your-friend-fill-up-the-gas-tank.jpg
 date: '2017-08-09'
 title: Would You Fill Up Your Friend's Gas Tank?

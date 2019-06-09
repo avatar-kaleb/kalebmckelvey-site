@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/high-school-reflection-football-field.jpg
 date: '2017-04-29'
 title: My High School Reflection

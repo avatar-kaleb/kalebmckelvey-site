@@ -1,4 +1,5 @@
 ---
+published: true
 cover: /post-images/bruce-lee-poem-featured-image.jpeg
 date: '2019-01-13'
 title: Bruce Lee's Letter to a Friend
