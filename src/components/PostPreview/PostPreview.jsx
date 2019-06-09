@@ -54,7 +54,6 @@ class PostPreview extends Component {
     // window.removeEventListener('resize', this.handleResize);
   }
 
-
   /**
    * Ths sets the button for this post preview to show or hide
    * We need this to use with particle effect button
@@ -69,7 +68,7 @@ class PostPreview extends Component {
   handleResize() {
     if (window.innerWidth >= screenWidths.maxMobile) {
       if (this.state.isMobile) {
-      this.setState({ isMobile: false });
+        this.setState({ isMobile: false });
       }
     } else {
       if (!this.state.isMobile) {
@@ -78,23 +77,23 @@ class PostPreview extends Component {
     }
   }
 
-
   render() {
     const { buttonHidden, isMobile } = this.state;
     const { postInfo } = this.props;
     /* eslint no-undef: "off" */
-    const cover = postInfo.cover.substring(0, 1) === '/' ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
+    const cover =
+      postInfo.cover.substring(0, 1) === '/' ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <div className="md-cell md-cell--1-desktop-offset md-cell--0-phone-offset md-cell--10 md-cell--center post-preview margin-bottom--small">
-        <Card key={postInfo.path} animate={false} className="">
+      <div className='md-cell md-cell--1-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small'>
+        <Card key={postInfo.path} animate={false} className=''>
           <Media
             style={{
               backgroundImage: `url(${cover})`,
               height: `${coverHeight}px`
             }}
-            className="post-preview-cover"
+            className='post-preview-cover'
             onClick={e => navToPostOnClick(postInfo.path, e)}
           >
             <MediaOverlay>
@@ -103,7 +102,7 @@ class PostPreview extends Component {
           </Media>
           <CardTitle
             expander={isMobile}
-            avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
+            avatar={<Avatar icon={<FontIcon iconClassName='fa fa-calendar' />} />}
             title={`Published on ${postInfo.date}`}
             subtitle={`${postInfo.timeToRead} min read`}
           />
@@ -112,7 +111,7 @@ class PostPreview extends Component {
             <PostTags tags={postInfo.tags} />
           </CardText>
 
-          <CardActions className="md-divider-border md-divider-border--top">
+          <CardActions className='md-divider-border md-divider-border--top'>
             <ParticleEffectButton
               color={particleConfig.color}
               duration={particleConfig.duration}
