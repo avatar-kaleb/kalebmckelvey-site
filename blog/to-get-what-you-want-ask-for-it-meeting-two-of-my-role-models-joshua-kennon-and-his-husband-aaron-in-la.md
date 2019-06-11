@@ -77,7 +77,7 @@ Finally, the time was upon us to head over to Starbucks and find a table.
 
 ### Conversing with Josh and Aaron
 
-After a quick intro went meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered their drinks), the moment had arrived!
+After a quick intro meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered their drinks), the moment had arrived!
 
 I had a list of questions to ask in my head and felt like we probably wouldn't get through all of them. These were two brilliant guys who run an asset firm, there's no way we have more than an hour right?
 
