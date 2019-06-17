@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/blackboard-chalk-chalkboard-21696-1-.jpg
 date: '2019-06-11'
 title: Coursera's Data Structures and Algorithms - Algorithmic Toolbox Week 2
