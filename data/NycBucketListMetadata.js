@@ -1,6 +1,7 @@
 export const Locations = {
   Brooklyn: 'Brooklyn',
   Bronx: 'Bronx',
+  LI: 'Long Island',
   Manhattan: 'Manhattan',
   Hamptons: 'Hamptons',
   Queens: 'Queens',
@@ -20,6 +21,7 @@ export const Categories = {
   MustSee: 'Must See',
   NightLife: 'NightLife',
   Outdoors: 'Outdoors',
+  Other: 'other',
   Scenery: 'Scenery',
   Sports: 'Sports'
 };
@@ -42,7 +44,7 @@ export const Ratings = {
 };
 
 export const Seasons = {
-  Any: 'any',
+  Any: 'Any',
   Fall: 'Fall',
   Spring: 'Spring',
   Summer: 'Summer',
