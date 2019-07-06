@@ -27,11 +27,11 @@ I remember vividly meeting with Joe, one of the leaders of the team that rotatio
 
 "I'll be working on PPO and helping with the development, and heard there was an app-studio happening to kick it off. Do you think this is something I should be going to?"
 
-Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should be to start off a successful rotation?"
+Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should to start off a successful rotation?"
 
 I quickly let him know that I would like to go and felt it made sense to.
 
-"If you want to take on challenges in your career, capture opportunities, and be successful throughout your story - you have to ask for those opportunities. Leaders like my want to help you capture them, but we don't always know when you want them. Help us help you!"
+He responded cheerfully: "If you want to take on challenges in your career, capture opportunities, and be successful throughout your story - you have to ask for those opportunities. Leaders like my want to help you capture them, but we don't always know when you want them. Help us help you"
 
 _One of Charlie Munger's favorite quotes: "To get what you want, you must deserve it" is imperative when trying to get new opportunities in your life. It doesn't have to be said, but I will say it anyway - we don't always get what we want :)."_
 
@@ -77,7 +77,7 @@ Finally, the time was upon us to head over to Starbucks and find a table.
 
 ### Conversing with Josh and Aaron
 
-After a quick intro meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered their drinks), the moment had arrived!
+After a quick intro meeting them halfway as the two of them strolled towards Starbucks, we quickly ordered our drinks (they pre-ordered theirs), the moment had arrived!
 
 I had a list of questions to ask in my head and felt like we probably wouldn't get through all of them. These were two brilliant guys who run an asset firm, there's no way we have more than an hour right?
 
@@ -96,7 +96,7 @@ Unfortunately, detailing out the full conversation would be a very long read for
 
 **\- Everyone has their own story and way of becoming financially independent**
 
-As asset managers, it was really interesting to hear the different types of clients they had. From real estate investors to business owners, high-earner careers, or just long-time workers who made good decisions with their finances - each had their own way of filling their coffers each year.
+As asset managers, it was really interesting to hear the different types of clients they had. From real estate investors to business owners, high-earner careers, or just long-time workers who made good decisions with their finances - each had their own way of filling their coffers as the years passed.
 
 I love this about the opportunities within the U.S - people can truly find ways to make a living with their passions.
 
@@ -122,4 +122,6 @@ Giving back to the world, whether with your time or your knowledge (or both) is 
 
 LA and Southern California was a beautiful place to vacation - we really enjoyed the week from busy life in the big apple.
 
-As our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! It was nice to be home :).
+As our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! 
+
+It was nice to be home :).
