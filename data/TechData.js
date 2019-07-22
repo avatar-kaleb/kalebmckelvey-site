@@ -31,6 +31,14 @@ export default {
     name: 'Material Design',
     link: 'https://material.io'
   },
+  mdx: {
+    name: 'MDX',
+    link: 'https://github.com/mdx-js/mdx'
+  },
+  mdxDeck: {
+    name: 'MDX-Deck',
+    link: 'https://github.com/jxnblk/mdx-deck'
+  },
   mongo: {
     name: 'Mongo DB',
     link: 'https://mongodb.com'

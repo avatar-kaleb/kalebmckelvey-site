@@ -145,6 +145,13 @@ function GetNavList() {
         to: '/professional/portfolio/'
       },
       {
+        key: 'talks',
+        primaryText: 'Talks',
+        leftIcon: <FontIcon>speaker</FontIcon>,
+        component: Link,
+        to: '/professional/talks/'
+      },
+      {
         key: 'services',
         primaryText: 'Services',
         leftIcon: <FontIcon>business_center</FontIcon>,

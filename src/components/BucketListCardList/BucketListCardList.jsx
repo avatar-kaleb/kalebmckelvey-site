@@ -6,7 +6,7 @@ import BucketListCard from '../BucketListCard/BucketListCard';
  * @param {Array} bucketListItems - list of bucket list items from the bucket list data
  */
 const BucketListCardList = ({ bucketListItems }) => (
-  <section className="bucketlist-card-list md-grid">
+  <section className='bucketlist-card-list md-grid'>
     {bucketListItems.map(bucketListItem => (
       <BucketListCard key={bucketListItem.id} bucketListItem={bucketListItem} />
     ))}
