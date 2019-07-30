@@ -91,12 +91,6 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: 'gatsby-plugin-nprogress',
-      options: {
-        color: '#0D47A1'
-      }
-    },
     'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-feed',
