@@ -19,6 +19,10 @@ export default {
     name: 'Google Firebase',
     link: 'https://firebase.io'
   },
+  gatsby: {
+    name: 'Gatsby JS',
+    link: 'https://gatsbyjs.org'
+  },
   ionicTwo: {
     name: 'Ionic Framework (2)',
     link: 'https://ionicframework.com/'

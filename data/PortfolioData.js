@@ -75,6 +75,36 @@ export default [
     url: ''
   },
   {
+    id: 'greatGatsbyJsThemesMain',
+    category: 'Personal',
+    cardImage: './greatGatsbyJsThemesMain.png',
+    company: '',
+    images: [],
+    subtitle: 'Your One Stop Shop for Gatsby Themes',
+    summary: `
+    <p>I created the Great Gatsby Themes site to gather open source gatsby themes in one place for those looking to use them.</p>
+
+    <p>For MVP, I manually add new themes, but as the site grows, one will have the ability to add their own and also sell it.<p>`,
+    tech: [Tech.gatsby, Tech.material, Tech.mdx],
+    title: 'Great Gatsby Js Themes',
+    url: 'https://www.greatgatsbyjsthemes.com/'
+  },
+  {
+    id: 'gatsbyThemematerialUiBlog',
+    category: 'Personal',
+    cardImage: './gatsbyThemematerialUiBlog.png',
+    company: '',
+    images: [],
+    subtitle: 'Simple & Easy Material MDX Blog',
+    summary: `
+    <p>My first very simple, easy to use gatsby-theme to create a Material UI blog.</p>
+
+    <p>With Gatsby JS having experimental themes, I wanted to experiment with the new api to make a theme for others to use!<p>`,
+    tech: [Tech.gatsby, Tech.material, Tech.mdx],
+    title: 'GGT Material UI Blog',
+    url: 'https://gatsby-theme-ggt-material-ui-blog.netlify.com/'
+  },
+  {
     id: 'historianWdc',
     category: 'Work',
     company: 'GE',
