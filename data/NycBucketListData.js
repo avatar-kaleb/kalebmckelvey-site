@@ -352,5 +352,22 @@ export default [
     status: Statuses.Complete,
     title: 'Grand Central Terminal',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.Five,
+    categories: [Categories.Sports, Categories.Outdoors, Categories.Scenery],
+    description:
+      'Jet ski on the hudson like Hitch & Sara to see all the great scenery of NYC while riding the waves!',
+    expectedRating: Ratings.Five,
+    featuredImageUrl: 'hudsonJetski.jpg',
+    id: 'hudsonJetski',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.Five,
+    season: Seasons.Summer,
+    status: Statuses.Complete,
+    title: 'Jet Ski on the Hudson',
+    youtubeVideoLink: ''
   }
 ];
