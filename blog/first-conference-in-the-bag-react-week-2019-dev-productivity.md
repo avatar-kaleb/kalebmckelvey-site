@@ -1,6 +1,6 @@
 ---
 published: true
-cover: /post-images/reactweek2019-2.jpg
+cover: /post-images/reactweek2019-11.jpg
 date: '2019-08-13'
 title: First Conference in the Bag - React Week 2019 - Dev Productivity!
 category: Tech
