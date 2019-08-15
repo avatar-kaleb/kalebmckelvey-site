@@ -11,13 +11,13 @@ tags:
   - principles
   - listening
 ---
-Throughout the summer I've been reading through critical thinking books, such as _Thinking Fast and Slow_, _The Art of Critical Thinking_, _Super Thinking: The Big Book of Mental Models_, and now currently working on _Principles_ by Ray Dalio. 
+Throughout the summer I've been reading through critical thinking books, such as _Thinking Fast and Slow_, _The Art of Critical Thinking_, _Super Thinking: The Big Book of Mental Models_, and currently working on _Principles_ by Ray Dalio. 
 
-_More to come! This is part of a side-project to become a better critical thinkers and develop a framework for making decisions._
+_More to come! This is part of a side-project to become better critical thinkers and developing a framework for making decisions._
 
 I've really enjoyed the book and it's been interesting to learn how different leaders lead to develop the culture they appreciate. Mr. Dalio split _Principles _up into three parts, first giving an introduction to who he is, followed by life principles, and ending with work principles. I wanted to touch on chapter three in part two, **Be Radically Open-Minded** because as a software developer and future husband, it hit home for me.
 
-_Note: anything in quotes throughout the article will be quotes from the book, unless otherwise stated._
+_Note: anything in quotes throughout the article will be quotes from the book unless otherwise stated._
 
 - - -
 
@@ -32,7 +32,7 @@ When trying to make a decision, there are two barriers mentioned in the book tha
 
 ### Your Ego
 
-Have you ever been in a heated discussions with friends or family that cause your blood to begin pumping through your body? 
+Have you ever been in heated discussions with friends or family that cause your blood to begin pumping through your body? 
 
 Like Uncle Phil in Fresh Prince, where Will recognized the huge vein in his uncle's neck when he's angry.
 
@@ -40,17 +40,17 @@ Like Uncle Phil in Fresh Prince, where Will recognized the huge vein in his uncl
 
 We all have a defense mechanism that makes "it hard for you to accept your mistakes and weaknesses." 
 
-This ego causes you to respond as if you are being attacked for an idea, even though you know it isn't personal. Your brain as an inner subconscious (intuitive and emotional) and higher level of conscious awareness that make logical decisions. They both fight to control you during the decision process, and it's your lower level you that responds strongly (with emotions) to criticism.
+This ego causes you to respond as if you are being attacked for an idea, even though you know it isn't personal. Your brain as an inner subconscious (intuitive and emotional) and a higher level of conscious awareness that makes logical decisions. They both fight to control you during the decision process, and it's your lower level you that responds strongly (with emotions) to criticism.
 
 ### Your Blindspot
 
 Blindspots are areas in which your "way of thinking prevents you from seeing things accurately."
 
-Mr. Dalio mentioned how some people can see big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. There are people who are task executors and people who are go-with-the-flow creators. In other words, each and everyone of us thinks differently within our own frame of reference, and we must accept that we have blindspots so others can help us out. 
+Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people  are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blindspots so others can help us out. 
 
-It's similar to checking your blind spot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....uh oh.
+It's similar to checking your blindspot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....uh oh.
 
-## Change Your Perspective by Practicing Radical open-mindness
+## Change Your Perspective by Practicing Radical open-mindedness
 
 To get better at making decisions and learning to disregard some of the emotions from our inner subconscious during open discussions, we must first change our perspective on one key point.
 
@@ -66,7 +66,7 @@ One of my favorite sentences:
 
 *Sound like you sometimes in your life? Me too!*
 
-## Actually Listening to Other Points of Views
+## Listening to Other Points of Views
 
 The book guides us on how to best to this through a few principles summarized below.
 
@@ -76,11 +76,11 @@ With this new perspective in mind, you can now openly discuss and listen to othe
 
 ### Decision Making has Two-Steps
 
-[Mental models](https://mentalmodeldictionary.com) show us that as humans we have biases and Daniel Kahneman recognized that many of times our decision making is based on fast-thinking, before even considering all of the data. The brain does this to save energy, since brain powering takes quite a lot of calories to work :).
+[Mental models](https://mentalmodeldictionary.com) show us that as humans we have biases and Daniel Kahneman recognized that many of times our decision making is based on fast-thinking, before even considering all of the data. The brain does this to save energy since brain powering takes quite a lot of calories to work :).
 
 #### Step 1: Gather the Info
 
-Many times we base decisions on what we know, our frame of reference, and our experiences without really considering the other facts. Whether that is in the form of articles or people, we must take the time on tough decisions (or big decisions that effect the team) with care.
+Many times we base decisions on what we know, our frame of reference, and our experiences without really considering the other facts. Whether that is in the form of articles or people, we must take the time on tough decisions (or big decisions that affect the team) with care.
 
 Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we do have knowledge on and answer that question instead (are brains are weird huh?). 
 
@@ -90,7 +90,7 @@ During this phase, it's imperative to take in other perspectives to get a better
 
 Ray uses a term called believability in the book, meaning you should really only take in the perspectives of people that have experience and knowledge on what you're deciding on, because many people have the "take two lefts and it's on the corner" syndrome - aka they give directions to the stranger who stops by and asks, but actually don't know where the location is.
 
-Here's my favorite quote from the book that really helped me see a different perspective on doing this better, not only at work but all relationships in my life!
+Here's my favorite quote from the book that helped me see a different perspective on doing this better, not only at work but all relationships in my life!
 
 > When two people believe opposite things, chances are that one of them is wrong. It pays to find out if that someone is you. That’s why I believe you must appreciate and develop the art of thoughtful disagreement. In thoughtful disagreement, your goal is not to convince the other party that you are right—it is to find out which view is true and decide what to do about it. In thoughtful disagreement, both parties are motivated by the genuine fear of missing important perspectives. Exchanges in which you really see what the other person is seeing and they really see what you are seeing—with both your “higher-level yous” trying to get to the truth—are immensely helpful and a giant source of untapped potential. To do this well, approach the conversation in a way that conveys that you’re just trying to understand.26 Use questions rather than make statements. Conduct the discussion in a calm and dispassionate manner, and encourage the other person to do that as well. Remember, you are not arguing; you are openly exploring what’s true. Be reasonable and expect others to be reasonable. If you’re calm, collegial, and respectful you will do a lot better than if you are not. You’ll get better at this with practice.
 
@@ -98,7 +98,7 @@ Powerful stuff! I just can't point it any better than that and it MAKES so much 
 
 ##### Have Clear Objectives:
 
-Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer to right?
+Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer too right?
 
 ##### Follow the Iron Prescription:
 
@@ -110,13 +110,13 @@ A quote from Charlie Munger in his [commencement address](https://www.youtube.co
 
 ##### Avoid Deep Idealogical Thinking
 
-He uses this to prevent his mind becoming cabbage, specifically when drifting too far into an ideology. Why? Because an ideology can cloud our judgement to the point of blatantly ignoring facts due to our commitment to them. The story he gives to show how tragic doing so can be is about Scandinavian canoeists:
+He uses this to prevent his mind from becoming cabbage, specifically when drifting too far into an ideology. Why? Because an ideology can cloud our judgment to the point of blatantly ignoring facts due to our commitment to them. The story he gives to show how tragic doing so can be is about Scandinavian canoeists:
 
 > "In my mind, I got a little example I use whenever I think about ideology and it’s these Scandinavian canoeists who succeeded in taming all the rapids of Scandinavia and they thought they would tackle the whirlpools in the Aaron Rapids here in the United States. The death rate was 100 percent. A big whirlpool is not something you want to go into and I think the same is true about a really deep ideology."
 
 For development teams, this means just because you've always followed a specific style or used a specific library that you WON'T change even if it makes sense to do so. React is an awesome library and I see so many benefits to using it, but what if that changes? Are you so far into the React ideology of web dev that you won't change? 
 
-Think about all of those who strongly argued for spaces versus tabs. They [committed](https://www.mentalmodeldictionary.com/mental-model/commitmentAndConsistency) to it. Then, a member of the team joins who needs more accessibility during development - lo and behold tabs it is! How much easier is it to change if you haven't argued and committed to spaces as the only way to go? So much easier! Why? Because now you don't have to admit being wrong or admit to having to change. Instead, you list out why spaces make sense but one must always be open to changing their stances on issues as new evidence or strong reasons warrant it.
+Think about all of those who strongly argued for spaces versus tabs. They [committed](https://www.mentalmodeldictionary.com/mental-model/commitmentAndConsistency) to it. Then, a member of the team joins who need more accessibility during development - lo and behold tabs it is! How much easier is it to change if you haven't argued and committed to spaces as the only way to go? So much easier! Why? Because now you don't have to admit being wrong or admit to having to change. Instead, you list out why spaces make sense but one must always be open to changing their stances on issues as new evidence or strong reasons warrant it.
 
 #### Step 2: Decide
 
@@ -128,7 +128,7 @@ This first principle thinking of what makes a great team then helps guide you in
 
 The key is to weigh all positions, using evidence to determine which direction influences you're objectives the most. One key point to understand - you might have had the right perspective from the beginning, but now you KNOW that you do, so the best decision can be made and EVERYONE feels heard and understands the reasoning behind why you made the decision the way you did.
 
-## Attributes / Anti-Patterns for Open-Mindedness (in other words, being close minded)
+## Attributes / Anti-Patterns for Open-Mindedness (in other words, being close-minded)
 
 These are directly from the book, and instead of diving into each one, I will keep them as is.
 
@@ -140,7 +140,7 @@ These are directly from the book, and instead of diving into each one, I will ke
 6. "Closed-minded people have trouble holding two thoughts simultaneously in their minds."
 7. "Closed-minded people lack a deep sense of humility."
 
-This simple list inspired me to reflect on my own level of open-mindedness, and I am PUMPED to get better. I've felt my whole life that I'm opened to others opinion; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges, because that it just how the best decisions can be made and others can truly feel heard!
+This simple list inspired me to reflect on my level of open-mindedness, and I am PUMPED to get better. I've felt my whole life that I'm opened to others opinion; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges because that is just how the best decisions can be made and others can truly feel heard!
 
 ## Why this topic matters to developers?
 
@@ -150,9 +150,9 @@ This simple list inspired me to reflect on my own level of open-mindedness, and 
 
 I've had each and every single situation as a developer. 
 
-The industry has recognized the importance of soft and leadership skills as part of being a well-rounded developers. Making these decisions without causing team grudge matches makes working as a TEAM a wonderful experience. It's not about everyone being right, it's about finding the truth together that most benefits the team we are all trying to be best on.
+The industry has recognized the importance of soft and leadership skills as part of being well-rounded developers. Making these decisions without causing team grudge matches makes working as a TEAM a wonderful experience. It's not about everyone being right, it's about finding the truth together that most benefits the team we are all trying to be best on.
 
-By learning better ways to navigate those meetings and make better decisions, not only do you grow, but your teammates do as well, all while the team reaches higher level of success.
+By learning better ways to navigate those meetings and make better decisions, not only do you grow, but your teammates do as well, all while the team reaches a higher level of success.
 
 _**That's a WIN-WIN-WIN situation!!**_
 
