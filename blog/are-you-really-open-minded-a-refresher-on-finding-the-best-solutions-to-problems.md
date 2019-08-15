@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 cover: /post-images/business-idea-diagram-innovation-40218-1-.jpg
 date: '2019-08-15'
 title: >-
