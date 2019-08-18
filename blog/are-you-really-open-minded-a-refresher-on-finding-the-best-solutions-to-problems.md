@@ -15,7 +15,7 @@ Throughout the summer I've been reading through critical thinking books, such as
 
 _More to come! This is part of a side-project to become better critical thinkers and developing a framework for making decisions._
 
-I've really enjoyed the book and it's been interesting to learn how different leaders lead to develop the culture they appreciate. Mr. Dalio split _Principles _up into three parts, first giving an introduction to who he is, followed by life principles, and ending with work principles. I wanted to touch on chapter three in part two, **Be Radically Open-Minded** because as a software developer and future husband, it hit home for me.
+I've really enjoyed the book and it's been interesting to learn how different leaders lead to develop the culture they appreciate. Mr. Dalio split _Principles_ up into three parts, first giving an introduction to who he is, followed by life principles, and ending with work principles. I wanted to touch on chapter three in part two, **Be Radically Open-Minded** because as a software developer and future husband, it hit home for me.
 
 _Note: anything in quotes throughout the article will be quotes from the book unless otherwise stated._
 
