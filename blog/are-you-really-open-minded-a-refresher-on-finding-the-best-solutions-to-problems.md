@@ -23,7 +23,7 @@ _Note: anything in quotes throughout the article will be quotes from the book un
 
 ## Two Barriers to being Open-Minded
 
-When trying to make a decision, there are two barriers mentioned in the book that make it difficult to make the best decision:
+When trying to make a decision, there are two barriers mentioned in the book that make it difficult:
 
 1. Your Ego
 2. Your blind spots
@@ -46,7 +46,7 @@ This ego causes you to respond as if you are being attacked for an idea, even th
 
 Blindspots are areas in which your "way of thinking prevents you from seeing things accurately."
 
-Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people  are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blindspots so others can help us out. 
+Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blindspots so others can help us out. 
 
 It's similar to checking your blindspot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....uh oh.
 
@@ -82,7 +82,7 @@ With this new perspective in mind, you can now openly discuss and listen to othe
 
 Many times we base decisions on what we know, our frame of reference, and our experiences without really considering the other facts. Whether that is in the form of articles or people, we must take the time on tough decisions (or big decisions that affect the team) with care.
 
-Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we do have knowledge on and answer that question instead (are brains are weird huh?). 
+Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we do have knowledge on and answer that question instead (our brains are weird huh?). 
 
 ##### Other Perspectives from Believable People:
 
@@ -92,7 +92,7 @@ Ray uses a term called believability in the book, meaning you should really only
 
 Here's my favorite quote from the book that helped me see a different perspective on doing this better, not only at work but all relationships in my life!
 
-> When two people believe opposite things, chances are that one of them is wrong. It pays to find out if that someone is you. That’s why I believe you must appreciate and develop the art of thoughtful disagreement. In thoughtful disagreement, your goal is not to convince the other party that you are right—it is to find out which view is true and decide what to do about it. In thoughtful disagreement, both parties are motivated by the genuine fear of missing important perspectives. Exchanges in which you really see what the other person is seeing and they really see what you are seeing—with both your “higher-level yous” trying to get to the truth—are immensely helpful and a giant source of untapped potential. To do this well, approach the conversation in a way that conveys that you’re just trying to understand.26 Use questions rather than make statements. Conduct the discussion in a calm and dispassionate manner, and encourage the other person to do that as well. Remember, you are not arguing; you are openly exploring what’s true. Be reasonable and expect others to be reasonable. If you’re calm, collegial, and respectful you will do a lot better than if you are not. You’ll get better at this with practice.
+> "When two people believe opposite things, chances are that one of them is wrong. It pays to find out if that someone is you. That’s why I believe you must appreciate and develop the art of thoughtful disagreement. In thoughtful disagreement, your goal is not to convince the other party that you are right—it is to find out which view is true and decide what to do about it. In thoughtful disagreement, both parties are motivated by the genuine fear of missing important perspectives. Exchanges in which you really see what the other person is seeing and they really see what you are seeing—with both your “higher-level yous” trying to get to the truth—are immensely helpful and a giant source of untapped potential. To do this well, approach the conversation in a way that conveys that you’re just trying to understand...Use questions rather than make statements. Conduct the discussion in a calm and dispassionate manner, and encourage the other person to do that as well. Remember, you are not arguing; you are openly exploring what’s true. Be reasonable and expect others to be reasonable. If you’re calm, collegial, and respectful you will do a lot better than if you are not. You’ll get better at this with practice."
 
 Powerful stuff! I just can't point it any better than that and it MAKES so much sense.
 
