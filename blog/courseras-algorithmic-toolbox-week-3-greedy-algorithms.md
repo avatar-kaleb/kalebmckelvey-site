@@ -25,12 +25,10 @@ Greedy algorithms can be broken down into four main steps:
 
 Given a list of single digit numbers, create the largest possible number from it.
 
-*Example*
-`
+```
 Input: 8 7 6 1 3 2 4 5 9
 Output: 987654321
-`
-
+```
 
 ### Make Greedy Choice
 
