@@ -2,7 +2,7 @@
 published: true
 cover: /post-images/blackboard-chalk-chalkboard-21696-1-.jpg
 date: '2019-06-07'
-title: Coursera's - Algorithmic Toolbox Week 1
+title: Coursera's - Algorithmic Toolbox Week 1 - Course Intro
 category: Tech
 tags:
   - career
