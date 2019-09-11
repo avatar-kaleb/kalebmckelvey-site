@@ -16,4 +16,9 @@ When solving problems, it's important to have different types of strategies that
 Greedy algorithms can be broken down into four main steps:
 
 1. Make greedy choice
-1. Prove c
+1. Prove choice is a safe choice
+1. Reduce to a subproblem
+1. Iterate
+1. Optimize (optional if needed)
+
+
