@@ -21,4 +21,9 @@ Greedy algorithms can be broken down into four main steps:
 1. Iterate
 1. Optimize (optional if needed)
 
+*Largest Number Example Problem For Steps Below*
+
+
+
+### Make Greedy Choice
 
