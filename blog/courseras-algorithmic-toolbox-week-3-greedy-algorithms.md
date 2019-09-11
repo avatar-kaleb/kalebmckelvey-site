@@ -32,3 +32,11 @@ Output: 987654321
 
 ### Make Greedy Choice
 
+### Prove Safe Choice
+
+### Reduce to Subproblem
+
+### Iterate
+
+### Optimize
+
