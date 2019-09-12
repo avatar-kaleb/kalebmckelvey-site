@@ -2,7 +2,7 @@
 published: false
 cover: /post-images/blackboard-chalk-chalkboard-21696-1-.jpg
 date: '2019-09-11'
-title: Coursera's - Algorithmic Toolbox Week 3 - Greedy Algorithms
+title: Coursera's Algorithmic Toolbox Week 3 - Greedy Algorithms
 category: Tech
 tags:
   - career
