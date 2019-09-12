@@ -189,10 +189,56 @@ console.log(result);
 
 Same as recursive, but less stack space!
 
----
+## Sorting
+
+Sorting is a fundamental computation problem in computer science. It's an important step in many algorithm solutions, which allows you to increase run-time of queries.
+
+Input: Giving a sequence of n elements.
+Output: Permutation from 1 to n in non-decreasing order
+
+
+### Selection Sort
+
+```javascript
+function selectionSort(list) {
+  for (let i = 0; i < list.length; i++) {
+    let minIndex = i;
+    let j = i + 1;
+    
+    for (; j < list.length; j++) {
+      if (list[j] < list[minIndex]) {
+        minIndex = j;
+      }
+    }
+    const tmp = list[i]
+    list[i] = list[minIndex]
+    list[minIndex] = tmp
+  }  
+}
+
+const test = [9,8,7,6,5,4,3,2,1]
+selectionSort(test)
+console.log(test);
+```
+##### Run Time
+
+O(n^2)
+
+Sorts in place, requires constant amount of memory
+
+### Merge Sort
+Divide and Conquer solution
+
+Given an array, split it into two halves, then sort those halves recursively, finally merge it
 
 
 
+##### Run time
+
+O(n log n)
+
+the recursion => log2 N
+the splitting / merging => N
 
 
 
