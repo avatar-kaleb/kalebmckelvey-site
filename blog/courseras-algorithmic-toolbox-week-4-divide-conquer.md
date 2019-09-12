@@ -59,6 +59,10 @@ If you were doing this with a smaller number set, it isn't a challenge to search
 
 Imagine that instead of 6 numbers, there were thousands of names or ids. Is there a better way?
 
+##### Runtime
+
+There's N elements in the array, you can search to the end, so Big O(n)
+
 #### Recursive Solution
 
 ```javascript
@@ -79,5 +83,18 @@ const result = linearSearch(test, 0, test.length, 9)
 
 console.log(result);
 ```
+
+##### Runtime
+
+The professor recommends defining a **recurrence relation**, defined as an equation recursively defining a sequence of values.
+
+He uses the following equation to define worst-case time for the recursive search algorithm:
+
+`T(n) = T(n-1) + c`
+`T(0) = c`
+
+
+
+
 
 
