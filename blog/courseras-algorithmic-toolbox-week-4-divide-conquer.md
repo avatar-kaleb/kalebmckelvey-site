@@ -25,7 +25,7 @@ The lecture uses three visual diagrams to represent this.
 
 After a problem is broken down, each subproblem (smaller rectangle) can be solved on its own.
 
-Since the problems are broken into smaller pieces but of the same type, recursion is the natural choice for solving each subproblem in the same divide and conquer mentality.
+Since the problems are broken into smaller pieces but of the same type, recursion is the natural choice for solving each subproblem in the same divide and conquer mentality. It's not required though, meaning we can re-write it into an iterative solution.
 
 ### Combine Results
 
