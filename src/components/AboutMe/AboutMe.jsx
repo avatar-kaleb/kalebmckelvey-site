@@ -119,11 +119,12 @@ const AboutMe = () => (
         <p>
           I graduated from GE&apos;s Digital Technology Leadership Program in February 2017. From
           this, I led through experience and learned from many top IT professionals in GE. Becoming
-          a tech lead on our Milwaukee Software team, I mentored junior team members, lead
-          initiatives, improveed our code base with every new feature, and helped architect designs
+          a tech lead on our Milwaukee Software team, I mentored junior team members, led
+          initiatives, improved our code base with every new feature, and helped architect designs
           to meet requirements from our Product Owners.
           <br />
-          <br />I look forward to continuing using this experience in my new role!
+          <br />
+          I look forward to continuing using this experience in my new role!
         </p>
         <br />
         <DataTable plain>
@@ -205,7 +206,7 @@ const AboutMe = () => (
           <br />
           <br />
           I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to a
-          leadership program at GE Healthcare which led to becoming a Staff Software Engineer; Since
+          leadership program at GE Healthcare which led to becoming a Staff Software Engineer; since
           then, I made the move to a new industry and city - New York - to close the distance with
           my girlfriend and take on a new role!
           <br />
@@ -246,14 +247,14 @@ const AboutMe = () => (
         </p>
         <h3>Becoming a Software Engineer!</h3>
         <p>
-          Since then, I began working at GE in their Digital Technology Leadership Program followed
-          achieving my dream of becoming a Software Engineer! GE is a company that focuses on the
-          development of both technical and leadership skill-sets. Because of this, I have grown in
-          both my professional and personal worlds thanks to the fabulous people I&apos;ve met on
-          the way.
+          After college, I began working at GE in their Digital Technology Leadership Program that led to
+          achieving my dream of becoming a Software Engineer in my first role after graduating!
+          GE is a company that focuses on the development of both technical and leadership skill-sets.
+          Because of this, I have grown in both my professional and personal worlds thanks to the
+          fabulous people I&apos;ve met on the way.
         </p>
         <p>
-          Fast forward today, I work at Northwestern Mutual - a company that has more than a century
+          Fast forward to today, I work at Northwestern Mutual - a company that has more than a century
           under its belt -&nbsp; adventuring through a digital transformation. Personal finance has
           long been a passion of mine, so getting an opportunity to spend 40+ hours a week
           developing software to help people with that area of their life has been great!
