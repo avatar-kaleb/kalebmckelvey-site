@@ -37,7 +37,7 @@ Since the problems are broken into smaller pieces but of the same type, recursio
 
 Once we solve each, then we combine the solutions back together and answer the main problem (large rectangle)
 
-## Two Examples
+## Two Beginner Examples
 
 The video lectures uses two examples to demonstrate the power and strategy of dividing and conquering as we solve challenges.
 
@@ -188,6 +188,11 @@ console.log(result);
 ##### Runtime
 
 Same as recursive, but less stack space!
+
+---
+
+
+
 
 
 
