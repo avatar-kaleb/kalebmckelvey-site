@@ -2,7 +2,7 @@
 published: true
 cover: /post-images/blackboard-chalk-chalkboard-21696-1-.jpg
 date: '2019-06-11'
-title: Coursera's - Algorithmic Toolbox Week 2 - Warmup
+title: Coursera's Algorithmic Toolbox Week 2 - Warmup
 category: Tech
 tags:
   - career
