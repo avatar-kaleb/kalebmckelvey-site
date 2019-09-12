@@ -231,6 +231,8 @@ Divide and Conquer solution
 
 Given an array, split it into two halves, then sort those halves recursively, finally merge it
 
+TODO
+
 
 
 ##### Run time
@@ -239,6 +241,22 @@ O(n log n)
 
 the recursion => log2 N
 the splitting / merging => N
+
+
+## Lower Bounds for comparison based sorting --
+
+algorithms that sorts objects by comparing pairs of them (selection sort or merge) Big Omega(n log n), it isn't always the case it does
+
+## Non-Comparison Based Sorting Algorithms
+
+Counting Sort - array of integers -- or ids from a key of objects, scan array from left to one, and store the cell count of each integer...once filled, we can create the resulting array
+
+TODO
+
+
+Runtime:
+O(m+n)
+
 
 
 
