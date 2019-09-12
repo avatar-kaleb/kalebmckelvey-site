@@ -43,7 +43,7 @@ The video lectures uses two examples to demonstrate the power and strategy of di
 
 ### Linear Search
 
-Problem:
+*Problem:*
 
 > Given an array A with **n** elements, and a specified key to find, output the index where that key is within the array. If there isn't an index, then return `'NOT_FOUND'`
 
@@ -55,7 +55,7 @@ Problem:
 
 #### Iterative Solution
 
-_Note: Yes I know that javascript has a find function :D._
+_Note: Yes I know that javascript has a findIndex function :D._
 
 ```javascript
 function linearSearch(list, key) {
@@ -116,6 +116,78 @@ He uses the following equation to define worst-case time for the recursive searc
 
 Big O(n)
 
+### Binary Search
+
+*Problem:*
+
+> Given a sorted array A with **n** elements, and a specified key to find, output the index (1 indexed) where that key is within the array or where it would be if it was there.
+
+> Find 7:
+
+> `[1, 3, 5, 6, 7, 9]`
+
+> return 4
+
+
+#### Recursive Solution
+
+```
+function recursiveBinarySearch(list, low, high, key) {
+  if (high < low) {
+    return low - 1;
+  }
+  const midPoint =  Math.floor(low +((high-low)/2))
+  
+  if (key === list[midPoint]) {
+    return midPoint
+  } else if (key < list[midPoint]) {
+    return recursiveBinarySearch(list, low, midPoint - 1, key)
+  } else {
+    return recursiveBinarySearch(list, midPoint + 1, high, key) 
+  }
+}
+
+const test = [1, 2, 4, 6, 7, 9]
+const result = recursiveBinarySearch(test, 0, test.length-1, 9)
+
+console.log(result);
+```
+
+##### Runtime
+
+T(n) = T(Floor(n/2)) + c
+T(0) = c
+
+Theta(log2n)
+
+#### Iterative Solution
+
+```javascript
+function iterativeBinarySearch(list, low, high, key) {
+  
+  while (low <= high) {
+     const midPoint =  Math.floor(low +((high-low)/2))
+    if (key === list[midPoint]) {
+      return midPoint
+    } else if (key < list[midPoint]) {
+      high = midPoint - 1
+    } else {
+      low = midPoint + 1
+    }
+  }
+  
+  return low
+}
+
+const test = [1, 2, 4, 6, 7, 9]
+const result = iterativeBinarySearch(test, 0, test.length-1, 3)
+
+console.log(result);
+```
+
+##### Runtime
+
+Same as recursive, but less stack space!
 
 
 
