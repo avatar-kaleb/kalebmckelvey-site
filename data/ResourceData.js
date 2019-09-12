@@ -17,6 +17,10 @@ export default {
               name: 'Pragmatic Programmer',
               link:
                 'https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126792&amp;sr=1-1&amp;keywords=pragmatic+programmer'
+            },
+            {
+              name: 'Refactoring',
+              value: 'https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/ref=asc_df_0134757599/?tag=hyprod-20&linkCode=df0&hvadid=312125971120&hvpos=1o1&hvnetw=g&hvrand=11823220251021012184&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004400&hvtargid=pla-464425925893&psc=1&tag=&ref=&adgrpid=61316180839&hvpone=&hvptwo=&hvadid=312125971120&hvpos=1o1&hvnetw=g&hvrand=11823220251021012184&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004400&hvtargid=pla-464425925893'
             }
           ]
         },
@@ -263,9 +267,9 @@ export default {
               description: "AirBnb's library to make animations easy."
             },
             {
-             name: 'CSS Houdini',
-             link: 'https://houdini.glitch.me/',
-             description: 'Keep up with the state and status of Houdini'
+              name: 'CSS Houdini',
+              link: 'https://houdini.glitch.me/',
+              description: 'Keep up with the state and status of Houdini'
             }
           ]
         }
@@ -332,6 +336,52 @@ export default {
             {
               name: "Poor Charlie's Almanack",
               link: 'https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018'
+            },
+            {
+              name: "Damn Right: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger",
+              link: 'https://www.amazon.com/Damn-Right-Berkshire-Hathaway-Billionaire/dp/0471446912'
+            }
+          ]
+        },
+        {
+          name: 'Critical Thinking',
+          resources: [
+            {
+              name: "Thinking Fast and Slow",
+              link:
+                'https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_2?crid=3W0OROV6QD059&keywords=thinking+fast+and+slow+by+daniel+kahneman&qid=1568286256&s=gateway&sprefix=thinking+fast%2Caps%2C134&sr=8-2'
+            },
+            {
+              name: "Blink",
+              link: 'https://www.amazon.com/Blink-Power-Thinking-Without/dp/B00097DWY0/ref=sr_1_1?keywords=blink&qid=1568286312&s=books&sr=1-1'
+            },
+            {
+              name: "Super Thinking: The Big Book of Mental Models",
+              link: 'https://www.amazon.com/Super-Thinking-Book-Mental-Models/dp/B07RP1RK8S/ref=sr_1_1?keywords=super+thinking&qid=1568286338&s=audible&sr=1-1'
+            },
+            {
+              name: 'Stumbling on Happiness',
+              link: 'https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert-ebook/dp/B000GCFW0A/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1568286362&sr=1-1'
+            },
+            {
+              name: 'Predictably Irrational',
+              value: 'https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/ref=sr_1_1?crid=31Y8CKMYZNLRX&keywords=predictably+irrational&qid=1568286423&s=digital-text&sprefix=predict%2Cdigital-text%2C131&sr=1-1'
+            },
+            {
+              name: 'Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets',
+              value: 'https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto-ebook/dp/B001FA0W5W/ref=sr_1_1?crid=2I9PL22OUD74D&keywords=fooled+by+randomness&qid=1568286454&s=digital-text&sprefix=fooled+by+ra%2Cdigital-text%2C128&sr=1-1'
+            },
+            {
+              name: 'Decisive: How to Make Better Choices in Life and Work',
+              value: 'https://www.amazon.com/Decisive-Make-Better-Choices-Life/dp/0307956393/ref=pd_sbs_14_44?_encoding=UTF8&pd_rd_i=0307956393&pd_rd_r=9b85b2e3-71b8-4fb7-b74b-9660cce8a497&pd_rd_w=bxYDF&pd_rd_wg=1XfYH&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=0TKJMD4WP6DP4XGMH17F&psc=1&refRID=0TKJMD4WP6DP4XGMH17F'
+            },
+            {
+              name: 'Nudge: Improving Decisions About Health, Wealth, and Happiness',
+              value: 'https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X/ref=pd_sbs_14_30?_encoding=UTF8&pd_rd_i=014311526X&pd_rd_r=cc428931-bd3f-4803-9ab6-43292ab1f231&pd_rd_w=WCXE6&pd_rd_wg=JrunX&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=KT3540YZX41Y6J7BPRGR&psc=1&refRID=KT3540YZX41Y6J7BPRGR'
+            },
+            {
+              name: 'Influence',
+              value: 'https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/ref=pd_sbs_14_15?_encoding=UTF8&pd_rd_i=006124189X&pd_rd_r=d9a3f463-93b2-428a-a20c-32d70f10aacd&pd_rd_w=Ennmh&pd_rd_wg=F4PYx&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=F7548SVJ7APRAT1AC2Z1&psc=1&refRID=F7548SVJ7APRAT1AC2Z1'
             }
           ]
         },
@@ -359,6 +409,10 @@ export default {
             {
               name: 'The Stormlight Archives',
               link: 'https://brandonsanderson.com/books/the-stormlight-archive/"'
+            },
+            {
+              name: 'MistBorn',
+              link: 'https://brandonsanderson.com/books/mistborn/"'
             }
           ]
         },
@@ -402,6 +456,10 @@ export default {
               name: 'Transform',
               link:
                 'https://www.amazon.com/TransForm-Dramatically-Improve-Business-Relationships-ebook/dp/B00MTNC6L2/ref=sr_1_fkmr0_1?s=books&amp;ie=UTF8&amp;qid=1494126388&amp;sr=1-1-fkmr0&amp;keywords=transform+john+haden'
+            },
+            {
+              name: 'Principles: Life and Work',
+              link: 'https://www.amazon.com/dp/1501124021?aaxitk=hELCaFnDV4EKjtqwKD2uKA&pd_rd_i=1501124021&pf_rd_p=44fc3e0f-4b9e-4ed8-b33b-363a7257163d&hsa_cr_id=2579786790401&sb-ci-n=asinImage&sb-ci-v=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71rggICc6ZL.jpg&sb-ci-a=1501124021'
             }
           ]
         },
@@ -439,6 +497,18 @@ export default {
             {
               name: 'A Random Walk Down Wall Street',
               link: 'https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338'
+            },
+            {
+              name: "One Up on Wall Street",
+              link: "https://www.amazon.com/dp/B006YDFYW6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+            },
+            {
+              name: "Stocks for the Long Run",
+              link: "https://www.amazon.com/gp/product/B00GWSXX26/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"
+            },
+            {
+              name: "The Future for Investors: Why the Tried and the True Triumphs over the Bold and the New",
+              link: "https://www.amazon.com/gp/product/B000FCK1T8/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1"
             }
           ]
         }
