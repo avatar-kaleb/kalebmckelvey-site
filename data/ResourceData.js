@@ -365,23 +365,23 @@ export default {
             },
             {
               name: 'Predictably Irrational',
-              value: 'https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/ref=sr_1_1?crid=31Y8CKMYZNLRX&keywords=predictably+irrational&qid=1568286423&s=digital-text&sprefix=predict%2Cdigital-text%2C131&sr=1-1'
+              link: 'https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/ref=sr_1_1?crid=31Y8CKMYZNLRX&keywords=predictably+irrational&qid=1568286423&s=digital-text&sprefix=predict%2Cdigital-text%2C131&sr=1-1'
             },
             {
               name: 'Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets',
-              value: 'https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto-ebook/dp/B001FA0W5W/ref=sr_1_1?crid=2I9PL22OUD74D&keywords=fooled+by+randomness&qid=1568286454&s=digital-text&sprefix=fooled+by+ra%2Cdigital-text%2C128&sr=1-1'
+              link: 'https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto-ebook/dp/B001FA0W5W/ref=sr_1_1?crid=2I9PL22OUD74D&keywords=fooled+by+randomness&qid=1568286454&s=digital-text&sprefix=fooled+by+ra%2Cdigital-text%2C128&sr=1-1'
             },
             {
               name: 'Decisive: How to Make Better Choices in Life and Work',
-              value: 'https://www.amazon.com/Decisive-Make-Better-Choices-Life/dp/0307956393/ref=pd_sbs_14_44?_encoding=UTF8&pd_rd_i=0307956393&pd_rd_r=9b85b2e3-71b8-4fb7-b74b-9660cce8a497&pd_rd_w=bxYDF&pd_rd_wg=1XfYH&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=0TKJMD4WP6DP4XGMH17F&psc=1&refRID=0TKJMD4WP6DP4XGMH17F'
+              link: 'https://www.amazon.com/Decisive-Make-Better-Choices-Life/dp/0307956393/ref=pd_sbs_14_44?_encoding=UTF8&pd_rd_i=0307956393&pd_rd_r=9b85b2e3-71b8-4fb7-b74b-9660cce8a497&pd_rd_w=bxYDF&pd_rd_wg=1XfYH&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=0TKJMD4WP6DP4XGMH17F&psc=1&refRID=0TKJMD4WP6DP4XGMH17F'
             },
             {
               name: 'Nudge: Improving Decisions About Health, Wealth, and Happiness',
-              value: 'https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X/ref=pd_sbs_14_30?_encoding=UTF8&pd_rd_i=014311526X&pd_rd_r=cc428931-bd3f-4803-9ab6-43292ab1f231&pd_rd_w=WCXE6&pd_rd_wg=JrunX&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=KT3540YZX41Y6J7BPRGR&psc=1&refRID=KT3540YZX41Y6J7BPRGR'
+              link: 'https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X/ref=pd_sbs_14_30?_encoding=UTF8&pd_rd_i=014311526X&pd_rd_r=cc428931-bd3f-4803-9ab6-43292ab1f231&pd_rd_w=WCXE6&pd_rd_wg=JrunX&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=KT3540YZX41Y6J7BPRGR&psc=1&refRID=KT3540YZX41Y6J7BPRGR'
             },
             {
               name: 'Influence',
-              value: 'https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/ref=pd_sbs_14_15?_encoding=UTF8&pd_rd_i=006124189X&pd_rd_r=d9a3f463-93b2-428a-a20c-32d70f10aacd&pd_rd_w=Ennmh&pd_rd_wg=F4PYx&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=F7548SVJ7APRAT1AC2Z1&psc=1&refRID=F7548SVJ7APRAT1AC2Z1'
+              link: 'https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/ref=pd_sbs_14_15?_encoding=UTF8&pd_rd_i=006124189X&pd_rd_r=d9a3f463-93b2-428a-a20c-32d70f10aacd&pd_rd_w=Ennmh&pd_rd_wg=F4PYx&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=F7548SVJ7APRAT1AC2Z1&psc=1&refRID=F7548SVJ7APRAT1AC2Z1'
             }
           ]
         },
