@@ -53,11 +53,32 @@ Problem:
 
 > return 5
 
-#### Brute Force
+#### Iterative Solution
 
-If you were doing this with a smaller number set, it isn't a challenge to search 1 by 1 through the array to find 3.
+_Note: Yes I know that javascript has a find function :D._
 
-Imagine that instead of 6 numbers, there were thousands of names or ids. Is there a better way?
+```javascript
+function linearSearch(list, key) {
+  let foundIndex = null
+  
+  list.forEach((item, index) => {
+    if (item === key) {
+      foundIndex = index
+    }
+  })
+  
+  if (foundIndex === null) {
+    return 'NOT_FOUND'
+  } else {
+    return foundIndex
+  }
+}
+
+const test = [2, 4, 5, 1, 4, 3, 9]
+const result = linearSearch(test, 9)
+
+console.log(result);
+```
 
 ##### Runtime
 
@@ -93,6 +114,7 @@ He uses the following equation to define worst-case time for the recursive searc
 `T(n) = T(n-1) + c`
 `T(0) = c`
 
+Big O(n)
 
 
 
