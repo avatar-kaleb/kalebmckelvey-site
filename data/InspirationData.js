@@ -37,5 +37,10 @@ export default [
     link: 'https://www.youtube.com/watch?v=pqzcCfUglws',
     title: 'The Psychology of Human Misjudgement',
     value: 'This video introduced the world to mental models, cognitive bias, and showed their usefulness!'
+  },
+  {
+    id: 7,
+    link: 'https://www.youtube.com/watch?v=q5nVqeVhgQE',
+    value: 'Will Smith has always been one of my role models - this video shares some of his life philosphies!'
   }
 ];
