@@ -73,5 +73,13 @@ export default [
     title: 'Journey Before Destination',
     value:
       '“The most important words a man can say are, “I will do better.” These are not the most important words any man can say. I am a man, and they are what I needed to say. The ancient code of the Knights Radiant says “journey before destination.” Some may call it a simple platitude, but it is far more. A journey will have pain and failure. It is not only the steps forward that we must accept. It is the stumbles. The trials. The knowledge that we will fail. That we will hurt those around us. But if we stop, if we accept the person we are when we fall, the journey ends. That failure becomes our destination. To love the journey is to accept no such end. I have found, through painful experience, that the most important step a person can take is always the next one." -Brandon Sanderson Oathbringer'
+  },
+  {
+    id: 12,
+    title: 'You Get the Respect You Demand',
+    value: `We're taught at a young age, be assertive - not agressive or passive. This is a tough balance in the fast world we live in, because
+    people know more than we do in certain topics. People have authority and we have authority bias towards those in leadership roles. I believe
+    that being assertive is a powerful talent, one that should be exercised to bring yourself the respect you deserve while being very respectful
+    to others. It's a balance of both getting/demanding respect in a respectful way that helps you in all areas of your life.`
   }
 ];
