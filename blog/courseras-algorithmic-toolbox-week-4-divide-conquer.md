@@ -253,9 +253,89 @@ Counting Sort - array of integers -- or ids from a key of objects, scan array fr
 
 TODO
 
-
 Runtime:
 O(m+n)
+
+
+### Quick Sort
+
+Comparison based algorithm
+
+Running time (n log n) on average
+
+Easy to implement and efficient in practice
+
+Main idea:
+
+given an array -- take the first element, then rearrange and 6 stays in the correct place - this can be done in 1 scan of the array
+
+pivot:
+TODO 
+
+##### Runtime
+
+Unbalanced partitians:
+
+T(n) = n + T(n-1):
+T(n) = n+(n-1)+(n-2)+....= Big Theta(n^2)
+
+Balanced Partitions:
+T(n) = 2(T(n/2)+n
+T(n) = Big Theta (n log n)
+
+We analyzed recursion tree to prove this -- can find this in merge sort videos later
+
+in reality, we have some balance and some unbalanced partitions - so the run time depends on the balance of the partitions
+
+we cant guantee we pick pivots for balanced paritions...so instead we do a random pivot from subarray
+
+Random PIVOT Alg:
+
+TODO --
+
+## Runtime
+
+O(n log n) average -- worst O(n^2)
+
+average => averaging is over random numbers used by algorithm, but not over the inputs, this is for ALL arrays
+
+### Equal Elements
+
+-- what happens?
+
+quick sort is slower when there are not many unique elements. Why? the array is always split into two parts...size 0 and n-1, so then
+T(n) = n + T(n-1) + T(0) sooo T(n) = big theta(n^2)
+
+TODO new algorithm?
+
+##### implementation issues
+
+Space complexity -> recursive calls => storing info on the stack, even tho array is in place
+
+average recursive => logarithmic
+
+Tail Recursion Elimination
+
+TODO
+
+last video (~2:30)
+
+we want to reduce recursive calls on the longest partitions
+
+##### Intro Quick Sort
+
+Second -- Deterministic pivot selection heuristic
+-- like median of the first, middle, and last element
+
+this works in most instances but not all, so to fix this....if the recursion depth exceeds a certain threshold, then the algorithm to heap sort
+
+worst case -> O(n log n)
+
+
+
+
+
+
 
 
 
