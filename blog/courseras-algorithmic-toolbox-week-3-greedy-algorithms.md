@@ -7,7 +7,6 @@ category: Tech
 tags:
   - career
   - algorithms
-  - ''
 ---
 When solving problems, it's important to have different types of strategies that can be used to find optimal solutions. One of those strategies, Greedy Algorithms, is the topic of week 3.
  
