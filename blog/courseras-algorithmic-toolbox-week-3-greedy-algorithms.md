@@ -40,7 +40,7 @@ The lecture states to first find a few greedy choices, determine which is optima
  
 ### Reduce to Subproblem, Then Solve & Iterate
  
-The greedy strategy re-uses it's safe move over and over, on smaller chunks of the problem, leading to a solution.
+The greedy strategy re-uses its safe move over and over, on smaller chunks of the problem, leading to a solution.
  
 For our largest number array example, first, the array has 9 digits. 9 is found as the largest digit and removed.
  
