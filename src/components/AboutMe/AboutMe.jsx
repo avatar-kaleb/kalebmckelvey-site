@@ -96,7 +96,7 @@ const AboutMe = () => (
               <TableColumn>VS Code</TableColumn>
             </TableRow>
             <TableRow key={6}>
-              <TableColumn>Spring Boot</TableColumn>
+              <TableColumn>GraphQL</TableColumn>
               <TableColumn>Gulp</TableColumn>
               <TableColumn>WebSockets</TableColumn>
             </TableRow>
