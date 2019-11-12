@@ -13,7 +13,7 @@ tags:
 ---
 Computers. Machines created to do the bidding of thy masters, without questions, without reasons. Sounds great right? It absolutely is! Technology has vastly transformed the world we live in and improved the overall living standard throughout its short history. 
 
-This has been possible not because computers are incredibly smart (at this time), but because of the humans who tell computers what and how to do a task. When you truly think about how programming works and the field it has evolved into, there are a few basic elements that make it possible for us humans to tell computers what to do. One type of those elements is called a *data structure*.
+This has been possible not because computers are incredibly smart (at this time), but because of the humans who tell computers what and how to do a task. When you truly think about how programming works and the field it has evolved into, there are a few basic elements that make it possible for us humans to tell computers what to do. One type of those elements is called a _data structure_.
 
 Data structures are a building block to the software we write. They let us organize data in a computer for specific situations, so computers can do our bidding faster or make it easier for us to reason about. There are many different types of data structures with pros and cons in different scenarios, but my goal of this blog post is to write about each one in a way that makes it easy to understand for those interested. I won't be writing about every single data structure out there, but many of them are based on these fundamental ones or a combination of them, all making it easier for humans and computers to create better software!
 
@@ -27,134 +27,162 @@ Arrays are collections of items, typically of the same type, that are stored con
 
 Arrays hold the same type of data because it's easier to allocate memory when that is the case. For example, if you have an array of size 4, with the type of integer in Java, then the computer can allocate 4 bytes (1 byte for each integer) in memory for you.
 
-
+![An example of how integers are stored in memory within an array.](/post-images/int-array-example.png)
 
 ## Static Arrays
-- Memory in a computer for ints
-- Memory for an array of ints
-- Creating an array
-- Explain static array in java?
-- Basic operations
-- Props/Cons
-- Common uses
-- Resources
+
+### What are they?
+
+Static arrays are just arrays in which the size doesn't dynamically adjust based on the amount of elements inserted. Once the array reaches max capacity, then you must manually create a new array and copy elements over, or remove elements from the array you have.
+
+### Metaphor / Real Life Connection
+
+Have you ever tried adding a 13th egg into the carton of eggs that holds one dozen? Of course not, because it won't fit and the lid wouldn't close. That's how static arrays work.
+
+You tell the computer, 'hey there, I'd like room for 12 eggs to use in my program. I don't have all the eggs yet, but when they come I will add them, so please save space for me'.
+
+The computer obliges.
+
+The egg man comes and asks you how many eggs would you like, you say 'one dozen', and he gives you twelves eggs, so you add them into your carton - you have reached full capacity.
+
+Now, say that same egg man gives you a bonus egg for buying twelve. You have a few options:
+1. Throw it away or tell him no thanks, I have no room
+1. You remove one egg from the carton, add the bonus egg, and fry the one you removed so you no longer need to store it anywhere but your belly.
+1. You find an 18 egg carton, so you now have room for the 13th egg, and you throw the original 12 egg carton away.
+
+That's how an egg array works in a computer too :).
+
+* Basic operations
+* Props/Cons
+* Common uses
+* Resources
 
 ## Dynamic Arrays
-- How dynamic arrays / lists use arrays under the hood
-- Creating a dynamic array
-- Basic operations
-- Props/Cons
-- Common uses
-- Explain dynamic arrays in javascript
-- Resources
+
+* How dynamic arrays / lists use arrays under the hood
+* Creating a dynamic array
+* Basic operations
+* Props/Cons
+* Common uses
+* Explain dynamic arrays in javascript
+* Resources
 
 ## Multi-Dimensional Arrays
-- Explain arrays of arrays
-- Can continue for awhile, but uses a lot of memory
-- Explain rows / columns concept
-- Explain adding / inserting etc at specific rows or columns
-- Basic operations
-- Props/Cons
-- Common uses
-- Explain creating a 2D array in JS
-- Resources
 
+* Explain arrays of arrays
+* Can continue for awhile, but uses a lot of memory
+* Explain rows / columns concept
+* Explain adding / inserting etc at specific rows or columns
+* Basic operations
+* Props/Cons
+* Common uses
+* Explain creating a 2D array in JS
+* Resources
 
 # Linked Lists
 
 ## Singly Linked List
-- Explain pointers / memory allocations of linked lists
-- Explain linked list Node structure
-- Creating a linked list in JS
-- Basic operations
-- Props/Cons
-- Common uses
-- Resources
+
+* Explain pointers / memory allocations of linked lists
+* Explain linked list Node structure
+* Creating a linked list in JS
+* Basic operations
+* Props/Cons
+* Common uses
+* Resources
 
 ## Doubly Linked List
-- Explain notion of prev/next Node structure
-- explain why you would want this
-- Basic operations
-- Props/Cons
-- Common uses
-- Resources
+
+* Explain notion of prev/next Node structure
+* explain why you would want this
+* Basic operations
+* Props/Cons
+* Common uses
+* Resources
 
 ## Circular Linked List
-- Explain notion of prev/next Node structure
-- explain why you would want this
-- Basic operations
-- Props/Cons
-- Common uses
-- Resources
+
+* Explain notion of prev/next Node structure
+* explain why you would want this
+* Basic operations
+* Props/Cons
+* Common uses
+* Resources
 
 # Stacks
 
 ## Basic Stack
-- explain concept of LIFO
-- explain concept with stack of plates
-- explain how stacks work
-- Basic operations
-- pros/cons
-- common uses
-- Resources
+
+* explain concept of LIFO
+* explain concept with stack of plates
+* explain how stacks work
+* Basic operations
+* pros/cons
+* common uses
+* Resources
 
 ## Min-Max Stack
-- explain how you can create a min/max stack with all O(1) times
-- pros/cons
-- Basic operations
-- common uses
-- resources
+
+* explain how you can create a min/max stack with all O(1) times
+* pros/cons
+* Basic operations
+* common uses
+* resources
 
 ## Queue
-- explain concept of FIFO
-- explain concept with line at Target
-- explain how queues work
-- Basic operations
-- pros/cons
-- common uses
-- Resources
+
+* explain concept of FIFO
+* explain concept with line at Target
+* explain how queues work
+* Basic operations
+* pros/cons
+* common uses
+* Resources
 
 ## Hash Tables / Maps
-
 
 # Trees
 
 ## Tries
-- explain concept of using maps to store characters to new maps, end characters, and end words in a tree structure
-- explain concept of implementing one and its use
-- basic ops
-- pros/cons
-- common uses
-- resources
+
+* explain concept of using maps to store characters to new maps, end characters, and end words in a tree structure
+* explain concept of implementing one and its use
+* basic ops
+* pros/cons
+* common uses
+* resources
 
 ## Binary Trees
-- explain concept of binary trees
-- explain node structure
-- visual of one
-- explain implementing one
-- basic ops
-- pros/cons
-- common uses
-- resources
+
+* explain concept of binary trees
+* explain node structure
+* visual of one
+* explain implementing one
+* basic ops
+* pros/cons
+* common uses
+* resources
 
 ## Binary Search Trees
-- explain concept of binary search trees
-- explain node structure
-- explain the rules of a BST
-- visual of one
-- explain implementing one
-- basic ops
-- pros/cons
-- common uses
-- resources
+
+* explain concept of binary search trees
+* explain node structure
+* explain the rules of a BST
+* visual of one
+* explain implementing one
+* basic ops
+* pros/cons
+* common uses
+* resources
 
 ## N-Ary Trees
-- explain n-ary trees as a concept
-- explain node structure
-- visual of one
-- pros/cons
-- common uses
-- resources
+
+* explain n-ary trees as a concept
+* explain node structure
+* visual of one
+* pros/cons
+* common uses
+* resources
 
 ## AVL Tree
 
@@ -165,12 +193,13 @@ Arrays hold the same type of data because it's easier to allocate memory when th
 ## Graphs
 
 ## Heaps
-- explain concept of max/min heaps
-- explain the rules
-- explain implementation with array and its formulas
-- explain node structure
-- pros/cons
-- common uses
-- resources
+
+* explain concept of max/min heaps
+* explain the rules
+* explain implementation with array and its formulas
+* explain node structure
+* pros/cons
+* common uses
+* resources
 
 ## Union Sets
