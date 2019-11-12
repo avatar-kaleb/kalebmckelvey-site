@@ -17,6 +17,8 @@ This has been possible not because computers are incredibly smart (at this time)
 
 Data structures are a building block to the software we write. They let us organize data in a computer for specific situations, so computers can do our bidding faster or make it easier for us to reason about. There are many different types of data structures with pros and cons in different scenarios, but my goal of this blog post is to write about each one in a way that makes it easy to understand for those interested. I won't be writing about every single data structure out there, but many of them are based on these fundamental ones or a combination of them, all making it easier for humans and computers to create better software!
 
+*Note: I will be talking about static arrays, but all of my code examples are in JavaScript, which doesn't actually have static arrays since they are dynamic by default 🚀.*
+
 TODO: GIF LETS GET THIS PARTY STARTED
 
 TODO --- explain memory in a computer
@@ -25,7 +27,7 @@ TODO --- explain memory in a computer
 
 Arrays are collections of items, typically of the same type, that are stored continuously in a block of memory. More specifically, an array is initialized to a specific size, memory for that size is allocated, and then items are added up in different indexes of the array up to that size. 
 
-Arrays hold the same type of data because it's easier to allocate memory when that is the case. For example, if you have an array of size 4, with the type of integer in Java, then the computer can allocate 4 bytes (1 byte for each integer) in memory for you.
+Arrays hold the same type of data because it's easier to allocate memory when that is the case. For example, if you have an array of size 4, with the type of integer in Java, then the computer can allocate 4 bytes (1 byte for each integer) in memory for you. Last but not least, arrays are zero indexed, which means that indexes are starting at 0 for the first item. See the example for static array below!
 
 ![An example of how integers are stored in memory within an array.](/post-images/int-array-example.png)
 
@@ -52,10 +54,66 @@ Now, say that same egg man gives you a bonus egg for buying twelve. You have a f
 
 That's how an egg array works in a computer too :).
 
-* Basic operations
-* Props/Cons
-* Common uses
-* Resources
+### Basic Operations
+
+*Add an item*
+```
+const array = [1]
+array.push(0)
+// javascript also offers unshift and splice to add new items
+console.log(array) 
+// prints out [1, 0]
+```
+
+*Get an item*
+```
+const array = [0,1,2,3,4,5]
+// 0 is pointing to the first index in the array, which then retrieves that value at that location
+console.log(array[0]) 
+// prints out 0
+```
+
+*Delete an item*
+
+```
+// Delete first item using JS splice function
+const array = [0,1,2,3,4,5]
+// start at index 0, delete 1 item
+array.splice(0, 1)
+// javascript offers shift and pop to remove items as well
+console.log(array[0]) 
+// prints out [1,2,3,4,5]
+```
+
+*Update an item*
+```
+const array = [0,1,2,3,4,5]
+// 0 is pointing to the first index in the array, which we set to a new value
+array[0] = -1
+console.log(array[0]) 
+// prints out -1
+```
+
+### Advantages of Static Arrays
+- Easily change values inside the array without needing to create or remove memory at runtime
+- Allocation is done at compile time and you know the size of the array
+- Easy to handle since you don't need to maintain size if you know the data is static within it
+- Fast look ups for values
+- Quick to add items to the end of an array (that has space of course)
+
+### Disadvantages of Static Arrays
+- Can lead to wasted memory if the memory goes un-used throughout the life of the program
+- Runs out of memory if you need extra space and fill it up
+- Encompassing the two above, one can just summarize as the inability to change the size of the array as needed
+- Resizing requires logic and handling of memory allocation on your own
+- Slow to insert update/remove/insert in the middle of the array
+
+### Common Uses
+- Hold collections of data in programs so you don't have to use a boat load of variables for each
+
+### More Resources
+- [Geeks for Geeks](https://www.geeksforgeeks.org/array-data-structure/)
+- [CMU CS](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html)
 
 ## Dynamic Arrays
 
