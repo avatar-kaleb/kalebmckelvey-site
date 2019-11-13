@@ -149,10 +149,6 @@ console.log(array[0])
 
 Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers.
 
-### Pointers & Memory & Nodes Oh My
-
-#### Pointers
-
 #### Linked List Node Structure
 
 #### Creating a Linked List Class in JavaScript
@@ -164,8 +160,17 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-* Basic operations
-* Props/Cons
+### Advantages
+- Easy insertion and deletion anywhere in the list without having to re-organize the data structure
+- Dynamic size
+
+### Disadvantages
+- Slow to retrieve items at specific indexes in the list
+- Slow to find specific item with specific data
+- More memory required to store pointers
+### Common Uses
+
+### Resources
 * Common uses
 * Resources
 
