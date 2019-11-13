@@ -209,9 +209,14 @@ The idea and concept of Doubly Linked list are very similar, with only two key d
 
 Having both of these pointers and both nodes allows us to easily traverse and manipulate the list without keeping track of previous nodes and also the ability to traverse in both directions.
 
+### Creating a Doubly Linked List Class in JavaScript
 
-
-### Creating a Linked List Class in JavaScript
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="MWWYeGx" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Doubly Linked List Implementation">
+  <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/MWWYeGx">
+  Doubly Linked List Implementation</a> by Kaleb McKelvey (<a href="https://codepen.io/avatar-kaleb">@avatar-kaleb</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Advantages
 
