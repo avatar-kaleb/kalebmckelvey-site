@@ -112,7 +112,7 @@ console.log(array[0])
 - Resizing requires logic and handling of memory allocation on your own
 - Slow to insert update/remove/insert in the middle of the array
 
-### Common Uses
+### Example Uses
 - Hold collections of data in programs so you don't have to use a boat load of variables for each
 
 ### More Resources
@@ -147,7 +147,7 @@ console.log(array[0])
 
 ### What are they?
 
-Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers (Node.data => whatever you would like) and a pointer to its next Node (Node.next => Node or null).
+Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers (Node.data => whatever you would like) and a pointer to its next Node (Node.next => Node or null). The first item in the list is called the head node.
 
 ### Real Life Metaphor
 
@@ -155,32 +155,25 @@ A train!
 
 Imagine you are creating your own train, because you have recently installed a beautiful model train track in your basement. A train track is no good without a train, so you think to your self - hmm, maybe I should start building one. 
 
-------------------------------------
-
 You immediately realize that at the start of every train is the the locomotive, or the car with an engine. So you declare that as the start of your train, buy one, and set it on the track. This is analogous to the head of your train (or train linked list).
 
 Head -> 
-------------------------------------
 
 The first car is definitely an improvement, but your model track is long and you want to carry use this train to carry toys along the track - to do so, you need more cars. We'll start with the A car to carry all toys that start with the letter A and add it as the next train from the head. You want to carry toys from A to D, but unfortunately the B car hasn't arrive from Amazon yet, so you hook all the other ones up first.
 
 Head -> A -> C -> D ->
-------------------------------------
 
 Your train and track looks great, the kids are happy with the idea of new toys, and your happy the track is no longer empty. But, it's only been one day since ordering your B car - thus you must wait another day to complete your mission.
 
-Finally! The next day arrives, you unpack the B car, and want to add it into its correct spot. There's one problem, your having trouble finding exactly where A is on the train, so you start at the engine car and start working your way through the next cars. Well that was easy, it happened to be the next car! So you easily unhook car C from car A, add B to A, and C to B. Your train is complete! What a relief you didn't have to rebuild the entire thing from scratch.
+Finally! The next day arrives, you unpack the B car, and want to add it into its correct spot. There's one problem, you're having trouble finding exactly where A is on the train, so you start at the engine car and start working your way through the next cars. Well that was easy, it happened to be the next car! So you easily unhook car C from car A, add B to A, and C to B. Your train is complete! What a relief you didn't have to rebuild the entire thing from scratch.
 
 Your final train looks like so:
 
-
 Head -> A -> B -> C -> D
-------------------------------------
 
 And as you can see, you now have a linked list train with each trailer hooking the cars together.
 
-
-#### Creating a Linked List Class in JavaScript
+### Creating a Singly Linked List Class in JavaScript
 
 <p class="codepen" data-height="372" data-theme-id="dark" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="VwZOWZx" data-preview="true" style="height: 372px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Linked List Implementation">
   <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/VwZOWZx">
@@ -198,7 +191,10 @@ And as you can see, you now have a linked list train with each trailer hooking t
 - Slow to find specific item with specific data
 - More memory required to store pointers
 
-### Common Uses
+### Example Uses
+- React uses Linked Lists for it's Fiber reconciliation algorithm
+- Used to implement stack and queues (see those below)
+- Adjacency list implementation for sparse graphs
 
 ### Resources
 - [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
@@ -207,12 +203,21 @@ And as you can see, you now have a linked list train with each trailer hooking t
 
 ## Doubly Linked List
 
-* Explain notion of prev/next Node structure
-* explain why you would want this
-* Basic operations
-* Props/Cons
-* Common uses
-* Resources
+### What Are They?
+
+The idea and concept of Doubly Linked list are very similar, with only two key differences. The first being, instead of each Node pointing to the next Node in the list, it also includes a pointer to it's previous Node as well. Secondly, the last node of the linked list is called the tail node. 
+
+Having both of these pointers and both nodes allows us to easily traverse and manipulate the list without keeping track of previous nodes and also the ability to traverse in both directions.
+
+
+
+### Creating a Linked List Class in JavaScript
+
+### Advantages
+
+### Example Uses
+
+### Resources
 
 ## Circular Linked List
 
