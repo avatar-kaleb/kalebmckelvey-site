@@ -155,8 +155,19 @@ A train!
 
 Imagine you are creating your own train, because you have recently installed a beautiful model train track in your basement. A train track is no good without a train, so you think to your self - hmm, maybe I should start building one. 
 
-You immediately realize that at the start of every train is the the locomotive, or the car with an engine. So you declare that as the start of your train, buy one, and set it on the track.
+------------------------------------
 
+You immediately realize that at the start of every train is the the locomotive, or the car with an engine. So you declare that as the start of your train, buy one, and set it on the track. This is analogous to the head of your train (or train linked list).
+
+Head
+------------------------------------
+
+The first car is definitely an improvement, but your model track is long and you want to carry use this train to carry toys along the track - to do so, you need more cars. We'll start with the A car to carry all toys that start with the letter A and add it as the next train from the head. You want to carry toys from A to D, but unfortunately the B car hasn't arrive from Amazon yet, so you hook all the other ones up first.
+
+Head -> A -> C -> D
+------------------------------------
+
+Your train and track looks great, the kids are happy with the idea of new toys, and your happy the track is no longer empty. But, it's only been one day since ordering your B car - thus you must wait another day to complete your mission.
 
 
 
