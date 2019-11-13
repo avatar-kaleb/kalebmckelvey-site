@@ -54,6 +54,10 @@ Now, say that same egg man gives you a bonus egg for buying twelve. You have a f
 
 That's how an egg array works in a computer too :).
 
+### Arrays in JS
+
+TODO create code pen
+
 ### Basic Operations
 
 *Add an item*
@@ -141,9 +145,25 @@ console.log(array[0])
 
 ## Singly Linked List
 
-* Explain pointers / memory allocations of linked lists
-* Explain linked list Node structure
-* Creating a linked list in JS
+### What are they?
+
+Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers.
+
+### Pointers & Memory & Nodes Oh My
+
+#### Pointers
+
+#### Linked List Node Structure
+
+#### Creating a Linked List Class in JavaScript
+
+<p class="codepen" data-height="372" data-theme-id="dark" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="VwZOWZx" data-preview="true" style="height: 372px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Linked List Implementation">
+  <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/VwZOWZx">
+  Linked List Implementation</a> by Kaleb McKelvey (<a href="https://codepen.io/avatar-kaleb">@avatar-kaleb</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 * Basic operations
 * Props/Cons
 * Common uses
