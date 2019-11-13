@@ -219,10 +219,18 @@ Having both of these pointers and both nodes allows us to easily traverse and ma
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Advantages
+- Inserting / Deleting a node in the middle of the list is very easy if a node is given to insert it before or after
+- Traversal from either direction is much easier, and no need to track prev nodes
+
+### Disadvantages
+- More complex logic for maintaining pointers and the lists for certain operations
+- Extra memory required for the extra pointer
 
 ### Example Uses
 
 ### Resources
+- [Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
+- [Geeks for Geeks]
 
 ## Circular Linked List
 
