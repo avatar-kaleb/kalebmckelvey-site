@@ -159,16 +159,25 @@ Imagine you are creating your own train, because you have recently installed a b
 
 You immediately realize that at the start of every train is the the locomotive, or the car with an engine. So you declare that as the start of your train, buy one, and set it on the track. This is analogous to the head of your train (or train linked list).
 
-Head
+Head -> 
 ------------------------------------
 
 The first car is definitely an improvement, but your model track is long and you want to carry use this train to carry toys along the track - to do so, you need more cars. We'll start with the A car to carry all toys that start with the letter A and add it as the next train from the head. You want to carry toys from A to D, but unfortunately the B car hasn't arrive from Amazon yet, so you hook all the other ones up first.
 
-Head -> A -> C -> D
+Head -> A -> C -> D ->
 ------------------------------------
 
 Your train and track looks great, the kids are happy with the idea of new toys, and your happy the track is no longer empty. But, it's only been one day since ordering your B car - thus you must wait another day to complete your mission.
 
+Finally! The next day arrives, you unpack the B car, and want to add it into its correct spot. There's one problem, your having trouble finding exactly where A is on the train, so you start at the engine car and start working your way through the next cars. Well that was easy, it happened to be the next car! So you easily unhook car C from car A, add B to A, and C to B. Your train is complete! What a relief you didn't have to rebuild the entire thing from scratch.
+
+Your final train looks like so:
+
+
+Head -> A -> B -> C -> D
+------------------------------------
+
+And as you can see, you now have a linked list train with each trailer hooking the cars together.
 
 
 #### Creating a Linked List Class in JavaScript
