@@ -151,6 +151,13 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 
 ### Real Life Metaphor
 
+A train! 
+
+Imagine you are creating your own train, because you have recently installed a beautiful model train track in your basement. A train track is no good without a train, so you think to your self - hmm, maybe I should start building one. 
+
+You immediately realize that at the start of every train is the the locomotive, or the car with an engine. So you declare that as the start of your train, buy one, and set it on the track.
+
+
 
 
 #### Creating a Linked List Class in JavaScript
