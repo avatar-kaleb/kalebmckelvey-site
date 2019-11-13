@@ -147,9 +147,9 @@ console.log(array[0])
 
 ### What are they?
 
-Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers.
+Linked Lists are linear data structures that don't exist in the same continuous memory location. Instead, each item in the list is called a Node, which then points to its next item. The node structure allows for users to store any type of data, such as other objects, other data structures, or just numbers (Node.data => whatever you would like) and a pointer to its next Node (Node.next => Node or null).
 
-#### Linked List Node Structure
+### Real Life Metaphor
 
 #### Creating a Linked List Class in JavaScript
 
@@ -168,6 +168,7 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 - Random access is difficult
 - Slow to find specific item with specific data
 - More memory required to store pointers
+
 ### Common Uses
 
 ### Resources
