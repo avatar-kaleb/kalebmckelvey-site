@@ -165,7 +165,7 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 - Dynamic size
 
 ### Disadvantages
-- Slow to retrieve items at specific indexes in the list
+- Random access is difficult
 - Slow to find specific item with specific data
 - More memory required to store pointers
 ### Common Uses
