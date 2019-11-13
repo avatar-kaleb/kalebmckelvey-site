@@ -151,6 +151,8 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 
 ### Real Life Metaphor
 
+
+
 #### Creating a Linked List Class in JavaScript
 
 <p class="codepen" data-height="372" data-theme-id="dark" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="VwZOWZx" data-preview="true" style="height: 372px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Linked List Implementation">
@@ -172,8 +174,9 @@ Linked Lists are linear data structures that don't exist in the same continuous 
 ### Common Uses
 
 ### Resources
-* Common uses
-* Resources
+- [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+- [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 ## Doubly Linked List
 
