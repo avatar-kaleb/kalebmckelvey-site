@@ -17,13 +17,13 @@ This has been possible not because computers are incredibly smart (at this time)
 
 Data structures are a building block to the software we write. They let us organize data in a computer for specific situations, so computers can do our bidding faster or make it easier for us to reason about. There are many different types of data structures with pros and cons in different scenarios, but my goal of this blog post is to write about each one in a way that makes it easy to understand for those interested. I won't be writing about every single data structure out there, but many of them are based on these fundamental ones or a combination of them, all making it easier for humans and computers to create better software!
 
-*Note: I will be talking about static arrays, but all of my code examples are in JavaScript, which doesn't actually have static arrays since they are dynamic by default 🚀.*
+_Note: I will be talking about static arrays, but all of my code examples are in JavaScript, which doesn't actually have static arrays since they are dynamic by default 🚀._
 
 TODO: GIF LETS GET THIS PARTY STARTED
 
 TODO --- explain memory in a computer
 
----
+- - -
 
 # Arrays
 
@@ -50,9 +50,10 @@ The computer obliges.
 The egg man comes and asks you how many eggs would you like, you say 'one dozen', and he gives you twelves eggs, so you add them into your carton - you have reached full capacity.
 
 Now, say that same egg man gives you a bonus egg for buying twelve. You have a few options:
+
 1. Throw it away or tell him no thanks, I have no room
-1. You remove one egg from the carton, add the bonus egg, and fry the one you removed so you no longer need to store it anywhere but your belly.
-1. You find an 18 egg carton, so you now have room for the 13th egg, and you throw the original 12 egg carton away.
+2. You remove one egg from the carton, add the bonus egg, and fry the one you removed so you no longer need to store it anywhere but your belly.
+3. You find an 18 egg carton, so you now have room for the 13th egg, and you throw the original 12 egg carton away.
 
 That's how an egg array works in a computer too :).
 
@@ -62,7 +63,8 @@ TODO create code pen
 
 ### Basic Operations
 
-*Add an item*
+_Add an item_
+
 ```
 const array = [1]
 array.push(0)
@@ -71,7 +73,8 @@ console.log(array)
 // prints out [1, 0]
 ```
 
-*Get an item*
+_Get an item_
+
 ```
 const array = [0,1,2,3,4,5]
 // 0 is pointing to the first index in the array, which then retrieves that value at that location
@@ -79,7 +82,7 @@ console.log(array[0])
 // prints out 0
 ```
 
-*Delete an item*
+_Delete an item_
 
 ```
 // Delete first item using JS splice function
@@ -91,7 +94,8 @@ console.log(array[0])
 // prints out [1,2,3,4,5]
 ```
 
-*Update an item*
+_Update an item_
+
 ```
 const array = [0,1,2,3,4,5]
 // 0 is pointing to the first index in the array, which we set to a new value
@@ -101,27 +105,31 @@ console.log(array[0])
 ```
 
 ### Advantages of Static Arrays
-- Easily change values inside the array without needing to create or remove memory at runtime
-- Allocation is done at compile time and you know the size of the array
-- Easy to handle since you don't need to maintain size if you know the data is static within it
-- Fast look ups for values
-- Quick to add items to the end of an array (that has space of course)
+
+* Easily change values inside the array without needing to create or remove memory at runtime
+* Allocation is done at compile time and you know the size of the array
+* Easy to handle since you don't need to maintain size if you know the data is static within it
+* Fast look ups for values
+* Quick to add items to the end of an array (that has space of course)
 
 ### Disadvantages of Static Arrays
-- Can lead to wasted memory if the memory goes un-used throughout the life of the program
-- Runs out of memory if you need extra space and fill it up
-- Encompassing the two above, one can just summarize as the inability to change the size of the array as needed
-- Resizing requires logic and handling of memory allocation on your own
-- Slow to insert update/remove/insert in the middle of the array
+
+* Can lead to wasted memory if the memory goes un-used throughout the life of the program
+* Runs out of memory if you need extra space and fill it up
+* Encompassing the two above, one can just summarize as the inability to change the size of the array as needed
+* Resizing requires logic and handling of memory allocation on your own
+* Slow to insert update/remove/insert in the middle of the array
 
 ### Example Uses
-- Hold collections of data in programs so you don't have to use a boat load of variables for each
+
+* Hold collections of data in programs so you don't have to use a boat load of variables for each
 
 ### More Resources
-- [Geeks for Geeks](https://www.geeksforgeeks.org/array-data-structure/)
-- [CMU CS](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html)
 
----
+* [Geeks for Geeks](https://www.geeksforgeeks.org/array-data-structure/)
+* [CMU CS](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html)
+
+- - -
 
 ## Dynamic Arrays
 
@@ -164,23 +172,26 @@ array.push(1);
 The basic operations are the same as the static array, please scroll up to see them :).
 
 ### Advantages
-- Adding new values to the end still mostly fast
-- Fast lookups and updates
-- Resizes for you!
+
+* Adding new values to the end still mostly fast
+* Fast lookups and updates
+* Resizes for you!
 
 ### Disadvantages
-- Resizing can take time at large data sizes when appending new items
-- Slow deletion/inserts in the middle of the array* What's the best way to create new array sizes? Doubling can lead to wasted space
+
+* Resizing can take time at large data sizes when appending new items
+* Slow deletion/inserts in the middle of the array* What's the best way to create new array sizes? Doubling can lead to wasted space
 
 ### Common uses
 
 Same common uses as static arrays, please check those out above if interested!
 
 ### Resources
-- [Geeks for Geeks](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)
-- [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_array)
 
----
+* [Geeks for Geeks](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_array)
+
+- - -
 
 ## Multi-Dimensional Arrays (Matrices)
 
@@ -209,12 +220,16 @@ The basic operations below should help drive this point home, and you will see f
 ### Basic Operations
 
 Explain adding / inserting etc at specific rows or columns* Explain creating a 2D array in JS
+
 * looping
 * Getting neighbors
 
 ### Advantages
+
 ### Disadvantages
+
 ### Common uses
+
 ### Resources
 
 # Linked Lists
@@ -259,23 +274,27 @@ And as you can see, you now have a linked list train with each trailer hooking t
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Advantages
-- Easy insertion and deletion anywhere in the list without having to re-organize the data structure
-- Dynamic size
+
+* Easy insertion and deletion anywhere in the list without having to re-organize the data structure
+* Dynamic size
 
 ### Disadvantages
-- Random access is difficult
-- Slow to find specific item with specific data
-- More memory required to store pointers
+
+* Random access is difficult
+* Slow to find specific item with specific data
+* More memory required to store pointers
 
 ### Example Uses
-- React uses Linked Lists for it's Fiber reconciliation algorithm
-- Used to implement stack and queues (see those below)
-- Adjacency list implementation for sparse graphs
+
+* React uses Linked Lists for it's Fiber reconciliation algorithm
+* Used to implement stack and queues (see those below)
+* Adjacency list implementation for sparse graphs
 
 ### Resources
-- [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
-- [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
-- [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+* [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+* [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 ## Doubly Linked List
 
@@ -296,18 +315,20 @@ Having both of these pointers and both nodes allows us to easily traverse and ma
 
 ### Advantages
 
-- Inserting / Deleting a node in the middle of the list is very easy if a node is given to insert it before or after
-- Traversal from either direction is much easier, and no need to track prev nodes
+* Inserting / Deleting a node in the middle of the list is very easy if a node is given to insert it before or after
+* Traversal from either direction is much easier, and no need to track prev nodes
 
 ### Disadvantages
-- More complex logic for maintaining pointers and the lists for certain operations
-- Extra memory required for the extra pointer
+
+* More complex logic for maintaining pointers and the lists for certain operations
+* Extra memory required for the extra pointer
 
 ### Example Uses
 
 ### Resources
-- [Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
-- [Geeks for Geeks](https://www.geeksforgeeks.org/doubly-linked-list/)
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Doubly_linked_list)
+* [Geeks for Geeks](https://www.geeksforgeeks.org/doubly-linked-list/)
 
 ## Circular Linked List
 
@@ -357,6 +378,63 @@ So far in the article, we've talked through linear data structures. Structures i
 Data within a tree is stored hierarchically, meaning we can organize the data with relationships that have a hierarchy. Things like your family tree or an NFL football team. In a football team, you have the head coach, who under him or her has assistances, who then help coach every player. Even players can have hierarchy, since it is common to have captains or the quarterback be responsible for leadership over the teammates.
 
 In Computer Science, we have MANY different types of data structures that are tees but implement them or organize data in specific ways. But before diving too deeply into the specific structures, there are a few common characteristics and terminology one should be comfortable with first.
+
+Picture first, then definitions :).
+
+![A tree data structure of an nfl team hierarchy.](/post-images/nfl-team-tree.png)
+
+*Root*
+
+The topmost node of the tree 
+ - Team Owner
+
+*Leaf*
+
+Any node without children
+- QB
+
+*Parent*
+
+Given a node that is a child, the parent is the node in which the child is referenced from. An immediate ancestor of a given node. 
+- Given the QB node, its parent is the Team Captain
+
+*Child*
+
+An immediate descendant from a parent node.
+- Given the Team Captain, a child is the QB node
+
+*Sibling*
+
+Given a node, its children are nodes that reference the same parent.
+- The `QB node` has a sibling of the other `QB`
+
+*Ancestor*
+
+Given a node, its ancestors are the nodes reached by traveling towards the root.
+- Given the `Head Coach Node`, its ancestor is the `Team Owner`
+
+*Descendant*
+
+Given a node, its descendants are the nodes reached by traveling away the root.
+- Given the `Head Coach Node`, a descendant is the `QB coach`
+
+*Path*
+
+A sequential list of nodes and edges that gets you from one node to another.
+
+*Node*
+
+
+*Edge*
+
+
+
+*Degree*
+
+*Depth*
+
+*Height*
+
 
 
 
