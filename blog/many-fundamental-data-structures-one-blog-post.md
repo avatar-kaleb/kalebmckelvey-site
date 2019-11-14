@@ -356,6 +356,10 @@ So far in the article, we've talked through linear data structures. Structures i
 
 Data within a tree is stored hierarchically, meaning we can organize the data with relationships that have a hierarchy. Things like your family tree or an NFL football team. In a football team, you have the head coach, who under him or her has assistances, who then help coach every player. Even players can have hierarchy, since it is common to have captains or the quarterback be responsible for leadership over the teammates.
 
+In Computer Science, we have MANY different types of data structures that are tees but implement them or organize data in specific ways. But before diving too deeply into the specific structures, there are a few common characteristics and terminology one should be comfortable with first.
+
+
+
 ## Binary Trees
 
 * explain concept of binary trees
