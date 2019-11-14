@@ -352,14 +352,9 @@ Having both of these pointers and both nodes allows us to easily traverse and ma
 
 # Trees
 
-## Tries
+So far in the article, we've talked through linear data structures. Structures in which store data in a straight line type of fashion, but alas, we have arrived at our first non linear structure - Trees.
 
-* explain concept of using maps to store characters to new maps, end characters, and end words in a tree structure
-* explain concept of implementing one and its use
-* basic ops
-* pros/cons
-* common uses
-* resources
+Data within a tree is stored hierarchically, meaning we can organize the data with relationships that have a hierarchy. Things like your family tree or an NFL football team. In a football team, you have the head coach, who under him or her has assistances, who then help coach every player. Even players can have hierarchy, since it is common to have captains or the quarterback be responsible for leadership over the teammates.
 
 ## Binary Trees
 
@@ -399,7 +394,14 @@ Having both of these pointers and both nodes allows us to easily traverse and ma
 
 ## 2-3 Tree
 
-## Graphs
+## Tries
+
+* explain concept of using maps to store characters to new maps, end characters, and end words in a tree structure
+* explain concept of implementing one and its use
+* basic ops
+* pros/cons
+* common uses
+* resources
 
 ## Heaps
 
@@ -410,5 +412,7 @@ Having both of these pointers and both nodes allows us to easily traverse and ma
 * pros/cons
 * common uses
 * resources
+
+## Graphs
 
 ## Union Sets
