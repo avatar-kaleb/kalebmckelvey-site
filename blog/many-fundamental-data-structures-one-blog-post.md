@@ -424,19 +424,13 @@ A sequential list of nodes and edges that gets you from one node to another.
 
 *Node*
 
-
 *Edge*
-
-
 
 *Degree*
 
 *Depth*
 
 *Height*
-
-
-
 
 ## Binary Trees
 
