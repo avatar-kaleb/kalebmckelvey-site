@@ -23,6 +23,8 @@ TODO: GIF LETS GET THIS PARTY STARTED
 
 TODO --- explain memory in a computer
 
+---
+
 # Arrays
 
 Arrays are collections of items, typically of the same type, that are stored continuously in a block of memory. More specifically, an array is initialized to a specific size, memory for that size is allocated, and then items are added up in different indexes of the array up to that size. 
@@ -119,27 +121,101 @@ console.log(array[0])
 - [Geeks for Geeks](https://www.geeksforgeeks.org/array-data-structure/)
 - [CMU CS](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Arrays/arrays.html)
 
+---
+
 ## Dynamic Arrays
 
-* How dynamic arrays / lists use arrays under the hood
-* Creating a dynamic array
-* Basic operations
-* Props/Cons
-* Common uses
-* Explain dynamic arrays in javascript
-* Resources
+### What are they?
 
-## Multi-Dimensional Arrays
+Dynamic arrays are very similar to static arrays, except for one distinguishing feature. They resize automatically for you! 
+This means you don't need to know the size of your data before hand or worry about running out of space, because the array dynamically changes its size based on the amount of data it has.
 
-* Explain arrays of arrays
-* Can continue for awhile, but uses a lot of memory
-* Explain rows / columns concept
-* Explain adding / inserting etc at specific rows or columns
-* Basic operations
-* Props/Cons
-* Common uses
-* Explain creating a 2D array in JS
-* Resources
+### How Are They Managed?
+
+Generally, dynamic arrays are actually an abstraction on top of arrays to handle the resizing and copying for you. By this I mean that, under the hood of a dynamic array is just a static array managed by own class and functions.
+As the amount of data grows and reaches the current internal array's capacity, the abstracted data structure then creates a new static array that is double the size of the current one, and copies all values into the new one. You of course, don't need to worry about this part, because that is where the beauty of its abstraction comes into play.
+
+To be a bit more clear, let's walk through a hypothetical implementation of the JavaScript array (which behaves dynamically).
+
+```
+// first create a new array 
+const array = []; 
+// hypothetically, internally JavaScript creates an internal static array with length of 2.
+
+// let's add two new values
+array.push(0);
+array.push(1);
+// array= [0,1].
+
+// now we are at the internal capacity, but from a developer perspective you don't really care. You just want to add another value, so that's what you do.array.push(2);
+
+// Javascript internally determines that the original static array can't hold the value 2, so it does the following:
+// 1. creates a new array with length of 4
+// 2. copies 0,1 into that new array
+// 3. sets the class property to that new array
+// 4. adds the new value, 2, to the new size 4 array
+// array = [0,1,2]
+```
+
+### TODO: Metaphor / Real Life Connection
+
+### Basic operations
+
+The basic operations are the same as the static array, please scroll up to see them :).
+
+### Advantages
+- Adding new values to the end still mostly fast
+- Fast lookups and updates
+- Resizes for you!
+
+### Disadvantages
+- Resizing can take time at large data sizes when appending new items
+- Slow deletion/inserts in the middle of the array* What's the best way to create new array sizes? Doubling can lead to wasted space
+
+### Common uses
+
+Same common uses as static arrays, please check those out above if interested!
+
+### Resources
+- [Geeks for Geeks](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_array)
+
+---
+
+## Multi-Dimensional Arrays (Matrices)
+
+### What are they?
+
+You can think of multi-dimensional arrays as just an array, of arrays - like a table. This simple explanation does make it sound like they are easy to grasp, but I find that they can be a bit difficult to wrap your head around the first time.
+
+Why is that? 
+
+Because understanding how to find specific indexes within a 2D or 3D array can be confusing when doing so for the first time. I'm hoping I can break it down to help!
+
+### Rows / Columns
+
+Before jumping into the basic operations in a 2D (or more) array, I want to dive deep into the concept of rows and columns, and how I keep track of which I'm indexing. Let's start with a picture.
+
+![A table representing the values and indices of a 2D matrix, with values 0,1,2,3,4,5,6,7,8](/post-images/2d-array-table.png)
+
+As you can see, each row and column is representing an index, which can be used to find a specific value.
+
+I think of rows as the first layer and columns as second, which helps me remember that to reference rows, I only need one index, while I need two to reference a column WITHIN a row, because in our code we first create the rows with arrays inside of them for columns.
+
+The basic operations below should help drive this point home, and you will see from the comments when and where to use indexes.
+
+### TODO: Metaphor / Real Life Connection
+
+### Basic Operations
+
+Explain adding / inserting etc at specific rows or columns* Explain creating a 2D array in JS
+* looping
+* Getting neighbors
+
+### Advantages
+### Disadvantages
+### Common uses
+### Resources
 
 # Linked Lists
 
