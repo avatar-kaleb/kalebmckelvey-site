@@ -424,13 +424,19 @@ A sequential list of nodes and edges that gets you from one node to another.
 
 *Node*
 
+A data structure that has pointers to other nodes in the tree and a data structure that represents data in the tree node, like a number value.
+
 *Edge*
+
+A connection from one node to another.
 
 *Degree*
 
+The number of children a node has. 
+
 *Depth*
 
-*Height*
+The distance of a given node from the root.
 
 ## Binary Trees
 
