@@ -383,67 +383,85 @@ Picture first, then definitions :).
 
 ![A tree data structure of an nfl team hierarchy.](/post-images/nfl-team-tree.png)
 
-*Root*
+_Root_
 
 The topmost node of the tree 
- - Team Owner
 
-*Leaf*
+* Team Owner
+
+_Leaf_
 
 Any node without children
-- QB
 
-*Parent*
+* QB
+
+_Parent_
 
 Given a node that is a child, the parent is the node in which the child is referenced from. An immediate ancestor of a given node. 
-- Given the QB node, its parent is the Team Captain
 
-*Child*
+* Given the QB node, its parent is the Team Captain
+
+_Child_
 
 An immediate descendant from a parent node.
-- Given the Team Captain, a child is the QB node
 
-*Sibling*
+* Given the Team Captain, a child is the QB node
+
+_Sibling_
 
 Given a node, its children are nodes that reference the same parent.
-- The `QB node` has a sibling of the other `QB`
 
-*Ancestor*
+* The `QB node` has a sibling of the other `QB`
+
+_Ancestor_
 
 Given a node, its ancestors are the nodes reached by traveling towards the root.
-- Given the `Head Coach Node`, its ancestor is the `Team Owner`
 
-*Descendant*
+* Given the `Head Coach Node`, its ancestor is the `Team Owner`
+
+_Descendant_
 
 Given a node, its descendants are the nodes reached by traveling away the root.
-- Given the `Head Coach Node`, a descendant is the `QB coach`
 
-*Path*
+* Given the `Head Coach Node`, a descendant is the `QB coach`
+
+_Path_
 
 A sequential list of nodes and edges that gets you from one node to another.
 
-*Node*
+_Node_
 
 A data structure that has pointers to other nodes in the tree and a data structure that represents data in the tree node, like a number value.
 
-*Edge*
+_Edge_
 
 A connection from one node to another.
 
-*Degree*
+_Degree_
 
 The number of children a node has. 
 
-*Depth*
+_Depth_
 
 The distance of a given node from the root.
 
-## Binary Trees
+## Binary Search Trees
 
-* explain concept of binary trees
-* explain node structure
-* visual of one
-* explain implementing one
+### What Are They?
+
+Binary Trees are a specialized tree data structure, in which each node only points to at most two other nodes, typically tracked with left and right pointers, and includes its data.
+
+![Representation of a binary tree with 6 nodes.](/post-images/binary-tree-example.png)
+
+The letters represent the val of each node, which could be another data structure depending on the use case.
+
+### Creating One in Javascript
+
+
+
+* types
+* complete / incomplete trees
+ # metaphor
 * basic ops
 * pros/cons
 * common uses
@@ -453,7 +471,6 @@ The distance of a given node from the root.
 
 * explain concept of binary search trees
 * explain node structure
-* explain the rules of a BST
 * visual of one
 * explain implementing one
 * basic ops
