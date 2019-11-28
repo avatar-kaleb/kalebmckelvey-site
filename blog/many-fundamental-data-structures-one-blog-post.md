@@ -460,10 +460,9 @@ The letters represent the val of each node, which could be another data structur
 The following must be true for each and every node in a BST:
 
 1. All keys in the given node's left subtree are less than the given node's key
-1. All keys in the given node's right subtree are less than the given node's key
-1. Each left and right subtree must also be a BST
-1. Each node must have a unique data point
-
+2. All keys in the given node's right subtree are less than the given node's key
+3. Each left and right subtree must also be a BST
+4. Each node must have a unique data point
 
 ### Creating One in Javascript
 
@@ -489,32 +488,54 @@ _The diagram given above for BSTs is both full and complete._
 ### Metaphor
 
 ### Advantages
+
 - Insert, delete, search can all be implemented in O(log n) which is very helpful for large data sets
 
 ### Disadvantages
+
 - To maintain balance requires extra effort (see other tree structures below), but should be done to maintain fast operations
 - Implementation in general is more complex than some of the other data structures
 - Extra memory to store pointers to other tree nodes
 
 ### Example Uses
 
-- Sorted data structures with large data sets
-- Indexing for Databases
-- Arithmetic Expressions
+* Sorted data structures with large data sets
+* Indexing for Databases
+* Arithmetic Expressions
 
 ### Resources
-- [Geeks for Geeks](https://www.geeksforgeeks.org/binary-- search-tree-data-structure/)
-- [My Code School](https://www.youtube.com/watch?v=pYT9F8_LFTM)
-- [Princeton CS](https://algs4.cs.princeton.edu/32bst/)
+
+* \[Geeks for Geeks](https://www.geeksforgeeks.org/binary-- search-tree-data-structure/)
+* [My Code School](https://www.youtube.com/watch?v=pYT9F8_LFTM)
+* [Princeton CS](https://algs4.cs.princeton.edu/32bst/)
 
 ## N-Ary Trees
 
-* explain n-ary trees as a concept
-* explain node structure
-* visual of one
-* pros/cons
-* common uses
-* resources
+### What are they?
+
+The concept of N-Ary trees is very similar to the Binary Search Tree structure above, with a difference of how many nodes a given node points to. Binary Trees are a specialized version of N-Ary trees, where n is two. 
+
+Typically, instead of pointing to left and right children, an array of pointers is used to track each child node.
+
+The advantages and disadvantages are not listed below, because they are very similar to the Binary Search Tree. The number of nodes used to store your hierarchies depends on the problem you're trying to solve :).
+
+![An example of a N-Ary tree with nodes that have three children.](/post-images/n-ary-tree-example.png)
+
+_The example above represents a 3-Ary tree._
+
+One interesting note on these types of trees is that you can convert them to a Binary Tree or create them from one.
+
+### Creating One in JavaScript
+
+### General Uses
+
+- Dictionaries
+- File system hierarchies
+- Org structures
+
+### Resources
+- [Leet Code](https://leetcode.com/articles/introduction-to-n-ary-trees/)
+- [Wikipedia](https://en.wikipedia.org/wiki/M-ary_tree)
 
 ## AVL Tree
 
