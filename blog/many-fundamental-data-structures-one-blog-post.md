@@ -449,7 +449,7 @@ The distance of a given node from the root.
 
 ### What Are They?
 
-Binary Trees are a specialized tree data structure, in which each node only points to at most two other nodes, typically tracked with left and right pointers, and includes its data.
+Binary Search Trees are a specialized tree data structure, in which each node only points to at most two other nodes, typically tracked with left and right pointers, and includes only unique data points. Their are a few rules mentioned below that must be true for a tree to be a BST.
 
 ![Representation of a binary tree with 6 nodes.](/post-images/binary-tree-example.png)
 
@@ -457,38 +457,55 @@ The letters represent the val of each node, which could be another data structur
 
 ### Rules of Binary Search Tree
 
+The following must be true for each and every node in a BST:
+
+1. All keys in the given node's left subtree are less than the given node's key
+1. All keys in the given node's right subtree are less than the given node's key
+1. Each left and right subtree must also be a BST
+1. Each node must have a unique data point
+
+
 ### Creating One in Javascript
 
 <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="eYYmROL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Binary Search Tree - Non Self-Balancing">
-
   <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/eYYmROL">
-
   Binary Search Tree - Non Self-Balancing</a> by Kaleb McKelvey (<a href="https://codepen.io/avatar-kaleb">@avatar-kaleb</a>)
-
   on <a href="https://codepen.io">CodePen</a>.</span>
-
 </p>
-
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-* types
-* complete / incomplete trees
-  # metaphor
-* basic ops
-* pros/cons
-* common uses
-* resources
+### Full and Complete Binary Search Trees
 
-## Binary Search Trees
+#### Complete:
 
-* explain concept of binary search trees
-* explain node structure
-* visual of one
-* explain implementing one
-* basic ops
-* pros/cons
-* common uses
-* resources
+A BST is complete, if every single level of the tree is complete filled except for possibly the last level, where all nodes are as far left as possible.
+
+#### Full:
+
+A BST is full if every single node other than the leaves of the tree has two children nodes.
+
+_The diagram given above for BSTs is both full and complete._
+
+### Metaphor
+
+### Advantages
+- Insert, delete, search can all be implemented in O(log n) which is very helpful for large data sets
+
+### Disadvantages
+- To maintain balance requires extra effort (see other tree structures below), but should be done to maintain fast operations
+- Implementation in general is more complex than some of the other data structures
+- Extra memory to store pointers to other tree nodes
+
+### Example Uses
+
+- Sorted data structures with large data sets
+- Indexing for Databases
+- Arithmetic Expressions
+
+### Resources
+- [Geeks for Geeks](https://www.geeksforgeeks.org/binary-- search-tree-data-structure/)
+- [My Code School](https://www.youtube.com/watch?v=pYT9F8_LFTM)
+- [Princeton CS](https://algs4.cs.princeton.edu/32bst/)
 
 ## N-Ary Trees
 
