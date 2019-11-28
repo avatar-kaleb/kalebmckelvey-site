@@ -455,13 +455,25 @@ Binary Trees are a specialized tree data structure, in which each node only poin
 
 The letters represent the val of each node, which could be another data structure depending on the use case.
 
+### Rules of Binary Search Tree
+
 ### Creating One in Javascript
 
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="eYYmROL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Binary Search Tree - Non Self-Balancing">
 
+  <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/eYYmROL">
+
+  Binary Search Tree - Non Self-Balancing</a> by Kaleb McKelvey (<a href="https://codepen.io/avatar-kaleb">@avatar-kaleb</a>)
+
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
+</p>
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 * types
 * complete / incomplete trees
- # metaphor
+  # metaphor
 * basic ops
 * pros/cons
 * common uses
