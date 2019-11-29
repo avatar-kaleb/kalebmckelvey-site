@@ -527,6 +527,13 @@ One interesting note on these types of trees is that you can convert them to a B
 
 ### Creating One in JavaScript
 
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="js,result" data-user="avatar-kaleb" data-slug-hash="ExxqRQW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="N-Ary Tree">
+  <span>See the Pen <a href="https://codepen.io/avatar-kaleb/pen/ExxqRQW">
+  N-Ary Tree</a> by Kaleb McKelvey (<a href="https://codepen.io/avatar-kaleb">@avatar-kaleb</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ### General Uses
 
 - Dictionaries
@@ -563,5 +570,70 @@ One interesting note on these types of trees is that you can convert them to a B
 * resources
 
 ## Graphs
+
+### What Are They?
+
+Graph's are a collection of nodes that are linked together to represent some type of relationship - they don't have to be hierarchical relationships like trees, and can represent any type of relationship we want.
+
+### Terminology
+
+*Vertex* 
+
+A node in the graph
+
+*Edges* 
+
+The connection between two vertices. If a graph is directed, then these connections are one way, otherwise they can be bi-directional.
+
+*Path*
+
+A sequence of vertices that represents the directions one took from one vertex to another.
+
+A path is called simple, if it has no repeated vertices.
+
+*Cycles*
+
+A path that creates a circular path is called a cycle. 
+
+If a graph is called acyclic, it means there are no cycles within it.
+
+### Real Life Metaphor
+
+Think about the town you grew up in, all of your favorite places you visited regularly, the special places you went with your family, and places you have memories of.
+
+A lot of great memories huh?
+
+Now if you took all of those places and connected them in different ways, like their location, your joy from visiting them, distance away from each other, then you would have your very own graph of the place you grew up.
+
+The amazing part? You could create many different types of graphs for just the place you grew up to represent it in different ways.
+
+You could create a graph of its population, or its various housing, roads, high schools, or even trees if you wanted.
+
+Graphs represent many of the things in our world, and for that they are amazing!
+
+### Graph Properties, Representations, & Traversals
+
+I really recommend taking time to watch the following videos from YouTube on Graphs. I decided against writing my own based on just how great they are and the visuals are so helpful.
+
+- [Intro to Graphs](https://www.youtube.com/watch?v=gXgEDyodOJU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=38)
+- [Properties of Graphs](https://www.youtube.com/watch?v=AfYqN3fGapc&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=39)
+- [Graph Representation Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=41&t=2s)
+- [Graph Representation Adjacency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=42&t=307s)
+- [Graph Representation Adjacency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=1s)
+- [Graph Traversals](https://www.youtube.com/watch?v=bIA8HEEUxZI)
+
+I'll still show some examples of implementation of the Adjacency Matrix and Adjacency List in JavaScript - but wow what great videos to explain the concepts!
+
+#### Creating Two Representations in JavaScript with Traversals
+
+
+
+#### Advantages
+
+### Disadvantages
+
+### Common Uses
+
+### More Resources
 
 ## Union Sets
