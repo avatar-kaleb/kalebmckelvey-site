@@ -2,16 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 
+import get from 'lodash/get'
 import PostListing from '../components/PostListing/PostListing';
 import config from '../../data/SiteConfig';
 
 const TagTemplate = props => {
-  const {
-    data: {
-      allMarkdownRemark: { edges: postEdges }
-    },
-    pathContext: { tag }
-  } = props;
+  const postEdges = get(props, 'data.allMarkdownRemark.edges', [])
+  const tag = get(props, 'pathContext.tag', '')
 
   return (
     <div className='tag-container animated fadeIn'>
