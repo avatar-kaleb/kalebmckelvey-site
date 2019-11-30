@@ -369,5 +369,22 @@ export default [
     status: Statuses.Complete,
     title: 'Jet Ski on the Hudson',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.Four,
+    categories: [Categories.Sports, Categories.HistoricSite, Categories.MustSee],
+    description:
+      'Take an opportunity to see RJ Barret show us why he only was in college for one year!!',
+    expectedRating: Ratings.Five,
+    featuredImageUrl: 'knicksMsg.jpg',
+    id: 'knicksMsg',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.Five,
+    season: Seasons.Winter,
+    status: Statuses.Complete,
+    title: 'See the Knicks at MSG',
+    youtubeVideoLink: ''
   }
 ];
