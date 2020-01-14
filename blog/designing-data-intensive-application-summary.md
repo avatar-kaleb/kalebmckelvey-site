@@ -45,10 +45,23 @@ Errors within the system that are correlated across many nodes, like crashing fr
 The book recommends thinking through your software designs and finding ways to keep systems in check, such as monitoring the length of messages in a queue and the rate at which they are being released - are they being processed at an adequate speed? If not, throw some type of error or alert so it can be preventively fixed.
 
 
+#### Human Errors
 
+Even though we are the creatures who design systems and keep them operable and have the best intentions, we are unreliable. Checklists can help us do better, but mistakes still happen.
 
+Martin Kleppman recommends combining the following to help with this:
+- Design systems that minimize opportunities for error and make it easy to do the right things
+- Decouple the places where people make the most mistakes from the places where they can cause failures
+- Test thoroughly at all places with all types of testing
+- Allow quick recovery from human errors
+- Set up detailed and clear monitoring - performance and error rates
+- Implement good management practices and training
 
+#### How Important is Reliability?
 
+When applications go down, productivity at the business suffers or users lose data (or money). It's our jobs as developers to help prevent that from happening, so I'd say very important :).
+
+I do agree with the author in mentioning that reliability in something like prototypes or proof of concepts isn't as important, since it most likely will be thrown away and re-written once proven.
 
 ### Scalability
 
