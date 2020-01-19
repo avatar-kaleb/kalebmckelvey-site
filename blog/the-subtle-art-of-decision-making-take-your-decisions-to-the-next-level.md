@@ -49,7 +49,7 @@ These are easy decisions, imagine making a decision of higher difficulty and amb
 
 *Welcome to the modern day life React Dev life.*
 
-## Are You Making Smart Decisions?
+## Making Smart Decisions Matters
 
 With so many decisions being made in a life-time, it only makes sense that we should try to make sure we are making them properly right?
 
@@ -59,7 +59,7 @@ With so many decisions being made in a life-time, it only makes sense that we sh
 
 Here's an example:
 
-I decided to go to James Madison University and pay for it myself over going to community college for two years than transferring. Because of this, I had two suite-mates from Richmond, VA who introduced me to the multi-cultural center and events on campus. I went to as many as I could, the community was wonderful! This led me to eventually join Kappa Alpha Psi Fraternity, Inc, where I was encouraged my Senior year to attend a leadership institute they offer that was sponsored by General Electric. I applied early and was accepted into the conference. After attending the conference, I was reached out to by a conference organizer who asked me to apply for GE's leadership program. I was eventually hired and had many experiences with amazing people that changed my life!
+I decided to go to James Madison University and pay for it myself over going to community college for two years then transferring. Because of this, I had two suite-mates from Richmond, VA who introduced me to the multi-cultural center and events on campus. I went to as many as I could, the community was wonderful! This led me to eventually join Kappa Alpha Psi Fraternity, Inc, where I was encouraged my Senior year to attend a leadership institute they offer that was sponsored by General Electric. I applied early and was accepted into the conference. After attending the conference, I was reached out to by a conference organizer who asked me to apply for GE's leadership program. I was eventually hired and had many experiences with amazing people that changed my life!
 
 **TLDR:**
 
@@ -67,5 +67,41 @@ Because I decided to go to JMU, I joined my fraternity which led to attending a 
 
 Decisions we make lead to real consequences in our life, good, bad, and in-between. Doing our best to make the big decisions wisely can lead us through the correct paths as we make our journeys to achieve!
 
+## How Does Our Brain Make Decisions?
 
+### Two Systems
+
+### Cognitive Biases
+
+### Mental Models
+
+## Have You Made Smart Decisions
+
+If you were to take a step back at some of the most influential decisions in your life so far, how did you make those decisions?
+
+### Types of Decisions
+
+### Common Decision Making Techniques
+
+### are these techniques good enough?
+
+### How did you do?
+
+## Kaleb's Decision Making Framework
+
+### Defining the Goal and Outcome
+
+### Asking the Right Questions
+
+### Rational Thinking Checklist
+
+## Resources
+
+### Blogs
+
+### Books
+
+### Youtube Videos
+
+## Concluding Thoughts
 
