@@ -121,17 +121,53 @@ There are a few common ways people pick up making decisions from school, parents
 
 #### Gut / Instincts
 
+Have you ever had someone ask you "What does your gut say" or "Listen to your gut"?
+
+Typically they mean don't think too much about it, lay it out and let your instincts based on that information make the decision.
+
+The book in the resources below called Blink has intriguing studies that demonstrate the power in this type of thinking.
+
 #### Habitual or Traditional (we've always done it this way)
 
-#### Asking for advice from others / researching online
+Many times decisions are made based on how things were done in the past - in coding projects, people copy pasta something that was done that's similar as their baseline, or in basketball teams the same offensive scheme is used throughout the years even if the talent is different.
 
-#### Healthy Debates with experts
+#### Asking for advice from others / researching online / Debating
+
+Charlie Munger mentions in one of his speeches that Warren Buffet spends most of his time doing two things:
+1. Reading to learn new things
+1. Talking to others who are gifted in their fields to learn from and talk to about different topics (Bill Gates on tech for example)
+
+Learning wisdom from those who have been in similar situations can help us reduce poor decisions.
+
+[The key is to keep an open mind](https://www.kalebmckelvey.com/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems/)!
+
+#### Pro / Con List
+
+The good old pros and cons list - list out the pros, list out the cons, see which side has more and bingo - decision made.
+
+Different pros and cons have different weights though, and this is why one must make sure to include that within their pros/cons.
+
+For example, moving to a new city. A pro might be that their education system is top ranked, and a con might be it doesn't have a comedy club. This might not be the best place for a parent that makes a living by doing stand up comedy.
 
 #### What you see is all there is
 
-#### Are these techniques good enough?
+In Thinking Fast and Slow, Daniel Kahneman describes how we make many decisions in our lives. We make it by the data which is easily available.
 
-## Decision Making Framework
+The best example of this is meeting someone new. That first impression tells us everything we need to know about someone right? We know their past, we can define who they are, and we feel like immediately we can decide on whether or not we like this person. All within seconds - is that truly fair? 
+
+Our brain puts together a picture of who the individual is, the personality, their honor and integrity, and whether or not we want to be around them, yet we really haven't learned much about them. In other words, we are taking the things we've learned from our past about patterns in the individuals we do know, and applied them to the person we have just met. This is system one at its finest!
+
+#### Are They Good Enough
+
+For some these methods might suffice, it's a personal decision - I believe that we should use the right tool for the job, or a combination of tools that get the job done right.
+
+At times, instincts are great - especially when it comes to a situation requiring fast decisions. First impressions could mean quite a lot when interviewing a new candidate for a specific role, since we only have so much data available to make the hiring decision with.
+
+I just want to provide another tool for all of us that can be used, if needed, and if helpful, to make better decisions in our future!
+
+Let me introduce to you, the Subtle Are of Decision Making Framework.
+
+## The Subtle Are of Decision Making Framework
 
 ### Defining the Goal and Outcome
 
@@ -160,13 +196,14 @@ Here is a list of various sources I've read so far!
 - [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
 - [The Art of Thinking Clearly](https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693)
 - [Being Logical](https://www.amazon.com/Being-Logical-Guide-Good-Thinking/dp/0812971159)
+- [Super Thinking: The Big Book of Mental Models](https://www.amazon.com/Super-Thinking-Book-Mental-Models/dp/0525533583)
+- [Blink: The Power of Thinking Without Thinking](https://www.amazon.com/Blink-Power-Thinking-Without/dp/0316010669)
 
 ### Youtube Videos
 - [The Psychology of Human Misjudgement](https://www.youtube.com/watch?v=pqzcCfUglws)
 - [Ray Dalio Google Talk](https://www.youtube.com/watch?v=c1OoWdqbKdg)
 - [Thinking in First Principles Elon Musk](https://www.youtube.com/watch?v=NV3sBlRgzTI)
-
-
+- [Nudge: Improving Decisions About Health, Wealth, and Happiness](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X)
 
 ## Concluding Thoughts
 
