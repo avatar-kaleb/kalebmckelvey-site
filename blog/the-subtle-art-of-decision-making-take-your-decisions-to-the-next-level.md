@@ -117,6 +117,7 @@ If you were to take a step back at some of the most influential decisions in you
 
 ### Types of Decisions
 
+
 ### Common Decision Making Techniques
 
 ### are these techniques good enough?
@@ -128,6 +129,8 @@ If you were to take a step back at some of the most influential decisions in you
 ### Asking the Right Questions
 
 ### Rational Thinking Checklist
+
+### Making a Decision Example!
 
 ## Resources
 
