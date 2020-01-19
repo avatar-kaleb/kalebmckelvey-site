@@ -169,17 +169,64 @@ Let me introduce to you, the Subtle Are of Decision Making Framework.
 
 ## The Subtle Are of Decision Making Framework
 
-### Defining the Goal and Outcome
+Below are the four main steps I believe that can help you make better decisions.
 
-### Asking the Right Questions
+### Step 1: Defining the Goal and Outcome
 
-### Rational Thinking Checklist
+Given a decision between various options, what is the best possible outcome that can result from it?
 
-### Making a Decision Example!
+**Example:**
+
+Decision: Which city should I move to?
+Outcomes I want to maximize:
+- Find communities to enjoy my hobbies with (board games or hiking)
+- Opportunities to grow my career (go from X position into Y position in Z industry)
+- Safety
+
+*Remember the goal of any decision isn't to be right or wrong, but to find the TRUTH that brings the best outcomes*
+
+### Step 2: Asking the Right Questions
+
+- Is this question best solved forwards or backwards?
+- Is this decision on any of my "avoid" lists (like purchasing something on your credit card)
+- Have I tried to disprove my own data or decision by using counter positions?
+- Have I broken the question down to figure out what it is I'm actually looking for? 
+
+### Step 3: Rational Thinking Checklist
+
+Rational is defined as "based on or in accordance with reason or logic." on Google.
+
+To make a rational decision we must do the following:
+
+1. Gather data from the best possible sources (gov data for example) or find research that was completed in that domain (such as decision making)
+1. Make connections across disciplines utilizing mental models
+1. Remove bias utilizing cognitive biases
+1. Decide based on the conclusions of the data without bias
+1. Disprove your own idea if possible, helping to validate conclusions
+
+By following these four steps, you can truly change the way you think and decide on your views, principles, views, and path throughout your life!
+
+### Step 4: Regularly Reviewing Past Decisions and Outcomes
+
+After reading Principles by Ray Dalio, I learned that one key part of decision making should be reviewing the past decisions made and their outcomes. By doing this, you gain two real benefits. First, you now document decisions concretely somewhere. Secondly, you modify and adapt for incorrect decisions.
+
+I will try this out and report back :).
+
+## Concluding Thoughts
+
+Making decisions that can impact you for the rest of your life should be done properly. Our brains make decisions both unconsciously and consciously, with biases and heuristics. 
+
+Thanks to the research that has been done and research happening today, we will continue learning more to fine tune our decision making processes.
+
+For now, I believe that making decisions utilizing a checklist or framework can lead to much stronger results in your life. There is a prerequisite for life decisions though - [knowing where you want to go](https://www.kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose). Picture making turns from the driver seat of your car without an end destination; as you can see, there is no way to make turns that lead you to the right outcome (getting to the destination) or reflecting on the path taken.
+
+Interested in learning more? Check out the resources below.
+
+Otherwise - happy deciding!
 
 ## Resources
 
-Here is a list of various sources I've read so far!
+Here is a list of various sources I've learned from so far.
 
 ### Blogs / Sites
 
@@ -204,6 +251,3 @@ Here is a list of various sources I've read so far!
 - [Ray Dalio Google Talk](https://www.youtube.com/watch?v=c1OoWdqbKdg)
 - [Thinking in First Principles Elon Musk](https://www.youtube.com/watch?v=NV3sBlRgzTI)
 - [Nudge: Improving Decisions About Health, Wealth, and Happiness](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X)
-
-## Concluding Thoughts
-
