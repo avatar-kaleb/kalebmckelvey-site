@@ -115,14 +115,23 @@ In my humble opinion, Mental models are very useful when making decisions for tw
 
 If you were to take a step back at some of the most influential decisions in your life so far, how did you make those decisions?
 
-### Types of Decisions
-
-
 ### Common Decision Making Techniques
 
-### are these techniques good enough?
+There are a few common ways people pick up making decisions from school, parents, mentors as they get older:
 
-## Kaleb's Decision Making Framework
+#### Gut / Instincts
+
+#### Habitual or Traditional (we've always done it this way)
+
+#### Asking for advice from others / researching online
+
+#### Healthy Debates with experts
+
+#### What you see is all there is
+
+#### Are these techniques good enough?
+
+## Decision Making Framework
 
 ### Defining the Goal and Outcome
 
@@ -134,11 +143,30 @@ If you were to take a step back at some of the most influential decisions in you
 
 ## Resources
 
+Here is a list of various sources I've read so far!
+
 ### Blogs / Sites
 
+- [Joshua Kennon's Blog](https://www.joshuakennon.com)
+- [Farnam Street](https://fs.blog/)
+- [James Clear](https://jamesclear.com/)
+- [Mental Model Dictionary](https://www.mentalmodeldictionaty.com)
+
 ### Books
+- [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+- [Predictably Irrational](https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248)
+- [Principles: Life and Work](https://www.principles.com/)
+- [Decisive: How to make better choices in life and work](https://www.amazon.com/Decisive-make-better-choices-life-ebook/dp/B00BFTSYNA)
+- [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
+- [The Art of Thinking Clearly](https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693)
+- [Being Logical](https://www.amazon.com/Being-Logical-Guide-Good-Thinking/dp/0812971159)
 
 ### Youtube Videos
+- [The Psychology of Human Misjudgement](https://www.youtube.com/watch?v=pqzcCfUglws)
+- [Ray Dalio Google Talk](https://www.youtube.com/watch?v=c1OoWdqbKdg)
+- [Thinking in First Principles Elon Musk](https://www.youtube.com/watch?v=NV3sBlRgzTI)
+
+
 
 ## Concluding Thoughts
 
