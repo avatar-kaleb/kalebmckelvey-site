@@ -41,15 +41,31 @@ These are easy decisions, imagine making a decision of higher difficulty and amb
 - Which task is most important to work on?
 - Do I feel like doing this task?
 - How should I design my components to implement this feature?
-- What would Wes Bos, Kent Dodds, or Dan Abranov do if they were designing it?
-- What should the names be?
-- Is it conveying meaning for the next dev well?
+- What would Wes B, Kent D, or Dan A do if they were designing it?
+- What should the names of my components be?
+- Are the names conveying meaning for the next dev well?
 - Is this code structured in a way that can easily be digested?
 - and....more and more.. :D
 
 *Welcome to the modern day life React Dev life.*
 
 ## Are You Making Smart Decisions?
+
+With so many decisions being made in a life-time, it only makes sense that we should try to make sure we are making them properly right?
+
+[Joshua Kennon](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts) has written about the fact we are the sum of all the decisions we've previously made. 
+
+*Think about it. Think about the decisions you've made that landed where you are today. The city in which you live, the job you currently have, the friends you've met along the way. So many of the smaller decisions have had a butterfly effect on your life, mine too!*
+
+Here's an example:
+
+I decided to go to James Madison University and pay for it myself over going to community college for two years than transferring. Because of this, I had two suite-mates from Richmond, VA who introduced me to the multi-cultural center and events on campus. I went to as many as I could, the community was wonderful! This led me to eventually join Kappa Alpha Psi Fraternity, Inc, where I was encouraged my Senior year to attend a leadership institute they offer that was sponsored by General Electric. I applied early and was accepted into the conference. After attending the conference, I was reached out to by a conference organizer who asked me to apply for GE's leadership program. I was eventually hired and had many experiences with amazing people that changed my life!
+
+**TLDR:**
+
+Because I decided to go to JMU, I joined my fraternity which led to attending a conference sponsored by GE. I was asked to apply to GE's leadership program and was hired, leading to many amazing experiences with amazing people!
+
+Decisions we make lead to real consequences in our life, good, bad, and in-between. Doing our best to make the big decisions wisely can lead us through the correct paths as we make our journeys to achieve!
 
 
 
