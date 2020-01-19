@@ -69,11 +69,47 @@ Decisions we make lead to real consequences in our life, good, bad, and in-betwe
 
 ## How Does Our Brain Make Decisions?
 
-### Two Systems
+When we are making a new decision, our brain has "two" systems that handles new thoughts for us.
 
-### Cognitive Biases
+### The Two Systems
+
+The metaphor of two system comes from the highly recommended book: [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555).
+
+**System 1** - The unconscious, emotional, fast, error prone system in our brain that handles everyday decisions for us like the following:
+- Reactions to our senses, like smells or images that we like or dislike
+- First impressions when you meet someone new
+- Parking your car in your driveway
+
+**System 2** - Conscious, logical, slow, reliable system that handles complex decisions such as:
+- Directing attention to a specific item or person
+- Evaluating behavioral cues at a party, both your own and guests
+- Architecting new code or systems
+- Looking for memories in your mind palace, like why you wrote code a certain way when you forget to comment
+
+In general, our brain tries to use system 1 as much as it can, because our evolution has evolved in such a way to preserve energy. Using system 2 requires more energy - this is why habits exists in our daily routines from the brain's perspective. How can system 1 be used for new decisions or thoughts without conscious effort?
+
+### Heuristics and Biases
+
+A heuristic is an approach to solve problems that solves problems without guarantee it is the most optimal way to do so.
+
+A bias is defined by google as: "prejudice in favor of or against one thing, person, or group compared with another, usually in a way considered to be unfair."
+
+Our brain uses these heuristics and biases to determine answers to new problems or challenges without having to consult system 2. It does this in various ways, mostly associating new information with existing experiences we have. The details  are out of scope for this article and can be found in the book mentioned above, or in the resources at the end of the article!
 
 ### Mental Models
+
+From [Farnam Steet](https://fs.blog/mental-models/):
+
+“Mental models are how we understand the world. Not only do they shape what we think and how we understand but they shape the connections and opportunities that we see. Mental models are how we simplify complexity, why we consider some things more relevant than others, and how we reason. 
+
+A mental model is simply a representation of how something works. We cannot keep all of the details of the world in our brains, so we use models to simplify the complex into understandable and organizable chunks.“
+
+In my humble opinion, Mental models are very useful when making decisions for two main reasons.
+
+1. Connect ideas from multiple disciplines together
+1. Help prevent biases as psychological principles (cognitive biases) are mental models
+
+*Side Project Alert - I've been documenting [mental models in dictionary format](www.mentalmodeldictionary.com)!*
 
 ## Have You Made Smart Decisions
 
@@ -85,8 +121,6 @@ If you were to take a step back at some of the most influential decisions in you
 
 ### are these techniques good enough?
 
-### How did you do?
-
 ## Kaleb's Decision Making Framework
 
 ### Defining the Goal and Outcome
@@ -97,7 +131,7 @@ If you were to take a step back at some of the most influential decisions in you
 
 ## Resources
 
-### Blogs
+### Blogs / Sites
 
 ### Books
 
