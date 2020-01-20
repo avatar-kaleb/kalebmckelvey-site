@@ -47,7 +47,7 @@ These are easy decisions, imagine making a decision of higher difficulty and amb
 - Is this code structured in a way that can easily be digested?
 - and....more and more.. :D
 
-*Welcome to modern-day life React Dev life.*
+*Welcome to modern-day React Dev life.*
 
 ## Making Smart Decisions Matters
 
