@@ -187,6 +187,7 @@ Outcomes I want to maximize:
 
 ### Step 2: Asking the Right Questions
 
+- Do I have any values or principles to live up to that make this decision easy?
 - Is this question best solved forwards or backward?
 - Is this decision on any of my "avoid" lists (like purchasing something on your credit card)
 - Have I tried to disprove my decision by using counter-arguments?
