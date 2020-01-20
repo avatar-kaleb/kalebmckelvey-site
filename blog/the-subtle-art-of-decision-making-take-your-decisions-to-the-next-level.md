@@ -20,9 +20,9 @@ For the past year, I've been reading books on the topic (see resources below if 
 
 ## We Make a TON of Decisions Every Day
 
-The number of decisions we make per day has been quoted at **35,000**, or two decisions per second. For those who have met the current life expectancy within the US (~78), you have made a total of **996,450,000** decisions in your life so far. The 35K per day number has been cited in multiple places, although I can't find the original study that proves it - the difficulty of measuring decisions is quite challenging.
+The number of decisions we make per day has been quoted at **35,000**, or two decisions per second. For those who have met the current life expectancy in the US (~78), you have made a total of **996,450,000** decisions in your life so far. The 35K per day number has been cited in multiple places, although I can't find the original study that proves it - the difficulty of measuring decisions is quite challenging.
 
-Even so, it's obvious in my humble opinion that we do make a large number of decisions every single day.
+Even so, it's obvious that we do make a large number of decisions every single day.
 - What should I eat for breakfast?
 - One egg or two?
 - Scrambled or Sunny-side up?
@@ -65,11 +65,11 @@ I decided to go to James Madison University and pay for it myself over going to 
 
 Because I decided to go to JMU, I joined my fraternity which led to attending a conference sponsored by GE. I was asked to apply to GE's leadership program and was hired, leading to many amazing experiences with amazing people!
 
-Decisions we make lead to real consequences in our life, good, bad, and in-between. Doing our best to make the big decisions wisely can lead us through the correct paths as we make our journeys to achieve!
+Decisions we make lead to real consequences in our lives--good, bad, and in-between. Doing our best to make the big decisions wisely can lead us through the correct paths as we make our journeys to achieve!
 
 ## How Does Our Brain Make Decisions?
 
-When we are making a new decision, our brain has "two" systems that handle new thoughts for us.
+When we are making new decisions, our brains have "two" systems that handle new thoughts for us.
 
 ### The Two Systems
 
@@ -86,7 +86,7 @@ The metaphor of two systems comes from the highly recommended book: [Thinking Fa
 - Architecting new code or systems
 - Looking for memories in your mind palace, like why you wrote code a certain way when you forget to comment
 
-In general, our brain tries to use system 1 as much as it can, because our evolution has evolved in such a way to preserve energy. Using system 2 requires more energy - this is why habits exist in our daily routines from the brain's perspective. How can system 1 be used for new decisions or thoughts without conscious effort?
+In general, our brains try to use system 1 as much as they can, because our evolution has evolved in such a way to preserve energy. Using system 2 requires more energy - this is why habits exist in our daily routines from the brain's perspective. How can system 1 be used for new decisions or thoughts without conscious effort?
 
 ### Heuristics and Biases
 
