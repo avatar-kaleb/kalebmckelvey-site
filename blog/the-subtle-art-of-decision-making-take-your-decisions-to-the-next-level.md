@@ -94,7 +94,7 @@ A heuristic is an approach to solve problems that solve problems without a guara
 
 Bias is defined by Google as: "prejudice in favor of or against one thing, person, or group compared with another, usually in a way considered to be unfair."
 
-Our brain uses these heuristics and biases to determine answers to new problems or challenges without having to consult system 2. It does this in various ways, mostly associating new information with existing experiences we have. The details  are out of scope for this article and can be found in the book mentioned above, or in the resources at the end of the article!
+Our brains use these heuristics and biases to determine answers to new problems or challenges without having to consult system 2. It does this in various ways, mostly associating new information with existing experiences we have. The details  are out of scope for this article and can be found in the book mentioned above, or in the resources at the end of the article!
 
 ### Mental Models
 
@@ -104,7 +104,7 @@ From [Farnam Steet](https://fs.blog/mental-models/):
 
 A mental model is simply a representation of how something works. We cannot keep all of the details of the world in our brains, so we use models to simplify the complex into understandable and organizable chunks.“
 
-In my humble opinion, Mental models are very useful when making decisions for two main reasons.
+Mental models are very useful when making decisions for two main reasons:
 
 1. Connect ideas from multiple disciplines together
 1. Help prevent biases as psychological principles (cognitive biases) are mental models
@@ -129,7 +129,7 @@ The book in the resources below called Blink has intriguing studies that demonst
 
 #### Habitual or Traditional (we've always done it this way)
 
-Many times decisions are made based on how things were done in the past - in coding projects, people copy pasta something that was done that's similar to their baseline, or in basketball teams, the same offensive scheme is used throughout the years even if the talent is different.
+Many times decisions are made based on how things were done in the past - in coding projects, people copy and paste things that are done that are similar to their baseline-- or in basketball teams, the same offensive scheme is used throughout the years even if the talent is different.
 
 #### Asking for advice from others / researching online / Debating
 
