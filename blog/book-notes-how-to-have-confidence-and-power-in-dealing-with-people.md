@@ -134,7 +134,109 @@ The book goes into a story of General Oglethorpe wanting permission from the Kin
 ### Chapter 3 - How to Cash in on Your Hidden Assets
 
 
+"One of the most universal hungers is the hunger to feel important, to have your personal worth as a human being confirmed by others, to be appreciated, to be noticed." 
 
+"All of us not only need to feel that we are important: We need to feel that other people recognize and acknowledge our importance."
+
+With this in mind, we have the ability to continuously "feed" others hunger by giving away our wealth of sincere praise, compliments, appreciations, etc. Give it away abundantly and to everyone! The little things matter :).
+
+#### Three Ways to Make People Feel Important
+
+##### 1. Think other people are important**
+
+Key: "Convince yourself once and for all that other people are important!"
+
+By following this there isn't a need for gimmicks or how-tos on getting to know to someone, just recognize they are important in their own way, ask more about who they are, what they are passionate about, and their story.
+
+##### 2. Notice Other People
+
+How much do you notice and think about the things that are important to you? Everyone has different important things in their life, and this is why each of our perceptions of the same events are different.
+
+Noticing others, learning about them, and letting them know they are important show others we recognize and appreciate them.
+
+When you do this, people work harder for you (if you're a manager) or stay longer at the company since they believe their role is important there. Further, if you're in a group, make sure to spotlight every person as it makes sense. Never ignore others, always acknowledge their presence at the very minimum.
+
+##### 3. Don't lord it over people
+
+"Everybody needs to feel important and feel the other people recognize his importance." 
+
+This can be used to your own advantage or disadvantage - the temptation to impress upon others our own importance is always present, because we want to be recognized and make a good impression also. 
+
+Someone tells a story, we want to one up them. Someone has a cool experience, we want to show a better one. Someone has a new side project, we want to show one of ours that's amazing. This is caused by our need to impress the other personal also, but overshadowing causes disdain and contempt.
+
+Here's the rule from the book: *"You want to make a good impression on the other fellow. But the most effect way ever discovered for impressing the other fellow is to let him know that you are impressed by him."*
+
+*When should we correct someone?*
+
+We should only correct someone if the answer to the following question is yes: "Does it make any real difference whether he or she is right or wrong?
+
+For example - whether a gun is loaded or not vs whether or not the sodium level of salted peanuts is 600mg vs 800mg.
+
+Obviously the gun loaded one is quite important to contradict someone on.
+
+There's no reward for winning every single conversation. Here's a funny example from the book:
+
+> "Not long ago I had dinner with the owner of a small restaurant and a prominent account. During the conversation the restaurant man said, "I don't try to make too much money, because if you make $100,000 you are in the 90 percent bracket and the government will only let you keep $10,000, while if you make only $30,000 you get to keep $15,000."
+
+> I looked at the accountant. He didn't bat an eyelash.
+
+> Afterward, I said to him, "Why didn't you set him straight?"
+
+> "I'm surprised I have to tell you that, Les," he said. "I didn't set him straight simply because it would have served no purpose except to make him feel small. What difference does it really make whether he is set straight or not. e wants to to believe that. If he made $100,000 a year and I was preparing his income tax returns I would set him straight, but since he doesn't make $100,00 and nothing is involved except his own ego - why bother?"
+
+
+## Part Two - How to Control the Actions and Attitudes of Others
+
+### Chapter 4 - How You Can Control the Actions and Attitudes of Others
+
+Some people reject the idea of "controlling" the actions of others, but the book will show that whether or not you want to, you're doing it anyway. Since we're constantly doing it, our choice is: "Should we use it for good or evil, for our benefit or our disadvantage?"
+
+Reciprocation bias means that humans react and respond to the attitude and action expressed by others in the way they are being reacted or responded to.
+
+People live up to the stage set to them, or in other words, to our expectations we've set for them - even if on accident.
+
+When we deal with others, we see our own attitudes reflected back to us in their  behavior - like a mirror. Have you ever tried to talk quietly back to someone who's yelling at you?
+
+
+#### How to control anger in others
+
+You can keep another person from becoming angry, if use facts from Psychology in time:
+1. You can control the other persons tone by your own tone, 
+1. Talk quietly because the louder you talk -> the angrier you become
+
+#### Enthusiasm is catching
+
+Do you want others to become enthusiastic over your ideas?
+
+##### Adapt the attitude and action you want the other person to express
+
+
+"...You never sell anything to anyone else until you yourself are sold on it. When you are sold, and the other fellow knows you are sold, he'll want it. Go one step further and sell yourself on the idea that he is going to buy, and he is almost forced into buying what you are selling."
+
+
+##### Confidence breeds confidence: how to make the most of it
+
+"You can make others have confidence in you and in your proposition - by acting confidently"
+
+"Act confident. Look confidence. And you'll find that you begin to feel more confident."
+
+##### Little Things Give You Away
+
+Confidence has a way of showing itself in subtle ways - here are some tips to watch out for:
+
+1. *Watch Your Walk* - Shoulders back, eyes looking out to some goal you feel you can attaint. No drooping shoulders or head down.
+1. *Your tattle-tale handshake* - Limp, dishrag is low on self-confidence, bone-crusher is over compensating, firm but not crushing -> that's where confidence lives.
+1. *Your Tone of Voice* - Voice expression is huge in confidence signaling. Do you speak up confidently or mumble? Does it express courage? Listen to your voice and analyze
+
+##### How to Use the Only Way to Make People Do Better
+
+When you scold, shame, threaten, or give "you should do this" advice, most of the time nothing changes. Instead, frame advice or actions in a way that others can "live up to" your opinion of them.
+
+> "Winston Churchill, who is a truly a master in the art of dealing with people, once said, "I have found that the best way to get another to acquire a virture, is to impute it to him."
+
+Let someone know you think they can be trusted and he will prove himself trustworthy.
+
+### Chapter 5 - How You Can Create a Good First Impression on Other People
 
 
 
