@@ -375,7 +375,7 @@ Just relax and know that others will be friendly, so then you can be cool, calm,
 
 Smiles say: "I like you and I come as a friend." 
 
-"The person at whome we smile, smiles back."
+"The person at whom we smile, smiles back."
 
 The author isn't talking about a small lip smile, he's talking about the feeling of happiness and laughter expressed through one of those natural smiles that light up the face!
 
@@ -422,5 +422,39 @@ The reason people tease or use sarcasm is for fun, to make others laugh, or show
 Teasing and kidding are both aimed at the self-esteem of the other person, and threatening self-esteem, even in fun, isn't a good idea. Sarcasm always has a cruel element about it, because it's calculated and a jib at the other person.
 
 Polls show that people don't like kidding or sarcasm, but since we like our friends we don't tell them about it.
+
+### Chapter 9 - How to Use the Technique That a Supreme Court Justice Called "White Magic"
+
+"To be able to listen to others in a sympathetic and understanding manner is perhaps the most effective mechanism in the world for getting along with people and tying up their friendship for good. Too few people practice the "white magic" of being good listeners."
+
+#### Listening makes you "clever"
+
+By listening you are sure to prove to the other person that you are the wisest, most intelligent person they have met.
+
+*Exaggerated, but we'll take it!*
+
+***Funny Walk Whitman story***
+
+> "Walt Whitman and a friend were once walking down the street, when Whitman stopped and engaged a stranger in conversation. For 15 or 20 minutes, Whitman monopolized the conversation, and the other fellow hardly opened his mouth. When they left, Whitman turned to his friend and said, "There was an intelligent man."
+
+> "How do you know he's intelligent?" asked his friend in surprise, "He Hardly said a word."
+
+> "He listened to me, didn't he? asked Whitman. "That proves he is an intelligent man"
+
+#### In deals, Too much talk gives you away
+
+"If you can get the other fellow to talk enough, he simply cannot disguise his real feelings or his real motives. He may try as hard as he wishes, but invariably he will "give himself away."
+
+#### How Listening can make you rich
+
+"You can never really understand another human being unless you are willing to listen, carefully, sympathetically, and patiently.
+
+Listening like this can make you rich in many ways, not just money, but in friendship and accomplishment.
+
+***Key:*** You've got to know what people want, what they need, and what they are. If you are going to deal with them effectively.
+
+### Chapter 10 - How to Get Others to See Things Your Way...Quickly!
+
+
 
 
