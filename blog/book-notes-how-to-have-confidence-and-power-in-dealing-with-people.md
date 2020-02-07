@@ -347,3 +347,80 @@ Flowers know how to attract bees, because they want and need them to pollinate. 
 
 ### Chapter 7 - How to Make the Other Fellow Feel Friendly - Instantly
 
+"You've got to believe the other fellow is going to like you,..."
+
+The author's roommate in college was thoroughly convinced the other person would be friendly, so he wasn't afraid of people or on the defense.
+
+#### Fear of people drives them away
+
+"Fear is one of the greatest handicaps to getting to know people quickly and getting off on a friendly footing."
+
+You can't be afraid the other person won't like you, because others can sense it and you are less available to be friends with.
+
+"If your basic attitude is that other people will be unfriendly - or that "people just don't like me" - your experience will prove it to be so. But if you have the basic attitude that "Most people are friendly, and want to be friendly toward me" - again your experience will prove it so."
+
+***key:*** Have the idea that others want to be friendly
+
+#### Don't be an eager-beaver
+
+Don't be a "try too hard" type of person, where you are obviously trying to charm someone or get them to be friendly with you.
+
+When someone is "begging for friendship" - people back away.
+
+Just relax and know that others will be friendly, so then you can be cool, calm, and collected meeting them!
+
+***key:*** smile - it shows confidence
+
+#### Work Miracles with a Smile
+
+Smiles say: "I like you and I come as a friend." 
+
+"The person at whome we smile, smiles back."
+
+The author isn't talking about a small lip smile, he's talking about the feeling of happiness and laughter expressed through one of those natural smiles that light up the face!
+
+Need help with that? Practice in the mirror - say cheese to make that kool aid smile shine!
+
+If you give a superficial smiling, you aren't really smiling! 
+
+## Part Four - How Effective Speaking Techniques Can Help You Succeed
+
+### Chapter 8 - How You Can Develop Skill in Using Words
+
+Most successful men and women you know - are great talkers!
+
+The book mentions a study by Wilfred Funk who determined that "earning power and word skill so closely tied together that you can safely expect to increase your earnings simply by increasing your word power."
+
+#### Happiness depends on talk
+
+Being able to properly express your emotions help you convey and converse with others, so you don't bottle it up.
+
+#### How to "Strike Up" a Conversation
+
+"In even the most stimulating conversations fully 50 percent of what is said is not only trie, but absolutely meaningless..."
+
+Small talk isn't about being brilliant, its a warm up to stronger conversation.
+
+To bring out interesting talk from others - ask real questions after warming up with small talk. Ask about the person, because people are interesting and learning about them is great, plus it is something easy to talk about.
+
+#### U-turns and green lights keep conversation going
+
+Being a good conversationalist isn't about thinking of a bunch of great things to say, instead its about keeping the conversation open by both getting the other person to talk and interesting topics.
+
+The U-turn means to turn the conversation from ME/I to YOU.
+
+To ask interesting questions, use: "why, where, and how"
+
+#### Write Yourself a Letter When Down
+
+If you're feeling down - write yourself a letter with exactly how you feel and go into great detail. Make a huge deal about it. When you are done, don't mail it - burn it or throw it away. Thinking through, writing it down, then getting past it helps immensely!
+
+### Don't Kid, Tease, or be Sarcastic
+
+The reason people tease or use sarcasm is for fun, to make others laugh, or show affection, but not take personal offense.
+
+Teasing and kidding are both aimed at the self-esteem of the other person, and threatening self-esteem, even in fun, isn't a good idea. Sarcasm always has a cruel element about it, because it's calculated and a jib at the other person.
+
+Polls show that people don't like kidding or sarcasm, but since we like our friends we don't tell them about it.
+
+
