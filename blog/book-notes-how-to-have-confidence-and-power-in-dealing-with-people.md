@@ -4,15 +4,21 @@ cover: >-
   /post-images/time-lapse-photography-of-people-walking-on-pedestrian-lane-842339.jpg
 date: '2020-02-04'
 title: 'Book Notes: How to Have Confidence and Power in Dealing with People'
-category: Journey to Achieve
+category: 'Book Notes, Journey to Achieve'
 tags:
-  - book
-  - notes
+  - confidence
+  - people skills
   - soft skills
 ---
 As the first month of the new year ends, I've made the decision to begin making my book notes public so others can potentially benefit from them if they so choose to.
 
-I picked up a new book recently, [How to Have Confidence and Power in Dealing with People](https://www.amazon.com/Have-Confidence-Power-Dealing-People/dp/0988727536), which is an interesting read when comparing and contrasting with the principles from the famous [How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034).
+I picked up a new book recently, [How to Have Confidence and Power in Dealing with People](https://www.amazon.com/Have-Confidence-Power-Dealing-People/dp/0988727536), which is an interesting read when comparing and contrasting with the principles from the famous [How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034). It's a guide on how to better interact with others, which leads to success and happiness, since people are so important in our lives!
+
+I decided to start writing my book notes on the blog, so others can access them and to help motivate myself to take notes :D.
+
+***Most content in this blog post is from the book: How to Have Confidence and Power in Dealing with People, by Les Giblin. The below post is just notes I took from the book to help summarize it when I want to reference it later. The notes are not structured, not perfect in grammar, and of course contain a lot of content from the book. I've tried to put in quotation marks direct quotes, but just want to make it clear almost none of the following content is my own. If you enjoy the notes, purchase the book - I believe it's worth the time!***
+
+---
 
 ## The Book Structure
 
@@ -455,6 +461,121 @@ Listening like this can make you rich in many ways, not just money, but in frien
 
 ### Chapter 10 - How to Get Others to See Things Your Way...Quickly!
 
+We naturally want to argue when others disagree with or have opposing ideas. We take it against our own ego, so we hit back. This doesn't work though, "because the only way you can ever really win an argument is to get the other person to change their mind"
 
+You will struggle to win arguments if you try to attack another person's eg.
 
+There is only one way to get an idea accepted, suggestion. 
 
+#### 6 Tested Rules for Winning Arguments
+
+1. *Let the other person state their case* - it gets their full ideas heard and puts them in the mindset of listening to yours afterwards. Even ask for repeated info on things you want more clarity on.
+
+2. *Pause before you answer* - A slight pause indicates you considered and thought about their idea before answering
+
+3. *Don't insist on winning 100 percent* - if plausible, acknowledge and give in on minor or unimportant points.
+
+4. *State your case moderately and accurately* - Using calmly stated facts is more effective than exaggerating. Ben Franklin said: "They way to convince another...is to state your case moderately and accurately. Then say that of course you may be mistaken about it; which causes your listener to receive what you have to say, and, like as not, turn about and convince you of it, since you are in doubt. But if you go at him in a tone of positiveness and arrogance you only make an opponent of him."
+
+5. *Speak through third persons* - Third person is much less likely to arouse the ego of the other person than what you say
+
+6. *Let the other person save face*
+
+## Part Five - How to Manage People Successfully
+
+### Chapter 11 - How to get 100 Percent Cooperation and Increase Your BrainPower
+
+If you ask your neighbor two questions:
+
+"Joe, how about helping me spade this lawn?? or "Joe, I've got a problem here. I wish I knew what I'm doing wrong. I can't seem to get the knack of preparing this ground properly so grass will grow on it. Do you have any ideas of anything that would help?"
+
+The second one will most likely get Joe to help over the first.
+
+"It is psychologically impossible for a human being to give us 100 percent of their brawn, unless they are also allowed to give their ideas".
+
+#### Make them feel it's their problem too
+
+In approach one for your neighbor Joe, you have asked him to help spade a lawn that's your problem. In approach two, you asked for help so you've now made it a problem that's interesting and needs solved for him too. Use your full brain trust
+
+#### Participative Management
+
+Instead of telling someone to do this or that - ask for ideas to contribute to it.
+
+Hold "Family Planning Sessions" to allow the whole family to find solutions to problems, so everyone is heard and part of the decision making process.
+
+You can't do and know everything, so by allowing others to collective come up with ideas, not only do you include them in the challenge, but also get better ideas!
+
+#### How to get others to support your ideas?
+
+Asking others: "If you were me, how would you go about getting this idea across" instead of - "I wish you would approve or decide in my favor"
+
+Ask "What is your opinion about this matter? or "How would you go about doing this?"
+
+People love to be asked for advice and ideas, and it results in great ones too :).
+
+***key:*** - Don't use this as an excuse to continually tell others your problems and constantly ask for advice. Only ask someone for advice, ideas, suggestions, if you REALLY MEAN IT.
+
+### Chapter 12 - How to Use Your Miracle Power in Human Relations
+
+Giving praise gives people energy!
+
+#### How to apply praise to human relations
+
+Remember LS/MFT from above? To overcome them, give the other person's self-esteem a boost by giving them praise!
+
+Give other's credit and let them know their efforts are appreciated.
+
+#### The One Thing People Want Most
+
+Credit for their work. They want praise for what they have accomplished.
+
+#### How to Perform a Small Miracle Every Day
+
+Give a sincere praise to someone every single day!
+
+#### Be Generous With Kind Statements
+
+You can give praise for the little things - it doesn't have to be huge efforts or success. The little things matter!
+
+"Look for things you can thank people for. Every time you say the words, "Thank You," and mean it, you are giving the other person credit - praising him for having done something you appreciate."
+
+***6 Rules for Saying Thank You***
+1. Thanks should be sincere
+1. Say it - don't mumble it
+1. Thank people by name
+1. Look at the person you are thanking
+1. Work at thanking people
+1. Thank people when they least expect it
+
+Deliberately looking for good things in other people makes you happier and enjoy life more. People are important, show them!
+
+#### Two Rules for Administering Praise
+1. It must be Sincere
+1. Praise the act or the attribute, rather than the person
+
+Example:
+
+Right: "Jones, you're sales led our entire district last week"
+Wrong: Jones, you're a hard worker
+
+### Chapter 13 - How to Criticize Others Without Offending Them
+
+The Sever Musts for Successful Criticism
+
+1. Criticism must be made in absolute privacy
+1. Preface criticism with a kind word or compliment
+1. Make the criticism impersonal; criticize the act, not the person
+1. Supply the answer
+1. Ask for cooperation; don't demand it - "Will you make these corrections?"
+1. One criticism to an offense - To call attention to a given error one time is justified. Twice is unnecessary. Three times is nagging. Your goal is to get the job done, not win the ego fight. Let the pass go, don't keep bring it up.
+1. Finish in a Friendly Fashion
+
+## Part 6 and Chapter 14
+
+The last chapter of the book has a workbook you can use to become better. I won't be posting it on the blog, but definitely worth looking into if you've enjoyed the notes and buy the book!
+
+---
+
+I overall enjoyed the book and felt that it has some great tips to use going forward. As with all personal development books, I find that I pick and choose my favorite tips from them, always working to become better utilizing the advice of experts.
+
+Happy Achieving!!
