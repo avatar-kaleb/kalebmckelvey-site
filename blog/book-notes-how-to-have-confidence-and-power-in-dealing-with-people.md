@@ -238,8 +238,112 @@ Let someone know you think they can be trusted and he will prove himself trustwo
 
 ### Chapter 5 - How You Can Create a Good First Impression on Other People
 
+Many times, the very first note of a piece of music tells you the very last note as well - meaning that they typically start and end with the same note. 
+
+The same can be said in our interactions, how we set the stage and live up to it dictates how the scene goes. If you want to be taken seriously and business-like, then start the conversation off in a business tone. Those who are in the stage with you, will live up to the tone that's set, so setting it correctly makes a huge difference.
+
+#### Know what you want, then sound off accordingly:
+
+"Before you go into any kind of discussion, it is well to ask yourself the question: "What do I really want from this? How do I want this to go? What mood do I want to prevail?" 
 
 
+#### How to Create a Good First Impression
 
+Remember that our first impression becomes the last impression people have of us, even though it can be changed, it takes time and effort to do so.
 
+#### Other People Accept You at Your Own Appraisal 
+
+***"You yourself are more responsible for how you are accepted than anyone else"**
+
+We worry about how others perceive and think of us, but people form opinions about us based on our opinions of ourselves. 
+
+"If you aren't accepted as you would like to be, maybe you should blame yourself. Act as if you were a nobody, and the world will take you at your own value. Act as if you were somebody, and the world has no choice but to treat you as somebody."
+
+*This isn't an excuse to be arrogant or stuck up. Those who do so, actually feel insignificant*
+
+Those that are "big" are natural and homey.
+
+#### How many people unwittingly create a bad impression
+
+"People judge you not only by the value you put on yourself...they judge you by the value you put on other things: your job, your work, even your competition."
+
+"Negative talk and negative opinions give a bad impression."
+
+The value you place on your job or where you're shows how you really feel about it. Two examples: "Oh, I work at the ----- bank" as if you were ashamed or "I work at the best bank in this part of the country."
+
+People will think more of the second answer.
+
+#### Getting people to say "yes" to you
+
+*Rule 1:* "The best way ever discovered by psychology to get a "yes" response is to put the other fellow in a "yes" mood. You do this by creating a positive and affirmative atmosphere, rather than a negative one."
+
+You can start this off by getting the other person to answer yes to preliminary questions like: "isn't the weather great today?" or "Isn't this a beautiful color?"
+
+Yes can be negative, if you're asking negative questions ("Isn't the heat terrible today") --- negative mood.
+
+*Rule 2:* ask a question where the answer is implied. "Instead of saying, "Do you like this?" say, "I believe you like this one, don't you?"
+
+*Rule 3:* Nod your head affirmatively as you ask the question, because your actions influence the actions of others.
+
+#### Assume that the other person will do what you want
+
+"Hardly anything is stronger in suggestion than the calm assumption that the other fellow is going to do what you want him to do."
+
+> "I seldom, if ever, ask anyone if he will do something. I always try to find some personal reason why the other fellow would want to do, then just assume that he does want to do it, and is going to do it. I let them know that I believe they can do it, that I have confidence in their ability, that I trust them to do a good job - then leave them alone and let them do it. Constantly looking over a man's shoulder implies you do not quite trust him to do a good job. I assume he is going to do a good job, and I'm very seldom disappointed."
+
+Interesting story:
+
+> "When a famous newspaper reporter called at the editorial offices of the Christian Science Monitor, he looked around and did not see any "No Smoking" signs. So he asked, "Is there a rule against smoking in here?"
+
+> "No," said the editor. "There is no rule. But nobody ever has."
+
+> Although the report was a chain-smoker, and he was told there was no rule against it-he found he simply could not smoke. So strong was the influence of knowing he was not expected to smoke."
+
+## Part Three - Techniques for Making and Keeping Friends
+
+### Chapter 6 - How to Use Three Big Secrets for Attracting People
+
+People who draw others to them and easily connect with others are easy to describe, difficult to imitate. 
+
+#### The Triple-A Formula for Attracting People
+
+***1. Acceptance***
+
+"We all hunger to be accepted as we are. We want someone we can relax with. Someone we can let our hair down and take our shoes off with. Very few of us are brave enough to "be ourselves" completely when dealing with the world in general. But we like to have somebody that we can be ourselves with, someone we can afford to be ourselves with, because we know we will be accepted."
+
+Don't set rigid personal standards of how you think other people ought to act. Give the other person the right to be her(him)self. If they are a little peculiar, let them be. Don't insist that everything someone else does has to be the same as what you do or like. Let people relax.
+
+"No one has the power to reform another person, but by liking the other person as he is, you give him the power to change himself."
+
+"...each of us must be accepted by the people who count to us."
+
+***2. Approval***
+
+Approval goes further than acceptance, because acceptance is accepting others faults and still being friends - while approval means finding positive things we like.
+
+"You can always find something to approve of in the other person - and you can always find something to disapprove of. It depends upon what you're looking for."
+
+Positive personalities bring out the good in us, by highlighting something they can approve of. Because of this, people continually try to develop positive traits that others can draw on to get that approval again.
+
+***Key:*** "A good rule to remember in complimenting people is this: people are more pleased at a compliment if you praise them for some virtue that is not glaringly obvious"
+
+***3. Appreciation is Magic***
+
+Appreciate means to raise in value, so we want to find people who appreciate us and raise our value.
+
+***Key:*** Stop and consider just how valuable other people are to you - your wife, husband, children, your boss, your employees, your customers. Emphasize their value in your own mind. Then figure out little ways to let the other person know you value him highly. And always remember that people are the most important, the most valuable things on earth."
+
+Ways to appreciate people:
+- Don't keep ppl waiting
+- Acknowledge presence of others, and let them know if you will see as soon as possible
+- Thank people
+- Treat someone as special
+
+***Flowers and Bees***
+
+Flowers know how to attract bees, because they want and need them to pollinate. Instead of scolding or tricking the bees, the flower attracts bees through nectar which then the bees eat and pollinate the flowers as they visit each one.
+
+"Honey attracts more flies than vinegar."
+
+### Chapter 7 - How to Make the Other Fellow Feel Friendly - Instantly
 
