@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: >-
   /post-images/time-lapse-photography-of-people-walking-on-pedestrian-lane-842339.jpg
 date: '2020-02-04'
