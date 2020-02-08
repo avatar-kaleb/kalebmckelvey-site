@@ -5,7 +5,7 @@ date: '2020-02-08'
 title: >-
   Book Notes: So Good They Can't Ignore You - Why Skills Trump Passion In The
   Quest for Work You Love
-category: 'Book Notes, Journey to Achieve'
+category: Book Notes
 tags:
   - skills
   - passion
