@@ -4,7 +4,7 @@ cover: >-
   /post-images/time-lapse-photography-of-people-walking-on-pedestrian-lane-842339.jpg
 date: '2020-02-04'
 title: 'Book Notes: How to Have Confidence and Power in Dealing with People'
-category: 'Journey to Achieve, Book Notes'
+category: Book Notes
 tags:
   - confidence
   - people skills
