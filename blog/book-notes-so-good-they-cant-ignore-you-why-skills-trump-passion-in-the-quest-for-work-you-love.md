@@ -20,3 +20,27 @@ I have recently been opening my book notes to the blog community for reference i
 Let's get started!!
 
 ---
+
+## Introduction
+
+"'Follow your passion' is dangerous advice."
+
+The book starts with a story of Thomas, who believed that zen was his passion and studying at the Zen Mountain Monastery was his dream. When he quit his job and took on his passion by studying at the monastery, he learned one day (1 year in) what was required to be called a Zen practitioner. He day dreamed of this day, expecting happiness and peace at obtaining his goal and his passion, but he realized - nothing really changed. 
+
+"The reality was, nothing had changed. I was exactly the same person, with the same worries and anxieties. It was late on a Sunday afternoon when I came to this realization, and I just started crying"
+
+"Fulfulling his dream to become a full-time Zen practitioner did not magically make his life wonderful" The author uses this to show why the path to happiness is more complex than asking "What should I do with my life"?
+
+The author found himself on his own question to figure out "How do people end up loving what they do" and this book is documenting his findings.
+
+"The things that make a great job great, I discovered, are rare and valuable. If you want them in your working life, you need something rare and valuable to offer in return...you need to be good at something before you can expect a good job."
+
+"Don't follow your passion; rather, let it follow you in your quest to become...so good they can't ignore you"
+
+Your focus should be on "working right" instead of finding "right work"
+
+## The "Passion" of Steve Jobs
+
+
+
+
