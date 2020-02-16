@@ -28,6 +28,7 @@ Les Giblin structures the books into six main parts:
 1. Techniques for Making and Keeping Friends
 1. How to Manage People Successfully
 1. A Simple, Effective Plan of Actions That Will Bring You Success and Happiness
+1. Workbooks
 
 I'll be diving into each part, along with individual chapters to summarize and highlight important points to take away.
 
