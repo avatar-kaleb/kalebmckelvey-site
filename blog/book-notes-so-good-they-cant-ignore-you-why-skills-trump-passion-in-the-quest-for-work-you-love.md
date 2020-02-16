@@ -39,8 +39,56 @@ The author found himself on his own question to figure out "How do people end up
 
 Your focus should be on "working right" instead of finding "right work"
 
-## The "Passion" of Steve Jobs
+## Chapter 1 - The "Passion" of Steve Jobs
 
+Steve Jobs has a famous quote:
 
+> "You've got to find what you love...[T]he only way to do great work is to love what you do. If you haven't found it yet, keep looking, and don't settle.
+
+### The Passion Hypothesis
+
+"The key to occupational happiness is to first figure out what you're passionate about and then find a job that matches this passion."
+
+This is contained within many career and personal dev books...to be happy...you must follow your passion.
+
+"'Follow your passion' might just be terrible advice."
+
+### Do What Steve Jobs Did, Not What He Said
+
+He goes into details of how Steve Jobs studied Western history and dance and dabbled in Eastern mysticism. Further, he dropped out of college and because of that became a celebrity on campus as he slept on couches and received free meals.
+
+Eventually, Wozniak and Jobs were partnered up because Wozniak was great with electronics and handed the business side of things of an arrangement to Jobs. He left to go to an All-One commune without telling the boss, and was replaced.
+
+The author questions at this point: "Does this look like someone passionate about tech?"
+
+Eventually in the same year - Jobs pitched designing a computer circuit board so they could sell them to local hobbyists, leading to a small amount of profit.
+
+They tried selling them to Mountain View computer store, where they were told they didn't want circuit boards but would pay $500 for fully assembled computers....the rest is pretty much history and Apple was born.
+
+It wasn't born because Steve Jobs had passion, but instead wanted to make mula.
+
+"I don't doubt that Jobs eventually grew passionate about his work: If you've watched one of his keynote addresses, you've seen a man who obviously loved what he did. But so what? All that tells us is that it's good to enjoy what you do...but it doesn't help us answer: How do we find work that we'll eventually love?"
+
+## Chapter 2 - Passion is Rare
+
+This chapter talks through a show called Roadtrip Nation that interviewed successful people throughout the nation.
+
+> Al Merrick...tells a similar tale of stumbling into passion over time. "People are in a rush to start their lives, and it's sad...I didn't go out with the idea of making a big empire...I set goals for myself at being the best I could be at whatever I could."
+
+***Key: Compelling careers often have complex origins that reject the simple idea that all you have to do is follow your passion"***
+
+### The Science of Passion
+
+Three conclusions from the author:
+
+1. *Career Passions Are Rare* - he quotes a study where the hobbies of people were not marketable / income generating
+1. *Passion Takes Time* - "A job...is a way to pay bills, a career is a path toward increasingly better work, and a calling is work that's an important part of your life and a vital part of your identity"
+1. *Passion is a Side Effect of Mastery* - Three requirements of a job to keep people motivated. Autonomy, the feeling you have control over your day and your actions are important. Competence, feeling you are good at what you do. Relatedness, the feeling of connection to other people.
+
+"The reason that more experienced assistances enjoyed their work was because it takes time to build the competence and autonomy that generates this enjoyment.
+
+Competence and autonomy are achievable by most ppl, neither require passion
+
+## Chapter 3 - Passion is Dangerous 
 
 
