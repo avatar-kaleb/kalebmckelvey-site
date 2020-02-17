@@ -91,4 +91,117 @@ Competence and autonomy are achievable by most ppl, neither require passion
 
 ## Chapter 3 - Passion is Dangerous 
 
+### The Birth of the Passion Hypothesis
 
+Cal Newport gives credit to the 1970 publication "What Color is Your Parachute" by Richard Bolles for the idea to follow your passion. The younger generations "...expect work to be not just a job but an adventure...a venue for self-development and self- expression...and something that provides a satisfying fit with their assessment of their talents."
+
+The more Cal studied the issue, he began seeing trends that finding the "magic right job" causes people to job hop and fail to find the job they want, because then they never are competent enough at one job (since his hypothesis is that you find your passion in a job you know how to do).
+
+## Rule #2 Be So Good They Can't Ignore You (Or, the Importance of Skill)
+
+## Chapter 4 - The Clarity of Craftsman
+
+Two mindsets:
+1. Craftsman Mindset - "Focus on what value you're producing in your job"
+1. Passion Mindset - "Focus on what value your job offers you"
+
+Most people have the passion mindset, but he believes that the craftsman mindset is the way to go.
+
+Steve Martin said: "Be so good they can't ignore you."
+
+"If somebody's thinking, 'How can I be really good?' people are going to come to you"
+
+"Stop focusing on these little details, focus instead on becoming better"
+
+He recommends tracking your hours to things you want to become better at, by actually tracking it, you will see how much effort you actually are putting forth.
+
+Studio musicians have this adage: "The tape doesn;t lie"
+
+If you're not focusing on becoming so good they can't ignore you, you're going to be left behind.
+
+The craftsman mindset focuses on ***What you can offer the world*** 
+
+He notes a second issue with the passion mindset is that it can be very difficult to answer: "What do I truly love doing or Who Am I?"
+
+He uses Steve Martin and Jordan Tice as examples of craftsman mindset people.
+
+## Chapter 5 - The Power of Career Capital
+
+Career capital is created with the craftsman mindset, where he says if you want a great job, you need to build up rare and valuable skills (career capital).
+
+### Traits That Define Great Work
+- Creativity - innovation / pushing boundaries
+- Impact - changing the way we live our lives
+- Control - Choosing when you work, how you work etc
+
+Having these fundamental traits at your job can be difficult; it isn't easy to change the world in an entry level job.
+
+"The key thing is to force yourself through the world, force the skills to come, that's the hardest phase!"
+
+### The Career Capital Theory of Great Work
+
+- "Traits that define great work are rare and valuable"
+- "Supply and demand says if you want these traits you need rare and valuable skills"
+- With "relentless focus on becoming so good they can't ignore you", you will become very skilled
+
+"The craftsman mindset, with its relentless focus on what you produce is exactly the mindset you would adopt if your goal was to acquire as much career capital as possible"
+
+To get good things in your work life, you need to be good!
+
+### Three Disqualifiers for Applying the Craftsman Mindset
+
+1. Few opportunities to grow rare skills
+1. Job focuses on something that isn't good for the world
+1. It forces you to work with people you really dislike
+
+If a job has a combo of these traits, it can "thwart your attempts to build and invest career capital."
+
+## Chapter 6 - The Career Capitalists
+
+"...Mike literally tracks every hour of his day, down to quarter-hour increments, on a spreadheet. He wants to ensure his attention is focused on the activities that matter."
+
+## Chapter 7 - Becoming a Craftsman
+
+Deliberate practice is the key strategy for acquiring career capital
+
+"...the difference in our abilities by the age of eighteen had less to do with the number of hours we practiced...and more to do with what we did with those hours."
+
+"Watching Jordan's current practice regime, these traits - strain and feedback -  remain central...he keeps adjusting the speed of his practicing to a point just past where he's comfortable. When he hits a wrong note, he immediately stops and starts over, providing instant feedback for himself."
+
+"The difference in strategy that separates average guitar players like me from starts like Tice and Casstevens is not confined to music." 
+
+Focus on stretching your abilities and getting feedback - aka deliberate practice!
+
+Deliberate Practice - "activity designed, typically by a teacher, for the sole purpose of effectively improving specific aspects of an individual's performance."
+
+"If you just show up and work hard, you'll soon hit a performance plateau beyond which you fail to get any better."
+
+***Most types of work don't have a deliberate practice or training routine...if you can figure out how to integrate deliberate practice...you have the possibility of blowing past your peers in your values.***
+
+### The Five Habits of Craftsman
+
+1. Decide What Capital Market You're In
+   - Winner takes all - only one type of career capital that everyone are competing for
+   - Auction - Many types and everyone generates their own collection
+1. Identify Your Capital Type
+   - Once you identify, define skills to build
+1. Define "Good" 
+   - define the deliberate practice to reach good with clear goals
+1. Stretch and Destroy
+   - Push you past the plateau and into a realm of no competition
+   - "Deliberate practice is often the opposite of enjoyable"
+   - If you're not uncomfortable, then you're probably stuck at an "acceptable level"
+   - Embrace feedback so you can destroy acceptable and push to great/good!
+
+1. Be Patient
+   - "...Martin redefined [diligence] so that it's less about paying attention to your main pursuit, and more about your willingness to ignore other pursuits that pop up along the way to distract you.
+
+The idea is continually stretch yourself overtime to get to the point people begin noticing!
+
+## Rule #3 - Turn Down a Promotion
+
+## Chapter 8 - The Dream-Job Elixer
+
+Control over what you do and how you do it is one of the most powerful traits you can acquire when creating work you love.
+
+ 
