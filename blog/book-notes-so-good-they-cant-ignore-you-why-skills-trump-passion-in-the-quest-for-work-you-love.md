@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/be-so-good-they-cant-ignore-you.jpg
 date: '2020-02-08'
 title: >-
@@ -233,4 +233,121 @@ This chapter talks through a few examples of how different people navigated gett
 The reason this makes sense is because the more control you want that benefits you might not directly benefit the company. 
 
 The key is knowing when to make courageous career decisions, because it makes all the difference in how that control works out. Once you have career capital, it can be much easier to gain more control.
+
+## Chapter 11 - Avoiding the Control Traps
+
+"Do what people are willing to pay for."
+
+*Note: he exempts hobbies from the rule*
+
+
+***Law of Financial Viability*** - "When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on.
+
+In other words, if you want to start a side hustle that will lead to independence, don't quit your day job to pursue it until it becomes lucrative and starts making money.
+
+## Rule #4 - Think Small, Act Big
+
+## Chapter 12 - the Meaningful Life of Pardis Sabeti
+
+"A unifying mission to your working life can be a source of great satisfaction."
+
+"her happiness comes from the fact that she built her career on a clear and compelling mission-something that not only gives meaning to her work but provides the energy needed to embrace life beyond the lab."
+
+"Her mission provides her a sense of purpose and energy, traits that have helped her avoid becoming a cynical acemic and instead embrace her work with enthusiasm. Her mission is the foundation on which she builds love for what she does, and therefor it's a career strategy we need to better understand."
+
+### The Power of Mission
+
+"What should I do with my life"
+
+Missions are powerful bc they focus energy toward a goal you believe in....maximizing your impact, which helps you love what you do.
+
+Having a mission and work that helps accomplish it can be a rewarding job. It helps you stay late without as much angst and changes your job from entering data to compiling statistics to save the world.
+
+"How do you make mission a reality in your working life?"
+
+Mission is one of these desirable traits in a job, so you must first build career capital to obtain it.
+
+## Chapter 13 - Missions Require Capital
+
+Although people typically think of innovation as one moment, it doesn't typically happen that way. The author argues it's more systematic by continually improving the cutting edge to reach new edges over and over again. "Technological (and scientific) advances rarely break out of the adjacent possible"
+
+*A good example of this is React and GraphQL at Facebook. They didn't come from thin air but gradually got closer and closer as problems rose that needed to be solved."*
+
+#### The Capital-Driven Mission
+
+"A good career mission is similar to a scientific breakthrough - it's an innovation waiting to be discovered in the adjacent possible of your field."
+
+To identify a mission for your working life....get to the cutting edge, because that's where they become visible!
+
+***Key: for technologist, this means finding ways to get involved with the cutting edge so your adjacent discoveries can be noticed."***
+
+"...having passion for your work is vital, but she also believes that it's a fools errand to try to figure out in advance what work will lead to passion"
+
+"Once you get to the cutting edge...and discover a mission in the adjacent possible, you must go after it with zeal: 'a big action."
+
+## Chapter 14 - Missions Require Little Bets
+
+"great missions are transformed into great successes as the result of using small and achievable projects - little bets - to explore the concrete possibilities surrounding a compelling idea."
+
+***key: "Many people have lots of career capital, and can therefor identify a variety of different potential missions for their work, but few actually build their career around such missions"***
+
+There's more to this career tactic than just getting to cutting edge - you have to have capital to ID it and figure out how to put a mission into practice...if you don't have a mission then you prolly won't make a leap to go forward!
+
+"Kirk's path to American Treasures was incremental. He didn't decide out of nowhere that he wanted to host a television show and then work backward to make that dream a reality. Instead, he worked forward from his original mission - to popularize archaeology- with a series of small, almost tentative steps. When he stumbled on the old film reels...he decided to digitize them and produce a DVD. After this small step he took the slightly larger step of raising money to shoot exploratory footage for a new version of the documentary. When George Milner played him that fateful answering machine tape, Kirk took another modest step by launching The Armchair Archaeologist project with no real vision of how it would prove useful, other than perhaps as fodder for his intro to archaeology courses. This final step, however, turned out to be a winner, leading directly to his own television show"
+
+*The only thing for me on this is a bit of survival bias. I feel like you can still work backwards to find the basic steps to take, then course correct as you move forward.*
+
+People "make a methodical series of little bets about what might be good direction, learning critical information from lots of little failures and from small but significant 'wins'..."
+
+This approach stands in contrast to making a master plan with a big bet, kind of like putting all your eggs in one basket, for success
+
+## Missions Require Marketing
+
+***Law of Remarkability*** - "For a mission-driven project to succeed, it should be remarkable in two different ways. First, it must compel people who encounter it to remark about it to others. Second, it must be launched in a venue that supports remarking."
+
+"He approached the task of finding good projects for his mission with the mindset of a marketer, systematically studying books on the subject to help identify why some ideas catch on while others fall flat."
+
+***Key: "You're either remarkable or invisible...the world is full of boring stuff - brown cows - which is why so few people pay attention....a purple cow....now that would stand out. Remarkable marketing is building things worth noticing."***
+
+***Key: "If you want to make a name for yourself in software development - the type of name that can help you secure emplyoment - focus your attention on making quality contributions to open-source projects. This is where the people who matter look for talent."***
+
+## Conclusion
+
+"'Don't just talk about it,' he scolded me when I offhandedly mentioned the book idea. 'If you think it would be cool, go do it.'"
+
+"Most knowledge works avoid the uncomfortable strain of deliberate practice like the plague, a reality emphasized by the typical cubicle dweller's obsessive e-mail-checking habit- for what is this behavior if not an escape from work that's more mentally demanding?
+
+"A graduate-level mathematics problem set...is about as pure an exercise in deliberate practice as you're likely to find. You're given a problem that you have no idea how to solve, but you have to solve it or you'll get a bad grade, so you dive in and try as hard as you can, repeatedly failing as different avenues lead you to dead ends. The mental strain of mustering every last available neuron toward solving a problem, driven by the fear of earning zero points on the assignment, is a nice encapsulation of exactly what the deliberate-practice literature says is necessary to improve."
+
+"...his compulsion to tear down important papers and mathematical concepts until he could understand the concepts from the bottom up...amazing intellect was less about a gift from god and more about a dedication to deliberate practice"
+
+Combatting deliberate practice resistance:
+1. Time structure - I'm going to work on X for an hour...nothing else
+1. Information structure - capturing the results of hard focus in useful form (proof map)
+
+Craft-centric: "Getting better and better required the strain of deliberate practice. This is a different way of thinking about work, but once you embrace it, the changes to your career trajectory can be profound."
+
+Deciding between a job where things are new vs already sustained means the difference of having a say in how things are ran vs not.
+
+True missions require two things:
+1. career capital
+1. Ceaseless scanning your always-changing view of the adjacent possible in your field, looking for the next big idea
+
+This requires a dedication to brainstorming and exposure to new ideas....these two commitments require a lifestyle - documenting them every day.
+
+"...I really understand the new idea, I require myself to add a summary, in my own words, to my growing 'research bible'...I also try to carve out one walk each day for free-form thinking about the ideas turned up by this background research.
+
+He uses this to create small bets from his research to try and implement, finding career value that builds into capital from successful projects.
+
+---
+
+The book overall was an interesting perspective on how to find meaningful work and enjoying the career you build. I really enjoyed the different way of thinking and some of the new tips I'll be thinking through as I make decisions on how to best impact the world with my own mission statement.
+
+Lastly - I know that this set of book notes is less thorough than my previous ones. I typically mark passages I enjoy or thought more about in my books with small sticky notes as I'm reading on the NYC Subway, because of this it's not easy to type everything up I've connected with, but at least keep the main ideas in the form of notes so I can remember the ones I connected with :).
+
+
+
+
+
+
  
