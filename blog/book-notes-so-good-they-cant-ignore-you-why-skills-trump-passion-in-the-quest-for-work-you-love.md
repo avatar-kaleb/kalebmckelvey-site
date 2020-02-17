@@ -204,4 +204,24 @@ The idea is continually stretch yourself overtime to get to the point people beg
 
 Control over what you do and how you do it is one of the most powerful traits you can acquire when creating work you love.
 
+"You have to get good before you can expect good work"
+
+"...farming is a complicated and stressful pursuit - but their lives are their own to direct, and they're good at this...the weather is something to battle, not to enjoy. And it's not about getting away from the computer screen...instead, autonomy that attracts the Granby groupies: Ryan and Sarah live a meaningful life on their own terms"
+
+### The Power of Control
+
+"...control has been found to improve people's lives....more control leads to better grades, better sports performance, better productivity, and more happiness.
+
+"Giving people more control over what they do and how they do it increases their happiness, engagement, and sense of fulfillment.
+
+## Chapter 9 - The First Control Trap
+
+"it's dangerous to pursue more control in your working life before you have career capital to offer in exchange"
+
+### First Control Trap
+
+"Control acquired without career capital is not sustainable."
+
+
+
  
