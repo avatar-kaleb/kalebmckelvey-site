@@ -222,6 +222,15 @@ Control over what you do and how you do it is one of the most powerful traits yo
 
 "Control acquired without career capital is not sustainable."
 
+He gives example of some bloggers assume that generated the courage to pursue control is what matters, but quickly realize that the details for doing so should be thought through first.
 
+## Chapter 10 - The Second Control Trap
 
+"The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you've become valuable enough to your current employer that they will try to prevent you from making the change"
+
+This chapter talks through a few examples of how different people navigated getting more control and fought through the resistance by the company to do so. Even some of them had to fight through critics in their inner circle who thought they were making a big mistake by turning down job offers or promotions.
+
+The reason this makes sense is because the more control you want that benefits you might not directly benefit the company. 
+
+The key is knowing when to make courageous career decisions, because it makes all the difference in how that control works out. Once you have career capital, it can be much easier to gain more control.
  
