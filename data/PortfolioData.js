@@ -55,7 +55,14 @@ export default [
     <p>Alerts can be triggered by users manually using the web or mobile apps, RESTful APIs, or integrated with GE's Historian time series data.</p>
 
     <p>This solution is either piloted or implemented in each of GE’s tier one industrial businesses and has 1500+ users.</p>`,
-    tech: [Tech.angularOne, Tech.css, Tech.html, Tech.node, Tech.polymerOne, Tech.predix],
+    tech: [
+      Tech.angularOne,
+      Tech.css,
+      Tech.html,
+      Tech.node,
+      Tech.polymerOne,
+      Tech.predix
+    ],
     title: 'eAndon',
     url: ''
   },
@@ -70,7 +77,14 @@ export default [
     <p>Factory360 allows users to create a single dashboard using multiple source types, like Tableau, eAndon, Spotfire, or Box, enabling them display essential reports on shop floor monitors.</p>
 
     <p>The reports displayed in the dashboard are refreshed periodically, ensuring users have updated information to base decisions on.<p>`,
-    tech: [Tech.html, Tech.material, Tech.node, Tech.polymerOne, Tech.predix, Tech.sass],
+    tech: [
+      Tech.html,
+      Tech.material,
+      Tech.node,
+      Tech.polymerOne,
+      Tech.predix,
+      Tech.sass
+    ],
     title: 'Factory 360',
     url: ''
   },
@@ -87,7 +101,7 @@ export default [
     <p>For MVP, I manually add new themes, but as the site grows, one will have the ability to add their own and also sell it.<p>`,
     tech: [Tech.gatsby, Tech.material, Tech.mdx],
     title: 'Great Gatsby Js Themes',
-    url: 'https://www.greatgatsbyjsthemes.com/'
+    url: ''
   },
   {
     id: 'gatsbyThemematerialUiBlog',
@@ -131,7 +145,8 @@ export default [
     tech: [Tech.ionicTwo, Tech.sass],
     subtitle: 'Inspring you each day',
     title: 'Inspir3Me',
-    url: 'https://play.google.com/store/apps/details?id=kaleb.mckelvey.Inspir3Me'
+    url:
+      'https://play.google.com/store/apps/details?id=kaleb.mckelvey.Inspir3Me'
   },
   {
     id: 'kalebMckelveyWordPress',
@@ -216,7 +231,14 @@ export default [
     <p>The Takt applications standardizes a metric tracked for cycle times for manufacturing shops.</p>
 
     <p> Users can create dynamic plans for their shops based on their takt time and demand. While plans are active, users are easily able to see progress on how they are meeting demand, factoring in both idle and downtime with an easy interface to guide them effectively through the shift.<p>`,
-    tech: [Tech.node, Tech.predix, Tech.polymerOne, Tech.redux, Tech.sass, Tech.springBoot],
+    tech: [
+      Tech.node,
+      Tech.predix,
+      Tech.polymerOne,
+      Tech.redux,
+      Tech.sass,
+      Tech.springBoot
+    ],
     title: 'Takt',
     url: ''
   }
