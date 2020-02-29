@@ -26,8 +26,7 @@ const AboutMe = () => (
       <CardText className="animated slideInUp slow cardText-text">
         <p>
           Hola. I&#39;m Kaleb - a coffee connoisseur, frequent traveler, health
-          enthusiast, mental model extraordinaire, nature walker, and reddit
-          lurker.
+          enthusiast, and nature walker!
           <br />
           <br />
           Thanks for stopping by!
@@ -45,9 +44,9 @@ const AboutMe = () => (
         </p>
         <p>
           In the past, my focus was on increasing productivity in GE Healthcare
-          manufacturing shops and helping financial planners create financial
-          plans for clients. Today, I help bring the magic to the world as a
-          Software Engineer at Disney working on Disney+!
+          manufacturing shops, and helping financial planners deliver financial
+          plans to achieve their dreams. Today, I help bring the magic to the
+          world as a Software Engineer at Disney working on Disney+!
         </p>
         <p>
           In addition to solving business problems, I continuously explore new
