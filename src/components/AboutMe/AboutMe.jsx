@@ -44,7 +44,7 @@ const AboutMe = () => (
           to design and develop solutions on tough requirements.
         </p>
         <p>
-          In the past my focus increasing productivity in GE Healthcare
+          In the past, my focus was on increasing productivity in GE Healthcare
           manufacturing shops and helping financial planners create financial
           plans for clients. Today, I help bring the magic to the world as a
           Software Engineer at Disney working on Disney+!
@@ -77,17 +77,17 @@ const AboutMe = () => (
           <TableBody>
             <TableRow key={1}>
               <TableColumn>Javascript - ES5/ES6+</TableColumn>
-              <TableColumn>Polymer</TableColumn>
+              <TableColumn>React/Redux</TableColumn>
               <TableColumn>Predix Platform</TableColumn>
             </TableRow>
             <TableRow key={2}>
               <TableColumn>CSS3</TableColumn>
-              <TableColumn>React</TableColumn>
+              <TableColumn>Angular</TableColumn>
               <TableColumn>User Experience</TableColumn>
             </TableRow>
             <TableRow key={3}>
               <TableColumn>HTML5</TableColumn>
-              <TableColumn>Redux</TableColumn>
+              <TableColumn>Polymer</TableColumn>
               <TableColumn>Progressive Web Apps</TableColumn>
             </TableRow>
             <TableRow key={4}>
@@ -102,7 +102,7 @@ const AboutMe = () => (
             </TableRow>
             <TableRow key={6}>
               <TableColumn>GraphQL</TableColumn>
-              <TableColumn>Gulp</TableColumn>
+              <TableColumn>Webpack</TableColumn>
               <TableColumn>WebSockets</TableColumn>
             </TableRow>
             <TableRow key={7}>
@@ -277,14 +277,11 @@ const AboutMe = () => (
           people with that area of their life was a great experience!
         </p>
         <p>
-          An amazing opportunity came up - working on Disney+ right after their
-          launch in 2019. I decided to take the new role and have baby yoda as
-          my new teammate! I'm excited to see where this new adventure at Disney
-          takes me as I help bring the magic to the world!
-        </p>
-        <p>
-          Moving to NYC has given me one other gift - moving in with my amazing
-          girlfriend. She continues supporting me through the journey!
+          An amazing opportunity came up while working at NM - joining Disney to
+          work on Disney+ right after their launch in 2019. I decided to take
+          the new role and have baby yoda as my new teammate! I'm excited to see
+          where this new adventure takes me as I help bring the magic to the
+          world!
         </p>
         <h3>Concluding Thoughts</h3>
         <p>
