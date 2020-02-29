@@ -81,5 +81,13 @@ export default [
     people know more than we do in certain topics. People have authority and we have authority bias towards those in leadership roles. I believe
     that being assertive is a powerful talent, one that should be exercised to bring yourself the respect you deserve while being very respectful
     to others. It's a balance of both getting/demanding respect in a respectful way that helps you in all areas of your life.`
+  },
+  {
+    id: 13,
+    title: 'You are the CEO of Your Life',
+    value: `Currently having trouble with something in your life? Decide and act on how you can change it.
+     Unhappy at your job? Find a way to change what is making you unhappy or find a new job. 
+     Unhappy with your commute? Find a new apartment. 
+     Easy to say harder to do right? Life isn't easy and we must use grit to get through the challenges!`
   }
 ];

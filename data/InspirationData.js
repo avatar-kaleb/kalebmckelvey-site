@@ -16,7 +16,8 @@ export default [
   },
   {
     id: 3,
-    link: 'https://www.joshuakennon.com/give-yourself-permission-to-be-disliked/',
+    link:
+      'https://www.joshuakennon.com/give-yourself-permission-to-be-disliked/',
     title: 'Give Yourself Permission to be Disliked',
     value: `This article has changed my perspective on the world - what an incredible view and  honest article.`
   },
@@ -29,18 +30,29 @@ export default [
   {
     id: 5,
     link: 'https://www.youtube.com/watch?v=pxBQLFLei70',
-    title: 'University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven',
+    title:
+      'University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven',
     value: `Make your bed. Don't ever, ever ring the bell!`
   },
   {
     id: 6,
     link: 'https://www.youtube.com/watch?v=pqzcCfUglws',
     title: 'The Psychology of Human Misjudgement',
-    value: 'This video introduced the world to mental models, cognitive bias, and showed their usefulness!'
+    value:
+      'This video introduced the world to mental models, cognitive bias, and showed their usefulness!'
   },
   {
     id: 7,
     link: 'https://www.youtube.com/watch?v=q5nVqeVhgQE',
-    value: 'Will Smith has always been one of my role models - this video shares some of his life philosphies!'
+    title: 'Will Smith shares his secrets of success',
+    value:
+      'Will Smith has always been one of my role models - this video shares some of his life philosphies!'
+  },
+  {
+    id: 8,
+    link: 'https://www.youtube.com/watch?v=T9GvDekiJ9c',
+    title: 'Kobe Bryant’s Last Great Interview',
+    value:
+      "Kobe Bryant's mindset was absolutely amazing, this video explores many parts of his life with a few funny stories. RIP the legend!"
   }
 ];
