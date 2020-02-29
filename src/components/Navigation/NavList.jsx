@@ -1,6 +1,6 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import FontIcon from 'react-md/lib/FontIcons';
-import { Link } from 'gatsby';
 
 /**
  * Builds the Nav List by created List Item Components as Links!
@@ -85,12 +85,6 @@ function GetNavList() {
         to: '/journey-to-achieve/core-fundamentals/'
       },
       {
-        primaryText: 'Scholarship',
-        leftIcon: <FontIcon>school</FontIcon>,
-        component: Link,
-        to: '/journey-to-achieve/scholarship/'
-      },
-      {
         key: 'observations',
         primaryText: 'Observations',
         leftIcon: <FontIcon>language</FontIcon>,
@@ -151,13 +145,13 @@ function GetNavList() {
         component: Link,
         to: '/professional/talks/'
       },
-      {
-        key: 'services',
-        primaryText: 'Services',
-        leftIcon: <FontIcon>business_center</FontIcon>,
-        component: Link,
-        to: '/professional/services/'
-      },
+      // {
+      //   key: 'services',
+      //   primaryText: 'Services',
+      //   leftIcon: <FontIcon>business_center</FontIcon>,
+      //   component: Link,
+      //   to: '/professional/services/'
+      // },
       {
         key: 'contact-me',
         primaryText: 'Contact Me',
