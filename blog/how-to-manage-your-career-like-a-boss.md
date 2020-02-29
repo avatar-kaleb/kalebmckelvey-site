@@ -117,7 +117,7 @@ With learning the different types of potential careers available, I decided on t
 
 ### Inverse Thinking
 
-Since this whole career plan thing was new to me, I took a few minutes finding ways to properly create one. The best idea I found was using inversion (thinking backward) to find the steps required to accomplish your goals. This makes defining a plan much simpler because one must have an idea of where they want to go before deciding on how to get there!
+Since this whole career plan thing was new to me, I took a few minutes to find ways to properly create one. The best idea I found was using inversion (thinking backward) to find the steps required to accomplish your goals. This makes defining a plan much simpler because one must have an idea of where they want to go before deciding on how to get there!
 
 #### My Inverse Thinking Notes:
 
