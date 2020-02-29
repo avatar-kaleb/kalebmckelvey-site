@@ -41,7 +41,7 @@ export default [
     <p>My client wanted a site to help drive the metaphor home to help change the lives of their users as they provide a roadmap to build your financial kingdom.</p>`,
     tech: [Tech.css, Tech.html, Tech.wordpress],
     title: 'Duke of Dollars',
-    url: 'https://www.dukeofdollars.com'
+    url: ''
   },
   {
     id: 'eandon',
