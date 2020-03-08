@@ -36,7 +36,7 @@
     "gatsby-source-filesystem": "2.0.7",
     "gatsby-transformer-remark": "2.1.11",
     "gatsby-transformer-sharp": "2.1.8",
-    "lodash": "~4.17.10",
+    "lodash": "~4.17.13",
     "lodash-webpack-plugin": "~0.11.4",
     "logrocket": "~0.6.17",
     "logrocket-react": "~3.0.0",
