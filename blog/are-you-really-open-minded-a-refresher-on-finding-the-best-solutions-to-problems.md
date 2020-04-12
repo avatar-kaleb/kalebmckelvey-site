@@ -15,7 +15,7 @@ Throughout the summer I've been reading through critical thinking books, such as
 
 _More to come! This is part of a side-project to become better critical thinkers and developing a framework for making decisions._
 
-I've really enjoyed the book and it's been interesting to learn how different leaders lead to develop the culture they appreciate. Mr. Dalio split _Principles_ up into three parts, first giving an introduction to who he is, followed by life principles, and ending with work principles. I wanted to touch on chapter three in part two, **Be Radically Open-Minded** because as a software developer and future husband, it hit home for me.
+I've enjoyed the book and it's been interesting to learn how different leaders lead; creating the culture they appreciate. Mr. Dalio split _Principles_ up into three parts, first giving an introduction to who he is, followed by life principles, and ending with work principles. I wanted to touch on chapter three in part two, **Be Radically Open-Minded** because as a software developer and future husband, it hit home for me.
 
 _Note: anything in quotes throughout the article will be quotes from the book unless otherwise stated._
 
@@ -40,15 +40,15 @@ Like Uncle Phil in Fresh Prince, where Will recognized the huge vein in his uncl
 
 We all have a defense mechanism that makes "it hard for you to accept your mistakes and weaknesses." 
 
-This ego causes you to respond as if you are being attacked for an idea, even though you know it isn't personal. Your brain as an inner subconscious (intuitive and emotional) and a higher level of conscious awareness that makes logical decisions. They both fight to control you during the decision process, and it's your lower level you that responds strongly (with emotions) to criticism.
+This ego causes you to respond as if you are being attacked for an idea, even though you know it isn't personal. Your brain as an inner subconscious (intuitive and emotional) and a higher level of conscious awareness that makes logical decisions. They both fight to control you during the decision process, and it's your lower level "you" that responds strongly (with emotions) to criticism.
 
-### Your Blindspot
+### Your Blind Spot
 
-Blindspots are areas in which your "way of thinking prevents you from seeing things accurately."
+Blind spots are areas in which your "way of thinking prevents you from seeing things accurately."
 
-Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blindspots so others can help us out. 
+Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blind spots so others can help us out. 
 
-It's similar to checking your blindspot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....ruh roh.
+It's similar to checking your blind spot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blind spot is there, but not caring so you merge without looking....ruh roh.
 
 ## Change Your Perspective by Practicing Radical open-mindedness
 
@@ -58,7 +58,7 @@ To get better at making decisions and learning to disregard some of the emotions
 
 _**A discussion and open disagreement isn't about being RIGHT - it is about getting the TRUTH, which leads to the most optimal solution to a problem.**_
 
-This means to actually explore and understand the different points of view and possibilities when discussing solutions with your colleagues, friends, or family. It requires your thinking to change from being RIGHT or WRONG to finding the BEST answer.
+This means to explore and understand the different points of view and possibilities when discussing solutions with your colleagues, friends, or family. It requires your thinking to change from being RIGHT or WRONG to finding the BEST answer.
 
 One of my favorite sentences:
 
@@ -86,17 +86,17 @@ The brain does this to save energy since brain powering takes quite a lot of cal
 
 Many times we base decisions on what we know, our frame of reference, and our experiences without really considering the other facts. Whether that is in the form of articles or people, we must take the time on tough decisions (or big decisions that affect the team) with care.
 
-Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we have knowledge on and answer that question instead (our brains are weird huh?). 
+Interestingly enough, if we are asked an outlandishly difficult question, we will substitute it with a question we have knowledge on and answer that question instead (our brains are weird huh?). 
 
 [Article on Substitution](https://thinkproductive.co.uk/decision-thinking-substitution-bias/)
 
 ##### Other Perspectives from Believable People:
 
-During this phase, it's imperative to take in other perspectives to get a better grasp of their frames, and doing so with an open-mind that doesn't care how good they look in the process. 
+During this phase, it's imperative to take in other perspectives to get a better grasp of their frames, and doing so with an open mind that doesn't care how good they look in the process. 
 
 Ray uses a term called *believability* in the book. 
 
-Believability means to take in the perspectives of people that have experience and knowledge on what you're deciding on, because many people have the "take two lefts and it's on the corner" syndrome - aka they give directions to the stranger who stops by and asks, but actually don't know where the location is.
+Believability means to take in the perspectives of people that have experience and knowledge on what you're deciding on because many people have the "take two lefts and it's on the corner" syndrome - aka they give directions to the stranger who stops by and asks for help but they have no idea where the location is.
 
 Here's my favorite quote from the book that helped me see a different perspective on doing this better, not only at work but all relationships in my life!
 
@@ -106,7 +106,7 @@ Powerful stuff! I just can't point it any better than that and it MAKES so much 
 
 ##### Have Clear Objectives:
 
-Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer to right?
+Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer to.
 
 ##### Follow the Iron Prescription:
 
@@ -132,7 +132,7 @@ How much easier is it to change if you haven't argued and committed to spaces as
 
 Once you have completed step one (gather info) and your data is as compiled as a Java program;  the time to make a decision has arrived. I believe that one of the best ways to base decisions requires having guiding objectives or goals to base it on. 
 
-For example, a software team wants to have quality code standards right? But what does that actually mean to that team? Is it readability they find most important? Is it bundle size and performance? Is it both?
+For example, a software team wants to have quality code standards right? But what does that mean to that team? Is it readability they find most important? Is it bundle size and performance? Is it both?
 
 This first principle thinking of what makes a great team then helps guide you in making decisions that might influence it, like choosing which library to use for unit testing react components.
 
@@ -152,7 +152,7 @@ These are directly from the book, and instead of diving into each one, I will ke
 
 This simple list inspired me to reflect on my level of open-mindedness, and I am PUMPED to get better. 
 
-I've felt my whole life that I'm opened to others opinion; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges because that is just how the best decisions can be made and others can truly feel heard!
+I've felt my whole life that I'm opened to others' opinions; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges because that is just how the best decisions can be made and others can truly feel heard!
 
 ## Why this topic matters to developers?
 
@@ -160,7 +160,7 @@ I've felt my whole life that I'm opened to others opinion; but, I see this list 
 * Have you ever had to make decisions for your ticket that might be a new pattern the team should know about or weigh in on?
 * How about refactoring or upgrading legacy code for better performance or quality...or falling in love with React Hooks?
 
-I've had each and every single situation as a developer. 
+I've had every single situation as a developer. 
 
 The industry has recognized the importance of soft and leadership skills as part of being well-rounded developers. Making these decisions without causing team grudge matches makes working as a TEAM a wonderful experience. It's not about everyone being right, it's about finding the truth together that most benefits the team we are all trying to be best on.
 
