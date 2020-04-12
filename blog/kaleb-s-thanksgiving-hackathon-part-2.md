@@ -21,7 +21,7 @@ Hard to believe it is already Sunday. I'm pretty excited to get back to Predix a
   * Schedule page - Quote can be scheduled
     * disclaimer - default configuration is used, not from the form in the screenshots (next step for sure)
   * Schedule page - notifications -> Local notifications are working and are using a quote from the database
-  * Schedule page - scheduled notifications show as a list of cards, even if the formatting / user experience is terrible at the moment
+  * Schedule page - scheduled notifications show as a list of cards, even if the formatting/user experience is terrible at the moment
   * SQLite - FINALLLLLLYY GOT THIS WORKING TO LOAD INITIAL QUOTES!!!
 
 ## Next steps:
@@ -50,7 +50,7 @@ I uploaded the screenshots into my portfolio, check out Inspir3Me here:
 
 My Thanksgiving Hackathon was a blast and for me considered a success!! 
 
-I will definitely be looking to optimize the code a bit as the language becomes more familiar. Snacks, totally gone. I will never forget bagel bites again.
+I will be looking to optimize the code a bit as the language becomes more familiar. Snacks, totally gone. I will never forget bagel bites again.
 
 Lastly, thanks to everyone who gave me some quotes to use on Facebook, all of them were included in the prototype.
 
