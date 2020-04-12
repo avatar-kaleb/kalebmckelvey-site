@@ -25,15 +25,15 @@ With that being said, last week began a new journey for me, _starting a new job 
 
 ### 1. People are awesome!
 
-Thanks to my three rotations in GE Healthcare and one in GE Aviation, the number of people I connected with was incredible. Working with people from all over the world like India, Budapest, Mexico, France, Poland, and China - especially in the countries I was able to visit (or when people visited the US) - changed my perspective what life really was like.
+Thanks to my three rotations in GE Healthcare and one in GE Aviation, the number of people I connected with was incredible. Working with people from all over the world like India, Budapest, Mexico, France, Poland, and China - especially in the countries I was able to visit (or when people visited the US) - changed my perspective what life was like.
 
 We had a lot of fun teaching each other about cultural traditions, favorite foods to try, Milwaukee Craft Beer, Espresso, or history.
 
 The most important lesson from all of the Hackathon events, happy hours, team dinners, or pressured app studio results comes down to this: people are awesome!
 
-[I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds true today.
+[I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds today.
 
-SN: Check out my [Instagram](https://www.instagram.com/on\_the\_journey3/) for pictures from the last few years!
+SN: Check out my [Instagram](https://www.instagram.com/on_the_journey3/) for pictures from the last few years!
 
 ## 2. Learn from others
 
@@ -51,7 +51,7 @@ My first assignment leader, Julia, taught me the ropes of knowing the people you
 
 At Cincinnati, in rotation 3, I was part of a mission-based team who took on ingesting data through a process we defined, 6 billion rows later we considered it a success. My last rotation introduced me to agile web development utilizing the Polymer library and led to becoming a Software Engineer after graduating from the program (my other experiences with development at GE were more side projects).
 
-It was there that our team debated, fought for, and iteratively improved the mechanisms we used in our development lifecycle. That's when I made the decision to learn more about Web Development and Javascript, becoming a tech lead and mentor along the way.
+It was there that our team debated, fought for, and iteratively improved the mechanisms we used in our development lifecycle. That's when I decided to learn more about Web Development and Javascript, becoming a tech lead and mentor along the way.
 
 I mention all of this to demonstrate the power of being part of a team - none of the accomplishments from the last 4 years were by myself. It was because of the help (and feedback), the partnership, and mentorship that was offered throughout the journey!
 
@@ -79,7 +79,7 @@ _Reminder: [You Don't Have to be Perfect](https://www.kalebmckelvey.com/moving-i
 
 I'm back in the uncomfortable stage at a new job. I'm meeting new people, making new impressions, taking on new tech, all the while learning to live in a studio apartment with my best friend.
 
-We're in the process of making a New York Bucket list and documenting our adventures on the blog plus on Youtube and Instagram.
+We're in the process of making a New York Bucket list and documenting our adventures on the blog.
 
 Stay tuned!
 
