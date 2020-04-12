@@ -17,11 +17,11 @@ _If you want to check out the specific article, here's the link: [Don't Allow Th
 
 The post explains a Reddit post, where the author was able to jip a grocer and save $200 money because of mislabeled meat prices. Josh believes there are two levels for integrity: you either have it, or you don't. Extreme perhaps, and after thinking on this post a few times, my mind's convinced. You either have it, or you don't.
 
-One can argue here that people can change and people do change throughout their life. I would definitely agree and like Wale says, if you change, may you change for the better. If you are making that change, great!! Until you are on the 100% integrity side, then you still don't have it - you have some.
+One can argue here that people can change and people do change throughout their life. I would agree and like Wale says, if you change, may you change for the better. If you are making that change, great!! Until you are on the 100% integrity side, then you still don't have it - you have some.
 
 The article ends with a recommendation to isolate the people who don't have integrity from your life. Whether they are family, friends, or business partners, someone who can be bought for small amounts of money isn't people you can trust in the long run. The best course of action would be to follow the famous golden rule, inform the clerk of the mistake, pay for the meat at full price, then sleep better that night knowing you did the right thing! Exchanging perspective-changing ideas to become better demonstrates the benefits of the internet.
 
-This life-changing post has transformed me into someone who will absolutely let the clerk know of a mislabeled price in the future.
+This life-changing post has transformed me into someone who will let the clerk know of a mislabeled price in the future.
 
 - - -
 
@@ -43,7 +43,7 @@ Yes, the PIE model exists with your image being a huge part of how you are seen 
 
 ## Integrity in your life
 
-You are who you surround yourself with. Which side are you currently on? Which side are your friends on? From now on, make the decision to be with people who have ABSOLUTE integrity.
+You are who you surround yourself with. Which side are you currently on? Which side are your friends on? From now on, decide to be with people who have ABSOLUTE integrity.
 
 In the past, I have faulted and have come to peace with that. Were they big faults? Not really, but I don't think it matters. Will I have faults in the future, probably but my aim's set higher than that.
 
