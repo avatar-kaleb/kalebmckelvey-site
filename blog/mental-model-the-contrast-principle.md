@@ -23,10 +23,9 @@ tags:
 >
 > Your loving daughter, Sharon"
 
-
 _Example taken from the book mentioned below, pages 15-16._
 
-* * *
+- - -
 
 ## The Book
 
@@ -52,8 +51,8 @@ The hand from the hot water tells your brain the water is cold, while the hand f
 
 ## Defend Against the Shortcut
 
-When making a decision between two items or if you are buying a 10K+ car and the salesman ask if you want to throw in only a $100 radio, take a breath and ask a couple questions: "Am I buying this or making this decision in comparison to another option?" "Would I make this decision without an option to compare it with?" "What are the big things I'm comparing to each other?"
+When making a decision between two items or if you are buying a 10K+ car and the salesman ask if you want to throw in only a $100 radio, take a breath and ask a couple of questions: "Am I buying this or making this decision in comparison to another option?" "Would I make this decision without an option to compare it with?" "What are the big things I'm comparing to each other?"
 
 ## Concluding Thoughts
 
-I have added this to my [mental model dictionary entries](https://mentalmodeldictionary.com). I hope this helps you recognize and defense against the shortcut when necessary!
+I have added this to my [mental model dictionary entries](https://mentalmodeldictionary.com). I hope this helps you recognize and defend against the shortcut when necessary!
