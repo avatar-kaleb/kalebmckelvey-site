@@ -48,7 +48,7 @@ Blindspots are areas in which your "way of thinking prevents you from seeing thi
 
 Mr. Dalio mentioned how some people can see the big picture vision but miss small details, while others are the opposite. Some are lateral while others are linear thinkers. Some people are task executors and people who are go-with-the-flow creators. In other words, each one of us thinks differently within our frame of reference, and we must accept that we have blindspots so others can help us out. 
 
-It's similar to checking your blindspot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....uh oh.
+It's similar to checking your blindspot in your car. There's the smart option -since you know the blind spot exists in the mirror, you check over your shoulder to make sure there isn't a car there. The other option is knowing the blindspot is there, but not caring so you merge without looking....ruh roh.
 
 ## Change Your Perspective by Practicing Radical open-mindedness
 
@@ -72,23 +72,31 @@ The book guides us on how to best to this through a few principles summarized be
 
 ### Accept that you might not know the best possible answer
 
-With this new perspective in mind, you can now openly discuss and listen to others in the discussion to make the best decision. Before starting to do so, ACCEPT that you might not have the best answer, so listen and _**understand**_ the disagreeing party's point of view. This doesn't mean they have a stronger point; although, they could and the idea is to figure that out versus arguing with them.
+With this new perspective in mind, you can now openly discuss and listen to others in the discussion to make the best decision. 
+
+Before starting to do so, ACCEPT that you might not have the best answer, so listen and _**understand**_ the disagreeing party's point of view. This doesn't mean they have a stronger point; although, they could and the idea is to figure that out versus arguing with them.
 
 ### Decision Making has Two-Steps
 
-[Mental models](https://mentalmodeldictionary.com) show us that as humans we have biases and Daniel Kahneman recognized that many of times our decision making is based on fast-thinking, before even considering all of the data. The brain does this to save energy since brain powering takes quite a lot of calories to work :).
+[Mental models](https://mentalmodeldictionary.com) show us that as humans we have biases and Daniel Kahneman recognized that our decision making is based on fast-thinking, before even considering all of the data. 
+
+The brain does this to save energy since brain powering takes quite a lot of calories to work :).
 
 #### Step 1: Gather the Info
 
 Many times we base decisions on what we know, our frame of reference, and our experiences without really considering the other facts. Whether that is in the form of articles or people, we must take the time on tough decisions (or big decisions that affect the team) with care.
 
-Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we do have knowledge on and answer that question instead (our brains are weird huh?). 
+Interestingly enough, if we are asked an outlandishly difficult question, we will actually substitute with a question we have knowledge on and answer that question instead (our brains are weird huh?). 
+
+[Article on Substitution](https://thinkproductive.co.uk/decision-thinking-substitution-bias/)
 
 ##### Other Perspectives from Believable People:
 
 During this phase, it's imperative to take in other perspectives to get a better grasp of their frames, and doing so with an open-mind that doesn't care how good they look in the process. 
 
-Ray uses a term called believability in the book, meaning you should really only take in the perspectives of people that have experience and knowledge on what you're deciding on, because many people have the "take two lefts and it's on the corner" syndrome - aka they give directions to the stranger who stops by and asks, but actually don't know where the location is.
+Ray uses a term called *believability* in the book. 
+
+Believability means to take in the perspectives of people that have experience and knowledge on what you're deciding on, because many people have the "take two lefts and it's on the corner" syndrome - aka they give directions to the stranger who stops by and asks, but actually don't know where the location is.
 
 Here's my favorite quote from the book that helped me see a different perspective on doing this better, not only at work but all relationships in my life!
 
@@ -98,7 +106,7 @@ Powerful stuff! I just can't point it any better than that and it MAKES so much 
 
 ##### Have Clear Objectives:
 
-Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer too right?
+Further, one should be clear on what you want to know and the reason for wanting to change or make this decision. You wouldn't begin writing a research paper without knowing the topic or question you want to know the answer to right?
 
 ##### Follow the Iron Prescription:
 
@@ -116,11 +124,13 @@ He uses this to prevent his mind from becoming cabbage, specifically when drifti
 
 For development teams, this means just because you've always followed a specific style or used a specific library that you WON'T change even if it makes sense to do so. React is an awesome library and I see so many benefits to using it, but what if that changes? Are you so far into the React ideology of web dev that you won't change? 
 
-Think about all of those who strongly argued for spaces versus tabs. They [committed](https://www.mentalmodeldictionary.com/mental-model/commitmentAndConsistency) to it. Then, a member of the team joins who need more accessibility during development - lo and behold tabs it is! How much easier is it to change if you haven't argued and committed to spaces as the only way to go? So much easier! Why? Because now you don't have to admit being wrong or admit to having to change. Instead, you list out why spaces make sense but one must always be open to changing their stances on issues as new evidence or strong reasons warrant it.
+Think about all of those who strongly argued for spaces versus tabs. They [committed](https://www.mentalmodeldictionary.com/mental-model/commitmentAndConsistency) to it. Then, a member of the team joins who need more accessibility during development - lo and behold tabs it is! 
+
+How much easier is it to change if you haven't argued and committed to spaces as the only way to go? So much easier! Why? Because now you don't have to admit being wrong or admit to having to change. Instead, you list out why spaces make sense but one must always be open to changing their stances on issues as new evidence or strong reasons warrant it.
 
 #### Step 2: Decide
 
-Once step one has been completed and your data is as compiled as a Java program;  the time to make a decision has arrived. I believe that one of the best ways to base decisions requires having guiding objectives or goals to base it on. 
+Once you have completed step one (gather info) and your data is as compiled as a Java program;  the time to make a decision has arrived. I believe that one of the best ways to base decisions requires having guiding objectives or goals to base it on. 
 
 For example, a software team wants to have quality code standards right? But what does that actually mean to that team? Is it readability they find most important? Is it bundle size and performance? Is it both?
 
@@ -140,7 +150,9 @@ These are directly from the book, and instead of diving into each one, I will ke
 6. "Closed-minded people have trouble holding two thoughts simultaneously in their minds."
 7. "Closed-minded people lack a deep sense of humility."
 
-This simple list inspired me to reflect on my level of open-mindedness, and I am PUMPED to get better. I've felt my whole life that I'm opened to others opinion; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges because that is just how the best decisions can be made and others can truly feel heard!
+This simple list inspired me to reflect on my level of open-mindedness, and I am PUMPED to get better. 
+
+I've felt my whole life that I'm opened to others opinion; but, I see this list and recognize a few areas I need to do better. I NEED to listen better and accept challenges because that is just how the best decisions can be made and others can truly feel heard!
 
 ## Why this topic matters to developers?
 
