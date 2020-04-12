@@ -10,6 +10,7 @@ tags:
   - teamwork
   - principles
   - listening
+  - writing portfolio
 ---
 Throughout the summer I've been reading through critical thinking books, such as _Thinking Fast and Slow_, _The Art of Critical Thinking_, _Super Thinking: The Big Book of Mental Models_, and currently working on _Principles_ by Ray Dalio. 
 
