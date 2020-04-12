@@ -13,7 +13,9 @@ The tech industry, and more specifically the web development niche, lives up to 
 
 We are constantly bombarded with new libraries, new versions of popular libraries, language updates, spec changes, and new techniques or strategies that may or may not stick. Not only are they rapid-fire, but web developers must also keep up while evaluating which make sense in their current projects.
 
-That's our job right? Certainly. But just by taking a look at the handbook created by Front End Masters: [2019 Front end Handbook](https://frontendmasters.com/books/front-end-handbook/2019/) - you can easily see why the vast amount of knowledge required to be considered competent can feel overwhelming!
+That's our job right? Certainly. 
+
+But just by taking a look at the handbook created by Front End Masters: [2019 Front end Handbook](https://frontendmasters.com/books/front-end-handbook/2019/) - you can easily see why the vast amount of knowledge required to be considered competent can feel overwhelming!
 
 Thankfully we have a great community full of resources, tutorials, and training workshops to help out; still, the battle of imposter syndrome rages on for many in the tech industry.
 
@@ -90,9 +92,5 @@ In general, I believe the following are helpful with handling imposter syndrome 
 Outside of these four, I believe the most important part in preventing or battling imposter syndrome comes from focusing to be a life-long learner. Take some time to yourself each day to read on new developments in your field, train on a technology you haven't yet used, all to continuously grow.
 
 The Dunning Kruger Effect shows that the more you know, the more you feel like you don't - accept and thrive from this. It means progress. It means growth. It means you still have areas to grow in! For most of us, especially for me in web development, that means my passion can continue as my peak has yet to come!
-
-Thanks for reading!
-
-Kaleb McKelvey
 
 Source: [_Imposter Syndrome on Wikipedia_](https://en.wikipedia.org/wiki/Impostor_syndrome)
