@@ -8,15 +8,15 @@ tags:
   - hackathon
   - predix
 ---
-Hello everyone, Last week and continuing into this week, our Software Engineering team along with others have been participating in a Predix Hackathon. If you are unsure what a hackathon is, check out my [Thanksgiving ](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1)post for more details.
+Last week and continuing into this week, our Software Engineering team along with others have been participating in a Predix Hackathon. If you are unsure what a hackathon is, check out my [Thanksgiving ](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1)post for more details.
 
-Having a hackathon at work has been a great experience so far. I want to showcase how our team has utilized the platform, micro-services, micro-apps and machine data to create a prototype for productivity!
+Having a hackathon at work has been a great experience so far. I want to showcase how our team has utilized the platform, microservices, micro-apps and machine data to create a prototype for productivity!
 
 ## Predix Platform
 
 In our first week of the hackathon, our team has created a PostgreSQL database instance, deployed a micro service, deployed a micro app, and connected to an existing database with machine data to create our prototype.
 
-Yes you read that right, in our FIRST WEEK! This ladies and gentlemen is the power of Predix.
+Yes, you read that right, in our FIRST WEEK! This ladies and gentlemen is the power of Predix.
 
 ## How we did it:
 
@@ -28,7 +28,7 @@ The goal of our app is to utilize machine data to increase productivity. The app
 
 _Decide on prototype functionality:_
 
-What can we deliver in one week that can prove out a potential product that provides results for the business? Once decided, our team together discussed and iterated on architecture as we talked through the functionality. In the first day, we proved out that we could talk to our machine data (database) from a Predix app. This insured the rest of the week would not be wasted.
+What can we deliver in one week that can prove out a potential product that provides results for the business? Once decided, our team together discussed and iterated on architecture as we talked through the functionality. On the first day, we proved out that we could talk to our machine data (database) from a Predix app. This insured the rest of the week would not be wasted.
 
 ### Predix Hackathon Step 2 - Split the Work:
 
@@ -61,7 +61,7 @@ From the UI perspective, I didn't need to know HOW the back end services were cr
 
 Integrate and iterate. We integrated our separate puzzle pieces and iterated on the design to make sure our demo would be ready for Friday. 
 
-The prototype was deployed on Predix, talking to our machine data, and displaying functionality on the UI. A working, deployed prototype developed in 3.5 days (first 1.5 were discussion based)!!
+The prototype was deployed on Predix, talking to our machine data, and displaying functionality on the UI. A working, deployed prototype developed in 3.5 days (first 1.5 were discussion-based)!!
 
 Bringing it together is like everyone filling their responsibility on a football play - TOUCH DOWN!
 
@@ -69,11 +69,11 @@ Bringing it together is like everyone filling their responsibility on a football
 
 ## Next Steps:
 
-This week we look to finalize our prototype functionality and verify code quality is up to standards for our team. With this hackathon being a friendly competition, and me being a life time competitor, I'm looking forward to another week on the grind to show case our work to the judges!
+This week we look to finalize our prototype functionality and verify code quality is up to standards for our team. With this hackathon being a friendly competition, and me being a lifetime competitor, I'm looking forward to another week on the grind to showcase our work to the judges!
 
 - - -
 
-As our hackathon comes to an end on Friday, future post will be providing more informative posts on how to use Predix and hope to help jump start your development.
+As our hackathon comes to an end on Friday, a future post will be providing more informative posts on how to use Predix and hope to help jump start your development.
 
 If you have any topics you are interested in, please [contact me](https://kalebmckelvey.com/contact-me/).
 
