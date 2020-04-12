@@ -7,6 +7,7 @@ category: Tech
 tags:
   - mental models
   - mental health
+  - writing portfolio
 ---
 The tech industry, and more specifically the web development niche, lives up to the Heraclitus quote: "the only thing that is constant is change."
 
