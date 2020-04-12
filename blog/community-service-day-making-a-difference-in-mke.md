@@ -23,9 +23,9 @@ I signed up for our group of 5 and we were assigned to paint the teachers lounge
 
 Bonding over service is one of the most unique experiences in terms of a team - together we painted a full room and it was only possible with a team effort.
 
-It gave us the opportunity to talk and learn about each others, while making a difference. I informed our team how great Fresh Prince was. I learned that one of my colleagues used to be a puppeteer. Who would have thought others at GE loved the Inheritance Cycle as much as I do?
+It gave us the opportunity to talk and learn about each other while making a difference. I informed our team how great Fresh Prince was. I learned that one of my colleagues used to be a puppeteer. Who would have thought others at GE loved the Inheritance Cycle as much as I do?
 
-It was an amazing experience. It made me realize just how much  much help is needed in the community, and how easy it is to help.
+It was an amazing experience.
 
 ## Making someone's day:
 
@@ -33,7 +33,7 @@ One of the school's staff came in to see our work. She expressed her appreciatio
 
 It was a time for us to help show the community that we care. It made us feel great knowing the time was well spent. It was surreal!!
 
-#### After hearing from a personal experience, I hope you too make time to make a difference in your community!! I promise you it will be well worth it!**
+#### After hearing from a personal experience, I hope you make time to make a difference in your community!! I promise you it will be well worth it!**
 
 Best Wishes,
 
