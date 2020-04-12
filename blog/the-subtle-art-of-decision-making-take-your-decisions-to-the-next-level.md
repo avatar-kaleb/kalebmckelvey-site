@@ -7,6 +7,7 @@ category: Tech
 tags:
   - career
   - mental models
+  - writing portfolio
 ---
 Last week I had the honor of speaking at the [Impact Labs Fellowship Summit](https://www.impactlabs.io/fellowship/) - "A 2-week technical fellowship for the next generation of social entrepreneurs."
 
