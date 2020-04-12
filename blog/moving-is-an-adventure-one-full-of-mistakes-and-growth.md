@@ -47,7 +47,7 @@ This is how…....we all forget things, we all commit imperfections, and this is
 
 ## People:
 
-There are so many different types of people (from our own perspective) in our world. Funny, serious, low-key, social, introverted, outgoing, bubbly, boring, extroverted, etc. What I've found the most interesting about moving to a new place is that any type of person can make your day.
+There are so many different types of people (from our perspective) in our world. Funny, serious, low-key, social, introverted, outgoing, bubbly, boring, extroverted, etc. What I've found the most interesting about moving to a new place is that any type of person can make your day.
 
 Getting an introvert to talk leads to interesting conversations about their hobbies no one knows they have. Lunch cost eight dollars, but meeting a colleague comedian for your daily laughter medicine is priceless!
 
