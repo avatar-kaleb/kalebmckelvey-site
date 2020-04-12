@@ -6,6 +6,7 @@ title: How to Manage Your Career Like a Boss
 category: Tech
 tags:
   - career
+  - writing portfolio
 ---
 You’ve just finished Coding Bootcamp and landed your first job, or you’re a self-taught freelancer who has completed a multitude of projects beginning a new role as an Engineer. 
 
