@@ -8,7 +8,6 @@ tags:
   - rational thinking
   - critical thinking
 ---
-
 As I sit on a train on the way to a new adventure, it felt like a good time to whip out the surface and write a new blog post. One of the core fundamentals I've listed for achievement needs to be introduced: [mental models](https://kalebmckelvey.xyz/tag/mental-models/).
 
 # New Project: [Mental Model Dictionary](https://www.mentalmodeldictionary.com)
@@ -25,15 +24,15 @@ Mental models are big ideas from various disciplines (Engineering, Finance, Math
 
 Essentially it is the new place one can head to see a summary, example, and defense strategy for specific mental model dictionary entries. I couldn't find this besides bloggers who write about them in longer articles (which are also very helpful).
 
-Currently, the dictionary only has four entries without any searching features – **as time ticks this will definitely change**!
+Currently, the dictionary only has four entries without any searching features – **as time ticks this will change**!
 
-I’ll be creating my own entries (with their corresponding analysis on my blog) and opening entries via crowdsourcing in the future. This quick reference dictionary will provide you with the mental models needed for better decision making, hope you enjoy!!
+I’ll be creating my entries (with their corresponding analysis on my blog) and opening entries via crowdsourcing in the future. This quick reference dictionary will provide you with the mental models needed for better decision making, hope you enjoy!!
 
 ## A New Mental Model Entry: Information Asymmetry
 
 ### What's Information Asymmetry?
 
-Information Asymmetry occurs when one party, in a transaction involving multiple parties, has more or more accurate information than the other parties. As the quote goes “knowledge is power” right? By this I mean to state that by one party having the knowledge (information) others don’t, then they have more power.
+Information Asymmetry occurs when one party, in a transaction involving multiple parties, has more or more accurate information than the other parties. As the quote goes “knowledge is power” right? By this I mean to state that by one party knowing (information) others don’t, then they have more power.
 
 ### What is the result of Information Asymmetry
 
@@ -67,11 +66,11 @@ I asked for more information, and she informed me the machine wasn't working and
 
 _Yes, I was slightly worried…_
 
-At this point, I am definitely a bit concerned that Google Flights didn't properly book my flights. I began looking up the flight status by flight number. It was on time, although it wasn't flying to Amsterdam from Brussels that day.
+At this point, I am a bit concerned that Google Flights didn't properly book my flights. I began looking up the flight status by flight number. It was on time, although it wasn't flying to Amsterdam from Brussels that day.
 
 _Heading to the Gate..._
 
-I made the decision to make my way to the gate, hoping the boarding agent would be better equipped to help. As I approached with my Costa Coffee Americano in hand, I hear in an accent:
+I decided to make my way to the gate, hoping the boarding agent would be better equipped to help. As I approached with my Costa Coffee Americano in hand, I hear in an accent:
 
 “Hi, did you bring me coffee along with a question?”
 
@@ -83,8 +82,10 @@ Additionally, seeing as I hadn't looked at their screen or had a ticket in my ha
 
 Lastly, even if it can be self-blamed here, my lack in knowledge of the language the different agents spoke to each other during interactions increased their “power” if you will (not in a negative way, strictly in terms of knowledge), since I didn't understand the discussion.
 
-     SN - I’m very thankful that many places in Europe use English to help not only English speakers, but also as a language to help those traveling from non-English speaking countries as well.
-     The imbalance of power here – Brussels airlines and agents +1, Kaleb -1.
+```
+ SN - I’m very thankful that many places in Europe use English to help not only English speakers, but also as a language to help those traveling from non-English speaking countries as well.
+ The imbalance of power here – Brussels airlines and agents +1, Kaleb -1.
+```
 
 ### The Day of – Brussels
 
@@ -129,7 +130,7 @@ While I am very much unsure at this point whether or not I’m on time or have a
 
 I feel quite powerless since there isn't much from in my control, while he has the computer with the options to solve the situation. Do I need to buy a ticket? Did I miss it? When does it leave? Maybe I will have to stay in Brussels until tomorrow? Do I need to get out Google Translate?
 
-All of these questions are actually quite irrational to the informed. One who knows there are multiple trains, and knows the agent will make sure I get the ticket needed. From my side, I didn't know these details and therefore wasn't feeling much power in this economic transaction. Especially since the airline didn't send any notifications of the changes prior to the transaction.
+All of these questions are quite irrational to the informed. One who knows there are multiple trains, and knows the agent will make sure I get the ticket needed. From my side, I didn't know these details and therefore wasn't feeling much power in this economic transaction. Especially since the airline didn't send any notifications of the changes before the transaction.
 
 _Ending the story..._
 
