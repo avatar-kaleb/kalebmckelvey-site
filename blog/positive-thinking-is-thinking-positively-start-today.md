@@ -64,7 +64,7 @@ Examples:
 
 Excuses are tools of the incompetent.
 
-As a positive person, we have goals to accomplish, dreams to achieve, and aspirations to be successful. To make these dreams a reality, we must be competent; to be competent we must not use excuses.  Use the time wasted thinking of excuses time to instead find an alternative solution.
+As a positive person, we have goals to accomplish, dreams to achieve, and aspirations to be successful. To make these dreams a reality, we must be competent; to be competent we must not use excuses.  Use the time wasted thinking of excuses  to instead find an alternative solution.
 
 Just because you have mantras doesn't mean you automatically are what they say. They help remind you to grow and continue to become that what you wish to be.
 
