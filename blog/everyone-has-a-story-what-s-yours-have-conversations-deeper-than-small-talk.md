@@ -22,7 +22,9 @@ As the Buddha said, "The secret of health for both mind and body is not to mourn
 
 Pretty tough thing to do as life doesn't always give us a daily worry free pass. If we can relate this back to Will Smith's philosophy on building a perfect brick wall, then I believe we can hit the point home. In one of [YouTube's inspirational Will Smith videos](https://www.youtube.com/watch?v=eSwevO5VnoE), he talks steps to build a perfect wall by laying a perfect brick. The perfect bricks become the perfect wall overtime, simple right?
 
-We know life isn't simple - neither is being perfect. Relating this back to our Buddha quote, we can see that if we were to live every present moment perfectly, then we can build the perfect future wall. A worthy, challenging goal to strive for. Abstract as this is, it does make one wonder, how did we get to the present moment we currently are in?
+We know life isn't simple - neither is being perfect. Relating this back to our Buddha quote, we can see that if we were to live every present moment perfectly, then we can build the perfect future wall. 
+
+A worthy, challenging goal to strive for. Abstract as this is, it does make one wonder, how did we get to the present moment we currently are in?
 
 ## What is "someone's story"?
 
@@ -30,7 +32,9 @@ Someone's story, or how they have journeyed to this present moment through their
 
 Big, medium, or small pieces of time that unknowingly will become an outcome we didn't mean to produce. Who would have thought attending a leadership institute would end with me moving to a new state or visiting a friend in California?
 
-How can a [simple trip to Walmart](https://kalebmckelvey.com/how-my-positive-thinking-journey-began) give a perspective on our own "problems"? These quick snippets of life shape who we are in this moment, influence how we try to live perfectly in that moment, and build our unknown perfect future wall one perfect moment at a time!
+How can a [simple trip to Walmart](https://kalebmckelvey.com/how-my-positive-thinking-journey-began) give a perspective on our own "problems"? 
+
+These quick snippets of life shape who we are in this moment, influence how we try to live perfectly in that moment, and build our unknown perfect future wall one perfect moment at a time!
 
 ## Everyone has a story:
 
@@ -46,7 +50,9 @@ _Jay Z_ \- From no father and selling drugs to being worth $550 million. Concert
 
 There are many many success stories from many many great people. The interesting realization shows when you find these great people are those around you.
 
-People you work with or meet in the organizations you are members of. Coworkers who motivate you to become financially savvy or strive to become a better person. Friends who help you create a financial plan because they have created many. People that motivate and inspire you to fight through hardships. Mentors who fight through growing up in a tough neighborhood only to change the expectations for their future family tree.
+People you work with or meet in the organizations you are members of. Coworkers who motivate you to become financially savvy or make you strive to become a better person. Friends who help you create a financial plan because they have created many on their own. 
+
+People that motivate and inspire you to fight through hardships. Mentors who fight through growing up in a tough neighborhood only to change the expectations for their future family tree.
 
 These people are all around, it is up to you to find and learn from them!
 
@@ -58,19 +64,13 @@ How can we change? Asking open-ended questions and taking the time develop that 
 
  Not only can one's story inspire and motivate you - it helps us to think about our own life:
 
-1\. What have we done to make it better for others and for ourselves?
-
-2\. How have we gotten to this moment?
-
-3\. What stories, experiences, and moments have made us who we are?
-
-4\. How can we share them with others?
-
-5\. Where do we want to go next?
-
-6\. How can we live our present to get there?
-
-7\. How did we get to this moment?
+1. What have we done to make it better for others and for ourselves?
+2. How have we gotten to this moment?
+3. What stories, experiences, and moments have made us who we are?
+4. How can we share them with others?
+5. Where do we want to go next?
+6. How can we live our present to get there?
+7. How did we get to this moment?
 
 I encourage you to take a step back from your day today, appreciate the blessings you have, and think how in the world did I make it to this moment?
 
