@@ -9,7 +9,7 @@ tags:
   - Conference
   - Productivity
 ---
-I'm struggling to believe that the date is actually August 13th today - it feels like summer has been a 2019 Aventador using all 729 horsepower to speed by. From traveling to different countries and states and exploring the [New York City skyline on jet skis](https://www.kalebmckelvey.com/nyc-bucket-list/), all in addition to creating slides for my first ever conference talk - it has been a whirl of a summer!
+I'm struggling to believe that today's date reads August 13th - it feels like summer has been a 2019 Aventador using all 729 horsepower to speed by. From traveling to different countries and states and exploring the [New York City skyline on jet skis](https://www.kalebmckelvey.com/nyc-bucket-list/), all in addition to creating slides for my first ever conference talk - it has been a whirl of a summer!
 
 Today I write to you all in a reflection of that talk, and hope that it could potentially help give you the courage to propose your own - it's a wonderful experience!
 
@@ -39,9 +39,9 @@ As a fan of [Mental Models](https://www.mentalmodeldictionary.com/), a term talk
 
 #### 1. Making an Impact / Add Value
 
-The conference registration for React Week wasn't free. This means that for each person attending, if they all attended my talk, I wanted them to feel that they were positively impacted. Productivity is a VERY valuable skill in a development career, one that I could quantify in the talk, so I tried to show that it was impactful when proposing the talk. 
+The conference registration for React Week wasn't free. This means that for each person attending if they all attended my talk, I wanted them to feel that they were positively impacted. Productivity is a VERY valuable skill in a development career, one that I could quantify in the talk, so I tried to show that it was impactful when submitting my proposal. 
 
-This is very important for conference organizers because if people pay, they want to have talks worth traveling or paying for. 
+This is very important for conference organizers because if people pay, they want to have talks worth traveling or paying for.
 
 #### 2. Unique Topic
 
@@ -55,7 +55,9 @@ Applying for my first conference meant that I didn't have any videos of my publi
 
 I felt that since there was no way the organizers could see any of my talks, it was going to be challenging to convey that I was experienced. 
 
-I went with an elevator speech of my career with specific instances that I've grown from that gave me the experience required to speak in front of people at this conference. I'm so thankful for all of the nerve-wracking sessions with Susan giving me feedback over those two years as she molded me into a young professional! She said she would help and boy did she!
+I went with an elevator speech of my career with specific instances that I've grown from that gave me the experience required to speak in front of people at this conference. 
+
+I'm so thankful for all of the nerve-wracking sessions with Susan giving me feedback over those two years as she molded me into a young professional! She said she would help and boy did she!
 
 #### 4. Personality
 
@@ -88,13 +90,13 @@ To summarize:
 
 ## Conference Day
 
-On conference day, the trip to the conference venue was a bit far - 60 minutes on the subway + walking. We were asked to come a bit early to test out our laptops and sound before the conference started.
+On the conference day, the trip to the conference venue was a bit far - 60 minutes on the subway + walking. We were asked to come a bit early to test out our laptops and sound before the conference started.
 
 There was a nice speaker room so we could all be nervous and talk together about those nerves :D. We all went out at breakfast to meet the different attendees, and it was awesome to learn that a group from Seattle traveled to NYC for the conference. 
 
 After that, the conference began and I attended many of the talks, all on [Youtube](https://www.youtube.com/channel/UCiUiZNrYUzTVXkXv153LwRg), to learn and support other speakers on their hard work!
 
-My specific speaker slot happened to be the in the last slot of the day - which meant I was able to be nervous while watching everyone else, instead of those who got it out of the way first lol! 
+My specific speaker slot happened to be the last slot of the day - which meant I was able to be nervous while watching everyone else, instead of those who got it out of the way first lol! 
 
 We all had a blast learning from the talks and enjoying the moment of the conference together! As my time slot inched closer and closer, I began reviewing my slides and content one last time.
 
