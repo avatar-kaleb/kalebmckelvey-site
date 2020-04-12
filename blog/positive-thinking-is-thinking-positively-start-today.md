@@ -19,7 +19,7 @@ My favorite quote to help explain this thing we call positive thinking is from t
 
 In other words, change your perspective by looking to adapt instead of dwell on a situation.
 
-Positive thinkers practice optimism by training their brain to see life from this perspective, using every situation as a new way to adapt and become better. They live a happier life because their outlook focuses on realistically changing to improve or solve rather than complicate.
+Positive thinkers practice optimism by training their brains to see life from this perspective, using every situation as a new way to adapt and become better. They live a happier life because their outlook focuses on realistically changing to improve or solve rather than complicate.
 
 ## Realistic positive mindset
 
@@ -33,7 +33,7 @@ The habit of positive thinking, like all habits, takes effort and time to form.
 
 ### Take Responsibility
 
-In life, one can only control what they have control of, meaning there are situations, people, problems, and solutions that are dependent on others. A life focused on controlling we have control over, to the best of our ability on what, produces much more happyness in our lives. I feel that the most important factors we can control are emotions and thoughts. For us to control either, we must take responsibility by recognizing and changing them. We must focus on the solution, knowing that we are not the victim, but a leader leading ourselves to a better outcome.
+In life, one can only control what they have control of, meaning there are situations, people, problems, and solutions that are dependent on others. A life focused on controlling we have control over, to the best of our ability on what produces much more happiness in our lives. I feel that the most important factors we can control our emotions and thoughts. For us to control either, we must take responsibility by recognizing and changing them. We must focus on the solution, knowing that we are not the victim, but a leader leading ourselves to a better outcome.
 
 ### Share Kindness
 
@@ -50,29 +50,28 @@ It is the little things that make us that much better in our life. Make it a goa
 Background information:
 <http://www.theyogasanctuary.net/tips-mantras.html>
 
-Mantras are simple and powerful statements used for daily renewal of one’s character and goals.
+Mantras are simple and powerful statements used for the daily renewal of one’s character and goals.
 
 I encourage you to create your own instead of using the examples found on the web. I feel that creating your own produces a significant belief in the mantra, which leads to better results.
 
 Examples:
+
 1. "I am a confident and kind person."
 2. "I adapt positively to all situations."
 3. "I am a positive thinker"
 
 ### Remove Excuses
+
 Excuses are tools of the incompetent.
 
 As a positive person, we have goals to accomplish, dreams to achieve, and aspirations to be successful. To make these dreams a reality, we must be competent; to be competent we must not use excuses.  Use the time wasted thinking of excuses time to instead find an alternative solution.
-
 
 Just because you have mantras doesn't mean you automatically are what they say. They help remind you to grow and continue to become that what you wish to be.
 
 ## Inspirational Quotes:
 
 1. “Be not afraid of greatness. Some are born great, some achieve greatness, and some have greatness thrust upon ‘em.” - William Shakespeare
-
 2. “The greatest good we can do for others is not to share our riches with them, but to reveal their own.” - Benjamin Disraeli
-
 3. "Success is never final. Failure is never fatal. It is courage that counts." - Winston Churchill
 
 ## Inspirational Video:
