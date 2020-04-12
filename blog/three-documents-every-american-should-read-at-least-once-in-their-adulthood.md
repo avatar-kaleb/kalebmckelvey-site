@@ -13,7 +13,7 @@ There are three documents that I believe every American should read at least onc
 
 Recently, my girlfriend and I visited Philly to check out if the Cheese Steaks met the expectations set from Fresh Prince of Bel Air. Although the grease wasn't on the bag when we ordered them, they were not bad for our break from seeing the sites.
 
-I couldn't help but be taken back by the gumption the colonists of America had as they wrote the declaration of Independence from the strongest military and empire in the world they knew at the time. Walking around the historical sites of those early days (Independence Park, the Liberty Bell, and more) reminded me just how far we've progressed from those historical time periods.
+I couldn't help but be taken back by the gumption the colonists of America had as they wrote the declaration of Independence from the strongest military and empire in the world they knew at the time. Walking around the historical sites of those early days (Independence Park, the Liberty Bell, and more) reminded me just how far we've progressed from those historical periods.
 
 Here we are as a nation (not without challenges) centuries later in the modern world, where technological innovations have led to more leisure time, world-wide communication in seconds, and so so much more.
 
@@ -27,6 +27,6 @@ It's like Hitch said on his first date with Sarah - "you can't really know where
 
 [Bill of Rights](https://www.archives.gov/founding-docs/bill-of-rights)
 
-___I added this into the mindset category. Why? When asked questions in life, the best source can be the original documents This mindset of diving into and making your own decisions is important for achieving!___
+_**I added this into the mindset category. Why? When asked questions in life, the best source can be the original documents This mindset of diving into and making your own decisions is important for achieving!**_
 
 Thanks for reading!
