@@ -93,8 +93,4 @@ Outside of these four, I believe the most important part in preventing or battli
 
 The Dunning Kruger Effect shows that the more you know, the more you feel like you don't - accept and thrive from this. It means progress. It means growth. It means you still have areas to grow in! For most of us, especially for me in web development, that means my passion can continue as my peak has yet to come!
 
-Thanks for reading!
-
-Kaleb McKelvey
-
 Source: [_Imposter Syndrome on Wikipedia_](https://en.wikipedia.org/wiki/Impostor_syndrome)
