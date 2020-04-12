@@ -21,13 +21,13 @@ It was in my fourth rotation, the last one of my two-year program at GE Healthca
 
 ### Asking For What You Want
 
-It was the first week of the new rotation, and I learned that a two week app-studio was happening in Detroit where they were kicking off the new app development. Seeing I wasn't yet on the team when everything was originally scheduled, I wasn't on the team roster.
+It was the first week of the new rotation, and I learned that a two-week app-studio was happening in Detroit where they were kicking off the new app development. Seeing I wasn't yet on the team when everything was originally scheduled, I wasn't on the team roster.
 
 I remember vividly meeting with Joe, one of the leaders of the team that rotation and quietly asking him about the app-studio.
 
 "I'll be working on PPO and helping with the development, and heard there was an app-studio happening to kick it off. Do you think this is something I should be going to?"
 
-Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should to start off a successful rotation?"
+Without missing a beat, he responded with something along the lines of: "Do you want to go and do you think you should for a successful rotation?"
 
 I quickly let him know that I would like to go and felt it made sense to.
 
@@ -49,7 +49,7 @@ You just never know what can happen when you ask - and like Joe told me that day
 
 ## Meeting Joshua Kennon
 
-Since that learned lesson, I've tried my best to keep the philosophy in mind when asking for growth opportunities or potential changes in processes that could affect how we work. It definitely has helped my confidence in that area, and man am I grateful to Joe for demonstrating its utility!
+Since that learned lesson, I've tried my best to keep the philosophy in mind when asking for growth opportunities or potential changes in processes that could affect how we work. It has helped my confidence in that area, and man am I grateful to Joe for demonstrating its utility!
 
 ### Sending Over an E-mail
 
@@ -67,7 +67,7 @@ _She knew I was excited because this would be like meeting your favorite celebri
 
 Thursday had finally arrived!
 
-Making the drive from LA down to Newport Beach could take 1 hour or 3 depending on the traffic that day. We were leaving before rush hour but I was certainly nervous about being late - not to mention it was a work day for them - and we only had the time that they offered to us. Frankie wasn't fond of waking up early on our vacation, but I refused to be late.
+Making the drive from LA down to Newport Beach could take 1 hour or 3 depending on the traffic that day. We were leaving before rush hour but I was certainly nervous about being late - not to mention it was a workday for them - and we only had the time that they offered to us. Frankie wasn't fond of waking up early on our vacation, but I refused to be late.
 
 _Plus, for anyone who has worked for Susan, we all know how important being on-time is so we didn't get the - "you're four minutes late, where have you been" once you finally joined the Skype call lol. Typically this only happens once :)_.
 
@@ -90,17 +90,17 @@ Frankie and I talked about growing up in VA, city and country life respectively.
 
 We all had a blast!!
 
-Unfortunately, detailing out the full conversation would be a very long read for you all. Fortunately, I decided to summarize it instead!
+Unfortunately, detailing out the full conversation would be a very long article for you all. Fortunately, I decided to summarize it instead!
 
 ### Biggest Takeaways
 
 **\- Everyone has their own story and way of becoming financially independent**
 
-As asset managers, it was really interesting to hear the different types of clients they had. From real estate investors to business owners, high-earner careers, or just long-time workers who made good decisions with their finances - each had their own way of filling their coffers as the years passed.
+As asset managers, it was really interesting to hear the different types of clients they had. From real estate investors to business owners, high-earner careers, or just long-time workers who made good decisions with their finances - each had their way of filling their coffers as the years passed.
 
 I love this about the opportunities within the U.S - people can truly find ways to make a living with their passions.
 
-**\- Defense Mechanisms are huge motivators (for myself and for Josh/Aaron)**
+**\- Defense Mechanisms are huge motivators (for myself and Josh/Aaron)**
 
 We all have internal motivators that trigger us into action. These can come from traumatic experiences growing up or living through tough times in adulthood (Charlie Munger comes to mind). These moments change how we view the world and define how we plan on preventing them from happening in the future.
 
@@ -120,7 +120,7 @@ Giving back to the world, whether with your time or your knowledge (or both) is 
 
 ## Concluding Thoughts
 
-LA and Southern California was a beautiful place to vacation - we really enjoyed the week from busy life in the big apple.
+LA and Southern California was a beautiful place to vacation - we enjoyed the week from the busy life in the big apple.
 
 As our flight landed back in NYC, we couldn't help but both look at each other as we went by all of the skyscrapers (any of the 200+ in NYC), and remember why we love it here so much too! 
 
