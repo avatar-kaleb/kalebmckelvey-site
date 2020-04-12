@@ -14,15 +14,15 @@ When posting last, I was in the beginning stages of adjusting to a new place, a 
 
 With that comes plenty of learning experiences, and as I emphasized previously: mistakes.
 
-In other words, many opportunities to grow and learn from. I won't be diving into these in this post. I want to alternatively emphasize how important talking to people you meet deeper than the "small talk" depth were used to and reflect on the decisions you've made to get you into what we call the present.
+In other words, many opportunities to grow and learn from. I won't be diving into these in this post. I want to alternatively emphasize how important talking to people you meet deeper than the "small talk" depth we're used to and reflect on the decisions you've made to get you into what we call the present.
 
 ## What is the present?
 
 As the Buddha said, "The secret of health for both mind and body is not to mourn for the past, not to worry about the future, or not to anticipate troubles, but to live in the present moment wisely and earnestly."
 
-Pretty tough thing to do as life doesn't always give us a daily worry free pass. If we can relate this back to Will Smith's philosophy on building a perfect brick wall, then I believe we can hit the point home. In one of [YouTube's inspirational Will Smith videos](https://www.youtube.com/watch?v=eSwevO5VnoE), he talks steps to build a perfect wall by laying a perfect brick. The perfect bricks become the perfect wall overtime, simple right?
+Pretty tough thing to do as life doesn't always give us a daily worry-free pass. If we can relate this to Will Smith's philosophy on building a perfect brick wall, then I believe we can hit the point home. In one of [YouTube's inspirational Will Smith videos](https://www.youtube.com/watch?v=eSwevO5VnoE), he talks steps to build a perfect wall by laying a perfect brick. The perfect bricks become the perfect wall overtime, simple right?
 
-We know life isn't simple - neither is being perfect. Relating this back to our Buddha quote, we can see that if we were to live every present moment perfectly, then we can build the perfect future wall. 
+We know life isn't simple - neither is being perfect. Relating this to our Buddha quote, we can see that if we were to live every present moment perfectly, then we can build the perfect future wall. 
 
 A worthy, challenging goal to strive for. Abstract as this is, it does make one wonder, how did we get to the present moment we currently are in?
 
@@ -34,7 +34,7 @@ Big, medium, or small pieces of time that unknowingly will become an outcome we 
 
 How can a [simple trip to Walmart](https://kalebmckelvey.com/how-my-positive-thinking-journey-began) give a perspective on our own "problems"? 
 
-These quick snippets of life shape who we are in this moment, influence how we try to live perfectly in that moment, and build our unknown perfect future wall one perfect moment at a time!
+These quick snippets of life shape who we are in this moment influence how we try to live perfectly in that moment and build our unknown perfect future wall one perfect moment at a time!
 
 ## Everyone has a story:
 
@@ -44,7 +44,7 @@ _J.K. Rowling_ \- Divorced, on government aid struggling to feed her baby. Manua
 
 _Jim Carrey_ \- Living in a van at the age of 14 and dropping out of school at 16 with a dream to become a comedian. Wearing suits made by his mother, moving to LA, then creating one of my favorite funny movies, Dumb and Dumber
 
-_Jay Z_ \- From no father and selling drugs to being worth $550 million. Concerts, albums, endorsements, clothing. A true business man!
+_Jay Z_ \- From no father and selling drugs to being worth $550 million. Concerts, albums, endorsements, clothing. A true businessman!
 
 ## Strive to learn more
 
@@ -58,13 +58,13 @@ These people are all around, it is up to you to find and learn from them!
 
 They each have been through the roller coaster of life to get them where they are now. We only discover their story when making an effort to reach deeper than the weather, sports, and "how was your weekend" talks.
 
-How can we change? Asking open-ended questions and taking the time develop that self-disclosure trust, the knowledge is a two-way street.
+How can we change? Asking open-ended questions and taking the time to develop that self-disclosure trust, the knowledge is a two-way street.
 
 ## Reflect on your story
 
  Not only can one's story inspire and motivate you - it helps us to think about our own life:
 
-1. What have we done to make it better for others and for ourselves?
+1. What have we done to make it better for others and ourselves?
 2. How have we gotten to this moment?
 3. What stories, experiences, and moments have made us who we are?
 4. How can we share them with others?
