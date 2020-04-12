@@ -13,7 +13,9 @@ The tech industry, and more specifically the web development niche, lives up to 
 
 We are constantly bombarded with new libraries, new versions of popular libraries, language updates, spec changes, and new techniques or strategies that may or may not stick. Not only are they rapid-fire, but web developers must also keep up while evaluating which make sense in their current projects.
 
-That's our job right? Certainly. But just by taking a look at the handbook created by Front End Masters: [2019 Front end Handbook](https://frontendmasters.com/books/front-end-handbook/2019/) - you can easily see why the vast amount of knowledge required to be considered competent can feel overwhelming!
+That's our job right? Certainly. 
+
+But just by taking a look at the handbook created by Front End Masters: [2019 Front end Handbook](https://frontendmasters.com/books/front-end-handbook/2019/) - you can easily see why the vast amount of knowledge required to be considered competent can feel overwhelming!
 
 Thankfully we have a great community full of resources, tutorials, and training workshops to help out; still, the battle of imposter syndrome rages on for many in the tech industry.
 
