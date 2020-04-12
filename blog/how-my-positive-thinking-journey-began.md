@@ -11,19 +11,19 @@ tags:
 ---
 # How my Positive Thinking Journey Began
 
-Welcome to my blog; I decided to start out the first post with some background, a definition of inspiration, my goals, and a few inspirational quotes.
+Welcome to my blog; I decided to start the first post with some background, a definition of inspiration, my goals, and a few inspirational quotes.
 
 ### **The Story That Changed My Perspective**
 
-##### A life changing trip to Wal Mart
+##### A life-changing trip to Wal Mart
 
 January 27th, 2014, also known as the 3rd Monday of the spring semester, I decided to start an inspirational blog.
 
 The next question, why?
 
-After closing the computer labs on that bitterly cold night, I decided to head over to Walmart for some late night snacks. When Walking in I noticed an elderly lady sitting on the benches inside the doors holding a suitcase, a blanket, and a trash bag full of clothes; but no food.
+After closing the computer labs on that bitterly cold night, I decided to head over to Walmart for some late-night snacks. When Walking in I noticed an elderly lady sitting on the benches inside the doors holding a suitcase, a blanket, and a trash bag full of clothes; but no food.
 
-While grabbing my typical late night snacks, Ranch BBQ Frito Twist and cranberry juice, I picked up a box of oatmeal cream pies for the lady on the Bench. It wasn't much, but I felt that any amount of help was still helping. Picking up my bags from the register, it was time to try and make this woman's night.
+While grabbing my typical late-night snacks, Ranch BBQ Frito Twist and cranberry juice, I picked up a box of oatmeal cream pies for the lady on the Bench. It wasn't much, but I felt that any amount of help was still helping. Picking up my bags from the register, it was time to try and make this woman's night.
 
 I arrived near the bench only to find two Walmart employees in her place. Feeling my anger starting to boil, I started the conversation with one of the employees who we shall call Jane.
 
@@ -39,11 +39,11 @@ Jane replied: “I'm sure we'll see her again. I can give it to her for you; she
 
 I handed her the food, thanked her, and felt guilty.
 
-I felt guilty because this semester my fraternity brothers and I chose to live in an older house, meaning a very cold house downtown. This winter the weather has been a extremely chilly, so complaining had been a norm.
+I felt guilty because this semester my fraternity brothers and I chose to live in an older house, meaning a very cold house downtown. This winter the weather has been extremely chilly, so complaining had been a norm.
 
 We had our temperature gauge set to 55 degrees, with each of using electric heaters in our room.
 
-After hearing about the lady who had to sit at Wal Mart, I decided then and there that complaining didn't make sense, and instead that I wanted to flip the switch from this negative to positive thinking.
+After hearing about the lady who had to sit at Wal Mart, I decided then and there that complaining didn't make sense, and instead of that, I wanted to flip the switch from this negative to positive thinking.
 
 My thoughts continued swirling; I decided to focus on starting a blog on my quest to make this positive life change.
 
