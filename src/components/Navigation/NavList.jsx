@@ -145,6 +145,13 @@ function GetNavList() {
         component: Link,
         to: '/professional/talks/'
       },
+      {
+        key: 'writing',
+        primaryText: 'Writings',
+        leftIcon: <FontIcon>edit</FontIcon>,
+        component: Link,
+        to: '/tags/writing-portfolio'
+      },
       // {
       //   key: 'services',
       //   primaryText: 'Services',

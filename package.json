@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "babel-plugin-add-react-displayname": "0.0.5",
-    "babel-plugin-lodash": "~3.3.2",
+    "babel-plugin-lodash": "~3.3.2",  
     "babel-preset-gatsby": "~0.1.6",
     "cli-glob": "~0.1.0",
     "eslint": "~4.19.1",
