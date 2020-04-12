@@ -16,38 +16,39 @@ I see decision making and communication in our lives in a similar domain, becaus
 
 For the past year, I've been reading books on the topic (see resources below if you are interested) to compile a list of findings to make better decisions in my life. This article is going to be a live document (so to speak) as I share my evolving decision-making process - I hope you find it helpful as well!
 
----
+- - -
 
 ## We Make a TON of Decisions Every Day
 
 The number of decisions we make per day has been quoted at **35,000**, or two decisions per second. For those who have met the current life expectancy in the US (~78), you have made a total of **996,450,000** decisions in your life so far. The 35K per day number has been cited in multiple places, although I can't find the original study that proves it - the difficulty of measuring decisions is quite challenging.
 
 Even so, it's obvious that we do make a large number of decisions every single day.
-- What should I eat for breakfast?
-- One egg or two?
-- Scrambled or Sunny-side up?
-- How long should it cook? 
-- How much oil to put in the pan?
-- Which pan to use?
-- Do I want coffee or orange juice?
-- Which cup do I want to use?
-- How much should I fill the cup?
-- Sugar or milk in the coffee?
-...
-and you get the idea.
+
+* What should I eat for breakfast?
+* One egg or two?
+* Scrambled or Sunny-side up?
+* How long should it cook? 
+* How much oil to put in the pan?
+* Which pan to use?
+* Do I want coffee or orange juice?
+* Which cup do I want to use?
+* How much should I fill the cup?
+* Sugar or milk in the coffee?
+  ...
+  and you get the idea.
 
 These are easy decisions, imagine making a decision of higher difficulty and ambiguity throughout the day as well. 
 
-- Which task is most important to work on?
-- Do I feel like doing this task?
-- How should I design my components to implement this feature?
-- What would Wes B, Kent D, or Dan A do if they were designing it?
-- What should the names of my components be?
-- Are the names conveying meaning for the next dev well?
-- Is this code structured in a way that can easily be digested?
-- and....more and more.. :D
+* Which task is most important to work on?
+* Do I feel like doing this task?
+* How should I design my components to implement this feature?
+* What would Wes B, Kent D, or Dan A do if they were designing it?
+* What should the names of my components be?
+* Are the names conveying meaning for the next dev well?
+* Is this code structured in a way that can easily be digested?
+* and....more and more.. :D
 
-*Welcome to modern-day React Dev life.*
+_Welcome to modern-day React Dev life._
 
 ## Making Smart Decisions Matters
 
@@ -55,7 +56,7 @@ With so many decisions being made in a life-time, it only makes sense that we sh
 
 [Joshua Kennon](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts) has written about the fact we are the sum of all the decisions we've previously made. 
 
-*Think about it. Think about the decisions you've made that landed where you are today. The city in which you live, the job you currently have, the friends you've met along the way. So many of the smaller decisions have had a butterfly effect on your life, mine too!*
+_Think about it. Think about the decisions you've made that landed where you are today. The city in which you live, the job you currently have, the friends you've met along the way. So many of the smaller decisions have had a butterfly effect on your life, mine too!_
 
 Here's an example:
 
@@ -76,15 +77,17 @@ When we are making new decisions, our brains have "two" systems that handle new 
 The metaphor of two systems comes from the highly recommended book: [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555).
 
 **System 1** - The unconscious, emotional, fast, error-prone system in our brain that handles everyday decisions for us like the following:
-- Reactions to our senses, like smells or images that we like or dislike
-- First impressions when you meet someone new
-- Parking your car in your driveway
+
+* Reactions to our senses, like smells or images that we like or dislike
+* First impressions when you meet someone new
+* Parking your car in your driveway
 
 **System 2** - Conscious, logical, slow, reliable system that handles complex decisions such as:
-- Directing attention to a specific item or person
-- Evaluating behavioral cues at a party, both your own and guests
-- Architecting new code or systems
-- Looking for memories in your mind palace, like why you wrote code a certain way when you forget to comment
+
+* Directing attention to a specific item or person
+* Evaluating behavioral cues at a party, both your own and guests
+* Architecting new code or systems
+* Looking for memories in your mind palace, like why you wrote code a certain way when you forget to comment
 
 In general, our brains try to use system 1 as much as they can, because our evolution has evolved in such a way to preserve energy. Using system 2 requires more energy - this is why habits exist in our daily routines from the brain's perspective. How can system 1 be used for new decisions or thoughts without conscious effort?
 
@@ -107,9 +110,9 @@ A mental model is simply a representation of how something works. We cannot keep
 Mental models are very useful when making decisions for two main reasons:
 
 1. Connect ideas from multiple disciplines together
-1. Help prevent biases as psychological principles (cognitive biases) are mental models
+2. Help prevent biases as psychological principles (cognitive biases) are mental models
 
-*Side Project Alert - I've been documenting [mental models in dictionary format](www.mentalmodeldictionary.com)!*
+_Side Project Alert - I've been documenting [mental models in dictionary format](www.mentalmodeldictionary.com)!_
 
 ## Have You Made Smart Decisions
 
@@ -134,8 +137,9 @@ Many times decisions are made based on how things were done in the past - in cod
 #### Asking for advice from others / researching online / Debating
 
 Charlie Munger mentions in one of his speeches that Warren Buffet spends most of his time doing two things:
+
 1. Reading to learn new things
-1. Talking to others who are gifted in their fields to learn from and talk to about different topics (Bill Gates on tech for example)
+2. Talking to others who are gifted in their fields to learn from and talk to about different topics (Bill Gates on tech for example)
 
 Learning wisdom from those who have been in similar situations can help us reduce poor decisions.
 
@@ -151,7 +155,7 @@ For example, moving to a new city. A pro might be that their education system is
 
 #### What you see is all there is
 
-In Thinking Fast and Slow, Daniel Kahneman describes how we make many decisions in our lives - with data which is the most easily available.
+In Thinking Fast and Slow, Daniel Kahneman describes how we make many decisions in our lives - with data that is the most easily available.
 
 The best example of this is meeting someone new. That first impression tells us everything we need to know about someone right? We know their past, we can define who they are, and we feel like immediately we can decide on whether or not we like this person. All within seconds - is that truly fair? 
 
@@ -179,19 +183,20 @@ Given a decision between various options, what is the best possible outcome that
 
 Decision: Which city should I move to?
 Outcomes I want to maximize:
-- Find communities to enjoy my hobbies with (board games or hiking)
-- Opportunities to grow my career (go from X position into Y position in Z industry)
-- Safety
 
-*Remember the goal of any decision isn't to be right or wrong but to [find the TRUTH that brings the best outcomes](https://www.kalebmckelvey.com/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems)*
+* Find communities to enjoy my hobbies with (board games or hiking)
+* Opportunities to grow my career (go from X position into Y position in Z industry)
+* Safety
+
+_Remember the goal of any decision isn't to be right or wrong but to [find the TRUTH that brings the best outcomes](https://www.kalebmckelvey.com/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems)_
 
 ### Step 2: Asking the Right Questions
 
-- Do I have any values or principles to live up to that make this decision easy?
-- Is this question best solved forwards or backward?
-- Is this decision on any of my "avoid" lists (like purchasing something on your credit card)
-- Have I tried to disprove my decision by using counter-arguments?
-- Have I broken the question down to figure out what it is I'm looking for? 
+* Do I have any values or principles to live up to that make this decision easy?
+* Is this question best solved forwards or backward?
+* Is this decision on any of my "avoid" lists (like purchasing something on your credit card)
+* Have I tried to disprove my decision by using counter-arguments?
+* Have I broken the question down to figure out what it is I'm looking for? 
 
 ### Step 3: Rational Thinking Checklist
 
@@ -200,10 +205,10 @@ Rational is defined as "based on or in accordance with reason or logic." on Goog
 To make a rational decision we must do the following:
 
 1. Gather data from the best possible sources (gov data for example) or find research that was completed in that domain (such as decision making)
-1. Make connections across disciplines utilizing mental models
-1. Remove bias utilizing cognitive biases
-1. Decide based on the conclusions of the data without bias
-1. Disprove your idea if possible, helping to validate conclusions
+2. Make connections across disciplines utilizing mental models
+3. Remove bias utilizing cognitive biases
+4. Decide based on the conclusions of the data without bias
+5. Disprove your idea if possible, helping to validate conclusions
 
 By following these four steps, you can truly change the way you think and decide on your views, principles, views, and path throughout your life!
 
@@ -231,24 +236,26 @@ Here is a list of various sources I've learned from so far.
 
 ### Blogs / Sites
 
-- [Joshua Kennon's Blog](https://www.joshuakennon.com)
-- [Farnam Street](https://fs.blog/)
-- [James Clear](https://jamesclear.com/)
-- [Mental Model Dictionary](https://www.mentalmodeldictionaty.com)
+* [Joshua Kennon's Blog](https://www.joshuakennon.com)
+* [Farnam Street](https://fs.blog/)
+* [James Clear](https://jamesclear.com/)
+* [Mental Model Dictionary](https://www.mentalmodeldictionaty.com)
 
 ### Books
-- [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
-- [Predictably Irrational](https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248)
-- [Principles: Life and Work](https://www.principles.com/)
-- [Decisive: How to make better choices in life and work](https://www.amazon.com/Decisive-make-better-choices-life-ebook/dp/B00BFTSYNA)
-- [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
-- [The Art of Thinking Clearly](https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693)
-- [Being Logical](https://www.amazon.com/Being-Logical-Guide-Good-Thinking/dp/0812971159)
-- [Super Thinking: The Big Book of Mental Models](https://www.amazon.com/Super-Thinking-Book-Mental-Models/dp/0525533583)
-- [Blink: The Power of Thinking Without Thinking](https://www.amazon.com/Blink-Power-Thinking-Without/dp/0316010669)
+
+* [Thinking Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+* [Predictably Irrational](https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248)
+* [Principles: Life and Work](https://www.principles.com/)
+* [Decisive: How to make better choices in life and work](https://www.amazon.com/Decisive-make-better-choices-life-ebook/dp/B00BFTSYNA)
+* [Stumbling on Happiness](https://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427)
+* [The Art of Thinking Clearly](https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693)
+* [Being Logical](https://www.amazon.com/Being-Logical-Guide-Good-Thinking/dp/0812971159)
+* [Super Thinking: The Big Book of Mental Models](https://www.amazon.com/Super-Thinking-Book-Mental-Models/dp/0525533583)
+* [Blink: The Power of Thinking Without Thinking](https://www.amazon.com/Blink-Power-Thinking-Without/dp/0316010669)
 
 ### Youtube Videos
-- [The Psychology of Human Misjudgement](https://www.youtube.com/watch?v=pqzcCfUglws)
-- [Ray Dalio Google Talk](https://www.youtube.com/watch?v=c1OoWdqbKdg)
-- [Thinking in First Principles Elon Musk](https://www.youtube.com/watch?v=NV3sBlRgzTI)
-- [Nudge: Improving Decisions About Health, Wealth, and Happiness](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X)
+
+* [The Psychology of Human Misjudgement](https://www.youtube.com/watch?v=pqzcCfUglws)
+* [Ray Dalio Google Talk](https://www.youtube.com/watch?v=c1OoWdqbKdg)
+* [Thinking in First Principles Elon Musk](https://www.youtube.com/watch?v=NV3sBlRgzTI)
+* [Nudge: Improving Decisions About Health, Wealth, and Happiness](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X)
