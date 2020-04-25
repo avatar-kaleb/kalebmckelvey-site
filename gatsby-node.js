@@ -25,22 +25,22 @@ function addSiblingNodes(createNodeField) {
     createNodeField({
       node: currNode,
       name: 'nextTitle',
-      value: nextNode.frontmatter.title
+      value: nextNode.frontmatter.title,
     });
     createNodeField({
       node: currNode,
       name: 'nextSlug',
-      value: nextNode.fields.slug
+      value: nextNode.fields.slug,
     });
     createNodeField({
       node: currNode,
       name: 'prevTitle',
-      value: prevNode.frontmatter.title
+      value: prevNode.frontmatter.title,
     });
     createNodeField({
       node: currNode,
       name: 'prevSlug',
-      value: prevNode.fields.slug
+      value: prevNode.fields.slug,
     });
   }
 }
@@ -74,11 +74,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
           node,
           name: 'date',
-          value: date.toISOString()
+          value: date.toISOString(),
         });
       }
     }
-    createNodeField({ node, name: 'slug', value: slug });
+    createNodeField({ node, name: 'slug', value: '/blog' + slug });
     postNodes.push(node);
   }
 };
@@ -117,7 +117,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           /* eslint no-console: "off" */
           console.log(result.errors);
@@ -126,9 +126,9 @@ exports.createPages = ({ graphql, actions }) => {
 
         const tagSet = new Set();
         const categorySet = new Set();
-        result.data.allMarkdownRemark.edges.forEach(edge => {
+        result.data.allMarkdownRemark.edges.forEach((edge) => {
           if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
+            edge.node.frontmatter.tags.forEach((tag) => {
               tagSet.add(tag);
             });
           }
@@ -141,30 +141,37 @@ exports.createPages = ({ graphql, actions }) => {
             path: edge.node.fields.slug,
             component: postPage,
             context: {
-              slug: edge.node.fields.slug
-            }
+              slug: edge.node.fields.slug,
+            },
+          });
+          const { createRedirect } = actions; //actions is collection of many actions - https://www.gatsbyjs.org/docs/actions
+          console.log(edge.node.fields.slug.substring(5, edge.node.fields.slug.length));
+          createRedirect({
+            fromPath: edge.node.fields.slug.substring(5, edge.node.fields.slug.length),
+            toPath: edge.node.fields.slug,
+            isPermanent: true,
           });
         });
 
         const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
+        tagList.forEach((tag) => {
           createPage({
             path: `/tags/${_.kebabCase(tag)}/`,
             component: tagPage,
             context: {
-              tag
-            }
+              tag,
+            },
           });
         });
 
         const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
+        categoryList.forEach((category) => {
           createPage({
             path: `/categories/${_.kebabCase(category)}/`,
             component: categoryPage,
             context: {
-              category
-            }
+              category,
+            },
           });
         });
       })
