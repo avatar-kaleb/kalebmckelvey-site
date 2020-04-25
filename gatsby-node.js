@@ -145,9 +145,12 @@ exports.createPages = ({ graphql, actions }) => {
             },
           });
           const { createRedirect } = actions; //actions is collection of many actions - https://www.gatsbyjs.org/docs/actions
-          console.log(edge.node.fields.slug.substring(5, edge.node.fields.slug.length));
+          const newBlogSlugLength = '/blog'.length;
           createRedirect({
-            fromPath: edge.node.fields.slug.substring(5, edge.node.fields.slug.length),
+            fromPath: edge.node.fields.slug.substring(
+              newBlogSlugLength,
+              edge.node.fields.slug.length
+            ),
             toPath: edge.node.fields.slug,
             isPermanent: true,
           });
