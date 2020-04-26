@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 import Helmet from 'react-helmet';
 import config from '../../data/SiteConfig';
 import Navigation from '../components/Navigation/Navigation';
-import { ThemeContext } from '../context/themeContext';
+import { ThemeContext } from '../context/ThemeContext';
 import './global.scss';
 import './index.scss';
 

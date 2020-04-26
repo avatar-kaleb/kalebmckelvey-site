@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Cell from 'react-md/lib/Grids/Cell';
 import Paper from 'react-md/lib/Papers/Paper';
 import Typed from 'typed.js';
-import { ThemeContext } from '../../context/themeContext';
+import { ThemeContext } from '../../context/ThemeContext';
 import kalebWelcomeImage from '../../images/Home-KalebWelcomePic.jpg';
 // relative
 import AvatarImage from '../AvatarImage/AvatarImage';

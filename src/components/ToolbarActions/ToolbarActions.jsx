@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeContext } from '../../context/themeContext';
+import { ThemeContext } from '../../context/ThemeContext';
 import UserLinks from '../UserLinks/UserLinks';
 import './ToolbarActions.scss';
 /**
