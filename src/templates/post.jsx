@@ -1,18 +1,17 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
-
 import Card from 'react-md/lib/Cards';
 import CardText from 'react-md/lib/Cards/CardText';
-import UserInfo from '../components/UserInfo/UserInfo';
+import config from '../../data/SiteConfig';
 import Disqus from '../components/Disqus/Disqus';
-import PostTags from '../components/PostTags/PostTags';
 import PostCover from '../components/PostCover/PostCover';
 import PostInfo from '../components/PostInfo/PostInfo';
-import SocialLinks from '../components/SocialLinks/SocialLinks';
 import PostSuggestions from '../components/PostSuggestions/PostSuggestions';
+import PostTags from '../components/PostTags/PostTags';
 import SEO from '../components/SEO/SEO';
-import config from '../../data/SiteConfig';
+import SocialLinks from '../components/SocialLinks/SocialLinks';
+import UserInfo from '../components/UserInfo/UserInfo';
 import './b16-tomorrow-dark.css';
 import './post.scss';
 
@@ -20,7 +19,7 @@ export default class PostTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isMobile: true
+      isMobile: true,
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -46,7 +45,7 @@ export default class PostTemplate extends React.Component {
     const { isMobile } = this.state;
     const {
       data: { markdownRemark: postNode },
-      pathContext: { slug }
+      pathContext: { slug },
     } = this.props;
     const expanded = !isMobile;
     const post = postNode.frontmatter;
@@ -59,27 +58,27 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
     return (
-      <div className='post-page md-grid md-grid--no-spacing animated fadeIn slow'>
+      <div className="post-page md-grid md-grid--no-spacing animated fadeIn slow">
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
-          <link rel='canonical' href={`${config.siteUrl}${post.id}`} />
+          <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <PostCover postNode={postNode} isMobile={isMobile} />
         <div className={`md-grid md-cell--8 post-page-contents mobile-fix ${postOverlapClass}`}>
-          <Card className='md-grid md-cell md-cell--12 post'>
-            <CardText className='post-body'>
-              <h1 className='md-display-1 post-header'>{post.title}</h1>
+          <Card className="md-grid md-cell md-cell--12 post">
+            <CardText className="post-body">
+              <h1 className="md-display-1 post-header">{post.title}</h1>
               <PostInfo postNode={postNode} />
-              <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+              <p dangerouslySetInnerHTML={{ __html: postNode.html }} />
             </CardText>
-            <div className='post-meta'>
+            <div className="post-meta">
               <PostTags tags={post.tags} />
               <SocialLinks postPath={slug} postNode={postNode} isMobile={isMobile} />
               <PostSuggestions postNode={postNode} />
             </div>
           </Card>
-          <UserInfo className='md-grid md-cell md-cell--12' config={config} expanded={expanded} />
+          <UserInfo className="md-grid md-cell md-cell--12" config={config} expanded={expanded} />
           <Disqus postNode={postNode} expanded={expanded} />
         </div>
       </div>

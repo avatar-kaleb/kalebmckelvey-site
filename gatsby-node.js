@@ -2,6 +2,9 @@ const path = require('path');
 const _ = require('lodash');
 const moment = require('moment');
 const siteConfig = require('./data/SiteConfig');
+const { GraphQLJSONObject } = require(`graphql-type-json`);
+const striptags = require(`striptags`);
+const lunr = require(`lunr`);
 
 const postNodes = [];
 

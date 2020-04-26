@@ -1,13 +1,13 @@
-import React from 'react';
-import Paper from 'react-md/lib/Papers/Paper';
 import debounce from 'lodash/debounce';
 import filter from 'lodash/filter';
 import toLower from 'lodash/toLower';
+import React from 'react';
+import Paper from 'react-md/lib/Papers/Paper';
 import PostAutocomplete from '../PostAutocomplete/PostAutocomplete';
 import PostPreview from '../PostPreview/PostPreview';
 
 function filterPosts(allPosts, autocompleteText) {
-  return filter(allPosts, post => toLower(post.title).includes(toLower(autocompleteText)));
+  return filter(allPosts, (post) => toLower(post.title).includes(toLower(autocompleteText)));
 }
 
 /**
@@ -21,7 +21,7 @@ class PostListing extends React.Component {
     this.state = {
       allPostTitles: this.getPostTitles(),
       postList: allPosts,
-      filteredPosts: [...allPosts]
+      filteredPosts: [...allPosts],
     };
   }
 
@@ -31,14 +31,14 @@ class PostListing extends React.Component {
   getPostList() {
     const { postEdges } = this.props;
 
-    return postEdges.map(postEdge => ({
+    return postEdges.map((postEdge) => ({
       path: postEdge.node.fields.slug,
       tags: postEdge.node.frontmatter.tags,
       cover: postEdge.node.frontmatter.cover,
       title: postEdge.node.frontmatter.title,
       date: postEdge.node.frontmatter.date,
       excerpt: postEdge.node.excerpt,
-      timeToRead: postEdge.node.timeToRead
+      timeToRead: postEdge.node.timeToRead,
     }));
   }
 
@@ -47,7 +47,7 @@ class PostListing extends React.Component {
    */
   getPostTitles() {
     const { postEdges } = this.props;
-    return postEdges.map(postEdge => postEdge.node.frontmatter.title);
+    return postEdges.map((postEdge) => postEdge.node.frontmatter.title);
   }
 
   /**
@@ -59,19 +59,20 @@ class PostListing extends React.Component {
     return (
       <div className="">
         {withSearch && (
-          <Paper className="md-grid md-cell--11 mobile-fix paper-background--white  margin-bottom--small" zDepth={2}>
+          <Paper
+            className="md-grid md-cell--11 mobile-fix md-background--card margin-bottom--small"
+            zDepth={2}
+          >
             <PostAutocomplete
               allPostTitles={allPostTitles}
-              filterPosts={debounce(event => {
-                this.setState({
-                  filteredPosts: filterPosts(postList, event)
-                });
+              filterPosts={debounce((event) => {
+                this.setState({ filteredPosts: filterPosts(postList, event) });
               }, 350)}
             />
           </Paper>
         )}
         <div className="md-grid md-cell--middle mobile-fix">
-          {filteredPosts.map(post => (
+          {filteredPosts.map((post) => (
             <PostPreview key={post.title} postInfo={post} />
           ))}
         </div>

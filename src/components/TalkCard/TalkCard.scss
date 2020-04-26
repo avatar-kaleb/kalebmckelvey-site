@@ -1,19 +1,19 @@
 @import '../../layouts/theme.scss';
 
 .talk-card {
-    .location-and-type {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1em;
-    }
+  .location-and-type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
 
-    .card-text {
-        display: flex;
-        flex-direction: column;
-        min-height: 250px;
-    }
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+  }
 
-    .talk-type-text {
-        color: $md-secondary-color-dark;
-    }
+  .talk-type-text {
+    // color: $md-secondary-color-dark;
+  }
 }

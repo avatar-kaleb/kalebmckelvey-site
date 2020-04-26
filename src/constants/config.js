@@ -1,10 +1,10 @@
 export const particleConfig = {
-  color: '#134A9E',
+  color: '#F44336',
   duration: 300,
   oscillationCoefficient: 30,
-  particlesAmountCoefficient: 5
+  particlesAmountCoefficient: 5,
 };
 
 export const screenWidths = {
-  maxMobile: 640
+  maxMobile: 640,
 };

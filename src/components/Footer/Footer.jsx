@@ -1,6 +1,6 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import Button from 'react-md/lib/Buttons';
-import { Link } from 'gatsby';
 import config from '../../../data/SiteConfig';
 import './Footer.scss';
 
@@ -21,14 +21,14 @@ const Footer = () => {
         </div>
         <div className="rss">
           <Link to={url}>
-            <Button flat secondary iconClassName="fa fa-rss">
+            <Button swapTheming primary flat iconClassName="fa fa-rss">
               Subscribe
             </Button>
           </Link>
         </div>
         <div className="legal">
           <Link to="/legal">
-            <Button flat secondary>
+            <Button swapTheming primary flat>
               Legal Pages
             </Button>
           </Link>

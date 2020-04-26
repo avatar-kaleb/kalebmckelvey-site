@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import LogRocket from 'logrocket';
+import React, { Component } from 'react';
 import NavigationDrawer from 'react-md/lib/NavigationDrawers/NavigationDrawer';
-import ToolbarActions from '../ToolbarActions/ToolbarActions';
 import Footer from '../Footer/Footer';
-import GetNavList from './NavList';
+import ToolbarActions from '../ToolbarActions/ToolbarActions';
 import './Navigation.scss';
+import GetNavList from './NavList';
 
 /**
  * Determines whether the nav item should be active based on two conditions
@@ -17,7 +17,7 @@ import './Navigation.scss';
 function _isNavItemActive(key) {
   if (typeof window !== `undefined` && window.location) {
     const {
-      location: { pathname }
+      location: { pathname },
     } = window;
     return pathname.includes(key) || (key === 'home' && pathname === '/');
   }
@@ -49,22 +49,22 @@ class Navigation extends Component {
    * can optimize if needed
    * @param {Object} key
    */
-  _setPage = key => {
-    this.navItems = this.navItems.map(item => {
+  _setPage = (key) => {
+    this.navItems = this.navItems.map((item) => {
       if (item.divider) {
         return item;
       }
 
       const newItem = { ...item };
       if (newItem.nestedItems && newItem.nestedItems.length) {
-        newItem.nestedItems = newItem.nestedItems.map(nestedItem => {
+        newItem.nestedItems = newItem.nestedItems.map((nestedItem) => {
           if (nestedItem.divider) {
             return nestedItem;
           }
 
           return {
             ...nestedItem,
-            active: nestedItem.key === key
+            active: nestedItem.key === key,
           };
         });
       }
@@ -80,7 +80,7 @@ class Navigation extends Component {
    * @returns {Array}
    */
   _createNavItems() {
-    return GetNavList().map(item => {
+    return GetNavList().map((item) => {
       if (item.divider) {
         return item;
       }
@@ -91,7 +91,7 @@ class Navigation extends Component {
 
       let hasFoundActive = false; // prevent looking for active once found
       if (newItem.nestedItems && newItem.nestedItems.length) {
-        newItem.nestedItems = newItem.nestedItems.map(nestedItem => {
+        newItem.nestedItems = newItem.nestedItems.map((nestedItem) => {
           if (nestedItem.divider) {
             return nestedItem;
           }
@@ -106,14 +106,14 @@ class Navigation extends Component {
 
           return {
             ...newNestedItem,
-            onClick: () => this._setPage(newNestedItem.key)
+            onClick: () => this._setPage(newNestedItem.key),
           };
         });
       }
 
       return {
         ...newItem,
-        onClick: () => this._setPage(newItem.key)
+        onClick: () => this._setPage(newItem.key),
       };
     });
   }
@@ -122,7 +122,7 @@ class Navigation extends Component {
    * React component method
    */
   render() {
-    const { children, config, LocalTitle } = this.props;
+    const { children, config, LocalTitle, location, setIsLightTheme } = this.props;
 
     const title = (
       <div>
@@ -143,7 +143,9 @@ class Navigation extends Component {
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         navItems={this.navItems}
         tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        toolbarActions={<ToolbarActions config={config} />}
+        toolbarActions={
+          <ToolbarActions config={config} location={location} setIsLightTheme={setIsLightTheme} />
+        }
         toolbarTitle={LocalTitle}
       >
         <div className="main-container">{children}</div>

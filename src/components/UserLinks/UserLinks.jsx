@@ -9,8 +9,8 @@ import './UserLinks.scss';
  * @param {Boolean} labeled
  * @returns
  */
-function getLinkElements(userLinks, labeled) {
-  return userLinks.map(link => (
+function getLinkElements(userLinks, labeled, canSwitchTheme) {
+  return userLinks.map((link) => (
     <Button
       icon={!labeled}
       flat={labeled}
@@ -24,11 +24,33 @@ function getLinkElements(userLinks, labeled) {
   ));
 }
 
-const UserLinks = ({ config: { userLinks }, labeled }) => {
+const UserLinks = ({
+  config: { userLinks },
+  labeled,
+  setIsLightTheme,
+  isLightTheme,
+  canSwitchTheme,
+}) => {
   if (!userLinks) {
     return null;
   }
-  return <div className="user-links">{getLinkElements(userLinks, labeled)}</div>;
+  return (
+    <div className="user-links">
+      {getLinkElements(userLinks, labeled)}
+      {canSwitchTheme ? (
+        <>
+          {' | '}
+          <Button
+            className="md-divider-border--left"
+            icon
+            onClick={(e) => setIsLightTheme(!isLightTheme)}
+          >
+            lightbulb
+          </Button>
+        </>
+      ) : null}
+    </div>
+  );
 };
 
 export default UserLinks;

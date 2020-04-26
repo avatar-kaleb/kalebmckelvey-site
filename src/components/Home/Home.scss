@@ -1,9 +1,11 @@
-.home {
-    .intro-card {
-        margin: 1em;
-    }
+@import '../../layouts/theme.scss';
 
-    .p-margin--top {
-        margin-top: 1em;
-    }
+.home {
+  .intro-card {
+    margin: 1em;
+  }
+
+  .p-margin--top {
+    margin-top: 1em;
+  }
 }

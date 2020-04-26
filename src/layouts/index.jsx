@@ -1,16 +1,16 @@
-import React from 'react';
-import Helmet from 'react-helmet';
+import 'font-awesome/scss/font-awesome.scss';
 import compact from 'lodash/compact';
 import last from 'lodash/last';
 import split from 'lodash/split';
 import startCase from 'lodash/startCase';
-
 import truncate from 'lodash/truncate';
-import Navigation from '../components/Navigation/Navigation';
+import React, { useState } from 'react';
+import Helmet from 'react-helmet';
 import config from '../../data/SiteConfig';
-import './index.scss';
+import Navigation from '../components/Navigation/Navigation';
+import { ThemeContext } from '../context/themeContext';
 import './global.scss';
-import 'font-awesome/scss/font-awesome.scss';
+import './index.scss';
 
 function getLocalTitle(pathname) {
   // fix gatsby build -- window won't be available during build
@@ -25,35 +25,51 @@ function getLocalTitle(pathname) {
   if (window.innerWidth < 360) {
     title = truncate(title, {
       length: 25,
-      separator: ' '
+      separator: ' ',
     });
   } else if (window.innerWidth >= 360 && window.innerWidth < 768) {
     title = truncate(title, {
       length: 30,
-      separator: ' '
+      separator: ' ',
     });
   } else if (window.innerWidth >= 768 && window.innerWidth < 1025) {
     title = truncate(title, {
       length: 45,
-      separator: ' '
+      separator: ' ',
     });
   }
 
   return title || 'Home'; // if title is blank, means we are at / path
 }
 
-const Layout = ({ children, location, ...props }) => (
-  <Navigation config={config} LocalTitle={getLocalTitle(location.pathname)}>
-    <div>
-      <Helmet>
-        <meta
-          htmlAttributes="{ lang: 'en', class: 'custom-theme'}"
-          name="description"
-          content={config.siteDescription}
-        />
-      </Helmet>
-      {children}
-    </div>
-  </Navigation>
-);
+const Layout = ({ children, location, ...props }) => {
+  const storedIsLightTheme = localStorage.getItem('isLightTheme') === 'true';
+  const [isLightTheme, setIsLightTheme] = useState(storedIsLightTheme);
+
+  if (storedIsLightTheme !== isLightTheme) {
+    localStorage.setItem('isLightTheme', isLightTheme);
+  }
+
+  return (
+    <ThemeContext.Provider value={{ isLightTheme }}>
+      <div className={`${isLightTheme ? '' : 'dark-theme'}`}>
+        <Navigation
+          config={config}
+          LocalTitle={getLocalTitle(location.pathname)}
+          location={location}
+          setIsLightTheme={setIsLightTheme}
+        >
+          <Helmet>
+            <meta
+              htmlAttributes="{ lang: 'en', class: 'custom-theme'}"
+              name="description"
+              content={config.siteDescription}
+            />
+          </Helmet>
+          {children}
+        </Navigation>
+      </div>
+    </ThemeContext.Provider>
+  );
+};
 export default Layout;

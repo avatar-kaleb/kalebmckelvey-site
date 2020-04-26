@@ -75,7 +75,7 @@ module.exports = {
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: '#e0e0e0',
-        theme_color: '#0D47A1',
+        theme_color: '#304FFE',
         display: 'minimal-ui',
         icons: [
           {
@@ -233,7 +233,7 @@ module.exports = {
       resolve: `gatsby-plugin-scroll-indicator`,
       options: {
         // Configure color of the scroll indicator
-        color: `#ff6f00`,
+        color: `#8C9EFF`,
         // Height of the scroll indicator
         height: '3px',
         // Configure paths where the scroll indicator will appear

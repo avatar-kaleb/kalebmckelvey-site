@@ -10,7 +10,7 @@ import './ContactMe.scss';
  */
 const ContactMe = () => (
   <div className="contact-me wrapper-flex-column--center md-grid mobile-fix">
-    <Paper className="md-cell md-cell--12 md-grid paper-background--white" zDepth={0}>
+    <Paper className="md-cell md-cell--12 md-grid md-background--card" zDepth={0}>
       <section className="md-cell md-cell--middle md-cell--4-desktop md-cell--3-tablet ">
         <Media aspectRatio="1-1">
           <img className="animated fadeInLeft" src={headShotImage} alt="Male smiling with a red shirt." />

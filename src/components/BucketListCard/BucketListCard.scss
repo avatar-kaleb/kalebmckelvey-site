@@ -1,30 +1,30 @@
 @import '../../layouts/theme.scss';
 
 .bucketlist-card {
-    .borough-and-cost {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1em;
-    }
+  .borough-and-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
 
-    .card-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 200px;
-    }
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+  }
 
-    .categories {
-        display: flex;
-        justify-content: center;
-        margin-top: 1em;
-    }
+  .categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
 
-    .category-chip {
-        margin-right: 0.5em;
-    }
+  .category-chip {
+    margin-right: 0.5em;
+  }
 
-    .cost-level-text {
-        color: $md-secondary-color-dark;
-    }
+  .cost-level-text {
+    // color: $md-secondary-color-dark;
+  }
 }

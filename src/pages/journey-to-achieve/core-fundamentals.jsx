@@ -1,8 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-
-import CoreFundamentals from '../../components/CoreFundamentals/CoreFundamentals';
 import config from '../../../data/SiteConfig';
+import CoreFundamentals from '../../components/CoreFundamentals/CoreFundamentals';
 
 const CoreFundamentalsPage = () => (
   <div>
@@ -12,6 +11,6 @@ const CoreFundamentalsPage = () => (
     </Helmet>
     <CoreFundamentals />
   </div>
-  );
+);
 
 export default CoreFundamentalsPage;

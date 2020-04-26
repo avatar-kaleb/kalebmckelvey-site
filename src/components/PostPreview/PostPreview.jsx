@@ -1,19 +1,17 @@
+import { navigate } from 'gatsby';
 import React, { Component } from 'react';
+import Avatar from 'react-md/lib/Avatars';
+import Button from 'react-md/lib/Buttons';
 import Card from 'react-md/lib/Cards/Card';
 import CardActions from 'react-md/lib/Cards/CardActions';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import Button from 'react-md/lib/Buttons';
-import Avatar from 'react-md/lib/Avatars';
 import CardText from 'react-md/lib/Cards/CardText';
+import CardTitle from 'react-md/lib/Cards/CardTitle';
 import FontIcon from 'react-md/lib/FontIcons';
-
 // relative
 import Media, { MediaOverlay } from 'react-md/lib/Media';
-import { navigate } from 'gatsby';
 import ParticleEffectButton from 'react-particle-effect-button';
 import { particleConfig, screenWidths } from '../../constants/config';
 import PostTags from '../PostTags/PostTags';
-
 // styles
 import './PostPreview.scss';
 
@@ -33,12 +31,12 @@ class PostPreview extends Component {
     super(props);
     this.state = {
       buttonHidden: false,
-      isMobile: true
+      isMobile: true,
     };
 
     this.coverHeights = {
       mobile: 162,
-      other: 225
+      other: 225,
     };
 
     this.setButtonHidden = this.setButtonHidden.bind(this);
@@ -59,7 +57,7 @@ class PostPreview extends Component {
    * We need this to use with particle effect button
    */
   setButtonHidden() {
-    this.setState(prevState => ({ buttonHidden: !prevState.buttonHidden }));
+    this.setState((prevState) => ({ buttonHidden: !prevState.buttonHidden }));
   }
 
   /**
@@ -86,37 +84,40 @@ class PostPreview extends Component {
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
 
     return (
-      <div className='md-cell md-cell--0-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small'>
-        <Card key={postInfo.path} animate={false} className=''>
+      <div className="md-cell md-cell--0-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small">
+        <Card key={postInfo.path} animate={false} className="">
           <Media
             style={{
               backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`
+              height: `${coverHeight}px`,
             }}
-            className='post-preview-cover'
-            onClick={e => navToPostOnClick(postInfo.path, e)}
+            className="post-preview-cover"
+            onClick={(e) => navToPostOnClick(postInfo.path, e)}
           >
             <MediaOverlay>
-              <CardTitle title={postInfo.title} onClick={e => navToPostOnClick(postInfo.path, e)} />
+              <CardTitle
+                title={postInfo.title}
+                onClick={(e) => navToPostOnClick(postInfo.path, e)}
+              />
             </MediaOverlay>
           </Media>
           <CardTitle
             expander={isMobile}
-            avatar={<Avatar icon={<FontIcon iconClassName='fa fa-calendar' />} />}
+            avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
             title={`Published on ${postInfo.date}`}
             subtitle={`${postInfo.timeToRead} min read`}
           />
-          <CardText expandable={isMobile}>
-            {postInfo.excerpt}
+          <CardText expandable={isMobile} className="card-text">
+            <p>{postInfo.excerpt}</p>
             <PostTags tags={postInfo.tags} />
           </CardText>
 
-          <CardActions className='md-divider-border md-divider-border--top'>
+          <CardActions className="md-divider-border md-divider-border--top">
             <ParticleEffectButton
               color={particleConfig.color}
               duration={particleConfig.duration}
               hidden={buttonHidden}
-              onComplete={e => navToPostOnClick(postInfo.path, e)}
+              onComplete={(e) => navToPostOnClick(postInfo.path, e)}
               oscillationCoefficient={particleConfig.oscillationCoefficient}
               particlesAmountCoefficient={particleConfig.particlesAmountCoefficient}
             >

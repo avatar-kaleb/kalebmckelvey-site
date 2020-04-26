@@ -1,35 +1,40 @@
 @import '~react-md/src/scss/react-md';
 
-$md-primary-color: $md-blue-900; //0D47A1
-$md-primary-color-light: #5473d3;
-$md-primary-color-dark: #002072;
-$md-secondary-color: $md-deep-orange-a-400; //ff6f00
-$md-secondary-color-light: #ffa06d;
-$md-secondary-color-dark: #c53d13;
-$md-tertiary-color: $md-grey-300;
 $md-light-grey: $md-grey-100;
-$md-text---theme-primary: $md-blue-900;
+$md-dark-grey: $md-grey-700;
+$md-primary-color: $md-red-500;
+$md-secondary-color: $md-indigo-a-700;
+$md-tertiary-color: $md-grey-300;
+$md-chip-dark-theme-color: white;
+
+@include react-md-theme-everything(
+  $md-primary-color,
+  $md-secondary-color,
+  false,
+  'dark-theme'// class name to wrap dark-theme styles in
+);
+@include react-md-everything;
 
 h2,
 h3,
 h4,
 .md-display-3,
 .md-display-4 {
-    font-weight: bold;
-    white-space: normal;
+  font-weight: bold;
+  white-space: normal;
 }
 
-.main-container,
-.darker-background {
-    background-color: $md-tertiary-color;
-}
-
-a:link {
-    color: $md-secondary-color-dark;
+.dark-theme {
+  a:link {
+    color: $md-indigo-100;
     text-decoration: none;
+  }
+}
+
+a:visited {
+  color: $md-indigo-a-100;
 }
 
 .drawer-nav-nested-list-item > li > a {
-    color: $md-secondary-color;
-    padding-left: 3em !important;
+  padding-left: 3em !important;
 }
