@@ -6,6 +6,7 @@ $md-primary-color: $md-red-500;
 $md-secondary-color: $md-indigo-a-700;
 $md-tertiary-color: $md-grey-300;
 $md-chip-dark-theme-color: white;
+$md-slider-warn-md: false;
 
 @include react-md-theme-everything(
   $md-primary-color,

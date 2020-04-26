@@ -43,10 +43,10 @@ function getLocalTitle(pathname) {
 }
 
 const Layout = ({ children, location, ...props }) => {
-  const storedIsLightTheme = false;
+  let storedIsLightTheme = false;
 
   if (typeof window !== 'undefined' && window.localStorage) {
-    localStorage.getItem('isLightTheme') === 'true';
+    storedIsLightTheme = localStorage.getItem('isLightTheme') === 'true';
   }
 
   const [isLightTheme, setIsLightTheme] = useState(storedIsLightTheme);

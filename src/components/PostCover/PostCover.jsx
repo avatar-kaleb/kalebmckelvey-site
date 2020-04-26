@@ -15,7 +15,7 @@ const PostCover = ({ postNode, isMobile }) => {
   return (
     <div
       style={{ backgroundImage: `url(${cover})`, height: `${coverHeight}px` }}
-      className="md-grid md-cell--9 post-cover"
+      className="md-grid md-cell--10 post-cover"
     />
   );
 };
