@@ -1,20 +1,19 @@
+import { graphql } from 'gatsby';
+import get from 'lodash/get';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
-
-import get from 'lodash/get'
-import PostListing from '../components/PostListing/PostListing';
 import config from '../../data/SiteConfig';
+import PostListing from '../components/PostListing/PostListing';
 
-const TagTemplate = props => {
-  const postEdges = get(props, 'data.allMarkdownRemark.edges', [])
-  const tag = get(props, 'pathContext.tag', '')
+const TagTemplate = (props) => {
+  const postEdges = get(props, 'data.allMarkdownRemark.edges', []);
+  const tag = get(props, 'pathContext.tag', '');
 
   return (
-    <div className='tag-container animated fadeIn'>
+    <div className="tag-container animated fadeIn">
       <Helmet>
         <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
-        <link rel='canonical' href={`${config.siteUrl}/tags/${tag}`} />
+        <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
       </Helmet>
       <PostListing postEdges={postEdges} withSearch />
     </div>
