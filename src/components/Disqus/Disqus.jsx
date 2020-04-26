@@ -7,7 +7,7 @@ import CardTitle from 'react-md/lib/Cards/CardTitle';
 import FontIcon from 'react-md/lib/FontIcons';
 import Snackbar from 'react-md/lib/Snackbars';
 import config from '../../../data/SiteConfig';
-import { ThemeContext } from '../../context/themeContext';
+import { ThemeContext } from '../../context/ThemeContext';
 
 /**
  * Discus Component for comments
