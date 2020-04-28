@@ -39,7 +39,41 @@ Mr. Crockford argues that since the language was so little tested and rushed out
 
 > "Perhaps the greatest benefit of studying the good parts is that you can avoid the need to unlearn the bad parts. Unlearning bad patterns is very difficult.
 
-### Why JavaScript?
+### Analyzing JavaScript
+
+---
+
+Good ideas:
+- Functions as first class citizen
+- Loose typing
+- Dynamic Objects
+- Expressive object literal notation
+
+Bad Ideas:
+- Programming model based on global variables
+
+---
+
+Developers coming from a strong typed language, such as Java, are very alarmed at the loosely typed concept. We as a dev community believe that types help catch errors, which of can can be very true, but the author states:
+
+> "...it turns out that strong typing does not eliminate the need for careful testing."
+
+He's suggesting that types do help - either way testing must happen to make sure the app is working correctly. Additionally, he says that the errors caught by type checking are typically we don't really worry about much. 
+
+> "I find loose typing to be liberating. I don't need to form complex class hierarchies. And I never have to cast or wrestle with the type system to get the behavior I want." 
+
+He mentions a controversial feature, prototypical inheritance. With many devs trained classically and on object oriented patterns, for example I took intro to Java as my first CS class, prototypical inheritance creates confusion because he says you will become frustrated when trying to apply classical design patterns to JS.
+
+However, if you take time to learn how JS inheritance works - you will be rewarded!
+
+*I agree with this statement! We can't count things out because we don't understand them or because they might take time to understand. Think about Redux - it has a similar controversy. It's difficult to learn and understand for newcomers, powerful when used correctly, and wildly overused in apps that don't require it.*
+
+> "Javascript depends on global variables for linkage. All of the top-level variables of all compilation units are tossed together in a common namespace called the global object. This is a bad thing because global variables are evil and in JavaScript they are fundamental.
+
+***Modules take care of this!!***
+
+[MDN Modules Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
 
 
 
