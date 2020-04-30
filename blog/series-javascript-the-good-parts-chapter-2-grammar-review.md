@@ -42,9 +42,11 @@ Block Comments:
 
 Mr. Crockford recommends only using `//`, so we can assume he never writes method headers or class headers in his code bases. 
 
-Joking aside.
+Joking aside. He says this due to to regular expressions creating errors with block comments - maybe he does this often, but in my experience, code bases don't have regular expressions all over the place.
 
 I don't agree with this statement at all for two reasons:
 1. Comments in code are usually to give context to why code is written a specific way, not to comment the code out (commented code should be removed from code bases)
-2. Method and class headers with JSDoc syntax uses block commenting by default, especially when IDEs help you by creating the blocks for you. 
+2. Method and class headers with JSDoc syntax uses block commenting by default, especially when IDEs help create the blocks for you. 
+
+## Names
 
