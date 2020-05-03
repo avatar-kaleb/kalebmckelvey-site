@@ -19,7 +19,7 @@ export default class PostTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isMobile: true,
+      isMobile: true
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -45,7 +45,7 @@ export default class PostTemplate extends React.Component {
     const { isMobile } = this.state;
     const {
       data: { markdownRemark: postNode },
-      pathContext: { slug },
+      pathContext: { slug }
     } = this.props;
     const expanded = !isMobile;
     const post = postNode.frontmatter;
@@ -70,7 +70,7 @@ export default class PostTemplate extends React.Component {
             <CardText className="post-body">
               <h1 className="md-display-1 post-header">{post.title}</h1>
               <PostInfo postNode={postNode} />
-              <p dangerouslySetInnerHTML={{ __html: postNode.html }} />
+              <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             </CardText>
             <div className="post-meta">
               <PostTags tags={post.tags} />

@@ -31,12 +31,12 @@ class PostPreview extends Component {
     super(props);
     this.state = {
       buttonHidden: false,
-      isMobile: true,
+      isMobile: true
     };
 
     this.coverHeights = {
       mobile: 162,
-      other: 225,
+      other: 225
     };
 
     this.setButtonHidden = this.setButtonHidden.bind(this);
@@ -45,11 +45,6 @@ class PostPreview extends Component {
 
   componentDidMount() {
     this.handleResize();
-    // window.addEventListener('resize', this.handleResize);
-  }
-
-  componentWillUnmount() {
-    // window.removeEventListener('resize', this.handleResize);
   }
 
   /**
@@ -89,7 +84,7 @@ class PostPreview extends Component {
           <Media
             style={{
               backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`,
+              height: `${coverHeight}px`
             }}
             className="post-preview-cover"
             onClick={(e) => navToPostOnClick(postInfo.path, e)}

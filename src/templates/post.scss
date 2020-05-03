@@ -1,4 +1,4 @@
-@import "~react-md/src/scss/react-md";
+@import '~react-md/src/scss/react-md';
 $phone-status-bar-height: 24px - 12px;
 
 .post-page {
@@ -108,7 +108,7 @@ $phone-status-bar-height: 24px - 12px;
       }
 
       :target::before {
-        content: "";
+        content: '';
         display: block;
         position: relative;
         height: $md-toolbar-mobile-portrait-height + $phone-status-bar-height;
