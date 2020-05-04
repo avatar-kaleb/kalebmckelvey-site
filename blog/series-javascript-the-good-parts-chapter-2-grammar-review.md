@@ -156,12 +156,41 @@ Lastly, we use the Math class for common math operations between numbers in JS.
 
 ## Strings
 
+"String literals can be wrapped in single quotes or double quotes." 
 
+Additionally, [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) were introduced and are convenient for building long strings with string interpolation.
 
+Each string can contain 0+ characters. You can use `\` to escape characters.
 
+JS was built when Unicode was a 16-bit char set, so all characters are 16 bits wide. Further, there are no char types, but you can use a string of one character instead.
 
+"Strings are immutable, a string can never be changed. But it is easy to make a new string by concatenating other strings together..."
 
+You can use either concatenation or template literals to join strings.
 
+```javascript
+// initialization
+const test = 'test';
+const test1 = 'test1';
+const test2 = `test2`;
+
+// concatenation
+const test3 = 'test3' + 'test3'; 
+
+// interpolation
+console.log(`${test} ${test1} ${test2} ${test3}`) // test test1 test2 test3 test3
+
+// escaping (example from book)
+"A" === "\u0041"
+```
+
+I personally prefer single quotes for initialization - they are less intrusive unless utilizing string templates for interpolation. Interpolation has been shown to be a bit slower than string concatenation, but also cleaner.
+
+Two strings are equal in JS if they are exactly the "same characters in the same order."
+
+Lastly - [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) in JS have methods. Technically these methods are on the String object class, not string literals, but thankfully for us devs, JS converts them for us.
+
+## Statements
 
 
 
