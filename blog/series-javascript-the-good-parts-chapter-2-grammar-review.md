@@ -192,6 +192,53 @@ Lastly - [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## Statements
 
+"A compilation unit contains a set of executable statements."
+
+There are a list of updated statements on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements).
+
+I'd rather not dive deep into each of these, as many of them are fundamental programming topics - but will note a few things.
+
+### Variable scope
+
+In the past, JavaScript only had variable declarations using `var`. The scope of variables declared with `var` is function, not block. Two new types, `let` and `const` declarations were introduced to add block level scoping to JS.
+
+### Truthy and Falsy
+
+With JavaScript being loosely typed, it coerces different variables into types when evaluating statements.
+
+For example, an if statement.
+
+```
+const test = { hi: 'hi' };
+
+if (test) {
+ console.log('it is truthy!');
+} else {
+ console.log('it is falsy!');
+}
+
+```
+
+When evaluating this statement, JS must determine whether test is true or false, but we can see it's an object, not a boolean.
+
+In JS, only the following values are `falsy`:
+```
+false
+null
+undefined
+''
+0
+NaN
+```
+
+All other values are `truthy`. 
+
+The example above prints `it is truthy!` since test isn't one of the falsy values.
+
+## Expressions
+
+
+
 
 
 
