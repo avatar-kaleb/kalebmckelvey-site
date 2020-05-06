@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/javascript-the-good-parts-series-image.jpg
 date: '2020-04-30'
 title: 'Series: JavaScript the Good Parts - Chapter 2 - Grammar - Review'
@@ -13,14 +13,14 @@ As we continue reading JavaScript: The Good Parts by Douglas Crockford - I conti
 
 Chapter 2 focuses on JavaScript's Grammar, which is very important to know while writing it :). 
 
-Of course, he maintains the focus only to parts he believes as good, so it won't be a thorough view.
+Of course, he maintains the focus only on parts he believes as good, so it won't be a thorough view.
 
 ## Whitespace
 There are rarely any requirements for whitespace; but, you will find you need to separate sequences like declaring a variable. 
 
 As developers, we typically add whitespace to help improve readability. We then add a build process that takes that nice, beautifully formatted readable code to uglify it or minify it to reduce the file sizes when loaded in the browser.
 
-I say this because, knowing when and where JS requires whitespace isn't a key to knowing the language. Our IDE should take care of it for us.
+I say this because knowing when and where JS requires whitespace isn't a key to knowing the language. Our IDE should take care of it for us.
 
 ## Comments
 
@@ -40,17 +40,17 @@ Block Comments:
 */
 ```
 
-Mr. Crockford recommends only using `//`, so we can assume he never writes method headers or class headers in his code bases. 
+Mr. Crockford recommends only using `//`, so we can assume he never writes method headers or class headers in his codebases. 
 
-Joking aside. He says this due to to regular expressions creating errors with block comments - maybe he does this often, but in my experience, code bases don't have regular expressions all over the place.
+Joking aside. He says this due to regular expressions creating errors with block comments - maybe he does this often, but in my experience, code bases don't have regular expressions all over the place.
 
 I don't agree with this statement at all for two reasons:
-1. Comments in code are usually to give context to why code is written a specific way, not to comment the code out (commented code should be removed from code bases)
+1. Comments in code are usually to give context to why code is written a specific way, not to comment the code out (commented code should be removed from codebases)
 2. Method and class headers with JSDoc syntax uses block commenting by default, especially when IDEs help create the blocks for you. 
 
 ## Names
 
-The book defines name as "a letter optionally followed by one or more letters, digits, or underbars."
+The book defines a name as "a letter optionally followed by one or more letters, digits, or underbars."
 
 This is incorrect as you can name things starting with underbars.
 
@@ -60,7 +60,7 @@ This is incorrect as you can name things starting with underbars.
 
 "A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($). Subsequent characters can also be digits (0–9)."
 
-I didn't look into when this changed, but do think it's important to know.
+I didn't look into when this changed but I do think it's important to know.
 
 Names in JS are case sensitive, so these are not the same.
 
@@ -124,13 +124,13 @@ with
 yield
 ```
 
-He does mention that in addition to reserved words not being allowed in variable names, object properties can't be either. In Chrome, I'm easily able to create an object:
+He does mention that in addition to reserved words not being allowed in variable names, object properties can't be either. In Chrome dev console, I'm easily able to create an object:
 
 `const test = {class: 'hi'}`
 
-I looked into the [ECMA Script standard](https://tc39.es/ecma262/#sec-names-and-keywords) for more detail here, but didn't find anything around object properties. If you are able to find anything - please let me know in the comments!
+I looked into the [ECMA Script standard](https://tc39.es/ecma262/#sec-names-and-keywords) for more detail here; unfortunately I didn't find anything around object properties. If you find or know anything about this - please let me know in the comments!
 
-I did find interesting that he mentions a few words that aren't reserved, but should have been, like `undefined`, `NaN`, and `infinity`. That is very surprising to me, and am thankful it was pointed out.
+I did find it interesting that he mentions a few words that aren't reserved but should have been, such as `undefined`, `NaN`, and `infinity`. That is very surprising to me, and I'm thankful it was pointed out.
 
 You can use `-` to denote negative numbers and `e` for exponents.
 
@@ -162,7 +162,7 @@ Additionally, [template literals](https://developer.mozilla.org/en-US/docs/Web/J
 
 Each string can contain 0+ characters. You can use `\` to escape characters.
 
-JS was built when Unicode was a 16-bit char set, so all characters are 16 bits wide. Further, there are no char types, but you can use a string of one character instead.
+JS was built when Unicode was a 16-bit charset, so all characters are 16 bits wide. Further, there are no char types, but you can use a string of one character instead.
 
 "Strings are immutable, a string can never be changed. But it is easy to make a new string by concatenating other strings together..."
 
@@ -180,11 +180,11 @@ const test3 = 'test3' + 'test3';
 // interpolation
 console.log(`${test} ${test1} ${test2} ${test3}`) // test test1 test2 test3 test3
 
-// escaping (example from book)
+// escaping (example from the book)
 "A" === "\u0041"
 ```
 
-I personally prefer single quotes for initialization - they are less intrusive unless utilizing string templates for interpolation. Interpolation has been shown to be a bit slower than string concatenation, but also cleaner.
+I prefer single quotes for initialization - they are less intrusive unless utilizing string templates for interpolation. Interpolation is a bit slower than string concatenation, but also cleaner.
 
 Two strings are equal in JS if they are exactly the "same characters in the same order."
 
@@ -194,13 +194,13 @@ Lastly - [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 "A compilation unit contains a set of executable statements."
 
-There are a list of updated statements on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements).
+There is a list of updated statements on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements).
 
 I'd rather not dive deep into each of these, as many of them are fundamental programming topics - but will note a few things.
 
 ### Variable scope
 
-In the past, JavaScript only had variable declarations using `var`. The scope of variables declared with `var` is function, not block. Two new types, `let` and `const` declarations were introduced to add block level scoping to JS.
+In the past, JavaScript only had variable declarations using `var`. The scope of variables declared with `var` is the function it is declared in, not the block. Two new types, `let` and `const` declarations were introduced to add block-level scoping.
 
 ### Truthy and Falsy
 
@@ -219,7 +219,7 @@ if (test) {
 
 ```
 
-When evaluating this statement, JS must determine whether test is true or false, but we can see it's an object, not a boolean.
+When evaluating this statement, JS must determine whether `test` is true or false, but we can see it's an object, not a boolean.
 
 In JS, only the following values are `falsy`:
 ```
@@ -233,12 +233,33 @@ NaN
 
 All other values are `truthy`. 
 
-The example above prints `it is truthy!` since test isn't one of the falsy values.
+The example above prints `it is truthy!` since `test` isn't one of the `falsy` values.
 
 ## Expressions
 
+This section of the book goes into the details of all the different types of operators and expressions in JS. I felt that they were poorly explained, so naturally, MDN came to the rescue.
 
+Definition from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators):
 
+> "An expression is any valid unit of code that resolves to a value."
 
+> "Every syntactically valid expression resolves to some value but conceptually, there are two types of expressions: with side effects (for example: those that assign value to a variable) and those that in some sense evaluate and therefore resolve to a value." 
 
+Type 1 (an expression with side effect):
+`const name = 'Kaleb'`
 
+Type 2 (an expression that evaluates and resolves to a value)
+`(3 + 3)`
+
+There are five expression categories:
+1. *Arithmetic* - evaluating to a number, typically using JS arithmetic operators like `+` or `-`
+1. *String* - expression evaluates to a string
+1. *Logical* - resolves to true or false utilizing logical operators in many cases
+1. *Primary expressions* - basic keywords and general expressions
+1. Left-hand-side expressions - "left values are the destination of an assignment"
+
+The MDN link above goes into more depth on the different operators and expression categories.
+
+Lastly, check out the reference for [operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table) - the order at which JS evaluates an expression's operators. 
+
+He ends this chapter with two additional sections on objects and functions, but each has a chapter dedicated to them. Because of this, I will include them in the future for articles on those chapters.
