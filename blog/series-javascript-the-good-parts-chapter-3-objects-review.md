@@ -22,3 +22,5 @@ Let's dive in!
 They are SO useful for creating collections of data and organizing it throughout an web app. They can be nested within each other and since Arrays, Functions, and regular expressions are objects, they too can be contained and mapped efficiently.
 
 Objects can inherit properties from other objects through their prototypes - something we will dive into more deeply later in the article!
+
+## Object Literals
