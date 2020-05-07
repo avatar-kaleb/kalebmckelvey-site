@@ -40,8 +40,6 @@ const PostListing = ({ postEdges, withSearch }) => {
   const [postList, setPostList] = useState(getPostList(postEdges));
   const [filteredPosts, setFilteredPosts] = useState(getPostList(postEdges));
 
-  debugger;
-
   return (
     <div>
       {withSearch && (

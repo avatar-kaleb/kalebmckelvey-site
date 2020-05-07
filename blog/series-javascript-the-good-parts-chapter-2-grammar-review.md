@@ -178,7 +178,8 @@ const test2 = `test2`;
 const test3 = 'test3' + 'test3'; 
 
 // interpolation
-console.log(`${test} ${test1} ${test2} ${test3}`) // test test1 test2 test3 test3
+console.log(`${test} ${test1} ${test2} ${test3}`)
+// test test1 test2 test3 test3
 
 // escaping (example from the book)
 "A" === "\u0041"
