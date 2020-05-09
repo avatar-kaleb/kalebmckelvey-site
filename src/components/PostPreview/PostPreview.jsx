@@ -22,13 +22,11 @@ import './PostPreview.scss';
  */
 const navToPostOnClick = (path, e) => navigate(path);
 
-const PostPreview = () => {};
-
 /**
  * Post Preview is used to show summary of posts on a post listening to give a quick glimpse
  * of what the post is about
  */
-class PostPreview2 extends Component {
+class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
