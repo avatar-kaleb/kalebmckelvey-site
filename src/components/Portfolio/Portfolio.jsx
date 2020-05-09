@@ -29,9 +29,6 @@ const Portfolio = ({ images }) => {
 
         return 0;
       });
-      return () => {
-        cleanup;
-      };
     },
     [PortfolioData]
   );

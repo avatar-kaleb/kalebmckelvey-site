@@ -10,9 +10,11 @@ import './Footer.scss';
 const Footer = () => {
   const url = config.siteRss;
   const { copyright, fixedFooter } = config;
+
   if (!copyright) {
     return null;
   }
+
   return (
     <footer className={fixedFooter ? 'footer footer-fixed' : 'footer'}>
       <section className="notice-container">

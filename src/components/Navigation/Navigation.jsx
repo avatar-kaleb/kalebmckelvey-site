@@ -17,7 +17,7 @@ import GetNavList from './NavList';
 function _isNavItemActive(key) {
   if (typeof window !== `undefined` && window.location) {
     const {
-      location: { pathname },
+      location: { pathname }
     } = window;
     return pathname.includes(key) || (key === 'home' && pathname === '/');
   }
@@ -64,7 +64,7 @@ class Navigation extends Component {
 
           return {
             ...nestedItem,
-            active: nestedItem.key === key,
+            active: nestedItem.key === key
           };
         });
       }
@@ -106,14 +106,14 @@ class Navigation extends Component {
 
           return {
             ...newNestedItem,
-            onClick: () => this._setPage(newNestedItem.key),
+            onClick: () => this._setPage(newNestedItem.key)
           };
         });
       }
 
       return {
         ...newItem,
-        onClick: () => this._setPage(newItem.key),
+        onClick: () => this._setPage(newItem.key)
       };
     });
   }

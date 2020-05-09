@@ -1,34 +1,35 @@
 @import '../../node_modules/animate.css/animate.min.css';
 
 div .mobile-fix {
-    @media (max-width: 360px - 1px) {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  @media (max-width: 360px - 1px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .cardText-text {
-    margin: 20px 0 !important;
+  margin: 20px 0 !important;
 
-    @media (max-width: 360px - 1px) {
-        margin: 5px 0 !important;
-    }
+  @media (max-width: 360px - 1px) {
+    margin: 5px 0 !important;
+  }
 }
 
 .margin-bottom--small {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .paper-background--white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .paper-border--primary {
-    border: 2px solid #808080;
+  border: 2px solid #808080;
 }
 
 .wrapper-flex-column--center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
