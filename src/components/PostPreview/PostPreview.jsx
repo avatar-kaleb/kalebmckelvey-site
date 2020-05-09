@@ -1,5 +1,5 @@
 import { navigate } from 'gatsby';
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import Avatar from 'react-md/lib/Avatars';
 import Button from 'react-md/lib/Buttons';
 import Card from 'react-md/lib/Cards/Card';
@@ -22,62 +22,11 @@ import './PostPreview.scss';
  */
 const navToPostOnClick = (path, e) => navigate(path);
 
-const PostPreview = () => {
-  const [buttonHidden, setButtonHidden] = useState(false);
-  const [isMobile, setIsMobile] = useState(true);
-  
-
-  return (
-    <div className="md-cell md-cell--0-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small">
-      {/* <Card key={postInfo.path} animate={false} className="">
-        <Media
-          style={{
-            backgroundImage: `url(${cover})`,
-            height: `${coverHeight}px`
-          }}
-          className="post-preview-cover"
-          onClick={(e) => navToPostOnClick(postInfo.path, e)}
-        >
-          <MediaOverlay>
-            <CardTitle title={postInfo.title} onClick={(e) => navToPostOnClick(postInfo.path, e)} />
-          </MediaOverlay>
-        </Media>
-        <CardTitle
-          expander={isMobile}
-          avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-          title={`Published on ${postInfo.date}`}
-          subtitle={`${postInfo.timeToRead} min read`}
-        />
-        <CardText expandable={isMobile} className="card-text">
-          <p>{postInfo.excerpt}</p>
-          <PostTags tags={postInfo.tags} />
-        </CardText>
-
-        <CardActions className="md-divider-border md-divider-border--top">
-          <ParticleEffectButton
-            color={particleConfig.color}
-            duration={particleConfig.duration}
-            hidden={buttonHidden}
-            onComplete={(e) => navToPostOnClick(postInfo.path, e)}
-            oscillationCoefficient={particleConfig.oscillationCoefficient}
-            particlesAmountCoefficient={particleConfig.particlesAmountCoefficient}
-          >
-            {/* Raised looked better, outside of MD spec though */}
-            <Button raised primary onClick={() => setButtonHidden(!buttonHidden)}>
-              Read more!
-            </Button>
-          </ParticleEffectButton>
-        </CardActions>
-      </Card> */}
-    </div>
-  );
-};
-
 /**
  * Post Preview is used to show summary of posts on a post listening to give a quick glimpse
  * of what the post is about
  */
-class PostPreview2 extends Component {
+class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
