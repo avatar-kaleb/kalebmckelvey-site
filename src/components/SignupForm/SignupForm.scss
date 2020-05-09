@@ -1,16 +1,15 @@
+@import '../../layouts/theme.scss';
 .signup-form {
-    @import '../../layouts/theme.scss';
+  .form--border {
+    border: 1px solid $md-grey-400;
+    border-radius: 5px;
+  }
 
-    .form--border {
-        border: 1px solid $md-grey-400;
-        border-radius: 5px;
-    }
+  .form-button--mt {
+    margin-top: 15px;
+  }
 
-    .form-button--mt {
-        margin-top: 15px;
-    }
-
-    .form-p--mb {
-        margin-bottom: 0;
-    }
+  .form-p--mb {
+    margin-bottom: 0;
+  }
 }
