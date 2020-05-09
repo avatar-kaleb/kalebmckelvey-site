@@ -7,8 +7,7 @@ import React from 'react';
 const ObservationListItem = ({ observation }) => (
   <div className="observation-list-item">
     <h4>
-      #
-      {observation.id}
+      #{observation.id}
       &nbsp;- &nbsp;
       <strong>{observation.title}</strong>
     </h4>

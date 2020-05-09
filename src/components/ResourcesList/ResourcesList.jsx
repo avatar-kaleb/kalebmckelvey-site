@@ -13,7 +13,7 @@ const CategoryTitle = ({ category }) => <h1>{category}</h1>;
  */
 const ResourcesList = ({ resources, type }) => (
   <div className="resources-list">
-    {resources[type].map(resource => (
+    {resources[type].map((resource) => (
       <div key={resource.category}>
         <CategoryTitle category={resource.category} />
         <SubcategoryList subcategories={resource.subcategories} />

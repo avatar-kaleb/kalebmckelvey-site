@@ -28,8 +28,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Three,
     categories: [Categories.Music, Categories.NightLife],
-    description:
-      'See a live show at the legendary historical Radio City Music Hall.',
+    description: 'See a live show at the legendary historical Radio City Music Hall.',
     expectedRating: Ratings.Four,
     featuredImageUrl: 'radioCityMusicHall.jpg',
     id: 'radioCityMusicHall',
@@ -45,8 +44,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Two,
     categories: [Categories.Music, Categories.NightLife],
-    description:
-      "We're going to a new cocktail at Gunbae then sing a song at Karoke!!",
+    description: "We're going to a new cocktail at Gunbae then sing a song at Karoke!!",
     expectedRating: Ratings.Four,
     featuredImageUrl: 'Gunbae-tribeca.jpeg',
     id: 'karokeGunbaeTribeca',
@@ -79,8 +77,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Two,
     categories: [Categories.Outdoors, Categories.Sports],
-    description:
-      'Buy cheap tickets, enjoy some Cracker Jacks, and cheer on the Yankees live!',
+    description: 'Buy cheap tickets, enjoy some Cracker Jacks, and cheer on the Yankees live!',
     expectedRating: Ratings.Three,
     featuredImageUrl: 'yankeeStadium.jpg',
     id: 'yankeesGame',
@@ -96,8 +93,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Two,
     categories: [Categories.Outdoors, Categories.Sports],
-    description:
-      'Buy cheap seats, enjoy some Cracker Jacks, and cheer on the Mets live!',
+    description: 'Buy cheap seats, enjoy some Cracker Jacks, and cheer on the Mets live!',
     expectedRating: Ratings.three,
     featuredImageUrl: 'metsStadium.jpg',
     id: 'metsGame',
@@ -112,13 +108,8 @@ export default [
   {
     blogPostLink: '',
     costLevel: CostLevels.Three,
-    categories: [
-      Categories.HistoricSite,
-      Categories.Scenery,
-      Categories.MustSee
-    ],
-    description:
-      'Take a picture with the Rockefeller Christmas tree and go in the observatory!!',
+    categories: [Categories.HistoricSite, Categories.Scenery, Categories.MustSee],
+    description: 'Take a picture with the Rockefeller Christmas tree and go in the observatory!!',
     expectedRating: Ratings.five,
     featuredImageUrl: 'rockefellerCenter.jpg',
     id: 'rockefellerCenter',
@@ -167,8 +158,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Four,
     categories: [Categories.Broadway, Categories.NightLife],
-    description:
-      'Enjoy the longest running broadway show at the Majestic Theatre!',
+    description: 'Enjoy the longest running broadway show at the Majestic Theatre!',
     expectedRating: Ratings.four,
     featuredImageUrl: 'phantomOfTheOpera.jpg',
     id: 'phantomOfTheOpera',
@@ -183,13 +173,8 @@ export default [
   {
     blogPostLink: '',
     costLevel: CostLevels.One,
-    categories: [
-      Categories.Outdoors,
-      Categories.Scenery,
-      Categories.HistoricSite
-    ],
-    description:
-      'See the beautiful new renovated towers and pond view at the restored castle!',
+    categories: [Categories.Outdoors, Categories.Scenery, Categories.HistoricSite],
+    description: 'See the beautiful new renovated towers and pond view at the restored castle!',
     expectedRating: Ratings.Five,
     featuredImageUrl: 'belvedereCastle.jpg',
     id: 'belvedereCastle',
@@ -205,8 +190,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Two,
     categories: [Categories.Museum, Categories.MustSee],
-    description:
-      'View the beautiful galleries in one of the top art museums in the world!',
+    description: 'View the beautiful galleries in one of the top art museums in the world!',
     expectedRating: Ratings.Five,
     featuredImageUrl: 'MuseumOfModernArt.jpg',
     id: 'museumOfModernArt',
@@ -255,8 +239,7 @@ export default [
     blogPostLink: '',
     costLevel: CostLevels.Three,
     categories: [Categories.Music],
-    description:
-      'See a concert at the intimate, high quality sound music hall one evening!',
+    description: 'See a concert at the intimate, high quality sound music hall one evening!',
     expectedRating: Ratings.Five,
     featuredImageUrl: 'williamsburgMusicHall.jpg',
     id: 'williamsburgMusicHall',
@@ -322,9 +305,8 @@ export default [
   {
     blogPostLink: '',
     costLevel: CostLevels.One,
-    categories: [Categories.Outdoors, Categories.Scenic],
-    description:
-      'Visit one of the most known parks in the world, Central Park!',
+    categories: [Categories.Outdoors, Categories.Scenery],
+    description: 'Visit one of the most known parks in the world, Central Park!',
     expectedRating: Ratings.Five,
     featuredImageUrl: 'centralPark.jpg',
     id: 'centralPark',
@@ -390,11 +372,7 @@ export default [
   {
     blogPostLink: '',
     costLevel: CostLevels.Four,
-    categories: [
-      Categories.Sports,
-      Categories.HistoricSite,
-      Categories.MustSee
-    ],
+    categories: [Categories.Sports, Categories.HistoricSite, Categories.MustSee],
     description:
       'Take an opportunity to see RJ Barret show us why he only was in college for one year!!',
     expectedRating: Ratings.Five,

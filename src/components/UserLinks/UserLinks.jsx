@@ -9,7 +9,7 @@ import './UserLinks.scss';
  * @param {Boolean} labeled
  * @returns
  */
-function getLinkElements(userLinks, labeled, canSwitchTheme) {
+function getLinkElements(userLinks, labeled) {
   return userLinks.map((link) => (
     <Button
       icon={!labeled}
@@ -29,7 +29,7 @@ const UserLinks = ({
   labeled,
   setIsLightTheme,
   isLightTheme,
-  canSwitchTheme,
+  canSwitchTheme
 }) => {
   if (!userLinks) {
     return null;

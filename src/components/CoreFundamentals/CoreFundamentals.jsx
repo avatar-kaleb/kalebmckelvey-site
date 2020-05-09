@@ -38,85 +38,68 @@ const CoreFundamentals = () => (
           </em>
         </p>
         <h3>1. Character Traits</h3>
-        <p>
-          <ul>
-            <li>
-              <a href="https://kalebmckelvey.com/tags/integrity/" rel="noopener noreferrer">
-                Integrity
-              </a>
-            </li>
-            <li>Kindness</li>
-            <li>Respect</li>
-            <li>Reliability</li>
-            <li>Responsibility</li>
-            <li>Golden Rule</li>
-            <li>Work ethic</li>
-            <li>Humility</li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <a href="https://kalebmckelvey.com/tags/integrity/" rel="noopener noreferrer">
+              Integrity
+            </a>
+          </li>
+          <li>Kindness</li>
+          <li>Respect</li>
+          <li>Reliability</li>
+          <li>Responsibility</li>
+          <li>Golden Rule</li>
+          <li>Work ethic</li>
+          <li>Humility</li>
+        </ul>
         <h3>2. Independent Thinking</h3>
-        <p>
-          <ul>
-            <li>
-              <a href="https://kalebmckelvey.com/categories/mental-models/">Mental models</a>
-            </li>
-            <li>Checklists</li>
-            <li>Logic techniques</li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <a href="https://kalebmckelvey.com/categories/mental-models/">Mental models</a>
+          </li>
+          <li>Checklists</li>
+          <li>Logic techniques</li>
+        </ul>
         <h3>3. Life Learner</h3>
-        <p>
-          <ul>
-            <li>Overcoming fear</li>
-            <li>Vicarious wisdom</li>
-            <li>Adapting to grow</li>
-          </ul>
-        </p>
+        <ul>
+          <li>Overcoming fear</li>
+          <li>Vicarious wisdom</li>
+          <li>Adapting to grow</li>
+        </ul>
         <h3>4. Plan and Purpose</h3>
-        <p>
-          <ul>
-            <li>
-              How do you want to be remembered? What are you doing to be remembered in that way?
-              <ul>
-                <li>
-                  <a
-                    href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/"
-                    rel="noopener"
-                  >
-                    How Bad Do You Want to Achieve?
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose/"
-                    rel="noopener"
-                  >
-                    Make Each Day Matter
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <a
+              href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/"
+              rel="noopener"
+            >
+              How Bad Do You Want to Achieve?
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose/"
+              rel="noopener"
+            >
+              Make Each Day Matter
+            </a>
+          </li>
+        </ul>
         <h3>5. Productivity Guru</h3>
-        <p>
-          <ul>
-            <li>System for getting things done</li>
-            <li>Apps to simplify tasks</li>
-            <li>Automation</li>
-          </ul>
-        </p>
+        <ul>
+          <li>System for getting things done</li>
+          <li>Apps to simplify tasks</li>
+          <li>Automation</li>
+        </ul>
         <h3>6. Strong Relationships</h3>
-        <p>
-          <ul>
-            <li>
-              <a href="https://kalebmckelvey.com/tags/friendship/" rel="noopener noreferrer">
-                Friendships
-              </a>
-            </li>
-            <li>Active listening</li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <a href="https://kalebmckelvey.com/tags/friendship/" rel="noopener noreferrer">
+              Friendships
+            </a>
+          </li>
+          <li>Active listening</li>
+        </ul>
         <hr />
         <p>Thank you for checking out the core fundamentals!</p>
       </CardText>

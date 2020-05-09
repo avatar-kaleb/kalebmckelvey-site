@@ -26,6 +26,9 @@ h4,
 }
 
 .dark-theme {
+  li {
+    color: white;
+  }
   a:link {
     color: $md-indigo-100;
     text-decoration: none;
