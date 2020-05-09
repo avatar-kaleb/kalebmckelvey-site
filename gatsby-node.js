@@ -28,22 +28,22 @@ function addSiblingNodes(createNodeField) {
     createNodeField({
       node: currNode,
       name: 'nextTitle',
-      value: nextNode.frontmatter.title,
+      value: nextNode.frontmatter.title
     });
     createNodeField({
       node: currNode,
       name: 'nextSlug',
-      value: nextNode.fields.slug,
+      value: nextNode.fields.slug
     });
     createNodeField({
       node: currNode,
       name: 'prevTitle',
-      value: prevNode.frontmatter.title,
+      value: prevNode.frontmatter.title
     });
     createNodeField({
       node: currNode,
       name: 'prevSlug',
-      value: prevNode.fields.slug,
+      value: prevNode.fields.slug
     });
   }
 }
@@ -77,7 +77,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
           node,
           name: 'date',
-          value: date.toISOString(),
+          value: date.toISOString()
         });
       }
     }
@@ -144,19 +144,19 @@ exports.createPages = ({ graphql, actions }) => {
             path: edge.node.fields.slug,
             component: postPage,
             context: {
-              slug: edge.node.fields.slug,
-            },
+              slug: edge.node.fields.slug
+            }
           });
           const { createRedirect } = actions; //actions is collection of many actions - https://www.gatsbyjs.org/docs/actions
-          const newBlogSlugLength = '/blog'.length;
-          createRedirect({
-            fromPath: edge.node.fields.slug.substring(
-              newBlogSlugLength,
-              edge.node.fields.slug.length
-            ),
-            toPath: edge.node.fields.slug,
-            isPermanent: true,
-          });
+          // const newBlogSlugLength = '/blog'.length;
+          // createRedirect({
+          //   fromPath: edge.node.fields.slug.substring(
+          //     newBlogSlugLength,
+          //     edge.node.fields.slug.length
+          //   ),
+          //   toPath: edge.node.fields.slug,
+          //   isPermanent: true,
+          // });
         });
 
         const tagList = Array.from(tagSet);
@@ -165,8 +165,8 @@ exports.createPages = ({ graphql, actions }) => {
             path: `/tags/${_.kebabCase(tag)}/`,
             component: tagPage,
             context: {
-              tag,
-            },
+              tag
+            }
           });
         });
 
@@ -176,8 +176,8 @@ exports.createPages = ({ graphql, actions }) => {
             path: `/categories/${_.kebabCase(category)}/`,
             component: categoryPage,
             context: {
-              category,
-            },
+              category
+            }
           });
         });
       })
