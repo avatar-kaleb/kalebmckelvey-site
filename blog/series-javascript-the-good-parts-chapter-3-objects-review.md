@@ -152,6 +152,25 @@ console.log(personCopy); // { name: 'George' }
 
 ## Prototypes
 
+"Every object is linked to a prototype object from which it can inherit properties. All objects created from object literals are linked to `Object.prototype`, an object that comes standard with JavaScript."
+
+When creating new objects, you have the option to select which object will be its prototype. This link doesn't have an effect on updates, but Douglar Crockford talks about how it effects retrieval:
+
+"The prototype link is used only in retrieval to retrieve a property value from an object, and if the object lacks the property name, then JavaScript attempts to retrieve the property value from the prototype object. And if that object is lacking the property, then it goes to its prototype, and so on until the process finally bottoms out with `Object.prototype.` If the desired property exists nowhere in the prototype chain, then the result is the undefined value. This is called *delegation*.
+
+TLDR:
+
+An object tries to retrieve a value from it's own key-values, if it cannot, then it will continue looking up the prototype chain until it reaches `Object.prototype`. If it still can't find the value, it will then be `undefined`.
+
+He states that we will learn more about this process in chapter 6 - stay tuned!
+
+## Reflection
+
+## Enumeration
+
+## Delete
+
+## Global Abatement
 
 ## Links: 
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
