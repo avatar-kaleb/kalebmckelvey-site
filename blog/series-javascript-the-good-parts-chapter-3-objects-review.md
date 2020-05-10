@@ -108,6 +108,51 @@ const age = person?.age?.dob ?? '1-5-1911' // this is a 2020 feature of JS - see
 
 The new syntax looks great to me and will definitely simplify our JS code in the future - so I will definitely be adopting :).
 
+## Updating Objects
+
+Objects are mutable datatypes, meaning you can update the values inside an object, but the memory location doesn't change for that same object even though updates occurred.
+
+You can either update an existing value, or create a new one on the same object.
+
+*Note: I'm using a `const` which signifies that the variable itself won't be re-assigned, but in JS, `const` allows reference type values to be updated.
+
+```javascript
+const newPerson = {name: 'Kramer'};
+
+// update in place
+newPerson.name = 'George';
+console.log(newPerson); // { name: 'George'}
+
+// add new key-value pair
+newPerson.age = 30;
+console.log(newPerson); // { name: 'George', age: 30}
+```
+
+## Passing by Reference
+
+When new variables are assigned to the same object, JS uses the same memory location for that variable. This means, we can create an object variable, pass it to a function, update in that function, then use that same object outside the function with its updates.
+
+*Note: I'm not saying doing so makes sense, only that it is possible. The mutable vs Immutable data structure debate rages on, although I will admit to leaning towards the immutable side to an extent.*
+
+```javascript
+const person = {name: 'George'}; 
+const anotherPerson = person; // points to the same object as person
+const personCopy = {...person }; // creates a new object with the same properties
+
+person.name = 'Kaleb';
+console.log(person); // { name: 'Kaleb' }
+// since we assigned anotherPerson to the same object as person
+// it is updated too
+console.log(anotherPerson; // {name: 'Kaleb'}
+
+// since this was a new object we created with the same top level properties as
+// person, it remained the same
+console.log(personCopy); // { name: 'George' }
+```
+
+## Prototypes
+
+
 ## Links: 
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
