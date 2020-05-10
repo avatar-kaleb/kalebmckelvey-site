@@ -41,5 +41,5 @@ module.exports = {
       iconClassName: 'fa fa-envelope'
     }
   ],
-  copyright: 'Kaleb McKelvey Dev. Services LLC' // Copyright string for the footer of the website and RSS feed.
+  copyright: 'KM Dev. Services LLC' // Copyright string for the footer of the website and RSS feed.
 };
