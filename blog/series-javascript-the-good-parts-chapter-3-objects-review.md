@@ -2,7 +2,7 @@
 published: false
 cover: /post-images/javascript-the-good-parts-series-image.jpg
 date: '2020-05-07'
-title: 'Series: JavaScript the Good Parts - Chapter 3 - Objects Review'
+title: 'Series: JavaScript the Good Parts - Chapter 3 - Objects'
 category: Tech
 tags:
   - javascript
@@ -135,19 +135,19 @@ When new variables are assigned to the same object, JS uses the same memory loca
 *Note: I'm not saying doing so makes sense, only that it is possible. The mutable vs Immutable data structure debate rages on, although I will admit to leaning towards the immutable side to an extent.*
 
 ```javascript
-const person = {name: 'George'}; 
+const person = {name: 'Carlton'}; 
 const anotherPerson = person; // points to the same object as person
 const personCopy = {...person }; // creates a new object with the same properties
 
-person.name = 'Kaleb';
-console.log(person); // { name: 'Kaleb' }
+person.name = 'Will';
+console.log(person); // { name: 'Will' }
 // since we assigned anotherPerson to the same object as person
 // it is updated too
-console.log(anotherPerson; // {name: 'Kaleb'}
+console.log(anotherPerson; // {name: 'Will'}
 
 // since this was a new object we created with the same top level properties as
 // person, it remained the same
-console.log(personCopy); // { name: 'George' }
+console.log(personCopy); // { name: 'Carlton' }
 ```
 
 ## Prototypes
@@ -166,7 +166,106 @@ He states that we will learn more about this process in chapter 6 - stay tuned!
 
 ## Reflection
 
+"It is easy to inspect an object to determine what properties it has by attempting to retrieve the properties and examining the values obtained."
+
+You can use the `typeof` operator to see what type a property is, but there are downsides to this.
+
+First, as mentioned in the book, any property in the prototype chain will produce a value. Secondly, the typeof has its own set of gotchas (for example arrays being object types).
+
+The easiest way to determine if an object has a property? 
+
+"The `hasOwnProperty` method does not look at the prototype chain..."
+
+```javascript
+const person = {
+  name: 'Will Smith',
+  age: 51,
+  bestMovie: 'too hard to pick one'
+};
+
+// works fine
+console.log(typeof person.name) // 'string'
+
+// we can see the issue here, toString is on the prototype not person object
+console.log(typeof person.toString) // 'function
+
+// we can check via the method like so
+console.log(person.hasOwnProperty('name'); // true
+console.log(person.hasOwnProperty('toString'); // false
+```
+
 ## Enumeration
+
+When we need to loop through the properties of an object in JS, there exists a few options to choose from.
+
+The book talks through two options, the internal `for...in` loop or creating your own for loop with your own array of properties. The language has introduced a few new Object methods to help make this easier. I'll talk through each of these!
+
+### for...in
+
+This method of looping through properties of an object isn't necessarily bad, but it does have two gotchas. 
+
+The first gotcha can be annoying because it includes properties that are inherited from the object's prototype. This means you have to "filter out the values you don't want. The most common filters are the hasOwnPropertyMethod and using typeof to exclude functions". 
+
+The second gotcha causes issues because the `for...in` doesn't guarantee order, so properties can be iterated on in any order.
+
+```javascript
+// example to print only properties on the object
+const person = {
+  name: 'Charlie Munger',
+  age: 96
+};
+
+// we should never really do this, but if we did
+Object.prototype.dont = function() { console.log('hi')};
+
+for (prop in person) {
+  console.log(prop);
+}
+// prints out:
+// "name"
+// "age"
+// "dont" --- from the prototype chain
+
+// so we do this to fix that
+for (prop in person) {
+  if (person.hasOwnProperty(prop) {
+    console.log(prop);
+  }
+}
+// prints out:
+// "name"
+// "age"
+```
+
+### Your Own Properties Array
+
+This solution solves for the issue from `for...in` but requires you to know all properties you want beforehand. This is a recommended option from the book, but with the additional option of the new JS methods below, no longer needed.
+
+```javascript
+// example to print only properties on the object
+const person = {
+  name: 'Charlie Munger',
+  age: 96
+};
+
+// we use this for loop
+const properties = ['name', 'age']
+
+// we should never really do this, but if we did
+Object.prototype.dont = function() { console.log('hi')};
+
+// copying this style from the book (don't hate on the for loop :D)
+for (let i = 0; i < properties.length; i++) {
+  console.log(person[properties[i]));
+}
+// prints out:
+// Charlie Munger - name prop
+// 96 - age prop
+```
+
+### Object.entries()
+
+### Object.keys() && Object.values)_
 
 ## Delete
 
@@ -176,5 +275,6 @@ He states that we will learn more about this process in chapter 6 - stay tuned!
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [Nullish Coalescing Opterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+- [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 
 
