@@ -19,7 +19,7 @@ Let's dive in!
 
 "An object is a container of properties, where a property has a name and value. A property name can be any string, including the empty string. A property value can be any JavaScript value except for `undefined`."
 
-They are SO useful for creating collections of data and organizing it throughout an web app. They can be nested within each other and since Arrays, Functions, and regular expressions are objects, they too can be contained and mapped efficiently.
+They are SO useful for creating collections of data and organizing it throughout a web app. They can be nested within each other and since Arrays, Functions, and regular expressions are objects, they too can be contained and mapped efficiently.
 
 Objects can inherit properties from other objects through their prototypes - something we will dive into more deeply later in the article!
 
@@ -60,21 +60,17 @@ There are two options for retrieving values from an object. Both examples are us
 
 ### Dot Notation
 
-Dot notation makes an easy readable access path, but can only be used on property names that are legal non-reserved JS words.
+Dot notation makes an easily readable access path, but can only be used on property names that are legal non-reserved JS words.
 
 `const firstCompany = person.companies[0];`
 
-### String Expressions in `[]`
+### String Expressions in Square Brackets
 
-For dynamic or non legal JS words, we must use the `[]` access type. I agree with Douglas Crockford here in that this notation creates less readable code, so push for dot notation instead!
+For dynamic or illegal JS words, we must use the `[]` access type. I agree with Douglas Crockford here in that this notation creates less readable code, so push for dot notation instead!
 
 `const fullName = person['full-name']`
 
-### Avoiding Undefined Errors
-
-There are two cases that are really important for JS devs to be weary of.
-
-#### Undefined Properties
+### Avoiding Errors in Retrieval
 
 If you access a property that isn't defined, a value of undefined is returned. Further, if you try to access a property that's nested within an undefined property, a type error is through. 
 
@@ -82,7 +78,7 @@ If you access a property that isn't defined, a value of undefined is returned. F
 
 `const birthDay = person.age.dob // type error - can't access dob of undefined`
 
-We can handle defaults utilizing the `||` and avoid errors using `&&` or optional chaining in conjuniction with nullish coalescing.
+We can handle defaults utilizing the `||` and avoid errors using `&&` or optional chaining in conjunction with nullish coalescing.
 
 ```javascript
 
@@ -106,13 +102,13 @@ const age = person?.age?.dob ?? '1-5-1911' // this is a 2020 feature of JS - see
 
 ```
 
-The new syntax looks great to me and will definitely simplify our JS code in the future - so I will definitely be adopting :).
+The new syntax looks great to me and will simplify our JS code in the future - so I will be adopting it going forward.
 
 ## Updating Objects
 
 Objects are mutable datatypes, meaning you can update the values inside an object, but the memory location doesn't change for that same object even though updates occurred.
 
-You can either update an existing value, or create a new one on the same object.
+You can either update an existing value or create a new one on the same object.
 
 *Note: I'm using a `const` which signifies that the variable itself won't be re-assigned, but in JS, `const` allows reference type values to be updated.
 
@@ -130,9 +126,11 @@ console.log(newPerson); // { name: 'George', age: 30}
 
 ## Passing by Reference
 
-When new variables are assigned to the same object, JS uses the same memory location for that variable. This means, we can create an object variable, pass it to a function, update in that function, then use that same object outside the function with its updates.
+When new variables are assigned to the same object, JS uses the same memory location for that variable. 
 
-*Note: I'm not saying doing so makes sense, only that it is possible. The mutable vs Immutable data structure debate rages on, although I will admit to leaning towards the immutable side to an extent.*
+We can create an object variable, pass it to a function, update in that function, then use that same object outside the function with its updates; or, we can assign two variables to the same object, update a property in one of those variables and see that the second variable also updates.
+
+*Note: I'm not saying doing so makes sense, only that it is possible. The mutable vs Immutable data structure debate rages on, although I will admit to leaning towards the immutable side.*
 
 ```javascript
 const person = {name: 'Carlton'}; 
@@ -154,13 +152,13 @@ console.log(personCopy); // { name: 'Carlton' }
 
 "Every object is linked to a prototype object from which it can inherit properties. All objects created from object literals are linked to `Object.prototype`, an object that comes standard with JavaScript."
 
-When creating new objects, you have the option to select which object will be its prototype. This link doesn't have an effect on updates, but Douglar Crockford talks about how it effects retrieval:
+When creating new objects, you have the option to select which object will be its prototype. This link doesn't affect updates, but Douglas Crockford talks about how it affects retrieval:
 
 "The prototype link is used only in retrieval to retrieve a property value from an object, and if the object lacks the property name, then JavaScript attempts to retrieve the property value from the prototype object. And if that object is lacking the property, then it goes to its prototype, and so on until the process finally bottoms out with `Object.prototype.` If the desired property exists nowhere in the prototype chain, then the result is the undefined value. This is called *delegation*.
 
 TLDR:
 
-An object tries to retrieve a value from it's own key-values, if it cannot, then it will continue looking up the prototype chain until it reaches `Object.prototype`. If it still can't find the value, it will then be `undefined`.
+An object tries to retrieve a value from its key-values, if it cannot, then it will continue looking up the prototype chain until it reaches `Object.prototype`. If it still can't find the value, it will then be `undefined`.
 
 He states that we will learn more about this process in chapter 6 - stay tuned!
 
@@ -168,7 +166,7 @@ He states that we will learn more about this process in chapter 6 - stay tuned!
 
 "It is easy to inspect an object to determine what properties it has by attempting to retrieve the properties and examining the values obtained."
 
-You can use the `typeof` operator to see what type a property is, but there are downsides to this.
+You can use the `typeof` operator to see a property's type, but there are downsides to this.
 
 First, as mentioned in the book, any property in the prototype chain will produce a value. Secondly, the typeof has its own set of gotchas (for example arrays being object types).
 
@@ -196,13 +194,13 @@ console.log(person.hasOwnProperty('toString'); // false
 
 ## Enumeration
 
-When we need to loop through the properties of an object in JS, there exists a few options to choose from.
+When we need to loop through the properties of an object in JS, there exist a few options to choose from.
 
-The book talks through two options, the internal `for...in` loop or creating your own for loop with your own array of properties. The language has introduced a few new Object methods to help make this easier. I'll talk through each of these!
+The book talks through two options, the internal `for...in` loop or creating your own for loop with your array of properties. The language has introduced a few new Object methods to help make this easier. I'll talk through each of these!
 
 ### for...in
 
-This method of looping through properties of an object isn't necessarily bad, but it does have two gotchas. 
+This method of looping through the properties of an object isn't necessarily bad, but it does have two gotchas. 
 
 The first gotcha can be annoying because it includes properties that are inherited from the object's prototype. This means you have to "filter out the values you don't want. The most common filters are the hasOwnPropertyMethod and using typeof to exclude functions". 
 
@@ -239,7 +237,7 @@ for (prop in person) {
 
 ### Your Own Properties Array
 
-This solution solves for the issue from `for...in` but requires you to know all properties you want beforehand. This is a recommended option from the book, but with the additional option of the new JS methods below, no longer needed.
+This solution solves the issues from `for...in` but requires you to know all properties you want beforehand. This is a recommended option from the book, but with the additional option of the new JS methods below, no longer needed.
 
 ```javascript
 // example to print only properties on the object
@@ -265,7 +263,7 @@ for (let i = 0; i < properties.length; i++) {
 
 ### Object.entries()
 
-From MDN: "The `Object.entries()` method returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs, in the same order as that provded by a `for...in` loop.
+From MDN: "The `Object.entries()` method returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs, in the same order as that provided by a `for...in` loop.
 
 This awesome method can be used to enumerate over an object's key-value pairs with the `for...of` loop.
 
@@ -326,11 +324,11 @@ console.log(person.age); // 0
 
 ## Global Abatement
 
-The last section of the chapter, global abatement demonstrates the idea that many JavaScript libraries use to avoid global name conflicts. 
+In the last section of the chapter, global abatement demonstrates the idea that many JavaScript libraries use to avoid global name conflicts. 
 
 The idea is to create one global variable within a namespace of your app, for example, REACT;
 
-For all variables you want globally throughout the React library, you now place them within that top level REACT global variable - avoiding collisions with another library, such as JQUERY, who would do the same thing.
+For all variables you want globally throughout the React library, you now place them within that top-level REACT global variable - avoiding collisions with another library, such as JQUERY, who would do the same thing.
 
 I can't speak to the need of doing this, as modules have helped avoid the need to do so - please let me know if you have any use cases for applications today. I'd learn to love more about this.
 
@@ -340,5 +338,11 @@ I can't speak to the need of doing this, as modules have helped avoid the need t
 - [Nullish Coalescing Opterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
 - [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 - [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+## Wrap-up
+
+There you have it folks - Objects from `JavaScript: The Good Parts` with the addition of a few new language features.
+
+Objects are one of my favorite parts of JS and I hope this helped you in understanding them better!
 
 
