@@ -265,16 +265,80 @@ for (let i = 0; i < properties.length; i++) {
 
 ### Object.entries()
 
-### Object.keys() && Object.values)_
+From MDN: "The `Object.entries()` method returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs, in the same order as that provded by a `for...in` loop.
+
+This awesome method can be used to enumerate over an object's key-value pairs with the `for...of` loop.
+
+
+```javascript
+// example to print only properties on the object
+const person = {
+  name: 'Charlie Munger',
+  age: 96
+};
+
+// note this is using array destructing to return the key and value variables
+for (let [key, value] of Object.entries(person)) {
+ console.log(`${key}: ${value}`);
+}
+
+// prints out:
+// name: Charlie Munger
+// age: 96
+```
+
+### Object.keys() && Object.values()
+
+Alternatively, you can create arrays of either keys or values of an object's own enumerable properties using two other Object methods: `keys and values`.
+
+```javascript
+// example to print only properties on the object
+const person = {
+  name: 'Charlie Munger',
+  age: 96
+};
+
+console.log(Object.keys(person); // ['name', 'age']
+console.log(Object.values(person); // ['Charlie Munger', 96]
+```
+
+The new JS functions are very helpful for enumeration - making it an easy task.
 
 ## Delete
 
+"The delete operator can be used to remove a property from an object. It will remove a property from the object if it has one. It will not touch any of the objects in the prototype linkage."
+
+One highlight the book talks through when deleting a property, you may allow the prototype's property to come through. 
+
+```javascript
+const AllPeople = {name: 'default name', age: 0};
+
+// Object.create uses the prototype of the object to create a new one
+const person = Object.create(AllPeople);
+person.name = 'Brandon Sanderson';
+person.age = 44;
+
+// deletes the age 44, but since the prototype is linked to AllPeople, 0 comes through
+delete person.age;
+
+console.log(person.age); // 0
+```
+
 ## Global Abatement
+
+The last section of the chapter, global abatement demonstrates the idea that many JavaScript libraries use to avoid global name conflicts. 
+
+The idea is to create one global variable within a namespace of your app, for example, REACT;
+
+For all variables you want globally throughout the React library, you now place them within that top level REACT global variable - avoiding collisions with another library, such as JQUERY, who would do the same thing.
+
+I can't speak to the need of doing this, as modules have helped avoid the need to do so - please let me know if you have any use cases for applications today. I'd learn to love more about this.
 
 ## Links: 
 - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [Nullish Coalescing Opterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
 - [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+- [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 
 
