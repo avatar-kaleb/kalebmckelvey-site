@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/javascript-the-good-parts-series-image.jpg
 date: '2020-05-07'
 title: 'Series: JavaScript the Good Parts - Chapter 3 - Objects'
