@@ -76,7 +76,8 @@ If you access a property that isn't defined, a value of undefined is returned. F
 
 `const age = person.age //undefined`
 
-`const birthDay = person.age.dob // type error - can't access dob of undefined`
+// type error - can't access dob of undefined`
+`const birthDay = person.age.dob 
 
 We can handle defaults utilizing the `||` and avoid errors using `&&` or optional chaining in conjunction with nullish coalescing.
 
