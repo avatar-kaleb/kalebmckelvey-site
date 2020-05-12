@@ -60,11 +60,11 @@ array[149]; // undefined
 You can manually update the length property, when making it smaller, it will delete the items above the number set.
 
 ```javascript
-const array = [0,1,2,3,4];
+const array = [0, 1, 2, 3, 4];
 array.length; // 5
 
 array.length = 2;
-console.log(array); // [0,1];
+console.log(array); // [0, 1];
 ```
 
 ## Delete
@@ -72,7 +72,9 @@ console.log(array); // [0,1];
 Technically you can delete positions in the array using the delete operator;
 
 ```javascript
-const array = [0,1,2];
+const array = [0, 1, 2];
+
+// don't do this
 delete array[0];
 ```
 
@@ -80,7 +82,7 @@ But this leaves a nasty hole in the array, which we don't want.
 
 There are other alternatives that are much better!
 
-### Mutable Option
+### Splice - Mutable Option
 
 Arrays come with the `splice` method, which mutates the array and updates the positions of items within it. 
 
@@ -91,18 +93,37 @@ Secondly, many frame works use `===` equality checks to determine whether data h
 This is why immutable manipulation is preferred over splice.
 
 ```javascript
+const array = [0, 1, 2];
+
+// deletes first index
+array.splice(0, 1);
+console.log(array); // [1, 2];
 
 ```
 
-### Immutable Options
+###  Slice & Spread - Immutable Options
 
 Immutable means that we are not changing the initial array when deleting or adding elements, instead we are creating a new array with the updated data.
 
 ##### Slice & Spread
 
 ```javascript
+let array = [0, 1, 2];
+
+// returns a copy of the array from index 1
+const newArray = array.slice(1);
+console.log(newArray); // [1, 2];
+
+// deletes index 1
+const anotherNewArray = [...array.slice(0, 1), ...array.slice(2)];
+console.log(anotherNewArray); // [0, 2]
+
+// array stayed the same
+console.log(array); // [0, 1, 2]
 
 ````
+
+## Enumeration
 
 ## Links
 - Arrays
