@@ -154,6 +154,8 @@ The `fill` method with amp can make this simple. [Check out my article](https://
 - [Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
+Thank you for reading!
+
 
 
 
