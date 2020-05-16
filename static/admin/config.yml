@@ -13,10 +13,11 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: published, label: 'Published?', widget: "boolean", default: false }
+      - { name: published, label: 'Published?', widget: 'boolean', default: false }
       - { name: cover, label: 'Cover Image', widget: image }
       - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
       - { name: title, label: Title }
+      - { name: canonical_url, label: Canonical }
       - { name: category, label: Category }
       - { name: tags, label: Tags, widget: list }
       - { name: body, label: Body, widget: markdown }
