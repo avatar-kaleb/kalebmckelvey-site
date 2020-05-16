@@ -61,7 +61,10 @@ export default class PostTemplate extends React.Component {
       <div className="post-page md-grid md-grid--no-spacing animated fadeIn slow">
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
-          <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
+          <link
+            rel="canonical"
+            href={post.canonical_url ? post.canonical_url : `${config.siteUrl}${post.id}`}
+          />
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <PostCover postNode={postNode} isMobile={isMobile} />
@@ -99,6 +102,7 @@ export const pageQuery = graphql`
         date
         category
         tags
+        canonical_url
       }
       fields {
         nextTitle
