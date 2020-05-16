@@ -1,4 +1,5 @@
 ---
+canonical_url: 'https://www.kalebmckelvey.com/blog/series-java-script-the-good-parts-chapter-3-objects'
 published: true
 cover: /post-images/javascript-the-good-parts-series-image.jpg
 date: '2020-05-07'
