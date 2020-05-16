@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/interview-guide.jpg
 date: '2020-05-16'
 title: 'Honeypot Cult Article: The Ultimate Guide to Passing Tech '
