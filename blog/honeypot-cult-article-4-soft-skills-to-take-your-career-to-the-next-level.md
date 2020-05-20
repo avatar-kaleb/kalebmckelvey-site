@@ -58,17 +58,17 @@ To summarise, communication skills are a vital tool in the toolbox for effective
 
 There are a few rules to follow when communicating that can help drive a higher impact on the business and stronger relationships within the team.
 
-Be respectful to others and be part of upholding that standard within the organization
+- Be respectful to others and be part of upholding that standard within the organization
 
-Be open-minded in disagreements, if someone disagrees, find out why and use facts to determine the best results
+- Be open-minded in disagreements, if someone disagrees, find out why and use facts to determine the best results
 
-Focus on results instead of being right or wrong
+- Focus on results instead of being right or wrong
 
-Answer what, when, where, why, and who when communicating to give the correct context for others
+- Answer what, when, where, why, and who when communicating to give the correct context for others
 
-Keep your ego in check
+- Keep your ego in check
 
-Avoid complaints without potential solutions
+- Avoid complaints without potential solutions
 
 Although we communicate every single day, like any other skill set, we must practice to become better!
 
