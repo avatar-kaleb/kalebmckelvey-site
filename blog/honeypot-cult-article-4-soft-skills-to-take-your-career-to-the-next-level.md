@@ -9,6 +9,8 @@ tags:
   - writing portfolio
   - career
 ---
+> This article was authored as a contribution to the Honeypot [Cult community](https://cult.honeypot.io/reads/soft-skills-in-career) - you can read it there too!
+
 Upon graduating from college, I made a huge life decision to take on a new job in a new city at GE Healthcare. 
 
 The role was a two-year rotational leadership program that allowed program members to change teams within the IT organisation every six months. Our projects were technical and leadership based, which allowed us to gain experience both while learning from all of the great people on the various teams within the different segments of the IT organisation.
