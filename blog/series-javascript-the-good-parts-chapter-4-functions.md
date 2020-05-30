@@ -72,3 +72,187 @@ math(1,2, 'MATH') // returns 3
 
 ```
 
+## Invocation 
+
+"Invoking a function suspends the execution of the current function, passing control and parameters to the new function."
+
+Each function in JS receive two additional parameters: `this` and `arguments. The `this` parameter is one of the most misunderstood parts of JS, yet it is very important for utilizing object oriented patterns in the language.
+
+There are four invocation patterns in JavaScript, each one determining how the `this` parameter is initialized.
+
+The invocation operator ,`()`, "follows any expression that produces a function value." 
+
+You can pass zero or more arguments (you can even pass expressions that evaluate to an argument) within the parenthesis to the function. JS doesn't verify that the number of arguments passed match the parameter of that function or type check them at all. Arguments will be set to undefined if no value is passed into it when called.
+
+### The Method Invocation Pattern
+
+"When a function is stored as a propery of an object, we call it a method. When a method is invoked, `this` is bound to that object."
+
+Modified example from the book:
+```javascript
+/**
+* Creates a counter object, where the value is stored  
+* within that object and the increment method is called 
+* from that same object, allowing us to use `this.value` 
+* to update it.
+**/
+const counterObject = {
+   value: 0,
+   increment: function increment(num) {
+      this.value += typeof num === 'number' ? num : 1;
+   }
+};
+
+counterObject.increment();
+console.log(counterObject.value); // 1
+
+counterObject.increment(3);
+console.log(counterObject.value); // 4
+```
+
+Methods can use `this` to access or modify properties on that object. The `this` parameters is bound late in JS, specifically at invocation time, making it re-usable across any object. "Methods that get their object context from `this` are called _public methods_."
+
+
+### The Function Invocation Pattern
+
+"When a function is invoked with this pattern, `this` is bound to the global object. This was a mistake in the design of the language."
+
+"A consequence of this error is that a method cannot employ an inner function to help it do its work because the inner function does not share the method's access to the object as its this is bound to the wrong value."
+
+The example used in this section is really tough to follow and the explanation makes this concept seem very difficult to grasp. 
+
+Let me try to show it through code and comments to help!
+
+```javascript
+// we have to use var here because const doesn't get stored on
+// the global object
+// if we use const, then the cost variable will be undefined in our logTotalCost function, since it uses the global scope
+var cost = 500;
+const product = {
+    cost: 100,
+    addTax: function() {
+        const tax = 5;
+        
+        // we want to add the tax to the cost of the product
+        // since this was called with the method invocation pattern
+        // this.cost is the cost of the object, 100, then we add tax
+        this.cost += tax;
+
+        const logTotalCost = function() {
+            console.log(this.cost);
+        }
+
+        // we can work around this by doing:
+        const that = this;
+        const logTotalCostWorkAround = function() {
+           console.log(that.cost); // outputs 105;
+        }
+
+
+        // Since we use the Function invocation pattern here to call the function
+        // it will be called on the global this...
+        // which has a cost variable of 500, not 105.
+        logTotalCost();
+    }
+}
+
+// Method invocation pattern
+product.addTax(); 
+```
+
+### The Constructor Invocation Pattern
+
+"JavaScript is a prototypal inheritance language. That means objects can inherit properties directly from other objects. The language is class-free...Prototypal inheritance is powerfully expressive, but is not widely understood."
+
+"If a function is invoked with the `new` prefix, then a new object will be created with a hidden link to the value of the function's `prototype` member, and `this` will be bound to that new object."
+
+The `new` prefix changes the return statement behavior also.
+
+```javascript
+// Create a "constructor" function called Animal which
+// creates an object with its own name property
+const Animal = function(name) {
+  this.name = name;
+}
+
+// We give all Animal objects a public method of getName
+// to return that objects name
+Animal.prototype.getName = function() {
+   return this.name;
+}
+```
+
+// we create two instances of Animal objects
+const cheetah = new Animal('Cheetah');
+const lion = new Animal('Lion');
+
+// We use the public method
+console.log(cheetah.getName()); // 'Cheetah'
+console.log(lion.getName()); // 'Lion'
+
+Constructor functions uses Pascal case within JavaScript to show it is an object that resembles a re-usable class.
+
+Douglas Crockford states this pattern isn't recommend, but doesn't state why in this chapter.
+
+### The Apply Invocation Pattern
+
+In JavaScript, functions can also have methods. We use the apply method to construct an array of arguments and state the value we want to use for `this` when calling a function.
+
+```javascript
+const add = function add(a, b) {  
+  return a + b;
+}
+
+const numbersToAdd = [3, 3];
+
+// apply the arguments to the function we're calling
+const sum = add.apply(null, numbersToAdd);
+console.log(sum); // 6
+
+// demonstrating changing this with the animal class above
+const animalObject = {
+   name: 'Liger'
+}
+
+// we're saying call the animal prototype with `this` assigned 
+// to the animalObject
+const name = Animal.prototype.getName.apply(animalObject);
+console.log(name); // Liger
+```
+
+Hope this helps clear up the different invocation patterns! Please let me know of any questions in the comments.
+
+## Arguments 
+
+The arguments parameter available to functions on invocation gives access to all arguments passed in, even arguments that are not assigned parameters - giving the ability to write functions that take any number of params.
+
+```javascript
+const addABunchOfNumbers = function addABunchOfNumbers() {  
+  let sum = 0;
+  for (let i = 0; i < arguments.length; i++) {    
+    sum += arguments[i];  
+  }    
+  return sum;
+}
+
+console.log(addABunchOfNumbers(1,2,3,4)); // 10
+
+```
+
+You can use [Rest Params](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) instead!
+
+## Return
+
+JS functions are interesting that they implicitly return `undefined` when there isn't a return specified with the `return` reserved word.
+
+```javascript
+const log = function log(num) {
+  console.log(num);
+}
+
+const returnedValue = log(3);
+console.log(returnedValue); // undefined
+```
+
+## Exceptions 
+
