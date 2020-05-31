@@ -330,3 +330,96 @@ console.log(getNthFib(5))
 ```
 
 ## Scope
+
+"Scope in a programming language controls the visibility and life-times of variables and parameters...it reduces naming collisions and provides automatic memory management."
+
+When this book was written, JavaScript did not have built in block scoping, only function scoping. This causes confusion for many, because the blocks look familiar although the scoping rules are not.
+
+"JavaScript does have function scope. That means the parameters and variables defined in a function are not visible outside of that function, and that a variable defined anywhere within a function is visible everywhere within the function."
+
+A debatable statement made by Douglas Crockford to declare all variables at the beginning of a statement may no longer be necessary with the introduction of `const` and `let` into JS.
+
+## Closure
+
+TODO write this better and do more research
+
+We discussed closure at the beginning of the post, but the book dives deeper into it here. In the past, without a real module system, JS devs had to improve with what is known as IIFE Immediately-invoked Function Expression.
+
+This was used to hide the context of variables within a function from the outside world, allowing abstraction to work.
+
+The reason this is interesting is because we must note that the variables within that function are still in memory and continue to live on past the outer scope it's created in, while that function is being used in the program.
+
+Here's the example from the book:
+
+```javascript
+var myObject = (function () {
+    var value = 0;
+
+    return {
+        increment: function (inc) {
+          value += typeof inc === 'number' ? inc : 1;
+        },
+        getValue: function (  ) {
+            return value;
+        }
+    };
+}());
+```
+
+We assign the result of the function invocation to `myObject`, which returns an object containing two methods and have access to the `value` variable.
+
+## Callbacks
+
+Since JavaScript used on the web allows for interactivity within the browser, we use async programming to allow our processing to continue even when waiting for requests to complete.
+
+Updated example from the book
+```javascript
+request = prepareRequest(  );
+sendRequestAsynchronously(request, function (response) {
+    // whenever the request comes back, we use the callback to interact with it. It could be in 1 second or 5.
+    display(response);
+}); We pass a function
+```
+
+Most applications today take advantage of [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [async / await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) to handle asynchronous functionality.
+
+
+## Module pattern
+
+[JS modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
+## Cascade / Chaining
+
+## Curry
+
+## Memoization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
