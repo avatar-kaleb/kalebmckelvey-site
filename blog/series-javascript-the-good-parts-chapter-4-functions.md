@@ -256,3 +256,77 @@ console.log(returnedValue); // undefined
 
 ## Exceptions 
 
+JavaScript enables simple exception handling via `try/catch` and `throw` statements.
+
+`Throw` statements interrupt current execution and can be an object with error `name` and `message` properties. Additional object properties can be added as well.
+
+We can use `try/catch` blocks to try to execute statements and catch any thrown errors, allowing us to easily handle unexpected errors gracefully.
+
+```javascript
+const divide = function(numerator, denominator) {
+  if (denominator === 0) {
+    throw {
+      name: 'DivideByZero',
+      message: 'Unable to divide by zero.'
+    }
+  }
+  return numerator / denominator
+}
+
+try {
+  divide(3, 0);
+} catch(error) {
+   console.log(`Couldn't divide: ${error}`);
+}
+```
+
+## Augmenting Types
+
+By changing the base type prototypes in JS, you can add your own functionality and enable your programs to use it throughout.
+
+One example used in the book was a `trim` method for Strings. This has since been added to the language, but does demonstrate how we could have added beforehand.
+
+```javascript
+Function.prototype.fakeUpdate = function () {
+  console.log('I updated the function prototype with a new method :D');
+  return true;
+}
+
+const test = function() {
+  console.log('test');
+}
+
+// use fake method
+console.log(test.fakeUpdate());
+// I updated the function prototype with a new method :D
+// true
+```
+
+The ability to augment basic types gives us the opportunity to make improvements to JS in our programs thanks to this prototypal inheritance.
+
+Collisions can happen, like the [Moo Tools](https://developers.google.com/web/updates/2018/03/smooshgate) flatten debacle. We can namespace our updates within a global property to help avoid this.
+
+## Recursion
+
+JavaScript does allow recursive functions, or functions that call itself. Recursive functions are used for algorithms that can be broken down into smaller and smaller subproblems until a base case is reached.
+
+JS does not offer tail recursion optimization, which functions that recurse can sometimes be transformed into a loop for better efficiency. Because of this, one must be careful in the number of recursions a function will have as the stack may run out if too many calls occur.
+
+The [fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) is a common problem solved naively with recursion:
+
+```javascript
+const getNthFib = function(n) {
+  if (n === 1) {
+    return 0;
+  } else if (n === 2) {
+    return 1;
+  } else {
+    return getNthFib(n-1) + getNthFib(n-2);
+  }
+}
+
+console.log(getNthFib(5)) 
+// outputs 3
+```
+
+## Scope
