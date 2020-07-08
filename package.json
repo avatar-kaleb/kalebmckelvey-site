@@ -16,7 +16,7 @@
     "gatsby-plugin-google-analytics": "2.0.7",
     "gatsby-plugin-layout": "~1.0.10",
     "gatsby-plugin-lodash": "3.0.2",
-    "gatsby-plugin-mailchimp": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2",
+    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "2.0.7",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-netlify": "~2.0.6",
