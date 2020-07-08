@@ -89,5 +89,13 @@ export default [
      Unhappy at your job? Find a way to change what is making you unhappy or find a new job. 
      Unhappy with your commute? Find a new apartment. 
      Easy to say harder to do right? Life isn't easy and we must use grit to get through the challenges!`
+  },
+  ,
+  {
+    id: 13,
+    title: 'Your Habits Change Your Life',
+    value: `Every day you have 24 hours, what are some of the things you always do? Do you read?
+    Do you meditate? Exercise? Write? Those daily habits and systems that make you who you are
+    also dictate who youw ill become. Choose those habits wisely.`
   }
 ];

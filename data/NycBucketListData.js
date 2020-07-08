@@ -385,5 +385,21 @@ export default [
     status: Statuses.Complete,
     title: 'See the Knicks at MSG',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.two,
+    categories: [Categories.Beach],
+    description: 'Enjoy the ocean waters and Boardwalk at Rockaway Beach in Queens!!',
+    expectedRating: Ratings.Five,
+    featuredImageUrl: 'stockBeachRockaway.jpg',
+    id: 'knicksMsg',
+    location: Locations.Manhattan,
+    tags: [],
+    realRating: Ratings.Five,
+    season: Seasons.Summer,
+    status: Statuses.Complete,
+    title: 'Visit Rockaway Beach',
+    youtubeVideoLink: ''
   }
 ];

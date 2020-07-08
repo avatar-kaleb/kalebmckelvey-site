@@ -26,6 +26,23 @@ export default {
           ]
         },
         {
+          name: 'Architecture',
+          resources: [
+            {
+              name:
+                'Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems',
+              link:
+                'https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321'
+            },
+            {
+              name:
+                "Clean Architecture: A Craftsman's Guide to Software Structure and Design(Robert C.Martin Series)",
+              link:
+                'https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/'
+            }
+          ]
+        },
+        {
           name: 'Javascript',
           resources: [
             {
@@ -66,6 +83,10 @@ export default {
             {
               name: 'JavaScript Weekly',
               link: 'https://javascriptweekly.com/'
+            },
+            {
+              name: 'Just Javascript',
+              link: 'https://justjavascript.com/'
             },
             {
               name: 'Overreacted',
@@ -144,8 +165,7 @@ export default {
             },
             {
               name: 'Visual Studio Code - Settings Sync',
-              link:
-                'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync',
+              link: 'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync',
               description:
                 'Easily download/upload to share settings by following the Settings Sync walk through. If interested, use my public gist (baad940d8ae370312e4a748cc3cdc8d6) to stay updated with my recommended theme, settings, extensions! Utilizing Visual Studio Code, you can increase your productivity as a developer!'
             }
@@ -174,8 +194,7 @@ export default {
             {
               name: 'ITerm2',
               link: 'https://www.iterm2.com/',
-              description:
-                'Increase your productivity in the terminal with the little things.'
+              description: 'Increase your productivity in the terminal with the little things.'
             },
             {
               name: 'Oh My Zsh',
@@ -227,8 +246,7 @@ export default {
             {
               name: 'MomentJS',
               link: 'https://momentjs.com/',
-              description:
-                'Makes dates, time, and durations a breeze. Caution: Large sized lib!'
+              description: 'Makes dates, time, and durations a breeze. Caution: Large sized lib!'
             },
             {
               name: 'Redux',
@@ -258,8 +276,7 @@ export default {
             {
               name: 'Bulma',
               link: 'https://bulma.io/',
-              description:
-                'CSS framework based on flexbox to make responsive layouts easy'
+              description: 'CSS framework based on flexbox to make responsive layouts easy'
             },
             {
               name: 'Animate',
@@ -340,20 +357,17 @@ export default {
             },
             {
               name: "Poor Charlie's Almanack",
-              link:
-                'https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018'
+              link: 'https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018'
             },
             {
               name:
                 'Damn Right: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger',
-              link:
-                'https://www.amazon.com/Damn-Right-Berkshire-Hathaway-Billionaire/dp/0471446912'
+              link: 'https://www.amazon.com/Damn-Right-Berkshire-Hathaway-Billionaire/dp/0471446912'
             },
             {
               name:
                 'The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company',
-              link:
-                'https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091'
+              link: 'https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091'
             }
           ]
         },
@@ -386,8 +400,7 @@ export default {
                 'https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/ref=sr_1_1?crid=31Y8CKMYZNLRX&keywords=predictably+irrational&qid=1568286423&s=digital-text&sprefix=predict%2Cdigital-text%2C131&sr=1-1'
             },
             {
-              name:
-                'Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets',
+              name: 'Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets',
               link:
                 'https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto-ebook/dp/B001FA0W5W/ref=sr_1_1?crid=2I9PL22OUD74D&keywords=fooled+by+randomness&qid=1568286454&s=digital-text&sprefix=fooled+by+ra%2Cdigital-text%2C128&sr=1-1'
             },
@@ -397,8 +410,7 @@ export default {
                 'https://www.amazon.com/Decisive-Make-Better-Choices-Life/dp/0307956393/ref=pd_sbs_14_44?_encoding=UTF8&pd_rd_i=0307956393&pd_rd_r=9b85b2e3-71b8-4fb7-b74b-9660cce8a497&pd_rd_w=bxYDF&pd_rd_wg=1XfYH&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=0TKJMD4WP6DP4XGMH17F&psc=1&refRID=0TKJMD4WP6DP4XGMH17F'
             },
             {
-              name:
-                'Nudge: Improving Decisions About Health, Wealth, and Happiness',
+              name: 'Nudge: Improving Decisions About Health, Wealth, and Happiness',
               link:
                 'https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X/ref=pd_sbs_14_30?_encoding=UTF8&pd_rd_i=014311526X&pd_rd_r=cc428931-bd3f-4803-9ab6-43292ab1f231&pd_rd_w=WCXE6&pd_rd_wg=JrunX&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=KT3540YZX41Y6J7BPRGR&psc=1&refRID=KT3540YZX41Y6J7BPRGR'
             },
@@ -414,8 +426,7 @@ export default {
           resources: [
             {
               name: 'Bartimeus Trilogy',
-              link:
-                'https://www.amazon.com/Bartimaeus-3-book-boxed-set-Trilogy/dp/1423136829'
+              link: 'https://www.amazon.com/Bartimaeus-3-book-boxed-set-Trilogy/dp/1423136829'
             },
             {
               name: 'Harry Potter',
@@ -429,13 +440,11 @@ export default {
             },
             {
               name: "The Ranger's Apprentice",
-              link:
-                'https://www.amazon.com/Rangers-Apprentice-Complete-Book-Set/dp/B00PHO4HZ8'
+              link: 'https://www.amazon.com/Rangers-Apprentice-Complete-Book-Set/dp/B00PHO4HZ8'
             },
             {
               name: 'The Stormlight Archives',
-              link:
-                'https://brandonsanderson.com/books/the-stormlight-archive/"'
+              link: 'https://brandonsanderson.com/books/the-stormlight-archive/"'
             },
             {
               name: 'The MistBorn Series',
@@ -443,13 +452,11 @@ export default {
             },
             {
               name: 'Elantris',
-              link:
-                'https://www.amazon.com/Elantris-Brandon-Sanderson-ebook/dp/B005DXP7T8'
+              link: 'https://www.amazon.com/Elantris-Brandon-Sanderson-ebook/dp/B005DXP7T8'
             },
             {
               name: 'Warbreaker',
-              link:
-                'https://www.amazon.com/Warbreaker-Brandon-Sanderson/dp/0765360039'
+              link: 'https://www.amazon.com/Warbreaker-Brandon-Sanderson/dp/0765360039'
             }
           ]
         },
@@ -460,6 +467,10 @@ export default {
               name: '7 Habits of Highly Effective People',
               link:
                 'https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1494126313&amp;sr=1-1&amp;keywords=7+habits+of+highly+effective+people'
+            },
+            {
+              name: 'Atomic Habits',
+              link: 'https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07RFSSYBH/'
             },
             {
               name: 'Getting Things Done',
@@ -473,8 +484,7 @@ export default {
             },
             {
               name: ' IChing Wisdom',
-              link:
-                'https://www.amazon.com/Ching-Wisdom-One-Guidance-Answers/dp/0943015421'
+              link: 'https://www.amazon.com/Ching-Wisdom-One-Guidance-Answers/dp/0943015421'
             },
             {
               name: 'Leading with Heart',
@@ -483,8 +493,7 @@ export default {
             },
             {
               name: 'Subtle Art of Not Giving a F***',
-              link:
-                'https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713'
+              link: 'https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713'
             },
             {
               name: 'The Magic of Thinking Big',
@@ -504,13 +513,11 @@ export default {
             {
               name:
                 "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love",
-              link:
-                'https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124'
+              link: 'https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124'
             },
             {
               name: 'How to Have Confidence and Power in Dealing with People',
-              link:
-                'https://www.amazon.com/Have-Confidence-Power-Dealing-People/dp/0988727536'
+              link: 'https://www.amazon.com/Have-Confidence-Power-Dealing-People/dp/0988727536'
             }
           ]
         },
@@ -529,13 +536,11 @@ export default {
             },
             {
               name: 'The Millionaire Next Door',
-              link:
-                'https://www.dukeofdollars.com/building-wealth/millionaire-next-door-review/'
+              link: 'https://www.dukeofdollars.com/building-wealth/millionaire-next-door-review/'
             },
             {
               name: 'Unshakeable',
-              link:
-                'https://dukeofdollars.com/building-wealth/unshakeable-review-p1/'
+              link: 'https://dukeofdollars.com/building-wealth/unshakeable-review-p1/'
             },
             {
               name: 'Your Life or Your Money',
@@ -549,8 +554,7 @@ export default {
             },
             {
               name: 'A Random Walk Down Wall Street',
-              link:
-                'https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338'
+              link: 'https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338'
             },
             {
               name: 'One Up on Wall Street',
@@ -636,10 +640,6 @@ export default {
         {
           name: 'Personal Finance',
           resources: [
-            {
-              name: 'Duke of Dollars',
-              link: 'https://dukeofdollars.com'
-            },
             {
               name: 'Joshua Kennon',
               link: 'https://joshuakennon.com'

@@ -16,8 +16,7 @@ export default [
   },
   {
     id: 3,
-    link:
-      'https://www.joshuakennon.com/give-yourself-permission-to-be-disliked/',
+    link: 'https://www.joshuakennon.com/give-yourself-permission-to-be-disliked/',
     title: 'Give Yourself Permission to be Disliked',
     value: `This article has changed my perspective on the world - what an incredible view and  honest article.`
   },
@@ -30,8 +29,7 @@ export default [
   {
     id: 5,
     link: 'https://www.youtube.com/watch?v=pxBQLFLei70',
-    title:
-      'University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven',
+    title: 'University of Texas at Austin 2014 Commencement Address - Admiral William H. McRaven',
     value: `Make your bed. Don't ever, ever ring the bell!`
   },
   {
@@ -54,5 +52,12 @@ export default [
     title: 'Kobe Bryant’s Last Great Interview',
     value:
       "Kobe Bryant's mindset was absolutely amazing, this video explores many parts of his life with a few funny stories. RIP the legend!"
+  },
+  ,
+  {
+    id: 9,
+    link: 'https://www.youtube.com/watch?v=AtGW6dRxVao',
+    title: 'A Few Great Uncle Iroh Scenes',
+    value: "In Avatar the Last Airbender, Uncle Iroh's gives us great wisdom throughout the show!"
   }
 ];
