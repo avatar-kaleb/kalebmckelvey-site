@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/quick-lightning-tip-post-image.jpg
 date: '2020-07-16'
 title: 'Angular Lightning Quick Tip: [ngClass] and Compound Logic'
