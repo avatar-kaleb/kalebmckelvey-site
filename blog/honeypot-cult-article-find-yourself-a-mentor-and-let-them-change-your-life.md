@@ -9,6 +9,7 @@ category: Journey to Achieve
 tags:
   - career
   - mentors
+  - writing portfolio
 ---
 > This article was authored as a contribution to the Honeypot [Cult community](https://cult.honeypot.io/reads/find-yourself-a-mentor-let-them-change-your-life) - you can read it there too!
 
