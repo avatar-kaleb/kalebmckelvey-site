@@ -48,7 +48,7 @@
     "marked": "~0.4.0",
     "moment": "~2.24.0",
     "netlify-cms": "~2.3.1",
-    "node-sass": "~4.10.0",
+    "node-sass": "~4.13.1",
     "prismjs": "~1.15.0",
     "react": "~16.8.0",
     "react-dom": "~16.8.0",
