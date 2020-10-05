@@ -63,13 +63,13 @@ export default [
     description:
       'After saving up for a few months, we want to head to the hamptons to experience a luxurious, relaxing weekend!',
     expectedRating: Ratings.five,
-    featuredImageUrl: 'theHamptonsBeach.jpg',
+    featuredImageUrl: 'hamptonsPano.jpg',
     id: 'weekendHamptonsTrip',
     location: Locations.Hamptons,
     tags: [],
     realRating: Ratings.TBD,
     season: Seasons.Summer,
-    status: Statuses.ReadyToLaunch,
+    status: Statuses.Complete,
     title: 'Weekend at the Hamptons',
     youtubeVideoLink: ''
   },
