@@ -6,6 +6,19 @@ const { GraphQLJSONObject } = require(`graphql-type-json`);
 const striptags = require(`striptags`);
 const lunr = require(`lunr`);
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const MarkdownRemarkFields = `
+    type MarkdownRemarkFields implements Node {
+      nextTitle: String
+      nextSlug: String
+      prevTitle: String
+      prevSlug: String
+    }
+  `;
+  createTypes(MarkdownRemarkFields);
+};
+
 const postNodes = [];
 
 function addSiblingNodes(createNodeField) {

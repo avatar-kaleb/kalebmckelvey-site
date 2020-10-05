@@ -9,13 +9,14 @@ tags:
   - devops
   - development practices
 ---
+
 Last week our leadership team allowed us to learn from one of the top consulting software development firms in the world: Pivotal Labs.
 
 I had been very excited to head down Chicago and see the differences in how they operate compared to our team. Meeting in Chicago means at least a 4:00 am alarm and a 90-minute drive before traffic - thankfully none of us were late!
 
 We arrived around at their office around 6:45 am and waited for everyone else to arrive before breakfast - we ate with them (they get free breakfast every day!) before their daily stand up.
 
-## Why Visit [Pivotal](https://pivotal.io/labs)?
+## Why Visit [Pivotal](https://pivotal.io/labs)
 
 We visited their office to learn from one of the best.
 
@@ -35,7 +36,7 @@ I'm unsure how much detail I can go into, so the things I'll share will be thing
 
 Pivotal labs had dedicated work hours since everyone was co-located, allowing them to almost always pair program.
 
-By doing this, they were able to constantly do code reviews (so they didn't have to for pull requests) and ensure that good practices were followed. Further, if someone had to step away for a 1-on-1 with their manager, progress on the story could continue. Not only did they do the pair programming, all of the monitors we were able to get a glance of had a test file on the right and code on the left within the split-screen editor. 
+By doing this, they were able to constantly do code reviews (so they didn't have to for pull requests) and ensure that good practices were followed. Further, if someone had to step away for a 1-on-1 with their manager, progress on the story could continue. Not only did they do the pair programming, all of the monitors we were able to get a glance of had a test file on the right and code on the left within the split-screen editor.
 
 They always wrote their test first before coding (TDD), with very descriptive expected functionality to make it easy to learn of any problems later. I liked one thing our tour guide mentioned here about why they do this.
 
@@ -61,7 +62,7 @@ Why?
 
 They knew their user story and they didn't have many meetings and they didn't communicate story progresses via e-mail, but via tools. This helped them track the context and changes within the story; giving them a huge plus for their developer productivity - awesome to see in action.
 
-# What's Next?
+# What's Next
 
 For our team, I think the first big step we will be taking is test-driven development.
 
@@ -73,7 +74,7 @@ I can't wait to try it out and also to do a quick run-through of all of our past
 
 # Concluding Thoughts
 
-Accelerating your own best practices by learning from those who do it best leads to sure improvement. We're  eager to dive in this week to start incorporating the learnings into our young team.
+Accelerating your own best practices by learning from those who do it best leads to sure improvement. We're eager to dive in this week to start incorporating the learnings into our young team.
 
 The director of their office in Chicago was well-read, and I'll be asking him for some book recommendations since he kept quoting them throughout the tour (impressive!).
 

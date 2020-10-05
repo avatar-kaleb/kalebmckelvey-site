@@ -2,13 +2,12 @@ import React from 'react';
 import {
   FacebookIcon,
   FacebookShareButton,
-  // FacebookShareCount,
+  FacebookShareCount,
   LinkedinIcon,
   LinkedinShareButton,
-  // LinkedinShareCount,
   RedditIcon,
   RedditShareButton,
-  // RedditShareCount,
+  RedditShareCount,
   TwitterIcon,
   TwitterShareButton
 } from 'react-share';
@@ -32,18 +31,18 @@ const SocialLinks = ({ postNode, postPath, isMobile }) => {
       <div className='social-links'>
         <RedditShareButton className='shareButton--cursor' url={url} title={post.title}>
           <RedditIcon round size={iconSize} />
-          {/* <RedditShareCount className='shareButton--cursor' url={url}>
+          <RedditShareCount className='shareButton--cursor' url={url}>
             {(count) => <div className='share-count'>{filter(count)}</div>}
-          </RedditShareCount> */}
+          </RedditShareCount>
         </RedditShareButton>
         <TwitterShareButton className='shareButton--csursor' url={url} title={post.title}>
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
         <FacebookShareButton className='shareButton--cursor' url={url} quote={postNode.excerpt}>
           <FacebookIcon round size={iconSize} />
-          {/* <FacebookShareCount url={url}>
+          <FacebookShareCount url={url}>
             {(count) => <div className='share-count'>{filter(count)}</div>}
-          </FacebookShareCount> */}
+          </FacebookShareCount>
         </FacebookShareButton>
         <LinkedinShareButton
           className='shareButton--cursor'
@@ -52,9 +51,6 @@ const SocialLinks = ({ postNode, postPath, isMobile }) => {
           description={postNode.excerpt}
         >
           <LinkedinIcon round size={iconSize} />
-          {/* <LinkedinShareCount className='shareButton--cursor' url={url}>
-            {(count) => <div className='share-count'>{filter(count)}</div>}
-          </LinkedinShareCount> */}
         </LinkedinShareButton>
       </div>
       <h6 className='social-links'>Share this post!</h6>
