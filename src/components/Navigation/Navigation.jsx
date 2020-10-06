@@ -73,7 +73,7 @@ function _createNavItems(setPage) {
 /**
  * Navigation Component that also initialized Log Rocket
  */
-const Navigation = ({ children, config, LocalTitle, location, setIsLightTheme }) => {
+const Navigation = ({ children, config, LocalTitle, location }) => {
   /**
    * Event handler for nav item clicks, it rebuilds the nav items based on
    * the new key, setting the item or nested item to active
@@ -121,7 +121,7 @@ const Navigation = ({ children, config, LocalTitle, location, setIsLightTheme })
   const title = (
     <div>
       <h2>
-        <Link className="drawer-title--color" to="/" onClick={() => _setPage('home')}>
+        <Link className='drawer-title--color' to='/' onClick={() => _setPage('home')}>
           {config.siteTitle}
         </Link>
       </h2>
@@ -131,19 +131,17 @@ const Navigation = ({ children, config, LocalTitle, location, setIsLightTheme })
 
   return (
     <NavigationDrawer
-      contentClassName="main-content"
+      contentClassName='main-content'
       desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
       drawerTitle={title}
       mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
       navItems={navItems}
       tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-      toolbarActions={
-        <ToolbarActions config={config} location={location} setIsLightTheme={setIsLightTheme} />
-      }
+      toolbarActions={<ToolbarActions config={config} location={location} />}
       toolbarTitle={LocalTitle}
     >
-      <div className="main-container">{children}</div>
-      <Footer className="footer" />
+      <div className='main-container'>{children}</div>
+      <Footer className='footer' />
     </NavigationDrawer>
   );
 };

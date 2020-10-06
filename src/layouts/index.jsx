@@ -4,7 +4,7 @@ import last from 'lodash/last';
 import split from 'lodash/split';
 import startCase from 'lodash/startCase';
 import truncate from 'lodash/truncate';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Helmet from 'react-helmet';
 import config from '../../data/SiteConfig';
 import Navigation from '../components/Navigation/Navigation';
@@ -25,17 +25,17 @@ function getLocalTitle(pathname) {
   if (window.innerWidth < 360) {
     title = truncate(title, {
       length: 25,
-      separator: ' ',
+      separator: ' '
     });
   } else if (window.innerWidth >= 360 && window.innerWidth < 768) {
     title = truncate(title, {
       length: 30,
-      separator: ' ',
+      separator: ' '
     });
   } else if (window.innerWidth >= 768 && window.innerWidth < 1025) {
     title = truncate(title, {
       length: 45,
-      separator: ' ',
+      separator: ' '
     });
   }
 
@@ -54,19 +54,23 @@ const Layout = ({ children, location, ...props }) => {
     localStorage.setItem('isLightTheme', isLightTheme);
   }
 
+  const [darkThemeClass, setDarkThemeClass] = useState('');
+  useEffect(() => {
+    setDarkThemeClass(isLightTheme ? '' : 'dark-theme');
+  }, [isLightTheme]);
+
   return (
-    <ThemeContext.Provider value={{ isLightTheme }}>
-      <div className={`${isLightTheme ? '' : 'dark-theme'}`}>
+    <ThemeContext.Provider value={{ isLightTheme, setIsLightTheme }}>
+      <div className={darkThemeClass}>
         <Navigation
           config={config}
           LocalTitle={getLocalTitle(location.pathname)}
           location={location}
-          setIsLightTheme={setIsLightTheme}
         >
           <Helmet>
             <meta
               htmlAttributes="{ lang: 'en', class: 'custom-theme'}"
-              name="description"
+              name='description'
               content={config.siteDescription}
             />
           </Helmet>

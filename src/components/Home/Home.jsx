@@ -1,5 +1,5 @@
 // absolute
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Cell from 'react-md/lib/Grids/Cell';
 import Paper from 'react-md/lib/Papers/Paper';
 import Typed from 'typed.js';
@@ -27,45 +27,50 @@ const Home = ({ postEdges }) => {
     };
   }, []);
 
+  const [darkThemeClass, setDarkThemeClass] = useState('');
+  useEffect(() => {
+    setDarkThemeClass(isLightTheme ? '' : 'dark-theme');
+  }, [isLightTheme]);
+
   return (
-    <section className={`home mobile-fix ${isLightTheme ? '' : 'dark-theme'}`}>
-      <Paper className="md-grid md-background--card intro-card" zDepth={3}>
+    <section className={`home mobile-fix ${darkThemeClass}`}>
+      <Paper className='md-grid md-background--card intro-card' zDepth={3}>
         <Cell
-          align="middle"
+          align='middle'
           desktopOffset={1}
           desktopSize={3}
           tabletSize={3}
           phoneSize={4}
-          position="center"
+          position='center'
         >
           <AvatarImage
             src={kalebWelcomeImage}
-            alt="Kaleb with a blue shirt on with arms wide open smiling!"
+            alt='Kaleb with a blue shirt on with arms wide open smiling!'
           />
         </Cell>
         <Cell
-          align="middle"
+          align='middle'
           desktopOffset={1}
           desktopSize={6}
           tabletSize={5}
           phoneSize={4}
-          position="center"
+          position='center'
         >
           <h3>Welcome to the Site!</h3>
-          <section id="typed-strings">
-            <p className="md-body-2">
+          <section id='typed-strings'>
+            <p className='md-body-2'>
               Hi there - I&apos;m Kaleb, a Software Engineer at Disney striving to make my dreams
               into reality!
             </p>
           </section>
-          <span id="typed" style={{ color: isLightTheme ? 'black' : 'white' }} />
+          <span id='typed' style={{ color: isLightTheme ? 'black' : 'white' }} />
           <br />
           <section>
-            <p className="md-body-1 p-margin--top">
+            <p className='md-body-1 p-margin--top'>
               On my blog, I&apos;ll be sharing my principles, recommendations, adventures, and web
               development tips on my journey to achieve.
             </p>
-            <p className="md-body-1">
+            <p className='md-body-1'>
               <strong>Join me</strong>
               &nbsp;on the road to achievement as we make a positive impact on the world together!!
             </p>

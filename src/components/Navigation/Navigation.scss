@@ -32,6 +32,10 @@ nav > header > div > h2:first-of-type {
   font-size: 1.5em;
   margin-bottom: 0;
   margin-top: 1.5px;
+
+  & > a {
+    text-decoration: none;
+  }
 }
 
 // height is a bit too close to top for me on large screens

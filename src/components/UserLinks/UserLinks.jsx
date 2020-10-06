@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from 'react-md/lib/Buttons';
+import { ThemeContext } from '../../context/ThemeContext';
 import './UserLinks.scss';
 
 /**
@@ -24,26 +25,23 @@ function getLinkElements(userLinks, labeled) {
   ));
 }
 
-const UserLinks = ({
-  config: { userLinks },
-  labeled,
-  setIsLightTheme,
-  isLightTheme,
-  canSwitchTheme
-}) => {
+const UserLinks = ({ config: { userLinks }, labeled, canSwitchTheme }) => {
   if (!userLinks) {
     return null;
   }
+
+  const themeContext = useContext(ThemeContext);
+
   return (
-    <div className="user-links">
+    <div className='user-links'>
       {getLinkElements(userLinks, labeled)}
       {canSwitchTheme ? (
         <>
           {' | '}
           <Button
-            className="md-divider-border--left"
+            className='md-divider-border--left'
             icon
-            onClick={(e) => setIsLightTheme(!isLightTheme)}
+            onClick={(e) => themeContext.setIsLightTheme(!themeContext.isLightTheme)}
           >
             lightbulb
           </Button>
