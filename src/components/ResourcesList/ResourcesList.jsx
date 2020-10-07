@@ -12,7 +12,7 @@ const CategoryTitle = ({ category }) => <h1>{category}</h1>;
  * @param {String} type - type of resource to show - life or dev
  */
 const ResourcesList = ({ resources, type }) => (
-  <div className="resources-list">
+  <div className='resources-list'>
     {resources[type].map((resource) => (
       <div key={resource.category}>
         <CategoryTitle category={resource.category} />

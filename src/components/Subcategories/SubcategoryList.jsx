@@ -1,5 +1,6 @@
 import React from 'react';
-import { ExpansionList, ExpansionPanel } from 'react-md';
+import ExpansionList from 'react-md/lib/ExpansionPanels/ExpansionList';
+import ExpansionPanel from 'react-md/lib/ExpansionPanels/ExpansionPanel';
 import SubcategoryResourceList from './SubcategoryResourceList';
 
 /**
