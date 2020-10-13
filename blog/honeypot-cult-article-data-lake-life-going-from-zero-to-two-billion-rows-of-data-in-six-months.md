@@ -11,6 +11,8 @@ tags:
   - writing portfolio
   - big data
 ---
+> This article was authored as a contribution to the [Honeypot Cult community](https://cult.honeypot.io/reads/datalake-life) - you can read it there too!
+
 Upon graduating from James Madison University in the states, I continued my early career in GE Healthcare’s Information Technology Leadership Program (ITLP). The program develops young professionals into next-generation leaders at GE through on the job training, leadership experiences, and mentorship from top professionals.
 
 Every six months over the program’s two-year span, I rotated onto a new team and new project within the IT organization. I, along with my fellow program members, was expected to ramp up quickly and deliver on commitments by the end of each rotation. The program allowed us to experiment with different types of roles and technology to find potential long-term career interests.
