@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/datalakelife.jpg
+cover: post-images/thedatalakelife.jpg
 date: 2020-10-12
 title: "Honeypot Cult Article: Data Lake life: Going from Zero to Two Billion
   Rows of Data in Six Months"
