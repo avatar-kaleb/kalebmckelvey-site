@@ -1,8 +1,8 @@
 import React from 'react';
 import Media from 'react-md/lib/Media/Media';
 import Paper from 'react-md/lib/Papers/Paper';
-import SignupForm from '../SignupForm/SignupForm';
 import headShotImage from '../../images/Contact-Headshot.jpg';
+import SignupForm from '../SignupForm/SignupForm';
 import './ContactMe.scss';
 
 /**

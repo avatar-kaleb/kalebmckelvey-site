@@ -1,7 +1,6 @@
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import debounce from 'lodash/debounce';
 import React, { useState } from 'react';
-import { Snackbar } from 'react-md';
 import Button from 'react-md/lib/Buttons/Button';
 import Cell from 'react-md/lib/Grids/Cell';
 import Grid from 'react-md/lib/Grids/Grid';
@@ -76,7 +75,7 @@ const SignupForm = () => {
 
   return (
     <div className="signup-form">
-      <Snackbar id="example-snackbar" toasts={toasts} autohide onDismiss={_dismissToasts} />
+      {/* <Snackbar id="example-snackbar" toasts={toasts} autohide onDismiss={_dismissToasts} /> */}
       {status === 'success' ? (
         <p className="animated lightSpeedIn">
           Success! Thank you for joining - may the <em>achievement</em> force be with you!
