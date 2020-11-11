@@ -1,7 +1,7 @@
 ---
 published: true
 cover: post-images/important-of-standards-or-nott.jpg
-date: 2020-11-11
+date: '2020-11-11'
 title: "Honeypot Cult Article: The Importance of Team Standards... Or Not?"
 canonical_url: https://cult.honeypot.io/reads/the-importance-of-team-standards
 category: Tech
@@ -40,7 +40,7 @@ Being asked to uphold something you didn’t agree to can instigate [internal te
 
 If standards on ever-evolving teams can cause conflicts – what’s the point of having them?
 
-## Why Do We Have Standards?
+## Why Do We Have Standards
 
 > “Alone we can do little; together we can do so much.” – Helen Keller
 
@@ -68,7 +68,7 @@ Overall, having fundamental principles to believe in and uphold helps teams acco
 
 The list goes on and on, right? In my experience these things continually evolve over time – we must record those changes as time goes passes to keep everyone on the same page.
 
-## Do standards matter?
+## Do standards matter
 
 Should all products or teams use strict standards? Like most things in our profession – it depends.
 
@@ -100,7 +100,7 @@ It’s difficult to size applications because they vary. I’d consider small pr
 
 When working on a large product like MacOs or Android, working with many developers, and having a huge impact if a bug affects users, then you will want very high standards. Code should be rigorously reviewed and tested to make sure no impacts on the user will occur.
 
-## How can leaders use standards effectively?
+## How can leaders use standards effectively
 
 First and foremost, **standards should be created by and for the current team.**
 
