@@ -1,9 +1,9 @@
 ---
 published: true
 cover: /post-images/interview-guide.jpg
-date: '2020-05-16'
-title: 'Honeypot Cult Article: The Ultimate Guide to Passing Tech '
-canonical_url: 'https://cult.honeypot.io/reads/ultimate-guide-to-tech-interviews'
+date: 2020-05-16
+title: "Honeypot Cult Article: The Ultimate Guide to Passing Tech Interviews"
+canonical_url: https://cult.honeypot.io/reads/ultimate-guide-to-tech-interviews
 category: Tech
 tags:
   - writing portfolio
