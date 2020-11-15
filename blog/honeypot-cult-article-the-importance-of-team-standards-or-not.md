@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/important-of-standards-or-nott.jpg
+cover: /post-images/important-of-standards-or-nott.jpg
 date: '2020-11-11'
 title: "Honeypot Cult Article: The Importance of Team Standards... Or Not?"
 canonical_url: https://cult.honeypot.io/reads/the-importance-of-team-standards
