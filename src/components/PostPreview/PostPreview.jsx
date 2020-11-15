@@ -73,10 +73,6 @@ class PostPreview extends Component {
   render() {
     const { buttonHidden, isMobile } = this.state;
     const { postInfo } = this.props;
-  /* eslint no-undef: "off" */
-    debugger
-
-    console.log('path prefix', __PATH_PREFIX__);
 
     const cover =
       postInfo.cover.substring(0, 1) === '/' ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
