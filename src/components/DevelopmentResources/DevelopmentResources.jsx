@@ -29,7 +29,7 @@ const DevelopmentResources = () => (
         </p>
         <p>
           Have a suggestion?
-          {<Link to='/contact-me/'>Let me know!</Link>}
+          {<Link to='/contact-me/'> Let me know!</Link>}
         </p>
         <ResourcesList resources={ResourcesData} type='dev' />
       </CardText>

@@ -54,8 +54,21 @@ export default {
       ]
     },
     {
-      category: 'Blogs / Newsletters',
+      category: 'Blogs / Newsletters / Repos',
       subcategories: [
+        {
+          name: 'Architecture',
+          resources: [
+            {
+              name: 'Martin Fowler',
+              link: 'https://martinfowler.com/'
+            },
+            {
+              name: 'System Design Primer',
+              link: 'https://github.com/donnemartin/system-design-primer'
+            }
+          ]
+        },
         {
           name: 'CSS / HTML',
           resources: [
@@ -108,6 +121,10 @@ export default {
             {
               name: 'Engadget',
               link: 'https://engadget.com'
+            },
+            {
+              name: 'Hacker News',
+              link: 'https://news.ycombinator.com/'
             },
             {
               name: 'Wired',
@@ -306,9 +323,14 @@ export default {
           name: 'All',
           resources: [
             {
-              name: 'Fabulous App',
-              link: 'https://www.thefabulous.co/',
-              description: 'Routine app'
+              name: 'Calm',
+              link: 'https://www.calm.com/',
+              description: 'Meditation app'
+            },
+            {
+              name: 'Habitica',
+              link: 'https://habitica.com/static/home',
+              description: 'Habit app'
             },
             {
               name: 'Headspace',
@@ -331,6 +353,11 @@ export default {
               description: 'Note taking with cloud'
             },
             {
+              name: 'Personal Capital',
+              link: 'https://www.personalcapital.com/',
+              description: 'Investment tracking'
+            },
+            {
               name: 'Pocket Casts',
               link: 'https://www.pocketcasts.com/',
               description: 'Podcasts app for Android'
@@ -350,6 +377,11 @@ export default {
         {
           name: '(Auto)Biography',
           resources: [
+            {
+              name: "Alexander Hamilton's Biography",
+              link:
+                'https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758'
+            },
             {
               name: "Ben Franklin's Autobiography",
               link:
@@ -436,7 +468,12 @@ export default {
             {
               name: 'Inheritance Cylcle',
               link:
-                'https://www.amazon.com/Inheritance-Cycle-4-Book/dp/B00ZJ6W7SI/ref=sr_1_1_ha?s=digital-text&amp;ie=UTF8&amp;qid=1494126056&amp;sr=1-1&amp;keywords=inheritance+cycle'
+                'https://www.amazon.com/Inheritance-4-Book-Paperback-Eragon-Brisingr/dp/0449813223'
+            },
+            {
+              name: 'The Malazan Book of the Fallen',
+              link:
+                'https://www.amazon.com/Complete-Malazan-Book-Fallen-ebook/dp/B00HL0MA3W'
             },
             {
               name: "The Ranger's Apprentice",
@@ -458,6 +495,21 @@ export default {
               name: 'Warbreaker',
               link: 'https://www.amazon.com/Warbreaker-Brandon-Sanderson/dp/0765360039'
             }
+          ]
+        },
+        {
+          name: 'Negotiation',
+          resources: [
+            {
+              name: 'Getting to Yes',
+              link:
+                'https://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0143118757'
+            },
+            {
+              name: 'Never Split the Difference',
+              link:
+                'https://www.amazon.com/Never-Split-Difference-Negotiating-Depended-ebook/dp/B014DUR7L2'
+            },
           ]
         },
         {
@@ -641,17 +693,25 @@ export default {
           name: 'Personal Finance',
           resources: [
             {
-              name: 'Joshua Kennon',
-              link: 'https://joshuakennon.com'
-            },
-            {
               name: 'The Conservative Income Investor',
               link: 'https://theconservativeincomeinvestor.com/'
             },
             {
+              name: 'ESI Money',
+              link: 'https://esimoney.com/'
+            },
+            {
               name: 'Financial Samurai',
               link: 'https://www.financialsamurai.com/'
-            }
+            },
+            {
+              name: 'Joshua Kennon',
+              link: 'https://joshuakennon.com'
+            },
+            {
+              name: 'White Coat Investor',
+              link: 'https://whitecoatinvestor.com'
+            },
           ]
         },
         {

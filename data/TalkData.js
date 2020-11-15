@@ -22,7 +22,7 @@ export default [
   },
   {
     id: 'fedsummitDevProductivity2019',
-    eventName: 'NM - Fed Summit',
+    eventName: 'Northwestern Mutual - 2019 Fed Summit',
     featuredImageAlt: 'A computer with notebooks on a white table',
     featuredImageUrl: 'fedSummitDevProductivity2019.jpg',
     location: 'New York City',
@@ -35,7 +35,7 @@ export default [
   },
   {
     id: 'fedsummitReactPerformance2019',
-    eventName: 'NM - Fed Summit',
+    eventName: 'Northwestern Mutual - 2019 Fed Summit',
     featuredImageAlt: 'A computer screen full of minified web development code',
     featuredImageUrl: 'fedsummitReactPerformance2019.jpg',
     location: 'New York City',
@@ -59,5 +59,19 @@ export default [
     title: 'Developer Productivity!',
     type: TALK_TYPES.conference,
     youtubeUrl: 'https://youtu.be/sRluD6EObOo'
+  },
+  {
+    id: 'afroTech2020',
+    eventName: 'AfroTech 2020',
+    featuredImageAlt:
+      'The first slide of the presentation with the name The Subtle Art of Decision Making',
+    featuredImageUrl: 'subtleArtOfDecisionMakingAfroTech2020.png',
+    repoUrl: '',
+    location: 'New York City (remote)',
+    slidesUrl: 'https://1drv.ms/b/s!AlG7su8ac95Hgt5Iod5oPeM1nEJuzA',
+    summary: `Are you equipped to make unbiased, rational decisions or do you make decisions based on instincts and gut feelings? As Software Developers representing various industries, the decisions we make for design and project estimations lead to real consequences. For the last year, I've researched how to we can make better decisions - now I'm passing on the knowledge to you!`,
+    title: 'The Subtle Art of Decision Making',
+    type: TALK_TYPES.conference,
+    youtubeUrl: ''
   }
 ];

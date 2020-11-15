@@ -401,5 +401,37 @@ export default [
     status: Statuses.Complete,
     title: 'Visit Rockaway Beach',
     youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.one,
+    categories: [Categories.HistoricSite],
+    description: 'See the famous Weehawken dueling grounds where the famous Aaron Burr vs Alexander Hamilton took place, the World War I memorial, and an amazing view of Manhatten!!',
+    expectedRating: Ratings.Five,
+    featuredImageUrl: 'weehawkenDuelingGrounds.jpg',
+    id: 'weehawkenDuelingGrounds',
+    location: Locations.NewJersey,
+    tags: [],
+    realRating: Ratings.Five,
+    season: Seasons.Summer,
+    status: Statuses.Complete,
+    title: 'Visit Hamilton Park & Weekhawken Dueling Grounds',
+    youtubeVideoLink: ''
+  },
+  {
+    blogPostLink: '',
+    costLevel: CostLevels.three,
+    categories: [Categories.NightLife],
+    description: 'Have some cocktails and enjoy a wonderful view of the city from the Savanna Rooftop in LIC. Their brunch offers music and views with friends on a beautiful day in the summer.',
+    expectedRating: Ratings.four,
+    featuredImageUrl: 'savannaRooftop.jpg',
+    id: 'savannaRooftop',
+    location: Locations.Queens,
+    tags: [],
+    realRating: Ratings.Five,
+    season: Seasons.Summer,
+    status: Statuses.Complete,
+    title: 'Savanna Rooftop Brunch',
+    youtubeVideoLink: ''
   }
 ];

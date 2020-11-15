@@ -4,6 +4,7 @@ export const Locations = {
   LI: 'Long Island',
   Manhattan: 'Manhattan',
   Hamptons: 'Hamptons',
+  NewJersey: 'New Jersey',
   Queens: 'Queens',
   SI: 'Staten Island'
 };
