@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: post-images/techleadwriteonchalkboard.jpg
 date: 2020-11-26
 title: "Honeypot Cult Article: What Happened When Our Tech Lead Left the Company"
