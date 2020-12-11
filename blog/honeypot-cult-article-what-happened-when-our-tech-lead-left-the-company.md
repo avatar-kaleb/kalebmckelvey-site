@@ -1,7 +1,7 @@
 ---
 published: true
 cover: post-images/techleadwriteonchalkboard.jpg
-date: 2020-11-26
+date: '2020-11-26'
 title: "Honeypot Cult Article: What Happened When Our Tech Lead Left the Company"
 canonical_url: https://cult.honeypot.io/reads/tech-lead-left-company
 category: Tech
@@ -11,7 +11,7 @@ tags:
   - polymer
   - standards
 ---
-> This article was authored as a contribution to the [Honeypot Cult Community ](https://cult.honeypot.io/reads/tech-lead-left-company)- you can read it there too!
+> This article was authored as a contribution to the [Honeypot Cult Community](https://cult.honeypot.io/reads/tech-lead-left-company)- you can read it there too!
 
 After graduating from GE Healthcare’s IT Leadership Program, a two-year rotational program to help members learn through experience, my first role was a Full-Stack Software Engineer working on manufacturing productivity applications.
 
