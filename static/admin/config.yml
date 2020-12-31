@@ -15,9 +15,15 @@ collections:
     fields:
       - { name: published, label: 'Published?', widget: 'boolean', default: false }
       - { name: cover, label: 'Cover Image', widget: image }
-      - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
+      - {
+          name: date,
+          label: 'Date Time',
+          widget: datetime,
+          date_format: 'YYYY-MM-DD',
+          time_format: 'HH:mm',
+        }
       - { name: title, label: Title }
-      - { name: canonical_url, label: Canonical }
+      - { name: canonical_url, label: Canonical, default: '' }
       - { name: category, label: Category }
       - { name: tags, label: Tags, widget: list }
       - { name: body, label: Body, widget: markdown }
