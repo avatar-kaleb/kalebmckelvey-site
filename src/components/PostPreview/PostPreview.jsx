@@ -1,4 +1,5 @@
 import { navigate } from 'gatsby';
+import moment from 'moment';
 import React, { Component } from 'react';
 import Avatar from 'react-md/lib/Avatars';
 import Button from 'react-md/lib/Buttons';
@@ -14,6 +15,8 @@ import { particleConfig, screenWidths } from '../../constants/config';
 import PostTags from '../PostTags/PostTags';
 // styles
 import './PostPreview.scss';
+
+
 
 /**
  * Given a path, this function uses Gatsby navigate function to get to another page
@@ -77,7 +80,8 @@ class PostPreview extends Component {
     const cover =
       postInfo.cover.substring(0, 1) === '/' ? __PATH_PREFIX__ + postInfo.cover : postInfo.cover;
     const coverHeight = isMobile ? this.coverHeights.mobile : this.coverHeights.other;
-
+    const publishDate = String(postInfo.date);
+    debugger
     return (
       <div className="md-cell md-cell--0-desktop-offset md-cell--0-phone-offset md-cell--4 md-cell--center post-preview margin-bottom--small">
         <Card key={postInfo.path} animate={false} className="">
@@ -99,7 +103,7 @@ class PostPreview extends Component {
           <CardTitle
             expander={isMobile}
             avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-            title={`Published on ${postInfo.date}`}
+            title={`Published on ${moment(postInfo.date).format('YYYY-MM-DD')}`}
             subtitle={`${postInfo.timeToRead} min read`}
           />
           <CardText expandable={isMobile} className="card-text">
