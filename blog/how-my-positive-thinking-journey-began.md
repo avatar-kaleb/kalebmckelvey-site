@@ -1,9 +1,9 @@
 ---
 published: true
 cover: /post-images/positive-thinking-journey-1024x683.jpeg
-date: '2015-09-16'
+date: 2015-09-16
 title: How my Positive Thinking Journey Began
-canonical_url: '""'
+canonical_url: "''"
 category: Journey to Achieve
 tags:
   - journey to achieve
