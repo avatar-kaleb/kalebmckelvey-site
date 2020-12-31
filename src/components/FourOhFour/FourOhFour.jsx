@@ -2,14 +2,14 @@
 import React from 'react';
 import Cell from 'react-md/lib/Grids/Cell';
 import Paper from 'react-md/lib/Papers/Paper';
-
+import FourOhFourImage from '../../images/FourOhFour-Versailles Pic.jpg';
 // relative
 import AvatarImage from '../AvatarImage/AvatarImage';
-import FourOhFourImage from '../../images/FourOhFour-Versailles Pic.jpg';
 import PostListing from '../PostListing/PostListing';
-
 // CSS
 import './FourOhFour.scss';
+
+
 
 /**
  * 404 page that has recent posts listed
@@ -17,7 +17,7 @@ import './FourOhFour.scss';
  */
 const FourOhFour = ({ postEdges }) => (
   <section className="fourOhFour mobile-fix">
-    <Paper className="md-grid paper-background--white" zDepth={0}>
+    <Paper className="md-grid md-background--card" zDepth={2}>
       <Cell align="middle" desktopOffset={1} desktopSize={3} tabletSize={3} phoneSize={4} position="center">
         <AvatarImage
           alt="Person with their back to the camera looking the towards the Palace of Versailles!"
