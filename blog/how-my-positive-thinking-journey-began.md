@@ -1,8 +1,9 @@
 ---
 published: true
 cover: /post-images/positive-thinking-journey-1024x683.jpeg
-date: '2015-09-16'
+date: 2015-09-16
 title: How my Positive Thinking Journey Began
+canonical_url: '""'
 category: Journey to Achieve
 tags:
   - journey to achieve
@@ -59,7 +60,7 @@ I believe it is known that we cannot change a person, but that a person must be 
 
 This is what I want to not only learn how to do better but also pass to you, the readers, the knowledge I obtain along the way.
 
-### **What is_ The Journey to Achieve_?**
+### **What is _The Journey to Achieve_?**
 
 Throughout my 22 years on Earth, I've been through rough times, like most people, it was the INSPIRING people (which I am so grateful for) that helped me fight through them. 
 
