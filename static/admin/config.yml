@@ -23,7 +23,7 @@ collections:
           time_format: 'HH:mm',
         }
       - { name: title, label: Title }
-      - { name: canonical_url, label: Canonical, default: '' }
+      - { name: canonical_url, label: Canonical, default: '', required: false }
       - { name: category, label: Category }
       - { name: tags, label: Tags, widget: list }
       - { name: body, label: Body, widget: markdown }
