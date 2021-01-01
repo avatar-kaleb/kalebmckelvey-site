@@ -36,6 +36,14 @@ It really hit home we'd be working for a while as NYC cases surged and we began 
 
 We were anxious and scared. Thankfully a friend had urged us a week or two prior to stock up on food and supplies, so at that moment we were fine. 
 
-Reflecting though, at this time - there was much less knowledge from the scientific community about the virus, no one knew what was safe and what wasn't. What we knew for sure
+Reflecting though, at this time - there was much less knowledge from the scientific community about the virus, no one knew what was safe and what wasn't. We listened and watched the leadership of the nation, of NY, and of NYC on how we could stay safe and help out our fellow citizens.
 
+I remember following a few general principles:
+1. Cloth masks were recommended, if you had other kinds donate them as supplies were limited
+2. Only leave your apartment for necessities
+3. Order from local restaurants to help them stay open
+4. Donate to food banks and other organizations if you can, because we were in it together
 
+Every evening at 7:00pm(maybe it was 6?), we joined our fellow NYers in clapping and making noise for our healthcare workers.   It made us feel close to people we never even met before. Friends and family worried about us as the virus hadn't hit other parts of the country as hard yet, but we assured them at the time we were safe.
+
+For three months, we didn't leave our studio apartment. 
