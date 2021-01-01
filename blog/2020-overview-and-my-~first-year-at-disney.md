@@ -26,8 +26,16 @@ Disney Plus had ~20 million subscribers a few months after launch, and I was rea
 
 ---
 
+## The Pandemic Hits
+
 February arrived slowly, my commute didn't change much and I hit the ground running with my new gig thanks to an awesome onboarding process. I'll never forget being in orientation, seeing all of the Disney swag, watching videos from Bob Iger about the company, inspirational videos with Disney characters, introducing the magical culture I'd now be part of.
 
 I was just getting into the new routine, learning the new tech stack, and hitting the gym during lunch - all was going well...until one month in, we went from an in-person dev team to remote!
 
 It really hit home we'd be working for a while as NYC cases surged and we began having lunch & learn sessions on how to work from home. Frankie was working from home soon after, and all of a sudden our studio apartment felt much, much smaller.
+
+We were anxious and scared. Thankfully a friend had urged us a week or two prior to stock up on food and supplies, so at that moment we were fine. 
+
+Reflecting though, at this time - there was much less knowledge from the scientific community about the virus, no one knew what was safe and what wasn't. What we knew for sure
+
+
