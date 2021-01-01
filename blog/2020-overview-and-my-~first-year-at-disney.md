@@ -16,8 +16,18 @@ Early January brought with it the long-awaited on-site interviews I'd scheduled 
 
 This meant that the grueling interview prep that started two months ago continued. Living in a studio apartment didn't make it easy; Frankie endured me waking up at 5:30 am, making a fresh cup of coffee, and working through Leet Code, AlgoExpert, or System Design practice questions every single day. 
 
-I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what you like or dislike in a working environment.
+I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what makes you happy in a working environment; such as, product that you believe in, growth opportunities, culture, work-life balance, and respectful team members you'll be working with every single day are all important.
+
+*PS: [See my guide on preparing for interviews to learn more!](https://www.kalebmckelvey.com/blog/honeypot-cult-article-the-ultimate-guide-to-passing-tech-interviews)*
 
 Long interview story turned short, by the end of January I had accepted my new position as a Software Engineer working at Disney Streaming Services!!
 
-Disney Plus had ~20 million subscribers a few months after launch, and I was ready and excited for my new opportunity!!
+Disney Plus had ~20 million subscribers a few months after launch, and I was ready and excited for my new opportunity starting in February!!
+
+---
+
+February arrived slowly, my commute didn't change much and I hit the ground running with my new gig thanks to an awesome onboarding process. I'll never forget being in orientation, seeing all of the Disney swag, watching videos from Bob Iger about the company, inspirational videos with Disney characters, introducing the magical culture I'd now be part of.
+
+I was just getting into the new routine, learning the new tech stack, and hitting the gym during lunch - all was going well...until one month in, we went from an in-person dev team to remote!
+
+It really hit home we'd be working for a while as NYC cases surged and we began having lunch & learn sessions on how to work from home. Frankie was working from home soon after, and all of a sudden our studio apartment felt much, much smaller.
