@@ -113,7 +113,7 @@ Once you start adding `*ngIf`, `*ngFor`, attribute binding, property binding, cu
 
 The huge win of having all implementations of common web app features in Angular, especially when it's supported by Google devs and OSS, is hugely beneficial. I'll never forget that feeling of changing from React Router to Reach Router, only to learn later that Reach Router would be deprecated and one should move back to React Router...when both were created and supported by the same people. 
 
-It's hard to see that situation happening in Angular; and, that's why it has become such a close match for me that I'm fine using either, but vote subtley for React if given the option.
+It's hard to see that situation happening in Angular; and, that's why it has become such a close match for me that I'm fine using either, but vote subtlety for React if given the option.
 
 #### SpringBoot & Backend
 
