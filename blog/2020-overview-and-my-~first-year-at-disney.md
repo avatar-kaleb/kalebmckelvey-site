@@ -91,6 +91,9 @@ It's been absolutely humbling and intriguing as I've been part of architecting a
 
 There were many opportunities for personal growth, which I find highly rewarding! 
 
+### Working with an Amazing Team
+
+
 ### Becoming More Versed in Angular & SpringBoot
 
 During the interview, I learned that joining the team as a Full Stack engineer meant working on Angular, SpringBoot, and a relational DB.
@@ -117,8 +120,6 @@ It's hard to see that situation happening in Angular; and, that's why it has bec
 
 #### SpringBoot & Backend
 
-### Working with an Amazing Team
-
 ## My First Year as a Freelance Writer
 
 ### Dev.to Distinguished Author
@@ -126,6 +127,14 @@ It's hard to see that situation happening in Angular; and, that's why it has bec
 ### HoneyPot
 
 ## Lessons I'll Never Forget
+
+### Intentional Time Management
+
+### Appreciating the Little Things of Life
+
+### The Importance of Health - Physical and Mental
+
+### 
 
 
 
