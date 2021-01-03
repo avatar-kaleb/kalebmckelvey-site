@@ -16,7 +16,7 @@ Early January brought with it the long-awaited on-site interviews I'd scheduled 
 
 This meant that the grueling interview prep that started two months ago continued. Living in a studio apartment didn't make it easy; Frankie endured me waking up at 5:30 am, making a fresh cup of coffee, and working through Leet Code, AlgoExpert, or System Design practice questions every single day. 
 
-I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what makes you happy in a working environment; such as, product that you believe in, growth opportunities, culture, work-life balance, and respectful team members you'll be working with every single day are all important.
+I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what makes you happy in a working environment such as: a product that you believe in, growth opportunities, culture, work-life balance, and respectful team members you'll be working with every single day are all important.
 
 *PS: [See my guide on preparing for interviews to learn more!](https://www.kalebmckelvey.com/blog/honeypot-cult-article-the-ultimate-guide-to-passing-tech-interviews)*
 
@@ -48,11 +48,13 @@ I remember following a few general principles:
 3. Order from local restaurants to help them stay open
 4. Donate to food banks and other organizations if you can, because we were in it together
 
-Frankie and I both recall the unprecedented number of ambulance sirens throughout the day, it was non-stop and nerve wrecking, as Queens was hit hard at that time.
+Frankie and I both recall the unprecedented number of ambulance sirens throughout the day, it was non-stop and nerve-wracking. Queens was hit hard at that time.
 
-Every evening at 7:00pm(maybe it was 6?), we joined our fellow New Yorkers in clapping and making noise for our healthcare workers. It gave us a feeling of closeness to people we never met before. Friends and family worried about us as the virus hadn't hit other parts of the country as hard yet, but we assured them at the time we were safe.
+Every evening at 7:00 pm, we joined our fellow New Yorkers in clapping and making noise for our healthcare workers. It gave us a feeling of closeness to people we never met before. Friends and family worried about us, but we assured them at we were safe.
 
-For three months, we didn't leave our studio apartment. We wanted to do our part in stopping the spread and keep hospital beds available for others, so we constantly told ourselves we weren't stuck, but safe at home. Many artists and businesses entertained us through virtual means, and like others, we all appreciated it; because, almost all non-essential businesses were closed and big events had been canceled.
+For three months, we didn't leave our studio apartment. 
+
+We wanted to do our part in stopping the spread and keep hospital beds available for others, constantly telling ourselves we weren't stuck, but safe at home. Many artists and businesses entertained us through virtual means, and like others, we all appreciated it. Especially with all non-essential businesses closed and big events canceled indefinitely.
 
 One humorous side was Frankie discovering how often Software Development teams collaborate (news flash, all day long), requiring close coordination as we avoided being on calls at the same time. 
 
@@ -62,20 +64,23 @@ The warm weather of 2020 felt like it came and went in the blink of an eye.
 
 #### Social Unrest
 
-June brought feelings of helplessness and violence as protest erupted across the world.
+June brought feelings of helplessness as protests erupted across the world.
 
-Frankie and I were at a loss of words and infuriated, how does one cope with a pandemic followed by the George Floyd and Breonna Taylor being murdered?
+Frankie and I were at a loss of words and infuriated, how does one cope with a pandemic followed by George Floyd and Breonna Taylor being murdered?
 
-It wasn't an easy time. We used work and recommended reading as a source of distraction as we learned more. It wasn't new but it was reinvigorated. Rewatch the first two seasons of Fresh Prince of Bel Air, aired in the 90s, and pay attention to themes presented in some of the episodes from 30 years ago.
+It wasn't an easy time. 
 
-A light hearted show showing the world real issues, and I was so disheartened at not doing enough. I'll be fighting and doing my part for the rest of my life.
+We used work and recommended reading as a source of distraction as we learned more. It wasn't new but its importance was reinvigorated. Rewatch the first two seasons of Fresh Prince of Bel Air, aired in the 90s, and pay attention to themes presented in some of the episodes from 30 years ago. Guess what? They are the same! 
+
+The history we learn in school - lacking. Driving a Benz while black - dangerous. And many others.
+
+A lighthearted show demonstrating real issues, and I was so disheartened at not doing enough so far. I'll be fighting harder going forward, that is for sure!
 
 #### Finally going outside
 
-The summer brought with it a lapse in case numbers for New York; we left our apartment and even dined outside. We were able to sneak in two small beach trips, one in Long Beach and another in Montauk with a focus on outside activities.
+The summer brought with it a lapse in case numbers for New York City; we left our apartment and even dined outside. We snuck in two small beach trips, one in Long Beach and another in Montauk with a focus on outside activities. They were both equally refreshing.
 
-I was ecstatic taking walks around our neighborhood parks, and I never appreciated seeing others doing the same (masks on most of the time) as much. It was a good feeling just being around other people, reminding us of how incredible living in NYC usually feels.
-
+I was ecstatic just taking walks around our neighborhood parks, and I never appreciated seeing others doing the same (masks on most of the time) as much. It was a good feeling just being around other people, reminding us of how incredible living in NYC usually feels.
 
 ### Back to Cold Weather and Quarantine
 
