@@ -37,13 +37,6 @@ function GetNavList() {
         to: '/categories/mental-model/'
       },
       {
-        key: 'new-york-city-category',
-        primaryText: 'New York City',
-        leftIcon: <FontIcon>location_city</FontIcon>,
-        component: Link,
-        to: '/categories/new-york-city/'
-      },
-      {
         key: 'tech-category',
         primaryText: 'Tech',
         leftIcon: <FontIcon>computer</FontIcon>,

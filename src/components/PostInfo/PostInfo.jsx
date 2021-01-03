@@ -1,9 +1,10 @@
+import { Link } from 'gatsby';
+import KebabCase from 'lodash/kebabCase';
+import moment from 'moment';
 import React from 'react';
 import Avatar from 'react-md/lib/Avatars';
 import CardTitle from 'react-md/lib/Cards/CardTitle';
 import FontIcon from 'react-md/lib/FontIcons';
-import { Link } from 'gatsby';
-import KebabCase from 'lodash/kebabCase';
 import './PostInfo.scss';
 
 /**
@@ -17,7 +18,7 @@ const PostInfo = ({ postNode }) => {
     <div className="post-info">
       <CardTitle
         avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-        title={`Published on ${post.date}`}
+        title={`Published on ${moment(post.date).format('YYYY-MM-DD')}`}
         subtitle={`${postNode.timeToRead} min read`}
       />
       <Link className="category-link" to={`/categories/${KebabCase(post.category)}`}>
