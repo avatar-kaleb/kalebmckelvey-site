@@ -2,7 +2,7 @@
 published: true
 cover: post-images/2020-an-overview.jpg
 date: 2021-01-01T20:50:50.341Z
-title: 2020 Overview And My First Year at Disney!!!
+title: 2020 Review And My First Year at Disney!!!
 canonical_url: ""
 category: Journey to Achieve
 tags:
