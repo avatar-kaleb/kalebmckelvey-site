@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/techleadwriteonchalkboard.jpg
+cover: /post-images/techleadwriteonchalkboard.jpg
 date: 2020-11-26
 title: "Honeypot Cult Article: What Happened When Our Tech Lead Left the Company"
 canonical_url: https://cult.honeypot.io/reads/tech-lead-left-company

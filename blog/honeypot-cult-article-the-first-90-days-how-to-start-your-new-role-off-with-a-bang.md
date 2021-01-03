@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/start-role-off-with-a-bang.jpg
+cover: /post-images/start-role-off-with-a-bang.jpg
 date: 2020-12-31T21:00:35.840Z
 title: "Honeypot Cult Article: The First 90 Days - How to Start Your New Role
   off With a Bang!"
@@ -38,7 +38,7 @@ The first month begins with learning about the product and getting to know who y
 
 Software Engineering requires collaboration and respectful technical debates as we find solutions to challenges or features together - a strong team bond makes that easier. The first 30 days establishes that bond.
 
-### Get to Know Your Teammates:
+### Get to Know Your Teammates
 
 If the team you're joining automatically sets up a time to give overviews of different parts of the tech stack, then take time at the beginning of each session to learn more about their story, how they became a member of the team and their areas of expertise.
 
