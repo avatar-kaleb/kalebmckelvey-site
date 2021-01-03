@@ -16,7 +16,7 @@ Early January brought with it the long-awaited on-site interviews I'd scheduled 
 
 This meant that the grueling interview prep that started two months ago continued. Living in a studio apartment didn't make it easy; Frankie endured me waking up at 5:30 am, making a fresh cup of coffee, and working through Leet Code, AlgoExpert, or System Design practice questions every single day. 
 
-I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what makes you happy in a working environment such as: a product that you believe in, growth opportunities, culture, work-life balance, and respectful team members you'll be working with every single day are all important.
+I was near burn-out and hoped the upcoming interviews would go well!  Interviews are two-way streets, especially as you gain experience in what makes you happy in a working environment such as: a product that you believe in, growth opportunities, culture, work-life balance, and respectful team members you'll be working with every single day are all important. Achieving all of these in one role is tough, so I recommend determining the most important for you. For me, respectful teammates is a top priority.
 
 *PS: [See my guide on preparing for interviews to learn more!](https://www.kalebmckelvey.com/blog/honeypot-cult-article-the-ultimate-guide-to-passing-tech-interviews)*
 
@@ -52,7 +52,7 @@ Frankie and I both recall the unprecedented number of ambulance sirens throughou
 
 Every evening at 7:00 pm, we joined our fellow New Yorkers in clapping and making noise for our healthcare workers. It gave us a feeling of closeness to people we never met before. Friends and family worried about us, but we assured them at we were safe.
 
-For three months, we didn't leave our studio apartment. 
+For **three** months, we didn't leave our studio apartment. 
 
 We wanted to do our part in stopping the spread and keep hospital beds available for others, constantly telling ourselves we weren't stuck, but safe at home. Many artists and businesses entertained us through virtual means, and like others, we all appreciated it. Especially with all non-essential businesses closed and big events canceled indefinitely.
 
