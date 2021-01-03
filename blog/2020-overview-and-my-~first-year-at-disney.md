@@ -58,9 +58,24 @@ One humorous side was Frankie discovering how often Software Development teams c
 
 ### A Brief Summer
 
+The warm weather of 2020 felt like it came and went in the blink of an eye.
+
+#### Social Unrest
+
+June brought feelings of helplessness and violence as protest erupted across the world.
+
+Frankie and I were at a loss of words and infuriated, how does one cope with a pandemic followed by the George Floyd and Breonna Taylor being murdered?
+
+It wasn't an easy time. We used work and recommended reading as a source of distraction as we learned more. It wasn't new but it was reinvigorated. Rewatch the first two seasons of Fresh Prince of Bel Air, aired in the 90s, and pay attention to themes presented in some of the episodes from 30 years ago.
+
+A light hearted show showing the world real issues, and I was so disheartened at not doing enough. I'll be fighting and doing my part for the rest of my life.
+
+#### Finally going outside
+
 The summer brought with it a lapse in case numbers for New York; we left our apartment and even dined outside. We were able to sneak in two small beach trips, one in Long Beach and another in Montauk with a focus on outside activities.
 
 I was ecstatic taking walks around our neighborhood parks, and I never appreciated seeing others doing the same (masks on most of the time) as much. It was a good feeling just being around other people, reminding us of how incredible living in NYC usually feels.
+
 
 ### Back to Cold Weather and Quarantine
 
@@ -78,6 +93,8 @@ We're doing our best as responsible citizens in a few ways:
 It's been a different year to say the least, but we've been cognizant of our blessings and empathized with the hardships of others. There have been extreme difficulties and amazing silver linings, and we can only hope 2021 will be better for everyone!
 
 Now that the mandatory Covid summary, here are some other parts of the year that could be of interest!
+
+---
 
 ## My First Year at Disney
 
@@ -137,32 +154,63 @@ Not only was I able to take courses in both, but experience and discussions led 
 
 2021 will bring even more of this and I couldn't be more excited.
 
-I'm unsure why there's a stigma against being a full-stack Engineer in the web dev community, stating it's impossible to have expertise in both. Expertise and being an expert has such a general definition, along with it being on a sliding scale, that I respectfully disagree with that notion. It's definitely feasible developing on both sides of the stack with best practices in mind. 
+I'm unsure why there's a stigma against being a full-stack Engineer in the web dev community, stating it's impossible to have expertise in both. "Expert" has such a general definition, along with it being on a sliding scale, that I respectfully disagree with that notion. It's definitely feasible developing on both sides of the stack with best practices in mind. 
 
-No one, I repeat no one knows everything - having foundational knowledge of both makes you a better developer on either side. 
+No one, I repeat no one knows everything. Learning a new skill or technology makes working in our field exciting. 
 
-Lastly, learning a new skill or technology makes working in our field exciting. Who doesn't want to continue increasing the skill base they have, even if they aren't a so called "expert"?
+Who doesn't want to continue increasing the skill base they have, even if they aren't a so called "expert"?
+
+---
 
 ## My First Year as a Freelance Writer
 
-### Dev.to Distinguished Author
+My [first blog post](https://www.kalebmckelvey.com/blog/how-my-positive-thinking-journey-began) was written and published on Google Blogspot back in 2015; the goal at the time was inspiring others through my journey of positive thinking. I've written many different types of articles since then, developing my skills as a writer over time.
+
+Over the last two years I've earned the "Distinguished Author" over at [Dev.to](https://dev.to/). 
+
+2020 gave me a nice surprises though!
 
 ### HoneyPot
 
+One of my articles was noticed by an editor over at HoneyPot - a platform that helps developers find new roles. I received an e-mail asking if I'd be interested in submitting a few articles for their [new developer community](https://cult.honeypot.io/).
+
+Of course I was! We talked through rates and topic ideas over a few e-mails, and BOOM I was a freelance writer.
+
+I couldn't believe that one of my hobbies became a small stream of income. Hopefully the trend continues for 2021!
+
+You can check out my published articles (a few more to come) on [my author page](https://cult.honeypot.io/contributors/kaleb-mckelvey)!  
+
 ## My First Full Year of Singing Lessons
 
-## Lessons I'll Never Forget
+Music has always been a love of mine - its power of bringing people together amazes me. 
 
-### Intentional Time Management
+Before November 2019, I was a strong believer that singing was a born talent. It is true that some are born with an innate ability, but just like athletics, there are skills developed too.
 
-### Appreciating the Little Things of Life
+I decided 2020 would be the year that I'd at least give it a try. It was an embarrassing first few lessons of course, I still remember sweating as I tried to sing the basic pitches as my teacher instructed; but, I refused to give up!
 
-### The Importance of Health - Physical and Mental
+The progress has been very rewarding! Although I won't sing like John Legend anytime soon, I can hold a few notes and sing through a few songs all thanks to my wonderful teacher.
 
-### I need to do more for under-represented folks in tech
+I'll be singing in my first recital (which raises money for charity) in Jan 2021, something I never would have thought was possible! 
 
+---
 
+## My Friend Started a Company
 
+A mentor and friend started a consultant agency for AX Dynamics in 2020! He stated the year off strong by hiring full-time employees, and I couldn't be prouder of him!
+
+His grind and persistence this year was definitely admired by all of those he worked with, and I wish nothing but success in 2021 (and beyond)!
+
+## Wrapping up
+
+2020 was a challenge year mentally for all of us. It taught many lessons that I will never forget:
+
+1. Appreciating the Little Things of Life
+1. The Importance of Health - Physical and Mental
+1. Doing More for Underrepresented Demographics
+1. Help Others During National Cris by volunteering or donating
+1. Voting Matters
+
+With the end of 2020 behind us, all we can do is hope for a better 2021. Let's do our part to make it happen!!
 
 
 
