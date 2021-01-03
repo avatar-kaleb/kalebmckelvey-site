@@ -93,6 +93,9 @@ There were many opportunities for personal growth, which I find highly rewarding
 
 ### Working with an Amazing Team
 
+Engineering isn't an exact science and creating art with individuals who have similar principles, yet difference options for meeting them creates strong bonds. Working with others who believe in quality engineering principles with various experiences has been fabulous. Our discussions are about finding solutions to challenges that work best, meet user needs, and keeps architecture extendable in accordance to our conventions. 
+
+I've written about being [open-minded](https://www.kalebmckelvey.com/blog/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems) in the past, and still have the opinion that respectful discussions lead to incredible outcomes. That's why diversity of thought is a KEY metric for success.
 
 ### Becoming More Versed in Angular & SpringBoot
 
@@ -104,27 +107,49 @@ The previous year at NM consisted of working on a React app with GraphQl...in ot
 
 Learning the large feature list of the Angular Framework was tough for me this year. I'll admit it grew on me as my experience level increased, and it's a solid framework. 
 
-The biggest complaint I have with Angular is the various places logic can happen, for example, in the templates, in the component, or parts of angular like an auth guard or interceptor. It's amazing once you figure out what those are and how to quickly see where they are used, but in the beginning it's quite difficult - especially with the separation of things by module in one project. There are more standard ways of implementing common features of web applications these days that I do appreciate, and services as a way to share data across components works wonders with managing data in the app. Overall, I find it very useful for an enterprise application. 
+The biggest complaint I have with Angular is the various places logic can happen, for example, in the templates, in the component, or parts of angular like an auth guard, interceptor, or resolvers on a route. It's amazing once you figure out what those are and how to quickly see where they are used, but in the beginning it's quite difficult - especially with the separation of things by module in one project. Angular provides standard ways of implementing common features of web applications these days that I do appreciate, and services as a way to share data across components works wonders with managing data in the app. Overall, I find it very useful for an enterprise application. 
 
 React still has my final vote of preference (although not by much) with the beauty of combining JSX and component logic (especially now with hooks) in one place, especially with the huge win of opening less files while developing one component.
 
-I find many that prefer Angular to use the argument of "separating html, JS/TS, and CSS" in their own files. I've mostly used `SCSS` in my React projects with separate files, so that boils it down to separating out HTML from JS.
+I find many that prefer Angular use the argument of "separating html, JS/TS, and CSS in their own files" as their main reason of preference. I've used `SCSS` in my React projects with separate files, so that boils it down to separating out HTML from JS.
 
-It's a strong argument and separating concerns at face value makes sense. 
+It's a strong argument because separating concerns at face value makes sense. 
 
-Once you start adding `*ngIf`, `*ngFor`, attribute binding, property binding, custom events, and even the `<ng-container>` tags, it no longer feels like they are separate in my humble opinion. Instead, you now have HTML entangled with intertwined framework features (even if you keep template logic simple).
+Once you start adding `*ngIf`, `*ngFor`, attribute binding, property binding, custom events, and even the `<ng-container>` tags, it no longer feels like separated concerns in my humble opinion. Instead, you now have HTML entangled with framework features (even if you keep template logic simple).
 
-The huge win of having all implementations of common web app features in Angular, especially when it's supported by Google devs and OSS, is hugely beneficial. I'll never forget that feeling of changing from React Router to Reach Router, only to learn later that Reach Router would be deprecated and one should move back to React Router...when both were created and supported by the same people. 
+The huge win of having all implementations of common web app features in Angular, especially when it's supported by Google devs and OSS, is hugely beneficial. I'll never forget that feeling of changing from React Router to Reach Router, only to learn later that Reach Router would be deprecated and one should move back to React Router...when both were created and supported by the same people. It's hard to see that situation happening in Angular (barring AngularJs upgrade to Angular2+ from the convo); and, that's why it has become such a close match for me that I'm fine using either, but vote for React if given the option.
 
-It's hard to see that situation happening in Angular; and, that's why it has become such a close match for me that I'm fine using either, but vote subtlety for React if given the option.
+Without 2020 and now going into 2021, my opinion would be based on the experiences of others instead of my own. If it has taught me anything, it's that Vue, React, Svelte, or Angular can all work well - opinion on which is best doesn't matter as long as teams are productive and the library or framework has strong OSS support.
 
 #### SpringBoot & Backend
+
+Upon starting 2020, you could ask me anything about Frontend Development best practices, and I could give you thoughts on approaching problems, features, or architecture based on a foundational knowledge and experience.
+
+Additionally, ask me something about the best practice of SpringBoot or Java; and, it requires me to research and look into it.
+
+In summary - my knowledge and experience working on SpringBoot and databases was lacking.
+
+My mindset - if you're uncomfortable tackling features on part of a tech stack - start trying to work on it more. That's exactly what I was able to do!
+
+Thanks to many conversations with members of our team with backend experience and being part of many architecture discussions (plus reading about architecture in our Disney Tech Book Club) has tremendously helped me grow in these areas.
+
+Not only was I able to take courses in both, but experience and discussions led to more research on what's the best practice in difference instances. 
+
+2021 will bring even more of this and I couldn't be more excited.
+
+I'm unsure why there's a stigma against being a full-stack Engineer in the web dev community, stating it's impossible to have expertise in both. Expertise and being an expert has such a general definition, along with it being on a sliding scale, that I respectfully disagree with that notion. It's definitely feasible developing on both sides of the stack with best practices in mind. 
+
+No one, I repeat no one knows everything - having foundational knowledge of both makes you a better developer on either side. 
+
+Lastly, learning a new skill or technology makes working in our field exciting. Who doesn't want to continue increasing the skill base they have, even if they aren't a so called "expert"?
 
 ## My First Year as a Freelance Writer
 
 ### Dev.to Distinguished Author
 
 ### HoneyPot
+
+## My First Full Year of Singing Lessons
 
 ## Lessons I'll Never Forget
 
@@ -134,7 +159,7 @@ It's hard to see that situation happening in Angular; and, that's why it has bec
 
 ### The Importance of Health - Physical and Mental
 
-### 
+### I need to do more for under-represented folks in tech
 
 
 
