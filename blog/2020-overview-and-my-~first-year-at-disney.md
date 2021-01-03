@@ -212,6 +212,3 @@ His grind and persistence this year was definitely admired by all of those he wo
 
 With the end of 2020 behind us, all we can do is hope for a better 2021. Let's do our part to make it happen!!
 
-
-
-
