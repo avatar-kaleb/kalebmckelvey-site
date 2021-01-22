@@ -140,3 +140,80 @@ to
 ````
 
 3. Use Descriptive Names
+
+"its hard to overestimate the value of good names"
+
+". Remember Ward’s principle: “You know you are working on clean code when each routine turns out to be pretty much what you expected.”
+
+"A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment. Use a naming convention that allows multiple words to be easily read in the function names, and then make use of those multiple words to give the function a name that says what it does."
+
+"The ideal number of arguments for a function is zero (niladic). Next comes one (monadic), followed closely by two (dyadic). Three arguments (triadic) should be avoided where possible. More than three (polyadic) requires very special 
+"
+- this seems tough...is it only 1 if you use an object with a bunch of configs anyways? lol
+
+
+"Arguments are even harder from a testing point of view. Imagine the difficulty of writing all the test cases to ensure that all the various combinations of arguments work properly. If there are no arguments, this is trivial. "
+
+"Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice. It immediately complicates the signature of the method, loudly proclaiming that this function does more than one thing. It does one thing if the flag is true and another if the flag is false!...Still, the method call render(true) is just plain confusing to a poor reader. Mousing over the call and seeing render(boolean isSuite) helps a little, but not that much. We should have split the function into two: renderForSuite() and renderForSingleTest()."
+
+Two arguments are fine if they are naturally cohesive (like Cartesian points).
+
+"Even obvious dyadic functions like assertEquals(expected, actual) are problematic. How many times have you put the actual where the expected should be? The two arguments have no natural ordering. The expected, actual ordering is a convention that requires practice to learn."
+- so true! how else can you do this though?
+
+"When a function seems to need more than two or three arguments, it is likely that some of those arguments ought to be wrapped into a class of their own"
+
+"Side effects are lies. Your function promises to do one thing, but it also does other hidden things. Sometimes it will make unexpected changes to the variables of its own class."
+
+"The side effect is the call to Session.initialize(), of course. The checkPassword function, by its name, says that it checks the password. The name does not imply that it initializes the session. So a caller who believes what the name of the function says runs the risk of erasing the existing session data when he or she decides to check the validity of the user."
+
+"In general output arguments should be avoided. If your function must change the state of something, have it change the state of its owning object."
+
+Use exceptions instead of returned error codes...returned error codes => more nesting, while you can use try/catch for exceptions
+
+"When you use exceptions rather than error codes, then new exceptions are derivatives of the exception class. They can be added without forcing any recompilation or redeployment."
+
+"When I write functions, they come out long and complicated. They have lots of indenting and nested loops. They have long argument lists. The names are arbitrary, and there is duplicated code. But I also have a suite of unit tests that cover every one of those clumsy lines of code."
+^^ this is a key to being able to refactor safely after you've got it working
+
+## Chapter 4 - Comments
+
+"The proper use of comments is to compensate for our failure to express ourself in code. Note that I used the word failure. So when you find yourself in a position where you need to write a comment, think it through and see whether there isn’t some way to turn the tables and express yourself in code. "
+
+
+Comments can lie because as code changes overtime, the comments become outdated
+
+"But I would rather that energy go toward making the code so clear and expressive that it does not need the comments in the first place."
+
+Comments can refactored like this:
+
+```
+   // Check to see if the employee is eligible for full benefits
+
+   if ((employee.flags & HOURLY_FLAG) &&
+
+       (employee.age > 65))
+```
+
+to 
+
+```
+   if (employee.isEligibleForFullBenefits())
+```
+
+Like this a lot!!
+
+"In many cases it’s simply a matter of creating a function that says the same thing as the comment you want to write."
+
+"Sometimes a comment goes beyond just useful information about the implementation and provides the intent behind a decision."
+
+He separates out the good vs bad comments ---> update this to list them in a table or something
+
+"Any comment that forces you to look in another module for the meaning of that comment has failed to communicate to you and is not worth the bits it consumes."
+
+"It is just plain silly to have a rule that says that every function must have a javadoc, or every variable must have a comment. Comments like this just clutter up the code, propagate lies, and lend to general confusion and disorganization."
+^^ i dont think i agree here, if you generated javadocs or jsdocs based on them...then why not. I can see the annoyance and have felt it myself though
+
+
+
+
