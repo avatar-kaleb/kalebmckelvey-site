@@ -8,7 +8,7 @@ tags:
   - hackathon
   - predix
 ---
-Last week and continuing into this week, our Software Engineering team along with others have been participating in a Predix Hackathon. If you are unsure what a hackathon is, check out my [Thanksgiving ](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1)post for more details.
+Last week and continuing into this week, our Software Engineering team along with others have been participating in a Predix Hackathon. If you are unsure what a hackathon is, check out my [Thanksgiving ](https://kalebmckelvey.com/blog/kalebs-thanksgiving-hackathon-part-1)post for more details.
 
 Having a hackathon at work has been a great experience so far. I want to showcase how our team has utilized the platform, microservices, micro-apps and machine data to create a prototype for productivity!
 

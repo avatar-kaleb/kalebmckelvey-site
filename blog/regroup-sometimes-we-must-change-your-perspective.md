@@ -17,7 +17,7 @@ If not, kudos! If so, then no worries - me too.
 
 If there is anyone who is hard on me, it's me. That's fine too because if all the chips fall down, guess what? I know I can count on me.
 
-I hope that you believe the same because as previously posted, [everyone has a story](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk).
+I hope that you believe the same because as previously posted, [everyone has a story](https://www.kalebmckelvey.com/blog/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk).
 
 Everyone went through ups and downs to get where they are, and I sincerely believe that it is the moment we "get through" the downs we realize just how much we've grown while doing so. Just like hardships, sometimes journeys slow down or as a mentor of mine would say "you hit reflective walls." With the end goal in mind, we can ADAPT, get up, and CONTINUE FORWARD! Sometimes positive thinking is hard. It really can be, and so can life, so let us accept it and move forward.
 

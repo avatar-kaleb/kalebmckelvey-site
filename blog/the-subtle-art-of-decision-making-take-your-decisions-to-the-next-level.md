@@ -55,7 +55,7 @@ _Welcome to modern-day React Dev life._
 
 With so many decisions being made in a life-time, it only makes sense that we should try to make sure we are making them properly right?
 
-[Joshua Kennon](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts) has written about the fact we are the sum of all the decisions we've previously made. 
+[Joshua Kennon](https://www.kalebmckelvey.com/blog/insights-from-reading-769-joshua-kennon-blog-posts) has written about the fact we are the sum of all the decisions we've previously made. 
 
 _Think about it. Think about the decisions you've made that landed where you are today. The city in which you live, the job you currently have, the friends you've met along the way. So many of the smaller decisions have had a butterfly effect on your life, mine too!_
 
@@ -104,7 +104,7 @@ Our brains use these heuristics and biases to determine answers to new problems 
 
 From [Farnam Steet](https://fs.blog/mental-models/):
 
-“Mental models are how we understand the world. Not only do they shape what we think and how we understand but they shape the connections and opportunities that we see. Mental models are how we simplify complexity, why we consider some things more relevant than others, and how we reason. 
+“Mental models are how we understand the world. Not only do they shape what we think and how we understand but they shape the connections and opportunities that we see. Mental models are how we simplify complexity, why we consider some things more relevant than others, and how we reason.
 
 A mental model is simply a representation of how something works. We cannot keep all of the details of the world in our brains, so we use models to simplify the complex into understandable and organizable chunks.“
 
@@ -144,7 +144,7 @@ Charlie Munger mentions in one of his speeches that Warren Buffet spends most of
 
 Learning wisdom from those who have been in similar situations can help us reduce poor decisions.
 
-[The key is to keep an open mind](https://www.kalebmckelvey.com/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems/)!
+[The key is to keep an open mind](https://www.kalebmckelvey.com/blog/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems/)!
 
 #### Pro / Con List
 
@@ -189,7 +189,7 @@ Outcomes I want to maximize:
 * Opportunities to grow my career (go from X position into Y position in Z industry)
 * Safety
 
-_Remember the goal of any decision isn't to be right or wrong but to [find the TRUTH that brings the best outcomes](https://www.kalebmckelvey.com/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems)_
+_Remember the goal of any decision isn't to be right or wrong but to [find the TRUTH that brings the best outcomes](https://www.kalebmckelvey.com/blog/are-you-really-open-minded-a-refresher-on-finding-the-best-solutions-to-problems)_
 
 ### Step 2: Asking the Right Questions
 
@@ -225,7 +225,7 @@ Making decisions that can impact you for the rest of your life should be done pr
 
 Thanks to the research that has been done and research happening today, we will continue learning more to fine-tune our decision-making processes.
 
-For now, I believe that making decisions utilizing a checklist or framework can lead to much stronger results in your life. There is a prerequisite for life decisions though - [knowing where you want to go](https://www.kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose). Picture making turns from the driver seat of your car without an end destination; as you can see, there is no way to make turns that lead you to the right outcome (getting to the destination) or reflecting on the path taken.
+For now, I believe that making decisions utilizing a checklist or framework can lead to much stronger results in your life. There is a prerequisite for life decisions though - [knowing where you want to go](https://www.kalebmckelvey.com/blog/each-day-in-our-lives-matter-live-them-with-purpose). Picture making turns from the driver seat of your car without an end destination; as you can see, there is no way to make turns that lead you to the right outcome (getting to the destination) or reflecting on the path taken.
 
 Interested in learning more? Check out the resources below.
 

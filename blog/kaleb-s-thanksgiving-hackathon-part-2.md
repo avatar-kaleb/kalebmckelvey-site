@@ -9,7 +9,7 @@ tags:
   - hackathon
   - ionic
 ---
-Hard to believe it is already Sunday. I'm pretty excited to get back to Predix and Historian tomorrow, although it has been a great few days of Thanksgiving break. Two days ago, I began [my own Thanksgiving Hackathon](https://kalebmckelvey.com/kalebs-thanksgiving-hackathon-part-1) to progress on my InspireMe app. Today I want to show it went! First and foremost, please understand that I will be working to make the theming of the app better in the upcoming weeks. I focused on functionality for this weekend.
+Hard to believe it is already Sunday. I'm pretty excited to get back to Predix and Historian tomorrow, although it has been a great few days of Thanksgiving break. Two days ago, I began [my own Thanksgiving Hackathon](https://kalebmckelvey.com/blog/kalebs-thanksgiving-hackathon-part-1) to progress on my InspireMe app. Today I want to show it went! First and foremost, please understand that I will be working to make the theming of the app better in the upcoming weeks. I focused on functionality for this weekend.
 
 ## Accomplishments of my Thanksgiving Hackathon:
 

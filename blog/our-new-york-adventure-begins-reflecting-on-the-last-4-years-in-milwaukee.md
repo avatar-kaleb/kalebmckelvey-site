@@ -31,7 +31,7 @@ We had a lot of fun teaching each other about cultural traditions, favorite food
 
 The most important lesson from all of the Hackathon events, happy hours, team dinners, or pressured app studio results comes down to this: people are awesome!
 
-[I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds today.
+[I've written about how every one of us has a unique story before](https://www.kalebmckelvey.com/blog/everyone-has-a-story-whats-yours-have-conversations-deeper-than-small-talk) - it still holds today.
 
 SN: Check out my [Instagram](https://www.instagram.com/on_the_journey3/) for pictures from the last few years!
 
@@ -73,7 +73,7 @@ In other words, when you are scared, uncomfortable, sick to your stomach nervous
 
 That story has stuck with me as an [Epiphany Moment](https://www.joshuakennon.com/epiphany-moments-events-change-worldview/). Not only for taking on big opportunities but the importance of having awesome people to help you too!
 
-_Reminder: [You Don't Have to be Perfect](https://www.kalebmckelvey.com/moving-is-an-adventure-one-full-of-mistakes-and-growth)_
+_Reminder: [You Don't Have to be Perfect](https://www.kalebmckelvey.com/blog/moving-is-an-adventure-one-full-of-mistakes-and-growth)_
 
 ## Concluding Thoughts
 

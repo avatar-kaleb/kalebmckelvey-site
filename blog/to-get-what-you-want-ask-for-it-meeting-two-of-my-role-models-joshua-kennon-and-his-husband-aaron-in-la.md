@@ -11,7 +11,7 @@ tags:
   - adventure
   - career
 ---
-It's no secret that I've been a fan of Joshua Kennon's Blog for the last few years, especially after reading all [760+ articles](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts) - many more than once. Recently, my girlfriend Frankie (yes, she really is a Slytherin) and I took a week-long vacation trip to LA. While most activities scheduled were in the top LA tourist areas, one was not. On Thursday of that week, we ventured down to Newport Beach to meet Joshua Kennon and his husband Aaron in person!!!!
+It's no secret that I've been a fan of Joshua Kennon's Blog for the last few years, especially after reading all [760+ articles](https://www.kalebmckelvey.com/blog/insights-from-reading-769-joshua-kennon-blog-posts) - many more than once. Recently, my girlfriend Frankie (yes, she really is a Slytherin) and I took a week-long vacation trip to LA. While most activities scheduled were in the top LA tourist areas, one was not. On Thursday of that week, we ventured down to Newport Beach to meet Joshua Kennon and his husband Aaron in person!!!!
 
 Before diving into how the hangout session went, I wanted to talk about a career event!
 

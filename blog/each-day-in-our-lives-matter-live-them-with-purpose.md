@@ -61,8 +61,8 @@ Have an event invite that you aren't sure you want to take time to go to?
 
 ## My Blogs:
 
-  * [Forget Resolutions, Make Goals!!](https://kalebmckelvey.com/forget-resolutions-make-goals)
-  * [Is the Inheritance Cycle Relevant to the 2016 New Year?](https://kalebmckelvey.com/is-the-inheritance-cycle-relevant-to-the-2016-new-year)
+  * [Forget Resolutions, Make Goals!!](https://kalebmckelvey.com/blog/forget-resolutions-make-goals)
+  * [Is the Inheritance Cycle Relevant to the 2016 New Year?](https://kalebmckelvey.com/blog/is-the-inheritance-cycle-relevant-to-the-2016-new-year)
 I really believed in defining long term life goals, then each year creating smaller projects that get you to closer to those long term goals. This leads me to a combo theory of having purpose, main goals, and smaller goals to live the life we're happy with.
 
 ### Combined Goal Theory:
@@ -93,7 +93,7 @@ Further, small goals can be unrelated to main goals. It's your life, we both bel
 
 ## Setbacks:
 
-[Life throws curve balls](https://kalebmckelvey.com/life-throws-curve-balls-hit-home-runs-positively-adapt-for-a-happier-life) and sometimes a Luke Cage binge happens too. 
+[Life throws curve balls](https://kalebmckelvey.com/blog/life-throws-curve-balls-hit-home-runs-positively-adapt-for-a-happier-life) and sometimes a Luke Cage binge happens too. 
 
 I think this is fine - if it wasn't life would be BORING. I'm in the grind hard, do your best, and relax to enjoy life sometimes camp. 
 

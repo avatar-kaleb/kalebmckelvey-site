@@ -11,7 +11,7 @@ tags:
 ---
 Hello all!
 
-Today I officially release the completed version 1 of my Gatsby site. In [June](https://www.kalebmckelvey.com/new-site-gatsby-material-style) I talked about the reasons behind updating, and what the updates included for changing sites - today I'll just quickly highlight a few changes from this weekend.
+Today I officially release the completed version 1 of my Gatsby site. In [June](https://www.kalebmckelvey.com/blog/new-site-gatsby-material-style) I talked about the reasons behind updating, and what the updates included for changing sites - today I'll just quickly highlight a few changes from this weekend.
 
 * Updated copy and skills on AboutMe page
 * Updated a few resources for development

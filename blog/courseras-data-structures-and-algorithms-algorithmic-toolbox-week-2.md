@@ -9,12 +9,12 @@ tags:
   - algorithms
   - coursera
 ---
-_This is post 2 of a long-series of articles taking a Coursera Course on Algorithms - see [Part 1](https://www.kalebmckelvey.com/courseras-data-structures-and-algorithms-algorithmic-toolbox-week-1) if you're interested from starting at the beginning!_
+_This is post 2 of a long-series of articles taking a Coursera Course on Algorithms - see [Part 1](https://www.kalebmckelvey.com/blog/courseras-data-structures-and-algorithms-algorithmic-toolbox-week-1) if you're interested from starting at the beginning!_
 
 
 ## Why Algorithms Matter
 
-I previously mentioned the reasons algorithm run time is vitally important within our daily lives in [A Rule of Thumb For Calculating an Algorithms Worst Case in Big oh](https://www.kalebmckelvey.com/a-rule-of-thumb-for-calculating-an-algorithms-worst-case-in-big-oh-notation)
+I previously mentioned the reasons algorithm run time is vitally important within our daily lives in [A Rule of Thumb For Calculating an Algorithms Worst Case in Big oh](https://www.kalebmckelvey.com/blog/a-rule-of-thumb-for-calculating-an-algorithms-worst-case-in-big-oh-notation)
 
 Here's the quote that bares repeating:
 

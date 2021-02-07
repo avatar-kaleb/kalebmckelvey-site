@@ -70,7 +70,7 @@ const CoreFundamentals = () => (
         <ul>
           <li>
             <a
-              href="https://kalebmckelvey.com/how-bad-do-you-want-to-achieve-in-your-life/"
+              href="https://kalebmckelvey.com/blog/how-bad-do-you-want-to-achieve-in-your-life/"
               rel="noopener"
             >
               How Bad Do You Want to Achieve?
@@ -78,7 +78,7 @@ const CoreFundamentals = () => (
           </li>
           <li>
             <a
-              href="https://kalebmckelvey.com/each-day-in-our-lives-matter-live-them-with-purpose/"
+              href="https://kalebmckelvey.com/blog/each-day-in-our-lives-matter-live-them-with-purpose/"
               rel="noopener"
             >
               Make Each Day Matter

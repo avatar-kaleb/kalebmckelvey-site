@@ -9,7 +9,7 @@ tags:
   - inspirational
   - mistakes
 ---
-Glad to be back with a new post for everyone. Since last posting, I’ve graduated from college, started a new job in the Healthcare Industry, and moved to a new state. To say the least, life has had a bit of change. Although the change has been big, the experience has been one full of great moments to reflect and learn from. I already have made some mistakes, aimed way too high, met great people, and dealt with homesickness. I want to share with you how we can reflect on negatives and adapt as [positive thinkers](https://www.kalebmckelvey.com/positive-thinking-is-thinking-positively-start-today) should.
+Glad to be back with a new post for everyone. Since last posting, I’ve graduated from college, started a new job in the Healthcare Industry, and moved to a new state. To say the least, life has had a bit of change. Although the change has been big, the experience has been one full of great moments to reflect and learn from. I already have made some mistakes, aimed way too high, met great people, and dealt with homesickness. I want to share with you how we can reflect on negatives and adapt as [positive thinkers](https://www.kalebmckelvey.com/blog/positive-thinking-is-thinking-positively-start-today) should.
 
 ## Mistakes:
 

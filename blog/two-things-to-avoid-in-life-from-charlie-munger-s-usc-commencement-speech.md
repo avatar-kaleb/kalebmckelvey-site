@@ -13,7 +13,7 @@ My family has always known a simple fact about me from my childhood, one which m
 
 Whether it was having 6 Eggo Waffles for breakfast every morning that one high school year or the few months that I just had to have bagel bites after sports practice, the fads came and went. It wasn't limited only to food though, because back then learning all of the character frame rates on Diablo II  or memorizing Fresh Prince of Bel Air episodes were kicks too; but, to her, it was just something that made me, well, me.
 
-These new interests still happen to me today. Even now I'm on my third week in a row of making no-bake cookies as a snack, while reading through [Joshua Kennon's blog articles](https://www.kalebmckelvey.com/insights-from-reading-769-joshua-kennon-blog-posts/) again! This tendency has been advantageous in some regards:
+These new interests still happen to me today. Even now I'm on my third week in a row of making no-bake cookies as a snack, while reading through [Joshua Kennon's blog articles](https://www.kalebmckelvey.com/blog/insights-from-reading-769-joshua-kennon-blog-posts/) again! This tendency has been advantageous in some regards:
 
 **Number one** - Coach Proctor and Coach Smooth used to say - "If it ain't broke don't fix it!"
 
@@ -29,7 +29,7 @@ Click the image below to watch Charlie Munger's USC Commencement Speech.
 
 [![Charlie Munger](https://img.youtube.com/vi/5U0TE4oqj24/0.jpg)](https://www.youtube.com/watch?v=5U0TE4oqj24 "Charlie Munger")
 
-_Does the name ring a bell? I wrote about Charlie's advice on [keeping friends in the past](https://www.kalebmckelvey.com/would-you-fill-up-your-friends-gas-tank/)!_
+_Does the name ring a bell? I wrote about Charlie's advice on [keeping friends in the past](https://www.kalebmckelvey.com/blog/would-you-fill-up-your-friends-gas-tank/)!_
 
 ## From Charlie: Two Things to Avoid in Life
 

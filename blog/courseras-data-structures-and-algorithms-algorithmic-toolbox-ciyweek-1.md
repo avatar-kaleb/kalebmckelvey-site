@@ -14,7 +14,7 @@ As Charlie Munger has famously said:
 
 One must be a life-long learner and acquirer of wisdom by taking just a bit of time each day (most days at least) to grow their knowledge.
 
-When I was looking to make a career and city change - [Reflecting on my time in MKE](https://www.kalebmckelvey.com/our-new-york-adventure-begins-reflecting-on-the-last-4-years-in-milwaukee) - I realized that it had been quite a while since taking my algorithms class in college. In fact, it had been ~6 years!
+When I was looking to make a career and city change - [Reflecting on my time in MKE](https://www.kalebmckelvey.com/blog/our-new-york-adventure-begins-reflecting-on-the-last-4-years-in-milwaukee) - I realized that it had been quite a while since taking my algorithms class in college. In fact, it had been ~6 years!
 
 Although most of my roles within GE were on the tech side, the big focus on leadership did mean that as far as Software Engineer skills went - web dev didn't always require the need for creating efficient algorithms or using Big O since we weren't using huge data sets. One rotation we did deal with big data, but with Talend, a lot of heavy lifting was taken care of for us.
 

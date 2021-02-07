@@ -32,7 +32,7 @@ Someone's story, or how they have journeyed to this present moment through their
 
 Big, medium, or small pieces of time that unknowingly will become an outcome we didn't mean to produce. Who would have thought attending a leadership institute would end with me moving to a new state or visiting a friend in California?
 
-How can a [simple trip to Walmart](https://kalebmckelvey.com/how-my-positive-thinking-journey-began) give a perspective on our own "problems"? 
+How can a [simple trip to Walmart](https://kalebmckelvey.com/blog/how-my-positive-thinking-journey-began) give a perspective on our own "problems"? 
 
 These quick snippets of life shape who we are in this moment influence how we try to live perfectly in that moment and build our unknown perfect future wall one perfect moment at a time!
 
