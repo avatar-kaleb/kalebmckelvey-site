@@ -23,3 +23,23 @@ You can read: "The Java™ Language Specification by Gosling, Joy, yours truly, 
 "I naturally think in terms of exported APIs (Application Programming Interfaces), and I encourage you to do likewise. Even if you aren’t developing reusable components, thinking in these terms tends to improve the quality of the software you write. Furthermore, it’s not uncommon to write a reusable component without knowing it: You write something useful, share it with your buddy across the hall, and before long you have half a dozen users."
 
 He notes tihs is different then what's stated in something like _Extreme Programming_ since it would require flexible design for something not created yet.
+
+## Introduction
+
+### Standards
+1. Clarity and simplicity are paramount
+1. Components should be as small as possible but no smaller
+1. Code should be re-used rather than copied
+1. Errors should be detected as soon as possible after they are made
+
+"Learning the art of programming, like most other disciplines, consists of first learning the rules and then learning when to break them."
+
+
+### How things are referenced
+
+"Class instances and arrays are objects; primitive values are not. A class’s members consist of its fields, methods, member classes, and member interfaces. A method’s signature consists of its name and the types of its formal parameters; the signature does not include the method’s return type."
+
+
+#### Expanded Examples
+
+https://github.com/jbloch/effective-java-3e-source-code
