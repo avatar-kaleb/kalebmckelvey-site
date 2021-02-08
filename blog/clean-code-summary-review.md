@@ -212,8 +212,93 @@ He separates out the good vs bad comments ---> update this to list them in a tab
 "Any comment that forces you to look in another module for the meaning of that comment has failed to communicate to you and is not worth the bits it consumes."
 
 "It is just plain silly to have a rule that says that every function must have a javadoc, or every variable must have a comment. Comments like this just clutter up the code, propagate lies, and lend to general confusion and disorganization."
-^^ i dont think i agree here, if you generated javadocs or jsdocs based on them...then why not. I can see the annoyance and have felt it myself though
+^^ i dont think i agree here, if you generated javadocs or jsdocs based on them...then why not. I can see the annoyance and have felt it myself though.
+
+## Chapter 5 - Formatting
+
+Having consistent, formatted code sets the standard of professionalism in the code base. Everything is clean and neat.
+
+"Code formatting is about communication, and communication is the professional developer’s first order of business."
+
+### File Size (vertical)
+
+We should do our best to keep files small, because they are easier to understand and much simpler to maintain.
+
+He uses an example of reading a newspaper as a metaphor, large headlines, small columns, and many articles.
+
+### Openness and Density
+
+When giving a very spread out code example or one that is compressed, our eyes and head literally have to move to understand and read it.
+
+"Have you ever chased your tail through a class, hopping from one function to the next, scrolling up and down the source file, trying to divine how the functions relate and operate, only to get lost in a rat’s nest of confusion? Have you ever hunted up the chain of inheritance for the definition of a variable or function? This is frustrating because you are trying to understand what the system does, but you are spending your time and mental energy on trying to locate and remember where the pieces are."
+
+He states that concepts which are closely related should be close to each other, when talking about things in the same file...but closely related concepts should be in the same file.
+
+### Variable Declarations
+
+"Variables should be declared as close to their usage as possible"
+
+### Instance variables
+
+"Declared at the top of the class"
+
+Since they are used everywhere, it would be tough to place them near where they are used.
+
+### Dependent Functions
+
+When one function calls another, they should be close - he even says the caller should be above. This is a tough one, because what about private versus public?
+
+### Vertical Ordering
+
+Call dependencies should go downwards as you scroll.
+
+### Horizontal Formatting
+
+"This suggests that we should strive to keep our lines short. The old Hollerith limit of 80 is a bit arbitrary, and I’m not opposed to lines edging out to 100 or even 120. But beyond that is probably just careless."
+
+One interesting note he had was about changing white space for different precendence of operators in equations. High precedence gets less white space compared to lower.
+
+```java
+ public static double root2(int a, int b, int c) {
+
+       double determinant = determinant(a, b, c);
+
+       return (-b - Math.sqrt(determinant)) / (2*a); 
+
+     }
 
 
 
+     private static double determinant(double a, double b, double c) {
 
+       return b*b - 4*a*c;
+
+     }
+```
+
+Variable declarations should be misaligned horizontally, but long lists can be separated vertically with blank lines to group variablse together.
+
+### Indentation
+
+We rely on indentation to help read through source code, skimming certain parts like while loops, as we find the thing we're actually looking for. 
+
+Funny example:
+```
+public class FitNesseServer implements SocketServer { private FitNesseContext 
+
+   context; public FitNesseServer(FitNesseContext context) { this.context = 
+
+   context; } public void serve(Socket s) { serve(s, 10000); } public void 
+
+   serve(Socket s, long requestTimeout) { try { FitNesseExpediter sender = new 
+
+   FitNesseExpediter(s, context); 
+
+   sender.setRequestParsingTimeLimit(requestTimeout); sender.start(); } 
+
+   catch(Exception e) { e.printStackTrace(); } } }
+```
+
+### Team Rules
+
+"A team of developers should agree upon a single formatting style, and then every member of that team should use that style. We want the software to have a consistent style. We don’t want it to appear to have been written by a bunch of disagreeing individuals."
