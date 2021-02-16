@@ -282,7 +282,7 @@ cocaCola.setServingSize(240);
 
 - simulates named optional params like Python / Scala
 
-Client calls a constructor (or static factory) with required params and gets a builder object, ten calls setter like methds....then calls `build` to generate the object, which is typically immutable.
+- Client calls a constructor (or static factory) with required params and gets a builder object, ten calls setter like methds....then calls `build` to generate the object, which is typically immutable.
 
 - you can add validity checks to the build method or to the set methods
 
@@ -397,7 +397,7 @@ used like:
 "The Builder pattern is a good choice when designing classes whose constructors or static factories would have more than a handful of parameters"
 
 
-
+### Item 3: Enforce the Singleton Property with a Private Constructor or an Enum Type
 
 
 
