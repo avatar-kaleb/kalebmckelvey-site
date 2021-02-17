@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/effectively-onboarding-new-teammates.jpg
+cover: /post-images/effectively-onboarding-new-teammates.jpg
 date: 2021-02-17T13:30:24.828Z
 title: "Honeypot Cult Article: Effectively Onboarding New Teammates"
 canonical_url: https://cult.honeypot.io/reads/effectively-onboarding-new-teammates
