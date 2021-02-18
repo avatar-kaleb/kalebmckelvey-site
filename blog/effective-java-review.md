@@ -399,6 +399,178 @@ used like:
 
 ### Item 3: Enforce the Singleton Property with a Private Constructor or an Enum Type
 
+Singleton - a class that's instantiated exactly once
+- usually for stateless objects or a unique system component 
+
+"Making a class a singleton can make it difficult to test"
+
+#### Two Common Ways to Implement:
+
+- both are based on keeping the constructor private and exporting a public static member to provide access to the sole instance
+
+```java
+// Singleton with public final field
+
+public class Elvis {
+
+    public static final Elvis INSTANCE = new Elvis();
+
+    private Elvis() { ... }
+
+
+
+    public void leaveTheBuilding() { ... }
+
+}
+
+// or
+// Singleton with static factory
+
+public class Elvis {
+
+    private static final Elvis INSTANCE = new Elvis();
+
+    private Elvis() { ... }
+
+    public static Elvis getInstance() { return INSTANCE; }
+
+
+
+    public void leaveTheBuilding() { ... }
+
+}
+
+//or
+// Enum singleton - the preferred approach
+
+public enum Elvis {
+
+    INSTANCE;
+
+
+
+    public void leaveTheBuilding() { ... }
+
+}
+```
+
+^^ this looks safe, but privileged clients can invoke the priv constructor reflectively with AccessibleObject.setAccessible...you can throw an exception in the constructor if if someone tries to do this.
+
+
+#### Public Field Advantages:
+1. the API makes it clear its a singleton
+1. It's Simpler
+
+#### Static Factory Approach Advantages
+1. gives you the flexibility to change your mind about it being a singleton without changing the API
+1. Can create a generic singleton factory if your app requires it
+1. A method erfence can be used as a supplier: ` Elvis::instance is a Supplier<Elvis>`
+
+Unless one of these advantages is relevant....use public field approach
+
+To make either of the above serializable, you must make each field `transient` and add a `readResolve` method to the class bc `implements serializable` will create multiple instances 
+
+#### Enum Singleton Advantages:
+1. more concise and provides serialization machinery for free
+1. provides ironclad guarantee against multiple instantiation
+1. a single element enum type is often the best way to implement a singleton
+
+can't use this if the singleton must extend a superclass other than `Enum`
+
+### Item 4: Enforce NonInstantiability with a Private Constructor
+
+Why create a class that can't be instantiated?
+1. group of static methods and fields to group related methods on primitive values or arrays, like java.lang.Math
+1. group static methods (including factories) for objects that implement an interface
+1. group methods on a final class
+
+In Java, if you create a class without a constructor, the parameterless default constructor will be provided by the compiler - so then ppl can accidently create the class.
+
+You can create a private one instead, which also prevents it from being extended:
+
+```java
+// Noninstantiable utility class
+
+public class UtilityClass {
+
+    // Suppress default constructor for noninstantiability
+
+    private UtilityClass() {
+
+        throw new AssertionError();
+
+    }
+
+    ... // Remainder omitted
+
+}
+```
+
+### Item 5: Prefer Dependency Injection to Hardwiring Resources
+- many classes depend on one or more underlying resources
+
+"Static utility classes and singletons are inappropriate for classes whose behavior is parameterized by an underlying resource."
+
+"What is required is the ability to support multiple instances of the class (in our example, SpellChecker), each of which uses the resource desired by the client (in our example, the dictionary). A simple pattern that satisfies this requirement is to pass the resource into the constructor when creating a new instance"
+
+"This is one form of dependency injection: the dictionary is a dependency of the spell checker and is injected into the spell checker when it is created."
+
+```java
+// Dependency injection provides flexibility and testability
+
+public class SpellChecker {
+
+    private final Lexicon dictionary;
+
+
+
+    public SpellChecker(Lexicon dictionary) {
+
+        this.dictionary = Objects.requireNonNull(dictionary);
+
+    }
+
+
+
+    public boolean isValid(String word) { ... }
+
+    public List<String> suggestions(String typo) { ... }
+
+}
+```
+
+Don't use a singleton or static utility class to implement a class that depends on other resources that affects the class, do not have the class create them, instead pass the resources or factories to create them
+
+### Item 6: Avoid Creating Unnecessary Objects
+
+- reuse a single object instead of creating a new one with the same functionality every time you need it
+- re-use is faster and more stylish
+- objects can always be reused if its immutable
+
+Example of what not to do:
+`String s = new String("bikini");  // DON'T DO THIS!`
+
+But instead do this:
+`String s = "bikini";`
+
+You can avoid creating unnecessary objects by using static factory methods over using constructors on immutable, for example:
+
+`Boolean.valueOf(String)` over `Boolean(String)`
+
+Constructor must create a new object, while the factory method is never required to do so
+
+You can re-use mutable objects if you know they won't be modified
+
+
+
+
+
+
+
+
+
+
+
 
 
 
