@@ -561,6 +561,183 @@ Constructor must create a new object, while the factory method is never required
 
 You can re-use mutable objects if you know they won't be modified
 
+If you're going to create an expensive object a lot, cache it.
+
+Example of re-use instead of creating it in the method each time
+
+```
+// Reusing expensive object for improved performance
+
+public class RomanNumerals {
+
+    private static final Pattern ROMAN = Pattern.compile(
+
+            "^(?=.)M*(C[MD]|D?C{0,3})"
+
+            + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
+
+
+
+    static boolean isRomanNumeral(String s) {
+
+        return ROMAN.matcher(s).matches();
+
+    }
+
+}
+```
+
+- one note, if the class was instantiated and `isRomanNumeral` was called, then the pattern was created for no reason. You can use lazy initialization for that (item 83)! One should only do this for strong measurable improvements in performance
+
+*prefer primitives to boxed primitives, and watch out for unintentional autoboxing.*
+
+He states that creating inexpensive objects shouldn't always be avoided, and if you're doing it for more clarity, it can be good.
+
+### Item 7: Eliminate Obsolete Object References
+
+Even though Java automatically manages memory for you - doesn't mean we don't have to worry about it at all.
+
+
+
+#### Common Memory Leak Obsolete References
+```
+// Can you spot the "memory leak"?
+
+public class Stack {
+
+    private Object[] elements;
+
+    private int size = 0;
+
+    private static final int DEFAULT_INITIAL_CAPACITY = 16;
+
+
+
+    public Stack() {
+
+        elements = new Object[DEFAULT_INITIAL_CAPACITY];
+
+    }
+
+
+
+    public void push(Object e) {
+
+        ensureCapacity();
+
+        elements[size++] = e;
+
+    }
+
+
+
+    public Object pop() {
+
+        if (size == 0)
+
+            throw new EmptyStackException();
+
+        return elements[--size];
+
+    }
+
+
+
+    /**
+
+     * Ensure space for at least one more element, roughly
+
+     * doubling the capacity each time the array needs to grow.
+
+     */
+
+    private void ensureCapacity() {
+
+        if (elements.length == size)
+
+            elements = Arrays.copyOf(elements, 2 * size + 1);
+
+    }
+```
+
+If a stack grows, then shrinks, the objects that were propped off the stack wont be garbage collected...even if the program using the stack has no more references to them
+
+The stack maintains *obsolete references* to them:
+- reference that will never be dereferenced again
+- any reference outside of the "active portion" of the element are obslete, items with index < size
+
+The fix for this is simple - null out references once they are obsolete
+```
+public Object pop() {
+
+    if (size == 0)
+
+        throw new EmptyStackException();
+
+    Object result = elements[--size];
+
+    elements[size] = null; // Eliminate obsolete reference
+
+    return result;
+
+}
+```
+
+"Nulling out object references should be the exception rather than the norm"
+
+He says the following:
+"The best way to eliminate an obsolete reference is to let the variable that contained the reference fall out of scope. This occurs naturally if you define each variable in the narrowest possible scope"
+
+"whenever a class manages its own memory, the programmer should be alert for memory leaks."
+
+
+#### Common Memory Leak: Caches & Listeners and other call backs
+
+Try to use `WeakHashMaps` 
+- api where callbacks are registered but not registered explicity, they will accumulate unless you take action
+
+`heap profile` to find memory leaks
+
+
+#### Avoid Finalizers and Cleaners
+
+"Finalizers are unpredictable, often dangerous, and generally unnecessary. "
+
+"Cleaners are less dangerous than finalizers, but still unpredictable, slow, and generally unnecessary."
+
+"never do anything time-critical in a finalizer or cleaner."
+
+"never depend on a finalizer or cleaner to update persistent state."
+
+"There is a severe performance penalty for using finalizers and cleaners. "
+
+"Finalizers have a serious security problem: they open your class up to finalizer attacks. "
+
+"Throwing an exception from a constructor should be sufficient to prevent an object from coming into existence; in the presence of finalizers, it is not."
+
+### Item 9: Prefer Try-With-Resources to Try-Finally
+- historically try-finally was best way to guarantee a resource would be closed properly, even in the case of exceptions
+
+```
+// try-with-resources - the best way to close resources!
+
+static String firstLineOfFile(String path) throws IOException {
+
+    try (BufferedReader br = new BufferedReader(
+
+           new FileReader(path))) {
+
+       return br.readLine();
+
+    }
+
+}
+```
+
+- better errors thrown to see what happened
+- cleaner and more concise
+
+
 
 
 
