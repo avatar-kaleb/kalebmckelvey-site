@@ -302,3 +302,6 @@ public class FitNesseServer implements SocketServer { private FitNesseContext
 ### Team Rules
 
 "A team of developers should agree upon a single formatting style, and then every member of that team should use that style. We want the software to have a consistent style. We don’t want it to appear to have been written by a bunch of disagreeing individuals."
+
+
+/// look into how wide our brain can understand
