@@ -2,7 +2,7 @@
 published: false
 cover: /post-images/effective-java-review.jpg
 date: 2021-02-08T20:42:56.834Z
-title: Effective Java Review
+title: Effective Java Review - Chapter 1 & 2
 canonical_url: ''
 category: Tech
 tags:
