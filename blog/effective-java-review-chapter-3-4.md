@@ -125,8 +125,13 @@ public class ColorPoint {
 - Don't substitute another type for Object in the equals declaration
 
 
+### Item 11: Always Override Hashcode When You Override Equals
 
+If you don't, things relying on a general contract for hashCode wont work like HashMap or HashSet
 
+"The key provision that is violated when you fail to override hashCode is the second one: equal objects must have equal hash codes"
+
+"A good hash function tends to produce unequal hash codes for unequal instances"
 
 
 
