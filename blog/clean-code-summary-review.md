@@ -305,3 +305,91 @@ public class FitNesseServer implements SocketServer { private FitNesseContext
 
 
 /// look into how wide our brain can understand
+
+## Chapter 6 - Objects and Data Structures
+
+Hiding implementation is about abstraction - it isnt just putting layer of functions between variables.
+
+Classes should expose the abstract interfaces for users to manipulate the essence of data, but dont need to know its implementation.
+
+"This is not merely accomplished by using interfaces and/or getters and setters. Serious thought needs to be put into the best way to represent the data that an object contains. The worst option is to blithely add getters and setters."
+
+```java
+   public interface Vehicle {
+
+     double getPercentFuelRemaining();
+
+   }
+````
+
+^^ doesn't expose how the percent is calculated
+
+### Data/Object Anti-Symmetry
+
+Differences between objects and data structures:
+
+- Objects hide their data behind abstractions, only exposing functions to operate on it
+- Data structures expose their data and have no meaningful functions
+
+"Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. OO code, on the other hand, makes it easy to add new classes without changing existing functions."
+
+ 
+"Procedural code makes it hard to add new data structures because all the functions must change. OO code makes it hard to add new functions because all the classes must change."
+
+When we want to add new data types, rather than functions, OO is appropriate. When we want to add new functions but not new data types, procedural is more appropriate.
+
+Everything can't be an object.
+
+### The Law of Demeter
+
+"A module should not know about the innards of the objects it manipulates"
+
+Objects shouldnt expose internal structures through accessors, bc itll expose the internal structure.
+
+
+He calls this example a train wreck:
+`final String outputDir = ctxt.getOptions().getScratchDir().getAbsolutePath();`
+
+Chains of calls like this are considered sloppy, and better to split them up.
+
+```
+   Options opts = ctxt.getOptions();
+
+   File scratchDir = opts.getScratchDir();
+
+   final String outputDir = scratchDir.getAbsolutePath();
+```
+
+or instead do this:
+`BufferedOutputStream bos = ctxt.createScratchFileStream(classFileName);`
+
+if you notice that the reason we got the absolute path was to create a file stream
+
+### Hybrids
+
+When a class is half object and half data structure....functions that do significant things and public variables or accessors that make private variables public, it can be be tough to add new data structures and add new functions - worst of both worlds.
+
+### Data Transfer Objects
+
+Class with public variables and no functions
+
+- useful for communicating with databases or parsing messages from sockets and so on
+
+
+More common iare `bean` ->
+- private vars manipulated vy getters/setts
+
+### Active Record
+
+- special form of DTOs - data structures with public or bean access vars....hav navigation methods like save and find
+- these are direct translations from database tables
+
+We often find devs trying to treat these as objects, putting business rules in them....its awkward if you do this bc it creates a hybrid.
+
+Treat active record as data structure and create separate objects for business rules and hide their interl data.
+
+^^ We do this in spring
+- data model -> objects holding db data
+- Polaris objects / Services -> objects with their own methods etc
+- Active records -> daos we make
+
