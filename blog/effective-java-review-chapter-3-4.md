@@ -200,6 +200,8 @@ Immutable classes should never provide a clone method
 "Given all the problems associated with Cloneable, new interfaces should not extend it, and new extendable classes should not implement it."
 
 
+## Item 14: Consider Implementing Comparable
+
 
 
 
