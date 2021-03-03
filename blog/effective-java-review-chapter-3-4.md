@@ -133,6 +133,62 @@ If you don't, things relying on a general contract for hashCode wont work like H
 
 "A good hash function tends to produce unequal hash codes for unequal instances"
 
+### Item 12: Always Override toString
+
+If you don't override an object's toString, you will get ClassName@dsfsd. It's not very informative or helpful in what properties the object holds.
+
+"Providing a good toString implementation makes your class more pleasant to use"
+
+Should return all interesting info from the object
+
+For value classes, one should format the return value in the documentation
+
+Disadvantage to formatting it, you're stuck with that format if it's being used i the wild
+
+Clearly document your intentions whether or not you specify the format
+
+Example:
+```
+/**
+
+ * Returns the string representation of this phone number.
+
+ * The string consists of twelve characters whose format is
+
+ * "XXX-YYY-ZZZZ", where XXX is the area code, YYY is the
+
+ * prefix, and ZZZZ is the line number. Each of the capital
+
+ * letters represents a single decimal digit.
+
+ *
+
+ * If any of the three parts of this phone number is too small
+
+ * to fill up its field, the field is padded with leading zeros.
+
+ * For example, if the value of the line number is 123, the last
+
+ * four characters of the string representation will be "0123".
+
+ */
+
+@Override public String toString() {
+
+    return String.format("%03d-%03d-%04d",
+
+            areaCode, prefix, lineNum);
+
+}
+```
+
+- Provide programmatic access to info contained in toString...aka dont make ppl parse the string returned for specific data.
+
+
+### Item 13: Override Clone Judiciously
+
+#### What does Cloneable Interface do?
+
 
 
 
