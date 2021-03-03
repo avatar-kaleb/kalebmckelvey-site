@@ -189,6 +189,18 @@ Example:
 
 #### What does Cloneable Interface do?
 
+Determines the behavior of Object's protected clone implementation: if a class implements it, the objects clone method should return a field by field copy of the object
+
+"in practice, a class implementing Cloneable is expected to provide a properly functioning public `clone` method"
+
+Immutable classes should never provide a clone method
+
+"A better approach to copying, provide a copy constructor or factory"
+
+"Given all the problems associated with Cloneable, new interfaces should not extend it, and new extendable classes should not implement it."
+
+
+
 
 
 
