@@ -393,3 +393,68 @@ Treat active record as data structure and create separate objects for business r
 - Polaris objects / Services -> objects with their own methods etc
 - Active records -> daos we make
 
+## Chapter 7 - Error Handling
+
+"I mean that it is nearly impossible to see what the code does because of all of the scattered error handling. Error handling is important, but if it obscures logic, it’s wrong."
+
+Good example - splits error handling from the shutdown algorithm:
+
+```java
+public class DeviceController {
+
+     …
+
+     
+
+     public void sendShutDown() {
+
+       try {
+
+         tryToShutDown();
+
+       } catch (DeviceShutDownError e) {
+
+         logger.log(e);
+
+       }
+
+   }
+
+
+
+    private void tryToShutDown() throws DeviceShutDownError {
+
+      DeviceHandle handle = getHandle(DEV1);
+
+      DeviceRecord record = retrieveDeviceRecord(handle);
+
+
+
+      pauseDevice(handle);
+
+      clearDeviceWorkQueue(handle);
+
+      closeDevice(handle);
+
+   }
+
+
+
+     private DeviceHandle getHandle(DeviceID id) {
+
+     …
+
+     throw new DeviceShutDownError(“Invalid handle for: ” + id.toString());
+
+     …
+
+    }
+
+
+
+    …
+
+   }
+```
+
+
