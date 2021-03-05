@@ -457,4 +457,162 @@ public class DeviceController {
    }
 ```
 
+#### Use Unchecked Exceptions
+
+The price of checked exceptions is an Open/Closed principle violation
+
+- if you throw a checked exception in your code and it catches it 3 levels above....it must be declared in EVERY method between
+
+^^ this causes lots of changes on high levels when low levels change...causing them to be rebuilt and deployed
+
+"Checked exceptions can sometimes be useful if you are writing a critical library: You must catch them. But in general application development the dependency costs outweigh the benefits."
+
+#### Provide Context With Exceptions
+
+Java stack traces are really long and not always the best to tell you what happened - adding messages to the exception helps, or log it in your catch
+
+#### Define Exceptions in terms of a caller's need
+
+Most important info to include on an error - how they are caught
+
+```java
+ LocalPort port = new LocalPort(12);
+
+   try {
+
+     port.open();
+
+   } catch (PortDeviceFailure e) {
+
+     reportError(e);
+
+     logger.log(e.getMessage(), e);
+
+   } finally {
+
+     …
+
+   }
+```
+
+Wrapping a third party api s a best practice, then you can throw your own error to avoid a bunch of duplicates as well:
+
+```
+ public class LocalPort {
+
+     private ACMEPort innerPort;
+
+
+
+     public LocalPort(int portNumber) {
+
+       innerPort = new ACMEPort(portNumber);
+
+     }
+
+
+
+     public void open() {
+
+       try {
+
+         innerPort.open();
+
+       } catch (DeviceResponseException e) {
+
+         throw new PortDeviceFailure(e);
+
+       } catch (ATM1212UnlockedException e) {
+
+         throw new PortDeviceFailure(e);
+
+       } catch (GMXError e) {
+
+         throw new PortDeviceFailure(e);
+
+       }
+
+     }
+
+     …
+
+   }
+```
+
+
+
+### Define the Normal Flow
+
+The key in the above examples - separate business logic from error handling
+
+The downside, sometimes you want might not want to abort
+
+`Special Case Pattern` - "You create a class or configure an object so that it handles a special case for you. When you do, the client code doesn’t have to deal with exceptional behavior. That behavior is encapsulated in the special case object."
+
+#### Don't Return NULL
+
+Dont do this
+
+```
+public void registerItem(Item item) {
+
+     if (item != null) {
+
+       ItemRegistry registry = peristentStore.getItemRegistry();
+
+       if (registry != null) {
+
+         Item existing = registry.getItem(item.getID());
+
+         if (existing.getBillingPeriod().hasRetailOwner()) {
+
+           existing.register(item);
+
+         }
+```
+
+
+when we return null....all it takes is one missing check and app goes wild
+
+instead of returning a null....return ane xception
+
+Example:
+
+this can return null
+```
+ List<Employee> employees = getEmployees();
+
+   if (employees != null) {
+
+     for(Employee e : employees) {
+
+       totalPay += e.getPay();
+
+     }
+
+   }
+```
+
+do this instead:
+```
+   public List<Employee> getEmployees() {
+
+     if( .. there are no employees .. )
+
+       return Collections.emptyList();
+
+   }
+```
+
+### Don't Pass Null
+
+Passing null into a method is worse than returning a null
+
+Theres a few options of dealing with this:
+1.  check for null and throw an exception
+1. Add asserts so it will assert its not null
+
+
+*There's no great wy to deal with it, so forbid passing null by default*
+
 
