@@ -200,7 +200,115 @@ Immutable classes should never provide a clone method
 "Given all the problems associated with Cloneable, new interfaces should not extend it, and new extendable classes should not implement it."
 
 
-## Item 14: Consider Implementing Comparable
+### Item 14: Consider Implementing Comparable
+
+`compareTo` method in java isn't declared in `Object` - but it's the sole method in `Comparable` interface.
+
+By implementing it, you can say that this object has a natural ordering.
+
+When you implement it, youre class can interoperate with all the generic algos and collection impls that depend on it
+
+If you need a non standard ordering, use a `Comparator` instead
+
+When youre class has multiple things to compare, start with the most significant field and work down
+
+When to implement it:
+1. writing a value class with obvious natural ordering
+
+Java 8 introduced new constructors for `Comparator` interface, downside is that its a bit slower. If possible, try to use Java's sttic import facility:
+
+When implementing, avoid `<` and `>` and instead use static compare methods in boxed primiritve calsses or the compariator construction methods in `Comparator` interface
+
+## Chapter 4 Classes and Interfaces
+
+### Minimize the Accesssibility of Classes And Members
+
+***single most important factor for a well-designed component from a poorly designed one: what degree it hides its internal data / other implementation details from other components***
+
+It separates out its API from implementation and communicate through their APIs
+- AKA information hiding
+
+** Why is information hiding important?**
+- decouples components that comprise a system...aka dev,test,optimized, used, etc in isolation, allowing things to be developed in parallel
+- increases software reuse bc components that arent tightly coupled, can be used in other ways
+- decreases risk in large systems bc individual components can be successful even if the system isnt
+
+***rule of thumb: make each class or member as inaccessible as possible***
+
+Top level, non nested classes/interfaces
+- package-private and ublic
+
+if you can make something package-rpviate, you should. 
+- make it part of the implementation instead of export api
+- you can refactor, update, etc and  any public users wont even know
+
+
+Members of a class:
+- `private`: accessible only from the top level calss where its declared
+- `package-private` - member is accessible from any class in the package its declared
+- `protected` - only accessible from subclasses from where its declared and from any class in the package where its declared
+- `public` - member is accessible from anywhere
+
+After designing the class's public API, everything else should be private
+
+For members of public classes, if you go from package-private to protected, then accessibility increases. Protected members are part of experted classes, so must be supported forever
+
+***key rule:***
+
+if a method overrides a `superclass` method - cant have a more restrictive access level than in the superclass
+
+To facilitate testing code, you might be tempted to make members more accessibile....this can be fine up to a point
+- acceptable to make priv member of a public class to package-private, no higher
+
+#### Instance fields 
+
+if its nonfinal or is referencing a mutable object - if made public, you cant limit the values allowed for that field. Also cant enforce invariants involving te field, or take action when its modified
+
+Classes with public mutable fields are not generally thread-safe
+
+Static fields have the same advice, except for static final fields that are constants
+
+"Note that a nonzero-length array is always mutable, so it is wrong for a class to have a public static final array field, or an accessor that returns such a field. "
+
+```
+// Potential security hole!
+
+public static final Thing[] VALUES = { ... };
+````
+
+you can modify the array here ^^
+
+To get around this, make array priv and add a public immutable list or make array priv and add a public method that returns a copy of a priv array
+
+```
+private static final Thing[] PRIVATE_VALUES = { ... };
+
+public static final List<Thing> VALUES =
+
+   Collections.unmodifiableList(Arrays.asList(PRIVATE_VALUES));
+```
+
+OR
+
+```
+private static final Thing[] PRIVATE_VALUES = { ... };
+
+public static final Thing[] values() {
+
+    return PRIVATE_VALUES.clone();
+
+}
+```
+
+To choose between, ask which will be more convenient and more performant or what the client will do with the result
+
+### Item 16: In Public Classes, use Accessor Methods, Not Public Fields
+
+
+
+
+
+
 
 
 
