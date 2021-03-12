@@ -616,3 +616,8 @@ Theres a few options of dealing with this:
 *There's no great wy to deal with it, so forbid passing null by default*
 
 
+Catch errors at system boundaries
+
+
+
+
