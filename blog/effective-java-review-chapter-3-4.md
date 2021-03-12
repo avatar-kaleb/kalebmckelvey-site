@@ -304,6 +304,207 @@ To choose between, ask which will be more convenient and more performant or what
 
 ### Item 16: In Public Classes, use Accessor Methods, Not Public Fields
 
+If a class is accessible outside its package, provide accessor methos to preserve flexibility for changing internals
+
+"if a class is package-private or is a private nested class, there is nothing inhertently wrong with exposing its data fields"
+- less visual clutter than accessor-metho approach
+
+Exposing fields directly on a public class is less harmful if the fields are immutable
+
+```
+// Public class with exposed immutable fields - questionable
+
+public final class Time {
+
+    private static final int HOURS_PER_DAY    = 24;
+
+    private static final int MINUTES_PER_HOUR = 60;
+
+
+
+    public final int hour;
+
+    public final int minute;
+
+
+
+    public Time(int hour, int minute) {
+
+        if (hour < 0 || hour >= HOURS_PER_DAY)
+
+           throw new IllegalArgumentException("Hour: " + hour);
+
+        if (minute < 0 || minute >= MINUTES_PER_HOUR)
+
+           throw new IllegalArgumentException("Min: " + minute);
+
+        this.hour = hour;
+
+        this.minute = minute;
+
+    }
+
+    ... // Remainder omitted
+
+}
+```
+
+### Item 17: Minimize Mutability
+
+An immutable class is simple a class whose instances cant be modified - its data is fixed for the lifetime of the object
+
+Immutable classes are easier to design, implement, and use than mutable classes.
+
+#### Five Rules for an Immutable Class
+1. Don't provide methods that modify the object's state (mutators)
+1. Ensure the class can't be extended - prevents careless or malicious subclasses from compromising immutability
+1. Make all fields final - express intent that is enforced by the system
+1. Make all fields private - prevents clients from obtaining access to mutable objects referred to by fields and modifying them directly
+1. Ensure exclusive access to any mutable component - ensure clients cant obtain references to objects. Make defensive copies
+
+Example:
+
+```
+// Immutable complex number class
+
+public final  class Complex {
+
+    private final  double re;
+
+    private final  double im;
+
+
+
+    public Complex(double re, double im) {
+
+        this.re = re;
+
+        this.im = im;
+
+    }
+
+
+
+    public double realPart()      { return re; }
+
+    public double imaginaryPart() { return im; }
+
+
+
+    public Complex plus(Complex c) {
+
+        return new Complex(re + c.re, im + c.im);
+
+    }
+
+
+
+    public Complex minus(Complex c) {
+
+        return new Complex(re - c.re, im - c.im);
+
+    }
+
+
+
+    public Complex times(Complex c) {
+
+        return new Complex(re * c.re - im * c.im,
+
+                           re * c.im + im * c.re);
+
+    }
+
+
+
+    public Complex dividedBy(Complex c) {
+
+        double tmp = c.re * c.re + c.im * c.im;
+
+        return new Complex((re * c.re + im * c.im) / tmp,
+
+                           (im * c.re - re * c.im) / tmp);
+
+    }
+
+
+
+    @Override public boolean equals(Object o) {
+
+       if (o == this)
+
+           return true;
+
+       if (!(o instanceof Complex))
+
+           return false;
+
+       Complex c = (Complex) o;
+
+
+
+       // See page 47 to find out why we use compare instead of ==
+
+       return Double.compare(c.re, re) == 0
+
+           && Double.compare(c.im, im) == 0;
+
+    }
+
+    @Override public int hashCode() {
+
+        return 31 * Double.hashCode(re) + Double.hashCode(im);
+
+    }
+
+
+
+    @Override public String toString() {
+
+        return "(" + re + " + " + im + "i)";
+
+    }
+
+}
+```
+
+^^ methods create and return a new `Complex` instance instead of modifying it
+- this is a functional approach, bc methods return results of applying a function to tehir operand
+
+
+- Immuable objects are simple
+- Immutable objects are inherently thread-safe, no syncing required
+- Immutable objects can be shared freely
+
+Encourage re-use, one thing you can do is ccreate static final object instances of common uses:
+```
+public static final Complex ZERO = new Complex(0, 0);
+
+public static final Complex ONE  = new Complex(1, 0);
+
+public static final Complex I    = new Complex(0, 1);
+```
+
+- Can provide static factories that cache frequently requested instances - perf boost
+- Never have to make defensive copies
+- Make great building blocks for other objects
+- Provide atomicity for free
+
+Disadvantage -> require separate object for each distrnct value
+
+- see book for the examples of creating immutable classes with different designs
+
+- Classes should be immutable unless there's a very good reason to make them mutable
+- if a class cant be made immutable, limit its mutability as much as possible
+
+" Similarly, don’t provide a “reinitialize” method that enables an object to be reused as if it had been constructed with a different initial state. Such methods generally provide little if any performance benefit at the expense of increased complexity."
+
+^^ instead create a new object
+
+## Item 18: Favor Composition Over Inheritance
+
+
+
 
 
 
