@@ -503,14 +503,140 @@ Disadvantage -> require separate object for each distrnct value
 
 ## Item 18: Favor Composition Over Inheritance
 
+By inheritance, he's talking about one class extending another here
+
+Inheritance used inappropriately leads to fragile software
+- safe to use within a package
+- safe when extending classes designed and documented for extension
+
+Inheriting from ordinary concrete classes across package boundaries...dangerous
+
+
+Inheritance violates encapsulation
+- subclasses depend on superclasses, if superclasses change it could break subclasses that didnt
+
+Instead of extending an existing class, give your new class a private field that references the instance of the existing class
+
+^^ COMPOSITION 
+
+Forwarding: each instance method in the new class invokes the corresponding method on the contained instance of the existing class and returns the results.
+ ^^ Method in the new clas are called forwarding methods
+
+This leaves you with no dependencies on implementation details of the existing class, even adding new methods added to the class youre using wont matter
+
+Example:
+```
+// Wrapper class - uses composition in place of inheritance
+
+public class InstrumentedSet<E> extends ForwardingSet<E> {
+
+    private int addCount = 0;
 
 
 
+    public InstrumentedSet(Set<E> s) {
+
+        super(s);
+
+    }
 
 
 
+    @Override public boolean add(E e) {
+
+        addCount++;
+
+        return super.add(e);
+
+     }
+
+     @Override public boolean addAll(Collection<? extends E> c) {
+
+         addCount += c.size();
+
+         return super.addAll(c);
+
+     }
+
+     public int getAddCount() {
+
+         return addCount;
+
+     }
+
+}
 
 
+
+// Reusable forwarding class
+
+public class ForwardingSet<E> implements Set<E> {
+
+    private final Set<E> s;
+
+    public ForwardingSet(Set<E> s) { this.s = s; }
+
+
+
+    public void clear()               { s.clear();            }
+
+    public boolean contains(Object o) { return s.contains(o); }
+
+    public boolean isEmpty()          { return s.isEmpty();   }
+
+    public int size()                 { return s.size();      }
+
+    public Iterator<E> iterator()     { return s.iterator();  }
+
+    public boolean add(E e)           { return s.add(e);      }
+
+    public boolean remove(Object o)   { return s.remove(o);   }
+
+    public boolean containsAll(Collection<?> c)
+
+                                   { return s.containsAll(c); }
+
+    public boolean addAll(Collection<? extends E> c)
+
+                                   { return s.addAll(c);      }
+
+    public boolean removeAll(Collection<?> c)
+
+                                   { return s.removeAll(c);   }
+
+    public boolean retainAll(Collection<?> c)
+
+                                   { return s.retainAll(c);   }
+
+    public Object[] toArray()          { return s.toArray();  }
+
+    public <T> T[] toArray(T[] a)      { return s.toArray(a); }
+
+    @Override public boolean equals(Object o)
+
+                                       { return s.equals(o);  }
+
+    @Override public int hashCode()    { return s.hashCode(); }
+
+    @Override public String toString() { return s.toString(); }
+
+}
+```
+
+
+One downside, wrapper classes arent suited for use in callback frameworks
+
+
+Inheritance is appropriate only in circumstances where the subclass really is a subtype of the superclass - "is a" relationship
+
+ask: "is every B really an A" if you are extending B from A
+if yes, extend, if no, wrapper pattern
+
+Ask yourself:
+1. does the class you contemplate extending have any flaws in its API
+1. If so, are you comfortable propagating those flaws into your class's api?
+
+## Item 19: Design and Document for Inheritance or Else Prohibit It
 
 
 
