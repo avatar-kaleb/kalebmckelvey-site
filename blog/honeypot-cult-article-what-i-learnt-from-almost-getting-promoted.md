@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/what-i-learnt-from-almost-getting-promotion.jpg
+cover: /post-images/what-i-learnt-from-almost-getting-promotion.jpg
 date: 2021-03-20T19:43:31.147Z
 title: "Honeypot Cult Article: What I learnt from almost getting promoted"
 canonical_url: https://cult.honeypot.io/reads/what-i-learned-from-almost-getting-promoted
@@ -83,7 +83,7 @@ I reconciled in the knowledge that it boiled down to a communication issue, simi
 
 It was important to reflect on what areas I could control and take the following lessons away for the future!
 
-#### Miscommunications Happen:
+#### Miscommunications Happen
 
 We can all understand that messages across different mediums like Slack or Zoom cause misunderstandings, especially when there are multiple levels that a message travels from.
 
