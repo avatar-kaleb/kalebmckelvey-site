@@ -77,7 +77,7 @@ export default [
   },
     {
     id: 'manageYourCareerCaf2Code',
-    eventName: 'Professional Dev Session: Managing Your Career',
+    eventName: 'Professional Dev Session',
     featuredImageAlt:
       'The first slide of the presentation with the name Managing Your Career',
     featuredImageUrl: 'managingYourCareer.png',
