@@ -11,6 +11,8 @@ tags:
   - career
   - burnout
 ---
+> This article was authored as a contribution to the [Honeypot Cult Community](https://cult.honeypot.io/reads/6-ways-to-maintain-good-mental-health-as-a-software-engineer)- you can read it there too!
+
 Software Engineers are puzzle solvers, but the puzzle isn’t pieces that fit together in the real world. Instead, it’s breaking down user stories, feature requests, and bug fixes into smaller chunks and solving them without breaking previously solved pieces. Imagine a puzzle that was ever-changing, the pieces changed sizes and shapes, new pieces were introduced with colours that don’t match expectations or assumptions when first putting it together. Your job is to continuously put the puzzle together.
 
 In essence, Software Engineers do this every single day.
