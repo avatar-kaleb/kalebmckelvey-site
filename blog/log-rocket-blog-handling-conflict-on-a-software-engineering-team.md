@@ -1,6 +1,6 @@
 ---
 published: false
-cover: post-images/how-to-manage-conflict-on-a-dev-team.jpg
+cover: /post-images/how-to-manage-conflict-on-a-dev-team.jpg
 date: 2021-03-20T20:04:39.739Z
 title: "Log Rocket Blog: Handling conflict on a software engineering team"
 canonical_url: https://blog.logrocket.com/handling-conflict-on-a-software-engineering-team/

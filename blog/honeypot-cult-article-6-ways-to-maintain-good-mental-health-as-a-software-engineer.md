@@ -1,6 +1,6 @@
 ---
 published: false
-cover: post-images/mental-health-engineers.jpg
+cover: /post-images/mental-health-engineers.jpg
 date: 2021-03-20T19:53:55.154Z
 title: "Honeypot Cult Article: 6 Ways To Maintain Good Mental Health as a
   Software Engineer"

@@ -8,7 +8,7 @@ tags:
   - money
   - loops
 ---
-## Personal finance, ohhhh personal finance.
+## Personal finance, ohhhh personal finance
 
 The dreaded, taboo topic that we're never taught in school, yet it's required if you want to be prepared for emergencies and retirement alike.
 
