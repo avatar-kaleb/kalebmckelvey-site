@@ -1,7 +1,8 @@
 const TALK_TYPES = {
   conference: 'Conference',
   lunch: 'Lunch & Learn',
-  meetup: 'Meetup'
+  meetup: 'Meetup',
+  training: "Training"
 };
 
 export default [
@@ -72,6 +73,20 @@ export default [
     summary: `Are you equipped to make unbiased, rational decisions or do you make decisions based on instincts and gut feelings? As Software Developers representing various industries, the decisions we make for design and project estimations lead to real consequences. For the last year, I've researched how to we can make better decisions - now I'm passing on the knowledge to you!`,
     title: 'The Subtle Art of Decision Making',
     type: TALK_TYPES.conference,
+    youtubeUrl: ''
+  },
+    {
+    id: 'manageYourCareerCaf2Code',
+    eventName: 'Managing Your Career',
+    featuredImageAlt:
+      'The first slide of the presentation with the name Managing Your Career',
+    featuredImageUrl: 'managingYourCareer.png',
+    repoUrl: '',
+    location: 'New York City (remote)',
+    slidesUrl: 'https://1drv.ms/b/s!AlG7su8ac95Hgt52wcMvSeccVZcjWQ?e=dc7FhI',
+    summary: `Software Engineers must keep up with an everchanging industry. We must learn new technologies regularly and grow our interpersonal skills as we advance our careers overtime.`,
+    title: 'Managing Your Career',
+    type: TALK_TYPES.training,
     youtubeUrl: ''
   }
 ];
