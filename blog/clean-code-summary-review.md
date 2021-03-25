@@ -620,4 +620,33 @@ Catch errors at system boundaries
 
 
 
+## Chapter 8 - Boundaries
+
+He uses an example where a Map class was passed around a Java project, but if it changed, everywhere would need to change, also features were available to everyone. So instead he recommends:
+
+```
+ public class Sensors {
+
+     private Map sensors = new HashMap();
+
+
+
+     public Sensor getById(String id) {
+
+       return (Sensor) sensors.get(id);
+
+     }
+
+
+
+     //snip
+
+   }
+```
+
+Makes sense. He's recommend not to pass boundary interfaces, keep them inside of a class or close family of classes. Avoid returning it from or accepting it as an argument to public apis
+
+Learning testing -> exploring apis of third party tools through tests.
+
+
 
