@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: /post-images/how-to-manage-conflict-on-a-dev-team.jpg
 date: 2021-03-20T20:04:39.739Z
 title: "Log Rocket Blog: Handling conflict on a software engineering team"
