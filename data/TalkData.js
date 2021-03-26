@@ -88,5 +88,19 @@ export default [
     title: 'Managing Your Career',
     type: TALK_TYPES.training,
     youtubeUrl: ''
+    },
+    {
+    id: 'thingsIveAppreciatedFromGreatLeaders',
+    eventName: 'Caf2Code Professional Dev Session',
+    featuredImageAlt:
+      'The first slide of the presentation with the name Qualities I\'ve Appreciated from Great Leaders',
+    featuredImageUrl: 'thingsIveAppreciatedFromGreatLeaders.png',
+    repoUrl: '',
+    location: 'New York City (remote)',
+    slidesUrl: 'https://1drv.ms/b/s!AlG7su8ac95Hgt53UDf6Hd1AirUOdg?e=TtUMPP',
+    summary: `I've had the opportunity to work with many great leaders in my career, those with titles of CIO and those who certainly will one day. This presentation displays the qualities I've appreciated from them with a few anecdotes along the way.`,
+    title: `Qualities I've Appreciated from Great Leaders`,
+    type: TALK_TYPES.training,
+    youtubeUrl: ''
   }
 ];
