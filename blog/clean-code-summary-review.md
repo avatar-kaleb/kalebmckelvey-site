@@ -648,5 +648,60 @@ Makes sense. He's recommend not to pass boundary interfaces, keep them inside of
 
 Learning testing -> exploring apis of third party tools through tests.
 
+## Chapter 9
+
+### The Three Laws of TDD
+
+1. You may not write production code until you have written a failing unit test
+2. You may not write more of a unit test that is sufficient to fail, and not compiling is failing
+3. You may not write more production code than is sufficient to pass the currently failing test
+
+
+### Keeping Tests Clean
+
+Having dirty tests is equivalent, if not worse than, having no tests
+
+Tests must change as code evolves, so if they aren't clean, they are harder to change
+
+Cost of maintaining it rises
+
+"Test code is just as important as production code...It requires thought, design, and care" It must be kept as clean as production code." 
+
+### Tests Enable the -ilities
+
+its unit tests that keep our code flexible, maintainable, and reusable.
+
+### Clean Tests
+
+Readability is the key to make tests clean
+- clarity, simplicity, density of expression
+
+Build-Operate-Check pattern -> build the data, operates on the data, checks it yields expected result
+
+### Domain-Specific Testing Language
+
+As the code and tests evolve, update APIs used by the devs writing tests. The functions and language becomes specific to that program and test suite.
+
+### Dual Standard
+
+Tests should be succinct, expressive, simple, but doesnt need to be as efficient
+
+### Single Concept Per Test
+
+Each test function should test a single concept, keeps tests shorter.
+
+### 5 Rules to Follow from FIRST
+
+Fast - should run quickly
+
+Independent - Tests should not depend on each other, one test houldnt set up conditions for the next, and should be able to run them in any order you like
+
+Repeatable - Tests should work in any environment
+
+Self-Validating - should have a boolean output, aka they pass or fail
+
+Timely - Need to be written in a timely fashion
+
+
 
 
