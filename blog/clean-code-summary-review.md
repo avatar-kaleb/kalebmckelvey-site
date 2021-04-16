@@ -702,6 +702,210 @@ Self-Validating - should have a boolean output, aka they pass or fail
 
 Timely - Need to be written in a timely fashion
 
+## Chapter 10 - Classes
+
+### Classes should be small
+
+instead of counting lines of code to measure this, we count responsibilities
+
+Name of the class should describe what responsibilities it fulfills
+
+if we cant derive a concise name, its likely too large
+
+"Names like processor" or "manager" or "super" hint at tooo much aggregation of responsibilities
+
+### The Single Responsibility Principle
+
+A class or module should have one, and only one, reason to change
+
+Identifying responsibilities (reasons to change) helps us recognize and create better abstractions in our code
+
+> "The problem is that too many of us think that we are done once the program works. We fail to switch to the other concern of organization and cleanliness. We move on to the next problem rather than going back and breaking the overstuffed classes into decoupled units with single responsibilities."
+
+A system with many small classes doesnt have more moving parts than a system with a few large ones, there is just as much to learn in either case.
+
+> "So the question is: Do you want your tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do you want a few drawers that you just toss everything into?"
+
+> "The primary goal in managing complexity is to organize it so that a dev knows where to look to find things and need only understand the directly affected complexity at any given time."
+
+### Cohesion
+
+Classes should have a small number of instance variables
+
+> "In general the more variables a method manipulates the more cohesive that method is to its class. A class in which each variable is used by each method is maximally cohesive."
+
+In general its not advisable or possible to create maximum cohesive classes, we just want it to be high.
+
+High cohisive example:
+```
+   public class Stack {
+
+     private int topOfStack = 0;
+
+     List<Integer> elements = new LinkedList<Integer>();
+
+
+
+     public int size() {
+
+       return topOfStack;
+
+     }
+
+
+
+     public void push(int element) {
+
+       topOfStack++;
+
+       elements.add(element);
+
+     }
+
+
+
+     public int pop() throws PoppedWhenEmpty {
+
+       if (topOfStack == 0)
+
+         throw new PoppedWhenEmpty();
+
+       int element = elements.get(--topOfStack);
+
+       elements.remove(topOfStack);
+
+       return element;
+
+    }
+
+   }
+```
+
+only size doesnt use both variables
+
+Typically, when classes begin to lose cohesion....split them !
+
+### Organizing for Change
+
+Most systems continue changing over time...every change means a ris that the remainder of the system doesnt work as intended
+
+When we have a clean system and organize it well, the risk is reduced
+
+Private method behavior that applies only to a small subset of a class can be a useful heuristic for spotting potential areas for imrpovement
+
+example of organizing so new methods dont have to change existing classes, and its split out for easy to read and simple comprehension 
+
+```
+   abstract public class Sql {
+
+      public Sql(String table, Column[] columns)
+
+      abstract public String generate();
+
+   }
+
+
+
+   public class CreateSql extends Sql {
+
+      public CreateSql(String table, Column[] columns)
+
+      @Override public String generate()
+
+   }
+
+
+
+   public class SelectSql extends Sql {
+
+      public SelectSql(String table, Column[] columns)
+
+      @Override public String generate()
+
+   }
+
+
+
+   public class InsertSql extends Sql {
+
+      public InsertSql(String table, Column[] columns, Object[] fields)
+
+      @Override public String generate()
+
+      private String valuesList(Object[] fields, final Column[] columns)
+
+   }
+
+
+
+   public class SelectWithCriteriaSql extends Sql {
+
+      public SelectWithCriteriaSql(
+
+      String table, Column[] columns, Criteria criteria)
+
+      @Override public String generate()
+
+   }
+
+
+
+   public class SelectWithMatchSql extends Sql {
+
+      public SelectWithMatchSql(
+
+         String table, Column[] columns, Column column, String pattern)
+
+      @Override public String generate()
+
+   }
+
+
+
+   public class FindByKeySql extends Sql
+
+      public FindByKeySql(
+
+         String table, Column[] columns, String keyColumn, String keyValue)
+
+      @Override public String generate()
+
+   }
+
+
+
+   public class PreparedInsertSql extends Sql {
+
+      public PreparedInsertSql(String table, Column[] columns)
+
+         @Override public String generate() {
+
+      private String placeholderList(Column[] columns)
+
+   }
+
+
+
+   public class Where {
+
+      public Where(String criteria)
+
+      public String generate()
+
+   }
+
+
+
+   public class ColumnList {
+
+      public ColumnList(Column[] columns)
+
+      public String generate()
+
+   }
+```
+
+
 
 
 
