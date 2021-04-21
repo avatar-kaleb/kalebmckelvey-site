@@ -905,6 +905,15 @@ example of organizing so new methods dont have to change existing classes, and i
    }
 ```
 
+## Systems
+
+Cities work bc there are teams of people who manage particular parts of it, like the water systems, power systems, traffic, etc. Then some are responsible for big picture, while others are on the details
+
+Cities have appropriate levels of abstraction, so they work together effectively without understanding the big picture
+
+Software teams dont always have the same separation of concerns and levels of abstraction - this is what clean code helps for!
+
+### Separate Constructing a System from Using It
 
 
 
