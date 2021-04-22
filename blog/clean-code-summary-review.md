@@ -916,5 +916,93 @@ Software teams dont always have the same separation of concerns and levels of ab
 ### Separate Constructing a System from Using It
 
 
+Constructing is very different than using it. He uses the example of a hotel, can't use it while under construction.
+
+> "Software systems should separate the startup process, when the application objects are constructed and the dependencies are “wired” together, from the runtime logic that takes over after startup."
+- many systems don't separate the concern of starting up compared to constructing
+
+```
+  public Service getService() {
+
+     if (service == null)
+
+       service = new MyServiceImpl(…); // Good enough default for most cases?
+
+     return service;
+
+   }
+```
+
+doing this every once in awhile might not be a huge problem, but if its scattered throughout the app, then the lazy loading and start up is spread throughout instead of in one place
+
+we shouldn't let convenient idioms lead to modulatiry break-down
+- this makes me think of react and lazy loadings, I wonder how he would structure it
+
+
+### Separation of Main
+
+Simple way to separate, move all aspects of construction to `main`
+
+#### Factories
+
+oMake the application responsibilren an object is created
+
+#### Dependency Injection
+
+- application of Inversion of Control to dependency management
+- secondary responsibilities from an object to other objects that are dedicated to the purpose
+
+
+An object should not take responsibility for instantiating dependencies itself, instead it should pass this responsibility to another "authoritivate" mechanism
+- this is typically called the main routine, or special purpose container
+
+
+### Scaling Up
+
+Cities grow from towns, which grow from settlements....roads are narrow then get paved and widen...small buildings become larger, maybe even skyscrapers
+
+At first, there are no services like water, sewage, or internet...etc but is eventually added
+
+This growth isnt without pain, but couldnt have happened differently
+
+> It is a myth that we can get systems “right the first time.” Instead, we should implement only today’s stories, then refactor and expand the system to implement new stories tomorrow. This is the essence of iterative and incremental agility. Test-driven development, refactoring, and the clean code they produce make this work at the code level.
+
+- I think the KEY is to make the system expandable as you go, so changing makes it easier
+
+What about system level architecture?
+- software systems are unique compared to physical systems - bc their architectures can grow incrementally if we maintain the proper separation of concerns
+
+In general when testing, you shouldnt have to create your whole app and all dependencies, or huge complex parts of it. This is a surefire notice you are doing something wrong
+
+### Cross-Cutting Concerns
+
+DB Management
+Exmaple of cross cutting concern:
+- in principle, you can reason about persistence strategies in an ecapsulated  way, but in practice, you have to spread the same code across many objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
