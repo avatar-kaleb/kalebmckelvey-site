@@ -980,6 +980,40 @@ DB Management
 Exmaple of cross cutting concern:
 - in principle, you can reason about persistence strategies in an ecapsulated  way, but in practice, you have to spread the same code across many objects
 
+AOP is an example of a good way to handle cross cutting concerns across an app in a centralized, concise way
+Decorators as well
+
+### Test Drive the System Architecture
+
+Its not necessary to BDUF - big design up front (designing EVERYthing up front), as this can be more harmful since it inhibits adapting to change
+
+If you can write your app's domain logic using POJOs, decoupled from architecture concerns at the code level, then its possible to truly test drive your architure and continually evolve it
+
+
+> Of course, this does not mean that we go into a project “rudderless.” We have some expectations of the general scope, goals, and schedule for the project, as well as the general structure of the resulting system. However, we must maintain the ability to change course in response to evolving circumstances.
+
+> An optimal system architecture consists of modularized domains of concern, each of which is implemented with Plain Old Java (or other) Objects. The different domains are integrated together with minimally invasive Aspects or Aspect-like tools. This architecture can be test-driven, just like the code.
+
+
+## Optimize Decision Making
+
+Modularity and separation of concerns make decentralized management / decision making possible
+- with a large project, or large city, no one person can make all the decisions
+
+
+## Use Standards Wisely, When they add Demonstrable Value
+
+> Standards make it easier to reuse ideas and components, recruit people with relevant experience, encapsulate good ideas, and wire components together. However, the process of creating standards can sometimes take too long for industry to wait, and some standards lose touch with the real needs of the adopters they are intended to serve.
+
+So true !!
+
+## Systems Need Domain-Specific Languages
+
+these minimize the communication gap between a domain concept and the code that implements it, just as agile practices optimize comms between a team and project stakeholders
+
+# Chapter 12 - Emergency
+
+
 
 
 
