@@ -1011,8 +1011,72 @@ So true !!
 
 these minimize the communication gap between a domain concept and the code that implements it, just as agile practices optimize comms between a team and project stakeholders
 
-# Chapter 12 - Emergency
+# Chapter 12 - Emergence
 
+Kent Beck's four rules of Simple Design:
+
+Design is simple if it follows:
+- Runs all tests
+- Contains no duplication
+- Expresses the intent of the programmer
+- Minimizes the number of classes and methods
+
+Rules given in order of importance
+
+## Simple Design Rule 1: Runs All the Tests
+
+Design must produce a system that acts as intended, therefor systems should e comprehensively tested and passes all of its tests all of the time is a testable system
+
+Making systems testable:
+1. pushes us to small and single purpose classes, which are easier
+1. More tests => more to continue pushing towards things that are simpler to test
+
+Tight coupling makes it difficult to write tests
+
+Writing tests leads to better designs
+
+## Simple Design Rules 2-4: Refactoring
+
+Once tests are there, we are empowered to keep code and classes clean...bc refactoring is safer
+
+> "The fact that we have tests eliminates the fear that cleaning up the code will break it!"
+
+> "We can increase cohesion, decrease coupling, separate concerns, modularize system concerns, shrink our functions and classes, choose better names, and so on. "
+
+## No Duplication
+
+Duplication is the primary enemy of a well-designed system
+- it represents additional work, additional risks, and additional unnecessary complexity
+
+What is duplication?
+- duplicated lines of code
+- similar lines of code
+- duplication of implementation
+
+While refactoring at tiny levels, we can find violations of single responsibility principle, so things might move to another class
+
+## Expressive
+
+> "Most of us have had the experience of working on convoluted code. Many of us have produced some convoluted code ourselves. It’s easy to write code that we understand, because at the time we write it we’re deep in an understanding of the problem we’re trying to solve. Other maintainers of the code aren’t going to have so deep an understanding."
+
+The majority cost of a software project is in long-term maintenance
+
+"The clearer the author can make the code, the less time others will have to spend understanding it."
+
+Express yourself b:
+1. choosing good names
+1. keeping functions and classes small
+1. Use standard nomenclature
+1. Well written unit tests
+1. TRY making it expressive...first get it working, then refactor to make it expressive! There is pride in this!
+
+## Minimal Classes and Methods
+
+It's easy to take single responsibility principle toooo far, along with other things like eliminating duplication or code expressiveness etc. We might make too man small methods and tiny classes
+
+Dogma should be resisted and pragamtic approaches adopted
+
+The overall goal is to keep our system small while keeping functions nd classes small, so this is the lowest priority of the four principles
 
 
 
