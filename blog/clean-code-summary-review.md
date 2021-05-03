@@ -1138,8 +1138,49 @@ Recommendation: Take data encapsulation to heart; severely limit the access of a
 
 ### Corollary: Threads Should be as Independent as Possible
 
+Consider writing threaded code like each thread exists in its own world, like its data isnt shared 
 
+### Know Your Library
 
+- Review classes available to you, and use them effectively
+
+## Know your execution models
+
+Bound Resources -> Resources of a fixed size or number used in a concurrent env, like db connections
+
+Mutual Exclusion -> only one thread can access shared resources at a time
+
+Starvation -> One thread or a group is prohibited from processing for a long time, fast-running threads go first
+
+Deadlock -> 2 or more threads waiting for each other to finish - each thread has a resource the other one requires, so neither can finish
+
+Livelock -> Threads in lockstep, each trying to do work but finding another in the way
+
+### Producer-Consumer
+
+1. One or more producer threads create some work and put it into a buffer or queue
+1. One or more consumer threads acquire that work from the queue or buffer and complete it
+
+The queue itself is a bound resource, meaning producers must wait for free space before writing to it and consumers have to wait until there is something in there
+- this is signaled back and forth by the producers/consumers
+
+Coordination between when something is being updated and when something is being read can be difficult, so finding balance is key
+
+## Beware Dependencies Between Synchronized methods
+
+Avoid using more than one method on a shared object
+
+Client-Based Locking -> client locks server before calling the first method, and make sure lock's extend includes code calling the last method
+
+Server-Based Locking -> within the server, create a method that locks the server, calls all methods, then unlocks. Server calls the new method
+
+Adapted server -> create an intermediary that performs the locking
+
+## Keep Synchronized Sections Small
+
+`synchronized` keyword introduced a lock - locks are expensive and add overhead
+
+## Writing Correct Shut-down Code is Hard
 
 
 
