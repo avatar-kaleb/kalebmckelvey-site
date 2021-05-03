@@ -1079,6 +1079,71 @@ Dogma should be resisted and pragamtic approaches adopted
 The overall goal is to keep our system small while keeping functions nd classes small, so this is the lowest priority of the four principles
 
 
+# Chapter 13 Concurrency
+
+"Writing clean concurrent programs is hard -- very hard."
+
+Easy to write concurrent code that looks good and works fine on the surface, but can be shown to be bad once its under load at a deeper level
+
+## Why Concurrency?
+
+It's a decoupling strategy, decoupling `what` gets done from `when` it gets done
+
+In single threaded systems, you can easily place a debugger and see the order of events as the code is running...this isnt so easy in concurrent systems
+
+Structure isnt the only motive for adopting concurrencey, response time and throughput constraints sometimes cause the need for it too
+
+## Myths and Misconceptions
+
+There are compelling reasons to adopt concurrency, but it's HARD, so you have to be very careful
+
+### Common myths and misconceptions:
+
+*Concurrency always improves performance*
+- it can only when there is a lot of wait time thats shared between multiple threads / processes
+
+*Design does not change when writing concurrent programs*.
+- Designs of a concurrent algo can be very different than single threaded ones, the structure is much different too
+
+*Understanding concurrency issues is not important when working with a container such as Web or EJB container.*
+- you must know and be able to guard against issues so deadlock doesnt happen
+
+Some sound bites about concurrent software:
+1. Concurrency incurs some overhead, both in performance and extra code
+1. Correct concurrency is complex, even for simple probz
+1. Concurrency bugs arent usually repeatable, so often ignored as one-offs instead of true defects
+1. Concurrency often requires a fundamental change in design strategy
+
+## Concurrency Defense Principles
+
+### Single Responsibility Principle
+
+- A given method/class/component should have a single reason to change
+
+It's common for concurrency designs to be embedded in production code, instead of in its own place within the code base
+
+They recommend keeping concurrency-related code separate from other code
+
+### Corollary: Limit the Scope of Data
+
+- Use `synchronized` keyword to protect critical sections of code that use a shared object
+- Restrict the number of critical sections
+
+Recommendation: Take data encapsulation to heart; severely limit the access of any data that may be shared.
+
+### Corollary: Use Copies of Data
+
+- A good way to avoid shared data, is avoid sharing data...sometimes its possible to copy and treat them as read only.
+- Experiment to determine if the extra object creations are slow / garbage collection
+
+### Corollary: Threads Should be as Independent as Possible
+
+
+
+
+
+
+
 
 
 
