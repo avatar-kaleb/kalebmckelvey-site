@@ -1183,16 +1183,66 @@ Adapted server -> create an intermediary that performs the locking
 ## Writing Correct Shut-down Code is Hard
 
 
+Writing a system that runs forever is different than writing something that runs then shuts down gracefully
+
+Graceful shutdown can be tough bc of deadlock when waiting for a signal to continue doesnt come
+
+> "Recommendation: Think about shut-down early and get it working early. It’s going to take longer than you expect. Review existing algorithms because this is probably harder than you think."
+
+### Testing Threaded Code
+
+Testing doesnt prove correctness - good testing can minimize risk
 
 
 
+> "Recommendation: Write tests that have the potential to expose problems and then run them frequently, with different programatic configurations and system configurations and load. If tests ever fail, track down the failure. Don’t ignore a failure just because the tests pass on a subsequent run."
+
+### Treat Spurious Failures as Candidate Threading Issues
+
+Threaded code causes things to fail that "simply cant fail" - bugs in threaded code could happen in rare instances, so repeating them canb e really tough
+
+> Recommendation: Do not ignore system failures as one-offs.
+
+### Get NonThreaded Code Working First
+
+Make sure all code works outside of its use in threads, then introduce them
+
+Don't try writing threaded code and non threaded code at the same time
+
+### Make Your Threaded Code Pluggable
+
+Write concurrency supporting code so it can be run in different configs:
+
+• One thread, several threads, varied as it executes
+
+• Threaded code interacts with something that can be both real or a test double.
+
+• Execute with test doubles that run quickly, slowly, variable.
+
+• Configure tests so they can run for a number of iterations.
+
+### Make Threaded Code Tunable
+
+Finding the right balance of threads requires trial and error, make this a config thats easily tuned
+
+### Run with more threads than processors when testing
+
+Things happen as systems switch between tasks, so to encourage task swapping, run with more threads than processors or cores - doing so lets you figure out if you have any code causes a deadlock
 
 
+### Run on different platforms
 
+Different platforms handles threading policies different, so run tests in all platforms possible
 
+### Instrument Code to Try and Force Failures
 
+Flaws in concurrent code often hide, and simple tests dont expose them
 
+Bugs are hard to reproduce
 
+Increase your changes of catching bugs by instrumenting code and force it to run in different orderings by adding calls to method like `object.wait()` or `object.yield` etc....basicaly affect the order of execution
+
+Use jiggling strategies to ferret out errors
 
 
 
