@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 cover: post-images/how-to-link-javascript-to-html.jpg
 date: 2021-08-19T17:59:09.521Z
 title: "Honeypot Cult Article: How to Link JavaScript to HTML"
