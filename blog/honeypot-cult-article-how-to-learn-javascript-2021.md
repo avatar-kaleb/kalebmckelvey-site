@@ -2,7 +2,7 @@
 published: true
 cover: post-images/how-to-learn-javascript-2021.jpg
 date: 2021-09-02T17:57:59.579Z
-title: "HoneyPot Cult Article: How to Learn JavaScript 2021"
+title: "Honeypot Cult Article: How to Learn JavaScript 2021"
 canonical_url: https://cult.honeypot.io/reads/how-to-learn-javascript-2021/
 category: Tech
 tags:
