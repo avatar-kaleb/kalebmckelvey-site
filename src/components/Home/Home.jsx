@@ -59,7 +59,7 @@ const Home = ({ postEdges }) => {
           <h3>Welcome to the Site!</h3>
           <section id='typed-strings'>
             <p className='md-body-2'>
-              Hi there - I&apos;m Kaleb, a Software Engineer at Disney striving to make my dreams
+              Hi there - I&apos;m Kaleb, a Software Engineer at Netflix striving to make my dreams
               into reality!
             </p>
           </section>
