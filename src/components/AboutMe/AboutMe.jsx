@@ -41,8 +41,9 @@ const AboutMe = () => (
         </p>
         <p>
           In the past, my focus was on increasing productivity in GE Healthcare manufacturing shops,
-          and helping financial planners deliver financial plans to achieve their dreams. Today, I
-          help bring the magic to the world as a Software Engineer at Disney working on Disney+!
+          and helping financial planners deliver financial plans to achieve their dreams. From there, I
+          helped bring the magic to the world as a Software Engineer at Disney working on Disney+ and Star+!
+          Today, I work at Netflix on the Growth Engineer team - helping people subscribe as we bring joy to the world!
         </p>
         <p>
           In addition to solving business problems, I continuously explore new technologies and
