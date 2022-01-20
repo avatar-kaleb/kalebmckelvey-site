@@ -1,10 +1,9 @@
 ---
 published: true
 cover: /post-images/now-tell-me-why-you-dont-sell-cocaine-cover.jpeg
-date: '2017-12-03'
-title: >-
-  Now Tell Me Why You Didn't Sell Crack Cocaine. Why is Exposure to College so
-  Important to our Youth??
+date: 2017-12-03
+title: Now Tell Me Why You Didn't Sell Crack Cocaine. Why is Exposure to College
+  so Important to our Youth??
 category: Journey to Achieve
 tags:
   - journey to achieve
@@ -31,9 +30,7 @@ I'd lean towards saying yes to that, only with the condition that they are using
 
 **First**, check out the video which stemmed the conversation in the podcast that follows:
 
-**Second,** check out the example from the podcast. Unfortunately, I can't get it to show time, but here is where the story starts when he asked: "Why don't you sell cocaine?" ["Nothing Funny" Podcast](https://etinspires.com/blog/Ep-13-Nothing-Funny-Decoded/42171) Image below shows the starting point as best I can.
-
-![Podcast player image to show the starting place](/post-images/et-cocaine-podcast-start-place.png)
+**Second,** check out the example from the podcast. Unfortunately, I can't get it to show time, but here is where the story starts when he asked: "Why don't you sell cocaine?" ["Nothing Funny" Podcast](https://podcasts.apple.com/us/podcast/nothing-funny-decoded/id844102142?i=1000365024159) which starts at 19:00 minute.
 
 You can stop listening after the story about the environment these kids grow up in.
 
@@ -67,8 +64,10 @@ The 3-point combo above represents to me what the clip boils down to. The childr
 The podcast talks about the children knowing the difference between right and wrong. Without going into the philosophical debate, let me explain two extreme sides of morals.
 
 * Moral Relativism
+
   * Morals are relative to your culture and your environment, in other words, there are no worldly right or wrong principles, but only those local to those cultures.
 * Moral Absolutism
+
   * Morals definitively are right or wrong. For example, stealing, no matter the circumstance is wrong.
 
 In summary, the children may not be taught right or wrong, because as CJ stated - they aren't in the environment to teach them differently than they grew up in. _These two clips never fail to give me goosebumps. _The next time you go to say "They did the crime, they deserve the time." Ask yourself, is it that simple? The podcast gives me a reusable example that helps to put into perspective the mindset behind the crimes. There are children in the US who think their future is only jail or death. Did you hear it on the podcast?? THEY AREN'T SCARED. THE FEAR TACTIC DOESN'T WORK. I'm challenging you now - keep the perspective in mind from the podcast and be open-minded as you look to inspire and grow the future of our nation. How can they get this exposure if we never volunteer to give them any?
@@ -98,9 +97,10 @@ One of the world's richest who tackles its biggest problems with his money - [ch
 My action calls for you based on the video and podcast:
 
 1. **Give back and expose** the youths to new opportunities. For me, I will be back into the BDPA weekend volunteering schedule as we teach students to make websites. They will use this knowledge to compete for a scholarship!!
+
    * I'll be helping a senior at Strasburg High School pay for college. Look for the new [scholarship](https://kalebmckelvey.xyz/journey-to-achieve/scholarship/) information soon!!
    * I don't necessarily mean that college is the right answer for each person, but exposing them to a different outlook compared to a life of possible criminal activity
-2. **Educate perspective **on this post or the video/podcast!
-3. **Stop and think **the next time you see someone make a mistake - discover why
+2. **Educate perspective** on this post or the video/podcast!
+3. **Stop and think** the next time you see someone make a mistake - discover why
 
 Let me know what you think and how we could help tackle the challenge together!!
