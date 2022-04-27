@@ -7,7 +7,6 @@ canonical_url: https://blog.logrocket.com/investigating-javascript-pipe-operator
 category: Tech
 tags:
   - javascript
-  - proposal
   - pipe operator
   - writing portfolio
 ---
