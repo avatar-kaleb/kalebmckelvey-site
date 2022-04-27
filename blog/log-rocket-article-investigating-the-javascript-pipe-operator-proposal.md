@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/pipe-proposal.jpg
+cover: /post-images/pipe-proposal.jpg
 date: 2022-04-27T00:47:01.386Z
 title: "Log Rocket Article: Investigating the JavaScript pipe operator proposal"
 canonical_url: https://blog.logrocket.com/investigating-javascript-pipe-operator-proposal/

@@ -1,6 +1,6 @@
 ---
 published: true
-cover: post-images/anyone-can-be-a-software-engineer.jpg
+cover: /post-images/anyone-can-be-a-software-engineer.jpg
 date: 2021-08-08T17:40:23.979Z
 title: "Honeypot Cult Article: Anyone Can be a Software Engineer"
 canonical_url: https://cult.honeypot.io/reads/anyone-can-be-a-software-engineer/
