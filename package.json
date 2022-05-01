@@ -45,7 +45,7 @@
     "logrocket-react": "~3.0.0",
     "lunr": "^2.3.9",
     "marked": "~1.2.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "netlify-cms": "~2.10.61",
     "node-sass": "~4.14.1",
     "prismjs": "~1.21.0",
