@@ -123,7 +123,8 @@ const AboutMe = () => (
           initiatives, improved our code base with every new feature, and helped architect designs
           to meet requirements from our Product Owners.
           <br />
-          <br />I look forward to continuing using this experience in my new role!
+          <br />
+          I look forward to continuing using this experience in my new role!
         </p>
         <br />
         <DataTable plain>
@@ -203,7 +204,8 @@ const AboutMe = () => (
           I&apos;m Kaleb McKelvey, a small town raised young professional, who focuses on exhibiting
           high character combined with strong ambition to continously grow a little bit each day.
           <br />
-          <br />I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to
+          <br />
+          I began my career working as a Jr AX Dynamics developer at Shentel, transitioned to
           a leadership program at GE Healthcare which led to becoming a Staff Software Engineer;
           since then, I made the move to a new industry and city - New York - to close the distance
           with my girlfriend and take on a new role!
@@ -261,8 +263,10 @@ const AboutMe = () => (
         <p>
           An amazing opportunity came up while working at NM - joining Disney to work on Disney+
           right after their launch in 2019. I decided to take the new role and have baby yoda as my
-          new teammate! I'm excited to see where this new adventure takes me as I help bring the
-          magic to the world!
+          new teammate!
+        </p>
+        <p>
+          After 2 years, I took on a new role at Netflix on the acqusition UI team. It's a new opportunity to work on external facing features and TVUI. I'm learning and growing every single day!
         </p>
         <h3>Concluding Thoughts</h3>
         <p>
