@@ -488,9 +488,9 @@ export default [
     categories: [Categories.HistoricSite],
     description: `See the wonderful views of Manhatten from the Empire State Building's observatories!`,
     expectedRating: Ratings.Four,
-    featuredImageUrl: 'accTournament2022.jpg',
-    id: 'accTournament2022',
-    location: Locations.Brooklyn,
+    featuredImageUrl: 'empireStateProposal.jpg',
+    id: 'empireStateProposal',
+    location: Locations.Manhattan,
     tags: [],
     realRating: Ratings.Five,
     season: Seasons.Any,
@@ -857,7 +857,7 @@ export default [
   
   {
     blogPostLink: '',
-    costLevel: CostLevels.One,
+    costLevel: CostLevels.Two,
     categories: [Categories.Outdoors],
     description: `Old trains, old signs, buses, pictures, and more!!!`,
     expectedRating: Ratings.Four,
