@@ -1,7 +1,7 @@
 ---
 published: true
 cover: post-images/developer-resume.jpg
-date: 2023-03-15T11:48:52.943Z
+date: 2023-03-01T13:00:00.000Z
 title: How to Write a CV and Interview if You Don't Fully Qualify For The Job
 canonical_url: https://www.wearedevelopers.com/magazine/how-to-write-cv-and-interview-for-developer-job
 category: Tech
